@@ -1,0 +1,110 @@
+{
+  "id": "yd96",
+  "category": "backpack",
+  "name": {
+    "type": "translation",
+    "key": "item.clan.ffa_camp.name",
+    "args": {},
+    "lines": {
+      "ru": "Мобильный лагерь",
+      "en": "Mobile Camp"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.backpack",
+            "args": {},
+            "lines": {
+              "ru": "Рюкзаки",
+              "en": "Backpacks"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 25.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.backpack.class.heavy",
+        "args": {},
+        "lines": {
+          "ru": "Тяжелый рюкзак",
+          "en": "Heavy Backpack"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.clan.ffa_camp.description",
+        "args": {},
+        "lines": {
+          "ru": "При размещении на локации турнира позволяет возрождаться в лагере.",
+          "en": "When placed in a tournament location, lets you respawn in the camp."
+        }
+      }
+    }
+  ]
+}

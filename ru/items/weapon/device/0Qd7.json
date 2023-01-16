@@ -1,0 +1,182 @@
+{
+  "id": "0Qd7",
+  "category": "weapon/device",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.cn2u.name",
+    "args": {},
+    "lines": {
+      "ru": "СН-2у «Ножка»",
+      "en": "SN-2u Leglet"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.device",
+            "args": {},
+            "lines": {
+              "ru": "Устройства",
+              "en": "Devices"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 3.2
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.gauge_meter_stat.metal_detector.info.charge",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.gauge_meter_stat.metal_detector.info.passive_scan_radius",
+            "args": {},
+            "lines": {
+              "ru": "Пассивная дальность",
+              "en": "Passive range"
+            }
+          },
+          "value": 60.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.gauge_meter_stat.metal_detector.info.active_scan_radius",
+            "args": {},
+            "lines": {
+              "ru": "Активная дальность",
+              "en": "Active range"
+            }
+          },
+          "value": 20.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.gauge_meter_stat.metal_detector.info.active_scan_angle",
+            "args": {},
+            "lines": {
+              "ru": "Угол сканирования",
+              "en": "Scanning angle"
+            }
+          },
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.cn2u.description",
+        "args": {},
+        "lines": {
+          "ru": "Обладает меньшим по сравнению со стандартной моделью потреблением заряда при активном сканировании, но дистанция сканирования также уменьшена.",
+          "en": "Lesser charge usage during active scanning compared to the standard model, but the scanning distance is also decreased."
+        }
+      }
+    }
+  ]
+}

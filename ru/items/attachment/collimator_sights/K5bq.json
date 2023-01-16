@@ -1,0 +1,1174 @@
+{
+  "id": "K5bq",
+  "category": "attachment/collimator_sights",
+  "name": {
+    "type": "translation",
+    "key": "item.att.sight_rmr.name",
+    "args": {},
+    "lines": {
+      "ru": "Прицел коллиматорный Trijicon",
+      "en": "Trijicon Collimator Sight"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.collimator_sights",
+            "args": {},
+            "lines": {
+              "ru": "Прицелы",
+              "en": "Sights"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.067
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.sight.info.zoom",
+            "args": {},
+            "lines": {
+              "ru": "Увеличение",
+              "en": "Magnification"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "x1.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.sight_rmr.description",
+        "args": {},
+        "lines": {
+          "ru": "Модель: RMR@Метка - треугольник, зелёный",
+          "en": "Model: RMR@Reticle: triangle, green"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.l85.name",
+            "args": {},
+            "lines": {
+              "ru": "L85A1",
+              "en": "L85A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1",
+              "en": "M4A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.p90.name",
+            "args": {},
+            "lines": {
+              "ru": "FN P90",
+              "en": "FN P90"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sig.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG SG 550",
+              "en": "SIG SG 550"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pp2000.name",
+            "args": {},
+            "lines": {
+              "ru": "ПП-2000",
+              "en": "SMG-2000"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a3.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A3",
+              "en": "M16A3"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4_lb.name",
+            "args": {},
+            "lines": {
+              "ru": "M4 LB",
+              "en": "M4 LB"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.alk22.name",
+            "args": {},
+            "lines": {
+              "ru": "АЛК-22 «Стрекоза»",
+              "en": "ALK-22 Dragonfly"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.g36c.name",
+            "args": {},
+            "lines": {
+              "ru": "HK G36C",
+              "en": "HK G36C"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.kriss.name",
+            "args": {},
+            "lines": {
+              "ru": "TDI KRISS Vector",
+              "en": "TDI KRISS Vector"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.a545.name",
+            "args": {},
+            "lines": {
+              "ru": "А-545",
+              "en": "A-545"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.g3a1.name",
+            "args": {},
+            "lines": {
+              "ru": "HK G3A1",
+              "en": "HK G3A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.f2000.name",
+            "args": {},
+            "lines": {
+              "ru": "FN F2000 Tactical",
+              "en": "FN F2000 Tactical"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ash12.name",
+            "args": {},
+            "lines": {
+              "ru": "АШ-12",
+              "en": "ASh-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.f2000-1.name",
+            "args": {},
+            "lines": {
+              "ru": "FN F2000",
+              "en": "FN F2000"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ump.name",
+            "args": {},
+            "lines": {
+              "ru": "HK UMP9",
+              "en": "HK UMP9"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.lr300.name",
+            "args": {},
+            "lines": {
+              "ru": "LR-300",
+              "en": "LR-300"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarl.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-L",
+              "en": "FN SCAR-L"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.storm.name",
+            "args": {},
+            "lines": {
+              "ru": "ОЦ-14М «Шторм»",
+              "en": "OTs-14M Shtorm"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sv98.name",
+            "args": {},
+            "lines": {
+              "ru": "СВ-98",
+              "en": "SV-98"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m249.name",
+            "args": {},
+            "lines": {
+              "ru": "M249 SAW",
+              "en": "M249 SAW"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk416.name",
+            "args": {},
+            "lines": {
+              "ru": "HK416",
+              "en": "HK416"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rpk16.name",
+            "args": {},
+            "lines": {
+              "ru": "РПК-16",
+              "en": "RPK-16"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.tkb.name",
+            "args": {},
+            "lines": {
+              "ru": "ТКБ-0146М",
+              "en": "TKB-0146M"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aug2.name",
+            "args": {},
+            "lines": {
+              "ru": "Steyr AUG A2",
+              "en": "Steyr AUG A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aug3.name",
+            "args": {},
+            "lines": {
+              "ru": "Steyr AUG A3",
+              "en": "Steyr AUG A3"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak12.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-12",
+              "en": "AK-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sigsniper.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG SG 550 Sniper",
+              "en": "SIG SG 550 Sniper"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.fal.name",
+            "args": {},
+            "lines": {
+              "ru": "FN FAL",
+              "en": "FN FAL"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarh.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-H",
+              "en": "FN SCAR-H"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.gauss.name",
+            "args": {},
+            "lines": {
+              "ru": "Гаусс-пушка",
+              "en": "Gauss Rifle"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarssr.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR SSR",
+              "en": "FN SCAR SSR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.famas.name",
+            "args": {},
+            "lines": {
+              "ru": "FAMAS G2",
+              "en": "FAMAS G2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mcmillan.name",
+            "args": {},
+            "lines": {
+              "ru": "McMillan CS5",
+              "en": "McMillan CS5"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.six12.name",
+            "args": {},
+            "lines": {
+              "ru": "Crye Precision SIX12",
+              "en": "Crye Precision SIX12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.psg.name",
+            "args": {},
+            "lines": {
+              "ru": "HK PSG1",
+              "en": "HK PSG1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.xm8s.name",
+            "args": {},
+            "lines": {
+              "ru": "HK XM8S",
+              "en": "HK XM8S"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk417.name",
+            "args": {},
+            "lines": {
+              "ru": "HK417",
+              "en": "HK417"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.dsa58.name",
+            "args": {},
+            "lines": {
+              "ru": "DSA-58",
+              "en": "DSA-58"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak308.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-308",
+              "en": "AK-308"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.x95.name",
+            "args": {},
+            "lines": {
+              "ru": "IWI Tavor X95",
+              "en": "IWI Tavor X95"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.triple.name",
+            "args": {},
+            "lines": {
+              "ru": "Chiappa Triple Crown",
+              "en": "Chiappa Triple Crown"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.protecta.name",
+            "args": {},
+            "lines": {
+              "ru": "Protecta",
+              "en": "Protecta"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.l86.name",
+            "args": {},
+            "lines": {
+              "ru": "L86A1",
+              "en": "L86A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aks74_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Рапира»",
+              "en": "Rapier"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.oreh.name",
+            "args": {},
+            "lines": {
+              "ru": "ПП «Орех»",
+              "en": "SMG Nut"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.deagle.name",
+            "args": {},
+            "lines": {
+              "ru": "Desert Eagle Mark XIX",
+              "en": "Desert Eagle Mark XIX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rsh12.name",
+            "args": {},
+            "lines": {
+              "ru": "РШ-12",
+              "en": "RSh-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.winchester.name",
+            "args": {},
+            "lines": {
+              "ru": "Winchester M70",
+              "en": "Winchester M70"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scout.name",
+            "args": {},
+            "lines": {
+              "ru": "Steyr Scout",
+              "en": "Steyr Scout"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m40.name",
+            "args": {},
+            "lines": {
+              "ru": "M40A5",
+              "en": "M40A5"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.alpine.name",
+            "args": {},
+            "lines": {
+              "ru": "Alpine TPG-1",
+              "en": "Alpine TPG-1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.fg42.name",
+            "args": {},
+            "lines": {
+              "ru": "FG-42 «Хлыст»",
+              "en": "FG-42 Whip"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.wa2000.name",
+            "args": {},
+            "lines": {
+              "ru": "WA2000",
+              "en": "WA2000"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.l96.name",
+            "args": {},
+            "lines": {
+              "ru": "L96A1",
+              "en": "L96A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mc558.name",
+            "args": {},
+            "lines": {
+              "ru": "МЦ-558",
+              "en": "MTs-558"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.otl.name",
+            "args": {},
+            "lines": {
+              "ru": "ОТЛ-03 «Карбач»",
+              "en": "Karbach OTL-03"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_l85.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевьё RIS L85",
+              "en": "RIS L85 Handguard"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_m4ris.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье RIS M4A1",
+              "en": "RIS M4A1 Handguard"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_m16ris.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье RIS M16",
+              "en": "RIS M16 Handguard"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_falris.name",
+            "args": {},
+            "lines": {
+              "ru": "Fal Quad Rail",
+              "en": "Fal Quad Rail"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_sigris4.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG SG 550 Handguard 4x NAR",
+              "en": "SIG SG 550 Handguard 4x NAR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_lr300ris.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье RIS LR-300",
+              "en": "Handguard RIS LR-300"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_b11.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевьё Б-11 с верхней планкой",
+              "en": "B-11 Handguard with Upper Rail"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_caars.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье CAA RS-21",
+              "en": "CAA RS-21 Handguard"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_b10b33.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье Б-10М и крышка ствольной коробки Б-33",
+              "en": "B-10M Handguard and B-33 Receiver Cover"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_pkp.name",
+            "args": {},
+            "lines": {
+              "ru": "Крышка ствольной коробки ПКП с планкой Пикатинни",
+              "en": "PKP Receiver Cover with Picatinny Rail"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_skstop.name",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая накладка СКС",
+              "en": "SKS Tactical Grip"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_rpd.name",
+            "args": {},
+            "lines": {
+              "ru": "Тактическое цевьё РПД",
+              "en": "RPD Tactical Handguard"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_groza.name",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая накладка ОЦ-14",
+              "en": "OTs-14 Tactical Grip"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_val.name",
+            "args": {},
+            "lines": {
+              "ru": "Крышка ствольной коробки ВАЛ/ВСС",
+              "en": "Val/VSS Receiver Cover"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_bm.name",
+            "args": {},
+            "lines": {
+              "ru": "Надствольное крепление БМ",
+              "en": "BM Barrel Mount"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_kedrris.name",
+            "args": {},
+            "lines": {
+              "ru": "Планка RIS на ПП-91 «Кедр»",
+              "en": "RIS Rail for SMG-91 KEDR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.barrel_longdeagle.name",
+            "args": {},
+            "lines": {
+              "ru": "Удлиненный ствол D-Eagle",
+              "en": "D-Eagle Barrel Extension"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_m1ris1.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье M1A с планкой Пикатинни",
+              "en": "M1A with Picatinny Rail Handguard"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_mp5ris.name",
+            "args": {},
+            "lines": {
+              "ru": "Кронштейн-планка RIS",
+              "en": "RIS Bracket-Rail"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_tozris.name",
+            "args": {},
+            "lines": {
+              "ru": "Планка с базой Пикатинни",
+              "en": "Picatinny Rail and Base"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_lastris.name",
+            "args": {},
+            "lines": {
+              "ru": "Боковой кронштейн с планкой Пикатинни",
+              "en": "Side Bracket with Picatinny Rail"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_xm8ris.name",
+            "args": {},
+            "lines": {
+              "ru": "Планка RIS XM8",
+              "en": "RIS XM8 Rail"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_shotgunris.name",
+            "args": {},
+            "lines": {
+              "ru": "Направляющая RIS для дробовиков",
+              "en": "Guiding RIS for Shotgun"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_mosinris.name",
+            "args": {},
+            "lines": {
+              "ru": "Кронштейн Кочетова «Патриот» с планкой Пикатинни",
+              "en": "Kochetov Mount for Patriot with Picatinny Rail"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_dpris.name",
+            "args": {},
+            "lines": {
+              "ru": "Адаптивная планка RIS для ДП",
+              "en": "Adaptive RIS Rail for DP"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_m16ris.name",
+            "args": {},
+            "lines": {
+              "ru": "Крепление прицела для M16A2",
+              "en": "Sight Mount for M16A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_riselevator.name",
+            "args": {},
+            "lines": {
+              "ru": "Повышающая RIS-планка",
+              "en": "Increasing RIS-Rail"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_svt.name",
+            "args": {},
+            "lines": {
+              "ru": "Планка Пикатинни для СВТ",
+              "en": "Picatinny Rail for SVT"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
