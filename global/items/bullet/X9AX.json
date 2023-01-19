@@ -1,0 +1,151 @@
+{
+  "id": "X9AX",
+  "category": "bullet",
+  "name": {
+    "type": "translation",
+    "key": "item.amm.762snp.name",
+    "args": {},
+    "lines": {
+      "ru": "Патрон 7.62 мм снайперский",
+      "en": "7.62 mm Sniper Ammo"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.bullet",
+            "args": {},
+            "lines": {
+              "ru": "Патроны",
+              "en": "Ammo"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.022
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.bullet_type.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойный патрон",
+              "en": "Armor-piercing ammo"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.high_penetration",
+            "args": {},
+            "lines": {
+              "ru": "Высокая пробиваемость",
+              "en": "High penetration"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойность",
+              "en": "Armor-penetration"
+            }
+          },
+          "value": 27.5
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding"
+            }
+          },
+          "value": 5.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power"
+            }
+          },
+          "value": 25.0
+        }
+      ]
+    }
+  ]
+}

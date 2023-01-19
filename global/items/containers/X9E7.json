@@ -1,0 +1,142 @@
+{
+  "id": "X9E7",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.trizip.name",
+    "args": {},
+    "lines": {
+      "ru": "Штурмовой рюкзак Tri-Zip",
+      "en": "Tri-Zip Assault Backpack"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Рюкзаки и Контейнеры",
+              "en": "Backpacks and Containers"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.backpack.class.medium",
+        "args": {},
+        "lines": {
+          "ru": "Обычный рюкзак",
+          "en": "Common Backpack"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "value": 30.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
+            }
+          },
+          "value": 40.0
+        }
+      ]
+    }
+  ]
+}

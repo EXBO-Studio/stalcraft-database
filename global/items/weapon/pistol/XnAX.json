@@ -1,0 +1,366 @@
+{
+  "id": "XnAX",
+  "category": "weapon/pistol",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn.oc33.name",
+    "args": {},
+    "lines": {
+      "ru": "ОЦ-33 «Пернач»",
+      "en": "OTs-33 Pernach"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.pistol",
+            "args": {},
+            "lines": {
+              "ru": "Пистолеты",
+              "en": "Pistols"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 1.1500001
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.stat_name.damage_type.direct",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage"
+            }
+          },
+          "value": 45.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Объем магазина",
+              "en": "Clip capacity"
+            }
+          },
+          "value": 18.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.distance",
+            "args": {},
+            "lines": {
+              "ru": "Максимальная дистанция",
+              "en": "Maximum distance"
+            }
+          },
+          "value": 55.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.rate_of_fire",
+            "args": {},
+            "lines": {
+              "ru": "Скорострельность",
+              "en": "Rate of fire"
+            }
+          },
+          "value": 800.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload"
+            }
+          },
+          "value": 2.4
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.tactical_reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical reload"
+            }
+          },
+          "value": 2.1
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread"
+            }
+          },
+          "value": 0.965
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread"
+            }
+          },
+          "value": 3.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Вертикальная отдача",
+              "en": "Vertical recoil"
+            }
+          },
+          "value": 0.4
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Горизонтальная отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": 0.25
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Доставание",
+              "en": "Draw time"
+            }
+          },
+          "value": 0.65
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.aim_switch",
+            "args": {},
+            "lines": {
+              "ru": "Прицеливание",
+              "en": "Aiming time"
+            }
+          },
+          "value": 0.3
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "stalker.tooltip.artefact.info.additional_stats",
+        "args": {},
+        "lines": {
+          "ru": "Дополнительные характеристики",
+          "en": "Additional properties"
+        }
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.damage_modifiers",
+        "args": {},
+        "lines": {
+          "ru": "Множитель урона",
+          "en": "Damage modifier"
+        }
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.feature",
+        "args": {},
+        "lines": {
+          "ru": "Особенности",
+          "en": "Features"
+        }
+      },
+      "elements": []
+    },
+    {
+      "type": "damage",
+      "startDamage": 45.0,
+      "damageDecreaseStart": 12.0,
+      "endDamage": 16.0,
+      "damageDecreaseEnd": 30.0,
+      "maxDistance": 55.0
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.oc33.description",
+        "args": {},
+        "lines": {
+          "ru": "Российский автоматический пистолет, разработанный в середине 1990-х годов коллективом конструкторов ЦКИБ СОО под руководством И. Я. Стечкина для замены пистолета АПС.",
+          "en": "A Russian automatic pistol developed in the mid-1990s by a team of designers from the Central Design and Research Bureau of Sporting and Hunting Arms under the leadership of I. Ya. Stechkin to replace the Stechkin Automatic Pistol."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "y805",
+  "category": "armor/device",
+  "name": {
+    "type": "translation",
+    "key": "item.25501.name",
+    "args": {},
+    "lines": {
+      "ru": "Прибор ночного видения",
+      "en": "Night-Vision Goggles"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.device",
+            "args": {},
+            "lines": {
+              "ru": "Устройства",
+              "en": "Devices"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    }
+  ]
+}

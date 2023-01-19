@@ -1,0 +1,219 @@
+{
+  "id": "zg6l",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.kzs3.name",
+    "args": {},
+    "lines": {
+      "ru": "«КЗС-3»",
+      "en": "KZS-3"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Рюкзаки и Контейнеры",
+              "en": "Backpacks and Containers"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 5.25
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.bulky",
+        "args": {},
+        "lines": {
+          "ru": "Громоздкий контейнер",
+          "en": "Bulky Container"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection"
+            }
+          },
+          "value": 75.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness"
+            }
+          },
+          "value": 90.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity"
+            }
+          },
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
+            }
+          },
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.kzs3.description",
+        "args": {},
+        "lines": {
+          "ru": "Набор из трёх контейнеров «КЗС-1». Позволяет переносить три артефакта и, очевидно, обладает хорошими экранирующими свойствами.",
+          "en": "A set of three KZS-1 containers. Lets you carry three artifacts and, obviously, has good shielding capabilities."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "EY7z",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.hive.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Улей»",
+      "en": "Hive Container"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Рюкзаки и Контейнеры",
+              "en": "Backpacks and Containers"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 8.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.standard",
+        "args": {},
+        "lines": {
+          "ru": "Стандартный контейнер",
+          "en": "Standard Container"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection"
+            }
+          },
+          "value": 80.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness"
+            }
+          },
+          "value": 80.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity"
+            }
+          },
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
+            }
+          },
+          "value": -1.5
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.hive.description",
+        "args": {},
+        "lines": {
+          "ru": "Хоть «Берлога» и был гораздо компактнее связки «КЗС», он все еще оставался достаточно громоздким. Учёными был проведен ряд работ по улучшению популярных контейнеров. Так получился «Улей» - компактный, вместительный, надежный, но достаточно дорогой.",
+          "en": "While the Bear’s Den was much more compact than the KZS bundle, it was still fairly cumbersome. Scientists conducted a series of projects to improve popular containers. This led to the Hive, a compact, spacious, reliable, but fairly expensive option."
+        }
+      }
+    }
+  ]
+}

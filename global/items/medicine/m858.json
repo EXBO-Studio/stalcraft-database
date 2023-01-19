@@ -1,0 +1,164 @@
+{
+  "id": "m858",
+  "category": "medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.morphin.name",
+    "args": {},
+    "lines": {
+      "ru": "Морфин",
+      "en": "Morphine"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.05
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.short_time_medicine",
+            "args": {},
+            "lines": {
+              "ru": "Кратковременное усиление",
+              "en": "Short-Term Boost"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration"
+            }
+          },
+          "value": 90.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison"
+            }
+          },
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality"
+            }
+          },
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.morphin.description",
+        "args": {},
+        "lines": {
+          "ru": "Лекарственное средство синтетического происхождения, предназначенное для снятия болевых ощущений. Из побочных эффектов - сонливость и ухудшения внимания. Частое использование может вызвать зависимость.",
+          "en": "A medicinal substance of synthetic origin intended to relieve pain. Side effects include drowsiness and difficulty paying attention. Frequent use can lead to addiction."
+        }
+      }
+    }
+  ]
+}

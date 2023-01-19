@@ -1,0 +1,218 @@
+{
+  "id": "gKz3",
+  "category": "artefact/electrophysical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.puzir_oskolok.name",
+    "args": {},
+    "lines": {
+      "ru": "Осколок",
+      "en": "Shard"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.electrophysical",
+            "args": {},
+            "lines": {
+              "ru": "Электрофизические",
+              "en": "Electrophysical"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.2
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality"
+            }
+          },
+          "min": 2.0,
+          "max": 5.0
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness"
+            }
+          },
+          "min": 5.0,
+          "max": 15.0
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection"
+            }
+          },
+          "min": 3.0,
+          "max": 8.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.puzir_oskolok.description",
+        "args": {},
+        "lines": {
+          "ru": "Артефакт похож на осколок какого-то дешевого кристалла, но пусть вас не вводит в заблуждение его дешевый вид. Данный артефакт повышает живучесть владельца, позволяя пережить практически смертельные ранения. Тем не менее, артефакт состоит из токсичных веществ и может быть опасен без должной защиты.",
+          "en": "An artifact that resembles a shard of cheap crystal. Don’t let its appearance deceive you, though—this artifact increases the owner’s vitality, allowing them to survive nearly fatal wounds. However, the artifact is made of toxic substances and could be dangerous without the necessary protection."
+        }
+      }
+    }
+  ]
+}

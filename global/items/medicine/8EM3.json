@@ -1,0 +1,164 @@
+{
+  "id": "8EM3",
+  "category": "medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.vodka.name",
+    "args": {},
+    "lines": {
+      "ru": "Водка",
+      "en": "Vodka"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.low_antirad",
+            "args": {},
+            "lines": {
+              "ru": "Слабый вывод радиации",
+              "en": "Weak Radiation Cleansing"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration"
+            }
+          },
+          "value": 600.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison"
+            }
+          },
+          "value": 25.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation"
+            }
+          },
+          "value": -1.5
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.vodka.description",
+        "args": {},
+        "lines": {
+          "ru": "Согревает и медленно выводит радиацию из организма, но имеет побочные эффекты.",
+          "en": "Warms and slowly removes radiation from the body, but has side effects."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "Lm3Z",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.m84qd.name",
+    "args": {},
+    "lines": {
+      "ru": "M84 QD",
+      "en": "M84 QD"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.grenade",
+            "args": {},
+            "lines": {
+              "ru": "Гранаты",
+              "en": "Grenades"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.24
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.explosion_size",
+            "args": {},
+            "lines": {
+              "ru": "Радиус действия",
+              "en": "Range"
+            }
+          },
+          "value": 12.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.flash_time",
+            "args": {},
+            "lines": {
+              "ru": "Макс. длительность ослепления",
+              "en": "Max. blindness duration"
+            }
+          },
+          "value": 5.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.lifetime",
+            "args": {},
+            "lines": {
+              "ru": "Время до срабатывания",
+              "en": "Time until activation"
+            }
+          },
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.m84qd.description",
+        "args": {},
+        "lines": {
+          "ru": "Американская светошумовая граната быстрой детонации",
+          "en": "An American flashbang grenade with a short detonation time."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "id": "aV7x",
+  "category": "weapon/sniper_rifle",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn.winchester.name",
+    "args": {},
+    "lines": {
+      "ru": "Winchester M70",
+      "en": "Winchester M70"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.sniper_rifle",
+            "args": {},
+            "lines": {
+              "ru": "Снайперские винтовки",
+              "en": "Sniper Rifles"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 3.63
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.762mm",
+            "args": {},
+            "lines": {
+              "ru": "7.62",
+              "en": "7.62"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.stat_name.damage_type.direct",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage"
+            }
+          },
+          "value": 86.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Объем магазина",
+              "en": "Clip capacity"
+            }
+          },
+          "value": 5.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.distance",
+            "args": {},
+            "lines": {
+              "ru": "Максимальная дистанция",
+              "en": "Maximum distance"
+            }
+          },
+          "value": 180.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.rate_of_fire",
+            "args": {},
+            "lines": {
+              "ru": "Скорострельность",
+              "en": "Rate of fire"
+            }
+          },
+          "value": 35.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload"
+            }
+          },
+          "value": 4.5
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread"
+            }
+          },
+          "value": 0.075
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread"
+            }
+          },
+          "value": 5.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Вертикальная отдача",
+              "en": "Vertical recoil"
+            }
+          },
+          "value": 2.3
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Горизонтальная отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": 0.6
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Доставание",
+              "en": "Draw time"
+            }
+          },
+          "value": 1.25
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.aim_switch",
+            "args": {},
+            "lines": {
+              "ru": "Прицеливание",
+              "en": "Aiming time"
+            }
+          },
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "stalker.tooltip.artefact.info.additional_stats",
+        "args": {},
+        "lines": {
+          "ru": "Дополнительные характеристики",
+          "en": "Additional properties"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойность",
+              "en": "Armor-penetration"
+            }
+          },
+          "value": 5.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding"
+            }
+          },
+          "value": 95.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power"
+            }
+          },
+          "value": 140.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.damage_modifiers",
+        "args": {},
+        "lines": {
+          "ru": "Множитель урона",
+          "en": "Damage modifier"
+        }
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.head_damage_modifier",
+            "args": {
+              "modifier": "2.0"
+            },
+            "lines": {
+              "ru": "Урон в голову: х2",
+              "en": "Headshot damage: x2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.feature",
+        "args": {},
+        "lines": {
+          "ru": "Особенности",
+          "en": "Features"
+        }
+      },
+      "elements": []
+    },
+    {
+      "type": "damage",
+      "startDamage": 86.0,
+      "damageDecreaseStart": 32.0,
+      "endDamage": 86.0,
+      "damageDecreaseEnd": 115.0,
+      "maxDistance": 180.0
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.winchester.description",
+        "args": {},
+        "lines": {
+          "ru": "Американская винтовка с продольно-скользящим затвором, представленная в 1936 году. Высокая эффективность вкупе с низкой ценой сделали её популярной среди многих стрелков, благодаря чему она получила широкое распростронение во всём мире. Планка, добавленная мастером, пусть и выглядит не очень эстетично, но не мешается на прицельной линии, позволяя пользоваться открытым прицелом.",
+          "en": "An American rifle with a longitudinally sliding bolt introduced in 1936. Its impressive effectiveness along with its low cost made it popular among many gunmen, and, as a result, it became widely distributed all over the world. The rail, which was added by a repairman, doesn’t look particularly aesthetic, but doesn’t interfere with the aiming line either, allowing it to be aimed with open sights."
+        }
+      }
+    }
+  ]
+}

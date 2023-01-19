@@ -1,0 +1,91 @@
+{
+  "id": "l6or",
+  "category": "armor/device",
+  "name": {
+    "type": "translation",
+    "key": "item.device.nvd2.name",
+    "args": {},
+    "lines": {
+      "ru": "ПНВ 2-го поколения",
+      "en": "2nd Generation NVG"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.device",
+            "args": {},
+            "lines": {
+              "ru": "Устройства",
+              "en": "Devices"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    }
+  ]
+}

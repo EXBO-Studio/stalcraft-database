@@ -1,0 +1,232 @@
+{
+  "id": "31kB",
+  "category": "artefact/gravity",
+  "name": {
+    "type": "translation",
+    "key": "item.art.karousel_prujina.name",
+    "args": {},
+    "lines": {
+      "ru": "Пружина",
+      "en": "Spring"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.gravity",
+            "args": {},
+            "lines": {
+              "ru": "Гравитационные",
+              "en": "Gravitational"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.3
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "min": -15.0,
+          "max": -5.0
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Melee protection"
+            }
+          },
+          "min": 10.0,
+          "max": 20.0
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation"
+            }
+          },
+          "min": 3.0,
+          "max": 5.0
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to melee"
+            }
+          },
+          "min": 1.0,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.karousel_prujina.description",
+        "args": {},
+        "lines": {
+          "ru": "Газ, вырабатываемый артефактом, не только делает ткани владельца грубее, но и стимулирует системы организма при повреждениях, однако под его воздействием любые движения требуют больше усилий. Некоторые считают, что артефакт является «Пустышкой», которая попала в карусель и после определенного времени потеряла весь свой электрический заряд.",
+          "en": "The gas produced by the artifact both makes the owner’s tissues coarser and stimulates their organ systems after injury. However, when under the effects of the artifact, movement requires more effort. Some believe that the artifact is a Shell that fell into a Vortex and eventually lost all its electric charge."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "id": "AVk2",
+  "category": "armor/discoverer",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.klepto.name",
+    "args": {},
+    "lines": {
+      "ru": "Костюм «Клептоман»",
+      "en": "Kleptomaniac Suit"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.discoverer",
+            "args": {},
+            "lines": {
+              "ru": "Исследовательские",
+              "en": "Explorer"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 4.3
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
+            }
+          },
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance"
+            }
+          },
+          "value": 56.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Melee protection"
+            }
+          },
+          "value": 60.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection"
+            }
+          },
+          "value": 86.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity"
+            }
+          },
+          "value": 40.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Resistance to fire"
+            }
+          },
+          "value": 40.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Resistance to chemicals"
+            }
+          },
+          "value": 40.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection"
+            }
+          },
+          "value": 105.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection"
+            }
+          },
+          "value": 60.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection Protection"
+            }
+          },
+          "value": 140.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          },
+          "value": 60.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding protection"
+            }
+          },
+          "value": 38.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_backpacks",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые рюкзаки",
+          "en": "Compatible backpacks"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.backpacks.superheavy",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_containers",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые контейнеры",
+          "en": "Compatible containers"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.containers.bulky",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.klepto.description",
+        "args": {},
+        "lines": {
+          "ru": "Бандитский костюм, грамотно улучшенный каким-то затейником. Более надежный бронежилет обеспечивает повышенную защиту от пуль, а дополнительные карманы позволяют переносить больший вес.",
+          "en": "A bandit suit that has been skillfully upgraded by some freak or other. The more reliable body armor offers improved protection against bullets, and the extra pockets allow you to carry more weight."
+        }
+      }
+    }
+  ]
+}

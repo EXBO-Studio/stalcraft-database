@@ -1,0 +1,297 @@
+{
+  "id": "VqrV",
+  "category": "armor/scientist",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.raincoat.name",
+    "args": {},
+    "lines": {
+      "ru": "Дождевик",
+      "en": "Raincoat"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.scientist",
+            "args": {},
+            "lines": {
+              "ru": "Научные",
+              "en": "Scientist"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.5
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "value": -10.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Melee protection"
+            }
+          },
+          "value": 8.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity"
+            }
+          },
+          "value": 40.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Resistance to fire"
+            }
+          },
+          "value": 40.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Resistance to chemicals"
+            }
+          },
+          "value": 40.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection"
+            }
+          },
+          "value": 40.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection"
+            }
+          },
+          "value": 15.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection Protection"
+            }
+          },
+          "value": 40.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_backpacks",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые рюкзаки",
+          "en": "Compatible backpacks"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.backpacks.superheavy",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_containers",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые контейнеры",
+          "en": "Compatible containers"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.containers.bulky",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.raincoat.description",
+        "args": {},
+        "lines": {
+          "ru": "Защитит владельца разве что от слабого кислотного дождика и укусов комаров",
+          "en": "Only protects the user against slight acid rain and mosquito bites."
+        }
+      }
+    }
+  ]
+}

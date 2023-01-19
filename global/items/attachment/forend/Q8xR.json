@@ -1,0 +1,125 @@
+{
+  "id": "Q8xR",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.forend_skstop.name",
+    "args": {},
+    "lines": {
+      "ru": "Тактическая накладка СКС",
+      "en": "SKS Tactical Grip"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.forend",
+            "args": {},
+            "lines": {
+              "ru": "Цевья и крепления",
+              "en": "Hanguards and Brackets"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.11
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sks.name",
+            "args": {},
+            "lines": {
+              "ru": "СКС",
+              "en": "SKS"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

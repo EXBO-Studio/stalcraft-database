@@ -1,0 +1,164 @@
+{
+  "id": "gD7G",
+  "category": "medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.psiblock_2.name",
+    "args": {},
+    "lines": {
+      "ru": "«Пси-блокада» второго класса",
+      "en": "2nd Class Psy-Blocker"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.05
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.psi_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration"
+            }
+          },
+          "value": 240.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison"
+            }
+          },
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление пси-излучению",
+              "en": "Psy-emission resistance"
+            }
+          },
+          "value": 35.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.psiblock.description",
+        "args": {},
+        "lines": {
+          "ru": "Препарат, снижающий силу воздействия пси-излучения. Частое применение отрицательно сказывается на работе мозга.",
+          "en": "A pill that reduces the effects of psy-emissions. Frequent use has a negative effect on brainpower."
+        }
+      }
+    }
+  ]
+}

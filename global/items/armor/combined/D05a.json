@@ -1,0 +1,387 @@
+{
+  "id": "D05a",
+  "category": "armor/combined",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.ao3.name",
+    "args": {},
+    "lines": {
+      "ru": "Костюм АО-3 «Искатель»",
+      "en": "AH-3 Seeker Suit"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.combined",
+            "args": {},
+            "lines": {
+              "ru": "Комбинированные",
+              "en": "Combo"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 7.5
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability"
+            }
+          },
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "value": -10.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
+            }
+          },
+          "value": 5.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.artefakt_heal",
+            "args": {},
+            "lines": {
+              "ru": "Периодическое лечение",
+              "en": "Periodic healing"
+            }
+          },
+          "value": 1.5
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.armor_artefact.night_vision",
+            "args": {},
+            "lines": {
+              "ru": "Прибор ночного видения",
+              "en": "Night-vision goggles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance"
+            }
+          },
+          "value": 62.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Melee protection"
+            }
+          },
+          "value": 72.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection"
+            }
+          },
+          "value": 87.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity"
+            }
+          },
+          "value": 415.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Resistance to fire"
+            }
+          },
+          "value": 415.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Resistance to chemicals"
+            }
+          },
+          "value": 415.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection"
+            }
+          },
+          "value": 195.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection"
+            }
+          },
+          "value": 195.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection Protection"
+            }
+          },
+          "value": 225.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          },
+          "value": 165.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding protection"
+            }
+          },
+          "value": 42.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_backpacks",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые рюкзаки",
+          "en": "Compatible backpacks"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.backpacks.superheavy",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_containers",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые контейнеры",
+          "en": "Compatible containers"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.containers.bulky",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.ao3.description",
+        "args": {},
+        "lines": {
+          "ru": "Дальнейшее развитие линейки «Артефактных охотников». Данная версия была создана с использованием легких композитных материалов и некоторых новейших разработок. Дорогой, но оправдывающий свою цену защитный костюм.",
+          "en": "A further development of the Artifact Hunters line. This version was produced using light composite materials and some innovations. It is expensive, but this protective suit wholly justified its price."
+        }
+      }
+    }
+  ]
+}

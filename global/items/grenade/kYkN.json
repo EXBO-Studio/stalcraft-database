@@ -1,0 +1,176 @@
+{
+  "id": "kYkN",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.vog25p.name",
+    "args": {},
+    "lines": {
+      "ru": "Выстрел гранатомётный ВОГ-25П «Подкидыш»",
+      "en": "VOG-25 Podkidysh Grenade Round"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.grenade",
+            "args": {},
+            "lines": {
+              "ru": "Гранаты",
+              "en": "Grenades"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.275
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "weapon.grenade.frag.stats.explosion_on_collide",
+        "args": {},
+        "lines": {
+          "ru": "Взрыв при контакте",
+          "en": "Detonation on contact"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength",
+            "args": {},
+            "lines": {
+              "ru": "Урон в центре",
+              "en": "Damage at center"
+            }
+          },
+          "value": 500.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength_min",
+            "args": {},
+            "lines": {
+              "ru": "Минимальный урон",
+              "en": "Minimum damage"
+            }
+          },
+          "value": 35.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.lifetime",
+            "args": {},
+            "lines": {
+              "ru": "Время до взрыва",
+              "en": "Time until detonation"
+            }
+          },
+          "value": 8.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_size",
+            "args": {},
+            "lines": {
+              "ru": "Радиус поражения",
+              "en": "Damage range"
+            }
+          },
+          "value": 8.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_activation_time",
+            "args": {},
+            "lines": {
+              "ru": "Задержка взрывателя",
+              "en": "Fuse time"
+            }
+          },
+          "value": 0.25
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.vog25p.description",
+        "args": {},
+        "lines": {
+          "ru": "Осколочный боеприпас для гранатомёта ГП-25 «Костёр». При попадании подпрыгивает, увеличивая зону поражения осколками.",
+          "en": "A fragmentation round for the GP-25 Kostyor grenade launcher. It bounces when it lands, increasing the area damaged by the fragments."
+        }
+      }
+    }
+  ]
+}

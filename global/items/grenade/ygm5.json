@@ -1,0 +1,147 @@
+{
+  "id": "ygm5",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.m67.name",
+    "args": {},
+    "lines": {
+      "ru": "M67",
+      "en": "M67"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.grenade",
+            "args": {},
+            "lines": {
+              "ru": "Гранаты",
+              "en": "Grenades"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.39
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength",
+            "args": {},
+            "lines": {
+              "ru": "Урон в центре",
+              "en": "Damage at center"
+            }
+          },
+          "value": 475.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength_min",
+            "args": {},
+            "lines": {
+              "ru": "Минимальный урон",
+              "en": "Minimum damage"
+            }
+          },
+          "value": 30.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.lifetime",
+            "args": {},
+            "lines": {
+              "ru": "Время до взрыва",
+              "en": "Time until detonation"
+            }
+          },
+          "value": 4.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_size",
+            "args": {},
+            "lines": {
+              "ru": "Радиус поражения",
+              "en": "Damage range"
+            }
+          },
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.m67.description",
+        "args": {},
+        "lines": {
+          "ru": "Американская ручная осколочная граната",
+          "en": "An American fragmentation hand grenade."
+        }
+      }
+    }
+  ]
+}

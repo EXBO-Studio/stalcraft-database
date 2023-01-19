@@ -1,0 +1,169 @@
+{
+  "id": "Bkmy",
+  "category": "attachment/butt",
+  "name": {
+    "type": "translation",
+    "key": "item.22600.name",
+    "args": {},
+    "lines": {
+      "ru": "Приклад Mossberg",
+      "en": "Mossberg Stock"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.butt",
+            "args": {},
+            "lines": {
+              "ru": "Приклады",
+              "en": "Stocks"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.25
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -14.999998
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": -19.999998
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость доставания",
+              "en": "Draw speed"
+            }
+          },
+          "value": 14.999998
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.tick_spread_multiplier_reduction",
+            "args": {},
+            "lines": {
+              "ru": "Стабилизация",
+              "en": "Stabilization"
+            }
+          },
+          "value": 25.0
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mossberg.name",
+            "args": {},
+            "lines": {
+              "ru": "Mossberg 590A1",
+              "en": "Mossberg 590A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.shorty.name",
+            "args": {},
+            "lines": {
+              "ru": "Shorty 590",
+              "en": "Shorty 590"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

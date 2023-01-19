@@ -1,0 +1,70 @@
+{
+  "id": "kqQN",
+  "category": "armor/device",
+  "name": {
+    "type": "translation",
+    "key": "item.25504.name",
+    "args": {},
+    "lines": {
+      "ru": "NVD-11 Export",
+      "en": "NVD-11 Export"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.device",
+            "args": {},
+            "lines": {
+              "ru": "Устройства",
+              "en": "Devices"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 1.75
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    }
+  ]
+}

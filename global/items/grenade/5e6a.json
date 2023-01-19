@@ -1,0 +1,147 @@
+{
+  "id": "5e6a",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.rgd5.name",
+    "args": {},
+    "lines": {
+      "ru": "РГД-5",
+      "en": "RGD-5"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.grenade",
+            "args": {},
+            "lines": {
+              "ru": "Гранаты",
+              "en": "Grenades"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.3
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength",
+            "args": {},
+            "lines": {
+              "ru": "Урон в центре",
+              "en": "Damage at center"
+            }
+          },
+          "value": 450.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength_min",
+            "args": {},
+            "lines": {
+              "ru": "Минимальный урон",
+              "en": "Minimum damage"
+            }
+          },
+          "value": 25.0
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.lifetime",
+            "args": {},
+            "lines": {
+              "ru": "Время до взрыва",
+              "en": "Time until detonation"
+            }
+          },
+          "value": 3.25
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_size",
+            "args": {},
+            "lines": {
+              "ru": "Радиус поражения",
+              "en": "Damage range"
+            }
+          },
+          "value": 7.5
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.rgd5.description",
+        "args": {},
+        "lines": {
+          "ru": "Советская ручная наступательная граната",
+          "en": "A Soviet offensive hand grenade."
+        }
+      }
+    }
+  ]
+}

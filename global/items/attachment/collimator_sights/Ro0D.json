@@ -1,0 +1,192 @@
+{
+  "id": "Ro0D",
+  "category": "attachment/collimator_sights",
+  "name": {
+    "type": "translation",
+    "key": "item.att.scope_pu.name",
+    "args": {},
+    "lines": {
+      "ru": "Прицел оптический ПУ на боковой кронштейн",
+      "en": "PU Optical Sight on Side Bracket"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.collimator_sights",
+            "args": {},
+            "lines": {
+              "ru": "Прицелы",
+              "en": "Sights"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.27
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.sight.info.zoom",
+            "args": {},
+            "lines": {
+              "ru": "Увеличение",
+              "en": "Magnification"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "x3.5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 10.000002
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.scope_pu.description",
+        "args": {},
+        "lines": {
+          "ru": "Вариант советского оптического прицела, изначально созданного в 1940 году, для совместного использования вместе со снайперским вариантом самозарядной винтовки Токарева.",
+          "en": "A variation of the Soviet optical sight first created in 1940 for use with the sniper model of the Tokarev semi-automatic rifle."
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mosinkar.name",
+            "args": {},
+            "lines": {
+              "ru": "Карабин Мосина",
+              "en": "Mosin’s Carbine"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mosin.name",
+            "args": {},
+            "lines": {
+              "ru": "Винтовка Мосина",
+              "en": "Mosin’s Rifle"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
