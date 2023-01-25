@@ -1,16 +1,16 @@
 {
-  "id": "PQ7K",
-  "category": "armor/combat",
+  "id": "0be1",
+  "category": "armor/clothes",
   "name": {
     "type": "translation",
-    "key": "item.arm.bear.name",
+    "key": "item.arm.palto.name",
     "args": {},
     "lines": {
-      "ru": "Экзоскелет «Медведь»",
-      "en": "Bear Exoskeleton"
+      "ru": "Пальто со шляпой",
+      "en": "Coat and Hat"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "DEFAULT",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.picklock",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Отмычка",
+              "en": "Picklock"
             }
           }
         },
@@ -56,11 +56,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.combat",
+            "key": "core.handbook.category.clothes",
             "args": {},
             "lines": {
-              "ru": "Боевые",
-              "en": "Combat"
+              "ru": "Одежда",
+              "en": "Clothing"
             }
           }
         },
@@ -75,7 +75,7 @@
               "en": "Weight"
             }
           },
-          "value": 35.0
+          "value": 2.0
         },
         {
           "type": "numeric",
@@ -131,33 +131,7 @@
               "en": "Stamina"
             }
           },
-          "value": -10.0
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
-            "args": {},
-            "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed"
-            }
-          },
-          "value": -4.0
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.max_weight_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Переносимый вес",
-              "en": "Carry weight"
-            }
-          },
-          "value": 35.0
+          "value": -5.0
         }
       ]
     },
@@ -179,7 +153,7 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 144.0
+          "value": 14.0
         },
         {
           "type": "numeric",
@@ -192,7 +166,7 @@
               "en": "Melee protection"
             }
           },
-          "value": 161.0
+          "value": 54.0
         },
         {
           "type": "numeric",
@@ -205,7 +179,7 @@
               "en": "Explosion protection"
             }
           },
-          "value": 199.0
+          "value": 17.0
         },
         {
           "type": "numeric",
@@ -218,7 +192,7 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 47.0
+          "value": 9.0
         },
         {
           "type": "numeric",
@@ -231,7 +205,7 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 47.0
+          "value": 9.0
         },
         {
           "type": "numeric",
@@ -244,7 +218,7 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 47.0
+          "value": 9.0
         },
         {
           "type": "numeric",
@@ -257,7 +231,7 @@
               "en": "Radiation protection"
             }
           },
-          "value": 200.0
+          "value": 30.0
         },
         {
           "type": "numeric",
@@ -270,20 +244,7 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 100.0
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.psycho_protection",
-            "args": {},
-            "lines": {
-              "ru": "Защита от пси-излучения",
-              "en": "Psy-Emission Protection"
-            }
-          },
-          "value": 75.0
+          "value": 30.0
         },
         {
           "type": "numeric",
@@ -296,9 +257,30 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 63.0
+          "value": 34.0
         }
       ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_backpacks",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые рюкзаки",
+          "en": "Compatible backpacks"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.backpacks.superheavy",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any"
+        }
+      }
     },
     {
       "type": "text",
@@ -313,14 +295,11 @@
       },
       "text": {
         "type": "translation",
-        "key": "general.list.format.coma",
-        "args": {
-          "idx_0": "46820@d2f43fec",
-          "idx_1": "46820@d2f43fec"
-        },
+        "key": "general.armor.compatibility.containers.bulky",
+        "args": {},
         "lines": {
-          "ru": "Контейнер «ИУ-2», Контейнер «ИУ-2»",
-          "en": "Контейнер «ИУ-2», Контейнер «ИУ-2»"
+          "ru": "Любые",
+          "en": "Any"
         }
       }
     },
@@ -332,11 +311,11 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.arm.bear.description",
+        "key": "item.arm.palto.description",
         "args": {},
         "lines": {
-          "ru": "Бронекостюм «Рысь», оснащенный тяжелым экзоскелетом c дополнительным бронированием.",
-          "en": "The Lynx armored suit, equipped with a heavy exoskeleton with additional armoring."
+          "ru": "Я просто хочу спокойной жизни.",
+          "en": "I just want a peaceful life."
         }
       }
     }
