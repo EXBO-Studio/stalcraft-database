@@ -315,6 +315,34 @@
           "type": "text",
           "text": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.head_damage_modifier",
+            "args": {
+              "modifier": "1.25"
+            },
+            "lines": {
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1,25"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.limbs_damage_modifier",
+            "args": {
+              "modifier": "0.5"
+            },
+            "lines": {
+              "ru": "Урон по конечностям: х0,5",
+              "en": "Limbs damage: х0,5"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
             "key": "weapon.tooltip.weapon.constancy_damage_modifier",
             "args": {
               "plusPercent": "2.0",
