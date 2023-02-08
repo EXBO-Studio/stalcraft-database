@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.2
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -130,7 +138,15 @@
               "en": "Charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -143,7 +159,15 @@
               "en": "Max. charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -166,7 +190,15 @@
             }
           },
           "min": 2.0,
-          "max": 4.0
+          "max": 4.0,
+          "formatted": {
+            "value": {
+              "ru": "[+2%; +4%]",
+              "en": "[+2%; +4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "range",
@@ -180,7 +212,15 @@
             }
           },
           "min": 1.5,
-          "max": 3.0
+          "max": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "[+1,5%; +3%]",
+              "en": "[+1.5%; +3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "range",
@@ -194,7 +234,15 @@
             }
           },
           "min": 3.0,
-          "max": 8.0
+          "max": 8.0,
+          "formatted": {
+            "value": {
+              "ru": "[+3; +8]",
+              "en": "[+3; +8]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         }
       ]
     },

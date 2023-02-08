@@ -6,7 +6,7 @@
     "key": "item.art.voronka_crystal.name",
     "args": {},
     "lines": {
-      "ru": "Чёрный кристалл",
+      "ru": "Черный кристалл",
       "en": "Black Crystal"
     }
   },
@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.4
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -130,7 +138,15 @@
               "en": "Charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -143,7 +159,15 @@
               "en": "Max. charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -166,7 +190,15 @@
             }
           },
           "min": 1.0,
-          "max": 2.5
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+1%; +2,5%]",
+              "en": "[+1%; +2.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "range",
@@ -180,7 +212,15 @@
             }
           },
           "min": 15.0,
-          "max": 25.0
+          "max": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "[+15; +25]",
+              "en": "[+15; +25]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "range",
@@ -194,7 +234,15 @@
             }
           },
           "min": -4.0,
-          "max": -2.0
+          "max": -2.0,
+          "formatted": {
+            "value": {
+              "ru": "[-4; -2]",
+              "en": "[-4; -2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "range",
@@ -208,7 +256,15 @@
             }
           },
           "min": 4.0,
-          "max": 6.0
+          "max": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "[+4; +6]",
+              "en": "[+4; +6]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         }
       ]
     },

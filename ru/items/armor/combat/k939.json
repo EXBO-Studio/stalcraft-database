@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 9.0
+          "value": 9.0,
+          "formatted": {
+            "value": {
+              "ru": "9 кг",
+              "en": "9 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -131,7 +155,15 @@
               "en": "Stamina"
             }
           },
-          "value": -3.0
+          "value": -3.0,
+          "formatted": {
+            "value": {
+              "ru": "-3%",
+              "en": "-3%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         },
         {
           "type": "numeric",
@@ -144,7 +176,15 @@
               "en": "Carry weight"
             }
           },
-          "value": 3.0
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "+3",
+              "en": "+3"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -166,7 +206,15 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 68.0
+          "value": 68.0,
+          "formatted": {
+            "value": {
+              "ru": "68",
+              "en": "68"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -179,7 +227,15 @@
               "en": "Melee protection"
             }
           },
-          "value": 68.0
+          "value": 68.0,
+          "formatted": {
+            "value": {
+              "ru": "68",
+              "en": "68"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -192,7 +248,15 @@
               "en": "Explosion protection"
             }
           },
-          "value": 94.0
+          "value": 94.0,
+          "formatted": {
+            "value": {
+              "ru": "94",
+              "en": "94"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -205,7 +269,15 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 27.0
+          "value": 27.0,
+          "formatted": {
+            "value": {
+              "ru": "27",
+              "en": "27"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -218,7 +290,15 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 27.0
+          "value": 27.0,
+          "formatted": {
+            "value": {
+              "ru": "27",
+              "en": "27"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -231,7 +311,15 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 27.0
+          "value": 27.0,
+          "formatted": {
+            "value": {
+              "ru": "27",
+              "en": "27"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -244,7 +332,36 @@
               "en": "Radiation protection"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100",
+              "en": "100"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -257,7 +374,15 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 90.0
+          "value": 90.0,
+          "formatted": {
+            "value": {
+              "ru": "90",
+              "en": "90"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -270,7 +395,15 @@
               "en": "Psy-Emission Protection"
             }
           },
-          "value": 30.0
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -283,7 +416,15 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 42.0
+          "value": 42.0,
+          "formatted": {
+            "value": {
+              "ru": "42%",
+              "en": "42%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -340,7 +481,7 @@
         "key": "item.arm.striker.description",
         "args": {},
         "lines": {
-          "ru": "Прямой потомок «Берилла». Широкораспространённый костюм военных через чёрный рынок попал к различным синдикатам, которые, взяв его за основу, собрали комплект экипировки для своих бойцов, выбрав улучшенный бронежилет, защиту конечностей и более удобную униформу. Шлем остался прежним.",
+          "ru": "Прямой потомок «Берилла». Широкораспространенный костюм военных через черный рынок попал к различным синдикатам, которые, взяв его за основу, собрали комплект экипировки для своих бойцов, выбрав улучшенный бронежилет, защиту конечностей и более удобную униформу. Шлем остался прежним.",
           "en": "The direct successor to the Berill. This widely-available soldier’s suit has ended up with various syndicates via the black market. They put together a complete set of gear for their soldiers based on this attire, with upgraded body armor, limb protection, and a more comfortable uniform. The helmet remained unchanged."
         }
       }

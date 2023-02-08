@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.17
+          "value": 0.17,
+          "formatted": {
+            "value": {
+              "ru": "0,17 кг",
+              "en": "0.17 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -84,7 +92,15 @@
               "en": "Range"
             }
           },
-          "value": 9.0
+          "value": 9.0,
+          "formatted": {
+            "value": {
+              "ru": "9 м",
+              "en": "9 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -97,7 +113,15 @@
               "en": "Max. blindness duration"
             }
           },
-          "value": 4.0
+          "value": 4.0,
+          "formatted": {
+            "value": {
+              "ru": "4 с",
+              "en": "4 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -110,7 +134,15 @@
               "en": "Time until activation"
             }
           },
-          "value": 2.5
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -125,7 +157,7 @@
         "key": "item.exp.vspishka.description",
         "args": {},
         "lines": {
-          "ru": "Светозвуковая граната, производимая в Зоне. Популярна благодаря своей цене и лёгкости, позволяет пугать мелких мутантов.",
+          "ru": "Светозвуковая граната, производимая в Зоне. Популярна благодаря своей цене и легкости, позволяет пугать мелких мутантов.",
           "en": "A flash grenade produced in the Zone. It is popular due to its price and lightness, and it allows you to scare small mutants."
         }
       }

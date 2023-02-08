@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 3.5
+          "value": 3.5,
+          "formatted": {
+            "value": {
+              "ru": "3,5 кг",
+              "en": "3.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -131,7 +155,15 @@
               "en": "Stamina"
             }
           },
-          "value": -2.0
+          "value": -2.0,
+          "formatted": {
+            "value": {
+              "ru": "-2%",
+              "en": "-2%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         },
         {
           "type": "numeric",
@@ -144,7 +176,15 @@
               "en": "Carry weight"
             }
           },
-          "value": 5.0
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "+5",
+              "en": "+5"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -166,7 +206,15 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 31.0
+          "value": 31.0,
+          "formatted": {
+            "value": {
+              "ru": "31",
+              "en": "31"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -179,7 +227,15 @@
               "en": "Melee protection"
             }
           },
-          "value": 35.0
+          "value": 35.0,
+          "formatted": {
+            "value": {
+              "ru": "35",
+              "en": "35"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -192,7 +248,15 @@
               "en": "Explosion protection"
             }
           },
-          "value": 48.0
+          "value": 48.0,
+          "formatted": {
+            "value": {
+              "ru": "48",
+              "en": "48"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -205,7 +269,15 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 22.0
+          "value": 22.0,
+          "formatted": {
+            "value": {
+              "ru": "22",
+              "en": "22"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -218,7 +290,15 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 22.0
+          "value": 22.0,
+          "formatted": {
+            "value": {
+              "ru": "22",
+              "en": "22"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -231,7 +311,15 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 22.0
+          "value": 22.0,
+          "formatted": {
+            "value": {
+              "ru": "22",
+              "en": "22"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -244,7 +332,36 @@
               "en": "Radiation protection"
             }
           },
-          "value": 60.0
+          "value": 60.0,
+          "formatted": {
+            "value": {
+              "ru": "60",
+              "en": "60"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -257,7 +374,36 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 60.0
+          "value": 60.0,
+          "formatted": {
+            "value": {
+              "ru": "60",
+              "en": "60"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -270,7 +416,15 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 26.0
+          "value": 26.0,
+          "formatted": {
+            "value": {
+              "ru": "26%",
+              "en": "26%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -327,7 +481,7 @@
         "key": "item.arm.zarya.description",
         "args": {},
         "lines": {
-          "ru": "Колоссальную дыру в бюджете, обглоданную кризисом, НИИ «ЧаЗ» решил заполнить своим вариантом кустарного костюма «Заря». Дешевая плексигласовая прокладка хоть и прочна, но аккумулирует статическое электричество. Уступает своему прототипу, но имеет важный плюс – низкую цену и высокую распространённость.",
+          "ru": "Колоссальную дыру в бюджете, обглоданную кризисом, НИИ «ЧаЗ» решил заполнить своим вариантом кустарного костюма «Заря». Дешевая плексигласовая прокладка хоть и прочна, но аккумулирует статическое электричество. Уступает своему прототипу, но имеет важный плюс – низкую цену и высокую распространенность.",
           "en": "The Chernobyl Research Institute decided to fill the colossal hole in its budget, which was eaten up due to the crisis, with its own version of the makeshift Zarya suit. The cheap plexiglass lining is sturdy, but it accumulates static electricity. It is inferior to its prototype but has a major advantage: it is cheap and widely available."
         }
       }

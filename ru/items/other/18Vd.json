@@ -1,0 +1,148 @@
+{
+  "id": "18Vd",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.pd.mining.name",
+    "args": {},
+    "lines": {
+      "ru": "Остатки аккумуляторов",
+      "en": "Remains of Batteries"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.origin",
+            "args": {},
+            "lines": {
+              "ru": "Получение",
+              "en": "Obtained"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.brt.pd.mining.item_origin_tip",
+            "args": {},
+            "lines": {
+              "ru": "Из прикопов на Пути Дураков и Армейских складах",
+              "en": "From caches in the Fools’ Path and in the Army Warehouses"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.pd.mining.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Когда-то на Армейских складах можно было найти куда больше тяжелой военной техники. Нынче добыча поизмельчала, но все еще имеет кое-какую ценность.",
+          "en": "Back in the day, you used to be able to find a lot more heavy army tech in the Army Warehouses. Now, there’s much less loot, but it still has value."
+        }
+      }
+    }
+  ]
+}

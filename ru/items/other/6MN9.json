@@ -1,0 +1,148 @@
+{
+  "id": "6MN9",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.mg.mining.name",
+    "args": {},
+    "lines": {
+      "ru": "Остатки научного оборудования",
+      "en": "Remains of Scientific Equipment"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.origin",
+            "args": {},
+            "lines": {
+              "ru": "Получение",
+              "en": "Obtained"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.brt.mg.mining.item_origin_tip",
+            "args": {},
+            "lines": {
+              "ru": "Из прикопов в Мертвом городе и Могильнике",
+              "en": "From caches in the Dead City and the Graveyard"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.mg.mining.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Много экспедиций ученых уходило на север в поисках тайн Зоны. Их наследие - остатки оборудования, которое еще можно раскопать и продать по хорошей цене.",
+          "en": "Many scientific expeditions have ventured to the north in the quest to find the Zone’s secrets. All that is left of them is the remains of their equipment, which can be dug up and sold for a good price."
+        }
+      }
+    }
+  ]
+}

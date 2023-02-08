@@ -59,7 +59,7 @@
             "key": "core.handbook.category.machine_gun",
             "args": {},
             "lines": {
-              "ru": "Пулемёты",
+              "ru": "Пулеметы",
               "en": "Machine Guns"
             }
           }
@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 9.12
+          "value": 9.12,
+          "formatted": {
+            "value": {
+              "ru": "9,12 кг",
+              "en": "9.12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -152,7 +176,15 @@
               "en": "Damage"
             }
           },
-          "value": 44.0
+          "value": 44.0,
+          "formatted": {
+            "value": {
+              "ru": "44 ед",
+              "en": "core.tooltip.stat_format.unit_precise"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +197,15 @@
               "en": "Clip capacity"
             }
           },
-          "value": 47.0
+          "value": 47.0,
+          "formatted": {
+            "value": {
+              "ru": "0/47",
+              "en": "0/47"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +218,15 @@
               "en": "Maximum distance"
             }
           },
-          "value": 160.0
+          "value": 160.0,
+          "formatted": {
+            "value": {
+              "ru": "160 м",
+              "en": "160 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +239,15 @@
               "en": "Rate of fire"
             }
           },
-          "value": 550.0
+          "value": 550.0,
+          "formatted": {
+            "value": {
+              "ru": "550 выстр/мин",
+              "en": "550 shots/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +260,15 @@
               "en": "Reload"
             }
           },
-          "value": 6.0
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "6 с",
+              "en": "6 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +281,15 @@
               "en": "Spread"
             }
           },
-          "value": 0.84
+          "value": 0.84,
+          "formatted": {
+            "value": {
+              "ru": "0,84°",
+              "en": "0.84°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +302,15 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 2.8
+          "value": 2.8,
+          "formatted": {
+            "value": {
+              "ru": "2,8°",
+              "en": "2.8°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +323,15 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 1.0
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "1°",
+              "en": "1°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +344,15 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 0.4
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4°",
+              "en": "0.4°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -269,7 +365,15 @@
               "en": "Draw time"
             }
           },
-          "value": 1.15
+          "value": 1.15,
+          "formatted": {
+            "value": {
+              "ru": "1,15 с",
+              "en": "1.15 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -282,7 +386,15 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.4
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 с",
+              "en": "0.4 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -321,7 +433,7 @@
             },
             "lines": {
               "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1,25"
+              "en": "Headshot damage: x1.25"
             }
           }
         },
@@ -335,7 +447,7 @@
             },
             "lines": {
               "ru": "Урон по конечностям: х0,5",
-              "en": "Limbs damage: х0,5"
+              "en": "weapon.tooltip.weapon.limbs_damage_modifier"
             }
           }
         },
@@ -389,7 +501,7 @@
         "key": "item.wpn.dp.description",
         "args": {},
         "lines": {
-          "ru": "Ручной пулемёт, разработанный В. А. Дегтярёвым. ДП стал одним из первых образцов стрелкового оружия, созданных в СССР.",
+          "ru": "Ручной пулемет, разработанный В. А. Дегтяревым. ДП стал одним из первых образцов стрелкового оружия, созданных в СССР.",
           "en": "A handheld machine gun developed by V. A. Degtyarev. The DP was one of the first examples of a Soviet-made firearm."
         }
       }

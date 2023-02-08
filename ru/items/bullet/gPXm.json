@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.015
+          "value": 0.015,
+          "formatted": {
+            "value": {
+              "ru": "0,02 кг",
+              "en": "0.02 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -117,7 +125,15 @@
               "en": "Number of projectiles"
             }
           },
-          "value": 10.0
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "10",
+              "en": "10"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -132,19 +148,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.bullet.stat_name.damage",
-            "args": {},
-            "lines": {
-              "ru": "Урон",
-              "en": "Damage"
-            }
-          },
-          "value": 2.3841858E-5
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.tooltip.bullet.stat_name.stopping_power",
             "args": {},
             "lines": {
@@ -152,7 +155,15 @@
               "en": "Stopping power"
             }
           },
-          "value": 50.0
+          "value": 50.0,
+          "formatted": {
+            "value": {
+              "ru": "+50",
+              "en": "+50"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     }

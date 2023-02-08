@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.38
+          "value": 0.38,
+          "formatted": {
+            "value": {
+              "ru": "0,38 кг",
+              "en": "0.38 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -130,7 +138,15 @@
               "en": "Aim speed"
             }
           },
-          "value": 20.000004
+          "value": 20.000004,
+          "formatted": {
+            "value": {
+              "ru": "-20%",
+              "en": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         },
         {
           "type": "numeric",
@@ -143,7 +159,15 @@
               "en": "Draw speed"
             }
           },
-          "value": 10.000002
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         }
       ]
     },
@@ -794,7 +818,7 @@
             "key": "item.att.forend_rpd.name",
             "args": {},
             "lines": {
-              "ru": "Тактическое цевьё РПД",
+              "ru": "Тактическое цевье РПД",
               "en": "RPD Tactical Handguard"
             }
           }

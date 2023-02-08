@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 1.34
+          "value": 1.34,
+          "formatted": {
+            "value": {
+              "ru": "1,34 кг",
+              "en": "1.34 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -152,7 +176,15 @@
               "en": "Damage"
             }
           },
-          "value": 76.0
+          "value": 76.0,
+          "formatted": {
+            "value": {
+              "ru": "76 ед",
+              "en": "core.tooltip.stat_format.unit_precise"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +197,15 @@
               "en": "Clip capacity"
             }
           },
-          "value": 6.0
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "0/6",
+              "en": "0/6"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +218,15 @@
               "en": "Maximum distance"
             }
           },
-          "value": 70.0
+          "value": 70.0,
+          "formatted": {
+            "value": {
+              "ru": "70 м",
+              "en": "70 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +239,15 @@
               "en": "Rate of fire"
             }
           },
-          "value": 500.0
+          "value": 500.0,
+          "formatted": {
+            "value": {
+              "ru": "500 выстр/мин",
+              "en": "500 shots/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +260,15 @@
               "en": "Reload"
             }
           },
-          "value": 2.0
+          "value": 2.2,
+          "formatted": {
+            "value": {
+              "ru": "2,2 с",
+              "en": "2.2 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +281,15 @@
               "en": "Spread"
             }
           },
-          "value": 0.8
+          "value": 0.8,
+          "formatted": {
+            "value": {
+              "ru": "0,8°",
+              "en": "0.8°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +302,15 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 2.7
+          "value": 2.7,
+          "formatted": {
+            "value": {
+              "ru": "2,7°",
+              "en": "2.7°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +323,15 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 0.9
+          "value": 0.9,
+          "formatted": {
+            "value": {
+              "ru": "0,9°",
+              "en": "0.9°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +344,15 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 0.6
+          "value": 0.6,
+          "formatted": {
+            "value": {
+              "ru": "0,6°",
+              "en": "0.6°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -269,7 +365,15 @@
               "en": "Draw time"
             }
           },
-          "value": 0.4
+          "value": 0.6,
+          "formatted": {
+            "value": {
+              "ru": "0,6 с",
+              "en": "0.6 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -282,7 +386,15 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.2
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 с",
+              "en": "0.25 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -321,7 +433,7 @@
             },
             "lines": {
               "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1,25"
+              "en": "Headshot damage: x1.25"
             }
           }
         },
@@ -335,7 +447,7 @@
             },
             "lines": {
               "ru": "Урон по конечностям: х0,5",
-              "en": "Limbs damage: х0,5"
+              "en": "weapon.tooltip.weapon.limbs_damage_modifier"
             }
           }
         },
@@ -350,7 +462,7 @@
             },
             "lines": {
               "ru": "Урон увеличивается на 1,5% за каждый % отсутствующего здоровья цели, максимум +150% урона",
-              "en": "Damage increases by 1,5% for every % of the target’s health that is missing, to a maximum of +150% damage"
+              "en": "Damage increases by 1.5% for every % of the target’s health that is missing, to a maximum of +150% damage"
             }
           }
         }

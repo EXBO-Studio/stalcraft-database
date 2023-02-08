@@ -1,0 +1,148 @@
+{
+  "id": "L3dZ",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.les.mining.name",
+    "args": {},
+    "lines": {
+      "ru": "Остатки радиопередатчика",
+      "en": "Remains of a Radio Transmitter"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.origin",
+            "args": {},
+            "lines": {
+              "ru": "Получение",
+              "en": "Obtained"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.brt.les.mining.item_origin_tip",
+            "args": {},
+            "lines": {
+              "ru": "Из прикопов в Яме и Лесу",
+              "en": "From caches in the Pit and the Forest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.les.mining.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "В некоторых регионах Зоны встречается довольно много старого радиооборудования, остатками которого рад поживиться любой мародер.",
+          "en": "In some areas of the Zone, you can come across quite a lot of old radio equipment. Any marauder will gladly scavenge the remains of it."
+        }
+      }
+    }
+  ]
+}

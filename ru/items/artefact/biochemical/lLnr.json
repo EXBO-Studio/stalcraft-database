@@ -6,7 +6,7 @@
     "key": "item.art.puh_ej.name",
     "args": {},
     "lines": {
-      "ru": "Морской ёж",
+      "ru": "Морской еж",
       "en": "Urchin"
     }
   },
@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.4
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -130,7 +138,15 @@
               "en": "Charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -143,7 +159,15 @@
               "en": "Max. charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -166,7 +190,15 @@
             }
           },
           "min": -50.0,
-          "max": -25.0
+          "max": -25.0,
+          "formatted": {
+            "value": {
+              "ru": "[-50%; -25%]",
+              "en": "[-50%; -25%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         },
         {
           "type": "range",
@@ -180,7 +212,15 @@
             }
           },
           "min": -6.0,
-          "max": -3.0
+          "max": -3.0,
+          "formatted": {
+            "value": {
+              "ru": "[-6; -3]",
+              "en": "[-6; -3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "range",
@@ -194,7 +234,15 @@
             }
           },
           "min": -4.0,
-          "max": -2.0
+          "max": -2.0,
+          "formatted": {
+            "value": {
+              "ru": "[-4; -2]",
+              "en": "[-4; -2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -209,7 +257,7 @@
         "key": "item.art.puh_ej.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт, производимый аномалией «жгучий пух». Сфера серого цвета, покрыта не слишком острыми, но густыми колючками. На вес очень лёгкая. Ношение артефакта практически мгновенно избавляет организм от накопившейся в нём радиации и токсинов, но во время использования этого артефакта повышается вероятность возникновения спонтанных кровотечений из-за частых перепадов кровяного давления.",
+          "ru": "Артефакт, производимый аномалией «жгучий пух». Сфера серого цвета, покрыта не слишком острыми, но густыми колючками. На вес очень легкая. Ношение артефакта практически мгновенно избавляет организм от накопившейся в нем радиации и токсинов, но во время использования этого артефакта повышается вероятность возникновения спонтанных кровотечений из-за частых перепадов кровяного давления.",
           "en": "An artifact that is made by the Burnt Fuzz anomaly. A gray sphere covered in a thick layer of not particularly sharp spikes. Very lightweight. Wearing this artifact rids the body of all accumulated radiation and toxins almost instantly, but while in use, it increases the risk of spontaneous bleeding due to frequent fluctuations in blood pressure."
         }
       }

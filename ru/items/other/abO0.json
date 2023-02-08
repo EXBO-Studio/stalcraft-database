@@ -1,0 +1,148 @@
+{
+  "id": "abO0",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.pd.npc.name",
+    "args": {},
+    "lines": {
+      "ru": "Дурман-камень",
+      "en": "Dopestone"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.origin",
+            "args": {},
+            "lines": {
+              "ru": "Получение",
+              "en": "Obtained"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.brt.pd.npc.item_origin_tip",
+            "args": {},
+            "lines": {
+              "ru": "У людей на Пути Дураков и Армейских складах",
+              "en": "From people in the Fools’ Path and in the Army Warehouses"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.pd.npc.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Однажды крупный схрон Свободы с трав... ой, т.е., конечно же, с артефактами, накрыло аномалиями. В том месте появились первые образцы дурман-камня.",
+          "en": "Once, anomalies sprung up all over a large Freedom hideout containing weed... I mean, er... artifacts. That’s where the first forms of dopestone appeared."
+        }
+      }
+    }
+  ]
+}

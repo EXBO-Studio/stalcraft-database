@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 2.1000001
+          "value": 2.1000001,
+          "formatted": {
+            "value": {
+              "ru": "2,1 кг",
+              "en": "2.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -152,7 +176,15 @@
               "en": "Damage"
             }
           },
-          "value": 33.0
+          "value": 33.0,
+          "formatted": {
+            "value": {
+              "ru": "33 ед",
+              "en": "core.tooltip.stat_format.unit_precise"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +197,15 @@
               "en": "Clip capacity"
             }
           },
-          "value": 40.0
+          "value": 40.0,
+          "formatted": {
+            "value": {
+              "ru": "0/40",
+              "en": "0/40"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +218,15 @@
               "en": "Maximum distance"
             }
           },
-          "value": 50.0
+          "value": 50.0,
+          "formatted": {
+            "value": {
+              "ru": "50 м",
+              "en": "50 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +239,15 @@
               "en": "Rate of fire"
             }
           },
-          "value": 1100.0
+          "value": 1100.0,
+          "formatted": {
+            "value": {
+              "ru": "1100 выстр/мин",
+              "en": "1100 shots/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +260,15 @@
               "en": "Reload"
             }
           },
-          "value": 2.5
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +281,15 @@
               "en": "Spread"
             }
           },
-          "value": 2.607
+          "value": 2.607,
+          "formatted": {
+            "value": {
+              "ru": "2,61°",
+              "en": "2.61°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +302,15 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 3.0
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "3°",
+              "en": "3°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +323,15 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 0.45
+          "value": 0.45,
+          "formatted": {
+            "value": {
+              "ru": "0,45°",
+              "en": "0.45°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +344,15 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 0.2
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2°",
+              "en": "0.2°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -269,7 +365,15 @@
               "en": "Draw time"
             }
           },
-          "value": 0.6
+          "value": 0.6,
+          "formatted": {
+            "value": {
+              "ru": "0,6 с",
+              "en": "0.6 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -282,7 +386,15 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.15
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 с",
+              "en": "0.15 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -321,7 +433,7 @@
             },
             "lines": {
               "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1,25"
+              "en": "Headshot damage: x1.25"
             }
           }
         },
@@ -335,7 +447,7 @@
             },
             "lines": {
               "ru": "Урон по конечностям: х0,5",
-              "en": "Limbs damage: х0,5"
+              "en": "weapon.tooltip.weapon.limbs_damage_modifier"
             }
           }
         }

@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 6.3
+          "value": 6.3,
+          "formatted": {
+            "value": {
+              "ru": "6,3 кг",
+              "en": "6.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -152,7 +176,15 @@
               "en": "Damage"
             }
           },
-          "value": 500.0
+          "value": 500.0,
+          "formatted": {
+            "value": {
+              "ru": "500 ед",
+              "en": "core.tooltip.stat_format.unit_precise"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +197,15 @@
               "en": "Clip capacity"
             }
           },
-          "value": 1.0
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "0/1",
+              "en": "0/1"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +218,15 @@
               "en": "Maximum distance"
             }
           },
-          "value": 200.0
+          "value": 200.0,
+          "formatted": {
+            "value": {
+              "ru": "200 м",
+              "en": "200 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +239,15 @@
               "en": "Rate of fire"
             }
           },
-          "value": 75.0
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75 выстр/мин",
+              "en": "75 shots/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +260,15 @@
               "en": "Reload"
             }
           },
-          "value": 2.5
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +281,15 @@
               "en": "Spread"
             }
           },
-          "value": 1.0
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "1°",
+              "en": "1°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +302,15 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 1.0
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "1°",
+              "en": "1°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +323,15 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 2.0
+          "value": 2.0,
+          "formatted": {
+            "value": {
+              "ru": "2°",
+              "en": "2°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +344,15 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 1.0
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "1°",
+              "en": "1°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -269,7 +365,15 @@
               "en": "Draw time"
             }
           },
-          "value": 1.4
+          "value": 1.4,
+          "formatted": {
+            "value": {
+              "ru": "1,4 с",
+              "en": "1.4 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -282,7 +386,15 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.35
+          "value": 0.35,
+          "formatted": {
+            "value": {
+              "ru": "0,35 с",
+              "en": "0.35 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -321,7 +433,7 @@
             },
             "lines": {
               "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1,25"
+              "en": "Headshot damage: x1.25"
             }
           }
         },
@@ -335,7 +447,7 @@
             },
             "lines": {
               "ru": "Урон по конечностям: х0,5",
-              "en": "Limbs damage: х0,5"
+              "en": "weapon.tooltip.weapon.limbs_damage_modifier"
             }
           }
         }
@@ -365,7 +477,7 @@
         "key": "item.wpn.rpg7.description",
         "args": {},
         "lines": {
-          "ru": "Советский ручной противотанковый гранатомёт многоразового применения. Предназначен для борьбы с танками, самоходными артиллерийскими установками и другой бронетехникой, может быть использован для уничтожения живой силы в укрытиях, а также для борьбы с низколетящими малоскоростными воздушными целями.",
+          "ru": "Советский ручной противотанковый гранатомет многоразового применения. Предназначен для борьбы с танками, самоходными артиллерийскими установками и другой бронетехникой, может быть использован для уничтожения живой силы в укрытиях, а также для борьбы с низколетящими малоскоростными воздушными целями.",
           "en": "A reusable Soviet handheld anti-tank grenade launcher. It is intended for dealing with tanks, self-propelled artillery, and other armored vehicles. It can be used to eliminate personnel behind cover and also counter low-flying, low-speed airborne targets."
         }
       }

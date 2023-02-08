@@ -1,0 +1,94 @@
+{
+  "id": "E3OZ",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.clan.black_regaliy.name",
+    "args": {},
+    "lines": {
+      "ru": "Черный Регалий",
+      "en": "Black Regalia"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.clan.black_regaliy.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Неизвестный артефакт. Исходящая от него аура говорит о том, что он имеет значительную стоимость.",
+          "en": "An unknown artifact. The aura that emanates from it suggests that it has significant value."
+        }
+      }
+    }
+  ]
+}

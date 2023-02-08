@@ -1,0 +1,124 @@
+{
+  "id": "nVD9",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.upg.tools_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Продвинутые инструменты",
+      "en": "Advanced Tools"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "upgrade_tool.tooltip.info.compatible_levels_all",
+        "args": {},
+        "lines": {
+          "ru": "Позволяет повысить параметры снаряжения любого уровня",
+          "en": "Allows you to improve the stats of gear of any level."
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "upgrade_tool.tooltip.info.durability_decrease",
+            "args": {},
+            "lines": {
+              "ru": "Снижение прочности при неудаче",
+              "en": "Durability loss on failure"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5%",
+              "en": "5%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     "key": "item.exp.m381_2.name",
     "args": {},
     "lines": {
-      "ru": "Выстрел гранатомётный M2",
+      "ru": "Выстрел гранатометный M2",
       "en": "M2 Grenade Round"
     }
   },
@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.1
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -100,7 +108,15 @@
               "en": "Damage at center"
             }
           },
-          "value": 250.0
+          "value": 250.0,
+          "formatted": {
+            "value": {
+              "ru": "250 ед",
+              "en": "250 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -113,7 +129,15 @@
               "en": "Minimum damage"
             }
           },
-          "value": 125.0
+          "value": 125.0,
+          "formatted": {
+            "value": {
+              "ru": "125 ед",
+              "en": "125 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -126,7 +150,15 @@
               "en": "Time until detonation"
             }
           },
-          "value": 8.0
+          "value": 8.0,
+          "formatted": {
+            "value": {
+              "ru": "8 с",
+              "en": "8 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -139,7 +171,15 @@
               "en": "Damage range"
             }
           },
-          "value": 6.0
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "6 м",
+              "en": "6 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -152,7 +192,15 @@
               "en": "Fuse time"
             }
           },
-          "value": 0.25
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 с",
+              "en": "0.25 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     }

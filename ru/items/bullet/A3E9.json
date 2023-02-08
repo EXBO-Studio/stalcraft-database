@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.013
+          "value": 0.013,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -117,7 +125,15 @@
               "en": "Number of projectiles"
             }
           },
-          "value": 5.0
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5",
+              "en": "5"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -132,19 +148,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.bullet.stat_name.damage",
-            "args": {},
-            "lines": {
-              "ru": "Урон",
-              "en": "Damage"
-            }
-          },
-          "value": -5.9604645E-6
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.tooltip.bullet.stat_name.bleeding",
             "args": {},
             "lines": {
@@ -152,7 +155,15 @@
               "en": "Bleeding"
             }
           },
-          "value": 1.0
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "+1%",
+              "en": "+1%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +176,15 @@
               "en": "Stopping power"
             }
           },
-          "value": 10.0
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "+10",
+              "en": "+10"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     }

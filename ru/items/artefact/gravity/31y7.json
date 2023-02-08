@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.4
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -130,7 +138,15 @@
               "en": "Charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -143,7 +159,15 @@
               "en": "Max. charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -166,7 +190,15 @@
             }
           },
           "min": -20.0,
-          "max": -10.0
+          "max": -10.0,
+          "formatted": {
+            "value": {
+              "ru": "[-20%; -10%]",
+              "en": "[-20%; -10%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         },
         {
           "type": "range",
@@ -180,7 +212,15 @@
             }
           },
           "min": -2.5,
-          "max": -1.0
+          "max": -1.0,
+          "formatted": {
+            "value": {
+              "ru": "[-2,5%; -1%]",
+              "en": "[-2.5%; -1%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         },
         {
           "type": "range",
@@ -194,7 +234,15 @@
             }
           },
           "min": 10.0,
-          "max": 25.0
+          "max": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "[+10%; +25%]",
+              "en": "[+10%; +25%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "range",
@@ -208,7 +256,15 @@
             }
           },
           "min": -7.0,
-          "max": -4.0
+          "max": -4.0,
+          "formatted": {
+            "value": {
+              "ru": "[-7; -4]",
+              "en": "[-7; -4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -223,7 +279,7 @@
         "key": "item.art.voronka_kriogen.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт, способный образоваться только при редчайшем стечении обстоятельств. Имеет начальный механизм образования, схожий с янтарником, но аномальная субстанция впоследствии, пройдя через несколько перепадов давления, теряет энергию и начинает интенсивно поглощать её из окружающего воздуха, охлаждая небольшое пространство вокруг себя, в следствие чего охлаждается и организм владельца, затрудняя его восстановление и передвижение.",
+          "ru": "Артефакт, способный образоваться только при редчайшем стечении обстоятельств. Имеет начальный механизм образования, схожий с янтарником, но аномальная субстанция впоследствии, пройдя через несколько перепадов давления, теряет энергию и начинает интенсивно поглощать ее из окружающего воздуха, охлаждая небольшое пространство вокруг себя, в следствие чего охлаждается и организм владельца, затрудняя его восстановление и передвижение.",
           "en": "An artifact that is formed only under an extremely rare set of circumstances. Its initial formation is similar to that of Amberite, but the anomalous substance, after undergoing several fluctuations in pressure, eventually loses energy and begins to intensively absorb it from the surrounding oxygen, cooling a small area around itself. This results in the body of the owner also cooling down, which slows regeneration and movement speed."
         }
       }

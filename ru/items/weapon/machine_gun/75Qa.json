@@ -59,7 +59,7 @@
             "key": "core.handbook.category.machine_gun",
             "args": {},
             "lines": {
-              "ru": "Пулемёты",
+              "ru": "Пулеметы",
               "en": "Machine Guns"
             }
           }
@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 8.2
+          "value": 8.2,
+          "formatted": {
+            "value": {
+              "ru": "8,2 кг",
+              "en": "8.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -152,7 +176,15 @@
               "en": "Damage"
             }
           },
-          "value": 45.0
+          "value": 45.0,
+          "formatted": {
+            "value": {
+              "ru": "45 ед",
+              "en": "core.tooltip.stat_format.unit_precise"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +197,15 @@
               "en": "Clip capacity"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "0/100",
+              "en": "0/100"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +218,15 @@
               "en": "Maximum distance"
             }
           },
-          "value": 180.0
+          "value": 180.0,
+          "formatted": {
+            "value": {
+              "ru": "180 м",
+              "en": "180 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +239,15 @@
               "en": "Rate of fire"
             }
           },
-          "value": 650.0
+          "value": 650.0,
+          "formatted": {
+            "value": {
+              "ru": "650 выстр/мин",
+              "en": "650 shots/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +260,15 @@
               "en": "Reload"
             }
           },
-          "value": 7.0
+          "value": 7.0,
+          "formatted": {
+            "value": {
+              "ru": "7 с",
+              "en": "7 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +281,15 @@
               "en": "Tactical reload"
             }
           },
-          "value": 6.25
+          "value": 6.25,
+          "formatted": {
+            "value": {
+              "ru": "6,25 с",
+              "en": "6.25 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +302,15 @@
               "en": "Spread"
             }
           },
-          "value": 0.419
+          "value": 0.419,
+          "formatted": {
+            "value": {
+              "ru": "0,42°",
+              "en": "0.42°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +323,15 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 2.8
+          "value": 2.8,
+          "formatted": {
+            "value": {
+              "ru": "2,8°",
+              "en": "2.8°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +344,15 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 0.66
+          "value": 0.66,
+          "formatted": {
+            "value": {
+              "ru": "0,66°",
+              "en": "0.66°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -269,7 +365,15 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 0.27
+          "value": 0.27,
+          "formatted": {
+            "value": {
+              "ru": "0,27°",
+              "en": "0.27°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -282,7 +386,15 @@
               "en": "Draw time"
             }
           },
-          "value": 1.25
+          "value": 1.25,
+          "formatted": {
+            "value": {
+              "ru": "1,25 с",
+              "en": "1.25 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -295,7 +407,15 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.4
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 с",
+              "en": "0.4 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -334,7 +454,7 @@
             },
             "lines": {
               "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1,25"
+              "en": "Headshot damage: x1.25"
             }
           }
         },
@@ -348,7 +468,7 @@
             },
             "lines": {
               "ru": "Урон по конечностям: х0,5",
-              "en": "Limbs damage: х0,5"
+              "en": "weapon.tooltip.weapon.limbs_damage_modifier"
             }
           }
         },
@@ -364,7 +484,7 @@
             },
             "lines": {
               "ru": "Каждое попадание по одной цели +2,5% урона, максимум +75% урона. Счетчик попаданий сбрасывается через 3 сек. Каждое новое попадание обновляет таймер.",
-              "en": "Every hit on a single target deals +2,5% damage, to a maximum of +75% damage. The hit counter resets after 3 sec. Each new hit refreshes the timer."
+              "en": "Every hit on a single target deals +2.5% damage, to a maximum of +75% damage. The hit counter resets after 3 sec. Each new hit refreshes the timer."
             }
           }
         }
@@ -402,7 +522,7 @@
         "key": "item.wpn.pkp.description",
         "args": {},
         "lines": {
-          "ru": "Российский единый пулемёт, разработанный на основе ПКМ. Предназначен для поражения живой силы противника, огневых и транспортных средств, воздушных целей.",
+          "ru": "Российский единый пулемет, разработанный на основе ПКМ. Предназначен для поражения живой силы противника, огневых и транспортных средств, воздушных целей.",
           "en": "A Russian general-purpose machine gun, based on the RMB. It was intended for attacking enemy personnel, gun batteries, transport, and airborne targets."
         }
       }

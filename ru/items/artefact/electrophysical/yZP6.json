@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.3
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -130,7 +138,15 @@
               "en": "Charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -143,7 +159,15 @@
               "en": "Max. charge"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -166,7 +190,15 @@
             }
           },
           "min": 5.0,
-          "max": 10.0
+          "max": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "[+5%; +10%]",
+              "en": "[+5%; +10%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "range",
@@ -180,7 +212,15 @@
             }
           },
           "min": -100.0,
-          "max": -50.0
+          "max": -50.0,
+          "formatted": {
+            "value": {
+              "ru": "[-100; -50]",
+              "en": "[-100; -50]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         }
       ]
     },

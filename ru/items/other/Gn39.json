@@ -1,0 +1,86 @@
+{
+  "id": "Gn39",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16122.name",
+    "args": {},
+    "lines": {
+      "ru": "Расписка от Шамана",
+      "en": "IOU from Shaman"
+    }
+  },
+  "color": "QUEST_ITEM",
+  "status": {
+    "state": "PERSONAL_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.quest_item",
+            "args": {},
+            "lines": {
+              "ru": "Используется для задания",
+              "en": "Quest item"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16122.description",
+        "args": {},
+        "lines": {
+          "ru": "Я получил эту расписку в награду от Шамана. С ее помощью я могу получить у торговца на Кордоне АКС.",
+          "en": "I received this IOU as a reward from Shaman. I can use it to get an AKS from the merchant at the Cordon."
+        }
+      }
+    }
+  ]
+}

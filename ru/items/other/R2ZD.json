@@ -1,0 +1,149 @@
+{
+  "id": "R2zD",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.sever.npc_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Очищенное вещество 07270",
+      "en": "Purified Substance 07270"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.origin",
+            "args": {},
+            "lines": {
+              "ru": "Получение",
+              "en": "Obtained"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.brt.sever.npc_add.item_origin_tip",
+            "args": {},
+            "lines": {
+              "ru": "С низким шансом у людей на Севере",
+              "en": "A low chance from people in the North"
+            }
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.sever.npc_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Ходят слухи, что американский миллиардер Лион Ксам готовится представить прототип автомобиля будущего, который будет работать на очищенном веществе 07270. К сожалению, пока этого ресурса так мало, что дальше одного автомобиля производство транспорта завтрашнего дня рискует не уехать.",
+          "en": "Rumor has it that the American billionaire Lion Xam is preparing to unveil a prototype of the car of the future, which will run on purified Substance 07270. Unfortunately, since there is so little of this resource, production of the transport of tomorrow risks not going further than just that one car, however."
+        }
+      }
+    }
+  ]
+}

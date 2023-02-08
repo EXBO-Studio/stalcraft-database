@@ -1,0 +1,149 @@
+{
+  "id": "P0jq",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.svalka.npc_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Полыхающий срачник",
+      "en": "Burning Crappite"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.origin",
+            "args": {},
+            "lines": {
+              "ru": "Получение",
+              "en": "Obtained"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.brt.svalka.npc_add.item_origin_tip",
+            "args": {},
+            "lines": {
+              "ru": "С низким шансом у людей на Свалке",
+              "en": "A low chance from people in the Dump"
+            }
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.svalka.npc_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Активно добывая срачник, обитатели Свалки однажды заметили, что некоторые его образцы имеют свойство самопроизвольно нагреваться. Из листов полыхающего срачника делают кустарные обогреватели.",
+          "en": "When actively mining crappite, the inhabitants of the Dump once noticed that some samples of it have the ability to spontaneously heat up. They use sheets of burning crappite to make makeshift heaters."
+        }
+      }
+    }
+  ]
+}

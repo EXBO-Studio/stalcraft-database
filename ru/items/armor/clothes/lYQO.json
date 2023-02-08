@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 1.0
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -139,7 +163,15 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 6.0
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "6",
+              "en": "6"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -152,7 +184,15 @@
               "en": "Melee protection"
             }
           },
-          "value": 11.0
+          "value": 11.0,
+          "formatted": {
+            "value": {
+              "ru": "11",
+              "en": "11"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +205,15 @@
               "en": "Explosion protection"
             }
           },
-          "value": 6.0
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "6",
+              "en": "6"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +226,15 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 11.0
+          "value": 11.0,
+          "formatted": {
+            "value": {
+              "ru": "11",
+              "en": "11"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +247,15 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 11.0
+          "value": 11.0,
+          "formatted": {
+            "value": {
+              "ru": "11",
+              "en": "11"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +268,99 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 11.0
+          "value": 11.0,
+          "formatted": {
+            "value": {
+              "ru": "11",
+              "en": "11"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection Protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +373,15 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 7.0
+          "value": 7.0,
+          "formatted": {
+            "value": {
+              "ru": "7%",
+              "en": "7%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -274,7 +438,7 @@
         "key": "item.arm.kyrtka_bandit.description",
         "args": {},
         "lines": {
-          "ru": "Чёрная кожаная куртка. В сочетании со штанами с полосками создаёт чёткий, узнаваемый образ.",
+          "ru": "Черная кожаная куртка. В сочетании со штанами с полосками создает четкий, узнаваемый образ.",
           "en": "A black leather coat. When combined with striped pants, it creates a distinct, recognizable image."
         }
       }

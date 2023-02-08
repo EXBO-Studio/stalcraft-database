@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 4.4
+          "value": 4.4,
+          "formatted": {
+            "value": {
+              "ru": "4,4 кг",
+              "en": "4.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -152,7 +176,15 @@
               "en": "Damage"
             }
           },
-          "value": 160.0
+          "value": 160.0,
+          "formatted": {
+            "value": {
+              "ru": "160 ед",
+              "en": "core.tooltip.stat_format.unit_precise"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +197,15 @@
               "en": "Clip capacity"
             }
           },
-          "value": 8.0
+          "value": 8.0,
+          "formatted": {
+            "value": {
+              "ru": "0/8",
+              "en": "0/8"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +218,15 @@
               "en": "Maximum distance"
             }
           },
-          "value": 60.0
+          "value": 60.0,
+          "formatted": {
+            "value": {
+              "ru": "60 м",
+              "en": "60 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +239,15 @@
               "en": "Rate of fire"
             }
           },
-          "value": 200.0
+          "value": 200.0,
+          "formatted": {
+            "value": {
+              "ru": "200 выстр/мин",
+              "en": "200 shots/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +260,15 @@
               "en": "Reload"
             }
           },
-          "value": 5.9
+          "value": 5.9,
+          "formatted": {
+            "value": {
+              "ru": "5,9 с",
+              "en": "5.9 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +281,15 @@
               "en": "Spread"
             }
           },
-          "value": 3.4
+          "value": 3.4,
+          "formatted": {
+            "value": {
+              "ru": "3,4°",
+              "en": "3.4°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +302,15 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 4.5
+          "value": 4.5,
+          "formatted": {
+            "value": {
+              "ru": "4,5°",
+              "en": "4.5°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +323,15 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 4.5
+          "value": 4.5,
+          "formatted": {
+            "value": {
+              "ru": "4,5°",
+              "en": "4.5°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +344,15 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 1.0
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "1°",
+              "en": "1°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -269,7 +365,15 @@
               "en": "Draw time"
             }
           },
-          "value": 0.8
+          "value": 0.8,
+          "formatted": {
+            "value": {
+              "ru": "0,8 с",
+              "en": "0.8 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -282,7 +386,15 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.25
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 с",
+              "en": "0.25 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -321,7 +433,7 @@
             },
             "lines": {
               "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1,25"
+              "en": "Headshot damage: x1.25"
             }
           }
         },
@@ -335,7 +447,7 @@
             },
             "lines": {
               "ru": "Урон по конечностям: х0,5",
-              "en": "Limbs damage: х0,5"
+              "en": "weapon.tooltip.weapon.limbs_damage_modifier"
             }
           }
         },
@@ -349,7 +461,7 @@
             },
             "lines": {
               "ru": "Урон по мутантам: х1,5",
-              "en": "Damage to mutants: x1,5"
+              "en": "Damage to mutants: x1.5"
             }
           }
         }
@@ -387,7 +499,7 @@
         "key": "item.wpn.spas.description",
         "args": {},
         "lines": {
-          "ru": "Franchi SPAS-12 (англ. Special Purpose Automatic Shotgun - автоматическое ружьё специального назначения) - итальянское ружьё, разработанное в конце 1970-х годов.",
+          "ru": "Franchi SPAS-12 (англ. Special Purpose Automatic Shotgun - автоматическое ружье специального назначения) - итальянское ружье, разработанное в конце 1970-х годов.",
           "en": "The Franchi SPAS-12 (which is short for “Special Purpose Automatic Shotgun”) is an Italian shotgun that was developed at the end of the 1970s."
         }
       }

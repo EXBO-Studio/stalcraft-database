@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.56
+          "value": 0.56,
+          "formatted": {
+            "value": {
+              "ru": "0,56 кг",
+              "en": "0.56 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -105,7 +113,15 @@
               "en": "Spread"
             }
           },
-          "value": -11.000002
+          "value": -11.000002,
+          "formatted": {
+            "value": {
+              "ru": "-11%",
+              "en": "-11%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "numeric",
@@ -118,7 +134,15 @@
               "en": "Draw speed"
             }
           },
-          "value": 7.0000052
+          "value": 7.0000052,
+          "formatted": {
+            "value": {
+              "ru": "-7%",
+              "en": "-7%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         },
         {
           "type": "numeric",
@@ -131,7 +155,15 @@
               "en": "Damage at range"
             }
           },
-          "value": -19.999998
+          "value": -19.999998,
+          "formatted": {
+            "value": {
+              "ru": "-20%",
+              "en": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         }
       ]
     },
@@ -146,7 +178,7 @@
         "key": "item.att.silencer_scarsd.description",
         "args": {},
         "lines": {
-          "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведёте огонь.",
+          "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",
           "en": "ATTENTION: if you use a silencer, the enemy won’t know where you are firing from."
         }
       }

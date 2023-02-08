@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 1.55
+          "value": 1.55,
+          "formatted": {
+            "value": {
+              "ru": "1,55 кг",
+              "en": "1.55 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -152,7 +176,15 @@
               "en": "Damage"
             }
           },
-          "value": 130.0
+          "value": 130.0,
+          "formatted": {
+            "value": {
+              "ru": "130 ед",
+              "en": "core.tooltip.stat_format.unit_precise"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +197,15 @@
               "en": "Clip capacity"
             }
           },
-          "value": 2.0
+          "value": 2.0,
+          "formatted": {
+            "value": {
+              "ru": "0/2",
+              "en": "0/2"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +218,15 @@
               "en": "Maximum distance"
             }
           },
-          "value": 40.0
+          "value": 40.0,
+          "formatted": {
+            "value": {
+              "ru": "40 м",
+              "en": "40 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +239,15 @@
               "en": "Rate of fire"
             }
           },
-          "value": 500.0
+          "value": 500.0,
+          "formatted": {
+            "value": {
+              "ru": "500 выстр/мин",
+              "en": "500 shots/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +260,15 @@
               "en": "Reload"
             }
           },
-          "value": 3.0
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +281,15 @@
               "en": "Spread"
             }
           },
-          "value": 3.125
+          "value": 3.125,
+          "formatted": {
+            "value": {
+              "ru": "3,12°",
+              "en": "3.12°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +302,15 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 3.75
+          "value": 3.75,
+          "formatted": {
+            "value": {
+              "ru": "3,75°",
+              "en": "3.75°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +323,15 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 8.0
+          "value": 8.0,
+          "formatted": {
+            "value": {
+              "ru": "8°",
+              "en": "8°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +344,15 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 4.0
+          "value": 4.0,
+          "formatted": {
+            "value": {
+              "ru": "4°",
+              "en": "4°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -269,7 +365,15 @@
               "en": "Draw time"
             }
           },
-          "value": 0.4
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 с",
+              "en": "0.4 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -282,7 +386,15 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.15
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 с",
+              "en": "0.15 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -321,7 +433,7 @@
             },
             "lines": {
               "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1,25"
+              "en": "Headshot damage: x1.25"
             }
           }
         },
@@ -335,7 +447,7 @@
             },
             "lines": {
               "ru": "Урон по конечностям: х0,5",
-              "en": "Limbs damage: х0,5"
+              "en": "weapon.tooltip.weapon.limbs_damage_modifier"
             }
           }
         },
@@ -349,7 +461,7 @@
             },
             "lines": {
               "ru": "Урон по мутантам: х1,5",
-              "en": "Damage to mutants: x1,5"
+              "en": "Damage to mutants: x1.5"
             }
           }
         }
@@ -387,7 +499,7 @@
         "key": "item.wpn.obrezbm16.description",
         "args": {},
         "lines": {
-          "ru": "Обрез обычного охотничьего ружья с горизонтальным расположением стволов, значительно более компактный и лёгкий, чем обычная двустволка. Один из самых распространённых видов оружия у бандитов, поскольку удобен для скрытого ношения и очень эффективен в ближнем бою.",
+          "ru": "Обрез обычного охотничьего ружья с горизонтальным расположением стволов, значительно более компактный и легкий, чем обычная двустволка. Один из самых распространенных видов оружия у бандитов, поскольку удобен для скрытого ношения и очень эффективен в ближнем бою.",
           "en": "A sawed-off version of the regular hunting shotgun with a horizontal barrel configuration, this weapon is much lighter and more compact than a regular double-barreled shotgun. It is one of the most widely used weapons among bandits, since it is easy to conceal and is highly effective at close range."
         }
       }

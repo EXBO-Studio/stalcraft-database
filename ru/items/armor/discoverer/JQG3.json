@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 1.0
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -139,7 +163,15 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 9.0
+          "value": 9.0,
+          "formatted": {
+            "value": {
+              "ru": "9",
+              "en": "9"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -152,7 +184,15 @@
               "en": "Melee protection"
             }
           },
-          "value": 15.0
+          "value": 15.0,
+          "formatted": {
+            "value": {
+              "ru": "15",
+              "en": "15"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +205,15 @@
               "en": "Explosion protection"
             }
           },
-          "value": 29.0
+          "value": 29.0,
+          "formatted": {
+            "value": {
+              "ru": "29",
+              "en": "29"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +226,15 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 30.0
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +247,15 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 30.0
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +268,15 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 30.0
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +289,15 @@
               "en": "Radiation protection"
             }
           },
-          "value": 30.0
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +310,15 @@
               "en": "Thermal protection"
             }
           },
-          "value": 10.0
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "10",
+              "en": "10"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +331,36 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 30.0
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +373,15 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 10.0
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -313,7 +438,7 @@
         "key": "item.arm.gorka.description",
         "args": {},
         "lines": {
-          "ru": "Костюм состоит из куртки и брюк с подтяжками. Для лучшего прилегания и во избежание парусения на ветру имеет систему стяжек на основе резино-тканевой тесьмы по бокам куртки, на рукавах, под коленями и внизу брюк. Под куртку одевается лёгкий бронежилет скрытого ношения.",
+          "ru": "Костюм состоит из куртки и брюк с подтяжками. Для лучшего прилегания и во избежание парусения на ветру имеет систему стяжек на основе резино-тканевой тесьмы по бокам куртки, на рукавах, под коленями и внизу брюк. Под куртку одевается легкий бронежилет скрытого ношения.",
           "en": "This suit consists of a coat and pants with suspenders. For a better fit and to prevent it from flapping around like a sail in the wind, it has a system of zip ties made of braids of rubber fabric along the sides of the coat, on the sleeves, under the knees, and at the bottom of the pants. A light, concealed body armor can be worn under the coat."
         }
       }

@@ -1,0 +1,94 @@
+{
+  "id": "2E5a",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.warpcrate.name",
+    "args": {},
+    "lines": {
+      "ru": "Странный ящик",
+      "en": "Strange Crate"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 кг",
+              "en": "5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.warpcrate.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Странный ящик. Несмотря на привычный внешний вид, чувствуется его иномирное происхождение.",
+          "en": "A strange crate. Despite its ordinary appearance, you can sense that this came from another world."
+        }
+      }
+    }
+  ]
+}

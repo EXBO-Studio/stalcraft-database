@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.61
+          "value": 0.61,
+          "formatted": {
+            "value": {
+              "ru": "0,61 кг",
+              "en": "0.61 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -105,7 +113,15 @@
               "en": "Quick attack (min)"
             }
           },
-          "value": 45.0
+          "value": 45.0,
+          "formatted": {
+            "value": {
+              "ru": "45 ед",
+              "en": "45 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -118,7 +134,15 @@
               "en": "Quick attack (max)"
             }
           },
-          "value": 55.0
+          "value": 55.0,
+          "formatted": {
+            "value": {
+              "ru": "55 ед",
+              "en": "55 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -131,7 +155,15 @@
               "en": "Strong attack (min)"
             }
           },
-          "value": 120.0
+          "value": 120.0,
+          "formatted": {
+            "value": {
+              "ru": "120 ед",
+              "en": "120 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -144,7 +176,15 @@
               "en": "Strong attack (max)"
             }
           },
-          "value": 140.0
+          "value": 140.0,
+          "formatted": {
+            "value": {
+              "ru": "140 ед",
+              "en": "140 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -157,7 +197,15 @@
               "en": "Weapon reach (quick)"
             }
           },
-          "value": 1.8
+          "value": 1.8,
+          "formatted": {
+            "value": {
+              "ru": "1,8 м",
+              "en": "1.8 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -170,7 +218,15 @@
               "en": "Weapon reach (strong)"
             }
           },
-          "value": 2.0
+          "value": 2.0,
+          "formatted": {
+            "value": {
+              "ru": "2 м",
+              "en": "2 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -183,7 +239,15 @@
               "en": "Penetration"
             }
           },
-          "value": 70.0
+          "value": 70.0,
+          "formatted": {
+            "value": {
+              "ru": "70%",
+              "en": "70%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -196,7 +260,15 @@
               "en": "Chance for a deep wound"
             }
           },
-          "value": 45.0
+          "value": 45.0,
+          "formatted": {
+            "value": {
+              "ru": "45%",
+              "en": "45%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -222,7 +294,7 @@
             },
             "lines": {
               "ru": "Урон со спины: x1,2",
-              "en": "Backstab damage: x1,2"
+              "en": "Backstab damage: x1.2"
             }
           }
         },
@@ -236,7 +308,7 @@
             },
             "lines": {
               "ru": "Урон по мутантам: x1,2",
-              "en": "Damage to mutants: x1,2"
+              "en": "Damage to mutants: x1.2"
             }
           }
         }
@@ -253,7 +325,7 @@
         "key": "item.21018.description",
         "args": {},
         "lines": {
-          "ru": "Тактический томагавк изготовлен из нержавеющей стали. Достаточно лёгок и хорошо лежит в руке.",
+          "ru": "Тактический томагавк изготовлен из нержавеющей стали. Достаточно легок и хорошо лежит в руке.",
           "en": "This tactical tomahawk is made of stainless steel. It is quite light and easy to handle."
         }
       }

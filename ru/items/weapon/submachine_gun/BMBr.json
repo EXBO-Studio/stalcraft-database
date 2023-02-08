@@ -59,7 +59,7 @@
             "key": "core.handbook.category.submachine_gun",
             "args": {},
             "lines": {
-              "ru": "Пистолеты-пулемёты",
+              "ru": "Пистолеты-пулеметы",
               "en": "Submachine Guns"
             }
           }
@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 1.64
+          "value": 1.64,
+          "formatted": {
+            "value": {
+              "ru": "1,64 кг",
+              "en": "1.64 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -152,7 +176,15 @@
               "en": "Damage"
             }
           },
-          "value": 34.0
+          "value": 34.0,
+          "formatted": {
+            "value": {
+              "ru": "34 ед",
+              "en": "core.tooltip.stat_format.unit_precise"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +197,15 @@
               "en": "Clip capacity"
             }
           },
-          "value": 30.0
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "0/30",
+              "en": "0/30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +218,15 @@
               "en": "Maximum distance"
             }
           },
-          "value": 90.0
+          "value": 90.0,
+          "formatted": {
+            "value": {
+              "ru": "90 м",
+              "en": "90 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +239,15 @@
               "en": "Rate of fire"
             }
           },
-          "value": 800.0
+          "value": 800.0,
+          "formatted": {
+            "value": {
+              "ru": "800 выстр/мин",
+              "en": "800 shots/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +260,15 @@
               "en": "Reload"
             }
           },
-          "value": 2.55
+          "value": 2.55,
+          "formatted": {
+            "value": {
+              "ru": "2,55 с",
+              "en": "2.55 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +281,15 @@
               "en": "Spread"
             }
           },
-          "value": 1.618
+          "value": 1.618,
+          "formatted": {
+            "value": {
+              "ru": "1,62°",
+              "en": "1.62°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +302,15 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 2.401
+          "value": 2.401,
+          "formatted": {
+            "value": {
+              "ru": "2,4°",
+              "en": "2.4°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +323,15 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 0.32
+          "value": 0.32,
+          "formatted": {
+            "value": {
+              "ru": "0,32°",
+              "en": "0.32°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +344,15 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 0.17
+          "value": 0.17,
+          "formatted": {
+            "value": {
+              "ru": "0,17°",
+              "en": "0.17°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -269,7 +365,15 @@
               "en": "Draw time"
             }
           },
-          "value": 0.75
+          "value": 0.75,
+          "formatted": {
+            "value": {
+              "ru": "0,75 с",
+              "en": "0.75 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -282,7 +386,15 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.15
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 с",
+              "en": "0.15 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -321,7 +433,7 @@
             },
             "lines": {
               "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1,25"
+              "en": "Headshot damage: x1.25"
             }
           }
         },
@@ -335,7 +447,7 @@
             },
             "lines": {
               "ru": "Урон по конечностям: х0,5",
-              "en": "Limbs damage: х0,5"
+              "en": "weapon.tooltip.weapon.limbs_damage_modifier"
             }
           }
         }
@@ -373,7 +485,7 @@
         "key": "item.wpn.kedr.description",
         "args": {},
         "lines": {
-          "ru": "ПП-91 «Кедр» (Конструкция Евгения Драгунова) - пистолет-пулемёт, разработанный в начале 1990-х годов по заказу МВД СССР на базе более раннего ПП-71 конструкции Е. Ф. Драгунова. Первые 40 предсерийных образцов были изготовлены в 1992 г. на Ижевском механическом заводе, с 1993 года началось серийное производство на Златоустовском машиностроительном заводе.",
+          "ru": "ПП-91 «Кедр» (Конструкция Евгения Драгунова) - пистолет-пулемет, разработанный в начале 1990-х годов по заказу МВД СССР на базе более раннего ПП-71 конструкции Е. Ф. Драгунова. Первые 40 предсерийных образцов были изготовлены в 1992 г. на Ижевском механическом заводе, с 1993 года началось серийное производство на Златоустовском машиностроительном заводе.",
           "en": "The SMG-91 KEDR (designed by Yevgeny Dragunov) is a submachine gun developed in the early 1990s, on orders from the Ministry of Internal Affairs of the USSR. It was based on an earlier SMG-71, also designed by Dragunov. The first 40 preproduction prototypes were made in 1992 at the Izhevsk Mechanical Plant. Mass production began in 1993, at the Zlatoust Machine-Building Plant."
         }
       }

@@ -6,7 +6,7 @@
     "key": "item.arm.longcoat_donate.name",
     "args": {},
     "lines": {
-      "ru": "Укреплённый плащ",
+      "ru": "Укрепленный плащ",
       "en": "Reinforced Cloak"
     }
   },
@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 2.0
+          "value": 2.0,
+          "formatted": {
+            "value": {
+              "ru": "2 кг",
+              "en": "2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -131,7 +155,15 @@
               "en": "Stamina"
             }
           },
-          "value": -5.0
+          "value": -5.0,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         }
       ]
     },
@@ -153,7 +185,15 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 14.0
+          "value": 14.0,
+          "formatted": {
+            "value": {
+              "ru": "14",
+              "en": "14"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -166,7 +206,15 @@
               "en": "Melee protection"
             }
           },
-          "value": 54.0
+          "value": 54.0,
+          "formatted": {
+            "value": {
+              "ru": "54",
+              "en": "54"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -179,7 +227,15 @@
               "en": "Explosion protection"
             }
           },
-          "value": 17.0
+          "value": 17.0,
+          "formatted": {
+            "value": {
+              "ru": "17",
+              "en": "17"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -192,7 +248,15 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 9.0
+          "value": 9.0,
+          "formatted": {
+            "value": {
+              "ru": "9",
+              "en": "9"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -205,7 +269,15 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 9.0
+          "value": 9.0,
+          "formatted": {
+            "value": {
+              "ru": "9",
+              "en": "9"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -218,7 +290,15 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 9.0
+          "value": 9.0,
+          "formatted": {
+            "value": {
+              "ru": "9",
+              "en": "9"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -231,7 +311,36 @@
               "en": "Radiation protection"
             }
           },
-          "value": 30.0
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -244,7 +353,36 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 30.0
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -257,7 +395,15 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 34.0
+          "value": 34.0,
+          "formatted": {
+            "value": {
+              "ru": "34%",
+              "en": "34%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -314,7 +460,7 @@
         "key": "item.arm.longcoat_donate.description",
         "args": {},
         "lines": {
-          "ru": "Под плотным непромокаемым плащом надет свитер, который скрывает лёгкий бронежилет.",
+          "ru": "Под плотным непромокаемым плащом надет свитер, который скрывает легкий бронежилет.",
           "en": "Beneath this thick waterproof cloak is a sweater, which conceals light body armor."
         }
       }

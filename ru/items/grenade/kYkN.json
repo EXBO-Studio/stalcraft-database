@@ -6,7 +6,7 @@
     "key": "item.exp.vog25p.name",
     "args": {},
     "lines": {
-      "ru": "Выстрел гранатомётный ВОГ-25П «Подкидыш»",
+      "ru": "Выстрел гранатометный ВОГ-25П «Подкидыш»",
       "en": "VOG-25 Podkidysh Grenade Round"
     }
   },
@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.275
+          "value": 0.275,
+          "formatted": {
+            "value": {
+              "ru": "0,28 кг",
+              "en": "0.28 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -100,7 +108,15 @@
               "en": "Damage at center"
             }
           },
-          "value": 500.0
+          "value": 500.0,
+          "formatted": {
+            "value": {
+              "ru": "500 ед",
+              "en": "500 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -113,7 +129,15 @@
               "en": "Minimum damage"
             }
           },
-          "value": 35.0
+          "value": 35.0,
+          "formatted": {
+            "value": {
+              "ru": "35 ед",
+              "en": "35 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -126,7 +150,15 @@
               "en": "Time until detonation"
             }
           },
-          "value": 8.0
+          "value": 8.0,
+          "formatted": {
+            "value": {
+              "ru": "8 с",
+              "en": "8 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -139,7 +171,15 @@
               "en": "Damage range"
             }
           },
-          "value": 8.0
+          "value": 8.0,
+          "formatted": {
+            "value": {
+              "ru": "8 м",
+              "en": "8 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -152,7 +192,15 @@
               "en": "Fuse time"
             }
           },
-          "value": 0.25
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 с",
+              "en": "0.25 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -167,7 +215,7 @@
         "key": "item.exp.vog25p.description",
         "args": {},
         "lines": {
-          "ru": "Осколочный боеприпас для гранатомёта ГП-25 «Костёр». При попадании подпрыгивает, увеличивая зону поражения осколками.",
+          "ru": "Осколочный боеприпас для гранатомета ГП-25 «Костер». При попадании подпрыгивает, увеличивая зону поражения осколками.",
           "en": "A fragmentation round for the GP-25 Kostyor grenade launcher. It bounces when it lands, increasing the area damaged by the fragments."
         }
       }

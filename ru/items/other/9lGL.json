@@ -1,0 +1,149 @@
+{
+  "id": "9lGL",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.pd.node_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Блок данных «Гамма»",
+      "en": "Gamma Data Block"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.origin",
+            "args": {},
+            "lines": {
+              "ru": "Получение",
+              "en": "Obtained"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.brt.pd.node_add.item_origin_tip",
+            "args": {},
+            "lines": {
+              "ru": "С низким шансом при закрытии разломов и обнаружении сигналов на Пути Дураков и Армейских складах",
+              "en": "A low chance when you close rifts and detect signals on the Fools’ Path and in the Army Warehouses"
+            }
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.pd.node_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Блок данных группы «Гамма», полученный с соответствующей аномальной установки.",
+          "en": "A block of data from the Gamma group that was obtained from the corresponding anomalous installation."
+        }
+      }
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     "key": "item.att.launcher_gp25.name",
     "args": {},
     "lines": {
-      "ru": "ГП-25 «Костёр»",
+      "ru": "ГП-25 «Костер»",
       "en": "GP-25 Kostyor"
     }
   },
@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 1.5
+          "value": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "1,5 кг",
+              "en": "1.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -113,7 +121,7 @@
             "key": "item.exp.vog25.name",
             "args": {},
             "lines": {
-              "ru": "Выстрел гранатомётный ВОГ-25",
+              "ru": "Выстрел гранатометный ВОГ-25",
               "en": "VOG-25 Grenade Round"
             }
           }
@@ -125,7 +133,7 @@
             "key": "item.exp.vog25p.name",
             "args": {},
             "lines": {
-              "ru": "Выстрел гранатомётный ВОГ-25П «Подкидыш»",
+              "ru": "Выстрел гранатометный ВОГ-25П «Подкидыш»",
               "en": "VOG-25 Podkidysh Grenade Round"
             }
           }
@@ -137,7 +145,7 @@
             "key": "item.exp.asz40.name",
             "args": {},
             "lines": {
-              "ru": "Выстрел гранатомётный АСЗ-40 «Свирель»",
+              "ru": "Выстрел гранатометный АСЗ-40 «Свирель»",
               "en": "ASZ-40 Svirel Grenade Round"
             }
           }
@@ -163,7 +171,7 @@
         "key": "item.att.launcher_gp25.description",
         "args": {},
         "lines": {
-          "ru": "Российский 40-мм подствольный гранатомёт",
+          "ru": "Российский 40-мм подствольный гранатомет",
           "en": "Russian 40 mm Underbarrel Grenade Launcher"
         }
       }
@@ -283,7 +291,7 @@
             "key": "item.att.forend_akmblack.name",
             "args": {},
             "lines": {
-              "ru": "Цевье деревянное АКМ, чёрное",
+              "ru": "Цевье деревянное АКМ, черное",
               "en": "AKM Wooden Handguard, Black"
             }
           }

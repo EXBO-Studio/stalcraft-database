@@ -54,7 +54,15 @@
               "en": "Weight"
             }
           },
-          "value": 0.05
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -105,7 +113,15 @@
               "en": "Duration"
             }
           },
-          "value": 300.0
+          "value": 300.0,
+          "formatted": {
+            "value": {
+              "ru": "5 мин",
+              "en": "5 min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -118,7 +134,15 @@
               "en": "Poison"
             }
           },
-          "value": 25.0
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "25",
+              "en": "25"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -140,7 +164,15 @@
               "en": "Health regeneration"
             }
           },
-          "value": 2.5
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5%",
+              "en": "2.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "numeric",
@@ -153,7 +185,15 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 15.0
+          "value": 15.0,
+          "formatted": {
+            "value": {
+              "ru": "15%",
+              "en": "15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         },
         {
           "type": "numeric",
@@ -166,7 +206,15 @@
               "en": "Bleeding"
             }
           },
-          "value": -1.0
+          "value": -1.0,
+          "formatted": {
+            "value": {
+              "ru": "-1",
+              "en": "-1"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -181,7 +229,7 @@
         "key": "item.med.astrikcin.description",
         "args": {},
         "lines": {
-          "ru": "Медицинский препарат, пришедший на замену «Барвинку» и комплексно способствующий загустению и быстрому свёртыванию крови. Активно используется военными и получил отличные отзывы, так как обладает меньшей токсичностью.",
+          "ru": "Медицинский препарат, пришедший на замену «Барвинку» и комплексно способствующий загустению и быстрому свертыванию крови. Активно используется военными и получил отличные отзывы, так как обладает меньшей токсичностью.",
           "en": "A medicinal drug that replaced Vinca, which comprehensively contributes to the coagulation and clotting of the blood. Actively used by soldiers, it gets good reviews as it is less toxic."
         }
       }

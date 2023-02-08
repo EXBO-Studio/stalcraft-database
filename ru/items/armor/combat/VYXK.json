@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 5.0
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 кг",
+              "en": "5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -131,7 +155,15 @@
               "en": "Carry weight"
             }
           },
-          "value": 6.0
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "+6",
+              "en": "+6"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -153,7 +185,15 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 33.0
+          "value": 33.0,
+          "formatted": {
+            "value": {
+              "ru": "33",
+              "en": "33"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -166,7 +206,15 @@
               "en": "Melee protection"
             }
           },
-          "value": 47.0
+          "value": 47.0,
+          "formatted": {
+            "value": {
+              "ru": "47",
+              "en": "47"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -179,7 +227,15 @@
               "en": "Explosion protection"
             }
           },
-          "value": 63.0
+          "value": 63.0,
+          "formatted": {
+            "value": {
+              "ru": "63",
+              "en": "63"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -192,7 +248,15 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 53.0
+          "value": 53.0,
+          "formatted": {
+            "value": {
+              "ru": "53",
+              "en": "53"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -205,7 +269,15 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 53.0
+          "value": 53.0,
+          "formatted": {
+            "value": {
+              "ru": "53",
+              "en": "53"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -218,7 +290,15 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 53.0
+          "value": 53.0,
+          "formatted": {
+            "value": {
+              "ru": "53",
+              "en": "53"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -231,7 +311,15 @@
               "en": "Radiation protection"
             }
           },
-          "value": 60.0
+          "value": 60.0,
+          "formatted": {
+            "value": {
+              "ru": "60",
+              "en": "60"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -244,7 +332,15 @@
               "en": "Thermal protection"
             }
           },
-          "value": 45.0
+          "value": 45.0,
+          "formatted": {
+            "value": {
+              "ru": "45",
+              "en": "45"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -257,7 +353,36 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 60.0
+          "value": 60.0,
+          "formatted": {
+            "value": {
+              "ru": "60",
+              "en": "60"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -270,7 +395,15 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 33.0
+          "value": 33.0,
+          "formatted": {
+            "value": {
+              "ru": "33%",
+              "en": "33%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -327,7 +460,7 @@
         "key": "item.arm.kz1.description",
         "args": {},
         "lines": {
-          "ru": "Один из первых костюмов группировки «Горизонт». Неоднозначный, но дешевый и удобный комплект с характеристиками, схожими с «Зарёй».",
+          "ru": "Один из первых костюмов группировки «Горизонт». Неоднозначный, но дешевый и удобный комплект с характеристиками, схожими с «Зарей».",
           "en": "One of the first suits for the Horizon clan. A mixed, but cheap and comfortable set with properties similar to Zarya."
         }
       }

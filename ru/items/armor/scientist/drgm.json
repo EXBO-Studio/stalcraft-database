@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 3.3
+          "value": 3.3,
+          "formatted": {
+            "value": {
+              "ru": "3,3 кг",
+              "en": "3.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -131,7 +155,15 @@
               "en": "Stamina"
             }
           },
-          "value": -15.0
+          "value": -15.0,
+          "formatted": {
+            "value": {
+              "ru": "-15%",
+              "en": "-15%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         }
       ]
     },
@@ -153,7 +185,15 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 10.0
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "10",
+              "en": "10"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -166,7 +206,15 @@
               "en": "Melee protection"
             }
           },
-          "value": 15.0
+          "value": 15.0,
+          "formatted": {
+            "value": {
+              "ru": "15",
+              "en": "15"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -179,7 +227,15 @@
               "en": "Explosion protection"
             }
           },
-          "value": 19.0
+          "value": 19.0,
+          "formatted": {
+            "value": {
+              "ru": "19",
+              "en": "19"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -192,7 +248,15 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 148.0
+          "value": 148.0,
+          "formatted": {
+            "value": {
+              "ru": "148",
+              "en": "148"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -205,7 +269,15 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 148.0
+          "value": 148.0,
+          "formatted": {
+            "value": {
+              "ru": "148",
+              "en": "148"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -218,7 +290,15 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 148.0
+          "value": 148.0,
+          "formatted": {
+            "value": {
+              "ru": "148",
+              "en": "148"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -231,7 +311,15 @@
               "en": "Radiation protection"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100",
+              "en": "100"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -244,7 +332,15 @@
               "en": "Thermal protection"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100",
+              "en": "100"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -257,7 +353,36 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100",
+              "en": "100"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          },
+          "value": 0.0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -270,7 +395,15 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 10.0
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -327,7 +460,7 @@
         "key": "item.arm.ip4m.description",
         "args": {},
         "lines": {
-          "ru": "Противогаз с замкнутой системой дыхания ИП-4м — крайне полезная штука. Комфортнее всего одевать его с ОЗК. Кто-то решил преумножить выгоду от ношения такого комплекта, собрав подкладку из легких пластин, увеличивающие защиту от пуль и других физических повреждений. В итоге получился хороший костюм для начинающего сталкера, которому уже не солидно носить куртку, но ещё не хватает денег на комбинезон типа «Зари».",
+          "ru": "Противогаз с замкнутой системой дыхания ИП-4м — крайне полезная штука. Комфортнее всего одевать его с ОЗК. Кто-то решил преумножить выгоду от ношения такого комплекта, собрав подкладку из легких пластин, увеличивающие защиту от пуль и других физических повреждений. В итоге получился хороший костюм для начинающего сталкера, которому уже не солидно носить куртку, но еще не хватает денег на комбинезон типа «Зари».",
           "en": "This gas mask with an IP-4M closed breathing system is a really handy gizmo. The most comfortable way to wear it is with a hazmat suit. Someone decided to multiply the benefit of wearing this suit a tenfold by creating a lining made of light plates that improve protection against bullets and other forms of physical damage. What they ended up with was a good suit for a novice stalker who has grown out of wearing a jacket, but can’t yet afford a suit like the Zarya model."
         }
       }

@@ -59,7 +59,7 @@
             "key": "core.handbook.category.submachine_gun",
             "args": {},
             "lines": {
-              "ru": "Пистолеты-пулемёты",
+              "ru": "Пистолеты-пулеметы",
               "en": "Submachine Guns"
             }
           }
@@ -75,7 +75,15 @@
               "en": "Weight"
             }
           },
-          "value": 2.78
+          "value": 2.78,
+          "formatted": {
+            "value": {
+              "ru": "2,78 кг",
+              "en": "2.78 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -88,7 +96,15 @@
               "en": "Durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         },
         {
           "type": "numeric",
@@ -101,7 +117,15 @@
               "en": "Max. durability"
             }
           },
-          "value": 100.0
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -152,7 +176,15 @@
               "en": "Damage"
             }
           },
-          "value": 36.0
+          "value": 36.0,
+          "formatted": {
+            "value": {
+              "ru": "36 ед",
+              "en": "core.tooltip.stat_format.unit_precise"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -165,7 +197,15 @@
               "en": "Clip capacity"
             }
           },
-          "value": 50.0
+          "value": 50.0,
+          "formatted": {
+            "value": {
+              "ru": "0/50",
+              "en": "0/50"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -178,7 +218,15 @@
               "en": "Maximum distance"
             }
           },
-          "value": 110.0
+          "value": 110.0,
+          "formatted": {
+            "value": {
+              "ru": "110 м",
+              "en": "110 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -191,7 +239,15 @@
               "en": "Rate of fire"
             }
           },
-          "value": 800.0
+          "value": 800.0,
+          "formatted": {
+            "value": {
+              "ru": "800 выстр/мин",
+              "en": "800 shots/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -204,7 +260,15 @@
               "en": "Reload"
             }
           },
-          "value": 3.25
+          "value": 3.25,
+          "formatted": {
+            "value": {
+              "ru": "3,25 с",
+              "en": "3.25 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -217,7 +281,15 @@
               "en": "Spread"
             }
           },
-          "value": 0.749
+          "value": 0.749,
+          "formatted": {
+            "value": {
+              "ru": "0,75°",
+              "en": "0.75°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -230,7 +302,15 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 2.25
+          "value": 2.25,
+          "formatted": {
+            "value": {
+              "ru": "2,25°",
+              "en": "2.25°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -243,7 +323,15 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 0.22
+          "value": 0.22,
+          "formatted": {
+            "value": {
+              "ru": "0,22°",
+              "en": "0.22°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -256,7 +344,15 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 0.12
+          "value": 0.12,
+          "formatted": {
+            "value": {
+              "ru": "0,12°",
+              "en": "0.12°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -269,7 +365,15 @@
               "en": "Draw time"
             }
           },
-          "value": 0.8
+          "value": 0.8,
+          "formatted": {
+            "value": {
+              "ru": "0,8 с",
+              "en": "0.8 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         },
         {
           "type": "numeric",
@@ -282,7 +386,15 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.2
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 с",
+              "en": "0.2 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -321,7 +433,7 @@
             },
             "lines": {
               "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1,25"
+              "en": "Headshot damage: x1.25"
             }
           }
         },
@@ -335,7 +447,7 @@
             },
             "lines": {
               "ru": "Урон по конечностям: х0,5",
-              "en": "Limbs damage: х0,5"
+              "en": "weapon.tooltip.weapon.limbs_damage_modifier"
             }
           }
         }
@@ -373,7 +485,7 @@
         "key": "item.wpn.p90.description",
         "args": {},
         "lines": {
-          "ru": "FN P90 - бельгийский пистолет-пулемёт, разработанный в 1986 - 1987 годах фирмой FN Herstal. Специально для P90 был разработан патрон типа 5,7x28 мм, обладающий высокой пробивной мощностью, однако ввиду малой популярности боеприпаса образцы, попадающие в Зону, подвергаются конвертации под 9 мм патрон. Благодаря высокой эргономичности данный ПП стал достаточно популярным среди зажиточных сталкеров и туристов-экстремалов.",
+          "ru": "FN P90 - бельгийский пистолет-пулемет, разработанный в 1986 - 1987 годах фирмой FN Herstal. Специально для P90 был разработан патрон типа 5,7x28 мм, обладающий высокой пробивной мощностью, однако ввиду малой популярности боеприпаса образцы, попадающие в Зону, подвергаются конвертации под 9 мм патрон. Благодаря высокой эргономичности данный ПП стал достаточно популярным среди зажиточных сталкеров и туристов-экстремалов.",
           "en": "The FN P90 is a Belgian submachine gun developed in 1986–1987 by FN Herstal. The 5.7x28 mm ammo type was developed specially for the P90, and has high penetration. However, due to the low popularity of the ammo, P90s which reach the Zone have been converted to use 9 mm ammo. This submachine gun has become fairly popular among well-to-do stalkers and thrill-seekers on tour."
         }
       }
