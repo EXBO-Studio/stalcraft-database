@@ -1,0 +1,106 @@
+{
+  "id": "xEEN",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.19819.name",
+    "args": {},
+    "lines": {
+      "ru": "«Износ»",
+      "en": "Deterioration"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.skins",
+            "args": {},
+            "lines": {
+              "ru": "Скины и Краски",
+              "en": "Skins and Paint"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.weapon_unique_skin.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Уникальная краска для оружия",
+          "en": "Unique paint for weapons"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.lore.skin.all_suitable_targets",
+            "args": {},
+            "lines": {
+              "ru": "Подходит для:",
+              "en": "Suitable for:"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.wpn.rmo93.name",
+            "args": {},
+            "lines": {
+              "ru": "РМО-93",
+              "en": "RMB-93"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

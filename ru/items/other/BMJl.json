@@ -1,0 +1,106 @@
+{
+  "id": "BMJl",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.unique_arm.buldozer.name",
+    "args": {},
+    "lines": {
+      "ru": "«БУЛЬДОЗЕР»",
+      "en": "BULLDOZER"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.skins",
+            "args": {},
+            "lines": {
+              "ru": "Скины и Краски",
+              "en": "Skins and Paint"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.armor_unique_skin.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Уникальная краска для брони",
+          "en": "Unique paint for armor"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.lore.skin.all_suitable_targets",
+            "args": {},
+            "lines": {
+              "ru": "Подходит для:",
+              "en": "Suitable for:"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.arm.tank.name",
+            "args": {},
+            "lines": {
+              "ru": "SBA TANK",
+              "en": "SBA TANK"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
