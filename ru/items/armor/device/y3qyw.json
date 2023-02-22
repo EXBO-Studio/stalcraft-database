@@ -1,0 +1,78 @@
+{
+  "id": "y3qyw",
+  "category": "armor/device",
+  "name": {
+    "type": "translation",
+    "key": "item.device.nvdo.name",
+    "args": {},
+    "lines": {
+      "ru": "ПНВ О1М",
+      "en": "NVG O1M"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.device",
+            "args": {},
+            "lines": {
+              "ru": "Устройства",
+              "en": "Devices"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 1.6,
+          "formatted": {
+            "value": {
+              "ru": "1,6 кг",
+              "en": "1.6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    }
+  ]
+}
