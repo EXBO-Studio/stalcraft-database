@@ -1,0 +1,1512 @@
+[
+  {
+    "id": "dun-pas",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dun-pas",
+      "args": {},
+      "lines": {
+        "ru": "Данжей пройдено",
+        "en": "Dungeons completed"
+      }
+    }
+  },
+  {
+    "id": "kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито игроков",
+        "en": "Kills"
+      }
+    }
+  },
+  {
+    "id": "ast",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.ast",
+      "args": {},
+      "lines": {
+        "ru": "Помощь в убийстве",
+        "en": "Assists"
+      }
+    }
+  },
+  {
+    "id": "dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей",
+        "en": "Deaths"
+      }
+    }
+  },
+  {
+    "id": "max-kil-ser",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.max-kil-ser",
+      "args": {},
+      "lines": {
+        "ru": "Максимальная серия убийств",
+        "en": "Longest killstreak"
+      }
+    }
+  },
+  {
+    "id": "exp-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.exp-kil",
+      "args": {},
+      "lines": {
+        "ru": "Взорвано игроков",
+        "en": "Players blown up"
+      }
+    }
+  },
+  {
+    "id": "col-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.col-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от холодного оружия",
+        "en": "Deaths from melee weapons"
+      }
+    }
+  },
+  {
+    "id": "exp-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.exp-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от взрывов",
+        "en": "Deaths from explosions"
+      }
+    }
+  },
+  {
+    "id": "fal-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.fal-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от падения",
+        "en": "Deaths from falling"
+      }
+    }
+  },
+  {
+    "id": "suf-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.suf-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от удушья",
+        "en": "Deaths from suffocation"
+      }
+    }
+  },
+  {
+    "id": "suicides",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.suicides",
+      "args": {},
+      "lines": {
+        "ru": "Самоубийств",
+        "en": "Suicides"
+      }
+    }
+  },
+  {
+    "id": "dam-dea-pla",
+    "category": "COMBAT",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dam-dea-pla",
+      "args": {},
+      "lines": {
+        "ru": "Нанесено урона игрокам",
+        "en": "Damage dealt to players"
+      }
+    }
+  },
+  {
+    "id": "dam-rec-pla",
+    "category": "COMBAT",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dam-rec-pla",
+      "args": {},
+      "lines": {
+        "ru": "Получено урона от игроков",
+        "en": "Damage received from players"
+      }
+    }
+  },
+  {
+    "id": "dam-dea-all",
+    "category": "COMBAT",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dam-dea-all",
+      "args": {},
+      "lines": {
+        "ru": "Нанесено урона всего",
+        "en": "Total damage dealt"
+      }
+    }
+  },
+  {
+    "id": "dam-rec-all",
+    "category": "COMBAT",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dam-rec-all",
+      "args": {},
+      "lines": {
+        "ru": "Получено урона всего",
+        "en": "Total damage received"
+      }
+    }
+  },
+  {
+    "id": "dam-exp",
+    "category": "COMBAT",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dam-exp",
+      "args": {},
+      "lines": {
+        "ru": "Нанесено урона игрокам взрывами",
+        "en": "Damage dealt to players with explosions"
+      }
+    }
+  },
+  {
+    "id": "pla-tim",
+    "category": "EXPLORATION",
+    "type": "DURATION",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.pla-tim",
+      "args": {},
+      "lines": {
+        "ru": "Времени в игре",
+        "en": "Time spent in the game"
+      }
+    }
+  },
+  {
+    "id": "reg-tim",
+    "category": "EXPLORATION",
+    "type": "DATE",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.reg-tim",
+      "args": {},
+      "lines": {
+        "ru": "Пришел в Зону",
+        "en": "Arrived in the Zone"
+      }
+    }
+  },
+  {
+    "id": "dis-on-foo",
+    "category": "EXPLORATION",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dis-on-foo",
+      "args": {},
+      "lines": {
+        "ru": "Преодолено пешком",
+        "en": "Distance traveled on foot"
+      }
+    }
+  },
+  {
+    "id": "dis-cra",
+    "category": "EXPLORATION",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dis-cra",
+      "args": {},
+      "lines": {
+        "ru": "Преодолено ползком",
+        "en": "Distance traveled by crawling"
+      }
+    }
+  },
+  {
+    "id": "dis-sne",
+    "category": "EXPLORATION",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dis-sne",
+      "args": {},
+      "lines": {
+        "ru": "Преодолено крадучись",
+        "en": "Distance traveled by crouching"
+      }
+    }
+  },
+  {
+    "id": "dis-air",
+    "category": "EXPLORATION",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dis-air",
+      "args": {},
+      "lines": {
+        "ru": "Преодолено в полете (падении)",
+        "en": "Distance traveled by air (falling)"
+      }
+    }
+  },
+  {
+    "id": "ach-gai",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.ach-gai",
+      "args": {},
+      "lines": {
+        "ru": "Достижений получено",
+        "en": "Achievements obtained"
+      }
+    }
+  },
+  {
+    "id": "ite-cra",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.ite-cra",
+      "args": {},
+      "lines": {
+        "ru": "Изготовлено предметов",
+        "en": "Items crafted"
+      }
+    }
+  },
+  {
+    "id": "ach-points",
+    "category": "NONE",
+    "type": "INTEGER",
+    "name": {
+      "type": "text",
+      "text": ""
+    }
+  },
+  {
+    "id": "rad-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.rad-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от заражения",
+        "en": "Deaths from infection"
+      }
+    }
+  },
+  {
+    "id": "ble-to-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.ble-to-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от кровопотери",
+        "en": "Deaths from blood loss"
+      }
+    }
+  },
+  {
+    "id": "med-sup-use",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.med-sup-use",
+      "args": {},
+      "lines": {
+        "ru": "Медикаментов использовано",
+        "en": "Medicines used"
+      }
+    }
+  },
+  {
+    "id": "back-fix",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.back-fix",
+      "args": {},
+      "lines": {
+        "ru": "Отремонтировано рюкзаков",
+        "en": "Backpacks repaired"
+      }
+    }
+  },
+  {
+    "id": "wea-fix",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.wea-fix",
+      "args": {},
+      "lines": {
+        "ru": "Отремонтировано оружия",
+        "en": "Weapons repaired"
+      }
+    }
+  },
+  {
+    "id": "arm-fix",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.arm-fix",
+      "args": {},
+      "lines": {
+        "ru": "Отремонтировано брони",
+        "en": "Armor repaired"
+      }
+    }
+  },
+  {
+    "id": "foo-eat",
+    "category": "EXPLORATION",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.foo-eat",
+      "args": {},
+      "lines": {
+        "ru": "Пищи съедено",
+        "en": "Food eaten"
+      }
+    }
+  },
+  {
+    "id": "tpacks-delivered",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tpacks-delivered",
+      "args": {},
+      "lines": {
+        "ru": "Доставлено посылок",
+        "en": "Packages delivered"
+      }
+    }
+  },
+  {
+    "id": "tpacks-inter",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tpacks-inter",
+      "args": {},
+      "lines": {
+        "ru": "Перехвачено посылок",
+        "en": "Packages intercepted"
+      }
+    }
+  },
+  {
+    "id": "tpacks-craft",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tpacks-craft",
+      "args": {},
+      "lines": {
+        "ru": "Изготовлено посылок",
+        "en": "Packages crafted"
+      }
+    }
+  },
+  {
+    "id": "tpacks-money",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tpacks-money",
+      "args": {},
+      "lines": {
+        "ru": "Заработано денег на доставке посылок",
+        "en": "Money earned by delivering packages"
+      }
+    }
+  },
+  {
+    "id": "tpacks-money-w",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tpacks-money-w",
+      "args": {},
+      "lines": {
+        "ru": "Потрачено денег на посылки",
+        "en": "Money spent on packages"
+      }
+    }
+  },
+  {
+    "id": "tpacks-distance",
+    "category": "EXPLORATION",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tpacks-distance",
+      "args": {},
+      "lines": {
+        "ru": "Преодолено с торговым рюкзаком",
+        "en": "Distance traveled with a trader’s backpack"
+      }
+    }
+  },
+  {
+    "id": "raffle-tickets-ny22",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.raffle-tickets-ny22",
+      "args": {},
+      "lines": {
+        "ru": "Найдено билетов участника",
+        "en": "Participation Tickets found"
+      }
+    }
+  },
+  {
+    "id": "blizzard-won",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.blizzard-won",
+      "args": {},
+      "lines": {
+        "ru": "Пережито аномальных буранов",
+        "en": "Anomalous Blizzards survived"
+      }
+    }
+  },
+  {
+    "id": "incident-part",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.incident-part",
+      "args": {},
+      "lines": {
+        "ru": "Проведено операций с группой Костелевского",
+        "en": "Operations undertaken with the Kostelevsky group"
+      }
+    }
+  },
+  {
+    "id": "incident-win",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.incident-win",
+      "args": {},
+      "lines": {
+        "ru": "Проведено успешных операций с группой Костелевского",
+        "en": "Operations successfully undertaken with the Kostelevsky group"
+      }
+    }
+  },
+  {
+    "id": "air-drops-fnd",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.air-drops-fnd",
+      "args": {},
+      "lines": {
+        "ru": "Обнаружено сброшенных контейнеров",
+        "en": "Dropped containers discovered"
+      }
+    }
+  },
+  {
+    "id": "air-drops-hckd",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.air-drops-hckd",
+      "args": {},
+      "lines": {
+        "ru": "Взломано сброшенных контейнеров",
+        "en": "Dropped containers broken into"
+      }
+    }
+  },
+  {
+    "id": "mining-count",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mining-count",
+      "args": {},
+      "lines": {
+        "ru": "Тайников выкопано",
+        "en": "Stashes dug up"
+      }
+    }
+  },
+  {
+    "id": "ano-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.ano-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от аномалий",
+        "en": "Deaths from anomalies"
+      }
+    }
+  },
+  {
+    "id": "fun-ano-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.fun-ano-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от воронки",
+        "en": "Deaths from Blackholes"
+      }
+    }
+  },
+  {
+    "id": "car-ano-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.car-ano-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от карусели",
+        "en": "Deaths from Vortices"
+      }
+    }
+  },
+  {
+    "id": "kis-ano-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.kis-ano-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от киселя",
+        "en": "Deaths from Kissel"
+      }
+    }
+  },
+  {
+    "id": "tra-ano-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tra-ano-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от трамплина",
+        "en": "Deaths from Springboards"
+      }
+    }
+  },
+  {
+    "id": "lig-ano-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.lig-ano-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от жарки",
+        "en": "Deaths from Lighters"
+      }
+    }
+  },
+  {
+    "id": "ste-ano-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.ste-ano-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от пара",
+        "en": "Deaths from Steam"
+      }
+    }
+  },
+  {
+    "id": "ele-ano-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.ele-ano-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от электры",
+        "en": "Deaths from Electros"
+      }
+    }
+  },
+  {
+    "id": "cir-ano-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.cir-ano-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от цирка",
+        "en": "Deaths from Circus"
+      }
+    }
+  },
+  {
+    "id": "art-col",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.art-col",
+      "args": {},
+      "lines": {
+        "ru": "Артефактов собрано",
+        "en": "Artifacts collected"
+      }
+    }
+  },
+  {
+    "id": "scr-thr",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.scr-thr",
+      "args": {},
+      "lines": {
+        "ru": "Болтов брошено",
+        "en": "Bolts thrown"
+      }
+    }
+  },
+  {
+    "id": "scn-cnt",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.scn-cnt",
+      "args": {},
+      "lines": {
+        "ru": "Сканирований проведено",
+        "en": "Scans conducted"
+      }
+    }
+  },
+  {
+    "id": "sgn-fnd",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.sgn-fnd",
+      "args": {},
+      "lines": {
+        "ru": "Обнаружено сигналов",
+        "en": "Signals discovered"
+      }
+    }
+  },
+  {
+    "id": "mut-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито мутантов",
+        "en": "Mutants killed"
+      }
+    }
+  },
+  {
+    "id": "mut-pse-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-pse-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито псевдособак",
+        "en": "Pseudodogs killed"
+      }
+    }
+  },
+  {
+    "id": "mut-dog-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-dog-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито слепых псов",
+        "en": "Blind dogs killed"
+      }
+    }
+  },
+  {
+    "id": "mut-flsh-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-flsh-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито плотей",
+        "en": "Fleshes killed"
+      }
+    }
+  },
+  {
+    "id": "mut-psi-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-psi-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито псисобак",
+        "en": "Psy-dogs killed"
+      }
+    }
+  },
+  {
+    "id": "mut-boar-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-boar-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито кабанов",
+        "en": "Boars killed"
+      }
+    }
+  },
+  {
+    "id": "mut-krv-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-krv-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито кровососов",
+        "en": "Bloodsuckers killed"
+      }
+    }
+  },
+  {
+    "id": "mut-elp-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-elp-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито снорков",
+        "en": "Snorks killed"
+      }
+    }
+  },
+  {
+    "id": "mut-gig-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-gig-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито псевдогигантов",
+        "en": "Pseudogiants killed"
+      }
+    }
+  },
+  {
+    "id": "mut-tush-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-tush-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито тушканчиков",
+        "en": "Rodents killed"
+      }
+    }
+  },
+  {
+    "id": "mut-chi-kill",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mut-chi-kill",
+      "args": {},
+      "lines": {
+        "ru": "Убито химер",
+        "en": "Chimeras killed"
+      }
+    }
+  },
+  {
+    "id": "par-tim",
+    "category": "EXPLORATION",
+    "type": "DURATION",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.par-tim",
+      "args": {},
+      "lines": {
+        "ru": "Времени в отряде",
+        "en": "Time spent in a squad"
+      }
+    }
+  },
+  {
+    "id": "tra",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tra",
+      "args": {},
+      "lines": {
+        "ru": "Успешных обменов",
+        "en": "Successful trades"
+      }
+    }
+  },
+  {
+    "id": "bul-dea",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.bul-dea",
+      "args": {},
+      "lines": {
+        "ru": "Смертей от пуль",
+        "en": "Deaths from bullets"
+      }
+    }
+  },
+  {
+    "id": "sho-fir",
+    "category": "COMBAT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.sho-fir",
+      "args": {},
+      "lines": {
+        "ru": "Выстрелов произведено",
+        "en": "Shots fired"
+      }
+    }
+  },
+  {
+    "id": "sho-hit",
+    "category": "COMBAT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.sho-hit",
+      "args": {},
+      "lines": {
+        "ru": "Количество попаданий",
+        "en": "Number of hits"
+      }
+    }
+  },
+  {
+    "id": "sho-hea",
+    "category": "COMBAT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.sho-hea",
+      "args": {},
+      "lines": {
+        "ru": "Выстрелов в голову",
+        "en": "Headshots"
+      }
+    }
+  },
+  {
+    "id": "sho-bod",
+    "category": "COMBAT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.sho-bod",
+      "args": {},
+      "lines": {
+        "ru": "Выстрелов в тело",
+        "en": "Shots to torso"
+      }
+    }
+  },
+  {
+    "id": "sho-lim",
+    "category": "COMBAT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.sho-lim",
+      "args": {},
+      "lines": {
+        "ru": "Выстрелов в конечности",
+        "en": "Shots to limbs"
+      }
+    }
+  },
+  {
+    "id": "gre-thr",
+    "category": "COMBAT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.gre-thr",
+      "args": {},
+      "lines": {
+        "ru": "Гранат брошено",
+        "en": "Grenades thrown"
+      }
+    }
+  },
+  {
+    "id": "equ-upg",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.equ-upg",
+      "args": {},
+      "lines": {
+        "ru": "Апгрейдов снаряжения",
+        "en": "Gear upgrades"
+      }
+    }
+  },
+  {
+    "id": "suc-equ-upg",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.suc-equ-upg",
+      "args": {},
+      "lines": {
+        "ru": "Успешных апгрейдов снаряжения",
+        "en": "Successful gear upgrades"
+      }
+    }
+  },
+  {
+    "id": "kni-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.kni-kil",
+      "args": {},
+      "lines": {
+        "ru": "Зарезано игроков",
+        "en": "Players slaughtered"
+      }
+    }
+  },
+  {
+    "id": "gui-ent",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.gui-ent",
+      "args": {},
+      "lines": {
+        "ru": "Вступлений в группировки",
+        "en": "Times you’ve joined a clan"
+      }
+    }
+  },
+  {
+    "id": "unit-ent",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.unit-ent",
+      "args": {},
+      "lines": {
+        "ru": "Вступлений в подразделения",
+        "en": "Times you’ve joined a subdivision"
+      }
+    }
+  },
+  {
+    "id": "bas-cap-amo",
+    "category": "NONE",
+    "type": "INTEGER",
+    "name": {
+      "type": "text",
+      "text": ""
+    }
+  },
+  {
+    "id": "bas-cap-tim",
+    "category": "NONE",
+    "type": "DURATION",
+    "name": {
+      "type": "text",
+      "text": ""
+    }
+  },
+  {
+    "id": "bas-def-amo",
+    "category": "NONE",
+    "type": "INTEGER",
+    "name": {
+      "type": "text",
+      "text": ""
+    }
+  },
+  {
+    "id": "bas-def-tim",
+    "category": "NONE",
+    "type": "DURATION",
+    "name": {
+      "type": "text",
+      "text": ""
+    }
+  },
+  {
+    "id": "joined-guild",
+    "category": "NONE",
+    "type": "DATE",
+    "name": {
+      "type": "text",
+      "text": ""
+    }
+  },
+  {
+    "id": "part-bf",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.part-bf",
+      "args": {},
+      "lines": {
+        "ru": "Проведено игр в режиме \"Противостояние\"",
+        "en": "Games played in Standoff mode"
+      }
+    }
+  },
+  {
+    "id": "kills-bf",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.kills-bf",
+      "args": {},
+      "lines": {
+        "ru": "Убито игроков в режиме \"Противостояние\"",
+        "en": "Players killed in Standoff mode"
+      }
+    }
+  },
+  {
+    "id": "deaths-bf",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.deaths-bf",
+      "args": {},
+      "lines": {
+        "ru": "Смертей в режиме \"Противостояние\"",
+        "en": "Deaths in Standoff mode"
+      }
+    }
+  },
+  {
+    "id": "won-bf",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.won-bf",
+      "args": {},
+      "lines": {
+        "ru": "Побед в режиме \"Противостояние\"",
+        "en": "Victories in Standoff mode"
+      }
+    }
+  },
+  {
+    "id": "lost-bf",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.lost-bf",
+      "args": {},
+      "lines": {
+        "ru": "Поражений в режиме \"Противостояние\"",
+        "en": "Defeats in Standoff mode"
+      }
+    }
+  },
+  {
+    "id": "won-fights-equal",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.won-fights-equal",
+      "args": {},
+      "lines": {
+        "ru": "Побед в поединках в равных условиях",
+        "en": "Victories in fights on equal terms"
+      }
+    }
+  },
+  {
+    "id": "won-fights-personal",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.won-fights-personal",
+      "args": {},
+      "lines": {
+        "ru": "Побед в поединках с личным снаряжением",
+        "en": "Victories in fights with your own gear"
+      }
+    }
+  },
+  {
+    "id": "fights-part",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.fights-part",
+      "args": {},
+      "lines": {
+        "ru": "Участий в поединках",
+        "en": "Fights taken part in"
+      }
+    }
+  },
+  {
+    "id": "br-won",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.br-won",
+      "args": {},
+      "lines": {
+        "ru": "Побед в королевской битве",
+        "en": "Victories in Battle Royale mode"
+      }
+    }
+  },
+  {
+    "id": "br-count",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.br-count",
+      "args": {},
+      "lines": {
+        "ru": "Сыграно королевских битв",
+        "en": "Games played in Battle Royale mode"
+      }
+    }
+  },
+  {
+    "id": "br-kills",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.br-kills",
+      "args": {},
+      "lines": {
+        "ru": "Убийств в королевской битве",
+        "en": "Kills in Battle Royale mode"
+      }
+    }
+  },
+  {
+    "id": "br-tasks",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.br-tasks",
+      "args": {},
+      "lines": {
+        "ru": "Выполнено задач в королевской битве",
+        "en": "Tasks completed in Battle Royale mode"
+      }
+    }
+  },
+  {
+    "id": "cha-mes-sen",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.cha-mes-sen",
+      "args": {},
+      "lines": {
+        "ru": "Сообщений в чат отправлено",
+        "en": "Messages sent in chat"
+      }
+    }
+  },
+  {
+    "id": "npc-kil",
+    "category": "SURVIVAL",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.npc-kil",
+      "args": {},
+      "lines": {
+        "ru": "Убито NPC",
+        "en": "NPCs killed"
+      }
+    }
+  },
+  {
+    "id": "mon-gai-tra",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mon-gai-tra",
+      "args": {},
+      "lines": {
+        "ru": "Заработано денег от продажи торговцам",
+        "en": "Money earned from sales to merchants"
+      }
+    }
+  },
+  {
+    "id": "mon-gai-que",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mon-gai-que",
+      "args": {},
+      "lines": {
+        "ru": "Заработано денег с квестов",
+        "en": "Money earned from quests"
+      }
+    }
+  },
+  {
+    "id": "ite-bou-tra",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.ite-bou-tra",
+      "args": {},
+      "lines": {
+        "ru": "Куплено вещей у торговцев",
+        "en": "Items bought from merchants"
+      }
+    }
+  },
+  {
+    "id": "ite-sol-tra",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.ite-sol-tra",
+      "args": {},
+      "lines": {
+        "ru": "Продано вещей торговцам",
+        "en": "Items sold to merchants"
+      }
+    }
+  },
+  {
+    "id": "que-fin",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.que-fin",
+      "args": {},
+      "lines": {
+        "ru": "Заданий завершено",
+        "en": "Quests completed"
+      }
+    }
+  },
+  {
+    "id": "dai-que-fin",
+    "category": "EXPLORATION",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.dai-que-fin",
+      "args": {},
+      "lines": {
+        "ru": "Ежедневных заданий завершено",
+        "en": "Daily quests completed"
+      }
+    }
+  },
+  {
+    "id": "max-mon-amo",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.max-mon-amo",
+      "args": {},
+      "lines": {
+        "ru": "Наибольшее количество денег на счету",
+        "en": "Highest amount of money in your account"
+      }
+    }
+  },
+  {
+    "id": "mon-gai-dro",
+    "category": "ECONOMY",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.mon-gai-dro",
+      "args": {},
+      "lines": {
+        "ru": "Найдено денег",
+        "en": "Money found"
+      }
+    }
+  }
+]

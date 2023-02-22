@@ -1,0 +1,197 @@
+{
+  "id": "4qpkl",
+  "category": "attachment/barrel",
+  "name": {
+    "type": "translation",
+    "key": "item.att.barrel_ash12.name",
+    "args": {},
+    "lines": {
+      "ru": "Стандартный ствол АШ-12",
+      "en": "ASh-12 Standard Barrel"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.barrel",
+            "args": {},
+            "lines": {
+              "ru": "Надульники и глушители",
+              "en": "Muzzles and Silencers"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.16,
+          "formatted": {
+            "value": {
+              "ru": "0,16 кг",
+              "en": "0.16 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.distance",
+            "args": {},
+            "lines": {
+              "ru": "Дистанция",
+              "en": "Distance"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость доставания",
+              "en": "Draw speed"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ash12.name",
+            "args": {},
+            "lines": {
+              "ru": "АШ-12",
+              "en": "ASh-12"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
