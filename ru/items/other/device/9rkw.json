@@ -1,0 +1,257 @@
+{
+  "id": "9rkw",
+  "category": "other/device",
+  "name": {
+    "type": "translation",
+    "key": "item.device.dshd_sak1.name",
+    "args": {},
+    "lines": {
+      "ru": "Детектор широкого диапазона САК-1",
+      "en": "SAK-1 Wide Range Detector"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "3 кг",
+              "en": "3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "anomaly.tooltip.scanner.info.energy",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "anomaly.tooltip.scanner.info.energy_value",
+            "args": {
+              "currentEnergy": "1000",
+              "maxEnergy": "1000"
+            },
+            "lines": {
+              "ru": "1 000/1 000 mAh",
+              "en": "1,000/1,000 mAh"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "anomaly.tooltip.scanner.info.scan_range",
+            "args": {},
+            "lines": {
+              "ru": "Радиус сканирования",
+              "en": "Scan range"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "general.list.format.slash",
+            "args": {
+              "idx_0": {
+                "type": "translation",
+                "key": "anomaly.tooltip.scanner.scan_range.format",
+                "args": {
+                  "range": "150"
+                },
+                "lines": {
+                  "ru": "150 м",
+                  "en": "150m"
+                }
+              },
+              "idx_1": {
+                "type": "translation",
+                "key": "anomaly.tooltip.scanner.scan_range.format",
+                "args": {
+                  "range": "250"
+                },
+                "lines": {
+                  "ru": "250 м",
+                  "en": "250m"
+                }
+              }
+            },
+            "lines": {
+              "ru": "150 м / 250 м",
+              "en": "150 м / 250 м"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "anomaly.tooltip.scanner.info.scan_energy_consuming",
+            "args": {},
+            "lines": {
+              "ru": "Потреб. энергии",
+              "en": "Energy consumption"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "general.list.format.slash",
+            "args": {
+              "idx_0": {
+                "type": "translation",
+                "key": "anomaly.tooltip.scanner.scan_energy_consuming.format",
+                "args": {
+                  "energyConsuming": "40"
+                },
+                "lines": {
+                  "ru": "40 mAh",
+                  "en": "40 mAh"
+                }
+              },
+              "idx_1": {
+                "type": "translation",
+                "key": "anomaly.tooltip.scanner.scan_energy_consuming.format",
+                "args": {
+                  "energyConsuming": "100"
+                },
+                "lines": {
+                  "ru": "100 mAh",
+                  "en": "100 mAh"
+                }
+              }
+            },
+            "lines": {
+              "ru": "40 mAh / 100 mAh",
+              "en": "40 mAh / 100 mAh"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.device.dshd_sak1.description",
+        "args": {},
+        "lines": {
+          "ru": "Кустарный сканер аномальных сигналов",
+          "en": "Jury-Rigged Anomalous Signal Scanner"
+        }
+      }
+    }
+  ]
+}
