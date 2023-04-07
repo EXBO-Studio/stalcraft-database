@@ -12,7 +12,7 @@
       "en": "Premium for 14 days"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_LEGEND",
   "status": {
     "state": "NON_DROP"
   },
@@ -24,6 +24,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {

@@ -1,0 +1,80 @@
+{
+  "id": "okrno",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.premium_token.desc",
+    "args": {
+      "duration": "172800"
+    },
+    "lines": {
+      "ru": "Премиум на 2 дня",
+      "en": "Premium for 2 days"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    }
+  ]
+}
