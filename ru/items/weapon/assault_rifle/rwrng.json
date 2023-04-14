@@ -485,20 +485,7 @@
           "en": "Features"
         }
       },
-      "elements": [
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "item.wpn.abakan.features",
-            "args": {},
-            "lines": {
-              "ru": "Скорострельность очередями: 1200 выстрелов/мин",
-              "en": "Burst rate of fire: 1,200 shots/min"
-            }
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "damage",
@@ -507,6 +494,22 @@
       "endDamage": 26.0,
       "damageDecreaseEnd": 70.0,
       "maxDistance": 150.0
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.abakan.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "item.wpn.abakan.additional_stats_tip",
+          "en": "item.wpn.abakan.additional_stats_tip"
+        }
+      }
     },
     {
       "type": "text",
