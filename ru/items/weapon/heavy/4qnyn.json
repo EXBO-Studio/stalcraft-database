@@ -10,7 +10,7 @@
       "en": "PTRD-M"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -260,11 +260,11 @@
               "en": "Reload"
             }
           },
-          "value": 5.0,
+          "value": 2.25,
           "formatted": {
             "value": {
-              "ru": "5 с",
-              "en": "5 sec"
+              "ru": "2,25 с",
+              "en": "2.25 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -281,11 +281,11 @@
               "en": "Spread"
             }
           },
-          "value": 4.0,
+          "value": 0.5,
           "formatted": {
             "value": {
-              "ru": "4°",
-              "en": "4°"
+              "ru": "0,5°",
+              "en": "0.5°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -323,11 +323,11 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 10.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "10°",
-              "en": "10°"
+              "ru": "20°",
+              "en": "20°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -344,11 +344,11 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 3.0,
+          "value": 6.0,
           "formatted": {
             "value": {
-              "ru": "3°",
-              "en": "3°"
+              "ru": "6°",
+              "en": "6°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -365,11 +365,11 @@
               "en": "Draw time"
             }
           },
-          "value": 2.5,
+          "value": 1.5,
           "formatted": {
             "value": {
-              "ru": "2,5 с",
-              "en": "2.5 sec"
+              "ru": "1,5 с",
+              "en": "1.5 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -414,6 +414,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.tooltip.weapon.info.stopping_power",
             "args": {},
             "lines": {
@@ -421,11 +442,11 @@
               "en": "Stopping power"
             }
           },
-          "value": 200.0,
+          "value": 300.0,
           "formatted": {
             "value": {
-              "ru": "200",
-              "en": "200"
+              "ru": "300",
+              "en": "300"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -465,25 +486,11 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.9"
+              "modifier": "1.0"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,9",
-              "en": "Limb damage: х0.9"
-            }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
-            "args": {
-              "modifier": "1.5"
-            },
-            "lines": {
-              "ru": "Урон по мутантам: х1,5",
-              "en": "Damage to mutants: x1.5"
+              "ru": "Урон по конечностям: х1",
+              "en": "Limb damage: х1"
             }
           }
         }
@@ -500,7 +507,20 @@
           "en": "Features"
         }
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.wpn.ptrd.features",
+            "args": {},
+            "lines": {
+              "ru": "Ломает пластины @Смертельный выстрел @Пониженный разброс в присяде",
+              "en": "Limb damage: x0.9"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "damage",

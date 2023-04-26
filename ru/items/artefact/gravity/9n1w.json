@@ -182,44 +182,44 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "key": "stalker.artefact_properties.factor.health_bonus",
             "args": {},
             "lines": {
-              "ru": "Эффективность лечения",
-              "en": "Healing effectiveness"
+              "ru": "Живучесть",
+              "en": "Vitality"
             }
           },
-          "min": -10.0,
-          "max": -5.0,
+          "min": 0.35,
+          "max": 0.7,
           "formatted": {
             "value": {
-              "ru": "[-10%; -5%]",
-              "en": "[-10%; -5%]"
+              "ru": "[+0,35%; +0,7%]",
+              "en": "[+0.35%; +0.7%]"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_dmg_factor",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
-              "ru": "Сопротивление кровотечению",
-              "en": "Bleeding resistance"
+              "ru": "Радиация",
+              "en": "Radiation"
             }
           },
-          "min": 5.0,
-          "max": 10.0,
+          "min": 0.25,
+          "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+5%; +10%]",
-              "en": "[+5%; +10%]"
+              "ru": "[+0,25; +0,5]",
+              "en": "[+0.25; +0.5]"
             },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -233,12 +233,12 @@
               "en": "Bleeding"
             }
           },
-          "min": -2.0,
-          "max": -1.0,
+          "min": -0.47,
+          "max": -0.23,
           "formatted": {
             "value": {
-              "ru": "[-2; -1]",
-              "en": "[-2; -1]"
+              "ru": "[-0,47; -0,23]",
+              "en": "[-0.47; -0.23]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

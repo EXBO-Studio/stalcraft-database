@@ -189,12 +189,12 @@
               "en": "Movement speed"
             }
           },
-          "min": 3.0,
-          "max": 6.0,
+          "min": 1.95,
+          "max": 3.9,
           "formatted": {
             "value": {
-              "ru": "[+3%; +6%]",
-              "en": "[+3%; +6%]"
+              "ru": "[+1,95%; +3,9%]",
+              "en": "[+1.95%; +3.9%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -204,22 +204,44 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration"
+              "ru": "Холод",
+              "en": "Frost"
             }
           },
-          "min": -5.0,
-          "max": -2.5,
+          "min": 0.25,
+          "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[-5%; -2,5%]",
-              "en": "[-5%; -2.5%]"
+              "ru": "[+0,25; +0,5]",
+              "en": "[+0.25; +0.5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns"
+            }
+          },
+          "min": 1.25,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+1,25%; +2,5%]",
+              "en": "[+1.25%; +2.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         }
       ]

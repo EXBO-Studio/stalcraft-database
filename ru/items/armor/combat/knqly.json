@@ -10,7 +10,7 @@
       "en": "Reporter’s Armor"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -75,11 +75,11 @@
               "en": "Weight"
             }
           },
-          "value": 10.0,
+          "value": 11.0,
           "formatted": {
             "value": {
-              "ru": "10 кг",
-              "en": "10 kg"
+              "ru": "11 кг",
+              "en": "11 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -155,11 +155,11 @@
               "en": "Stamina"
             }
           },
-          "value": -8.0,
+          "value": -5.0,
           "formatted": {
             "value": {
-              "ru": "-8%",
-              "en": "-8%"
+              "ru": "-5%",
+              "en": "-5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -176,11 +176,11 @@
               "en": "Movement speed"
             }
           },
-          "value": -1.0,
+          "value": -2.0,
           "formatted": {
             "value": {
-              "ru": "-1%",
-              "en": "-1%"
+              "ru": "-2%",
+              "en": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -197,14 +197,26 @@
               "en": "Carry weight"
             }
           },
-          "value": 5.0,
+          "value": 12.0,
           "formatted": {
             "value": {
-              "ru": "+5",
-              "en": "+5"
+              "ru": "+12",
+              "en": "+12"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.armor_artefact.night_vision",
+            "args": {},
+            "lines": {
+              "ru": "Прибор ночного видения",
+              "en": "Night-vision goggles"
+            }
           }
         }
       ]
@@ -227,11 +239,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 106.0,
+          "value": 165.0,
           "formatted": {
             "value": {
-              "ru": "106",
-              "en": "106"
+              "ru": "165",
+              "en": "165"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -248,11 +260,11 @@
               "en": "Melee protection"
             }
           },
-          "value": 106.0,
+          "value": 138.0,
           "formatted": {
             "value": {
-              "ru": "106",
-              "en": "106"
+              "ru": "138",
+              "en": "138"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -269,11 +281,11 @@
               "en": "Explosion protection"
             }
           },
-          "value": 147.0,
+          "value": 124.0,
           "formatted": {
             "value": {
-              "ru": "147",
-              "en": "147"
+              "ru": "124",
+              "en": "124"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -290,11 +302,11 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 41.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "41",
-              "en": "41"
+              "ru": "40",
+              "en": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -311,11 +323,11 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 41.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "41",
-              "en": "41"
+              "ru": "40",
+              "en": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -332,11 +344,11 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 41.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "41",
-              "en": "41"
+              "ru": "40",
+              "en": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -353,11 +365,11 @@
               "en": "Radiation protection"
             }
           },
-          "value": 170.0,
+          "value": 200.0,
           "formatted": {
             "value": {
-              "ru": "170",
-              "en": "170"
+              "ru": "200",
+              "en": "200"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -374,11 +386,11 @@
               "en": "Thermal protection"
             }
           },
-          "value": 20.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "20",
-              "en": "20"
+              "ru": "100",
+              "en": "100"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -395,11 +407,11 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 140.0,
+          "value": 200.0,
           "formatted": {
             "value": {
-              "ru": "140",
-              "en": "140"
+              "ru": "200",
+              "en": "200"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -416,11 +428,11 @@
               "en": "Psy-Emission Protection"
             }
           },
-          "value": 75.0,
+          "value": 120.0,
           "formatted": {
             "value": {
-              "ru": "75",
-              "en": "75"
+              "ru": "120",
+              "en": "120"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -437,11 +449,11 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 52.0,
+          "value": 50.0,
           "formatted": {
             "value": {
-              "ru": "52%",
-              "en": "52%"
+              "ru": "50%",
+              "en": "50%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

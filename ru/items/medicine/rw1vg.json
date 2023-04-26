@@ -113,11 +113,11 @@
               "en": "Duration"
             }
           },
-          "value": 240.0,
+          "value": 90.0,
           "formatted": {
             "value": {
-              "ru": "4 мин",
-              "en": "4 min"
+              "ru": "1 мин 30 с",
+              "en": "1 min 30 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -157,18 +157,60 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.thermal_dmg_factor",
+            "key": "stalker.artefact_properties.factor.health_bonus",
             "args": {},
             "lines": {
-              "ru": "Сопротивление температуре",
-              "en": "Thermal resistance"
+              "ru": "Живучесть",
+              "en": "Vitality"
             }
           },
-          "value": 25.0,
+          "value": -17.5,
           "formatted": {
             "value": {
-              "ru": "25%",
-              "en": "25%"
+              "ru": "-17,5%",
+              "en": "-17.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness"
+            }
+          },
+          "value": -25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection"
+            }
+          },
+          "value": 50.0,
+          "formatted": {
+            "value": {
+              "ru": "50",
+              "en": "50"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

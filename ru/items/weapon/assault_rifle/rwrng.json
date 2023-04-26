@@ -6,7 +6,7 @@
     "key": "item.wpn.abakan.name",
     "args": {},
     "lines": {
-      "ru": "АН-94 «Абакан»",
+      "ru": "АН-94М «Абакан»",
       "en": "AN-94 Abakan"
     }
   },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 37.0,
+          "value": 28.6,
           "formatted": {
             "value": {
-              "ru": "37 ед",
-              "en": "37 unit(s)"
+              "ru": "28,6 ед",
+              "en": "28.6 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -239,11 +239,11 @@
               "en": "Rate of fire"
             }
           },
-          "value": 600.0,
+          "value": 800.0,
           "formatted": {
             "value": {
-              "ru": "600 выстр/мин",
-              "en": "600 shots/min"
+              "ru": "800 выстр/мин",
+              "en": "800 shots/min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -302,11 +302,11 @@
               "en": "Spread"
             }
           },
-          "value": 0.644,
+          "value": 0.45,
           "formatted": {
             "value": {
-              "ru": "0,64°",
-              "en": "0.64°"
+              "ru": "0,45°",
+              "en": "0.45°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -323,7 +323,7 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 3.0010002,
+          "value": 3.0,
           "formatted": {
             "value": {
               "ru": "3°",
@@ -485,14 +485,27 @@
           "en": "Features"
         }
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.wpn.abakan.features",
+            "args": {},
+            "lines": {
+              "ru": "Скорострельность очередями: 1000 выстрелов/мин",
+              "en": "Burst rate of fire: 1,200 shots/min"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "damage",
-      "startDamage": 37.0,
-      "damageDecreaseStart": 12.0,
-      "endDamage": 26.0,
-      "damageDecreaseEnd": 70.0,
+      "startDamage": 28.6,
+      "damageDecreaseStart": 10.0,
+      "endDamage": 19.5,
+      "damageDecreaseEnd": 52.0,
       "maxDistance": 150.0
     },
     {
@@ -503,27 +516,11 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.wpn.abakan.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "item.wpn.abakan.additional_stats_tip",
-          "en": "item.wpn.abakan.additional_stats_tip"
-        }
-      }
-    },
-    {
-      "type": "text",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
-      "text": {
-        "type": "translation",
-        "key": "item.wpn.abakan.description",
+        "key": "item.wpn.abakan-05.description",
         "args": {},
         "lines": {
           "ru": "Современный автомат, разработанный на замену устаревающему АК-74. Одна из главных особенностей - возможность ведения огня очередями по 2 патрона с высокой точностью (на расстоянии ста метров обе пули ложатся в одну точку). Это существенно увеличивает шансы поразить цель благодаря совокупному останавливающему и пробивающему действию пуль.",
-          "en": "A modern assault rifle developed to replace the then-aging AK-74. One of its main features is the ability to fire bursts of two shots with high accuracy (at a range of 100 meters, both bullets hit the same point). This substantially increases the chances of taking down a target thanks to the combined penetrative and stopping power of the bullets."
+          "en": "item.wpn.abakan-05.description"
         }
       }
     }

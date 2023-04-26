@@ -189,15 +189,15 @@
               "en": "Healing effectiveness"
             }
           },
-          "min": -10.0,
-          "max": -5.0,
+          "min": 2.9,
+          "max": 5.8,
           "formatted": {
             "value": {
-              "ru": "[-10%; -5%]",
-              "en": "[-10%; -5%]"
+              "ru": "[+2,9%; +5,8%]",
+              "en": "[+2.9%; +5.8%]"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -211,12 +211,12 @@
               "en": "Melee protection"
             }
           },
-          "min": 5.0,
-          "max": 15.0,
+          "min": 4.65,
+          "max": 9.3,
           "formatted": {
             "value": {
-              "ru": "[+5; +15]",
-              "en": "[+5; +15]"
+              "ru": "[+4,65; +9,3]",
+              "en": "[+4.65; +9.3]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -226,22 +226,22 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.thermal_dmg_factor",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
             "args": {},
             "lines": {
-              "ru": "Сопротивление температуре",
-              "en": "Thermal resistance"
+              "ru": "Холод",
+              "en": "Frost"
             }
           },
-          "min": 5.0,
-          "max": 15.0,
+          "min": 0.25,
+          "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+5%; +15%]",
-              "en": "[+5%; +15%]"
+              "ru": "[+0,25; +0,5]",
+              "en": "[+0.25; +0.5]"
             },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         }
       ]

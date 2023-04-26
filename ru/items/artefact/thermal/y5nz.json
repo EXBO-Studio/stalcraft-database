@@ -189,12 +189,34 @@
               "en": "Carry weight"
             }
           },
-          "min": 3.0,
-          "max": 5.0,
+          "min": 2.6,
+          "max": 5.2,
           "formatted": {
             "value": {
-              "ru": "[+3; +5]",
-              "en": "[+3; +5]"
+              "ru": "[+2,6; +5,2]",
+              "en": "[+2.6; +5.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление температуре",
+              "en": "Thermal resistance"
+            }
+          },
+          "min": 6.95,
+          "max": 13.9,
+          "formatted": {
+            "value": {
+              "ru": "[+6,95%; +13,9%]",
+              "en": "[+6.95%; +13.9%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -211,37 +233,15 @@
               "en": "Temperature"
             }
           },
-          "min": -2.0,
-          "max": -1.0,
+          "min": -1.5,
+          "max": -0.75,
           "formatted": {
             "value": {
-              "ru": "[-2; -1]",
-              "en": "[-2; -1]"
+              "ru": "[-1,5; -0,75]",
+              "en": "[-1.5; -0.75]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Биологическое заражение",
-              "en": "Biological infection"
-            }
-          },
-          "min": 0.0,
-          "max": 2.0,
-          "formatted": {
-            "value": {
-              "ru": "[0; +2]",
-              "en": "[0; +2]"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
           }
         }
       ]

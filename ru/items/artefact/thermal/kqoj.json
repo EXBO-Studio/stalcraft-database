@@ -182,19 +182,41 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness"
             }
           },
-          "min": -50.0,
-          "max": -25.0,
+          "min": 8.25,
+          "max": 16.5,
           "formatted": {
             "value": {
-              "ru": "[-50%; -25%]",
-              "en": "[-50%; -25%]"
+              "ru": "[+8,25%; +16,5%]",
+              "en": "[+8.25%; +16.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Холод",
+              "en": "Frost"
+            }
+          },
+          "min": 0.5,
+          "max": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "[+0,5; +1]",
+              "en": "[+0.5; +1]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -204,19 +226,19 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
             "args": {},
             "lines": {
-              "ru": "Эффективность лечения",
-              "en": "Healing effectiveness"
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to melee"
             }
           },
-          "min": 10.0,
-          "max": 25.0,
+          "min": 1.65,
+          "max": 3.3,
           "formatted": {
             "value": {
-              "ru": "[+10%; +25%]",
-              "en": "[+10%; +25%]"
+              "ru": "[+1,65%; +3,3%]",
+              "en": "[+1.65%; +3.3%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 53.0,
+          "value": 44.0,
           "formatted": {
             "value": {
-              "ru": "53 ед",
-              "en": "53 unit(s)"
+              "ru": "44 ед",
+              "en": "44 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -239,11 +239,11 @@
               "en": "Rate of fire"
             }
           },
-          "value": 400.0,
+          "value": 385.0,
           "formatted": {
             "value": {
-              "ru": "400 выстр/мин",
-              "en": "400 shots/min"
+              "ru": "385 выстр/мин",
+              "en": "385 shots/min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -260,11 +260,11 @@
               "en": "Reload"
             }
           },
-          "value": 2.4,
+          "value": 2.75,
           "formatted": {
             "value": {
-              "ru": "2,4 с",
-              "en": "2.4 sec"
+              "ru": "2,75 с",
+              "en": "2.75 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -281,11 +281,11 @@
               "en": "Spread"
             }
           },
-          "value": 0.935,
+          "value": 0.6,
           "formatted": {
             "value": {
-              "ru": "0,94°",
-              "en": "0.94°"
+              "ru": "0,6°",
+              "en": "0.6°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -302,11 +302,11 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 2.701,
+          "value": 2.5,
           "formatted": {
             "value": {
-              "ru": "2,7°",
-              "en": "2.7°"
+              "ru": "2,5°",
+              "en": "2.5°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -450,21 +450,6 @@
               "en": "Limb damage: х0.5"
             }
           }
-        },
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.execute_damage_modifier",
-            "args": {
-              "plusPercent": "1.0",
-              "maxPercent": "100.0"
-            },
-            "lines": {
-              "ru": "Урон увеличивается на 1% за каждый % отсутствующего здоровья цели, максимум +100% урона",
-              "en": "Damage increases by 1% for every % of the target’s health that is missing, to a maximum of +100% damage"
-            }
-          }
         }
       ]
     },
@@ -483,10 +468,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 53.0,
-      "damageDecreaseStart": 14.0,
-      "endDamage": 21.0,
-      "damageDecreaseEnd": 32.0,
+      "startDamage": 44.0,
+      "damageDecreaseStart": 8.0,
+      "endDamage": 31.5,
+      "damageDecreaseEnd": 40.0,
       "maxDistance": 65.0
     },
     {

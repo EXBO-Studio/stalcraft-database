@@ -157,48 +157,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление радиации",
-              "en": "Radiation resistance"
-            }
-          },
-          "value": 25.0,
-          "formatted": {
-            "value": {
-              "ru": "25%",
-              "en": "25%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление биозаражению",
-              "en": "Bioinfection resistance"
-            }
-          },
-          "value": 25.0,
-          "formatted": {
-            "value": {
-              "ru": "25%",
-              "en": "25%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
@@ -206,11 +164,11 @@
               "en": "Radiation"
             }
           },
-          "value": -10.0,
+          "value": -5.0,
           "formatted": {
             "value": {
-              "ru": "-10",
-              "en": "-10"
+              "ru": "-5",
+              "en": "-5"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -227,11 +185,11 @@
               "en": "Biological infection"
             }
           },
-          "value": -10.0,
+          "value": -5.0,
           "formatted": {
             "value": {
-              "ru": "-10",
-              "en": "-10"
+              "ru": "-5",
+              "en": "-5"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -248,11 +206,32 @@
               "en": "Bleeding"
             }
           },
-          "value": -1.0,
+          "value": -1.5,
           "formatted": {
             "value": {
-              "ru": "-1",
-              "en": "-1"
+              "ru": "-1,5",
+              "en": "-1.5"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.toxic_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison"
+            }
+          },
+          "value": -0.15,
+          "formatted": {
+            "value": {
+              "ru": "-0,15",
+              "en": "-0.15"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

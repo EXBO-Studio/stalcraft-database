@@ -189,12 +189,12 @@
               "en": "Health regeneration"
             }
           },
-          "min": 1.0,
-          "max": 2.5,
+          "min": 0.95,
+          "max": 1.9,
           "formatted": {
             "value": {
-              "ru": "[+1%; +2,5%]",
-              "en": "[+1%; +2.5%]"
+              "ru": "[+0,95%; +1,9%]",
+              "en": "[+0.95%; +1.9%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -204,19 +204,19 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Защита от разрыва",
-              "en": "Melee protection"
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration"
             }
           },
-          "min": 15.0,
-          "max": 25.0,
+          "min": 1.15,
+          "max": 2.3,
           "formatted": {
             "value": {
-              "ru": "[+15; +25]",
-              "en": "[+15; +25]"
+              "ru": "[+1,15%; +2,3%]",
+              "en": "[+1.15%; +2.3%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -233,12 +233,12 @@
               "en": "Radiation"
             }
           },
-          "min": -4.0,
-          "max": -2.0,
+          "min": -1.1,
+          "max": -0.55,
           "formatted": {
             "value": {
-              "ru": "[-4; -2]",
-              "en": "[-4; -2]"
+              "ru": "[-1,1; -0,55]",
+              "en": "[-1.1; -0.55]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -255,12 +255,12 @@
               "en": "Psy-emissions"
             }
           },
-          "min": 4.0,
-          "max": 6.0,
+          "min": 1.0,
+          "max": 2.0,
           "formatted": {
             "value": {
-              "ru": "[+4; +6]",
-              "en": "[+4; +6]"
+              "ru": "[+1; +2]",
+              "en": "[+1; +2]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

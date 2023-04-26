@@ -182,44 +182,22 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
             }
           },
-          "min": -20.0,
-          "max": -10.0,
+          "min": 3.5,
+          "max": 7.0,
           "formatted": {
             "value": {
-              "ru": "[-20%; -10%]",
-              "en": "[-20%; -10%]"
+              "ru": "[+3,5; +7]",
+              "en": "[+3.5; +7]"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration"
-            }
-          },
-          "min": -2.5,
-          "max": -1.0,
-          "formatted": {
-            "value": {
-              "ru": "[-2,5%; -1%]",
-              "en": "[-2.5%; -1%]"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -233,12 +211,12 @@
               "en": "Thermal resistance"
             }
           },
-          "min": 10.0,
-          "max": 25.0,
+          "min": 9.25,
+          "max": 18.5,
           "formatted": {
             "value": {
-              "ru": "[+10%; +25%]",
-              "en": "[+10%; +25%]"
+              "ru": "[+9,25%; +18,5%]",
+              "en": "[+9.25%; +18.5%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -255,12 +233,12 @@
               "en": "Temperature"
             }
           },
-          "min": -7.0,
-          "max": -4.0,
+          "min": -2.9,
+          "max": -1.45,
           "formatted": {
             "value": {
-              "ru": "[-7; -4]",
-              "en": "[-7; -4]"
+              "ru": "[-2,9; -1,45]",
+              "en": "[-2.9; -1.45]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

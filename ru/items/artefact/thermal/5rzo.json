@@ -182,28 +182,6 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
-            }
-          },
-          "min": -50.0,
-          "max": -25.0,
-          "formatted": {
-            "value": {
-              "ru": "[-50%; -25%]",
-              "en": "[-50%; -25%]"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
             "args": {},
             "lines": {
@@ -211,12 +189,12 @@
               "en": "Bullet resistance"
             }
           },
-          "min": 15.0,
-          "max": 20.0,
+          "min": 4.55,
+          "max": 9.1,
           "formatted": {
             "value": {
-              "ru": "[+15; +20]",
-              "en": "[+15; +20]"
+              "ru": "[+4,55; +9,1]",
+              "en": "[+4.55; +9.1]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -233,15 +211,37 @@
               "en": "Melee protection"
             }
           },
-          "min": 15.0,
-          "max": 20.0,
+          "min": 3.8,
+          "max": 7.6,
           "formatted": {
             "value": {
-              "ru": "[+15; +20]",
-              "en": "[+15; +20]"
+              "ru": "[+3,8; +7,6]",
+              "en": "[+3.8; +7.6]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Холод",
+              "en": "Frost"
+            }
+          },
+          "min": 0.25,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "[+0,25; +0,5]",
+              "en": "[+0.25; +0.5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         }
       ]

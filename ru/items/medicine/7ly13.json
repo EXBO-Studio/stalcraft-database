@@ -113,11 +113,11 @@
               "en": "Duration"
             }
           },
-          "value": 10.0,
+          "value": 12.0,
           "formatted": {
             "value": {
-              "ru": "10 с",
-              "en": "10 sec"
+              "ru": "12 с",
+              "en": "12 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -143,11 +143,11 @@
               "en": "Stamina regeneration"
             }
           },
-          "value": 15.0,
+          "value": 6.0,
           "formatted": {
             "value": {
-              "ru": "15%",
-              "en": "15%"
+              "ru": "6%",
+              "en": "6%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -164,53 +164,11 @@
               "en": "Periodic healing"
             }
           },
-          "value": 6.5,
+          "value": 6.0,
           "formatted": {
             "value": {
-              "ru": "6,5%",
-              "en": "6.5%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление радиации",
-              "en": "Radiation resistance"
-            }
-          },
-          "value": 30.0,
-          "formatted": {
-            "value": {
-              "ru": "30%",
-              "en": "30%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление биозаражению",
-              "en": "Bioinfection resistance"
-            }
-          },
-          "value": 30.0,
-          "formatted": {
-            "value": {
-              "ru": "30%",
-              "en": "30%"
+              "ru": "6%",
+              "en": "6%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -274,6 +232,27 @@
             "value": {
               "ru": "-1,5",
               "en": "-1.5"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.toxic_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison"
+            }
+          },
+          "value": -0.15,
+          "formatted": {
+            "value": {
+              "ru": "-0,15",
+              "en": "-0.15"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

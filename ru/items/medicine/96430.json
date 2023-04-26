@@ -113,11 +113,11 @@
               "en": "Duration"
             }
           },
-          "value": 7.0,
+          "value": 8.0,
           "formatted": {
             "value": {
-              "ru": "7 с",
-              "en": "7 sec"
+              "ru": "8 с",
+              "en": "8 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -143,11 +143,11 @@
               "en": "Periodic healing"
             }
           },
-          "value": 5.0,
+          "value": 4.0,
           "formatted": {
             "value": {
-              "ru": "5%",
-              "en": "5%"
+              "ru": "4%",
+              "en": "4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -164,11 +164,11 @@
               "en": "Radiation"
             }
           },
-          "value": -3.0,
+          "value": -1.0,
           "formatted": {
             "value": {
-              "ru": "-3",
-              "en": "-3"
+              "ru": "-1",
+              "en": "-1"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -185,11 +185,11 @@
               "en": "Biological infection"
             }
           },
-          "value": -3.0,
+          "value": -1.0,
           "formatted": {
             "value": {
-              "ru": "-3",
-              "en": "-3"
+              "ru": "-1",
+              "en": "-1"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -211,6 +211,27 @@
             "value": {
               "ru": "-1",
               "en": "-1"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.toxic_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison"
+            }
+          },
+          "value": -0.05,
+          "formatted": {
+            "value": {
+              "ru": "-0,05",
+              "en": "-0.05"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

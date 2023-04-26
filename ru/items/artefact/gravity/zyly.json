@@ -189,15 +189,15 @@
               "en": "Stamina"
             }
           },
-          "min": -10.0,
-          "max": -5.0,
+          "min": 3.9,
+          "max": 7.8,
           "formatted": {
             "value": {
-              "ru": "[-10%; -5%]",
-              "en": "[-10%; -5%]"
+              "ru": "[+3,9%; +7,8%]",
+              "en": "[+3.9%; +7.8%]"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -211,12 +211,12 @@
               "en": "Bullet resistance"
             }
           },
-          "min": 5.0,
-          "max": 10.0,
+          "min": 2.6,
+          "max": 5.2,
           "formatted": {
             "value": {
-              "ru": "[+5; +10]",
-              "en": "[+5; +10]"
+              "ru": "[+2,6; +5,2]",
+              "en": "[+2.6; +5.2]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -233,15 +233,37 @@
               "en": "Radiation"
             }
           },
-          "min": 2.0,
-          "max": 5.0,
+          "min": 0.25,
+          "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+2; +5]",
-              "en": "[+2; +5]"
+              "ru": "[+0,25; +0,5]",
+              "en": "[+0.25; +0.5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions"
+            }
+          },
+          "min": -1.0,
+          "max": -0.5,
+          "formatted": {
+            "value": {
+              "ru": "[-1; -0,5]",
+              "en": "[-1; -0.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         }
       ]

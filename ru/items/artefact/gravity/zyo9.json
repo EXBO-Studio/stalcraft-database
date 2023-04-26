@@ -182,22 +182,22 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
+              "ru": "Сопротивление биозаражению",
+              "en": "Bioinfection resistance"
             }
           },
-          "min": -15.0,
-          "max": -5.0,
+          "min": 8.1,
+          "max": 16.2,
           "formatted": {
             "value": {
-              "ru": "[-15%; -5%]",
-              "en": "[-15%; -5%]"
+              "ru": "[+8,1%; +16,2%]",
+              "en": "[+8.1%; +16.2%]"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -211,12 +211,12 @@
               "en": "Biological infection"
             }
           },
-          "min": -5.0,
-          "max": -2.0,
+          "min": -2.2,
+          "max": -1.1,
           "formatted": {
             "value": {
-              "ru": "[-5; -2]",
-              "en": "[-5; -2]"
+              "ru": "[-2,2; -1,1]",
+              "en": "[-2.2; -1.1]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -233,12 +233,12 @@
               "en": "Reaction to chemical burns"
             }
           },
-          "min": 2.0,
-          "max": 3.0,
+          "min": 1.15,
+          "max": 2.3,
           "formatted": {
             "value": {
-              "ru": "[+2%; +3%]",
-              "en": "[+2%; +3%]"
+              "ru": "[+1,15%; +2,3%]",
+              "en": "[+1.15%; +2.3%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

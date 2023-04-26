@@ -113,11 +113,11 @@
               "en": "Duration"
             }
           },
-          "value": 300.0,
+          "value": 360.0,
           "formatted": {
             "value": {
-              "ru": "5 мин",
-              "en": "5 min"
+              "ru": "6 мин",
+              "en": "6 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -157,6 +157,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration"
+            }
+          },
+          "value": 1.1,
+          "formatted": {
+            "value": {
+              "ru": "1,1%",
+              "en": "1.1%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.bleeding_protection",
             "args": {},
             "lines": {
@@ -164,11 +185,11 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 10.0,
+          "value": 10.5,
           "formatted": {
             "value": {
-              "ru": "10%",
-              "en": "10%"
+              "ru": "10,5%",
+              "en": "10.5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -185,11 +206,11 @@
               "en": "Bleeding"
             }
           },
-          "value": -0.5,
+          "value": -0.75,
           "formatted": {
             "value": {
-              "ru": "-0,5",
-              "en": "-0.5"
+              "ru": "-0,75",
+              "en": "-0.75"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

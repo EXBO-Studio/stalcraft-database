@@ -113,11 +113,11 @@
               "en": "Duration"
             }
           },
-          "value": 90.0,
+          "value": 210.0,
           "formatted": {
             "value": {
-              "ru": "1 мин 30 с",
-              "en": "1 min 30 sec"
+              "ru": "3 мин 30 с",
+              "en": "3 min 30 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -134,11 +134,11 @@
               "en": "Poison"
             }
           },
-          "value": 50.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50"
+              "ru": "40",
+              "en": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -164,11 +164,53 @@
               "en": "Vitality"
             }
           },
-          "value": 10.0,
+          "value": 2.5,
           "formatted": {
             "value": {
-              "ru": "10%",
-              "en": "10%"
+              "ru": "2,5%",
+              "en": "2.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness"
+            }
+          },
+          "value": 17.1,
+          "formatted": {
+            "value": {
+              "ru": "17,1%",
+              "en": "17.1%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding protection"
+            }
+          },
+          "value": 15.75,
+          "formatted": {
+            "value": {
+              "ru": "15,75%",
+              "en": "15.75%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

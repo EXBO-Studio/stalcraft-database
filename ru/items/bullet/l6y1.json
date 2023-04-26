@@ -148,27 +148,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.bullet.stat_name.damage",
-            "args": {},
-            "lines": {
-              "ru": "Урон",
-              "en": "Damage"
-            }
-          },
-          "value": 49.999977,
-          "formatted": {
-            "value": {
-              "ru": "+50%",
-              "en": "+50%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.tooltip.bullet.stat_name.bleeding",
             "args": {},
             "lines": {
@@ -176,11 +155,11 @@
               "en": "Bleeding"
             }
           },
-          "value": 0.25,
+          "value": 10.0,
           "formatted": {
             "value": {
-              "ru": "+0,25%",
-              "en": "+0.25%"
+              "ru": "+10%",
+              "en": "+10%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -197,35 +176,14 @@
               "en": "Stopping power"
             }
           },
-          "value": 50.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "+50",
-              "en": "+50"
+              "ru": "+100",
+              "en": "+100"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
-            "args": {},
-            "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
-            }
-          },
-          "value": -65.0,
-          "formatted": {
-            "value": {
-              "ru": "-65%",
-              "en": "-65%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
           }
         }
       ]

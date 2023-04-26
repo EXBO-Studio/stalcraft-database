@@ -221,6 +221,19 @@
     }
   },
   {
+    "data": "/items/artefact/electrophysical/qo06.json",
+    "icon": "/icons/artefact/electrophysical/qo06.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.electra_transformator.name",
+      "args": {},
+      "lines": {
+        "ru": "Трансформатор",
+        "en": "Transformer"
+      }
+    }
+  },
+  {
     "data": "/items/artefact/thermal/gy10.json",
     "icon": "/icons/artefact/thermal/gy10.png",
     "name": {
@@ -321,6 +334,19 @@
       "lines": {
         "ru": "Солнце",
         "en": "Sun"
+      }
+    }
+  },
+  {
+    "data": "/items/artefact/thermal/ljrj.json",
+    "icon": "/icons/artefact/thermal/ljrj.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.jarka_radiator.name",
+      "args": {},
+      "lines": {
+        "ru": "Радиатор",
+        "en": "Radiator"
       }
     }
   },
@@ -1957,7 +1983,7 @@
       "key": "item.amm.12st.name",
       "args": {},
       "lines": {
-        "ru": "Крупнокалиберный патрон",
+        "ru": "Крупнокалиберный самодельный патрон",
         "en": "Large-Caliber Ammo"
       }
     }
@@ -6097,6 +6123,19 @@
     }
   },
   {
+    "data": "/items/weapon/assault_rifle/okv7o.json",
+    "icon": "/icons/weapon/assault_rifle/okv7o.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.abakan-05.name",
+      "args": {},
+      "lines": {
+        "ru": "АН-94 «Абакан»",
+        "en": "item.wpn.abakan-05.name"
+      }
+    }
+  },
+  {
     "data": "/items/weapon/assault_rifle/g40y0.json",
     "icon": "/icons/weapon/assault_rifle/g40y0.png",
     "name": {
@@ -6234,7 +6273,7 @@
       "key": "item.wpn.abakan.name",
       "args": {},
       "lines": {
-        "ru": "АН-94 «Абакан»",
+        "ru": "АН-94М «Абакан»",
         "en": "AN-94 Abakan"
       }
     }
@@ -11583,8 +11622,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/rwnrv.json",
-    "icon": "/icons/armor/discoverer/rwnrv.png",
+    "data": "/items/armor/combined/rwnrv.json",
+    "icon": "/icons/armor/combined/rwnrv.png",
     "name": {
       "type": "translation",
       "key": "item.arm.gorka.name",
@@ -11596,8 +11635,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/ok0v6.json",
-    "icon": "/icons/armor/discoverer/ok0v6.png",
+    "data": "/items/armor/combined/ok0v6.json",
+    "icon": "/icons/armor/combined/ok0v6.png",
     "name": {
       "type": "translation",
       "key": "item.arm.sokol-1.name",
@@ -11609,8 +11648,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/n4rp1.json",
-    "icon": "/icons/armor/discoverer/n4rp1.png",
+    "data": "/items/armor/combined/n4rp1.json",
+    "icon": "/icons/armor/combined/n4rp1.png",
     "name": {
       "type": "translation",
       "key": "item.arm.mocking-1.name",
@@ -11791,8 +11830,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/qjo2j.json",
-    "icon": "/icons/armor/discoverer/qjo2j.png",
+    "data": "/items/armor/combined/qjo2j.json",
+    "icon": "/icons/armor/combined/qjo2j.png",
     "name": {
       "type": "translation",
       "key": "item.arm.zarya.name",
@@ -11804,8 +11843,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/j5ko0.json",
-    "icon": "/icons/armor/discoverer/j5ko0.png",
+    "data": "/items/armor/combined/j5ko0.json",
+    "icon": "/icons/armor/combined/j5ko0.png",
     "name": {
       "type": "translation",
       "key": "item.arm.zarya_gas.name",
@@ -11830,8 +11869,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/rwn2v.json",
-    "icon": "/icons/armor/discoverer/rwn2v.png",
+    "data": "/items/armor/combined/rwn2v.json",
+    "icon": "/icons/armor/combined/rwn2v.png",
     "name": {
       "type": "translation",
       "key": "item.arm.turist.name",
@@ -11843,8 +11882,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/0r429.json",
-    "icon": "/icons/armor/discoverer/0r429.png",
+    "data": "/items/armor/combined/0r429.json",
+    "icon": "/icons/armor/combined/0r429.png",
     "name": {
       "type": "translation",
       "key": "item.arm.bover.name",
@@ -11856,8 +11895,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/m06my.json",
-    "icon": "/icons/armor/discoverer/m06my.png",
+    "data": "/items/armor/combined/m06my.json",
+    "icon": "/icons/armor/combined/m06my.png",
     "name": {
       "type": "translation",
       "key": "item.arm.bover_gas.name",
@@ -11882,8 +11921,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/n4rm1.json",
-    "icon": "/icons/armor/discoverer/n4rm1.png",
+    "data": "/items/armor/combined/n4rm1.json",
+    "icon": "/icons/armor/combined/n4rm1.png",
     "name": {
       "type": "translation",
       "key": "item.arm.klepto.name",
@@ -11912,7 +11951,7 @@
     "icon": "/icons/armor/combat/vj12r.png",
     "name": {
       "type": "translation",
-      "key": "item.arm.berill_bandit.name",
+      "key": "item.arm.worm.name",
       "args": {},
       "lines": {
         "ru": "Бронекостюм «Червь»",
@@ -12038,8 +12077,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/5lrn1.json",
-    "icon": "/icons/armor/discoverer/5lrn1.png",
+    "data": "/items/armor/combat/5lrn1.json",
+    "icon": "/icons/armor/combat/5lrn1.png",
     "name": {
       "type": "translation",
       "key": "item.arm.voshod.name",
@@ -12051,8 +12090,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/y352k.json",
-    "icon": "/icons/armor/discoverer/y352k.png",
+    "data": "/items/armor/combat/y352k.json",
+    "icon": "/icons/armor/combat/y352k.png",
     "name": {
       "type": "translation",
       "key": "item.arm.gromila.name",
@@ -12090,8 +12129,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/knqvy.json",
-    "icon": "/icons/armor/discoverer/knqvy.png",
+    "data": "/items/armor/combined/knqvy.json",
+    "icon": "/icons/armor/combined/knqvy.png",
     "name": {
       "type": "translation",
       "key": "item.arm.sokol.name",
@@ -12103,8 +12142,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/qjogj.json",
-    "icon": "/icons/armor/discoverer/qjogj.png",
+    "data": "/items/armor/combined/qjogj.json",
+    "icon": "/icons/armor/combined/qjogj.png",
     "name": {
       "type": "translation",
       "key": "item.arm.mocking.name",
@@ -12259,8 +12298,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/3g69l.json",
-    "icon": "/icons/armor/discoverer/3g69l.png",
+    "data": "/items/armor/combined/3g69l.json",
+    "icon": "/icons/armor/combined/3g69l.png",
     "name": {
       "type": "translation",
       "key": "item.arm.skat9b.name",
@@ -12272,8 +12311,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/7lm56.json",
-    "icon": "/icons/armor/discoverer/7lm56.png",
+    "data": "/items/armor/combat/7lm56.json",
+    "icon": "/icons/armor/combat/7lm56.png",
     "name": {
       "type": "translation",
       "key": "item.arm.exo.name",
@@ -12285,8 +12324,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/6w0zp.json",
-    "icon": "/icons/armor/discoverer/6w0zp.png",
+    "data": "/items/armor/combat/6w0zp.json",
+    "icon": "/icons/armor/combat/6w0zp.png",
     "name": {
       "type": "translation",
       "key": "item.arm.exo_bandit.name",
@@ -12298,8 +12337,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/zzyly.json",
-    "icon": "/icons/armor/discoverer/zzyly.png",
+    "data": "/items/armor/combined/zzyly.json",
+    "icon": "/icons/armor/combined/zzyly.png",
     "name": {
       "type": "translation",
       "key": "item.arm.bulat.name",
@@ -12311,8 +12350,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/5lrg1.json",
-    "icon": "/icons/armor/discoverer/5lrg1.png",
+    "data": "/items/armor/combined/5lrg1.json",
+    "icon": "/icons/armor/combined/5lrg1.png",
     "name": {
       "type": "translation",
       "key": "item.arm.pahan.name",
@@ -12324,8 +12363,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/y35jk.json",
-    "icon": "/icons/armor/discoverer/y35jk.png",
+    "data": "/items/armor/combined/y35jk.json",
+    "icon": "/icons/armor/combined/y35jk.png",
     "name": {
       "type": "translation",
       "key": "item.arm.skat9m.name",
@@ -12441,8 +12480,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/m065y.json",
-    "icon": "/icons/armor/discoverer/m065y.png",
+    "data": "/items/armor/combat/m065y.json",
+    "icon": "/icons/armor/combat/m065y.png",
     "name": {
       "type": "translation",
       "key": "item.arm.voshod-1.name",
@@ -12454,8 +12493,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/ok0w6.json",
-    "icon": "/icons/armor/discoverer/ok0w6.png",
+    "data": "/items/armor/combat/ok0w6.json",
+    "icon": "/icons/armor/combat/ok0w6.png",
     "name": {
       "type": "translation",
       "key": "item.arm.gromila-1.name",
@@ -12493,6 +12532,32 @@
     }
   },
   {
+    "data": "/items/armor/combat/2oqjl.json",
+    "icon": "/icons/armor/combat/2oqjl.png",
+    "name": {
+      "type": "translation",
+      "key": "item.arm.berill_main.name",
+      "args": {},
+      "lines": {
+        "ru": "«Берилл» Оракула",
+        "en": "Oracle’s Berill"
+      }
+    }
+  },
+  {
+    "data": "/items/armor/combat/3g6ll.json",
+    "icon": "/icons/armor/combat/3g6ll.png",
+    "name": {
+      "type": "translation",
+      "key": "item.arm.worm_main.name",
+      "args": {},
+      "lines": {
+        "ru": "«Червь» Оракула",
+        "en": "Oracle’s Worm"
+      }
+    }
+  },
+  {
     "data": "/items/armor/combat/96n5l.json",
     "icon": "/icons/armor/combat/96n5l.png",
     "name": {
@@ -12506,8 +12571,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/1rkqg.json",
-    "icon": "/icons/armor/discoverer/1rkqg.png",
+    "data": "/items/armor/combined/1rkqg.json",
+    "icon": "/icons/armor/combined/1rkqg.png",
     "name": {
       "type": "translation",
       "key": "item.arm.bulat-1.name",
@@ -12519,8 +12584,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/g4yo6.json",
-    "icon": "/icons/armor/discoverer/g4yo6.png",
+    "data": "/items/armor/combined/g4yo6.json",
+    "icon": "/icons/armor/combined/g4yo6.png",
     "name": {
       "type": "translation",
       "key": "item.arm.pahan-1.name",
@@ -12532,8 +12597,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/zzy5y.json",
-    "icon": "/icons/armor/discoverer/zzy5y.png",
+    "data": "/items/armor/combat/zzy5y.json",
+    "icon": "/icons/armor/combat/zzy5y.png",
     "name": {
       "type": "translation",
       "key": "item.arm.exo-1.name",
@@ -12545,8 +12610,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/96n5y.json",
-    "icon": "/icons/armor/discoverer/96n5y.png",
+    "data": "/items/armor/combat/96n5y.json",
+    "icon": "/icons/armor/combat/96n5y.png",
     "name": {
       "type": "translation",
       "key": "item.arm.exo_bandit-1.name",
@@ -12558,8 +12623,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/1rkq2.json",
-    "icon": "/icons/armor/discoverer/1rkq2.png",
+    "data": "/items/armor/combined/1rkq2.json",
+    "icon": "/icons/armor/combined/1rkq2.png",
     "name": {
       "type": "translation",
       "key": "item.arm.skat9m-1.name",
@@ -12571,8 +12636,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/g4yo5.json",
-    "icon": "/icons/armor/discoverer/g4yo5.png",
+    "data": "/items/armor/combined/g4yo5.json",
+    "icon": "/icons/armor/combined/g4yo5.png",
     "name": {
       "type": "translation",
       "key": "item.arm.skat9m-2.name",
@@ -12688,21 +12753,8 @@
     }
   },
   {
-    "data": "/items/armor/scientist/lyj4o.json",
-    "icon": "/icons/armor/scientist/lyj4o.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.ametist-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Аметист»",
-        "en": "Worn Amethyst"
-      }
-    }
-  },
-  {
-    "data": "/items/armor/discoverer/m06k2.json",
-    "icon": "/icons/armor/discoverer/m06k2.png",
+    "data": "/items/armor/combined/m06k2.json",
+    "icon": "/icons/armor/combined/m06k2.png",
     "name": {
       "type": "translation",
       "key": "item.arm.skat10.name",
@@ -12714,8 +12766,21 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/vj1pp.json",
-    "icon": "/icons/armor/discoverer/vj1pp.png",
+    "data": "/items/armor/combined/ok0jm.json",
+    "icon": "/icons/armor/combined/ok0jm.png",
+    "name": {
+      "type": "translation",
+      "key": "item.arm.skat9b-1.name",
+      "args": {},
+      "lines": {
+        "ru": "Поношенный «СКАТ-9б»",
+        "en": "Worn SKAT-9b"
+      }
+    }
+  },
+  {
+    "data": "/items/armor/combined/vj1pp.json",
+    "icon": "/icons/armor/combined/vj1pp.png",
     "name": {
       "type": "translation",
       "key": "item.arm.turist-1.name",
@@ -12727,8 +12792,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/dmg02.json",
-    "icon": "/icons/armor/discoverer/dmg02.png",
+    "data": "/items/armor/combined/dmg02.json",
+    "icon": "/icons/armor/combined/dmg02.png",
     "name": {
       "type": "translation",
       "key": "item.arm.klepto-1.name",
@@ -12857,8 +12922,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/1rkz2.json",
-    "icon": "/icons/armor/discoverer/1rkz2.png",
+    "data": "/items/armor/combined/1rkz2.json",
+    "icon": "/icons/armor/combined/1rkz2.png",
     "name": {
       "type": "translation",
       "key": "item.arm.armai.name",
@@ -12870,8 +12935,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/g4yq5.json",
-    "icon": "/icons/armor/discoverer/g4yq5.png",
+    "data": "/items/armor/combat/g4yq5.json",
+    "icon": "/icons/armor/combat/g4yq5.png",
     "name": {
       "type": "translation",
       "key": "item.arm.grenadier.name",
@@ -12961,8 +13026,8 @@
     }
   },
   {
-    "data": "/items/armor/combined/1rkn1.json",
-    "icon": "/icons/armor/combined/1rkn1.png",
+    "data": "/items/armor/scientist/1rkn1.json",
+    "icon": "/icons/armor/scientist/1rkn1.png",
     "name": {
       "type": "translation",
       "key": "item.arm.magnit.name",
@@ -13039,8 +13104,8 @@
     }
   },
   {
-    "data": "/items/armor/combined/4qldn.json",
-    "icon": "/icons/armor/combined/4qldn.png",
+    "data": "/items/armor/scientist/4qldn.json",
+    "icon": "/icons/armor/scientist/4qldn.png",
     "name": {
       "type": "translation",
       "key": "item.arm.tonga.name",
@@ -13234,8 +13299,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/g43k0.json",
-    "icon": "/icons/armor/discoverer/g43k0.png",
+    "data": "/items/armor/combat/g43k0.json",
+    "icon": "/icons/armor/combat/g43k0.png",
     "name": {
       "type": "translation",
       "key": "item.arm.mule.name",
@@ -13247,8 +13312,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/zzjk2.json",
-    "icon": "/icons/armor/discoverer/zzjk2.png",
+    "data": "/items/armor/combat/zzjk2.json",
+    "icon": "/icons/armor/combat/zzjk2.png",
     "name": {
       "type": "translation",
       "key": "item.arm.tuz.name",
@@ -13312,8 +13377,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/kn360.json",
-    "icon": "/icons/armor/discoverer/kn360.png",
+    "data": "/items/armor/combat/kn360.json",
+    "icon": "/icons/armor/combat/kn360.png",
     "name": {
       "type": "translation",
       "key": "item.arm.mule-1.name",
@@ -13325,8 +13390,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/qj1y6.json",
-    "icon": "/icons/armor/discoverer/qj1y6.png",
+    "data": "/items/armor/combat/qj1y6.json",
+    "icon": "/icons/armor/combat/qj1y6.png",
     "name": {
       "type": "translation",
       "key": "item.arm.tuz-1.name",
@@ -13377,8 +13442,8 @@
     }
   },
   {
-    "data": "/items/armor/discoverer/m034j.json",
-    "icon": "/icons/armor/discoverer/m034j.png",
+    "data": "/items/armor/combined/m034j.json",
+    "icon": "/icons/armor/combined/m034j.png",
     "name": {
       "type": "translation",
       "key": "item.arm.punisher.name",
@@ -13988,7 +14053,7 @@
       "args": {},
       "lines": {
         "ru": "Ледяной осколок",
-        "en": "item.misc.blizzard_iceshard.name"
+        "en": "Ice Shard"
       }
     }
   },
@@ -14001,7 +14066,7 @@
       "args": {},
       "lines": {
         "ru": "Ветка рябины",
-        "en": "item.misc.blizzard_rowan.name"
+        "en": "Rowan Branch"
       }
     }
   },
@@ -14014,7 +14079,7 @@
       "args": {},
       "lines": {
         "ru": "Ипсилон данные",
-        "en": "item.misc.blizzard_upsilon.name"
+        "en": "Upsilon Data"
       }
     }
   },

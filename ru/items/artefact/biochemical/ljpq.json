@@ -201,12 +201,12 @@
               "en": "Triggers when"
             }
           },
-          "min": 100.0,
-          "max": 100.0,
+          "min": 80.0,
+          "max": 80.0,
           "formatted": {
             "value": {
-              "ru": "≥100 ед",
-              "en": "≥100 unit(s)"
+              "ru": "≥80 ед",
+              "en": "≥80 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -223,12 +223,12 @@
               "en": "Reduces damage by"
             }
           },
-          "min": 50.0,
-          "max": 62.5,
+          "min": 62.8,
+          "max": 78.5,
           "formatted": {
             "value": {
-              "ru": "[50 ед; 62 ед]",
-              "en": "[50 unit(s); 62 unit(s)]"
+              "ru": "[63 ед; 78 ед]",
+              "en": "[63 unit(s); 78 unit(s)]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -282,22 +282,22 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed"
+              "ru": "Выносливость",
+              "en": "Stamina"
             }
           },
-          "min": -10.0,
-          "max": -5.0,
+          "min": 5.85,
+          "max": 11.7,
           "formatted": {
             "value": {
-              "ru": "[-10%; -5%]",
-              "en": "[-10%; -5%]"
+              "ru": "[+5,85%; +11,7%]",
+              "en": "[+5.85%; +11.7%]"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -311,12 +311,12 @@
               "en": "Radiation"
             }
           },
-          "min": 3.0,
-          "max": 4.0,
+          "min": 0.6,
+          "max": 1.25,
           "formatted": {
             "value": {
-              "ru": "[+3; +4]",
-              "en": "[+3; +4]"
+              "ru": "[+0,6; +1,25]",
+              "en": "[+0.6; +1.25]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
