@@ -182,41 +182,19 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance"
             }
           },
-          "min": 10.0,
-          "max": 20.0,
+          "min": 5.85,
+          "max": 11.7,
           "formatted": {
             "value": {
-              "ru": "[+10%; +20%]",
-              "en": "[+10%; +20%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Защита от разрыва",
-              "en": "Melee protection"
-            }
-          },
-          "min": 15.0,
-          "max": 25.0,
-          "formatted": {
-            "value": {
-              "ru": "[+15; +25]",
-              "en": "[+15; +25]"
+              "ru": "[+5,85; +11,7]",
+              "en": "[+5.85; +11.7]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -233,15 +211,37 @@
               "en": "Psy-emissions"
             }
           },
-          "min": 4.0,
-          "max": 6.0,
+          "min": 2.5,
+          "max": 5.0,
           "formatted": {
             "value": {
-              "ru": "[+4; +6]",
-              "en": "[+4; +6]"
+              "ru": "[+2,5; +5]",
+              "en": "[+2.5; +5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to melee"
+            }
+          },
+          "min": 1.25,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+1,25%; +2,5%]",
+              "en": "[+1.25%; +2.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         }
       ]

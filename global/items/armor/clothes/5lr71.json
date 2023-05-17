@@ -143,7 +143,29 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "+3%",
+              "en": "+3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -163,11 +185,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 6.0,
+          "value": 18.0,
           "formatted": {
             "value": {
-              "ru": "6",
-              "en": "6"
+              "ru": "18",
+              "en": "18"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -184,11 +206,11 @@
               "en": "Melee protection"
             }
           },
-          "value": 11.0,
+          "value": 39.0,
           "formatted": {
             "value": {
-              "ru": "11",
-              "en": "11"
+              "ru": "39",
+              "en": "39"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -205,11 +227,11 @@
               "en": "Explosion protection"
             }
           },
-          "value": 6.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "6",
-              "en": "6"
+              "ru": "30",
+              "en": "30"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -289,11 +311,11 @@
               "en": "Radiation protection"
             }
           },
-          "value": 0.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0"
+              "ru": "20",
+              "en": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -331,11 +353,11 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 0.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0"
+              "ru": "20",
+              "en": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -373,11 +395,11 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 7.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "7%",
-              "en": "7%"
+              "ru": "20%",
+              "en": "20%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

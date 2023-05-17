@@ -145,6 +145,27 @@
       },
       "elements": [
         {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
+            }
+          },
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "+6",
+              "en": "+6"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
           "type": "text",
           "text": {
             "type": "translation",
@@ -176,11 +197,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 42.0,
+          "value": 64.0,
           "formatted": {
             "value": {
-              "ru": "42",
-              "en": "42"
+              "ru": "64",
+              "en": "64"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -197,11 +218,11 @@
               "en": "Melee protection"
             }
           },
-          "value": 47.0,
+          "value": 38.0,
           "formatted": {
             "value": {
-              "ru": "47",
-              "en": "47"
+              "ru": "38",
+              "en": "38"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -218,11 +239,11 @@
               "en": "Explosion protection"
             }
           },
-          "value": 57.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "57",
-              "en": "57"
+              "ru": "40",
+              "en": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -239,11 +260,11 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 516.0,
+          "value": 500.0,
           "formatted": {
             "value": {
-              "ru": "516",
-              "en": "516"
+              "ru": "500",
+              "en": "500"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -260,11 +281,11 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 516.0,
+          "value": 500.0,
           "formatted": {
             "value": {
-              "ru": "516",
-              "en": "516"
+              "ru": "500",
+              "en": "500"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -281,11 +302,11 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 516.0,
+          "value": 500.0,
           "formatted": {
             "value": {
-              "ru": "516",
-              "en": "516"
+              "ru": "500",
+              "en": "500"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -302,11 +323,11 @@
               "en": "Radiation protection"
             }
           },
-          "value": 210.0,
+          "value": 290.0,
           "formatted": {
             "value": {
-              "ru": "210",
-              "en": "210"
+              "ru": "290",
+              "en": "290"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -323,11 +344,11 @@
               "en": "Thermal protection"
             }
           },
-          "value": 210.0,
+          "value": 240.0,
           "formatted": {
             "value": {
-              "ru": "210",
-              "en": "210"
+              "ru": "240",
+              "en": "240"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -365,11 +386,11 @@
               "en": "Psy-Emission Protection"
             }
           },
-          "value": 120.0,
+          "value": 180.0,
           "formatted": {
             "value": {
-              "ru": "120",
-              "en": "120"
+              "ru": "180",
+              "en": "180"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -386,11 +407,11 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 31.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "31%",
-              "en": "31%"
+              "ru": "30%",
+              "en": "30%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -411,11 +432,11 @@
       },
       "text": {
         "type": "translation",
-        "key": "general.armor.compatibility.backpacks.light",
+        "key": "general.armor.compatibility.backpacks.superheavy",
         "args": {},
         "lines": {
-          "ru": "Только легкие",
-          "en": "Only light"
+          "ru": "Любые",
+          "en": "Any"
         }
       }
     },
@@ -432,11 +453,11 @@
       },
       "text": {
         "type": "translation",
-        "key": "general.armor.compatibility.containers.standard",
+        "key": "general.armor.compatibility.containers.bulky",
         "args": {},
         "lines": {
-          "ru": "Компактные и стандартные",
-          "en": "Compact and standard"
+          "ru": "Любые",
+          "en": "Any"
         }
       }
     },

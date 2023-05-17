@@ -182,28 +182,6 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration"
-            }
-          },
-          "min": -1.5,
-          "max": -0.75,
-          "formatted": {
-            "value": {
-              "ru": "[-1,5%; -0,75%]",
-              "en": "[-1.5%; -0.75%]"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
@@ -211,15 +189,37 @@
               "en": "Stamina regeneration"
             }
           },
-          "min": -3.0,
-          "max": -1.5,
+          "min": 1.15,
+          "max": 2.3,
           "formatted": {
             "value": {
-              "ru": "[-3%; -1,5%]",
-              "en": "[-3%; -1.5%]"
+              "ru": "[+1,15%; +2,3%]",
+              "en": "[+1.15%; +2.3%]"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление радиации",
+              "en": "Radiation resistance"
+            }
+          },
+          "min": 9.25,
+          "max": 18.5,
+          "formatted": {
+            "value": {
+              "ru": "[+9,25%; +18,5%]",
+              "en": "[+9.25%; +18.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -233,12 +233,12 @@
               "en": "Radiation"
             }
           },
-          "min": -10.0,
-          "max": -5.0,
+          "min": -2.9,
+          "max": -1.45,
           "formatted": {
             "value": {
-              "ru": "[-10; -5]",
-              "en": "[-10; -5]"
+              "ru": "[-2,9; -1,45]",
+              "en": "[-2.9; -1.45]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

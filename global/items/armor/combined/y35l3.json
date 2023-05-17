@@ -148,18 +148,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
             }
           },
-          "value": -10.0,
+          "value": -6.0,
           "formatted": {
             "value": {
-              "ru": "-10%",
-              "en": "-10%"
+              "ru": "-6%",
+              "en": "-6%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -176,11 +176,11 @@
               "en": "Carry weight"
             }
           },
-          "value": 10.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "+10",
-              "en": "+10"
+              "ru": "+20",
+              "en": "+20"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -197,11 +197,11 @@
               "en": "Periodic healing"
             }
           },
-          "value": 2.25,
+          "value": 2.0,
           "formatted": {
             "value": {
-              "ru": "+2,25%",
-              "en": "+2.25%"
+              "ru": "+2%",
+              "en": "+2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -239,11 +239,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 90.0,
+          "value": 152.0,
           "formatted": {
             "value": {
-              "ru": "90",
-              "en": "90"
+              "ru": "152",
+              "en": "152"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -260,11 +260,11 @@
               "en": "Melee protection"
             }
           },
-          "value": 105.0,
+          "value": 125.0,
           "formatted": {
             "value": {
-              "ru": "105",
-              "en": "105"
+              "ru": "125",
+              "en": "125"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -281,11 +281,11 @@
               "en": "Explosion protection"
             }
           },
-          "value": 125.0,
+          "value": 121.0,
           "formatted": {
             "value": {
-              "ru": "125",
-              "en": "125"
+              "ru": "121",
+              "en": "121"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -302,11 +302,11 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 533.0,
+          "value": 570.0,
           "formatted": {
             "value": {
-              "ru": "533",
-              "en": "533"
+              "ru": "570",
+              "en": "570"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -323,11 +323,11 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 533.0,
+          "value": 240.0,
           "formatted": {
             "value": {
-              "ru": "533",
-              "en": "533"
+              "ru": "240",
+              "en": "240"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -344,11 +344,11 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 533.0,
+          "value": 240.0,
           "formatted": {
             "value": {
-              "ru": "533",
-              "en": "533"
+              "ru": "240",
+              "en": "240"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -365,11 +365,11 @@
               "en": "Radiation protection"
             }
           },
-          "value": 225.0,
+          "value": 240.0,
           "formatted": {
             "value": {
-              "ru": "225",
-              "en": "225"
+              "ru": "240",
+              "en": "240"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -386,11 +386,11 @@
               "en": "Thermal protection"
             }
           },
-          "value": 225.0,
+          "value": 200.0,
           "formatted": {
             "value": {
-              "ru": "225",
-              "en": "225"
+              "ru": "200",
+              "en": "200"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -407,11 +407,11 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 285.0,
+          "value": 300.0,
           "formatted": {
             "value": {
-              "ru": "285",
-              "en": "285"
+              "ru": "300",
+              "en": "300"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -428,11 +428,11 @@
               "en": "Psy-Emission Protection"
             }
           },
-          "value": 225.0,
+          "value": 240.0,
           "formatted": {
             "value": {
-              "ru": "225",
-              "en": "225"
+              "ru": "240",
+              "en": "240"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -449,11 +449,11 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 47.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "47%",
-              "en": "47%"
+              "ru": "40%",
+              "en": "40%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -495,11 +495,11 @@
       },
       "text": {
         "type": "translation",
-        "key": "general.armor.compatibility.containers.spacious",
+        "key": "general.armor.compatibility.containers.bulky",
         "args": {},
         "lines": {
-          "ru": "Кроме громоздких",
-          "en": "Except bulky ones"
+          "ru": "Любые",
+          "en": "Any"
         }
       }
     },

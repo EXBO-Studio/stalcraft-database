@@ -182,19 +182,19 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_dmg_factor",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
             "args": {},
             "lines": {
-              "ru": "Сопротивление кровотечению",
-              "en": "Bleeding resistance"
+              "ru": "Защита от разрыва",
+              "en": "Melee protection"
             }
           },
-          "min": 5.0,
-          "max": 15.0,
+          "min": 2.6,
+          "max": 5.2,
           "formatted": {
             "value": {
-              "ru": "[+5%; +15%]",
-              "en": "[+5%; +15%]"
+              "ru": "[+2,6; +5,2]",
+              "en": "[+2.6; +5.2]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -211,12 +211,12 @@
               "en": "Radiation"
             }
           },
-          "min": 2.0,
-          "max": 5.0,
+          "min": 0.25,
+          "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+2; +5]",
-              "en": "[+2; +5]"
+              "ru": "[+0,25; +0,5]",
+              "en": "[+0.25; +0.5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -233,12 +233,12 @@
               "en": "Reaction to melee"
             }
           },
-          "min": 1.0,
-          "max": 2.0,
+          "min": 0.95,
+          "max": 1.9,
           "formatted": {
             "value": {
-              "ru": "[+1%; +2%]",
-              "en": "[+1%; +2%]"
+              "ru": "[+0,95%; +1,9%]",
+              "en": "[+0.95%; +1.9%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

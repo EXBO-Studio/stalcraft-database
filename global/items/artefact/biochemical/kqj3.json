@@ -189,34 +189,12 @@
               "en": "Stamina"
             }
           },
-          "min": -20.0,
-          "max": -10.0,
+          "min": 5.2,
+          "max": 10.4,
           "formatted": {
             "value": {
-              "ru": "[-20%; -10%]",
-              "en": "[-20%; -10%]"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.psycho_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление пси-излучению",
-              "en": "Psy-emission resistance"
-            }
-          },
-          "min": 5.0,
-          "max": 15.0,
-          "formatted": {
-            "value": {
-              "ru": "[+5%; +15%]",
-              "en": "[+5%; +15%]"
+              "ru": "[+5,2%; +10,4%]",
+              "en": "[+5.2%; +10.4%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -226,19 +204,41 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
             "args": {},
             "lines": {
-              "ru": "Пси-излучение",
-              "en": "Psy-emissions"
+              "ru": "Сопротивление биозаражению",
+              "en": "Bioinfection resistance"
             }
           },
-          "min": -5.0,
-          "max": -2.0,
+          "min": 9.25,
+          "max": 18.5,
           "formatted": {
             "value": {
-              "ru": "[-5; -2]",
-              "en": "[-5; -2]"
+              "ru": "[+9,25%; +18,5%]",
+              "en": "[+9.25%; +18.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection"
+            }
+          },
+          "min": -2.9,
+          "max": -1.45,
+          "formatted": {
+            "value": {
+              "ru": "[-2,9; -1,45]",
+              "en": "[-2.9; -1.45]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

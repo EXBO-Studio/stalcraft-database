@@ -6,8 +6,8 @@
     "key": "item.amm.12st.name",
     "args": {},
     "lines": {
-      "ru": "Крупнокалиберный патрон",
-      "en": "Large-Caliber Ammo"
+      "ru": "Крупнокалиберный самодельный патрон",
+      "en": "Large-Caliber Handmade Ammo"
     }
   },
   "color": "DEFAULT",
@@ -118,32 +118,11 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.bullet.stat_name.piercing",
+            "key": "weapon.tooltip.bullet.stat_name.combustion",
             "args": {},
             "lines": {
-              "ru": "Бронебойность",
-              "en": "Armor-penetration"
-            }
-          },
-          "value": 60.0,
-          "formatted": {
-            "value": {
-              "ru": "+60%",
-              "en": "+60%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.bullet.stat_name.bleeding",
-            "args": {},
-            "lines": {
-              "ru": "Кровотечение",
-              "en": "Bleeding"
+              "ru": "Горение",
+              "en": "Burning"
             }
           },
           "value": 100.0,
@@ -167,11 +146,11 @@
               "en": "Stopping power"
             }
           },
-          "value": 100.0,
+          "value": 200.0,
           "formatted": {
             "value": {
-              "ru": "+100",
-              "en": "+100"
+              "ru": "+200",
+              "en": "+200"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

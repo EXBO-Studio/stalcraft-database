@@ -182,6 +182,28 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration"
+            }
+          },
+          "min": 0.85,
+          "max": 1.7,
+          "formatted": {
+            "value": {
+              "ru": "[+0,85%; +1,7%]",
+              "en": "[+0.85%; +1.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.biological_dmg_factor",
             "args": {},
             "lines": {
@@ -189,12 +211,12 @@
               "en": "Bioinfection resistance"
             }
           },
-          "min": 5.0,
-          "max": 15.0,
+          "min": 6.95,
+          "max": 13.9,
           "formatted": {
             "value": {
-              "ru": "[+5%; +15%]",
-              "en": "[+5%; +15%]"
+              "ru": "[+6,95%; +13,9%]",
+              "en": "[+6.95%; +13.9%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -211,12 +233,12 @@
               "en": "Radiation"
             }
           },
-          "min": 2.0,
-          "max": 5.0,
+          "min": 0.25,
+          "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+2; +5]",
-              "en": "[+2; +5]"
+              "ru": "[+0,25; +0,5]",
+              "en": "[+0.25; +0.5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -233,12 +255,12 @@
               "en": "Biological infection"
             }
           },
-          "min": -3.0,
-          "max": -1.0,
+          "min": -1.5,
+          "max": -0.75,
           "formatted": {
             "value": {
-              "ru": "[-3; -1]",
-              "en": "[-3; -1]"
+              "ru": "[-1,5; -0,75]",
+              "en": "[-1.5; -0.75]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

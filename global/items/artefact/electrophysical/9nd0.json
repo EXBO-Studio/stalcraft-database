@@ -182,22 +182,66 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.health_bonus",
             "args": {},
             "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration"
+              "ru": "Живучесть",
+              "en": "Vitality"
             }
           },
-          "min": -1.0,
-          "max": -0.5,
+          "min": -8.0,
+          "max": -4.0,
           "formatted": {
             "value": {
-              "ru": "[-1%; -0,5%]",
-              "en": "[-1%; -0.5%]"
+              "ru": "[-8%; -4%]",
+              "en": "[-8%; -4%]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration"
+            }
+          },
+          "min": 0.85,
+          "max": 1.7,
+          "formatted": {
+            "value": {
+              "ru": "[+0,85%; +1,7%]",
+              "en": "[+0.85%; +1.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission Protection"
+            }
+          },
+          "min": 15.0,
+          "max": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "[+15; +30]",
+              "en": "[+15; +30]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -211,34 +255,12 @@
               "en": "Psy-emissions"
             }
           },
-          "min": -2.0,
-          "max": -1.0,
+          "min": -1.6,
+          "max": -0.8,
           "formatted": {
             "value": {
-              "ru": "[-2; -1]",
-              "en": "[-2; -1]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.reaction_to_electroshock",
-            "args": {},
-            "lines": {
-              "ru": "Реакция на электричество",
-              "en": "Reaction to electricity"
-            }
-          },
-          "min": 1.0,
-          "max": 3.0,
-          "formatted": {
-            "value": {
-              "ru": "[+1%; +3%]",
-              "en": "[+1%; +3%]"
+              "ru": "[-1,6; -0,8]",
+              "en": "[-1.6; -0.8]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

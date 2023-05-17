@@ -189,12 +189,12 @@
               "en": "Stamina"
             }
           },
-          "min": 5.0,
-          "max": 10.0,
+          "min": 5.65,
+          "max": 11.1,
           "formatted": {
             "value": {
-              "ru": "[+5%; +10%]",
-              "en": "[+5%; +10%]"
+              "ru": "[+5,65%; +11,1%]",
+              "en": "[+5.65%; +11.1%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -204,19 +204,41 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Электрозащита",
-              "en": "Resistance to electricity"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
             }
           },
-          "min": -100.0,
-          "max": -50.0,
+          "min": 0.75,
+          "max": 1.5,
           "formatted": {
             "value": {
-              "ru": "[-100; -50]",
-              "en": "[-100; -50]"
+              "ru": "[+0,75%; +1,5%]",
+              "en": "[+0.75%; +1.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature"
+            }
+          },
+          "min": 0.25,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "[+0,25; +0,5]",
+              "en": "[+0.25; +0.5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

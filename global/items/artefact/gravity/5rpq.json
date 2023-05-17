@@ -182,19 +182,19 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
             }
           },
-          "min": 5.0,
-          "max": 15.0,
+          "min": 6.95,
+          "max": 13.9,
           "formatted": {
             "value": {
-              "ru": "[+5%; +15%]",
-              "en": "[+5%; +15%]"
+              "ru": "[+6,95; +13,9]",
+              "en": "[+6.95; +13.9]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -204,19 +204,19 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Переносимый вес",
-              "en": "Carry weight"
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration"
             }
           },
-          "min": 10.0,
-          "max": 25.0,
+          "min": 1.6,
+          "max": 3.2,
           "formatted": {
             "value": {
-              "ru": "[+10; +25]",
-              "en": "[+10; +25]"
+              "ru": "[+1,6%; +3,2%]",
+              "en": "[+1.6%; +3.2%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -233,12 +233,12 @@
               "en": "Radiation"
             }
           },
-          "min": 2.0,
-          "max": 5.0,
+          "min": 0.62,
+          "max": 1.25,
           "formatted": {
             "value": {
-              "ru": "[+2; +5]",
-              "en": "[+2; +5]"
+              "ru": "[+0,62; +1,25]",
+              "en": "[+0.62; +1.25]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -255,12 +255,12 @@
               "en": "Psy-emissions"
             }
           },
-          "min": 2.0,
-          "max": 5.0,
+          "min": 1.25,
+          "max": 2.5,
           "formatted": {
             "value": {
-              "ru": "[+2; +5]",
-              "en": "[+2; +5]"
+              "ru": "[+1,25; +2,5]",
+              "en": "[+1.25; +2.5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

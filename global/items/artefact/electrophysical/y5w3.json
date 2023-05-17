@@ -189,12 +189,12 @@
               "en": "Bullet resistance"
             }
           },
-          "min": 15.0,
-          "max": 20.0,
+          "min": 6.5,
+          "max": 13.0,
           "formatted": {
             "value": {
-              "ru": "[+15; +20]",
-              "en": "[+15; +20]"
+              "ru": "[+6,5; +13]",
+              "en": "[+6.5; +13]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -204,19 +204,41 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
             "args": {},
             "lines": {
-              "ru": "Защита от кровотечения",
-              "en": "Bleeding protection"
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection"
             }
           },
-          "min": -50.0,
-          "max": -25.0,
+          "min": 4.05,
+          "max": 8.1,
           "formatted": {
             "value": {
-              "ru": "[-50%; -25%]",
-              "en": "[-50%; -25%]"
+              "ru": "[+4,05; +8,1]",
+              "en": "[+4.05; +8.1]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions"
+            }
+          },
+          "min": 2.5,
+          "max": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "[+2,5; +5]",
+              "en": "[+2.5; +5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

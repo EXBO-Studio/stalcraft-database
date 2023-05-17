@@ -182,6 +182,28 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance"
+            }
+          },
+          "min": 3.15,
+          "max": 6.3,
+          "formatted": {
+            "value": {
+              "ru": "[+3,15; +6,3]",
+              "en": "[+3.15; +6.3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
             "args": {},
             "lines": {
@@ -189,12 +211,12 @@
               "en": "Explosion protection"
             }
           },
-          "min": 15.0,
-          "max": 25.0,
+          "min": 1.95,
+          "max": 3.9,
           "formatted": {
             "value": {
-              "ru": "[+15; +25]",
-              "en": "[+15; +25]"
+              "ru": "[+1,95; +3,9]",
+              "en": "[+1.95; +3.9]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -211,12 +233,12 @@
               "en": "Psy-emissions"
             }
           },
-          "min": 4.0,
-          "max": 6.0,
+          "min": 0.75,
+          "max": 1.5,
           "formatted": {
             "value": {
-              "ru": "[+4; +6]",
-              "en": "[+4; +6]"
+              "ru": "[+0,75; +1,5]",
+              "en": "[+0.75; +1.5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

@@ -122,23 +122,53 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
+              "ru": "Эффективность",
+              "en": "Effectiveness"
             }
           },
-          "value": 15.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "15%",
-              "en": "15%"
+              "ru": "100%",
+              "en": "100%"
             },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
           }
         },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity"
+            }
+          },
+          "value": 2.0,
+          "formatted": {
+            "value": {
+              "ru": "0/2",
+              "en": "0/2"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
         {
           "type": "numeric",
           "name": {

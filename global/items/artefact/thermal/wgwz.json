@@ -182,28 +182,6 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration"
-            }
-          },
-          "min": -1.5,
-          "max": -0.75,
-          "formatted": {
-            "value": {
-              "ru": "[-1,5%; -0,75%]",
-              "en": "[-1.5%; -0.75%]"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
             "args": {},
             "lines": {
@@ -211,15 +189,59 @@
               "en": "Bullet resistance"
             }
           },
-          "min": 5.0,
-          "max": 15.0,
+          "min": 2.95,
+          "max": 5.9,
           "formatted": {
             "value": {
-              "ru": "[+5; +15]",
-              "en": "[+5; +15]"
+              "ru": "[+2,95; +5,9]",
+              "en": "[+2.95; +5.9]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature"
+            }
+          },
+          "min": -1.1,
+          "max": -0.55,
+          "formatted": {
+            "value": {
+              "ru": "[-1,1; -0,55]",
+              "en": "[-1.1; -0.55]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Холод",
+              "en": "Frost"
+            }
+          },
+          "min": 0.25,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "[+0,25; +0,5]",
+              "en": "[+0.25; +0.5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -233,12 +255,12 @@
               "en": "Reaction to melee"
             }
           },
-          "min": 1.0,
-          "max": 2.0,
+          "min": 1.05,
+          "max": 2.1,
           "formatted": {
             "value": {
-              "ru": "[+1%; +2%]",
-              "en": "[+1%; +2%]"
+              "ru": "[+1,05%; +2,1%]",
+              "en": "[+1.05%; +2.1%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

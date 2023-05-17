@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 36.0,
+          "value": 26.3,
           "formatted": {
             "value": {
-              "ru": "36 ед",
-              "en": "36 unit(s)"
+              "ru": "26,3 ед",
+              "en": "26.3 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -218,11 +218,11 @@
               "en": "Maximum distance"
             }
           },
-          "value": 155.0,
+          "value": 150.0,
           "formatted": {
             "value": {
-              "ru": "155 м",
-              "en": "155 m"
+              "ru": "150 м",
+              "en": "150 m"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -239,11 +239,11 @@
               "en": "Rate of fire"
             }
           },
-          "value": 650.0,
+          "value": 600.0,
           "formatted": {
             "value": {
-              "ru": "650 выстр/мин",
-              "en": "650 shots/min"
+              "ru": "600 выстр/мин",
+              "en": "600 shots/min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -302,11 +302,11 @@
               "en": "Spread"
             }
           },
-          "value": 0.705,
+          "value": 0.45,
           "formatted": {
             "value": {
-              "ru": "0,7°",
-              "en": "0.7°"
+              "ru": "0,45°",
+              "en": "0.45°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -407,11 +407,11 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.35,
+          "value": 0.25,
           "formatted": {
             "value": {
-              "ru": "0,35 с",
-              "en": "0.35 sec"
+              "ru": "0,25 с",
+              "en": "0.25 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -471,22 +471,6 @@
               "en": "Limb damage: х0.5"
             }
           }
-        },
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.constancy_damage_modifier",
-            "args": {
-              "plusPercent": "1.0",
-              "maxPercent": "25.0",
-              "reset": "3"
-            },
-            "lines": {
-              "ru": "Каждое попадание по одной цели +1% урона, максимум +25% урона. Счетчик попаданий сбрасывается через 3 сек. Каждое новое попадание обновляет таймер.",
-              "en": "Every hit on a single target deals +1% damage, to a maximum of +25% damage. The hit counter resets after 3 sec. Each new hit refreshes the timer."
-            }
-          }
         }
       ]
     },
@@ -501,15 +485,28 @@
           "en": "Features"
         }
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.wpn.lmg.features",
+            "args": {},
+            "lines": {
+              "ru": "Улучшенный разброс и отдача в положении лёжа",
+              "en": "Upgraded spread and recoil in the prone position"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "damage",
-      "startDamage": 36.0,
-      "damageDecreaseStart": 14.0,
-      "endDamage": 27.0,
-      "damageDecreaseEnd": 70.0,
-      "maxDistance": 155.0
+      "startDamage": 26.3,
+      "damageDecreaseStart": 12.0,
+      "endDamage": 19.4,
+      "damageDecreaseEnd": 52.0,
+      "maxDistance": 150.0
     },
     {
       "type": "text",

@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 41.0,
+          "value": 35.0,
           "formatted": {
             "value": {
-              "ru": "41 ед",
-              "en": "41 unit(s)"
+              "ru": "35 ед",
+              "en": "35 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -218,11 +218,11 @@
               "en": "Maximum distance"
             }
           },
-          "value": 100.0,
+          "value": 110.0,
           "formatted": {
             "value": {
-              "ru": "100 м",
-              "en": "100 m"
+              "ru": "110 м",
+              "en": "110 m"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -260,27 +260,6 @@
               "en": "Reload"
             }
           },
-          "value": 3.5,
-          "formatted": {
-            "value": {
-              "ru": "3,5 с",
-              "en": "3.5 sec"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.info.tactical_reload_time",
-            "args": {},
-            "lines": {
-              "ru": "Тактическая перезарядка",
-              "en": "Tactical reload"
-            }
-          },
           "value": 2.75,
           "formatted": {
             "value": {
@@ -302,11 +281,11 @@
               "en": "Spread"
             }
           },
-          "value": 0.928,
+          "value": 0.5,
           "formatted": {
             "value": {
-              "ru": "0,93°",
-              "en": "0.93°"
+              "ru": "0,5°",
+              "en": "0.5°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -489,11 +468,11 @@
     },
     {
       "type": "damage",
-      "startDamage": 41.0,
-      "damageDecreaseStart": 16.0,
-      "endDamage": 19.0,
-      "damageDecreaseEnd": 40.0,
-      "maxDistance": 100.0
+      "startDamage": 35.0,
+      "damageDecreaseStart": 8.0,
+      "endDamage": 21.0,
+      "damageDecreaseEnd": 36.0,
+      "maxDistance": 110.0
     },
     {
       "type": "text",

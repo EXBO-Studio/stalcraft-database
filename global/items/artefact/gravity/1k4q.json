@@ -182,28 +182,6 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality"
-            }
-          },
-          "min": -5.0,
-          "max": -3.0,
-          "formatted": {
-            "value": {
-              "ru": "[-5%; -3%]",
-              "en": "[-5%; -3%]"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
@@ -211,15 +189,59 @@
               "en": "Health regeneration"
             }
           },
-          "min": 2.0,
-          "max": 3.0,
+          "min": 1.1,
+          "max": 2.2,
           "formatted": {
             "value": {
-              "ru": "[+2%; +3%]",
-              "en": "[+2%; +3%]"
+              "ru": "[+1,1%; +2,2%]",
+              "en": "[+1.1%; +2.2%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness"
+            }
+          },
+          "min": 2.9,
+          "max": 5.8,
+          "formatted": {
+            "value": {
+              "ru": "[+2,9%; +5,8%]",
+              "en": "[+2.9%; +5.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation"
+            }
+          },
+          "min": 0.5,
+          "max": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "[+0,5; +1]",
+              "en": "[+0.5; +1]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         }
       ]

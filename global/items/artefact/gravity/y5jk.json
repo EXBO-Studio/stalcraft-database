@@ -182,22 +182,22 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality"
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
             }
           },
-          "min": -5.0,
-          "max": -3.0,
+          "min": 3.05,
+          "max": 6.1,
           "formatted": {
             "value": {
-              "ru": "[-5%; -3%]",
-              "en": "[-5%; -3%]"
+              "ru": "[+3,05; +6,1]",
+              "en": "[+3.05; +6.1]"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -211,12 +211,12 @@
               "en": "Bullet resistance"
             }
           },
-          "min": 10.0,
-          "max": 15.0,
+          "min": 3.05,
+          "max": 6.1,
           "formatted": {
             "value": {
-              "ru": "[+10; +15]",
-              "en": "[+10; +15]"
+              "ru": "[+3,05; +6,1]",
+              "en": "[+3.05; +6.1]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -226,22 +226,22 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
-              "ru": "Электрозащита",
-              "en": "Resistance to electricity"
+              "ru": "Радиация",
+              "en": "Radiation"
             }
           },
-          "min": 10.0,
-          "max": 15.0,
+          "min": 0.37,
+          "max": 0.75,
           "formatted": {
             "value": {
-              "ru": "[+10; +15]",
-              "en": "[+10; +15]"
+              "ru": "[+0,37; +0,75]",
+              "en": "[+0.37; +0.75]"
             },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -255,12 +255,12 @@
               "en": "Psy-emissions"
             }
           },
-          "min": -3.0,
-          "max": -1.0,
+          "min": -1.2,
+          "max": -0.6,
           "formatted": {
             "value": {
-              "ru": "[-3; -1]",
-              "en": "[-3; -1]"
+              "ru": "[-1,2; -0,6]",
+              "en": "[-1.2; -0.6]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

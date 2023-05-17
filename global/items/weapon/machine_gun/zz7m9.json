@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 42.0,
+          "value": 30.2,
           "formatted": {
             "value": {
-              "ru": "42 ед",
-              "en": "42 unit(s)"
+              "ru": "30,2 ед",
+              "en": "30.2 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -281,11 +281,11 @@
               "en": "Spread"
             }
           },
-          "value": 0.718,
+          "value": 0.45,
           "formatted": {
             "value": {
-              "ru": "0,72°",
-              "en": "0.72°"
+              "ru": "0,45°",
+              "en": "0.45°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -386,11 +386,11 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.4,
+          "value": 0.25,
           "formatted": {
             "value": {
-              "ru": "0,4 с",
-              "en": "0.4 sec"
+              "ru": "0,25 с",
+              "en": "0.25 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -450,22 +450,6 @@
               "en": "Limb damage: х0.5"
             }
           }
-        },
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.constancy_damage_modifier",
-            "args": {
-              "plusPercent": "1.5",
-              "maxPercent": "45.0",
-              "reset": "3"
-            },
-            "lines": {
-              "ru": "Каждое попадание по одной цели +1,5% урона, максимум +45% урона. Счетчик попаданий сбрасывается через 3 сек. Каждое новое попадание обновляет таймер.",
-              "en": "Every hit on a single target deals +1.5% damage, to a maximum of +45% damage. The hit counter resets after 3 sec. Each new hit refreshes the timer."
-            }
-          }
         }
       ]
     },
@@ -480,14 +464,27 @@
           "en": "Features"
         }
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.wpn.lmg.features",
+            "args": {},
+            "lines": {
+              "ru": "Улучшенный разброс и отдача в положении лёжа",
+              "en": "Upgraded spread and recoil in the prone position"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "damage",
-      "startDamage": 42.0,
-      "damageDecreaseStart": 18.0,
-      "endDamage": 27.0,
-      "damageDecreaseEnd": 80.0,
+      "startDamage": 30.2,
+      "damageDecreaseStart": 12.0,
+      "endDamage": 23.3,
+      "damageDecreaseEnd": 52.0,
       "maxDistance": 170.0
     },
     {

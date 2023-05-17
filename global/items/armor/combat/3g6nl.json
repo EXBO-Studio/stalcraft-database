@@ -148,6 +148,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "+3%",
+              "en": "+3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
@@ -155,11 +176,11 @@
               "en": "Carry weight"
             }
           },
-          "value": 3.0,
+          "value": 2.0,
           "formatted": {
             "value": {
-              "ru": "+3",
-              "en": "+3"
+              "ru": "+2",
+              "en": "+2"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -185,11 +206,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 38.0,
+          "value": 35.0,
           "formatted": {
             "value": {
-              "ru": "38",
-              "en": "38"
+              "ru": "35",
+              "en": "35"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -206,11 +227,11 @@
               "en": "Melee protection"
             }
           },
-          "value": 40.0,
+          "value": 52.0,
           "formatted": {
             "value": {
-              "ru": "40",
-              "en": "40"
+              "ru": "52",
+              "en": "52"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -227,11 +248,11 @@
               "en": "Explosion protection"
             }
           },
-          "value": 52.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "52",
-              "en": "52"
+              "ru": "30",
+              "en": "30"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -248,11 +269,11 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 15.0,
+          "value": 0.0,
           "formatted": {
             "value": {
-              "ru": "15",
-              "en": "15"
+              "ru": "0",
+              "en": "0"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -269,11 +290,11 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 15.0,
+          "value": 0.0,
           "formatted": {
             "value": {
-              "ru": "15",
-              "en": "15"
+              "ru": "0",
+              "en": "0"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -290,11 +311,11 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 15.0,
+          "value": 0.0,
           "formatted": {
             "value": {
-              "ru": "15",
-              "en": "15"
+              "ru": "0",
+              "en": "0"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -332,11 +353,11 @@
               "en": "Thermal protection"
             }
           },
-          "value": 0.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0"
+              "ru": "20",
+              "en": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -395,11 +416,11 @@
               "en": "Bleeding protection"
             }
           },
-          "value": 31.0,
+          "value": 35.0,
           "formatted": {
             "value": {
-              "ru": "31%",
-              "en": "31%"
+              "ru": "35%",
+              "en": "35%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

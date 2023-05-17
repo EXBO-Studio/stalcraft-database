@@ -113,11 +113,11 @@
               "en": "Duration"
             }
           },
-          "value": 60.0,
+          "value": 210.0,
           "formatted": {
             "value": {
-              "ru": "1 мин",
-              "en": "1 min"
+              "ru": "3 мин 30 с",
+              "en": "3 min 30 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -134,11 +134,11 @@
               "en": "Poison"
             }
           },
-          "value": 50.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50"
+              "ru": "40",
+              "en": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -164,11 +164,11 @@
               "en": "Stamina"
             }
           },
-          "value": 100.0,
+          "value": 28.8,
           "formatted": {
             "value": {
-              "ru": "100%",
-              "en": "100%"
+              "ru": "28,8%",
+              "en": "28.8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -185,11 +185,11 @@
               "en": "Movement speed"
             }
           },
-          "value": 5.0,
+          "value": 5.4,
           "formatted": {
             "value": {
-              "ru": "5%",
-              "en": "5%"
+              "ru": "5,4%",
+              "en": "5.4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -206,56 +206,14 @@
               "en": "Stamina regeneration"
             }
           },
-          "value": 10.0,
+          "value": 6.3,
           "formatted": {
             "value": {
-              "ru": "10%",
-              "en": "10%"
+              "ru": "6,3%",
+              "en": "6.3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.heal_efficiency",
-            "args": {},
-            "lines": {
-              "ru": "Эффективность лечения",
-              "en": "Healing effectiveness"
-            }
-          },
-          "value": 25.0,
-          "formatted": {
-            "value": {
-              "ru": "25%",
-              "en": "25%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_protection",
-            "args": {},
-            "lines": {
-              "ru": "Защита от кровотечения",
-              "en": "Bleeding protection"
-            }
-          },
-          "value": -25.0,
-          "formatted": {
-            "value": {
-              "ru": "-25%",
-              "en": "-25%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
           }
         }
       ]

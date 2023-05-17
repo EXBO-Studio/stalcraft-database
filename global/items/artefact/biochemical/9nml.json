@@ -182,22 +182,44 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Защита от кровотечения",
-              "en": "Bleeding protection"
+              "ru": "Выносливость",
+              "en": "Stamina"
             }
           },
-          "min": -100.0,
-          "max": -50.0,
+          "min": 3.9,
+          "max": 7.8,
           "formatted": {
             "value": {
-              "ru": "[-100%; -50%]",
-              "en": "[-100%; -50%]"
+              "ru": "[+3,9%; +7,8%]",
+              "en": "[+3.9%; +7.8%]"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление радиации",
+              "en": "Radiation resistance"
+            }
+          },
+          "min": 6.95,
+          "max": 13.9,
+          "formatted": {
+            "value": {
+              "ru": "[+6,95%; +13,9%]",
+              "en": "[+6.95%; +13.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -211,12 +233,12 @@
               "en": "Radiation"
             }
           },
-          "min": -4.0,
-          "max": -2.0,
+          "min": -1.5,
+          "max": -0.75,
           "formatted": {
             "value": {
-              "ru": "[-4; -2]",
-              "en": "[-4; -2]"
+              "ru": "[-1,5; -0,75]",
+              "en": "[-1.5; -0.75]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

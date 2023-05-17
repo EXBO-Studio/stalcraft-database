@@ -113,11 +113,11 @@
               "en": "Quick attack (min)"
             }
           },
-          "value": 40.0,
+          "value": 27.0,
           "formatted": {
             "value": {
-              "ru": "40 ед",
-              "en": "40 unit(s)"
+              "ru": "27 ед",
+              "en": "27 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -134,11 +134,11 @@
               "en": "Quick attack (max)"
             }
           },
-          "value": 50.0,
+          "value": 33.0,
           "formatted": {
             "value": {
-              "ru": "50 ед",
-              "en": "50 unit(s)"
+              "ru": "33 ед",
+              "en": "33 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -155,11 +155,11 @@
               "en": "Strong attack (min)"
             }
           },
-          "value": 100.0,
+          "value": 68.0,
           "formatted": {
             "value": {
-              "ru": "100 ед",
-              "en": "100 unit(s)"
+              "ru": "68 ед",
+              "en": "68 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -176,11 +176,11 @@
               "en": "Strong attack (max)"
             }
           },
-          "value": 120.0,
+          "value": 83.0,
           "formatted": {
             "value": {
-              "ru": "120 ед",
-              "en": "120 unit(s)"
+              "ru": "83 ед",
+              "en": "83 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -239,11 +239,11 @@
               "en": "Penetration"
             }
           },
-          "value": 60.0,
+          "value": 50.0,
           "formatted": {
             "value": {
-              "ru": "60%",
-              "en": "60%"
+              "ru": "50%",
+              "en": "50%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -260,11 +260,11 @@
               "en": "Chance for a deep wound"
             }
           },
-          "value": 65.0,
+          "value": 75.0,
           "formatted": {
             "value": {
-              "ru": "65%",
-              "en": "65%"
+              "ru": "75%",
+              "en": "75%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -290,11 +290,25 @@
             "type": "translation",
             "key": "weapon.tooltip.melee_weapon.critical_hit_mod",
             "args": {
-              "factor": "1.2"
+              "factor": "1.56"
             },
             "lines": {
-              "ru": "Урон со спины: x1,2",
-              "en": "Backstab damage: x1.2"
+              "ru": "Урон со спины: x1,56",
+              "en": "Backstab damage: x1.56"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.mutant_damage_mod",
+            "args": {
+              "factor": "1.29"
+            },
+            "lines": {
+              "ru": "Урон по мутантам: x1,29",
+              "en": "Damage to mutants: x1.29"
             }
           }
         }

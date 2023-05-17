@@ -143,29 +143,7 @@
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
-            }
-          },
-          "value": -10.0,
-          "formatted": {
-            "value": {
-              "ru": "-10%",
-              "en": "-10%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",
@@ -185,11 +163,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 0.0,
+          "value": 1.0,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0"
+              "ru": "1",
+              "en": "1"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -206,11 +184,11 @@
               "en": "Melee protection"
             }
           },
-          "value": 8.0,
+          "value": 0.0,
           "formatted": {
             "value": {
-              "ru": "8",
-              "en": "8"
+              "ru": "0",
+              "en": "0"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -248,11 +226,11 @@
               "en": "Resistance to electricity"
             }
           },
-          "value": 40.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "40",
-              "en": "40"
+              "ru": "30",
+              "en": "30"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -269,11 +247,11 @@
               "en": "Resistance to fire"
             }
           },
-          "value": 40.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "40",
-              "en": "40"
+              "ru": "30",
+              "en": "30"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -290,11 +268,11 @@
               "en": "Resistance to chemicals"
             }
           },
-          "value": 40.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "40",
-              "en": "40"
+              "ru": "30",
+              "en": "30"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -311,11 +289,11 @@
               "en": "Radiation protection"
             }
           },
-          "value": 40.0,
+          "value": 60.0,
           "formatted": {
             "value": {
-              "ru": "40",
-              "en": "40"
+              "ru": "60",
+              "en": "60"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -332,11 +310,11 @@
               "en": "Thermal protection"
             }
           },
-          "value": 15.0,
+          "value": 50.0,
           "formatted": {
             "value": {
-              "ru": "15",
-              "en": "15"
+              "ru": "50",
+              "en": "50"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -353,11 +331,11 @@
               "en": "Bioinfection Protection"
             }
           },
-          "value": 40.0,
+          "value": 60.0,
           "formatted": {
             "value": {
-              "ru": "40",
-              "en": "40"
+              "ru": "60",
+              "en": "60"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
