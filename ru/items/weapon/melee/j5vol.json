@@ -65,6 +65,27 @@
           }
         },
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.type",
+            "args": {},
+            "lines": {
+              "ru": "Тип",
+              "en": "core.tooltip.info.type"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.melee.fight.type",
+            "args": {},
+            "lines": {
+              "ru": "Боевой",
+              "en": "item.melee.fight.type"
+            }
+          }
+        },
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -94,6 +115,36 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
+            }
+          },
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "6%",
+              "en": "6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     },
     {
       "type": "list",

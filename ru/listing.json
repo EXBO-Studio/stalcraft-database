@@ -1971,7 +1971,7 @@
       "args": {},
       "lines": {
         "ru": "Крупнокалиберный самодельный патрон",
-        "en": "Large-Caliber Ammo"
+        "en": "Large-Caliber Handmade Ammo"
       }
     }
   },
@@ -6118,7 +6118,7 @@
       "args": {},
       "lines": {
         "ru": "АН-94 «Абакан»",
-        "en": "item.wpn.abakan-05.name"
+        "en": "AN-94 Abakan"
       }
     }
   },
@@ -6131,7 +6131,7 @@
       "args": {},
       "lines": {
         "ru": "ППШ",
-        "en": "item.wpn.ppsh41.name"
+        "en": "PPSh"
       }
     }
   },
@@ -6274,7 +6274,7 @@
       "args": {},
       "lines": {
         "ru": "АН-94М «Абакан»",
-        "en": "AN-94 Abakan"
+        "en": "AN-94M Abakan"
       }
     }
   },
@@ -6729,7 +6729,7 @@
       "args": {},
       "lines": {
         "ru": "Mauser 98k",
-        "en": "item.wpn.mauser98.name"
+        "en": "Mauser 98k"
       }
     }
   },
@@ -9316,7 +9316,7 @@
       "args": {},
       "lines": {
         "ru": "Набор планок для ППШ",
-        "en": "item.att.forend_ppsh.name"
+        "en": "Pack of Rails for PPSh"
       }
     }
   },
@@ -11201,7 +11201,7 @@
       "args": {},
       "lines": {
         "ru": "Барабанный магазин ППШ",
-        "en": "item.att.mag_ppsh.name"
+        "en": "PPSh Drum Clip"
       }
     }
   },
@@ -11600,11 +11600,11 @@
     "icon": "/icons/armor/clothes/1rk6g.png",
     "name": {
       "type": "translation",
-      "key": "item.arm.kyrtka_pov.name",
+      "key": "item.arm.kyrtka_bandit.name",
       "args": {},
       "lines": {
-        "ru": "Куртка с повязкой",
-        "en": "Coat with Face Covering"
+        "ru": "Бандитская куртка",
+        "en": "Bandit Coat"
       }
     }
   },
@@ -11613,11 +11613,24 @@
     "icon": "/icons/armor/clothes/g4yw6.png",
     "name": {
       "type": "translation",
-      "key": "item.arm.kyrtka_bandit.name",
+      "key": "item.arm.kyrtka_koj_bandit.name",
       "args": {},
       "lines": {
-        "ru": "Бандитская куртка",
-        "en": "Bandit Coat"
+        "ru": "Бандитская кожанка",
+        "en": "item.arm.kyrtka_koj_bandit.name"
+      }
+    }
+  },
+  {
+    "data": "/items/armor/clothes/zzy6y.json",
+    "icon": "/icons/armor/clothes/zzy6y.png",
+    "name": {
+      "type": "translation",
+      "key": "item.arm.krot_bandit.name",
+      "args": {},
+      "lines": {
+        "ru": "Бандитский «Крот»",
+        "en": "item.arm.krot_bandit.name"
       }
     }
   },
@@ -11631,6 +11644,19 @@
       "lines": {
         "ru": "Кожаная куртка",
         "en": "Leather Jacket"
+      }
+    }
+  },
+  {
+    "data": "/items/armor/clothes/y35ok.json",
+    "icon": "/icons/armor/clothes/y35ok.png",
+    "name": {
+      "type": "translation",
+      "key": "item.arm.krot.name",
+      "args": {},
+      "lines": {
+        "ru": "Костюм «Крот»",
+        "en": "item.arm.krot.name"
       }
     }
   },
@@ -11683,6 +11709,19 @@
       "lines": {
         "ru": "Костюм «Горка-3»",
         "en": "Gorka-3 Suit"
+      }
+    }
+  },
+  {
+    "data": "/items/armor/combat/m062y.json",
+    "icon": "/icons/armor/combat/m062y.png",
+    "name": {
+      "type": "translation",
+      "key": "item.arm.bronj_bandit.name",
+      "args": {},
+      "lines": {
+        "ru": "Куртка с бронежилетом",
+        "en": "item.arm.bronj_bandit.name"
       }
     }
   },
@@ -13035,19 +13074,6 @@
       "lines": {
         "ru": "Бронекостюм «КЗ-2»",
         "en": "CD-2 Armored Suit"
-      }
-    }
-  },
-  {
-    "data": "/items/armor/clothes/5lr1o.json",
-    "icon": "/icons/armor/clothes/5lr1o.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.longcoat_donate.name",
-      "args": {},
-      "lines": {
-        "ru": "Укрепленный плащ",
-        "en": "Reinforced Cloak"
       }
     }
   },
