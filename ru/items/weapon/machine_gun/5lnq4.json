@@ -274,6 +274,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.tactical_reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical reload"
+            }
+          },
+          "value": 4.75,
+          "formatted": {
+            "value": {
+              "ru": "4,75 с",
+              "en": "4.75 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.tooltip.weapon.info.spread",
             "args": {},
             "lines": {
