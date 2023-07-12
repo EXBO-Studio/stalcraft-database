@@ -2812,7 +2812,7 @@
     "icon": "/icons/other/5ljn0.png",
     "name": {
       "type": "translation",
-      "key": "item.18128.name",
+      "key": "item.camo.wpn.field.name",
       "args": {},
       "lines": {
         "ru": "Камуфляж «Поле»",
@@ -2825,7 +2825,7 @@
     "icon": "/icons/other/y362o.png",
     "name": {
       "type": "translation",
-      "key": "item.18129.name",
+      "key": "item.camo.wpn.gryada.name",
       "args": {},
       "lines": {
         "ru": "Камуфляж «Гряда»",
@@ -3332,7 +3332,7 @@
     "icon": "/icons/other/lyo1j.png",
     "name": {
       "type": "translation",
-      "key": "item.18235.name",
+      "key": "item.camo.wpn.hexcam_mist.name",
       "args": {},
       "lines": {
         "ru": "Камуфляж «Hexcam Mist»",
@@ -4151,7 +4151,7 @@
     "icon": "/icons/other/5l76q.png",
     "name": {
       "type": "translation",
-      "key": "item.19128.name",
+      "key": "item.camo.arm.field.name",
       "args": {},
       "lines": {
         "ru": "Камуфляж «Поле»",
@@ -4164,7 +4164,7 @@
     "icon": "/icons/other/y3o03.png",
     "name": {
       "type": "translation",
-      "key": "item.19129.name",
+      "key": "item.camo.arm.gryada.name",
       "args": {},
       "lines": {
         "ru": "Камуфляж «Гряда»",
@@ -4671,7 +4671,7 @@
     "icon": "/icons/other/lygg2.png",
     "name": {
       "type": "translation",
-      "key": "item.19235.name",
+      "key": "item.camo.arm.hexcam_mist.name",
       "args": {},
       "lines": {
         "ru": "Камуфляж «Hexcam Mist»",
@@ -5087,11 +5087,11 @@
     "icon": "/icons/other/rwk1l.png",
     "name": {
       "type": "translation",
-      "key": "item.camo.unique_arm.magma.name",
+      "key": "item.camo.unique_arm.magma_warrior.name",
       "args": {},
       "lines": {
-        "ru": "«Магма»",
-        "en": "Magma"
+        "ru": "«Магмовый воин»",
+        "en": "Magma Warrior"
       }
     }
   },
@@ -5599,6 +5599,45 @@
       "lines": {
         "ru": "«Лич»",
         "en": "Lich"
+      }
+    }
+  },
+  {
+    "data": "/items/other/rwk3l.json",
+    "icon": "/icons/other/rwk3l.png",
+    "name": {
+      "type": "translation",
+      "key": "item.camo.unique.ao5_blizzard23.name",
+      "args": {},
+      "lines": {
+        "ru": "«Утечка криогена»",
+        "en": "Cryogenic Leak"
+      }
+    }
+  },
+  {
+    "data": "/items/other/0ry5r.json",
+    "icon": "/icons/other/0ry5r.png",
+    "name": {
+      "type": "translation",
+      "key": "item.camo.unique.skat_blizzard23.name",
+      "args": {},
+      "lines": {
+        "ru": "«Холодная голова»",
+        "en": "Frost Head"
+      }
+    }
+  },
+  {
+    "data": "/items/other/m0zlr.json",
+    "icon": "/icons/other/m0zlr.png",
+    "name": {
+      "type": "translation",
+      "key": "item.camo.unique_arm.ravent23.name",
+      "args": {},
+      "lines": {
+        "ru": "«Закаленный в боях»",
+        "en": "Forged in Battle"
       }
     }
   },
@@ -7111,6 +7150,19 @@
     }
   },
   {
+    "data": "/items/weapon/shotgun_rifle/rw2ky.json",
+    "icon": "/icons/weapon/shotgun_rifle/rw2ky.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.mts255.name",
+      "args": {},
+      "lines": {
+        "ru": "МЦ-255",
+        "en": "MTs255"
+      }
+    }
+  },
+  {
     "data": "/items/weapon/pistol/969mq.json",
     "icon": "/icons/weapon/pistol/969mq.png",
     "name": {
@@ -7562,19 +7614,6 @@
       "lines": {
         "ru": "СВ-98",
         "en": "SV-98"
-      }
-    }
-  },
-  {
-    "data": "/items/weapon/shotgun_rifle/qj2zk.json",
-    "icon": "/icons/weapon/shotgun_rifle/qj2zk.png",
-    "name": {
-      "type": "translation",
-      "key": "item.wpn.aa12.name",
-      "args": {},
-      "lines": {
-        "ru": "AA-12",
-        "en": "AA-12"
       }
     }
   },
@@ -8034,6 +8073,19 @@
     }
   },
   {
+    "data": "/items/weapon/assault_rifle/0r2zd.json",
+    "icon": "/icons/weapon/assault_rifle/0r2zd.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.l85_mod.name",
+      "args": {},
+      "lines": {
+        "ru": "«Баланс»",
+        "en": "Balance"
+      }
+    }
+  },
+  {
     "data": "/items/weapon/submachine_gun/m0m7j.json",
     "icon": "/icons/weapon/submachine_gun/m0m7j.png",
     "name": {
@@ -8108,6 +8160,19 @@
       "lines": {
         "ru": "«Мечта»",
         "en": "Dream"
+      }
+    }
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/zzloy.json",
+    "icon": "/icons/weapon/shotgun_rifle/zzloy.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.aa12.name",
+      "args": {},
+      "lines": {
+        "ru": "AA-12",
+        "en": "AA-12"
       }
     }
   },
@@ -8402,7 +8467,7 @@
     "icon": "/icons/weapon/melee/vj427.png",
     "name": {
       "type": "translation",
-      "key": "item.21018.name",
+      "key": "item.melee.m48.name",
       "args": {},
       "lines": {
         "ru": "M48 Tomahawk",
@@ -8428,11 +8493,11 @@
     "icon": "/icons/weapon/melee/2olnv.png",
     "name": {
       "type": "translation",
-      "key": "item.21020.name",
+      "key": "item.melee.bate.name",
       "args": {},
       "lines": {
         "ru": "Бита с гвоздями",
-        "en": "Bat with Nails"
+        "en": "Nail Bat"
       }
     }
   },
@@ -8610,7 +8675,7 @@
     "icon": "/icons/weapon/melee/j5vvl.png",
     "name": {
       "type": "translation",
-      "key": "item.21034.name",
+      "key": "item.melee.vstesak.name",
       "args": {},
       "lines": {
         "ru": "Тесак военсталов",
@@ -8927,6 +8992,19 @@
       "lines": {
         "ru": "«Флюорит»",
         "en": "Fluorite"
+      }
+    }
+  },
+  {
+    "data": "/items/weapon/melee/1rjvr.json",
+    "icon": "/icons/weapon/melee/1rjvr.png",
+    "name": {
+      "type": "translation",
+      "key": "item.melee.gladius.name",
+      "args": {},
+      "lines": {
+        "ru": "«Гладиус»",
+        "en": "Gladius"
       }
     }
   },
