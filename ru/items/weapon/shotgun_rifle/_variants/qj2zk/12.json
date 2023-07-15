@@ -1,5 +1,5 @@
 {
-  "id": "zzloy",
+  "id": "qj2zk",
   "category": "weapon/shotgun_rifle",
   "name": {
     "type": "translation",
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 22.0,
+          "value": 109.618904,
           "formatted": {
             "value": {
-              "ru": "22 ед",
-              "en": "22 unit(s)"
+              "ru": "109,62 ед",
+              "en": "109.62 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -514,6 +514,62 @@
       "type": "list",
       "title": {
         "type": "translation",
+        "key": "weapon.tooltip.weapon.info.upgrade_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики модификации",
+          "en": "Modification properties"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage"
+            }
+          },
+          "value": 16.615852,
+          "formatted": {
+            "value": {
+              "ru": "+16,62%",
+              "en": "+16.62%"
+            },
+            "nameColor": "F1AA21",
+            "valueColor": "F1AA21"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage_distant",
+            "args": {},
+            "lines": {
+              "ru": "Урон вдали",
+              "en": "Damage at range"
+            }
+          },
+          "value": 16.615852,
+          "formatted": {
+            "value": {
+              "ru": "+16,62%",
+              "en": "+16.62%"
+            },
+            "nameColor": "F1AA21",
+            "valueColor": "F1AA21"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
         "key": "weapon.tooltip.weapon.info.feature",
         "args": {},
         "lines": {
@@ -525,9 +581,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 22.0,
+      "startDamage": 109.618904,
       "damageDecreaseStart": 3.0,
-      "endDamage": 60.2,
+      "endDamage": 70.20274,
       "damageDecreaseEnd": 17.0,
       "maxDistance": 70.0
     },
