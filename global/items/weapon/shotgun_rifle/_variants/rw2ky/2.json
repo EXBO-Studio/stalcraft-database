@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 105.0,
+          "value": 106.60061,
           "formatted": {
             "value": {
-              "ru": "105 ед",
-              "en": "105 unit(s)"
+              "ru": "106,6 ед",
+              "en": "106.6 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -281,11 +281,11 @@
               "en": "Spread"
             }
           },
-          "value": 1.472561,
+          "value": 1.5,
           "formatted": {
             "value": {
-              "ru": "1,47°",
-              "en": "1.47°"
+              "ru": "1,5°",
+              "en": "1.5°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -505,18 +505,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.spread",
+            "key": "weapon.stat_factor.damage",
             "args": {},
             "lines": {
-              "ru": "Разброс",
-              "en": "Spread"
+              "ru": "Урон",
+              "en": "Damage"
             }
           },
-          "value": -1.829268,
+          "value": 1.5243901,
           "formatted": {
             "value": {
-              "ru": "-1,83%",
-              "en": "-1.83%"
+              "ru": "+1,52%",
+              "en": "+1.52%"
             },
             "nameColor": "F1AA21",
             "valueColor": "F1AA21"
@@ -526,32 +526,11 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_decrease_start",
+            "key": "weapon.stat_factor.damage_distant",
             "args": {},
             "lines": {
-              "ru": "Начало снижения урона",
-              "en": "Start of damage drop-off"
-            }
-          },
-          "value": 3.658536,
-          "formatted": {
-            "value": {
-              "ru": "+3,66%",
-              "en": "+3.66%"
-            },
-            "nameColor": "F1AA21",
-            "valueColor": "F1AA21"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.damage_decrease_end",
-            "args": {},
-            "lines": {
-              "ru": "Конец снижения урона",
-              "en": "End of damage drop-off"
+              "ru": "Урон вдали",
+              "en": "Damage at range"
             }
           },
           "value": 1.5243901,
@@ -581,10 +560,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 105.0,
-      "damageDecreaseStart": 4.1463413,
-      "endDamage": 67.2,
-      "damageDecreaseEnd": 18.27439,
+      "startDamage": 106.60061,
+      "damageDecreaseStart": 4.0,
+      "endDamage": 68.22439,
+      "damageDecreaseEnd": 18.0,
       "maxDistance": 85.0
     },
     {
