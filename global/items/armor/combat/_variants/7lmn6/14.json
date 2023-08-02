@@ -148,6 +148,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "+25%",
+              "en": "+25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
@@ -155,11 +176,11 @@
               "en": "Carry weight"
             }
           },
-          "value": 9.0,
+          "value": 10.0,
           "formatted": {
             "value": {
-              "ru": "+9",
-              "en": "+9"
+              "ru": "+10",
+              "en": "+10"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
