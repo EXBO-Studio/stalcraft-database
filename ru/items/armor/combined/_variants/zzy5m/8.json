@@ -148,27 +148,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
-            }
-          },
-          "value": -5.0,
-          "formatted": {
-            "value": {
-              "ru": "-5%",
-              "en": "-5%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
@@ -223,6 +202,27 @@
             "value": {
               "ru": "+2%",
               "en": "+2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding"
+            }
+          },
+          "value": -0.5,
+          "formatted": {
+            "value": {
+              "ru": "-0,5",
+              "en": "-0.5"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
