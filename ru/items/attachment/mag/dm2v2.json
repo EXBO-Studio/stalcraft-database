@@ -6,8 +6,8 @@
     "key": "item.att.mag_val30.name",
     "args": {},
     "lines": {
-      "ru": "Магазин 30-патронный для ВСС/Вал",
-      "en": "30-Round Clip for VSS/Val"
+      "ru": "Увеличенный магазин для ВСС/Вал",
+      "en": "Extended Clip for VSS/Val"
     }
   },
   "color": "RANK_VETERAN",
@@ -106,18 +106,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.magazine.info.clip_size",
+            "key": "weapon.tooltip.magazine.info.additive_clip_size",
             "args": {},
             "lines": {
-              "ru": "Размер магазина",
-              "en": "Clip size"
+              "ru": "Доп. размер магазина",
+              "en": "Additional clip size"
             }
           },
-          "value": 30.0,
+          "value": 10.0,
           "formatted": {
             "value": {
-              "ru": "30",
-              "en": "30"
+              "ru": "10",
+              "en": "10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
