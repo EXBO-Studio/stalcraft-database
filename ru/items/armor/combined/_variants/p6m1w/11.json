@@ -190,6 +190,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration"
+            }
+          },
+          "value": 4.0,
+          "formatted": {
+            "value": {
+              "ru": "+4%",
+              "en": "+4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.artefakt_heal",
             "args": {},
             "lines": {
@@ -202,6 +223,27 @@
             "value": {
               "ru": "+2%",
               "en": "+2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding"
+            }
+          },
+          "value": -0.25,
+          "formatted": {
+            "value": {
+              "ru": "-0,25",
+              "en": "-0.25"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -239,11 +281,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 171.24963,
+          "value": 172.56694,
           "formatted": {
             "value": {
-              "ru": "171,25",
-              "en": "171.25"
+              "ru": "172,57",
+              "en": "172.57"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -484,11 +526,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 41.24963,
+          "value": 41.566936,
           "formatted": {
             "value": {
-              "ru": "41,25",
-              "en": "41.25"
+              "ru": "41,57",
+              "en": "41.57"
             },
             "nameColor": "F1AA21",
             "valueColor": "F1AA21"

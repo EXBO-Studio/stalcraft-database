@@ -190,6 +190,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration"
+            }
+          },
+          "value": 4.0,
+          "formatted": {
+            "value": {
+              "ru": "+4%",
+              "en": "+4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.artefakt_heal",
             "args": {},
             "lines": {
@@ -202,6 +223,27 @@
             "value": {
               "ru": "+2%",
               "en": "+2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding"
+            }
+          },
+          "value": -0.25,
+          "formatted": {
+            "value": {
+              "ru": "-0,25",
+              "en": "-0.25"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -239,11 +281,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 166.61957,
+          "value": 167.90125,
           "formatted": {
             "value": {
-              "ru": "166,62",
-              "en": "166.62"
+              "ru": "167,9",
+              "en": "167.9"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -484,11 +526,11 @@
               "en": "Bullet resistance"
             }
           },
-          "value": 36.619568,
+          "value": 36.901257,
           "formatted": {
             "value": {
-              "ru": "36,62",
-              "en": "36.62"
+              "ru": "36,9",
+              "en": "36.9"
             },
             "nameColor": "F1AA21",
             "valueColor": "F1AA21"
