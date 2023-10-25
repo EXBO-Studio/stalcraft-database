@@ -7,7 +7,7 @@
     "args": {},
     "lines": {
       "ru": "Дробь 12 калибра",
-      "en": "12 Caliber Buckshot"
+      "en": "12 Caliber Birdshot"
     }
   },
   "color": "DEFAULT",
@@ -181,6 +181,27 @@
             "value": {
               "ru": "+100",
               "en": "+100"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power"
+            }
+          },
+          "value": 4.999995,
+          "formatted": {
+            "value": {
+              "ru": "+5%",
+              "en": "+5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
