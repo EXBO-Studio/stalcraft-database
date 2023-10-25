@@ -260,11 +260,32 @@
               "en": "Reload"
             }
           },
-          "value": 6.75,
+          "value": 6.95,
           "formatted": {
             "value": {
-              "ru": "6,75 с",
-              "en": "6.75 sec"
+              "ru": "6,95 с",
+              "en": "6.95 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.tactical_reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical reload"
+            }
+          },
+          "value": 5.15,
+          "formatted": {
+            "value": {
+              "ru": "5,15 с",
+              "en": "5.15 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -610,9 +631,9 @@
     {
       "type": "damage",
       "startDamage": 104.41311,
-      "damageDecreaseStart": 20.0,
-      "endDamage": 104.41311,
-      "damageDecreaseEnd": 60.0,
+      "damageDecreaseStart": 50.0,
+      "endDamage": 115.40396,
+      "damageDecreaseEnd": 100.0,
       "maxDistance": 210.0
     },
     {

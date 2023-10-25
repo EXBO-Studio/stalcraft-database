@@ -1,0 +1,473 @@
+{
+  "id": "qjwj9",
+  "category": "attachment/barrel",
+  "name": {
+    "type": "translation",
+    "key": "item.att.barrel_lantac_dragon.name",
+    "args": {},
+    "lines": {
+      "ru": "Пламегаситель Lantac Dragon 7.62",
+      "en": "Lantac Dragon 7.62 Flash Hider"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.barrel",
+            "args": {},
+            "lines": {
+              "ru": "Надульники и глушители",
+              "en": "Muzzles and Silencers"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.09,
+          "formatted": {
+            "value": {
+              "ru": "0,09 кг",
+              "en": "0.09 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -6.0,
+          "formatted": {
+            "value": {
+              "ru": "-6%",
+              "en": "-6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -15.999996,
+          "formatted": {
+            "value": {
+              "ru": "-16%",
+              "en": "-16%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread"
+            }
+          },
+          "value": -26.999998,
+          "formatted": {
+            "value": {
+              "ru": "-27%",
+              "en": "-27%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akm.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ",
+              "en": "AKM"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak103.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-103",
+              "en": "AK-103"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.g3a1.name",
+            "args": {},
+            "lines": {
+              "ru": "HK G3A1",
+              "en": "HK G3A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sok94.name",
+            "args": {},
+            "lines": {
+              "ru": "СОК-94",
+              "en": "SOK-94"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rpk.name",
+            "args": {},
+            "lines": {
+              "ru": "РПК",
+              "en": "RPK"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sv98.name",
+            "args": {},
+            "lines": {
+              "ru": "СВ-98",
+              "en": "SV-98"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mc116.name",
+            "args": {},
+            "lines": {
+              "ru": "МЦ-116М",
+              "en": "MTs-116M"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.fal.name",
+            "args": {},
+            "lines": {
+              "ru": "FN FAL",
+              "en": "FN FAL"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarh.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-H",
+              "en": "FN SCAR-H"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarssr.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR SSR",
+              "en": "FN SCAR SSR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.psg.name",
+            "args": {},
+            "lines": {
+              "ru": "HK PSG1",
+              "en": "HK PSG1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk417.name",
+            "args": {},
+            "lines": {
+              "ru": "HK417",
+              "en": "HK417"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.dsa58.name",
+            "args": {},
+            "lines": {
+              "ru": "DSA-58",
+              "en": "DSA-58"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak308.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-308",
+              "en": "AK-308"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sa58.name",
+            "args": {},
+            "lines": {
+              "ru": "SA-58 CTC",
+              "en": "SA-58 CTC"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rpd.name",
+            "args": {},
+            "lines": {
+              "ru": "РПД",
+              "en": "RPD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pkp.name",
+            "args": {},
+            "lines": {
+              "ru": "ПКП «Печенег»",
+              "en": "PKP Pecheneg"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mosinkar.name",
+            "args": {},
+            "lines": {
+              "ru": "Карабин Мосина",
+              "en": "Mosin’s Carbine"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sks.name",
+            "args": {},
+            "lines": {
+              "ru": "СКС",
+              "en": "SKS"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svd.name",
+            "args": {},
+            "lines": {
+              "ru": "СВД",
+              "en": "SVD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m1a.name",
+            "args": {},
+            "lines": {
+              "ru": "M1A FA",
+              "en": "M1A FA"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.wa2000.name",
+            "args": {},
+            "lines": {
+              "ru": "WA2000",
+              "en": "WA2000"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.l96.name",
+            "args": {},
+            "lines": {
+              "ru": "L96A1",
+              "en": "L96A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mosin.name",
+            "args": {},
+            "lines": {
+              "ru": "Винтовка Мосина",
+              "en": "Mosin’s Rifle"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
