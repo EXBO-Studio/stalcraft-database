@@ -208,6 +208,27 @@
           }
         },
         {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability"
+            }
+          },
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "+30%",
+              "en": "+30%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
           "type": "text",
           "text": {
             "type": "translation",
@@ -457,6 +478,32 @@
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.feature",
+        "args": {},
+        "lines": {
+          "ru": "Особенности",
+          "en": "Features"
+        }
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.heavy.feature",
+            "args": {},
+            "lines": {
+              "ru": "Игнорирует штраф скорости передвижения от оружия",
+              "en": "item.heavy.feature"
+            }
           }
         }
       ]
