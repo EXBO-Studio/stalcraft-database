@@ -106,6 +106,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.stat_factor.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Время перезарядки",
+              "en": "Reload time"
+            }
+          },
+          "value": -5.000001,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.stat_factor.aim_switch_time",
             "args": {},
             "lines": {
@@ -139,27 +160,6 @@
             "value": {
               "ru": "+10%",
               "en": "+10%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.reload_time",
-            "args": {},
-            "lines": {
-              "ru": "Время перезарядки",
-              "en": "Reload time"
-            }
-          },
-          "value": -5.000001,
-          "formatted": {
-            "value": {
-              "ru": "-5%",
-              "en": "-5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

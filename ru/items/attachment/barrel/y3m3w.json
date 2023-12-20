@@ -106,6 +106,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread"
+            }
+          },
+          "value": -4.000002,
+          "formatted": {
+            "value": {
+              "ru": "-4%",
+              "en": "-4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.stat_factor.recoil",
             "args": {},
             "lines": {
@@ -139,27 +160,6 @@
             "value": {
               "ru": "-5%",
               "en": "-5%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.spread",
-            "args": {},
-            "lines": {
-              "ru": "Разброс",
-              "en": "Spread"
-            }
-          },
-          "value": -4.000002,
-          "formatted": {
-            "value": {
-              "ru": "-4%",
-              "en": "-4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -353,6 +353,18 @@
             "lines": {
               "ru": "Scorpion EVO III",
               "en": "Scorpion EVO III"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX"
             }
           }
         },

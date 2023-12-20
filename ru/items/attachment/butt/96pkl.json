@@ -106,18 +106,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.wiggle",
+            "key": "weapon.stat_factor.tick_spread_multiplier_reduction",
             "args": {},
             "lines": {
-              "ru": "Покачивание",
-              "en": "Sway"
+              "ru": "Стабилизация",
+              "en": "Stabilization"
             }
           },
-          "value": -19.999998,
+          "value": 25.0,
           "formatted": {
             "value": {
-              "ru": "-20%",
-              "en": "-20%"
+              "ru": "+25%",
+              "en": "+25%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -148,18 +148,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.tick_spread_multiplier_reduction",
+            "key": "weapon.stat_factor.wiggle",
             "args": {},
             "lines": {
-              "ru": "Стабилизация",
-              "en": "Stabilization"
+              "ru": "Покачивание",
+              "en": "Sway"
             }
           },
-          "value": 25.0,
+          "value": -19.999998,
           "formatted": {
             "value": {
-              "ru": "+25%",
-              "en": "+25%"
+              "ru": "-20%",
+              "en": "-20%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

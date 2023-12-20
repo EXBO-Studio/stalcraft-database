@@ -127,18 +127,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.wiggle",
+            "key": "weapon.stat_factor.recoil_gain",
             "args": {},
             "lines": {
-              "ru": "Покачивание",
-              "en": "Sway"
+              "ru": "Нарастание отдачи",
+              "en": "Recoil buildup"
             }
           },
-          "value": -30.000002,
+          "value": -14.999998,
           "formatted": {
             "value": {
-              "ru": "-30%",
-              "en": "-30%"
+              "ru": "-15%",
+              "en": "-15%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -169,18 +169,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.recoil_gain",
+            "key": "weapon.stat_factor.wiggle",
             "args": {},
             "lines": {
-              "ru": "Нарастание отдачи",
-              "en": "Recoil buildup"
+              "ru": "Покачивание",
+              "en": "Sway"
             }
           },
-          "value": -14.999998,
+          "value": -30.000002,
           "formatted": {
             "value": {
-              "ru": "-15%",
-              "en": "-15%"
+              "ru": "-30%",
+              "en": "-30%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -293,6 +293,18 @@
             "lines": {
               "ru": "Scorpion EVO III",
               "en": "Scorpion EVO III"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX"
             }
           }
         },
@@ -521,6 +533,18 @@
             "lines": {
               "ru": "РШ-12",
               "en": "RSh-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.cr380.name",
+            "args": {},
+            "lines": {
+              "ru": "CR-380",
+              "en": "CR-380"
             }
           }
         },

@@ -157,18 +157,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.rate_of_fire",
+            "key": "weapon.stat_factor.reload_time",
             "args": {},
             "lines": {
-              "ru": "Скорострельность",
-              "en": "Rate of fire"
+              "ru": "Время перезарядки",
+              "en": "Reload time"
             }
           },
-          "value": -0.99999905,
+          "value": 39.999996,
           "formatted": {
             "value": {
-              "ru": "-1%",
-              "en": "-1%"
+              "ru": "+40%",
+              "en": "+40%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -185,32 +185,11 @@
               "en": "Draw speed"
             }
           },
-          "value": 23.000002,
+          "value": 25.0,
           "formatted": {
             "value": {
-              "ru": "-23%",
-              "en": "-23%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.reload_time",
-            "args": {},
-            "lines": {
-              "ru": "Время перезарядки",
-              "en": "Reload time"
-            }
-          },
-          "value": 39.999996,
-          "formatted": {
-            "value": {
-              "ru": "+40%",
-              "en": "+40%"
+              "ru": "-25%",
+              "en": "-25%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
