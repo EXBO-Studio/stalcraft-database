@@ -199,11 +199,32 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance"
+            }
+          },
+          "value": 18.0,
+          "formatted": {
+            "value": {
+              "ru": "18",
+              "en": "18"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.bleeding_protection",
             "args": {},
             "lines": {
               "ru": "Защита от кровотечения",
-              "en": "Bleeding protection"
+              "en": "Bleeding Protection"
             }
           },
           "value": 15.75,
@@ -211,6 +232,27 @@
             "value": {
               "ru": "15,75%",
               "en": "15.75%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability"
+            }
+          },
+          "value": 10.8,
+          "formatted": {
+            "value": {
+              "ru": "10,8%",
+              "en": "10.8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

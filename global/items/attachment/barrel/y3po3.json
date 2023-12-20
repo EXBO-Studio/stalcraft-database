@@ -106,18 +106,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.horizontal_recoil",
+            "key": "weapon.stat_factor.damage_distant",
             "args": {},
             "lines": {
-              "ru": "Гориз. отдача",
-              "en": "Horizontal recoil"
+              "ru": "Урон вдали",
+              "en": "Damage at range"
             }
           },
-          "value": -14.999998,
+          "value": 4.999995,
           "formatted": {
             "value": {
-              "ru": "-15%",
-              "en": "-15%"
+              "ru": "+5%",
+              "en": "+5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -148,11 +148,11 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.wiggle",
+            "key": "weapon.stat_factor.horizontal_recoil",
             "args": {},
             "lines": {
-              "ru": "Покачивание",
-              "en": "Sway"
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
             }
           },
           "value": -14.999998,
@@ -190,18 +190,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
+            "key": "weapon.stat_factor.wiggle",
             "args": {},
             "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
+              "ru": "Покачивание",
+              "en": "Sway"
             }
           },
-          "value": 4.999995,
+          "value": -14.999998,
           "formatted": {
             "value": {
-              "ru": "+5%",
-              "en": "+5%"
+              "ru": "-15%",
+              "en": "-15%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

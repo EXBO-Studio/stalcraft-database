@@ -1,16 +1,16 @@
 {
-  "id": "zzl5k",
+  "id": "m0vvk",
   "category": "weapon/melee",
   "name": {
     "type": "translation",
-    "key": "item.21051.name",
+    "key": "item.21038.name",
     "args": {},
     "lines": {
-      "ru": "Сосулька",
-      "en": "Icicle"
+      "ru": "НР-43",
+      "en": "NR-43"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.picklock",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -96,11 +96,11 @@
               "en": "Weight"
             }
           },
-          "value": 0.32,
+          "value": 0.15,
           "formatted": {
             "value": {
-              "ru": "0,32 кг",
-              "en": "0.32 kg"
+              "ru": "0,15 кг",
+              "en": "0.15 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -134,11 +134,11 @@
               "en": "Movement speed"
             }
           },
-          "value": 3.0,
+          "value": 5.0,
           "formatted": {
             "value": {
-              "ru": "3%",
-              "en": "3%"
+              "ru": "5%",
+              "en": "5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -164,11 +164,11 @@
               "en": "Quick attack (min)"
             }
           },
-          "value": 19.0,
+          "value": 24.0,
           "formatted": {
             "value": {
-              "ru": "19 ед",
-              "en": "19 unit(s)"
+              "ru": "24 ед",
+              "en": "24 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -185,11 +185,11 @@
               "en": "Quick attack (max)"
             }
           },
-          "value": 23.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "23 ед",
-              "en": "23 unit(s)"
+              "ru": "30 ед",
+              "en": "30 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -206,11 +206,11 @@
               "en": "Strong attack (min)"
             }
           },
-          "value": 47.0,
+          "value": 60.0,
           "formatted": {
             "value": {
-              "ru": "47 ед",
-              "en": "47 unit(s)"
+              "ru": "60 ед",
+              "en": "60 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -227,11 +227,11 @@
               "en": "Strong attack (max)"
             }
           },
-          "value": 58.0,
+          "value": 73.0,
           "formatted": {
             "value": {
-              "ru": "58 ед",
-              "en": "58 unit(s)"
+              "ru": "73 ед",
+              "en": "73 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -341,11 +341,11 @@
             "type": "translation",
             "key": "weapon.tooltip.melee_weapon.critical_hit_mod",
             "args": {
-              "factor": "1.57"
+              "factor": "1.56"
             },
             "lines": {
-              "ru": "Урон со спины: x1,57",
-              "en": "Backstab damage: x1.57"
+              "ru": "Урон со спины: x1,56",
+              "en": "Backstab damage: x1.56"
             }
           }
         },
@@ -355,15 +355,31 @@
             "type": "translation",
             "key": "weapon.tooltip.melee_weapon.mutant_damage_mod",
             "args": {
-              "factor": "1.39"
+              "factor": "1.46"
             },
             "lines": {
-              "ru": "Урон по мутантам: x1,39",
-              "en": "Damage to mutants: x1.39"
+              "ru": "Урон по мутантам: x1,46",
+              "en": "Damage to mutants: x1.46"
             }
           }
         }
       ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.21038.description",
+        "args": {},
+        "lines": {
+          "ru": "Боевой нож, состоявший на вооружении советских и российских спецподразделений органов безопасности с 1943 года по настоящее время.",
+          "en": "A combat knife in service with Soviet and Russian special security units since 1943."
+        }
+      }
     }
   ]
 }

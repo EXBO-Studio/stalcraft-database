@@ -2075,7 +2075,7 @@
       "args": {},
       "lines": {
         "ru": "Патрон 12.7x55 мм ПП",
-        "en": "12.7x55 SMG Round"
+        "en": "12.7x55 AP Round"
       }
     }
   },
@@ -6591,6 +6591,19 @@
     }
   },
   {
+    "data": "/items/weapon/submachine_gun/3gr1z.json",
+    "icon": "/icons/weapon/submachine_gun/3gr1z.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.mpx.name",
+      "args": {},
+      "lines": {
+        "ru": "SIG MPX",
+        "en": "SIG MPX"
+      }
+    }
+  },
+  {
     "data": "/items/weapon/machine_gun/1rdnq.json",
     "icon": "/icons/weapon/machine_gun/1rdnq.png",
     "name": {
@@ -6842,11 +6855,11 @@
     "icon": "/icons/weapon/sniper_rifle/zz2ky.png",
     "name": {
       "type": "translation",
-      "key": "item.wpn.vss.name",
+      "key": "item.wpn.vssm.name",
       "args": {},
       "lines": {
-        "ru": "ВСС «Винторез»",
-        "en": "VSS Vintorez"
+        "ru": "ВСС-М «Винторез»",
+        "en": "VSS-M \"Vintorez\""
       }
     }
   },
@@ -6907,11 +6920,11 @@
     "icon": "/icons/weapon/sniper_rifle/knmpy.png",
     "name": {
       "type": "translation",
-      "key": "item.wpn.vss-1.name",
+      "key": "item.wpn.vss.name",
       "args": {},
       "lines": {
-        "ru": "Поношенный \"ВСС «Винторез»\"",
-        "en": "Worn VSS Vintorez"
+        "ru": "ВСС «Винторез»",
+        "en": "VSS Vintorez"
       }
     }
   },
@@ -6977,6 +6990,19 @@
       "lines": {
         "ru": "L96A1",
         "en": "L96A1"
+      }
+    }
+  },
+  {
+    "data": "/items/weapon/sniper_rifle/4qn7r.json",
+    "icon": "/icons/weapon/sniper_rifle/4qn7r.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.cr380.name",
+      "args": {},
+      "lines": {
+        "ru": "CR-380",
+        "en": "CR-380"
       }
     }
   },
@@ -8307,6 +8333,19 @@
     }
   },
   {
+    "data": "/items/weapon/heavy/4q12o.json",
+    "icon": "/icons/weapon/heavy/4q12o.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.coldcutter.name",
+      "args": {},
+      "lines": {
+        "ru": "«Хладорез»",
+        "en": "Coldcutter"
+      }
+    }
+  },
+  {
     "data": "/items/weapon/heavy/zzl6m.json",
     "icon": "/icons/weapon/heavy/zzl6m.png",
     "name": {
@@ -8493,7 +8532,7 @@
     "icon": "/icons/weapon/melee/0rq2k.png",
     "name": {
       "type": "translation",
-      "key": "item.21013.name",
+      "key": "item.melee.iceaxe.name",
       "args": {},
       "lines": {
         "ru": "Ледоруб",
@@ -8814,6 +8853,19 @@
     }
   },
   {
+    "data": "/items/weapon/melee/m0vvk.json",
+    "icon": "/icons/weapon/melee/m0vvk.png",
+    "name": {
+      "type": "translation",
+      "key": "item.21038.name",
+      "args": {},
+      "lines": {
+        "ru": "НР-43",
+        "en": "NR-43"
+      }
+    }
+  },
+  {
     "data": "/items/weapon/melee/ok995.json",
     "icon": "/icons/weapon/melee/ok995.png",
     "name": {
@@ -8940,19 +8992,6 @@
       "lines": {
         "ru": "Мясницкий крюк",
         "en": "Butcher’s Hook"
-      }
-    }
-  },
-  {
-    "data": "/items/weapon/melee/zzl5k.json",
-    "icon": "/icons/weapon/melee/zzl5k.png",
-    "name": {
-      "type": "translation",
-      "key": "item.21051.name",
-      "args": {},
-      "lines": {
-        "ru": "Сосулька",
-        "en": "Icicle"
       }
     }
   },
@@ -9109,6 +9148,19 @@
       "lines": {
         "ru": "Синобигатана",
         "en": "Shinobigatana"
+      }
+    }
+  },
+  {
+    "data": "/items/weapon/melee/y3jp0.json",
+    "icon": "/icons/weapon/melee/y3jp0.png",
+    "name": {
+      "type": "translation",
+      "key": "item.melee.sledgehammer.name",
+      "args": {},
+      "lines": {
+        "ru": "Кувалда",
+        "en": "Sledgehammer"
       }
     }
   },
@@ -13143,6 +13195,19 @@
     }
   },
   {
+    "data": "/items/armor/combat/zzy9m.json",
+    "icon": "/icons/armor/combat/zzy9m.png",
+    "name": {
+      "type": "translation",
+      "key": "item.arm.abo.name",
+      "args": {},
+      "lines": {
+        "ru": "Экзоскелет «Абориген»",
+        "en": "Aborigine Exoskeleton"
+      }
+    }
+  },
+  {
     "data": "/items/armor/combat/5lr4q.json",
     "icon": "/icons/armor/combat/5lr4q.png",
     "name": {
@@ -15822,6 +15887,58 @@
       "lines": {
         "ru": "Часть Lantac Dragon #3",
         "en": "Lantac Dragon Part #3"
+      }
+    }
+  },
+  {
+    "data": "/items/misc/dr9r2.json",
+    "icon": "/icons/misc/dr9r2.png",
+    "name": {
+      "type": "translation",
+      "key": "item.part.sledgehammer_1.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть Кувалды #1",
+        "en": "Sledgehammer Part #1"
+      }
+    }
+  },
+  {
+    "data": "/items/misc/21w15.json",
+    "icon": "/icons/misc/21w15.png",
+    "name": {
+      "type": "translation",
+      "key": "item.part.sledgehammer_2.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть Кувалды #2",
+        "en": "Sledgehammer Part #2"
+      }
+    }
+  },
+  {
+    "data": "/items/misc/34245.json",
+    "icon": "/icons/misc/34245.png",
+    "name": {
+      "type": "translation",
+      "key": "item.part.sledgehammer_3.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть Кувалды #3",
+        "en": "Sledgehammer Part #3"
+      }
+    }
+  },
+  {
+    "data": "/items/misc/77d7j.json",
+    "icon": "/icons/misc/77d7j.png",
+    "name": {
+      "type": "translation",
+      "key": "item.part.sledgehammer_4.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть Кувалды #4",
+        "en": "Sledgehammer Part #4"
       }
     }
   }

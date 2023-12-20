@@ -3,11 +3,11 @@
   "category": "weapon/sniper_rifle",
   "name": {
     "type": "translation",
-    "key": "item.wpn.vss.name",
+    "key": "item.wpn.vssm.name",
     "args": {},
     "lines": {
-      "ru": "ВСС «Винторез»",
-      "en": "VSS Vintorez"
+      "ru": "ВСС-М «Винторез»",
+      "en": "VSS-M \"Vintorez\""
     }
   },
   "color": "RANK_MASTER",
@@ -75,11 +75,11 @@
               "en": "Weight"
             }
           },
-          "value": 2.85,
+          "value": 2.65,
           "formatted": {
             "value": {
-              "ru": "2,85 кг",
-              "en": "2.85 kg"
+              "ru": "2,65 кг",
+              "en": "2.65 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 39.58994,
+          "value": 43.428963,
           "formatted": {
             "value": {
-              "ru": "39,59 ед",
-              "en": "39.59 unit(s)"
+              "ru": "43,43 ед",
+              "en": "43.43 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -197,11 +197,11 @@
               "en": "Magazine capacity"
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "0/25",
-              "en": "0/25"
+              "ru": "0/20",
+              "en": "0/20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -567,9 +567,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 39.58994,
+      "startDamage": 43.428963,
       "damageDecreaseStart": 30.0,
-      "endDamage": 38.99009,
+      "endDamage": 42.469208,
       "damageDecreaseEnd": 80.0,
       "maxDistance": 170.0
     },
@@ -581,11 +581,11 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.wpn.vss.description",
+        "key": "item.wpn.vssm.description",
         "args": {},
         "lines": {
           "ru": "9-мм винтовка снайперская специальная (ВСС, разработана по теме «Винторез», это название осталось в обиходе) - бесшумная снайперская винтовка. Создана в ЦНИИ «Точмаш» в Климовске в начале 1980-х годов под руководством Петра Ивановича Сердюкова. Предназначена для вооружения подразделений специального назначения.",
-          "en": "This 9 mm special sniper rifle (a VSS that was developed under the title Vintorez, a name that has remained in use) is a silenced sniper rifle. It was created in the Tochmash Central Scientific Research Institute for Precision Machine Engineering in Klimovsk at the start of the 1980s under the leadership of Pyotr Ivanovich Serdyukov. It was intended for use by special ops units."
+          "en": "The 9-mm special sniper rifle (VSS, developed on the theme “Vintorez”, this name remains in use) is a silent sniper rifle. Created at the Central Research Institute \"Tochmash\" in Klimovsk in the early 1980s under the leadership of Pyotr Ivanovich Serdyukov. Designed to arm special forces units."
         }
       }
     }

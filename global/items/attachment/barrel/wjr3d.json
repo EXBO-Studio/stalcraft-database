@@ -106,6 +106,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.stat_factor.damage_distant",
+            "args": {},
+            "lines": {
+              "ru": "Урон вдали",
+              "en": "Damage at range"
+            }
+          },
+          "value": 14.999998,
+          "formatted": {
+            "value": {
+              "ru": "+15%",
+              "en": "+15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.stat_factor.distance",
             "args": {},
             "lines": {
@@ -121,27 +142,6 @@
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.recoil",
-            "args": {},
-            "lines": {
-              "ru": "Отдача",
-              "en": "Recoil"
-            }
-          },
-          "value": 25.0,
-          "formatted": {
-            "value": {
-              "ru": "+25%",
-              "en": "+25%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
           }
         },
         {
@@ -169,21 +169,21 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
+            "key": "weapon.stat_factor.recoil",
             "args": {},
             "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
+              "ru": "Отдача",
+              "en": "Recoil"
             }
           },
-          "value": 14.999998,
+          "value": 25.0,
           "formatted": {
             "value": {
-              "ru": "+15%",
-              "en": "+15%"
+              "ru": "+25%",
+              "en": "+25%"
             },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         }
       ]
