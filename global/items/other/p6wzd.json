@@ -10,7 +10,7 @@
       "en": "ERDL Streetfighter Camouflage"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "NON_DROP"
   },
@@ -22,6 +22,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -884,18 +905,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.arm.kim85.name",
-            "args": {},
-            "lines": {
-              "ru": "КИМ-85Д",
-              "en": "MIS-85D"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.arm.ris.name",
             "args": {},
             "lines": {
@@ -980,18 +989,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.arm.kyrtka_modnaya.name",
-            "args": {},
-            "lines": {
-              "ru": "Модная куртка",
-              "en": "Stylish Jacket"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.arm.kz1.name",
             "args": {},
             "lines": {
@@ -1016,239 +1013,11 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.arm.palto.name",
-            "args": {},
-            "lines": {
-              "ru": "Пальто со шляпой",
-              "en": "Coat and Hat"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.arm.ozk.name",
             "args": {},
             "lines": {
               "ru": "Продвинутый ОЗК",
               "en": "Improved Hazmat Suit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.magnit.name",
-            "args": {},
-            "lines": {
-              "ru": "Комбинезон «Магнит»",
-              "en": "Magnet Jumpsuit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.kz3a.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «КЗ-3а»",
-              "en": "CD-3a Armored Suit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.altyn.name",
-            "args": {},
-            "lines": {
-              "ru": "Комплект «Алтын»",
-              "en": "Altyn Set"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.kz3b.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «КЗ-3б»",
-              "en": "CD-3b Armored Suit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.smog.name",
-            "args": {},
-            "lines": {
-              "ru": "Тяжелый бронекостюм «Туманный охотник»",
-              "en": "Fog Hunter Heavy Armored Suit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.heavyaltyn.name",
-            "args": {},
-            "lines": {
-              "ru": "Тяжелый комплект «Алтын-Т»",
-              "en": "Altyn-T Heavy Set"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.tonga.name",
-            "args": {},
-            "lines": {
-              "ru": "Комбинезон «Тонга»",
-              "en": "Tonga Jumpsuit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.albatros_scout.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронескелет «Альбатрос-Разведчик»",
-              "en": "Albatross Scout Armored Exoskeleton"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.frostwalker.name",
-            "args": {},
-            "lines": {
-              "ru": "Тяжелый бронекостюм «Идущий в метели»",
-              "en": "Blizzard Walker Heavy Armored Suit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.zivcas.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня JD ZIVCAS 2A",
-              "en": "JD ZIVCAS 2A Exoarmor"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.albatros_light.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронескелет «Альбатрос-Лазутчик»",
-              "en": "Albatross Infiltrator Armored Exoskeleton"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.exo_mod.name",
-            "args": {},
-            "lines": {
-              "ru": "Модифицированный экзоскелет",
-              "en": "Modified Exoskeleton"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.tank.name",
-            "args": {},
-            "lines": {
-              "ru": "SBA TANK",
-              "en": "SBA TANK"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.albatros_heavy.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронескелет «Альбатрос-Штурмовик»",
-              "en": "Albatross Heavy Assault Armored Exoskeleton"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.rigel.name",
-            "args": {},
-            "lines": {
-              "ru": "Комбинезон «Ригель»",
-              "en": "Rigel Jumpsuit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.kz4.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «КЗ-4»",
-              "en": "CD-4 Armored Suit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.granat.name",
-            "args": {},
-            "lines": {
-              "ru": "КИМ-100 «Гранат»",
-              "en": "MIS-100 Garnet"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.cirkon.name",
-            "args": {},
-            "lines": {
-              "ru": "КИМ-102 «Циркон»",
-              "en": "MIS-102 Zircon"
             }
           }
         },
