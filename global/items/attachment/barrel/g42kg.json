@@ -6,11 +6,11 @@
     "key": "item.att.silencer_js.name",
     "args": {},
     "lines": {
-      "ru": "Глушитель JS",
-      "en": "JS Silencer"
+      "ru": "Глушитель С.К.О.С. МДУ SUPRA K-8 Integral",
+      "en": "SCOS MMD SUPRA K-8 Integral Silencer"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.picklock",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -106,27 +106,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
-            "args": {},
-            "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
-            }
-          },
-          "value": -30.000002,
-          "formatted": {
-            "value": {
-              "ru": "-30%",
-              "en": "-30%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
@@ -134,14 +113,56 @@
               "en": "Spread"
             }
           },
-          "value": -4.000002,
+          "value": -9.749996,
           "formatted": {
             "value": {
-              "ru": "-4%",
-              "en": "-4%"
+              "ru": "-9,75%",
+              "en": "-9.75%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -7.2000027,
+          "formatted": {
+            "value": {
+              "ru": "-7,2%",
+              "en": "-7.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -155,11 +176,32 @@
               "en": "Draw speed"
             }
           },
-          "value": 4.999995,
+          "value": 20.000004,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%"
+              "ru": "-20%",
+              "en": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -175,7 +217,7 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.att.silencer_js.description",
+        "key": "item.att.silencer.additional_stats_tip",
         "args": {},
         "lines": {
           "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",

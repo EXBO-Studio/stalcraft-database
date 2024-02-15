@@ -10,7 +10,7 @@
       "en": "Kosoi MBC"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -113,11 +113,11 @@
               "en": "Spread"
             }
           },
-          "value": -4.000002,
+          "value": -2.2499979,
           "formatted": {
             "value": {
-              "ru": "-4%",
-              "en": "-4%"
+              "ru": "-2,25%",
+              "en": "-2.25%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -134,11 +134,11 @@
               "en": "Recoil"
             }
           },
-          "value": -2.9999971,
+          "value": -9.000004,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%"
+              "ru": "-9%",
+              "en": "-9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -155,11 +155,11 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": -6.0,
+          "value": -9.000004,
           "formatted": {
             "value": {
-              "ru": "-6%",
-              "en": "-6%"
+              "ru": "-9%",
+              "en": "-9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -212,6 +212,54 @@
             "lines": {
               "ru": "АКМ",
               "en": "AKM"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan-05.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94 «Абакан»",
+              "en": "AN-94 Abakan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak74m.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-74М",
+              "en": "AK-74М"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akmb.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ «Тишина»",
+              "en": "AKM Tishina"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak203.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-203",
+              "en": "АК-203"
             }
           }
         },
@@ -272,6 +320,18 @@
             "lines": {
               "ru": "АМ-17",
               "en": "АМ-17"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak15.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-15",
+              "en": "АК-15"
             }
           }
         },

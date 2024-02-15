@@ -106,27 +106,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
-            "args": {},
-            "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
-            }
-          },
-          "value": -19.999998,
-          "formatted": {
-            "value": {
-              "ru": "-20%",
-              "en": "-20%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
@@ -134,14 +113,77 @@
               "en": "Spread"
             }
           },
-          "value": -11.000002,
+          "value": -17.000002,
           "formatted": {
             "value": {
-              "ru": "-11%",
-              "en": "-11%"
+              "ru": "-17%",
+              "en": "-17%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -1.2000024,
+          "formatted": {
+            "value": {
+              "ru": "-1,2%",
+              "en": "-1.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -1.2000024,
+          "formatted": {
+            "value": {
+              "ru": "-1,2%",
+              "en": "-1.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -155,11 +197,32 @@
               "en": "Draw speed"
             }
           },
-          "value": 7.0000052,
+          "value": 20.000004,
           "formatted": {
             "value": {
-              "ru": "-7%",
-              "en": "-7%"
+              "ru": "-20%",
+              "en": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -175,7 +238,7 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.att.silencer_atg.description",
+        "key": "item.att.silencer.additional_stats_tip",
         "args": {},
         "lines": {
           "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",
@@ -199,30 +262,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.aksu.name",
-            "args": {},
-            "lines": {
-              "ru": "АКС-74У",
-              "en": "AKS-74U"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.aks74.name",
-            "args": {},
-            "lines": {
-              "ru": "АКС-74",
-              "en": "AKS-74"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.akm.name",
             "args": {},
             "lines": {
@@ -235,11 +274,23 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.abakan.name",
+            "key": "item.wpn.akmb.name",
             "args": {},
             "lines": {
-              "ru": "АН-94М «Абакан»",
-              "en": "AN-94M Abakan"
+              "ru": "АКМ «Тишина»",
+              "en": "AKM Tishina"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak203.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-203",
+              "en": "АК-203"
             }
           }
         },
@@ -259,47 +310,11 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.a545.name",
+            "key": "item.wpn.ak15.name",
             "args": {},
             "lines": {
-              "ru": "А-545",
-              "en": "A-545"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.aek971.name",
-            "args": {},
-            "lines": {
-              "ru": "АЕК-971",
-              "en": "AEK-971"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.am17.name",
-            "args": {},
-            "lines": {
-              "ru": "АМ-17",
-              "en": "АМ-17"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.wz88.name",
-            "args": {},
-            "lines": {
-              "ru": "Kbk wz. 88 Tantal",
-              "en": "Kbk wz. 88 Tantal"
+              "ru": "АК-15",
+              "en": "АК-15"
             }
           }
         },
@@ -331,11 +346,23 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.aks74_mod.name",
+            "key": "item.wpn.rpd.name",
             "args": {},
             "lines": {
-              "ru": "«Рапира»",
-              "en": "Rapier"
+              "ru": "РПД",
+              "en": "RPD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pkp.name",
+            "args": {},
+            "lines": {
+              "ru": "ПКП «Печенег»",
+              "en": "PKP Pecheneg"
             }
           }
         },

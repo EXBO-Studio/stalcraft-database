@@ -10,7 +10,7 @@
       "en": "SCAR-SD Silencer"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -106,18 +106,39 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
+            "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
+              "ru": "Разброс",
+              "en": "Spread"
             }
           },
-          "value": -19.999998,
+          "value": -14.999998,
           "formatted": {
             "value": {
-              "ru": "-20%",
-              "en": "-20%"
+              "ru": "-15%",
+              "en": "-15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": 1.4999986,
+          "formatted": {
+            "value": {
+              "ru": "+1,5%",
+              "en": "+1.5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -127,21 +148,21 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.spread",
+            "key": "weapon.stat_factor.aim_switch_time",
             "args": {},
             "lines": {
-              "ru": "Разброс",
-              "en": "Spread"
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
             }
           },
-          "value": -11.000002,
+          "value": 10.000002,
           "formatted": {
             "value": {
-              "ru": "-11%",
-              "en": "-11%"
+              "ru": "-10%",
+              "en": "-10%"
             },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -155,11 +176,32 @@
               "en": "Draw speed"
             }
           },
-          "value": 7.0000052,
+          "value": 20.000004,
           "formatted": {
             "value": {
-              "ru": "-7%",
-              "en": "-7%"
+              "ru": "-20%",
+              "en": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -175,7 +217,7 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.att.silencer_scarsd.description",
+        "key": "item.att.silencer.additional_stats_tip",
         "args": {},
         "lines": {
           "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",
@@ -199,131 +241,11 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.l85.name",
-            "args": {},
-            "lines": {
-              "ru": "L85A1",
-              "en": "L85A1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m4.name",
-            "args": {},
-            "lines": {
-              "ru": "M4A1",
-              "en": "M4A1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.sig.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG SG 550",
-              "en": "SIG SG 550"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m16a3.name",
-            "args": {},
-            "lines": {
-              "ru": "M16A3",
-              "en": "M16A3"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m4_lb.name",
-            "args": {},
-            "lines": {
-              "ru": "M4 LB",
-              "en": "M4 LB"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m16a2.name",
-            "args": {},
-            "lines": {
-              "ru": "M16A2",
-              "en": "M16A2"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.g36c.name",
-            "args": {},
-            "lines": {
-              "ru": "HK G36C",
-              "en": "HK G36C"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.g3a1.name",
             "args": {},
             "lines": {
               "ru": "HK G3A1",
               "en": "HK G3A1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.f2000.name",
-            "args": {},
-            "lines": {
-              "ru": "FN F2000 Tactical",
-              "en": "FN F2000 Tactical"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.f2000-1.name",
-            "args": {},
-            "lines": {
-              "ru": "FN F2000",
-              "en": "FN F2000"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.famas.name",
-            "args": {},
-            "lines": {
-              "ru": "FAMAS G2",
-              "en": "FAMAS G2"
             }
           }
         },
@@ -348,30 +270,6 @@
             "lines": {
               "ru": "SA-58 CTC",
               "en": "SA-58 CTC"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.l86.name",
-            "args": {},
-            "lines": {
-              "ru": "L86A1",
-              "en": "L86A1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.l85_mod.name",
-            "args": {},
-            "lines": {
-              "ru": "«Баланс»",
-              "en": "Balance"
             }
           }
         },

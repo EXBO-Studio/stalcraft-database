@@ -6,11 +6,11 @@
     "key": "item.att.mag_rumag762b.name",
     "args": {},
     "lines": {
-      "ru": "Бакелитовый магазин 7.62",
+      "ru": "Магазин 7.62 бакелитовый",
       "en": "7.62 Bakelite Magazine"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -143,11 +143,32 @@
               "en": "Reload time"
             }
           },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
           "value": 4.999995,
           "formatted": {
             "value": {
-              "ru": "+5%",
-              "en": "+5%"
+              "ru": "-5%",
+              "en": "-5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -164,11 +185,11 @@
               "en": "Draw speed"
             }
           },
-          "value": 20.000004,
+          "value": 7.500005,
           "formatted": {
             "value": {
-              "ru": "-20%",
-              "en": "-20%"
+              "ru": "-7,5%",
+              "en": "-7.5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -204,11 +225,47 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.akmb.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ «Тишина»",
+              "en": "AKM Tishina"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak203.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-203",
+              "en": "АК-203"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.ak103.name",
             "args": {},
             "lines": {
               "ru": "АК-103",
               "en": "AK-103"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak15.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-15",
+              "en": "АК-15"
             }
           }
         },

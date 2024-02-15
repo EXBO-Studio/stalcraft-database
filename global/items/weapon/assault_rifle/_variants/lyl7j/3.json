@@ -3,11 +3,11 @@
   "category": "weapon/assault_rifle",
   "name": {
     "type": "translation",
-    "key": "item.wpn.m16a2-1.name",
+    "key": "item.wpn.m16a1.name",
     "args": {},
     "lines": {
-      "ru": "Поношенная M16A2",
-      "en": "Worn M16A2"
+      "ru": "M16A1",
+      "en": "M16A1"
     }
   },
   "color": "DEFAULT",
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 22.298475,
+          "value": 20.457317,
           "formatted": {
             "value": {
-              "ru": "22,3 ед",
-              "en": "22.3 unit(s)"
+              "ru": "20,46 ед",
+              "en": "20.46 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -218,11 +218,11 @@
               "en": "Maximum distance"
             }
           },
-          "value": 130.0,
+          "value": 140.0,
           "formatted": {
             "value": {
-              "ru": "130 м",
-              "en": "130 m"
+              "ru": "140 м",
+              "en": "140 m"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -558,11 +558,11 @@
     },
     {
       "type": "damage",
-      "startDamage": 22.298475,
+      "startDamage": 20.457317,
       "damageDecreaseStart": 18.0,
-      "endDamage": 18.820732,
+      "endDamage": 16.877287,
       "damageDecreaseEnd": 62.0,
-      "maxDistance": 130.0
+      "maxDistance": 140.0
     },
     {
       "type": "text",
@@ -572,11 +572,11 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.wpn.m16a2.description",
+        "key": "item.wpn.m16a1.description",
         "args": {},
         "lines": {
-          "ru": "Американская автоматическая винтовка калибра 5.56 мм, разработанная и принятая на вооружение в 1960-х годах. Отсутствует режим непрерывной стрельбы, а цевье и магазин для уменьшения цены оружия заменены на соответствующие от M16A1.",
-          "en": "An American 5.56 mm assault rifle developed and put into operational service in the 1960s. It lacks a fully automatic firing mode, but the handguard and magazine have been replaced with those from the M16A1 in order to reduce the cost."
+          "ru": "item.wpn.m16a1.description",
+          "en": "item.wpn.m16a1.description"
         }
       }
     }

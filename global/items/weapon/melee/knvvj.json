@@ -385,11 +385,39 @@
             "type": "translation",
             "key": "weapon.tooltip.melee_weapon.mutant_damage_mod",
             "args": {
-              "factor": "1.19"
+              "factor": "1.47"
             },
             "lines": {
-              "ru": "Урон по мутантам: x1,19",
-              "en": "Damage to mutants: x1.19"
+              "ru": "Урон по мутантам: x1,47",
+              "en": "Damage to mutants: x1.47"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.slash_damage_common",
+            "args": {
+              "targets": "3"
+            },
+            "lines": {
+              "ru": "Обычный удар наносит урон 3 целям",
+              "en": "Regular attacks deal damage to 3 targets"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.slash_damage_strong",
+            "args": {
+              "targets": "3"
+            },
+            "lines": {
+              "ru": "Сильный удар наносит урон 3 целям",
+              "en": "Strong attacks deal damage to 3 targets"
             }
           }
         }

@@ -10,7 +10,7 @@
       "en": "LoneWolf Flash Hider"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -113,11 +113,11 @@
               "en": "Spread"
             }
           },
-          "value": -12.0,
+          "value": -10.000002,
           "formatted": {
             "value": {
-              "ru": "-12%",
-              "en": "-12%"
+              "ru": "-10%",
+              "en": "-10%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -127,21 +127,42 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.recoil_gain",
+            "key": "weapon.stat_factor.hip_spread",
             "args": {},
             "lines": {
-              "ru": "Нарастание отдачи",
-              "en": "Recoil buildup"
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread"
             }
           },
-          "value": -5.000001,
+          "value": -2.4999976,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%"
+              "ru": "-2,5%",
+              "en": "-2.5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": 1.4999986,
+          "formatted": {
+            "value": {
+              "ru": "+1,5%",
+              "en": "+1.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         }
       ]

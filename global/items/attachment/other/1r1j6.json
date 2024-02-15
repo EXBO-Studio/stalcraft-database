@@ -170,7 +170,113 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -4.2,
+          "formatted": {
+            "value": {
+              "ru": "-4,2%",
+              "en": "-4.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -6.0,
+          "formatted": {
+            "value": {
+              "ru": "-6%",
+              "en": "-6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {
+              "ru": "Нарастание отдачи",
+              "en": "Recoil buildup"
+            }
+          },
+          "value": -9.600001,
+          "formatted": {
+            "value": {
+              "ru": "-9,6%",
+              "en": "-9.6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость доставания",
+              "en": "Draw speed"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 20.000004,
+          "formatted": {
+            "value": {
+              "ru": "+20%",
+              "en": "+20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
     },
     {
       "type": "text",
@@ -204,6 +310,18 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.m4cqc.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1 CQC",
+              "en": "M4A1 CQC"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.m4.name",
             "args": {},
             "lines": {
@@ -221,66 +339,6 @@
             "lines": {
               "ru": "M4 LB",
               "en": "M4 LB"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.forend_m4ris.name",
-            "args": {},
-            "lines": {
-              "ru": "Цевье RIS M4A1",
-              "en": "RIS M4A1 Handguard"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.forend_m16ris.name",
-            "args": {},
-            "lines": {
-              "ru": "Цевье RIS M16",
-              "en": "RIS M16 Handguard"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.forend_sigris4.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG SG 550 Handguard 4x NAR",
-              "en": "SIG SG 550 Handguard 4x NAR"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.forend_sigris1.name",
-            "args": {},
-            "lines": {
-              "ru": "Цевье с направляющей RIS для SIG SG 550",
-              "en": "Handguard with Guiding RIS for SIG SG 550"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.forend_lr300ris.name",
-            "args": {},
-            "lines": {
-              "ru": "Цевье RIS LR-300",
-              "en": "Handguard RIS LR-300"
             }
           }
         }

@@ -10,7 +10,7 @@
       "en": "Drum Magazine for PM"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -143,11 +143,32 @@
               "en": "Reload time"
             }
           },
-          "value": 60.000004,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "+60%",
-              "en": "+60%"
+              "ru": "+100%",
+              "en": "+100%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -164,11 +185,32 @@
               "en": "Draw speed"
             }
           },
-          "value": 20.000004,
+          "value": 12.5,
           "formatted": {
             "value": {
-              "ru": "-20%",
-              "en": "-20%"
+              "ru": "-12,5%",
+              "en": "-12.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

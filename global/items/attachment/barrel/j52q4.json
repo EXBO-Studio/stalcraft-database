@@ -106,18 +106,81 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
+            "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
+              "ru": "Разброс",
+              "en": "Spread"
             }
           },
-          "value": -10.000002,
+          "value": -25.0,
           "formatted": {
             "value": {
-              "ru": "-10%",
-              "en": "-10%"
+              "ru": "-25%",
+              "en": "-25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -14.999998,
+          "formatted": {
+            "value": {
+              "ru": "-15%",
+              "en": "-15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -14.999998,
+          "formatted": {
+            "value": {
+              "ru": "-15%",
+              "en": "-15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -134,17 +197,54 @@
               "en": "Draw speed"
             }
           },
-          "value": 20.000004,
+          "value": 39.999996,
           "formatted": {
             "value": {
-              "ru": "-20%",
-              "en": "-20%"
+              "ru": "-40%",
+              "en": "-40%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "+25%",
+              "en": "+25%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
           }
         }
       ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.silencer.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",
+          "en": "ATTENTION: if you use a silencer, the enemy won’t know where you are firing from."
+        }
+      }
     },
     {
       "type": "list",

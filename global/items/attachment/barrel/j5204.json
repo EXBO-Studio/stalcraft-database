@@ -1,0 +1,317 @@
+{
+  "id": "j5204",
+  "category": "attachment/barrel",
+  "name": {
+    "type": "translation",
+    "key": "item.att.barrel_jmac545.name",
+    "args": {},
+    "lines": {
+      "ru": "Jmac Customs RDC 4C 5.45",
+      "en": "Jmac Customs RDC 4C 5.45"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.barrel",
+            "args": {},
+            "lines": {
+              "ru": "Надульники и глушители",
+              "en": "Muzzles and Silencers"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.128,
+          "formatted": {
+            "value": {
+              "ru": "0,13 кг",
+              "en": "0.13 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread"
+            }
+          },
+          "value": -4.000002,
+          "formatted": {
+            "value": {
+              "ru": "-4%",
+              "en": "-4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -10.799998,
+          "formatted": {
+            "value": {
+              "ru": "-10,8%",
+              "en": "-10.8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -10.799998,
+          "formatted": {
+            "value": {
+              "ru": "-10,8%",
+              "en": "-10.8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aksu.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-74У",
+              "en": "AKS-74U"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aks74.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-74",
+              "en": "AKS-74"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan-05.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94 «Абакан»",
+              "en": "AN-94 Abakan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak74m.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-74М",
+              "en": "AK-74М"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94М «Абакан»",
+              "en": "AN-94M Abakan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.a545.name",
+            "args": {},
+            "lines": {
+              "ru": "А-545",
+              "en": "A-545"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aek971.name",
+            "args": {},
+            "lines": {
+              "ru": "АЕК-971",
+              "en": "AEK-971"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.am17.name",
+            "args": {},
+            "lines": {
+              "ru": "АМ-17",
+              "en": "АМ-17"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.wz88.name",
+            "args": {},
+            "lines": {
+              "ru": "Kbk wz. 88 Tantal",
+              "en": "Kbk wz. 88 Tantal"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rpk74.name",
+            "args": {},
+            "lines": {
+              "ru": "РПК-74",
+              "en": "RPK-74"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aks74_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Рапира»",
+              "en": "Rapier"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

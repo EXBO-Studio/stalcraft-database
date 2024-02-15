@@ -10,7 +10,7 @@
       "en": "OTs-33 Pernach"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 37.262196,
+          "value": 50.865856,
           "formatted": {
             "value": {
-              "ru": "37,26 ед",
-              "en": "37.26 unit(s)"
+              "ru": "50,87 ед",
+              "en": "50.87 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 37.262196,
+      "startDamage": 50.865856,
       "damageDecreaseStart": 6.0,
-      "endDamage": 22.47561,
+      "endDamage": 30.7561,
       "damageDecreaseEnd": 34.0,
       "maxDistance": 60.0
     },

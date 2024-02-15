@@ -101,71 +101,7 @@
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.reload_time",
-            "args": {},
-            "lines": {
-              "ru": "Время перезарядки",
-              "en": "Reload time"
-            }
-          },
-          "value": -1.9999981,
-          "formatted": {
-            "value": {
-              "ru": "-2%",
-              "en": "-2%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.recoil_gain",
-            "args": {},
-            "lines": {
-              "ru": "Нарастание отдачи",
-              "en": "Recoil buildup"
-            }
-          },
-          "value": -2.9999971,
-          "formatted": {
-            "value": {
-              "ru": "-3%",
-              "en": "-3%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.wiggle",
-            "args": {},
-            "lines": {
-              "ru": "Покачивание",
-              "en": "Sway"
-            }
-          },
-          "value": -1.9999981,
-          "formatted": {
-            "value": {
-              "ru": "-2%",
-              "en": "-2%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",
@@ -179,6 +115,30 @@
         }
       },
       "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a1.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A1",
+              "en": "M16A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4cqc.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1 CQC",
+              "en": "M4A1 CQC"
+            }
+          }
+        },
         {
           "type": "item",
           "name": {
@@ -224,6 +184,18 @@
             "lines": {
               "ru": "M16A2",
               "en": "M16A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarl.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-L",
+              "en": "FN SCAR-L"
             }
           }
         },

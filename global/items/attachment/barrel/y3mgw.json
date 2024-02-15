@@ -106,27 +106,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
-            "args": {},
-            "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
-            }
-          },
-          "value": -18.0,
-          "formatted": {
-            "value": {
-              "ru": "-18%",
-              "en": "-18%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
@@ -134,14 +113,77 @@
               "en": "Spread"
             }
           },
-          "value": -13.0,
+          "value": -5.000001,
           "formatted": {
             "value": {
-              "ru": "-13%",
-              "en": "-13%"
+              "ru": "-5%",
+              "en": "-5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -9.600001,
+          "formatted": {
+            "value": {
+              "ru": "-9,6%",
+              "en": "-9.6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -9.600001,
+          "formatted": {
+            "value": {
+              "ru": "-9,6%",
+              "en": "-9.6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -155,11 +197,32 @@
               "en": "Draw speed"
             }
           },
-          "value": 7.0000052,
+          "value": 20.000004,
           "formatted": {
             "value": {
-              "ru": "-7%",
-              "en": "-7%"
+              "ru": "-20%",
+              "en": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -175,7 +238,7 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.att.silencer_fa556.description",
+        "key": "item.att.silencer.additional_stats_tip",
         "args": {},
         "lines": {
           "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",
@@ -204,6 +267,30 @@
             "lines": {
               "ru": "L85A1",
               "en": "L85A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a1.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A1",
+              "en": "M16A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4cqc.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1 CQC",
+              "en": "M4A1 CQC"
             }
           }
         },
@@ -312,6 +399,18 @@
             "lines": {
               "ru": "FN F2000",
               "en": "FN F2000"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarl.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-L",
+              "en": "FN SCAR-L"
             }
           }
         },

@@ -106,14 +106,77 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
+            "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
+              "ru": "Разброс",
+              "en": "Spread"
             }
           },
-          "value": -25.0,
+          "value": -19.999998,
+          "formatted": {
+            "value": {
+              "ru": "-20%",
+              "en": "-20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -12.0,
+          "formatted": {
+            "value": {
+              "ru": "-12%",
+              "en": "-12%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -12.0,
+          "formatted": {
+            "value": {
+              "ru": "-12%",
+              "en": "-12%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 25.0,
           "formatted": {
             "value": {
               "ru": "-25%",
@@ -127,27 +190,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.spread",
-            "args": {},
-            "lines": {
-              "ru": "Разброс",
-              "en": "Spread"
-            }
-          },
-          "value": -11.000002,
-          "formatted": {
-            "value": {
-              "ru": "-11%",
-              "en": "-11%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.draw_time",
             "args": {},
             "lines": {
@@ -155,11 +197,32 @@
               "en": "Draw speed"
             }
           },
-          "value": 10.000002,
+          "value": 39.999996,
           "formatted": {
             "value": {
-              "ru": "-10%",
-              "en": "-10%"
+              "ru": "-40%",
+              "en": "-40%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "+25%",
+              "en": "+25%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -175,7 +238,7 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.att.silencer_salvo12.description",
+        "key": "item.att.silencer.additional_stats_tip",
         "args": {},
         "lines": {
           "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",

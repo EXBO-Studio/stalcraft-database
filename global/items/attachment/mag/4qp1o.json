@@ -122,27 +122,6 @@
             "nameColor": "838383",
             "valueColor": "EEEEEE"
           }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.magazine.stat_name.jamming",
-            "args": {},
-            "lines": {
-              "ru": "Заклинивание",
-              "en": "Jamming"
-            }
-          },
-          "value": 0.0075,
-          "formatted": {
-            "value": {
-              "ru": "0,01%",
-              "en": "0.01%"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
-          }
         }
       ]
     },
@@ -215,6 +194,27 @@
             "nameColor": "C15252",
             "valueColor": "C15252"
           }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 20.000004,
+          "formatted": {
+            "value": {
+              "ru": "+20%",
+              "en": "+20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
         }
       ]
     },
@@ -251,6 +251,30 @@
             "lines": {
               "ru": "АКС-74",
               "en": "AKS-74"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan-05.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94 «Абакан»",
+              "en": "AN-94 Abakan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak74m.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-74М",
+              "en": "AK-74М"
             }
           }
         },

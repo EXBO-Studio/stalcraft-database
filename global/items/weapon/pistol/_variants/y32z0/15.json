@@ -10,7 +10,7 @@
       "en": "Desert Eagle Mark XIX"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 118.25,
+          "value": 146.875,
           "formatted": {
             "value": {
-              "ru": "118,25 ед",
-              "en": "118.25 unit(s)"
+              "ru": "146,88 ед",
+              "en": "146.88 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 118.25,
+      "startDamage": 146.875,
       "damageDecreaseStart": 6.0,
-      "endDamage": 69.75,
+      "endDamage": 86.875,
       "damageDecreaseEnd": 25.0,
       "maxDistance": 70.0
     },

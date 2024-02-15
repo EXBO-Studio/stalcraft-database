@@ -1,0 +1,653 @@
+{
+  "id": "2o7rm",
+  "category": "attachment/barrel",
+  "name": {
+    "type": "translation",
+    "key": "item.att.barrel_microbadger.name",
+    "args": {},
+    "lines": {
+      "ru": "MICRO BADGER",
+      "en": "MICRO BADGER"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.barrel",
+            "args": {},
+            "lines": {
+              "ru": "Надульники и глушители",
+              "en": "Muzzles and Silencers"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.031,
+          "formatted": {
+            "value": {
+              "ru": "0,03 кг",
+              "en": "0.03 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread"
+            }
+          },
+          "value": -5.000001,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread"
+            }
+          },
+          "value": -1.2499988,
+          "formatted": {
+            "value": {
+              "ru": "-1,25%",
+              "en": "-1.25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": 1.4999986,
+          "formatted": {
+            "value": {
+              "ru": "+1,5%",
+              "en": "+1.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.kedr.name",
+            "args": {},
+            "lines": {
+              "ru": "ПП-91 «Кедр»",
+              "en": "PP-91 KEDR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mp5.name",
+            "args": {},
+            "lines": {
+              "ru": "HK MP5",
+              "en": "HK MP5"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.uzi.name",
+            "args": {},
+            "lines": {
+              "ru": "IMI Uzi",
+              "en": "IMI Uzi"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.kashtan.name",
+            "args": {},
+            "lines": {
+              "ru": "АЕК-919К «Каштан»",
+              "en": "AEK-919K Kashtan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mpk.name",
+            "args": {},
+            "lines": {
+              "ru": "Walther MPK",
+              "en": "Walther MPK"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.bizon.name",
+            "args": {},
+            "lines": {
+              "ru": "ПП-19 «Бизон-2-01»",
+              "en": "PP-19 Bizon-2-01"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vityaz.name",
+            "args": {},
+            "lines": {
+              "ru": "ПП-19-01 «Витязь»",
+              "en": "PP-19-01 Vityaz"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.p90.name",
+            "args": {},
+            "lines": {
+              "ru": "FN P90",
+              "en": "FN P90"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pp2000.name",
+            "args": {},
+            "lines": {
+              "ru": "ПП-2000",
+              "en": "PP-2000"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sr2.name",
+            "args": {},
+            "lines": {
+              "ru": "СР-2М «Вереск»",
+              "en": "SR-2M Veresk"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.spectre.name",
+            "args": {},
+            "lines": {
+              "ru": "Spectre M4",
+              "en": "Spectre M4"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.kriss.name",
+            "args": {},
+            "lines": {
+              "ru": "TDI KRISS Vector",
+              "en": "TDI KRISS Vector"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scorpion.name",
+            "args": {},
+            "lines": {
+              "ru": "Scorpion EVO III",
+              "en": "Scorpion EVO III"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ump.name",
+            "args": {},
+            "lines": {
+              "ru": "HK UMP9",
+              "en": "HK UMP9"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.miniuzi.name",
+            "args": {},
+            "lines": {
+              "ru": "IMI Mini Uzi",
+              "en": "IMI Mini Uzi"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pmm.name",
+            "args": {},
+            "lines": {
+              "ru": "ПММ",
+              "en": "PMM"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mp5k.name",
+            "args": {},
+            "lines": {
+              "ru": "HK MP5K",
+              "en": "HK MP5K"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mac10.name",
+            "args": {},
+            "lines": {
+              "ru": "Ingram MAC-10",
+              "en": "Ingram MAC-10"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.kedr_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Цунами»",
+              "en": "Tsunami"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mp5_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Гадюка»",
+              "en": "Viper"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pm_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "ПМ вечного новичка",
+              "en": "Eternal Novice’s PM"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.p99_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Пчела»",
+              "en": "Bee"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hp_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Мечта»",
+              "en": "Dream"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pb.name",
+            "args": {},
+            "lines": {
+              "ru": "ПБ",
+              "en": "PB"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pm.name",
+            "args": {},
+            "lines": {
+              "ru": "ПМ",
+              "en": "PM"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.fort12.name",
+            "args": {},
+            "lines": {
+              "ru": "Форт-12",
+              "en": "Fort-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.p99.name",
+            "args": {},
+            "lines": {
+              "ru": "Walther P99",
+              "en": "Walther P99"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.r92.name",
+            "args": {},
+            "lines": {
+              "ru": "Р-92",
+              "en": "R-92"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.beretta.name",
+            "args": {},
+            "lines": {
+              "ru": "Beretta 92FS",
+              "en": "Beretta 92FS"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hp.name",
+            "args": {},
+            "lines": {
+              "ru": "Browning Hi-Power",
+              "en": "Browning Hi-Power"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mauser.name",
+            "args": {},
+            "lines": {
+              "ru": "Mauser C96",
+              "en": "Mauser C96"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.beretta93.name",
+            "args": {},
+            "lines": {
+              "ru": "Beretta 93R",
+              "en": "Beretta 93R"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.colt.name",
+            "args": {},
+            "lines": {
+              "ru": "SW1911",
+              "en": "SW1911"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.glock17.name",
+            "args": {},
+            "lines": {
+              "ru": "Glock 17",
+              "en": "Glock 17"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.deagle.name",
+            "args": {},
+            "lines": {
+              "ru": "Desert Eagle Mark XIX",
+              "en": "Desert Eagle Mark XIX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sr1.name",
+            "args": {},
+            "lines": {
+              "ru": "СР-1 «Гюрза»",
+              "en": "SR-1 Gyurza"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.oc33.name",
+            "args": {},
+            "lines": {
+              "ru": "ОЦ-33 «Пернач»",
+              "en": "OTs-33 Pernach"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.p320.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG Sauer P320",
+              "en": "Sig Sauer P320"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

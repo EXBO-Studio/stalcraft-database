@@ -10,7 +10,7 @@
       "en": "Beretta 93R"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 28.0,
+          "value": 45.0,
           "formatted": {
             "value": {
-              "ru": "28 ед",
-              "en": "28 unit(s)"
+              "ru": "45 ед",
+              "en": "45 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -502,9 +502,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 28.0,
+      "startDamage": 45.0,
       "damageDecreaseStart": 5.0,
-      "endDamage": 18.4,
+      "endDamage": 29.5,
       "damageDecreaseEnd": 36.0,
       "maxDistance": 58.0
     },

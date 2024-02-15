@@ -1,0 +1,491 @@
+{
+  "id": "m0kz2",
+  "category": "attachment/other",
+  "name": {
+    "type": "translation",
+    "key": "item.att.handgrip_fxptkb.name",
+    "args": {},
+    "lines": {
+      "ru": "FX PTKB FAB Defense",
+      "en": "FX PTKB FAB Defense"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other",
+            "args": {},
+            "lines": {
+              "ru": "Прочие обвесы",
+              "en": "Other Attachments"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.07,
+          "formatted": {
+            "value": {
+              "ru": "0,07 кг",
+              "en": "0.07 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -3.6000013,
+          "formatted": {
+            "value": {
+              "ru": "-3,6%",
+              "en": "-3.6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -3.6000013,
+          "formatted": {
+            "value": {
+              "ru": "-3,6%",
+              "en": "-3.6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {
+              "ru": "Нарастание отдачи",
+              "en": "Recoil buildup"
+            }
+          },
+          "value": -7.2000027,
+          "formatted": {
+            "value": {
+              "ru": "-7,2%",
+              "en": "-7.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": -14.999998,
+          "formatted": {
+            "value": {
+              "ru": "+15%",
+              "en": "+15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость доставания",
+              "en": "Draw speed"
+            }
+          },
+          "value": -12.0,
+          "formatted": {
+            "value": {
+              "ru": "+12%",
+              "en": "+12%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak203.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-203",
+              "en": "АК-203"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak103.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-103",
+              "en": "AK-103"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.g36c.name",
+            "args": {},
+            "lines": {
+              "ru": "HK G36C",
+              "en": "HK G36C"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.a545.name",
+            "args": {},
+            "lines": {
+              "ru": "А-545",
+              "en": "A-545"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.f2000.name",
+            "args": {},
+            "lines": {
+              "ru": "FN F2000 Tactical",
+              "en": "FN F2000 Tactical"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ash12.name",
+            "args": {},
+            "lines": {
+              "ru": "АШ-12",
+              "en": "ASh-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.am17.name",
+            "args": {},
+            "lines": {
+              "ru": "АМ-17",
+              "en": "АМ-17"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.amb17.name",
+            "args": {},
+            "lines": {
+              "ru": "АМБ-17",
+              "en": "AMB-17"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak15.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-15",
+              "en": "АК-15"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarl.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-L",
+              "en": "FN SCAR-L"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.gauss.name",
+            "args": {},
+            "lines": {
+              "ru": "Гаусс-пушка",
+              "en": "Gauss Rifle"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.dsa58.name",
+            "args": {},
+            "lines": {
+              "ru": "DSA-58",
+              "en": "DSA-58"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sa58.name",
+            "args": {},
+            "lines": {
+              "ru": "SA-58 CTC",
+              "en": "SA-58 CTC"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rsh12.name",
+            "args": {},
+            "lines": {
+              "ru": "РШ-12",
+              "en": "RSh-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.cr380.name",
+            "args": {},
+            "lines": {
+              "ru": "CR-380",
+              "en": "CR-380"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mc558.name",
+            "args": {},
+            "lines": {
+              "ru": "МЦ-558",
+              "en": "MTs-558"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_mp5ris.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье MP5 с планками Пикатинни",
+              "en": "MP5 Handguard with Picatinny Rail"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_m1pacs.name",
+            "args": {},
+            "lines": {
+              "ru": "Ложе Springfield M1A PACS",
+              "en": "Springfield M1A PACS Stock"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_saiga.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье для Сайга-12К",
+              "en": "Handguard for Saiga-12K"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_b21m.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье Б-21М",
+              "en": "B-21M Handguard"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_sks.name",
+            "args": {},
+            "lines": {
+              "ru": "Тактическое ложе для СКС",
+              "en": "Tactical Stock for SKS"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

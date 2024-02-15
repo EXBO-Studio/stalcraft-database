@@ -10,7 +10,7 @@
       "en": "Worn L85A1"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.picklock",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 18.651829,
+          "value": 26.998781,
           "formatted": {
             "value": {
-              "ru": "18,65 ед",
-              "en": "18.65 unit(s)"
+              "ru": "27 ед",
+              "en": "27 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 18.651829,
+      "startDamage": 26.998781,
       "damageDecreaseStart": 18.0,
-      "endDamage": 16.281708,
+      "endDamage": 23.392073,
       "damageDecreaseEnd": 60.0,
       "maxDistance": 125.0
     },

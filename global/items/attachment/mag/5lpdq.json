@@ -10,7 +10,7 @@
       "en": "5.56 NATO STANAG Magazine"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -143,11 +143,32 @@
               "en": "Reload time"
             }
           },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
           "value": 4.999995,
           "formatted": {
             "value": {
-              "ru": "+5%",
-              "en": "+5%"
+              "ru": "-5%",
+              "en": "-5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -164,11 +185,11 @@
               "en": "Draw speed"
             }
           },
-          "value": 14.999998,
+          "value": 7.500005,
           "formatted": {
             "value": {
-              "ru": "-15%",
-              "en": "-15%"
+              "ru": "-7,5%",
+              "en": "-7.5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -197,6 +218,30 @@
             "lines": {
               "ru": "L85A1",
               "en": "L85A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a1.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A1",
+              "en": "M16A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4cqc.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1 CQC",
+              "en": "M4A1 CQC"
             }
           }
         },
@@ -281,6 +326,18 @@
             "lines": {
               "ru": "FN F2000",
               "en": "FN F2000"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarl.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-L",
+              "en": "FN SCAR-L"
             }
           }
         },

@@ -10,7 +10,7 @@
       "en": "Noveske KX3 Flash Hider"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Новичок",
+              "en": "Newbie"
             }
           }
         },
@@ -113,11 +113,32 @@
               "en": "Spread"
             }
           },
-          "value": -13.999998,
+          "value": -3.2500029,
           "formatted": {
             "value": {
-              "ru": "-14%",
-              "en": "-14%"
+              "ru": "-3,25%",
+              "en": "-3.25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -2.399999,
+          "formatted": {
+            "value": {
+              "ru": "-2,4%",
+              "en": "-2.4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -146,6 +167,30 @@
             "lines": {
               "ru": "L85A1",
               "en": "L85A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a1.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A1",
+              "en": "M16A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4cqc.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1 CQC",
+              "en": "M4A1 CQC"
             }
           }
         },
@@ -225,18 +270,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.g3a1.name",
-            "args": {},
-            "lines": {
-              "ru": "HK G3A1",
-              "en": "HK G3A1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.f2000.name",
             "args": {},
             "lines": {
@@ -261,35 +294,23 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.scarl.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-L",
+              "en": "FN SCAR-L"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.famas.name",
             "args": {},
             "lines": {
               "ru": "FAMAS G2",
               "en": "FAMAS G2"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.dsa58.name",
-            "args": {},
-            "lines": {
-              "ru": "DSA-58",
-              "en": "DSA-58"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.sa58.name",
-            "args": {},
-            "lines": {
-              "ru": "SA-58 CTC",
-              "en": "SA-58 CTC"
             }
           }
         },
@@ -314,30 +335,6 @@
             "lines": {
               "ru": "«Баланс»",
               "en": "Balance"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m1a.name",
-            "args": {},
-            "lines": {
-              "ru": "M1A FA",
-              "en": "M1A FA"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.wa2000.name",
-            "args": {},
-            "lines": {
-              "ru": "WA2000",
-              "en": "WA2000"
             }
           }
         }
