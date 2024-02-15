@@ -10,7 +10,7 @@
       "en": "Walther P99"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 35.348705,
+          "value": 46.986588,
           "formatted": {
             "value": {
-              "ru": "35,35 ед",
-              "en": "35.35 unit(s)"
+              "ru": "46,99 ед",
+              "en": "46.99 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 35.348705,
+      "startDamage": 46.986588,
       "damageDecreaseStart": 5.0,
-      "endDamage": 21.753048,
+      "endDamage": 28.82279,
       "damageDecreaseEnd": 36.0,
       "maxDistance": 58.0
     },

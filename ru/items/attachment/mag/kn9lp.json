@@ -10,7 +10,7 @@
       "en": "X-5 Drum Magazine"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -122,27 +122,6 @@
             "nameColor": "838383",
             "valueColor": "EEEEEE"
           }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.magazine.stat_name.jamming",
-            "args": {},
-            "lines": {
-              "ru": "Заклинивание",
-              "en": "Jamming"
-            }
-          },
-          "value": 0.005,
-          "formatted": {
-            "value": {
-              "ru": "0%",
-              "en": "0%"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
-          }
         }
       ]
     },
@@ -178,6 +157,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 4.999995,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.stat_factor.draw_time",
             "args": {},
             "lines": {
@@ -185,11 +185,32 @@
               "en": "Draw speed"
             }
           },
-          "value": 14.999998,
+          "value": 12.5,
           "formatted": {
             "value": {
-              "ru": "-15%",
-              "en": "-15%"
+              "ru": "-12,5%",
+              "en": "-12.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 4.999995,
+          "formatted": {
+            "value": {
+              "ru": "+5%",
+              "en": "+5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

@@ -10,7 +10,7 @@
       "en": "Fort-12"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 40.115856,
+          "value": 53.060215,
           "formatted": {
             "value": {
-              "ru": "40,12 ед",
-              "en": "40.12 unit(s)"
+              "ru": "53,06 ед",
+              "en": "53.06 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 40.115856,
+      "startDamage": 53.060215,
       "damageDecreaseStart": 5.0,
-      "endDamage": 27.521343,
+      "endDamage": 36.384148,
       "damageDecreaseEnd": 36.0,
       "maxDistance": 58.0
     },

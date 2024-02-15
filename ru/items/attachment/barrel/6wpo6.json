@@ -106,27 +106,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.distance",
-            "args": {},
-            "lines": {
-              "ru": "Дистанция",
-              "en": "Distance"
-            }
-          },
-          "value": 20.000004,
-          "formatted": {
-            "value": {
-              "ru": "+20%",
-              "en": "+20%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
@@ -134,11 +113,11 @@
               "en": "Spread"
             }
           },
-          "value": -10.000002,
+          "value": -18.0,
           "formatted": {
             "value": {
-              "ru": "-10%",
-              "en": "-10%"
+              "ru": "-18%",
+              "en": "-18%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -148,21 +127,42 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.recoil",
+            "key": "weapon.stat_factor.hip_spread",
             "args": {},
             "lines": {
-              "ru": "Отдача",
-              "en": "Recoil"
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread"
             }
           },
-          "value": 25.0,
+          "value": -5.000001,
           "formatted": {
             "value": {
-              "ru": "+25%",
-              "en": "+25%"
+              "ru": "-5%",
+              "en": "-5%"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -1.2000024,
+          "formatted": {
+            "value": {
+              "ru": "-1,2%",
+              "en": "-1.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         }
       ]

@@ -10,7 +10,7 @@
       "en": "RPK-74"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 30.228962,
+          "value": 40.343594,
           "formatted": {
             "value": {
-              "ru": "30,23 ед",
-              "en": "30.23 unit(s)"
+              "ru": "40,34 ед",
+              "en": "40.34 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -558,9 +558,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 30.228962,
+      "startDamage": 40.343594,
       "damageDecreaseStart": 12.0,
-      "endDamage": 22.413109,
+      "endDamage": 29.884146,
       "damageDecreaseEnd": 52.0,
       "maxDistance": 150.0
     },

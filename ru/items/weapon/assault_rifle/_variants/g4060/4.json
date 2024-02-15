@@ -10,7 +10,7 @@
       "en": "L85A1"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -75,11 +75,11 @@
               "en": "Weight"
             }
           },
-          "value": 3.82,
+          "value": 3.8799999,
           "formatted": {
             "value": {
-              "ru": "3,82 кг",
-              "en": "3.82 kg"
+              "ru": "3,88 кг",
+              "en": "3.88 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 22.052439,
+          "value": 31.945122,
           "formatted": {
             "value": {
-              "ru": "22,05 ед",
-              "en": "22.05 unit(s)"
+              "ru": "31,95 ед",
+              "en": "31.95 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 22.052439,
+      "startDamage": 31.945122,
       "damageDecreaseStart": 18.0,
-      "endDamage": 19.167072,
+      "endDamage": 27.82317,
       "damageDecreaseEnd": 60.0,
       "maxDistance": 135.0
     },

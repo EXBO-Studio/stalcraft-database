@@ -106,27 +106,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
-            "args": {},
-            "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
-            }
-          },
-          "value": -10.000002,
-          "formatted": {
-            "value": {
-              "ru": "-10%",
-              "en": "-10%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
@@ -134,14 +113,98 @@
               "en": "Spread"
             }
           },
-          "value": -9.000004,
+          "value": -18.0,
           "formatted": {
             "value": {
-              "ru": "-9%",
-              "en": "-9%"
+              "ru": "-18%",
+              "en": "-18%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -8.4,
+          "formatted": {
+            "value": {
+              "ru": "-8,4%",
+              "en": "-8.4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil"
+            }
+          },
+          "value": -13.199997,
+          "formatted": {
+            "value": {
+              "ru": "-13,2%",
+              "en": "-13.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {
+              "ru": "Нарастание отдачи",
+              "en": "Recoil buildup"
+            }
+          },
+          "value": -19.200003,
+          "formatted": {
+            "value": {
+              "ru": "-19,2%",
+              "en": "-19.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 29.999996,
+          "formatted": {
+            "value": {
+              "ru": "-30%",
+              "en": "-30%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -155,11 +218,32 @@
               "en": "Draw speed"
             }
           },
-          "value": 4.999995,
+          "value": 45.000004,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%"
+              "ru": "-45%",
+              "en": "-45%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -175,7 +259,7 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.att.silencer_groza.description",
+        "key": "item.att.silencer.additional_stats_tip",
         "args": {},
         "lines": {
           "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",
@@ -204,18 +288,6 @@
             "lines": {
               "ru": "ОЦ-14 «Гроза»",
               "en": "OTs-14 Groza"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.forend_groza.name",
-            "args": {},
-            "lines": {
-              "ru": "Тактическая накладка ОЦ-14",
-              "en": "OTs-14 Tactical Grip"
             }
           }
         }

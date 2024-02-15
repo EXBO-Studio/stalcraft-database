@@ -75,11 +75,11 @@
               "en": "Weight"
             }
           },
-          "value": 2.6100001,
+          "value": 2.69,
           "formatted": {
             "value": {
-              "ru": "2,61 кг",
-              "en": "2.61 kg"
+              "ru": "2,69 кг",
+              "en": "2.69 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 35.904114,
+          "value": 43.60594,
           "formatted": {
             "value": {
-              "ru": "35,9 ед",
-              "en": "35.9 unit(s)"
+              "ru": "43,61 ед",
+              "en": "43.61 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -197,11 +197,11 @@
               "en": "Magazine capacity"
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "0/25",
-              "en": "0/25"
+              "ru": "0/20",
+              "en": "0/20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -302,11 +302,11 @@
               "en": "Spread"
             }
           },
-          "value": 0.47,
+          "value": 0.45,
           "formatted": {
             "value": {
-              "ru": "0,47°",
-              "en": "0.47°"
+              "ru": "0,45°",
+              "en": "0.45°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -430,7 +430,29 @@
           "en": "Additional properties"
         }
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power"
+            }
+          },
+          "value": 30.000002,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -545,9 +567,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 35.904114,
+      "startDamage": 43.60594,
       "damageDecreaseStart": 8.0,
-      "endDamage": 20.61372,
+      "endDamage": 24.35137,
       "damageDecreaseEnd": 42.0,
       "maxDistance": 130.0
     },

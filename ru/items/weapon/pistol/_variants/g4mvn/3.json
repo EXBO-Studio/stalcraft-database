@@ -10,7 +10,7 @@
       "en": "Beretta 92FS"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 43.574085,
+          "value": 55.848476,
           "formatted": {
             "value": {
-              "ru": "43,57 ед",
-              "en": "43.57 unit(s)"
+              "ru": "55,85 ед",
+              "en": "55.85 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 43.574085,
+      "startDamage": 55.848476,
       "damageDecreaseStart": 6.0,
-      "endDamage": 28.128813,
+      "endDamage": 36.31174,
       "damageDecreaseEnd": 36.0,
       "maxDistance": 60.0
     },

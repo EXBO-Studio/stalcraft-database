@@ -106,48 +106,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.damage_distant",
-            "args": {},
-            "lines": {
-              "ru": "Урон вдали",
-              "en": "Damage at range"
-            }
-          },
-          "value": 14.999998,
-          "formatted": {
-            "value": {
-              "ru": "+15%",
-              "en": "+15%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.distance",
-            "args": {},
-            "lines": {
-              "ru": "Дистанция",
-              "en": "Distance"
-            }
-          },
-          "value": 20.000004,
-          "formatted": {
-            "value": {
-              "ru": "+20%",
-              "en": "+20%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
@@ -169,6 +127,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread"
+            }
+          },
+          "value": -5.000001,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.stat_factor.recoil",
             "args": {},
             "lines": {
@@ -176,11 +155,11 @@
               "en": "Recoil"
             }
           },
-          "value": 25.0,
+          "value": 1.4999986,
           "formatted": {
             "value": {
-              "ru": "+25%",
-              "en": "+25%"
+              "ru": "+1,5%",
+              "en": "+1.5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

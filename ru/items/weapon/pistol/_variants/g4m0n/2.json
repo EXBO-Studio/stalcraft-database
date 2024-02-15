@@ -10,7 +10,7 @@
       "en": "TT"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.picklock",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock"
+              "ru": "Новичок",
+              "en": "Newbie"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 38.17317,
+          "value": 41.625,
           "formatted": {
             "value": {
-              "ru": "38,17 ед",
-              "en": "38.17 unit(s)"
+              "ru": "41,62 ед",
+              "en": "41.62 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 38.17317,
+      "startDamage": 41.625,
       "damageDecreaseStart": 5.0,
-      "endDamage": 26.19329,
+      "endDamage": 28.528353,
       "damageDecreaseEnd": 36.0,
       "maxDistance": 58.0
     },

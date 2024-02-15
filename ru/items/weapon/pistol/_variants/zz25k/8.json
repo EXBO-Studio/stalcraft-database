@@ -10,7 +10,7 @@
       "en": "SW1911"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 59.820885,
+          "value": 77.0058,
           "formatted": {
             "value": {
-              "ru": "59,82 ед",
-              "en": "59.82 unit(s)"
+              "ru": "77,01 ед",
+              "en": "77.01 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 59.820885,
+      "startDamage": 77.0058,
       "damageDecreaseStart": 4.0,
-      "endDamage": 34.26105,
+      "endDamage": 44.158688,
       "damageDecreaseEnd": 20.0,
       "maxDistance": 65.0
     },

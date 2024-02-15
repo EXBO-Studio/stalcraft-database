@@ -10,7 +10,7 @@
       "en": "3 Port Mini Compensator"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -113,11 +113,11 @@
               "en": "Spread"
             }
           },
-          "value": -4.000002,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-4%",
-              "en": "-4%"
+              "ru": "-2%",
+              "en": "-2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -134,11 +134,11 @@
               "en": "Recoil"
             }
           },
-          "value": -6.999999,
+          "value": -5.400002,
           "formatted": {
             "value": {
-              "ru": "-7%",
-              "en": "-7%"
+              "ru": "-5,4%",
+              "en": "-5.4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -155,32 +155,11 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": -5.000001,
+          "value": -5.400002,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.recoil_gain",
-            "args": {},
-            "lines": {
-              "ru": "Нарастание отдачи",
-              "en": "Recoil buildup"
-            }
-          },
-          "value": -14.999998,
-          "formatted": {
-            "value": {
-              "ru": "-15%",
-              "en": "-15%"
+              "ru": "-5,4%",
+              "en": "-5.4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

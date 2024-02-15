@@ -10,7 +10,7 @@
       "en": "Kurkri"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -134,11 +134,11 @@
               "en": "Movement speed"
             }
           },
-          "value": 5.5,
+          "value": 6.5,
           "formatted": {
             "value": {
-              "ru": "5,5%",
-              "en": "5.5%"
+              "ru": "6,5%",
+              "en": "6.5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -164,11 +164,11 @@
               "en": "Quick attack (min)"
             }
           },
-          "value": 43.0,
+          "value": 48.0,
           "formatted": {
             "value": {
-              "ru": "43 ед",
-              "en": "43 unit(s)"
+              "ru": "48 ед",
+              "en": "48 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -185,11 +185,11 @@
               "en": "Quick attack (max)"
             }
           },
-          "value": 58.0,
+          "value": 64.0,
           "formatted": {
             "value": {
-              "ru": "58 ед",
-              "en": "58 unit(s)"
+              "ru": "64 ед",
+              "en": "64 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -206,11 +206,11 @@
               "en": "Strong attack (min)"
             }
           },
-          "value": 85.0,
+          "value": 95.0,
           "formatted": {
             "value": {
-              "ru": "85 ед",
-              "en": "85 unit(s)"
+              "ru": "95 ед",
+              "en": "95 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -227,11 +227,11 @@
               "en": "Strong attack (max)"
             }
           },
-          "value": 115.0,
+          "value": 128.0,
           "formatted": {
             "value": {
-              "ru": "115 ед",
-              "en": "115 unit(s)"
+              "ru": "128 ед",
+              "en": "128 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -355,11 +355,39 @@
             "type": "translation",
             "key": "weapon.tooltip.melee_weapon.mutant_damage_mod",
             "args": {
-              "factor": "1.19"
+              "factor": "1.47"
             },
             "lines": {
-              "ru": "Урон по мутантам: x1,19",
-              "en": "Damage to mutants: x1.19"
+              "ru": "Урон по мутантам: x1,47",
+              "en": "Damage to mutants: x1.47"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.slash_damage_common",
+            "args": {
+              "targets": "3"
+            },
+            "lines": {
+              "ru": "Обычный удар наносит урон 3 целям",
+              "en": "Regular attacks deal damage to 3 targets"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.slash_damage_strong",
+            "args": {
+              "targets": "3"
+            },
+            "lines": {
+              "ru": "Сильный удар наносит урон 3 целям",
+              "en": "Strong attacks deal damage to 3 targets"
             }
           }
         }

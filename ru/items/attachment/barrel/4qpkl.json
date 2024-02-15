@@ -106,18 +106,39 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.distance",
+            "key": "weapon.stat_factor.spread",
             "args": {},
             "lines": {
-              "ru": "Дистанция",
-              "en": "Distance"
+              "ru": "Разброс",
+              "en": "Spread"
             }
           },
-          "value": 10.000002,
+          "value": -6.25,
           "formatted": {
             "value": {
-              "ru": "+10%",
-              "en": "+10%"
+              "ru": "-6,25%",
+              "en": "-6.25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil"
+            }
+          },
+          "value": -12.0,
+          "formatted": {
+            "value": {
+              "ru": "-12%",
+              "en": "-12%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -134,35 +155,14 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": -10.000002,
+          "value": -12.0,
           "formatted": {
             "value": {
-              "ru": "-10%",
-              "en": "-10%"
+              "ru": "-12%",
+              "en": "-12%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.draw_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость доставания",
-              "en": "Draw speed"
-            }
-          },
-          "value": 10.000002,
-          "formatted": {
-            "value": {
-              "ru": "-10%",
-              "en": "-10%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
           }
         }
       ]

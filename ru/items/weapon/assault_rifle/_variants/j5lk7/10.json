@@ -10,7 +10,7 @@
       "en": "M16A3"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Новичок",
+              "en": "Newbie"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 30.580791,
+          "value": 22.652437,
           "formatted": {
             "value": {
-              "ru": "30,58 ед",
-              "en": "30.58 unit(s)"
+              "ru": "22,65 ед",
+              "en": "22.65 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 30.580791,
+      "startDamage": 22.652437,
       "damageDecreaseStart": 20.0,
-      "endDamage": 24.691156,
+      "endDamage": 17.782164,
       "damageDecreaseEnd": 60.0,
       "maxDistance": 160.0
     },

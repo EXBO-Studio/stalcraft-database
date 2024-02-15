@@ -10,7 +10,7 @@
       "en": "L85A1"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -75,11 +75,11 @@
               "en": "Weight"
             }
           },
-          "value": 3.82,
+          "value": 3.8799999,
           "formatted": {
             "value": {
-              "ru": "3,82 кг",
-              "en": "3.82 kg"
+              "ru": "3,88 кг",
+              "en": "3.88 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 21.4,
+          "value": 31.0,
           "formatted": {
             "value": {
-              "ru": "21,4 ед",
-              "en": "21.4 unit(s)"
+              "ru": "31 ед",
+              "en": "31 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -489,9 +489,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 21.4,
+      "startDamage": 31.0,
       "damageDecreaseStart": 18.0,
-      "endDamage": 18.6,
+      "endDamage": 27.0,
       "damageDecreaseEnd": 60.0,
       "maxDistance": 135.0
     },

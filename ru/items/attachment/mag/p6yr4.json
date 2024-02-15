@@ -122,27 +122,6 @@
             "nameColor": "838383",
             "valueColor": "EEEEEE"
           }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.magazine.stat_name.jamming",
-            "args": {},
-            "lines": {
-              "ru": "Заклинивание",
-              "en": "Jamming"
-            }
-          },
-          "value": 0.005,
-          "formatted": {
-            "value": {
-              "ru": "0%",
-              "en": "0%"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
-          }
         }
       ]
     },
@@ -178,11 +157,11 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.draw_time",
+            "key": "weapon.stat_factor.aim_switch_time",
             "args": {},
             "lines": {
-              "ru": "Скорость доставания",
-              "en": "Draw speed"
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
             }
           },
           "value": 20.000004,
@@ -190,6 +169,48 @@
             "value": {
               "ru": "-20%",
               "en": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость доставания",
+              "en": "Draw speed"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 20.000004,
+          "formatted": {
+            "value": {
+              "ru": "+20%",
+              "en": "+20%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

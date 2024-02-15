@@ -157,6 +157,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": 4.999995,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.stat_factor.draw_time",
             "args": {},
             "lines": {
@@ -164,11 +185,32 @@
               "en": "Draw speed"
             }
           },
-          "value": 14.999998,
+          "value": 12.5,
           "formatted": {
             "value": {
-              "ru": "-15%",
-              "en": "-15%"
+              "ru": "-12,5%",
+              "en": "-12.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 4.999995,
+          "formatted": {
+            "value": {
+              "ru": "+5%",
+              "en": "+5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

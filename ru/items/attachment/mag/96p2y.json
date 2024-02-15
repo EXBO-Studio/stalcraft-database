@@ -10,7 +10,7 @@
       "en": "5.56 NATO STANAG Magazine"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.picklock",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock"
+              "ru": "Новичок",
+              "en": "Newbie"
             }
           }
         },
@@ -143,11 +143,32 @@
               "en": "Reload time"
             }
           },
-          "value": -25.0,
+          "value": -10.000002,
           "formatted": {
             "value": {
-              "ru": "-25%",
-              "en": "-25%"
+              "ru": "-10%",
+              "en": "-10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed"
+            }
+          },
+          "value": -4.000002,
+          "formatted": {
+            "value": {
+              "ru": "+4%",
+              "en": "+4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -164,11 +185,11 @@
               "en": "Draw speed"
             }
           },
-          "value": -5.000001,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "+5%",
-              "en": "+5%"
+              "ru": "+2%",
+              "en": "+2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -197,6 +218,30 @@
             "lines": {
               "ru": "L85A1",
               "en": "L85A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a1.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A1",
+              "en": "M16A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4cqc.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1 CQC",
+              "en": "M4A1 CQC"
             }
           }
         },
