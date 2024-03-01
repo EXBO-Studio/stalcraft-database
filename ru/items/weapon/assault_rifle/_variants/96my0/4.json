@@ -239,11 +239,11 @@
               "en": "Rate of fire"
             }
           },
-          "value": 750.0,
+          "value": 800.0,
           "formatted": {
             "value": {
-              "ru": "750 выстр/мин",
-              "en": "750 shots/min"
+              "ru": "800 выстр/мин",
+              "en": "800 shots/min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -344,11 +344,11 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 0.35,
+          "value": 0.4,
           "formatted": {
             "value": {
-              "ru": "0,35°",
-              "en": "0.35°"
+              "ru": "0,4°",
+              "en": "0.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -541,20 +541,7 @@
           "en": "Features"
         }
       },
-      "elements": [
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "item.wpn.alk22.features",
-            "args": {},
-            "lines": {
-              "ru": "Начальная скорострельность: 500 выстр./мин@Конечная скорострельность: 1000 выстр./мин@Выстрелов для разгона: 10",
-              "en": "Initial rate of fire: 500 shots/min@Final rate of fire: 1,000 shots/min@Shots to accelerate: 10"
-            }
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "damage",
@@ -575,8 +562,8 @@
         "key": "item.wpn.alk22.description",
         "args": {},
         "lines": {
-          "ru": "Автомат с переменной скорострельностью и блоком вращающихся стволов. Скорострельность плавно нарастает при автоматической стрельбе.",
-          "en": "An assault rifle with variable rate of fire and a block of spinning barrels. The rate of fire increases gradually in automatic firing mode."
+          "ru": "Автомат с блоком вращающихся стволов.",
+          "en": "An assault rifle with a block of rotating barrels."
         }
       }
     }
