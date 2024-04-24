@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 64.0,
+          "value": 78.0,
           "formatted": {
             "value": {
-              "ru": "64 ед",
-              "en": "64 unit(s)"
+              "ru": "78 ед",
+              "en": "78 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -323,11 +323,11 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 2.4,
+          "value": 3.84,
           "formatted": {
             "value": {
-              "ru": "2,4°",
-              "en": "2.4°"
+              "ru": "3,84°",
+              "en": "3.84°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -414,27 +414,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.info.piercing",
-            "args": {},
-            "lines": {
-              "ru": "Бронебойность",
-              "en": "Armor-penetration"
-            }
-          },
-          "value": 4.5,
-          "formatted": {
-            "value": {
-              "ru": "4,5%",
-              "en": "4.5%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.tooltip.weapon.info.bleeding",
             "args": {},
             "lines": {
@@ -514,6 +493,20 @@
               "en": "Limb damage: х0.9"
             }
           }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
+            "args": {
+              "modifier": "1.5"
+            },
+            "lines": {
+              "ru": "Урон по мутантам: х1,5",
+              "en": "Damage to mutants: x1.5"
+            }
+          }
         }
       ]
     },
@@ -532,9 +525,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 64.0,
+      "startDamage": 78.0,
       "damageDecreaseStart": 20.0,
-      "endDamage": 64.0,
+      "endDamage": 78.0,
       "damageDecreaseEnd": 60.0,
       "maxDistance": 170.0
     },

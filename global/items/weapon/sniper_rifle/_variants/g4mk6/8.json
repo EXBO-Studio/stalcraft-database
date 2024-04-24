@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 74.177895,
+          "value": 79.07233,
           "formatted": {
             "value": {
-              "ru": "74,18 ед",
-              "en": "74.18 unit(s)"
+              "ru": "79,07 ед",
+              "en": "79.07 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -344,11 +344,11 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 0.81,
+          "value": 1.3,
           "formatted": {
             "value": {
-              "ru": "0,81°",
-              "en": "0.81°"
+              "ru": "1,3°",
+              "en": "1.3°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -365,11 +365,11 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 0.37,
+          "value": 0.32,
           "formatted": {
             "value": {
-              "ru": "0,37°",
-              "en": "0.37°"
+              "ru": "0,32°",
+              "en": "0.32°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -430,29 +430,7 @@
           "en": "Additional properties"
         }
       },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.info.stopping_power",
-            "args": {},
-            "lines": {
-              "ru": "Останавливающее действие",
-              "en": "Stopping power"
-            }
-          },
-          "value": 100.0,
-          "formatted": {
-            "value": {
-              "ru": "100",
-              "en": "100"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",
@@ -486,11 +464,11 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.75"
+              "modifier": "0.9"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,75",
-              "en": "Limb damage: х0.75"
+              "ru": "Урон по конечностям: х0,9",
+              "en": "Limb damage: х0.9"
             }
           }
         }
@@ -567,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 74.177895,
+      "startDamage": 79.07233,
       "damageDecreaseStart": 30.0,
-      "endDamage": 71.785065,
+      "endDamage": 76.57073,
       "damageDecreaseEnd": 90.0,
       "maxDistance": 180.0
     },
