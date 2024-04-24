@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 91.37195,
+          "value": 98.98628,
           "formatted": {
             "value": {
-              "ru": "91,37 ед",
-              "en": "91.37 unit(s)"
+              "ru": "98,99 ед",
+              "en": "98.99 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -409,29 +409,7 @@
           "en": "Additional properties"
         }
       },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.info.stopping_power",
-            "args": {},
-            "lines": {
-              "ru": "Останавливающее действие",
-              "en": "Stopping power"
-            }
-          },
-          "value": 150.0,
-          "formatted": {
-            "value": {
-              "ru": "150",
-              "en": "150"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",
@@ -465,11 +443,11 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.75"
+              "modifier": "0.9"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,75",
-              "en": "Limb damage: х0.75"
+              "ru": "Урон по конечностям: х0,9",
+              "en": "Limb damage: х0.9"
             }
           }
         }
@@ -568,9 +546,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 91.37195,
+      "startDamage": 98.98628,
       "damageDecreaseStart": 250.0,
-      "endDamage": 91.37195,
+      "endDamage": 98.98628,
       "damageDecreaseEnd": 250.0,
       "maxDistance": 250.0
     },
