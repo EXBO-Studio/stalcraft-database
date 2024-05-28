@@ -10,7 +10,7 @@
       "en": "Ingram MAC-10"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 25.286585,
+          "value": 27.470427,
           "formatted": {
             "value": {
-              "ru": "25,29 ед",
-              "en": "25.29 unit(s)"
+              "ru": "27,47 ед",
+              "en": "27.47 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 25.286585,
+      "startDamage": 27.470427,
       "damageDecreaseStart": 5.0,
-      "endDamage": 12.87317,
+      "endDamage": 14.02256,
       "damageDecreaseEnd": 32.0,
       "maxDistance": 100.0
     },

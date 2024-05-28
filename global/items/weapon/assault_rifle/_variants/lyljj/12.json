@@ -10,7 +10,7 @@
       "en": "M4 LB"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 35.334602,
+          "value": 42.21494,
           "formatted": {
             "value": {
-              "ru": "35,33 ед",
-              "en": "35.33 unit(s)"
+              "ru": "42,21 ед",
+              "en": "42.21 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -558,9 +558,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 35.334602,
+      "startDamage": 42.21494,
       "damageDecreaseStart": 17.0,
-      "endDamage": 30.903202,
+      "endDamage": 36.850613,
       "damageDecreaseEnd": 59.0,
       "maxDistance": 150.0
     },

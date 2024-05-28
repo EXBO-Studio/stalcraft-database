@@ -10,7 +10,7 @@
       "en": "HK UMP9"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 28.315548,
+          "value": 38.73567,
           "formatted": {
             "value": {
-              "ru": "28,32 ед",
-              "en": "28.32 unit(s)"
+              "ru": "38,74 ед",
+              "en": "38.74 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -218,11 +218,11 @@
               "en": "Maximum distance"
             }
           },
-          "value": 110.0,
+          "value": 120.0,
           "formatted": {
             "value": {
-              "ru": "110 м",
-              "en": "110 m"
+              "ru": "120 м",
+              "en": "120 m"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,11 +545,11 @@
     },
     {
       "type": "damage",
-      "startDamage": 28.315548,
+      "startDamage": 38.73567,
       "damageDecreaseStart": 8.0,
-      "endDamage": 18.801523,
+      "endDamage": 25.597256,
       "damageDecreaseEnd": 40.0,
-      "maxDistance": 110.0
+      "maxDistance": 120.0
     },
     {
       "type": "text",

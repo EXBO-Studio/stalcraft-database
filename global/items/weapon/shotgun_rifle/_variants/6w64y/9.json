@@ -10,7 +10,7 @@
       "en": "Grizzly 8.5"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 169.25914,
+          "value": 211.02438,
           "formatted": {
             "value": {
-              "ru": "169,26 ед",
-              "en": "169.26 unit(s)"
+              "ru": "211,02 ед",
+              "en": "211.02 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -560,9 +560,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 169.25914,
+      "startDamage": 211.02438,
       "damageDecreaseStart": 3.0,
-      "endDamage": 76.16662,
+      "endDamage": 94.960976,
       "damageDecreaseEnd": 17.0,
       "maxDistance": 60.0
     },

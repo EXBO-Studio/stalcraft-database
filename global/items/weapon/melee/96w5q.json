@@ -77,11 +77,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.melee.fight.type",
+            "key": "item.melee.universal.type",
             "args": {},
             "lines": {
-              "ru": "Боевой",
-              "en": "Combat"
+              "ru": "Универсальный",
+              "en": "Multipurpose"
             }
           }
         },
@@ -134,11 +134,11 @@
               "en": "Movement speed"
             }
           },
-          "value": 4.5,
+          "value": 5.0,
           "formatted": {
             "value": {
-              "ru": "4,5%",
-              "en": "4.5%"
+              "ru": "5%",
+              "en": "5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -164,11 +164,11 @@
               "en": "Quick attack (min)"
             }
           },
-          "value": 44.0,
+          "value": 60.0,
           "formatted": {
             "value": {
-              "ru": "44 ед",
-              "en": "44 unit(s)"
+              "ru": "60 ед",
+              "en": "60 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -185,11 +185,11 @@
               "en": "Quick attack (max)"
             }
           },
-          "value": 48.0,
+          "value": 67.0,
           "formatted": {
             "value": {
-              "ru": "48 ед",
-              "en": "48 unit(s)"
+              "ru": "67 ед",
+              "en": "67 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -206,11 +206,11 @@
               "en": "Strong attack (min)"
             }
           },
-          "value": 87.0,
+          "value": 81.0,
           "formatted": {
             "value": {
-              "ru": "87 ед",
-              "en": "87 unit(s)"
+              "ru": "81 ед",
+              "en": "81 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -227,11 +227,11 @@
               "en": "Strong attack (max)"
             }
           },
-          "value": 96.0,
+          "value": 90.0,
           "formatted": {
             "value": {
-              "ru": "96 ед",
-              "en": "96 unit(s)"
+              "ru": "90 ед",
+              "en": "90 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -290,11 +290,11 @@
               "en": "Penetration"
             }
           },
-          "value": 10.0,
+          "value": 22.5,
           "formatted": {
             "value": {
-              "ru": "10%",
-              "en": "10%"
+              "ru": "22,5%",
+              "en": "22.5%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -341,11 +341,11 @@
             "type": "translation",
             "key": "weapon.tooltip.melee_weapon.critical_hit_mod",
             "args": {
-              "factor": "1.57"
+              "factor": "1.7"
             },
             "lines": {
-              "ru": "Урон со спины: x1,57",
-              "en": "Backstab damage: x1.57"
+              "ru": "Урон со спины: x1,7",
+              "en": "Backstab damage: x1.7"
             }
           }
         },
@@ -355,11 +355,11 @@
             "type": "translation",
             "key": "weapon.tooltip.melee_weapon.mutant_damage_mod",
             "args": {
-              "factor": "1.06"
+              "factor": "1.6"
             },
             "lines": {
-              "ru": "Урон по мутантам: x1,06",
-              "en": "Damage to mutants: x1.06"
+              "ru": "Урон по мутантам: x1,6",
+              "en": "Damage to mutants: x1.6"
             }
           }
         }
