@@ -10,7 +10,7 @@
       "en": "PMM"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.picklock",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 33.978657,
+          "value": 48.24969,
           "formatted": {
             "value": {
-              "ru": "33,98 ед",
-              "en": "33.98 unit(s)"
+              "ru": "48,25 ед",
+              "en": "48.25 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -545,9 +545,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 33.978657,
+      "startDamage": 48.24969,
       "damageDecreaseStart": 5.0,
-      "endDamage": 20.387194,
+      "endDamage": 28.995121,
       "damageDecreaseEnd": 36.0,
       "maxDistance": 58.0
     },

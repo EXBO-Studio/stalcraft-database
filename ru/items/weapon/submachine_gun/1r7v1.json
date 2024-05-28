@@ -10,7 +10,7 @@
       "en": "IMI Mini Uzi"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.picklock",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 19.4,
+          "value": 22.2,
           "formatted": {
             "value": {
-              "ru": "19,4 ед",
-              "en": "19.4 unit(s)"
+              "ru": "22,2 ед",
+              "en": "22.2 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -218,11 +218,11 @@
               "en": "Maximum distance"
             }
           },
-          "value": 99.0,
+          "value": 105.0,
           "formatted": {
             "value": {
-              "ru": "99 м",
-              "en": "99 m"
+              "ru": "105 м",
+              "en": "105 m"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -489,11 +489,11 @@
     },
     {
       "type": "damage",
-      "startDamage": 19.4,
+      "startDamage": 22.2,
       "damageDecreaseStart": 5.0,
-      "endDamage": 10.1,
+      "endDamage": 11.5,
       "damageDecreaseEnd": 32.0,
-      "maxDistance": 99.0
+      "maxDistance": 105.0
     },
     {
       "type": "text",

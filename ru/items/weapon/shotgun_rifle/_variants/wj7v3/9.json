@@ -10,7 +10,7 @@
       "en": "RMB-93"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -176,11 +176,11 @@
               "en": "Damage"
             }
           },
-          "value": 164.8628,
+          "value": 245.64557,
           "formatted": {
             "value": {
-              "ru": "164,86 ед",
-              "en": "164.86 unit(s)"
+              "ru": "245,65 ед",
+              "en": "245.65 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -560,9 +560,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 164.8628,
+      "startDamage": 245.64557,
       "damageDecreaseStart": 3.0,
-      "endDamage": 74.18826,
+      "endDamage": 110.567986,
       "damageDecreaseEnd": 17.0,
       "maxDistance": 72.0
     },

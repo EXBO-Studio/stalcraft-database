@@ -75,11 +75,11 @@
               "en": "Weight"
             }
           },
-          "value": 5.3,
+          "value": 5.5000005,
           "formatted": {
             "value": {
-              "ru": "5,3 кг",
-              "en": "5.3 kg"
+              "ru": "5,5 кг",
+              "en": "5.5 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -302,11 +302,11 @@
               "en": "Spread"
             }
           },
-          "value": 0.03,
+          "value": 0.022499999,
           "formatted": {
             "value": {
-              "ru": "0,03°",
-              "en": "0.03°"
+              "ru": "0,02°",
+              "en": "0.02°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -583,6 +583,41 @@
             },
             "nameColor": "F1AA21",
             "valueColor": "F1AA21"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.attachment_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики обвесов",
+          "en": "Attachment properties"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread"
+            }
+          },
+          "value": -25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         }
       ]
