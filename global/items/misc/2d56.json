@@ -1,0 +1,138 @@
+{
+  "id": "2d56",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.bolts_kit.name",
+    "args": {},
+    "lines": {
+      "ru": "Набор болтов",
+      "en": "Pack of Bolts"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "1,5 кг",
+              "en": "1.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.bolts_kit.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Болты разных форм, размеров и расцветок! Чуть побольше и чуть поменьше, с шероховатостями и без шероховатостей, откидные, анкерные, рым-болты, болты с полукруглой головкой, болты с шестигранной головкой, болты с потайной головкой, с фланцем и даже арбалетные!",
+          "en": "Bolts of different shapes, sizes, and colors! Some big, some small. Some with irregularities and some without. Threaded eye-bolts, anchor bolts, regular eye-bolts, bolts with a six-sided head, bolts with a semicircular head, bolts with a countersunk head, bolts with a flange, and even crossbow bolts!"
+        }
+      }
+    },
+    {}
+  ]
+}

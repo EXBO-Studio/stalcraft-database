@@ -80,6 +80,46 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "33800.0"
+            },
+            "lines": {
+              "ru": "33 800 руб.",
+              "en": "33,800 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
           "type": "key-value",
@@ -279,8 +319,8 @@
         "key": "item.art.voronka_yantar.description",
         "args": {},
         "lines": {
-          "ru": "Дальнейшее развитие эволюционной ветки артефактов-гравирегуляторов в группе «выверты». Создает сферическое анти-гравитационное поле, снижающее фактический вес любого предмета. Образуется в местах сверхвзаимодействия нескольких гравитационных полей с исключительно высоким уровнем интенсивности, поэтому представляет огромную редкость. Обладает смешанным видом излучения, поэтому пользоваться им стоит с осторожностью.",
-          "en": "The next step of development for the evolutionary branch of the Quirk family of gravitational regulator artifacts. It creates a spherical anti-gravity field that reduces the effective weight of any item. Formed in sites of superinteraction of several gravitational fields with exceptionally high intensity levels, which makes it extremely rare. It emits a mixed type of radiation, so you should be careful when using it."
+          "ru": "Дальнейшее развитие эволюционной ветки артефактов-гравирегуляторов в группе «Вехотки». Создает сферическое анти-гравитационное поле, снижающее фактический вес любого предмета. Образуется в местах сверхвзаимодействия нескольких гравитационных полей с исключительно высоким уровнем интенсивности, поэтому представляет огромную редкость. Обладает смешанным видом излучения, поэтому пользоваться им стоит с осторожностью.",
+          "en": "The next step of development for the evolutionary branch of the Sponge family of gravitational regulator artifacts. It creates a spherical anti-gravity field that reduces the effective weight of any item. Formed in sites of superinteraction of several gravitational fields with exceptionally high intensity levels, which makes it extremely rare. It emits a mixed type of radiation, so you should be careful when using it."
         }
       }
     }

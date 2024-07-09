@@ -10,7 +10,7 @@
       "en": "Concentrated Limboplasma"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_MASTER",
   "status": {
     "state": "NON_DROP"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -93,6 +93,27 @@
         "type": "text",
         "text": ""
       },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": []
     },
     {
@@ -103,26 +124,25 @@
       },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.limansk.boss_add.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "300000.0"
+            },
             "lines": {
-              "ru": "С низким шансом с боссов в Лиманске",
-              "en": "A low chance from bosses in Limansk"
+              "ru": "300 000 руб.",
+              "en": "300,000 rubles"
             }
           }
         }
@@ -144,6 +164,7 @@
           "en": "Scientists believe that a serum based on concentrated limboplasma is capable of making the cells within the human body younger. A prototype is currently at the active development stage."
         }
       }
-    }
+    },
+    {}
   ]
 }

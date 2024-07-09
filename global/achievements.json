@@ -521,8 +521,8 @@
       "key": "general.achievement.id.alliance_join.desc",
       "args": {},
       "lines": {
-        "ru": "Вступить в ряды Долга, Свободы, Завета или наемников",
-        "en": "Join Duty, Freedom, Covenant, or the mercenaries"
+        "ru": "Вступить в ряды «Рубежа», «Зари», «Завета» или Наемников",
+        "en": "Join Frontier, Rise, Covenant, or Mercenaries"
       }
     },
     "points": 10
@@ -1491,8 +1491,8 @@
       "key": "general.achievement.id.that_is_my_swamp.desc",
       "args": {},
       "lines": {
-        "ru": "Одержать верх над кислотным снорком в одиночку",
-        "en": "Defeat an acid snork single-handedly"
+        "ru": "Одержать верх над кислотным шнырем в одиночку",
+        "en": "Defeat an acid skitter single-handedly"
       }
     },
     "points": 20
@@ -1711,7 +1711,7 @@
       "key": "general.achievement.id.media_base.desc",
       "args": {},
       "lines": {
-        "ru": "Выдается учатникам программы поддержки медиа-партнеров базового уровня.",
+        "ru": "Выдается участникам программы поддержки медиа-партнеров базового уровня.",
         "en": "Granted to participants in the basic level media partner support program."
       }
     },
@@ -1733,7 +1733,7 @@
       "key": "general.achievement.id.media_advanced.desc",
       "args": {},
       "lines": {
-        "ru": "Выдается учатникам программы поддержки медиа-партнеров продвинутого уровня.",
+        "ru": "Выдается участникам программы поддержки медиа-партнеров продвинутого уровня.",
         "en": "Granted to participants in the advanced level media partner support program."
       }
     },
@@ -2063,7 +2063,7 @@
       "key": "general.achievement.id.burning.desc",
       "args": {},
       "lines": {
-        "ru": "Сжечь себя в жарке",
+        "ru": "Сжечь себя в «Зажигалке»",
         "en": "Be burned by a Lighter"
       }
     },
@@ -2107,8 +2107,8 @@
       "key": "general.achievement.id.vestibular_appar.desc",
       "args": {},
       "lines": {
-        "ru": "Выжить после попадания в карусель",
-        "en": "Survive being caught in a Vortex"
+        "ru": "Выжить после попадания в «Волчок»",
+        "en": "Survive being caught in a Blender"
       }
     },
     "points": 10
@@ -2129,8 +2129,8 @@
       "key": "general.achievement.id.deactivation.desc",
       "args": {},
       "lines": {
-        "ru": "Выжить, простояв в \"паре\" больше 10 секунд",
-        "en": "Survive after standing in Steam for more than 10 seconds"
+        "ru": "Выжить, простояв в «Чайнике» больше 10 секунд",
+        "en": "Survive after standing in Kettle for more than 10 seconds"
       }
     },
     "points": 10
@@ -2142,8 +2142,8 @@
       "key": "general.achievement.id.kissel.title",
       "args": {},
       "lines": {
-        "ru": "О! Кисленькая пошла",
-        "en": "Oh, It’s Fruity!"
+        "ru": "О! Холодненькая пошла",
+        "en": "Oh, It’s Fresh!"
       }
     },
     "description": {
@@ -2151,8 +2151,8 @@
       "key": "general.achievement.id.kissel.desc",
       "args": {},
       "lines": {
-        "ru": "Простоять в \"киселе\" 10 секунд",
-        "en": "Survive in Kissel for 10 seconds"
+        "ru": "Простоять в «Холодце» 10 секунд",
+        "en": "Survive in Aspic for 10 seconds"
       }
     },
     "points": 10
@@ -2173,7 +2173,7 @@
       "key": "general.achievement.id.aviator.desc",
       "args": {},
       "lines": {
-        "ru": "Попасть в \"батут\" два раза подряд",
+        "ru": "Попасть в «Батут» два раза подряд",
         "en": "Get caught in a Trampoline two times in a row"
       }
     },
@@ -2195,8 +2195,8 @@
       "key": "general.achievement.id.tor.desc",
       "args": {},
       "lines": {
-        "ru": "Активировать одним болтом 3 \"электры\"",
-        "en": "Activate 3 Electros with one bolt"
+        "ru": "Активировать одним болтом 3 «Разряда»",
+        "en": "Activate 3 Discharges with one screw"
       }
     },
     "points": 10
@@ -2422,6 +2422,424 @@
     "points": 0
   },
   {
+    "id": "hideout_enter",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_enter.title",
+      "args": {},
+      "lines": {
+        "ru": "Это мне?!",
+        "en": "Is for me?"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_enter.desc",
+      "args": {},
+      "lines": {
+        "ru": "Первый раз попасть в убежище",
+        "en": "Entering the Hideout for the first time"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "hideout_carpets",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_carpets.title",
+      "args": {},
+      "lines": {
+        "ru": "Советский эстет",
+        "en": "Сarpet bombing"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_carpets.desc",
+      "args": {},
+      "lines": {
+        "ru": "Поставить в убежище 20 ковров",
+        "en": "Place 20 carpets in the Hideout"
+      }
+    },
+    "points": 0
+  },
+  {
+    "id": "hideout_lab_exts",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_lab_exts.title",
+      "args": {},
+      "lines": {
+        "ru": "Э-э-эксперименты!",
+        "en": "Science, Bitch!"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_lab_exts.desc",
+      "args": {},
+      "lines": {
+        "ru": "Поставить все пристройки лаборатории",
+        "en": "Place all laboratory extensions"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "hideout_work_exts",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_work_exts.title",
+      "args": {},
+      "lines": {
+        "ru": "Полный цикл производства",
+        "en": "Full engine running."
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_work_exts.desc",
+      "args": {},
+      "lines": {
+        "ru": "Поставить все пристройки Верстака",
+        "en": "Place all workbench extensions"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "hideout_gen_exts",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_gen_exts.title",
+      "args": {},
+      "lines": {
+        "ru": "Бесперебойное питание",
+        "en": "ChNPP at home"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_gen_exts.desc",
+      "args": {},
+      "lines": {
+        "ru": "Поставить все пристройки генератора",
+        "en": "Install all generator extensions"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "hideout_stor_exts",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_stor_exts.title",
+      "args": {},
+      "lines": {
+        "ru": "Плюшкин",
+        "en": "Storage space"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_stor_exts.desc",
+      "args": {},
+      "lines": {
+        "ru": "Поставить все пристройки склада",
+        "en": "Install all storage extensions"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "hideout_kit_exts",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_kit_exts.title",
+      "args": {},
+      "lines": {
+        "ru": "Кулинарный мастер",
+        "en": "MasterChef"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_kit_exts.desc",
+      "args": {},
+      "lines": {
+        "ru": "Поставить все пристройки кухни",
+        "en": "Install all kitchen extensions"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "perk_explosives",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_explosives.title",
+      "args": {},
+      "lines": {
+        "ru": "Дело точное",
+        "en": "True art is an Explosion!"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_explosives.desc",
+      "args": {},
+      "lines": {
+        "ru": "Прокачать навык пиротехники до максимального уровня",
+        "en": "Reach max level in pyrotechnics skill"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "hideout_enrg_spent",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_enrg_spent.title",
+      "args": {},
+      "lines": {
+        "ru": "Все, что горит!",
+        "en": "Everything that burns!"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_enrg_spent.desc",
+      "args": {},
+      "lines": {
+        "ru": "\tСжечь 100 000 энергии на крафты",
+        "en": "Burn 100,000 energy on crafts"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "hideout_max_decor",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_max_decor.title",
+      "args": {},
+      "lines": {
+        "ru": "Квартирный вопрос",
+        "en": "It Belongs in a Museum"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_max_decor.desc",
+      "args": {},
+      "lines": {
+        "ru": "Заполнить Убежище максимальным кол-вом объектов",
+        "en": "Fill the Hideout with the maximum number of objects"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "perk_ammo",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_ammo.title",
+      "args": {},
+      "lines": {
+        "ru": "Маслинных дел мастер",
+        "en": "Lord of War"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_ammo.desc",
+      "args": {},
+      "lines": {
+        "ru": "Прокачать навык боеприпасов до максимального уровня",
+        "en": "Reach max level in ammunition skill"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "perk_armor",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_armor.title",
+      "args": {},
+      "lines": {
+        "ru": "Броненосец",
+        "en": "Armadillo"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_armor.desc",
+      "args": {},
+      "lines": {
+        "ru": "Прокачать навык защитного снаряжения до максимального уровня",
+        "en": "Reach max level in protective gear skill"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "perk_engineering",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_engineering.title",
+      "args": {},
+      "lines": {
+        "ru": "Я у мамы инженер",
+        "en": "Man in the House"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_engineering.desc",
+      "args": {},
+      "lines": {
+        "ru": "Прокачать навык инженерии до максимального уровня",
+        "en": "Reach max level in engineering skill"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "perk_cooking",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_cooking.title",
+      "args": {},
+      "lines": {
+        "ru": "Гордон Рамзи",
+        "en": "Gordon Ramsay"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_cooking.desc",
+      "args": {},
+      "lines": {
+        "ru": "Прокачать навык кулинарии до максимального уровня",
+        "en": "Reach max level in cooking skill"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "perk_alcohol",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_alcohol.title",
+      "args": {},
+      "lines": {
+        "ru": "Свое вкуснее",
+        "en": "Brewmaster"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_alcohol.desc",
+      "args": {},
+      "lines": {
+        "ru": "Прокачать навык самогоноварения до максимального уровня",
+        "en": "Reach max level in moonshining skill"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "perk_medicine",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_medicine.title",
+      "args": {},
+      "lines": {
+        "ru": "С того света за 80 дней",
+        "en": "Trust me, I\u0027m a doctor!"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_medicine.desc",
+      "args": {},
+      "lines": {
+        "ru": "Прокачать навык медицины до максимального уровня",
+        "en": "Reach max level in medicine skill"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "perk_materials",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_materials.title",
+      "args": {},
+      "lines": {
+        "ru": "Материаловед",
+        "en": "Rock and Stone"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.perk_materials.desc",
+      "args": {},
+      "lines": {
+        "ru": "Прокачать навык сырья и материалов до максимального уровня",
+        "en": "Reach max level in raw materials and resources skill"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "hideout_frnd",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_frnd.title",
+      "args": {},
+      "lines": {
+        "ru": "Гостеприимный",
+        "en": "Full House"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_frnd.desc",
+      "args": {},
+      "lines": {
+        "ru": "К вам пришло 4 друга в убежище за раз",
+        "en": "You had 4 friends visit the hideout at once"
+      }
+    },
+    "points": 5
+  },
+  {
+    "id": "hideout_frnd_total",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_frnd_total.title",
+      "args": {},
+      "lines": {
+        "ru": "Широкая душа",
+        "en": "Cribs"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.hideout_frnd_total.desc",
+      "args": {},
+      "lines": {
+        "ru": "В убежище побывало более 1000 друзей",
+        "en": "More than 1000 friends have visited the hideout"
+      }
+    },
+    "points": 0
+  },
+  {
     "id": "evacuation",
     "title": {
       "type": "translation",
@@ -2438,7 +2856,7 @@
       "args": {},
       "lines": {
         "ru": "Выйти из игры во время выброса",
-        "en": "Leave the game during an emission"
+        "en": "Leave the game during an eruption"
       }
     },
     "points": 0
@@ -2460,7 +2878,7 @@
       "args": {},
       "lines": {
         "ru": "Пережить выброс",
-        "en": "Survive an emission"
+        "en": "Survive an eruption"
       }
     },
     "points": 20
@@ -2525,8 +2943,8 @@
       "key": "general.achievement.id.unknown_creature.desc",
       "args": {},
       "lines": {
-        "ru": "Убить 100 псевдособак",
-        "en": "Kill 100 pseudodogs"
+        "ru": "Убить 100 диких гончих",
+        "en": "Kill 100 wild hounds"
       }
     },
     "points": 15
@@ -2547,8 +2965,8 @@
       "key": "general.achievement.id.doghunter.desc",
       "args": {},
       "lines": {
-        "ru": "Убить 100 собак",
-        "en": "Kill 100 dogs"
+        "ru": "Убить 100 шавок",
+        "en": "Kill 100 mutts"
       }
     },
     "points": 15
@@ -2569,8 +2987,8 @@
       "key": "general.achievement.id.svinomatka.desc",
       "args": {},
       "lines": {
-        "ru": "Убить 100 плотей",
-        "en": "Kill 100 fleshes"
+        "ru": "Убить 100 хрюш",
+        "en": "Kill 100 piggies"
       }
     },
     "points": 15
@@ -2591,8 +3009,8 @@
       "key": "general.achievement.id.illusionist.desc",
       "args": {},
       "lines": {
-        "ru": "Убить 100 пси-собак",
-        "en": "Kill 100 psy-dogs"
+        "ru": "Убить 100 пси-гончих",
+        "en": "Kill 100 psy-hounds"
       }
     },
     "points": 15
@@ -2635,8 +3053,8 @@
       "key": "general.achievement.id.van_helsing.desc",
       "args": {},
       "lines": {
-        "ru": "Убить 100 кровососов",
-        "en": "Kill 100 bloodsuckers"
+        "ru": "Убить 100 упырей",
+        "en": "Kill 100 ghouls"
       }
     },
     "points": 15
@@ -2657,8 +3075,8 @@
       "key": "general.achievement.id.elephants.desc",
       "args": {},
       "lines": {
-        "ru": "Убить 100 снорков",
-        "en": "Kill 100 snorks"
+        "ru": "Убить 100 шнырей",
+        "en": "Kill 100 skitters"
       }
     },
     "points": 15
@@ -2679,8 +3097,8 @@
       "key": "general.achievement.id.antitank.desc",
       "args": {},
       "lines": {
-        "ru": "Убить 100 псевдогигантов",
-        "en": "Kill 100 pseudogiants"
+        "ru": "Убить 100 буреломов",
+        "en": "Kill 100 behemoths"
       }
     },
     "points": 15
@@ -2701,8 +3119,8 @@
       "key": "general.achievement.id.zubastiki.desc",
       "args": {},
       "lines": {
-        "ru": "Убить 100 тушканов",
-        "en": "Kill 100 rodents"
+        "ru": "Убить 100 крыс",
+        "en": "Kill 100 rats"
       }
     },
     "points": 15
@@ -2723,8 +3141,8 @@
       "key": "general.achievement.id.exp_hunter.desc",
       "args": {},
       "lines": {
-        "ru": "Убить 100 химер",
-        "en": "Kill 100 Chimeras"
+        "ru": "Убить 100 бестий",
+        "en": "Kill 100 Fiends"
       }
     },
     "points": 15
@@ -3519,7 +3937,7 @@
         "en": "Cross the river and enter the Zone"
       }
     },
-    "points": 10
+    "points": 0
   },
   {
     "id": "kordon_explored",
@@ -3537,8 +3955,8 @@
       "key": "general.achievement.id.kordon_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Посетить Кордон",
-        "en": "Visit the Cordon"
+        "ru": "Посетить Обочину",
+        "en": "Visit the Roadside"
       }
     },
     "points": 10
@@ -3559,8 +3977,8 @@
       "key": "general.achievement.id.svalka_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Посетить Свалку",
-        "en": "Visit the Dump"
+        "ru": "Посетить Свалку техники",
+        "en": "Visit the Scrapyard"
       }
     },
     "points": 10
@@ -3581,8 +3999,8 @@
       "key": "general.achievement.id.agroprom_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Посетить Агропром",
-        "en": "Visit Agroprom"
+        "ru": "Постетить Агрокомплекс",
+        "en": "Visit Agrocomplex"
       }
     },
     "points": 10
@@ -3603,8 +4021,8 @@
       "key": "general.achievement.id.td_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Посетить Темную Долину",
-        "en": "Visit the Dark Valley"
+        "ru": "Посетить Черные Ивы",
+        "en": "Visit the Black Willows"
       }
     },
     "points": 10
@@ -3616,8 +4034,8 @@
       "key": "general.achievement.id.dt_explored.title",
       "args": {},
       "lines": {
-        "ru": "Злой «Росток»",
-        "en": "Evil Rostok Factory"
+        "ru": "Злой «Первомайский»",
+        "en": "Evil Pervomaisky Factory"
       }
     },
     "description": {
@@ -3625,8 +4043,8 @@
       "key": "general.achievement.id.dt_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Посетить Завод «Росток»",
-        "en": "Visit Rostok Factory"
+        "ru": "Посетить Завод «Первомайский»",
+        "en": "Visit Pervomaisky Factory"
       }
     },
     "points": 10
@@ -3669,11 +4087,11 @@
       "key": "general.achievement.id.bar100_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Попасть в Бар «100 Рентген»",
-        "en": "Visit the 100 Rads Bar"
+        "ru": "Попасть в Бар «Пьяный Гейгер»",
+        "en": "Visit the Drunken Geiger Bar"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "yantar_explored",
@@ -3761,7 +4179,7 @@
         "en": "Visit the Marsh (before 2022)"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "mogilnik_explored",
@@ -3805,7 +4223,7 @@
         "en": "Visit the Path of Fools"
       }
     },
-    "points": 10
+    "points": 15
   },
   {
     "id": "armsklad_explored",
@@ -3823,11 +4241,11 @@
       "key": "general.achievement.id.armsklad_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Посетить Армейские склады",
-        "en": "Visit the Army Warehouses"
+        "ru": "Посетить Полесское",
+        "en": "Visit Polesskoye"
       }
     },
-    "points": 10
+    "points": 15
   },
   {
     "id": "limansk_explored",
@@ -3845,11 +4263,11 @@
       "key": "general.achievement.id.limansk_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Посетить Лиманск",
-        "en": "Visit Limansk"
+        "ru": "Посетить Любеч-3",
+        "en": "Visit Lyubech-3"
       }
     },
-    "points": 10
+    "points": 15
   },
   {
     "id": "rijik_explored",
@@ -3871,7 +4289,7 @@
         "en": "Visit the Red Forest (before 2022)"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "ushelie_explored",
@@ -3893,7 +4311,7 @@
         "en": "Visit the Ravine (before 2022)"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "mines_explored",
@@ -3915,7 +4333,7 @@
         "en": "Visit the Mines (before 2021)"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "rls_explored",
@@ -3937,7 +4355,7 @@
         "en": "Visit the Red Forest"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "yanov_explored",
@@ -3955,11 +4373,11 @@
       "key": "general.achievement.id.yanov_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Посетить окрестности Янова",
-        "en": "Visit the Yanov Outskirts"
+        "ru": "Посетить Шахты",
+        "en": "Visit the Mines"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "zaton_explored",
@@ -3977,11 +4395,11 @@
       "key": "general.achievement.id.zaton_explored.desc",
       "args": {},
       "lines": {
-        "ru": "Посетить Затон",
-        "en": "Visit Backwater"
+        "ru": "Посетить Тихую заводь",
+        "en": "Visit the Stillwater"
       }
     },
-    "points": 10
+    "points": 15
   },
   {
     "id": "warp_explored",
@@ -4003,7 +4421,7 @@
         "en": "Enter a WARP (before 2021)"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "ch4_explored",
@@ -4025,7 +4443,7 @@
         "en": "Enter Chernobyl-4 (before 2020)"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "kishka_explored",
@@ -4047,7 +4465,7 @@
         "en": "Visit the Intestine (before 2021)"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "sovhoz_explored",
@@ -4069,7 +4487,7 @@
         "en": "Visit Sovkhoz of Shevchenko (before 2019)"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "promzona_explored",
@@ -4091,7 +4509,7 @@
         "en": "Visit the Industrial Zone (before 2019)"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "moryatnik_explored",
@@ -4113,7 +4531,7 @@
         "en": "Visit the Moria House Outskirts (before 2019)"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "rls_top_explored",
@@ -4135,7 +4553,7 @@
         "en": "Climb onto the Radar Station"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "limansk_ufo_found",
@@ -4157,7 +4575,7 @@
         "en": "Find UFO"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "bolota_myar_found",
@@ -4179,7 +4597,7 @@
         "en": "Find the Green Old Man’s Lair"
       }
     },
-    "points": 0
+    "points": 10
   },
   {
     "id": "start",
@@ -4267,7 +4685,7 @@
         "en": "Save up 2,500,000 rubles"
       }
     },
-    "points": 15
+    "points": 10
   },
   {
     "id": "making_money",
@@ -4399,7 +4817,7 @@
         "en": "Acquire a holiday pumpkin"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "event_pumpkin_ext",
@@ -4443,7 +4861,7 @@
         "en": "Influence the refueller for Sail"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "ch4_first2",
@@ -4465,7 +4883,7 @@
         "en": "Seize the obshchak of the local gang for Sail"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "tutorial_cracker",
@@ -4487,7 +4905,7 @@
         "en": "Accept a bandit cracker"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "ch4_final",
@@ -4509,7 +4927,7 @@
         "en": "Get your ticket to the Zone by helping Sail"
       }
     },
-    "points": 15
+    "points": 20
   },
   {
     "id": "bolota_rat_run",
@@ -4531,7 +4949,7 @@
         "en": "Win in the Rat Races"
       }
     },
-    "points": 15
+    "points": 20
   },
   {
     "id": "boss_pseudo_electro",
@@ -4549,11 +4967,11 @@
       "key": "general.achievement.id.boss_pseudo_electro.desc",
       "args": {},
       "lines": {
-        "ru": "Одержать верх над электрическим псевдогигантом",
-        "en": "Defeat an electric pseudogiant"
+        "ru": "Одержать верх над электрическим буреломом",
+        "en": "Defeat an electric behemoth"
       }
     },
-    "points": 15
+    "points": 20
   },
   {
     "id": "boss_snork_toxic",
@@ -4571,11 +4989,11 @@
       "key": "general.achievement.id.boss_snork_toxic.desc",
       "args": {},
       "lines": {
-        "ru": "Одержать верх над кислотным снорком",
-        "en": "Defeat an acid snork"
+        "ru": "Одержать верх над кислотным шнырем",
+        "en": "Defeat an acid sniff"
       }
     },
-    "points": 15
+    "points": 20
   },
   {
     "id": "event_rofl",
@@ -4597,7 +5015,7 @@
         "en": "Get your hands on some unique canned meat"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "event_mist_complete",
@@ -4619,7 +5037,7 @@
         "en": "Complete research of the anomalous fog at the Sovkhoz"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "event_deadtime_time_attack_mobs",
@@ -4637,8 +5055,8 @@
       "key": "general.achievement.id.event_deadtime_time_attack_mobs.desc",
       "args": {},
       "lines": {
-        "ru": "Убить темпоральных тушканов и снорков за отведенное время",
-        "en": "Kill temporal rodents and snorks within the time limit"
+        "ru": "Убить темпоральных крыс и шнырей за отведенное время",
+        "en": "Kill temporal rats and skitters within the time limit"
       }
     },
     "points": 10
@@ -4681,8 +5099,8 @@
       "key": "general.achievement.id.event_deadtime_time_attack_2_mobs.desc",
       "args": {},
       "lines": {
-        "ru": "Убить темпоральных кровососов и снорков за отведенное время",
-        "en": "Kill temporal bloodsuckers and snorks within the time limit"
+        "ru": "Убить темпоральных упырей и шнырей за отведенное время",
+        "en": "Kill temporal ghouls and skitters within the time limit"
       }
     },
     "points": 15
@@ -5429,8 +5847,8 @@
       "key": "general.achievement.id.limansk_12486.desc",
       "args": {},
       "lines": {
-        "ru": "Помочь монолиту остаться в баре.",
-        "en": "Help Monolith stay in the bar."
+        "ru": "Помочь «Шепоту» остаться в баре.",
+        "en": "Help Murmur stay in the bar."
       }
     },
     "points": 0
@@ -5451,8 +5869,8 @@
       "key": "general.achievement.id.limansk_12487.desc",
       "args": {},
       "lines": {
-        "ru": "Выгнать монолит из бара.",
-        "en": "Kick Monolith out of the bar."
+        "ru": "Выгнать «Шепот» из бара.",
+        "en": "Kick Murmur out of the bar."
       }
     },
     "points": 0
@@ -5477,7 +5895,7 @@
         "en": "Travel on Isaac’s path."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "ivent_12846",
@@ -5499,7 +5917,7 @@
         "en": "Eat a can of magic peas."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "ivent_12934",
@@ -5517,11 +5935,11 @@
       "key": "general.achievement.id.ivent_12934.desc",
       "args": {},
       "lines": {
-        "ru": "Узнать о судьбе группы \"Спектр\"",
+        "ru": "Узнать о судьбе группы «Спектр»",
         "en": "Find out the fate of the Specter group."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "ivent_12837",
@@ -5543,7 +5961,7 @@
         "en": "Help Galvanizer"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "ivent_12862",
@@ -5565,7 +5983,7 @@
         "en": "Complete Bourbon’s story"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "quest_13239",
@@ -5580,11 +5998,11 @@
     },
     "description": {
       "type": "translation",
-      "key": "general.achievement.id.iquest_13239.desc",
+      "key": "general.achievement.id.quest_13239.desc",
       "args": {},
       "lines": {
-        "ru": "general.achievement.id.iquest_13239.desc",
-        "en": "general.achievement.id.iquest_13239.desc"
+        "ru": "Прослушать все песни Ирокеза.",
+        "en": "Listen to all of Mohawk’s songs."
       }
     },
     "points": 0
@@ -5609,7 +6027,7 @@
         "en": "Complete the Halloween 2021 questline"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "quest_17750",
@@ -5631,7 +6049,7 @@
         "en": "Take on the New Year’s challenge."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "quest_18181",
@@ -5653,7 +6071,7 @@
         "en": "Make a good serum for Horilka."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "quest_17515",
@@ -5675,7 +6093,7 @@
         "en": "Do a complete checkover of the cargo truck engine on the Orderly Base."
       }
     },
-    "points": 0
+    "points": 10
   },
   {
     "id": "quest_17854",
@@ -5719,7 +6137,7 @@
         "en": "Find all possible routes onto the Orderly Base."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "quest_17858",
@@ -5763,7 +6181,7 @@
         "en": "Complete all secret tasks on the Orderly Base."
       }
     },
-    "points": 0
+    "points": 15
   },
   {
     "id": "quest_17860",
@@ -5785,7 +6203,7 @@
         "en": "Build an Orderly radio transmitter on your first try."
       }
     },
-    "points": 0
+    "points": 15
   },
   {
     "id": "blizzard_event_quest_2022",
@@ -5807,7 +6225,7 @@
         "en": "Complete the 2022 Frost Fighter questline"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "blizzard_event_easter_egg_2022",
@@ -5829,7 +6247,7 @@
         "en": "Unlock the secret of the den of Frost Adept"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "ravent_quests",
@@ -5851,7 +6269,7 @@
         "en": "Win the tournament in the Crow Arena"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "ravent_quests_hard",
@@ -5873,7 +6291,7 @@
         "en": "As Arena Champion, successfully complete all of Commodus’s extra challenges"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "rune_first_18541",
@@ -5895,7 +6313,7 @@
         "en": "The first person to overcome all obstacles and obtain the legendary Rune."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "rune_first_18542",
@@ -5935,8 +6353,8 @@
       "key": "general.achievement.id.sujet_duty.desc",
       "args": {},
       "lines": {
-        "ru": "За прохождение квеста на Ваганта за Долг.",
-        "en": "For completing the Vagant quest for Duty."
+        "ru": "За прохождение квеста на Ваганта за «Рубеж».",
+        "en": "For completing the Vagant quest for Frontier."
       }
     },
     "points": 0
@@ -5957,8 +6375,8 @@
       "key": "general.achievement.id.sujet_freedom.desc",
       "args": {},
       "lines": {
-        "ru": "За прохождение квеста на Ваганта за Свободу.",
-        "en": "For completing the Vagant quest for Freedom."
+        "ru": "За прохождение квеста на Ваганта за «Зарю».",
+        "en": "For completing the Vagant quest for Rise."
       }
     },
     "points": 0
@@ -5979,7 +6397,7 @@
       "key": "general.achievement.id.sujet_merc.desc",
       "args": {},
       "lines": {
-        "ru": "За прохождение квеста на Ваганта за наемников.",
+        "ru": "За прохождение квеста на Ваганта за Наемников.",
         "en": "For completing the Vagant quest for the mercenaries."
       }
     },
@@ -6001,7 +6419,7 @@
       "key": "general.achievement.id.sujet_cov.desc",
       "args": {},
       "lines": {
-        "ru": "За прохождение квеста на Ваганта за Завет.",
+        "ru": "За прохождение квеста на Ваганта за «Завет».",
         "en": "For completing the Vagant quest for Covenant."
       }
     },
@@ -6071,7 +6489,7 @@
         "en": "Drive Vlasov to suicide."
       }
     },
-    "points": 0
+    "points": 10
   },
   {
     "id": "sujet_vlasov_suicide_stalkers",
@@ -6093,7 +6511,7 @@
         "en": "Drive Vlasov to suicide."
       }
     },
-    "points": 0
+    "points": 10
   },
   {
     "id": "sujet_base_sanitar",
@@ -6155,8 +6573,8 @@
       "key": "general.achievement.id.sujet_brain_burner.desc",
       "args": {},
       "lines": {
-        "ru": "Отключить Выжигатель Мозгов.",
-        "en": "Turn off the Brain Scorcher."
+        "ru": "Отключить Дремучку",
+        "en": "Turn off the Nap Nudger."
       }
     },
     "points": 0
@@ -6247,7 +6665,7 @@
         "en": "For completing the stealth field on the first try."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "steam_sujet",
@@ -6265,7 +6683,7 @@
       "key": "general.achievement.id.steam_sujet.desc",
       "args": {},
       "lines": {
-        "ru": "Закончить сюжетную линию \"Зов\"",
+        "ru": "Закончить сюжетную линию «Зов»",
         "en": "Finish the Call storyline"
       }
     },
@@ -6335,7 +6753,7 @@
         "en": "Made a significant contribution to exploring the mysteries and secrets of the CEZ."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "pixel_battle_2018",
@@ -6353,11 +6771,11 @@
       "key": "general.achievement.id.pixel_battle_2018.desc",
       "args": {},
       "lines": {
-        "ru": "Поддержать EXBO в \"VK Pixel battle 2018\" при помощи Discord",
+        "ru": "Поддержать EXBO в «VK Pixel battle 2018» при помощи Discord",
         "en": "Support EXBO in the VK Pixel Battle 2018 using Discord"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "pixel_battle_2019",
@@ -6375,11 +6793,11 @@
       "key": "general.achievement.id.pixel_battle_2019.desc",
       "args": {},
       "lines": {
-        "ru": "Поддержать EXBO в \"VK Pixel battle 2019\" при помощи Discord",
+        "ru": "Поддержать EXBO в «VK Pixel battle 2019» при помощи Discord",
         "en": "Support EXBO in the VK Pixel Battle 2019 using Discord"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "pixel_battle_2020",
@@ -6397,11 +6815,11 @@
       "key": "general.achievement.id.pixel_battle_2020.desc",
       "args": {},
       "lines": {
-        "ru": "Поддержать EXBO в \"VK Pixel battle 2020\" при помощи Discord",
+        "ru": "Поддержать EXBO в «VK Pixel battle 2020» при помощи Discord",
         "en": "Support EXBO in the VK Pixel Battle 2020 using Discord"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "pixel_battle_2023",
@@ -6419,11 +6837,11 @@
       "key": "general.achievement.id.pixel_battle_2023.desc",
       "args": {},
       "lines": {
-        "ru": "Поддержать EXBO в \"VK Pixel battle 2023\" при помощи Discord",
+        "ru": "Поддержать EXBO в «VK Pixel battle 2023» при помощи Discord",
         "en": "Support EXBO in the VK Pixel Battle 2023 using Discord"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "pixel_battle_hero",
@@ -6441,11 +6859,11 @@
       "key": "general.achievement.id.pixel_battle_hero.desc",
       "args": {},
       "lines": {
-        "ru": "Поддержать EXBO во всех \"VK Pixel battle\" при помощи Discord",
+        "ru": "Поддержать EXBO во всех «VK Pixel battle» при помощи Discord",
         "en": "Support EXBO in the VK Pixel Battle using Discord"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "closed_beta_2014",
@@ -6489,7 +6907,7 @@
         "en": "Create a piece that is chosen by the jury at the concept contest"
       }
     },
-    "points": 0
+    "points": 15
   },
   {
     "id": "concept_artist_2019_winner",
@@ -6533,7 +6951,7 @@
         "en": "Not sure this is the right place for this"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "prt_crate",
@@ -6555,7 +6973,7 @@
         "en": "Find a very old crate in the lake at Chernobyl-4"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "warp_historian",
@@ -6577,7 +6995,7 @@
         "en": "Find the Historian’s soul in the WARP"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "warp_poor",
@@ -6599,7 +7017,7 @@
         "en": "Give money to a beggar"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "devora_questions1",
@@ -6621,7 +7039,7 @@
         "en": "Get the status from the TOS-Devorah-1 action analyzer"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "devora_questions2",
@@ -6643,7 +7061,7 @@
         "en": "Get the status from the TOS-Devorah-1 action analyzer"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "devora_questions3",
@@ -6665,7 +7083,7 @@
         "en": "Get the status from the TOS-Devorah-1 action analyzer"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "devora_questions4",
@@ -6687,7 +7105,7 @@
         "en": "Get the status from the TOS-Devorah-1 action analyzer"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "devora_lor",
@@ -6709,7 +7127,7 @@
         "en": "Open one of the coded doors in X-4"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "bolota_stalkers_selected",
@@ -6731,7 +7149,7 @@
         "en": "Follow the path of a stalker"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "bolota_bandits_selected",
@@ -6753,7 +7171,7 @@
         "en": "Follow the path of a bandit"
       }
     },
-    "points": 10
+    "points": 20
   },
   {
     "id": "bolota_hermit_second_talk",
@@ -6775,7 +7193,7 @@
         "en": "Meet the Hermit a second time"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "kordon_miniboss_2021",
@@ -6797,7 +7215,7 @@
         "en": "Kill Xerohoof"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "svalka_miniboss_2021",
@@ -6819,7 +7237,7 @@
         "en": "Kill the Rat Knight"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "agroprom_miniboss_2021",
@@ -6841,7 +7259,7 @@
         "en": "Kill Scumbag"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "armsklad_miniboss_2021",
@@ -6863,7 +7281,7 @@
         "en": "Kill Igor"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "rijik_miniboss_2021",
@@ -6885,7 +7303,7 @@
         "en": "Kill Goblin"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "yanov_miniboss_2021",
@@ -6907,7 +7325,7 @@
         "en": "Kill Bulldozer"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "zaton_miniboss_2021",
@@ -6929,7 +7347,7 @@
         "en": "Kill Abibasnik"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "limansk_miniboss_2021",
@@ -6951,7 +7369,7 @@
         "en": "Kill Eagle Eye"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "under_miniboss_2021_winter",
@@ -6973,7 +7391,7 @@
         "en": "Defeat the Rat King."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "armsklad_miniboss_2021_winter",
@@ -6995,7 +7413,7 @@
         "en": "Defeat Scumbag."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "les_miniboss_2021_winter",
@@ -7017,7 +7435,7 @@
         "en": "Defeat the Military Lieutenant."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "rijik_miniboss_2021_winter",
@@ -7039,7 +7457,7 @@
         "en": "Defeat the Goblin"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "yanov_miniboss_2021_winter",
@@ -7061,7 +7479,7 @@
         "en": "Defeat Bulldozer."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "zaton_miniboss_2021_winter",
@@ -7083,7 +7501,7 @@
         "en": "Defeat Abibasnik."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "rls_miniboss_2021_winter",
@@ -7105,7 +7523,7 @@
         "en": " Defeat Eagle Eye."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "limansk_miniboss_2021_winter",
@@ -7127,7 +7545,7 @@
         "en": "Defeat General Hammel."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "tushkan_camp_2021",
@@ -7145,11 +7563,11 @@
       "key": "general.achievement.id.tushkan_camp_2021.desc",
       "args": {},
       "lines": {
-        "ru": "Выполнить десять событий зачистки тушканов",
-        "en": "Complete 10 rodent extermination events"
+        "ru": "Выполнить десять событий зачистки крыс",
+        "en": "Complete 10 rat extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "boar_camp_2021",
@@ -7171,7 +7589,7 @@
         "en": "Complete 10 boar extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "flesh_camp_2021",
@@ -7189,11 +7607,11 @@
       "key": "general.achievement.id.flesh_camp_2021.desc",
       "args": {},
       "lines": {
-        "ru": "Выполнить десять событий зачистки плоти",
-        "en": "Complete 10 flesh extermination events"
+        "ru": "Выполнить десять событий зачистки хрюш",
+        "en": "Complete 10 piggy extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "dog_camp_2021",
@@ -7211,11 +7629,11 @@
       "key": "general.achievement.id.dog_camp_2021.desc",
       "args": {},
       "lines": {
-        "ru": "Выполнить десять событий зачистки собак",
-        "en": "Complete 10 dog extermination events"
+        "ru": "Выполнить десять событий зачистки диких гончих и шавок",
+        "en": "Complete 10 wild hound and mutt extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "krovosos_camp_2021",
@@ -7233,11 +7651,11 @@
       "key": "general.achievement.id.krovosos_camp_2021.desc",
       "args": {},
       "lines": {
-        "ru": "Выполнить десять событий зачистки кровососов",
-        "en": "Complete 10 bloodsucker extermination events"
+        "ru": "Выполнить десять событий зачистки упырей",
+        "en": "Complete 10 ghoul extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "rescue_st_ba_2021",
@@ -7246,7 +7664,7 @@
       "key": "general.achievement.id.rescue_st_ba_2021.title",
       "args": {},
       "lines": {
-        "ru": "Чип и дейл спешат на помощь",
+        "ru": "Чип и Дейл спешат на помощь",
         "en": "Chip and Dale to the Rescue"
       }
     },
@@ -7259,7 +7677,7 @@
         "en": "Complete 10 aid events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "anomaly_node_2021",
@@ -7281,7 +7699,7 @@
         "en": "Complete ten anomaly research installation protection events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "camp_bandit_2021",
@@ -7303,7 +7721,7 @@
         "en": "Complete 10 bandit extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "camp_stalker_2021",
@@ -7325,7 +7743,7 @@
         "en": "Complete 10 stalker extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "camp_military_2021",
@@ -7347,7 +7765,7 @@
         "en": "Complete 10 military extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "camp_zombie_2021",
@@ -7369,7 +7787,7 @@
         "en": "Complete 10 zombie extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "camp_monolit_2021",
@@ -7387,11 +7805,11 @@
       "key": "general.achievement.id.camp_monolit_2021.desc",
       "args": {},
       "lines": {
-        "ru": "Выполнить десять событий зачистки монолита",
-        "en": "Complete 10 Monolith extermination events"
+        "ru": "Выполнить десять событий зачистки «Шепота»",
+        "en": "Complete 10 Murmur extermination events"
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "camp_snork_2021_winter",
@@ -7409,11 +7827,11 @@
       "key": "general.achievement.id.camp_snork_2021_winter.desc",
       "args": {},
       "lines": {
-        "ru": "Зачистить 5 логов Снорков.",
-        "en": "Clear out 5 snork dens."
+        "ru": "Зачистить 5 логов шнырей.",
+        "en": "Clear out 5 skitter dens."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "camp_node_2021_winter",
@@ -7435,7 +7853,7 @@
         "en": "Complete 5 Installation Protection events."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "tushkan_camp_2021_winter",
@@ -7453,11 +7871,11 @@
       "key": "general.achievement.id.tushkan_camp_2021_winter.desc",
       "args": {},
       "lines": {
-        "ru": "Зачистить 3 логова Тушканов.",
-        "en": "Clear out 3 Rodent Dens."
+        "ru": "Зачистить 3 логова крыс.",
+        "en": "Clear out 3 Rat Dens."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "boar_camp_2021_winter",
@@ -7479,7 +7897,7 @@
         "en": "Clear out 5 boar dens."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "flesh_camp_2021_winter",
@@ -7497,11 +7915,11 @@
       "key": "general.achievement.id.flesh_camp_2021_winter.desc",
       "args": {},
       "lines": {
-        "ru": "Зачистить 5 логов Плотей.",
-        "en": "Clear out 5 flesh dens."
+        "ru": "Зачистить 5 логов хрюш.",
+        "en": "Clear out 5 piggy dens."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "dog_camp_2021_winter",
@@ -7519,11 +7937,11 @@
       "key": "general.achievement.id.dog_camp_2021_winter.desc",
       "args": {},
       "lines": {
-        "ru": "Зачистить 5 логов Собак.",
-        "en": "Clear out 5 dog dens."
+        "ru": "Зачистить 5 логов диких гончих и шавок.",
+        "en": "Clear out 5 wild hound and mutt dens."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "krovosos_camp_2021_winter",
@@ -7541,11 +7959,11 @@
       "key": "general.achievement.id.krovosos_camp_2021_winter.desc",
       "args": {},
       "lines": {
-        "ru": "Зачистить 5 логов кровососа.",
-        "en": "Clear 5 bloodsucker dens."
+        "ru": "Зачистить 5 логов упырей.",
+        "en": "Clear out 5 ghoul dens."
       }
     },
-    "points": 0
+    "points": 20
   },
   {
     "id": "human_camp_2021_winter",
@@ -7567,6 +7985,6 @@
         "en": "Clear out 5 human camps."
       }
     },
-    "points": 0
+    "points": 20
   }
 ]

@@ -6,8 +6,8 @@
     "key": "item.art.karousel_bloodstone.name",
     "args": {},
     "lines": {
-      "ru": "Кровь камня",
-      "en": "Stone Blood"
+      "ru": "Ягодка",
+      "en": "Berry"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1400.0"
+            },
+            "lines": {
+              "ru": "1 400 руб.",
+              "en": "1,400 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,8 +297,8 @@
         "key": "item.art.karousel_bloodstone.description",
         "args": {},
         "lines": {
-          "ru": "Красно-желтое образование из органических материалов. Возможно, формируется из останков существ, попавших в карусель.",
-          "en": "A red and yellow formation of organic matter. It is possible that it formed from the remains of living beings that fell into a Vortex."
+          "ru": "Красно-желтое образование из органических материалов. Возможно, формируется из останков существ, попавших в «Волчок».",
+          "en": "A red and yellow formation of organic matter. It is possible that it formed from the remains of living beings that fell into a Blender."
         }
       }
     }

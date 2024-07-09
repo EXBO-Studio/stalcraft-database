@@ -6,8 +6,8 @@
     "key": "item.art.puh_kkoluchka.name",
     "args": {},
     "lines": {
-      "ru": "Кристальная колючка",
-      "en": "Crystal Thorn"
+      "ru": "Липкий репях",
+      "en": "Sticky Burr"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "6000.0"
+            },
+            "lines": {
+              "ru": "6 000 руб.",
+              "en": "6,000 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,8 +297,8 @@
         "key": "item.art.puh_kkoluchka.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт, производимый аномалией «жгучий пух». Небольшой шарик из матового кристалла, покрытого трещинами и иглообразными отростками. При ношении довольно быстро очищает организм от радиации. Во время использования этого артефакта повышается вероятность возникновения кровотечения, аналогично обычной «колючке»",
-          "en": "An artifact that is made by the Burnt Fuzz anomaly. A small sphere made of matte crystal, covered in cracks and needle-like growths. When worn, it cleanses the body of radiation fairly quickly. During use, this artifact increases the risk of bleeding when injured, similarly to a regular Thorn."
+          "ru": "Артефакт, производимый аномалией «Пух». Небольшой шарик из матового кристалла, покрытого трещинами и иглообразными отростками. При ношении довольно быстро очищает организм от радиации. Во время использования этого артефакта повышается вероятность возникновения кровотечения, аналогично обычной «колючке»",
+          "en": "An artifact that is made by the Fluff anomaly. A small sphere made of matte crystal, covered in cracks and needle-like growths. When worn, it cleanses the body of radiation fairly quickly. During use, this artifact increases the risk of bleeding when injured, similarly to a regular Thorn."
         }
       }
     }

@@ -1,0 +1,148 @@
+{
+  "id": "96z1q",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.tushkan_head_t3.name",
+    "args": {},
+    "lines": {
+      "ru": "Голова сильной крысы",
+      "en": "Strong Rat’s Head"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "900.0"
+            },
+            "lines": {
+              "ru": "900 руб.",
+              "en": "900 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.tushkan_head_t3.description",
+        "args": {},
+        "lines": {
+          "ru": "У крыс очень сильно развит стадный интеллект. Ученые пытаются разобраться, как в крошечном мозгу, помещается большое количество информации и всего прочего. Из их мозга ученые делают сыворотки, но весь продукт вывозится из Зоны, а для чего их используют - неизвестно.",
+          "en": "The herd mentality of rats is very well developed. Scientists are trying to figure out how their tiny brains can hold such a large quantity of information, as well as everything else. They’re making serums out of rats’ brains, but the final product is exported out of the Zone. What it is used for is unknown."
+        }
+      }
+    },
+    {}
+  ]
+}

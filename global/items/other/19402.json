@@ -10,7 +10,7 @@
       "en": "Limboplasma"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.limansk.boss.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "3000.0"
+            },
             "lines": {
-              "ru": "С боссов в Лиманске",
-              "en": "From bosses in Limansk"
+              "ru": "3 000 руб.",
+              "en": "3,000 rubles"
             }
           }
         }
@@ -139,8 +146,8 @@
         "key": "item.brt.limansk.boss.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Существа, которым каким-то образом удается выдержать постоянные “перемещения” Лиманска в неизвестном пространстве (или подпространстве?) Зоны покрываются тонким слоем лимбоплазмы. Некоторые ученые еще называют ее “застойной плазмой”.",
-          "en": "Creatures that somehow manage to survive the constant “relocation” of Limansk in the Zone’s unknown space (or subspace?) are covered in a thin layer of limboplasma. Some scientists also call it “stagnant plasma.”"
+          "ru": "Существа, которым каким-то образом удается выдержать постоянные «перемещения» Любеча в неизвестном пространстве (или подпространстве?) Зоны покрываются тонким слоем лимбоплазмы. Некоторые ученые еще называют ее «застойной плазмой».",
+          "en": "Creatures that somehow manage to survive the constant “relocation” of Lyubech in the Zone’s unknown space (or subspace?) are covered in a thin layer of limboplasma. Some scientists also call it “stagnant plasma.”"
         }
       }
     }

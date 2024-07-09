@@ -6,11 +6,11 @@
     "key": "item.med.antirad_3.name",
     "args": {},
     "lines": {
-      "ru": "Антирад третьего класса",
-      "en": "3rd Class Antirad"
+      "ru": "Антирад Б-393",
+      "en": "Antirad B-393"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "NONE"
   },
@@ -22,6 +22,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -72,7 +93,20 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -80,28 +114,16 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
-        {
-          "type": "key-value",
-          "key": {
-            "type": "translation",
-            "key": "stalker.tooltip.medicine.info.effect_type",
-            "args": {},
-            "lines": {
-              "ru": "Назначение",
-              "en": "Purpose"
-            }
-          },
-          "value": {
-            "type": "translation",
-            "key": "item.effects.effect_type.antirad",
-            "args": {},
-            "lines": {
-              "ru": "Вывод радиации",
-              "en": "Radiation Cleansing"
-            }
-          }
-        },
         {
           "type": "numeric",
           "name": {
@@ -212,6 +234,7 @@
           "en": "Removes radiation from the body."
         }
       }
-    }
+    },
+    {}
   ]
 }

@@ -6,8 +6,8 @@
     "key": "item.art.kisel_sliznyak.name",
     "args": {},
     "lines": {
-      "ru": "Слизняк",
-      "en": "Slug"
+      "ru": "Скорлупа",
+      "en": "Crust"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "3000.0"
+            },
+            "lines": {
+              "ru": "3 000 руб.",
+              "en": "3,000 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,8 +297,8 @@
         "key": "item.art.kisel_sliznyak.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт «Слизь», подвергнувшийся воздействию внешних факторов. Свойства все те же, в руках ощущается более солидно, но все так же неприятно.",
-          "en": "A Slime artifact that has been exposed to the effects of external forces. It still has the same properties and the same unpleasant texture, just a little bit more solid."
+          "ru": "Артефакт «Флегма», подвергнувшийся воздействию внешних факторов. Свойства все те же, в руках ощущается более солидно, но все так же неприятно.",
+          "en": "A Phlegm artifact that has been exposed to the effects of external forces. It still has the same properties and the same unpleasant texture, just a little bit more solid."
         }
       }
     }

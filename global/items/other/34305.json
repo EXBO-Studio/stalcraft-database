@@ -10,7 +10,7 @@
       "en": "Bitterleaf"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.limansk.mob.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "50.0"
+            },
             "lines": {
-              "ru": "У мутантов в Лиманске",
-              "en": "From mutants in Limansk"
+              "ru": "50 руб.",
+              "en": "50 rubles"
             }
           }
         }
@@ -139,8 +146,8 @@
         "key": "item.brt.limansk.mob.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Это мутировавшее растение стало одной из основных позиций в меню мутантов Лиманска. Экстракт горьколистника, по слухам, благотворно влияет на нервную систему.",
-          "en": "This mutated plant became one of the staples of the diet of mutants in Limansk. Rumor has it that extract of bitterleaf is beneficial for the nervous system."
+          "ru": "Это мутировавшее растение стало одной из основных позиций в меню мутантов Любеча. Экстракт горьколистника, по слухам, благотворно влияет на нервную систему.",
+          "en": "This mutated plant became one of the staples of the diet of mutants in Lyubech. Rumor has it that extract of bitterleaf is beneficial for the nervous system."
         }
       }
     }

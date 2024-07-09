@@ -6,8 +6,8 @@
     "key": "item.art.puh_kolobok.name",
     "args": {},
     "lines": {
-      "ru": "Колобок",
-      "en": "Kolobok"
+      "ru": "Ежик",
+      "en": "Hedgehog"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "11400.0"
+            },
+            "lines": {
+              "ru": "11 400 руб.",
+              "en": "11,400 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -279,8 +319,8 @@
         "key": "item.art.puh_kolobok.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт, производимый аномалией «жгучий пух». При ношении поглощает и нейтрализует радиоактивные частицы, однако в результате выделяет токсичные вещества.",
-          "en": "An artifact that is made by the Burnt Fuzz anomaly. When worn, it absorbs and neutralizes radioactive particles, but as a result it releases toxic substances."
+          "ru": "Артефакт, производимый аномалией «Пух». При ношении поглощает и нейтрализует радиоактивные частицы, однако в результате выделяет токсичные вещества.",
+          "en": "An artifact that is made by the Fluff anomaly. When worn, it absorbs and neutralizes radioactive particles, but as a result it releases toxic substances."
         }
       }
     }

@@ -6,8 +6,8 @@
     "key": "item.art.jarka_glaz.name",
     "args": {},
     "lines": {
-      "ru": "Глаз",
-      "en": "Eye"
+      "ru": "Гребешок",
+      "en": "Scallop"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "8400.0"
+            },
+            "lines": {
+              "ru": "8 400 руб.",
+              "en": "8,400 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,7 +297,7 @@
         "key": "item.art.jarka_glaz.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт ускоряет метаболизм владельца, что позволяет его тканям быстрее восстанавливаться после повреждений. Некоторые суеверные сталкеры верят, что находясь под \"надзором\" владелец также будет защищен от тяжелых ранений - пули и осколки не смогут попасть в важные органы.",
+          "ru": "Артефакт ускоряет метаболизм владельца, что позволяет его тканям быстрее восстанавливаться после повреждений. Некоторые суеверные сталкеры верят, что находясь под «надзором» владелец также будет защищен от тяжелых ранений - пули и осколки не смогут попасть в важные органы.",
           "en": "This artifact improves the metabolism of its owner, which means that they recover quicker after damage. Some of the more superstitious stalkers believe that it keeps “watch” over its owner, providing protection against serious injuries—as bullets and fragments won’t hit any vital organs."
         }
       }

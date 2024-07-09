@@ -6,8 +6,8 @@
     "key": "item.art.jarka_kaplya.name",
     "args": {},
     "lines": {
-      "ru": "Капля",
-      "en": "Droplet"
+      "ru": "Пиявка",
+      "en": "Leech"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1800.0"
+            },
+            "lines": {
+              "ru": "1 800 руб.",
+              "en": "1,800 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -279,8 +319,8 @@
         "key": "item.art.jarka_kaplya.description",
         "args": {},
         "lines": {
-          "ru": "Скорее всего, все «капли» являются продуктом сгорания в жарке смеси определенных веществ. Каких именно - пока определить не удалось.",
-          "en": "It is likely that all these droplets are the product of certain chemicals consumed by the Lighter anomaly. No-one can tell which ones exactly, though."
+          "ru": "Скорее всего, все «пиявки» являются продуктом сгорания в жарке смеси определенных веществ. Каких именно - пока определить не удалось.",
+          "en": "It is likely that all these leeches are the product of certain chemicals consumed by the Lighter anomaly. No-one can tell which ones exactly, though."
         }
       }
     }

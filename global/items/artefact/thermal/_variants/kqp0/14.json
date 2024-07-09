@@ -6,8 +6,8 @@
     "key": "item.art.jarka_plamya.name",
     "args": {},
     "lines": {
-      "ru": "Пламя",
-      "en": "Flame"
+      "ru": "Жар-птица",
+      "en": "Firebird"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "10800.0"
+            },
+            "lines": {
+              "ru": "10 800 руб.",
+              "en": "10,800 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,8 +297,8 @@
         "key": "item.art.jarka_plamya.description",
         "args": {},
         "lines": {
-          "ru": "Вырожденный случай, «огненный шар», слишком долго находящийся в родительской аномалии. Ускоряет регенерацию тканей, но, в отличие от своей первоначальной формы, значительно нагревается и прикасаться к нему без защиты небезопасно",
-          "en": "A degraded form, this Fireball stayed too close to its parent anomaly for too long. Speeds up tissue regeneration but, unlike its starting form, warms up too fast and is unsafe to touch without protection"
+          "ru": "Вырожденный случай, «Огонек», слишком долго находящийся в родительской аномалии. Ускоряет регенерацию тканей, но, в отличие от своей первоначальной формы, значительно нагревается и прикасаться к нему без защиты небезопасно",
+          "en": "A degraded form, this Candlelight stayed too close to its parent anomaly for too long. Speeds up tissue regeneration but, unlike its starting form, warms up too fast and is unsafe to touch without protection"
         }
       }
     }

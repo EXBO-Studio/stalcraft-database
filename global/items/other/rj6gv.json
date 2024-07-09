@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.svalka.mining.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "20.0"
+            },
             "lines": {
-              "ru": "Из прикопов в Темной долине, Агропроме и Свалке",
-              "en": "From caches in the Dark Valley, Agroprom, and the Dump"
+              "ru": "20 руб.",
+              "en": "20 rubles"
             }
           }
         }
@@ -139,8 +146,8 @@
         "key": "item.brt.svalka.mining.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Медная проволока - основа экономики диггеров со Свалки.",
-          "en": "Copper wire is the bedrock of the Dump diggers’ economy."
+          "ru": "Медная проволока - основа экономики диггеров со Свалки техники.",
+          "en": "Copper wire is the bedrock of the Scrapyard diggers’ economy."
         }
       }
     }

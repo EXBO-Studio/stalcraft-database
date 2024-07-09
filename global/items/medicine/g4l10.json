@@ -80,6 +80,14 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
           "type": "key-value",
@@ -142,6 +150,18 @@
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death"
+            }
           }
         }
       ]
@@ -250,8 +270,8 @@
         "key": "item.med.atlas.description",
         "args": {},
         "lines": {
-          "ru": "Зарубежный анаболик, схожий по действию со знакомыми каждому сталкеру «Геркулесом» и «Жиднем». Ввиду высокой дозы активного вещества, одновременное использование данных средств не рекомендуется.",
-          "en": "A foreign anabolic steroid with effects similar to other substances that are popular among stalkers like Hercules and Jiden. Due to the high dose of the active ingredient, usage of more than one of these substances at the same time is not recommended."
+          "ru": "Зарубежный анаболик, схожий по действию со знакомыми каждому сталкеру «Арни» и «Жиднем». Ввиду высокой дозы активного вещества, одновременное использование данных средств не рекомендуется.",
+          "en": "A foreign anabolic steroid with effects similar to other substances that are popular among stalkers like Arnie and Jiden. Due to the high dose of the active ingredient, usage of more than one of these substances at the same time is not recommended."
         }
       }
     }

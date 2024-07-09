@@ -10,7 +10,7 @@
       "en": "Burning Crappite"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "NON_DROP"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Новичок",
+              "en": "Newbie"
             }
           }
         },
@@ -93,6 +93,27 @@
         "type": "text",
         "text": ""
       },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": []
     },
     {
@@ -103,26 +124,25 @@
       },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.svalka.npc_add.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "2400.0"
+            },
             "lines": {
-              "ru": "С низким шансом у людей на Кордоне, Агропроме, Темной долине и Свалке",
-              "en": "A low chance from people at the Cordon, Agroprom, the Dark Valley, and the Dump"
+              "ru": "2 400 руб.",
+              "en": "2,400 rubles"
             }
           }
         }
@@ -140,10 +160,11 @@
         "key": "item.brt.svalka.npc_add.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Активно добывая срачник, обитатели Свалки однажды заметили, что некоторые его образцы имеют свойство самопроизвольно нагреваться. Из листов полыхающего срачника делают кустарные обогреватели.",
-          "en": "When actively mining crappite, the inhabitants of the Dump once noticed that some samples of it have the ability to spontaneously heat up. They use sheets of burning crappite to make makeshift heaters."
+          "ru": "Активно добывая срачник, обитатели Свалки техники однажды заметили, что некоторые его образцы имеют свойство самопроизвольно нагреваться. Из листов полыхающего срачника делают кустарные обогреватели.",
+          "en": "When actively mining crappite, the inhabitants of the Scrapyard once noticed that some samples of it have the ability to spontaneously heat up. They use sheets of burning crappite to make makeshift heaters."
         }
       }
-    }
+    },
+    {}
   ]
 }

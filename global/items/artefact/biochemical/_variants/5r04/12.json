@@ -6,8 +6,8 @@
     "key": "item.art.kisel_sliz.name",
     "args": {},
     "lines": {
-      "ru": "Слизь",
-      "en": "Slime"
+      "ru": "Флегма",
+      "en": "Phlegm"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "2100.0"
+            },
+            "lines": {
+              "ru": "2 100 руб.",
+              "en": "2,100 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",

@@ -10,7 +10,7 @@
       "en": "Remains of Batteries"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.pd.mining.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "36.0"
+            },
             "lines": {
-              "ru": "Из прикопов в Мертвом городе, Могильнике, Пути Дураков, Армейских складах",
-              "en": "From caches in the Dead City, the Graveyard, the Path of Fools, and Army Warehouses"
+              "ru": "36 руб.",
+              "en": "36 rubles"
             }
           }
         }
@@ -139,8 +146,8 @@
         "key": "item.brt.pd.mining.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Когда-то на Армейских складах можно было найти куда больше тяжелой военной техники. Нынче добыча поизмельчала, но все еще имеет кое-какую ценность.",
-          "en": "Back in the day, you used to be able to find a lot more heavy army tech in the Army Warehouses. Now, there’s much less loot, but it still has value."
+          "ru": "Когда-то в Полесском можно было найти куда больше тяжелой военной техники. Нынче добыча поизмельчала, но все еще имеет кое-какую ценность.",
+          "en": "Back in the day, you used to be able to find a lot more heavy army tech in Polesskoye. Now, there’s much less loot, but it still has value."
         }
       }
     }

@@ -6,11 +6,11 @@
     "key": "item.brt.limansk.npc.name",
     "args": {},
     "lines": {
-      "ru": "Лим",
-      "en": "Lim"
+      "ru": "Лимб",
+      "en": "Limbo"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.limansk.npc.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "50.0"
+            },
             "lines": {
-              "ru": "У людей в Лиманске",
-              "en": "From people in Limansk"
+              "ru": "50 руб.",
+              "en": "50 rubles"
             }
           }
         }
@@ -139,8 +146,8 @@
         "key": "item.brt.limansk.npc.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Образования этого гладкого металла ртутного цвета, по слухам, являются ни чем иным, как металлоломом, который, в результате «перемещений» Лиманска оказался «спрессован» в Лим.",
-          "en": "Rumor has it that formations of this smooth mercury-colored metal are nothing more than scrap metal that, due to the “relocation” of Limansk, was compacted into lim."
+          "ru": "Образования этого гладкого металла ртутного цвета, по слухам, являются не чем иным, как металлоломом, который, в результате «перемещений» Любеча оказался «спрессован» в Лим.",
+          "en": "Rumor has it that formations of this smooth mercury-colored metal are nothing more than scrap metal that, due to the “relocation” of Lyubech, was compacted into limbo."
         }
       }
     }

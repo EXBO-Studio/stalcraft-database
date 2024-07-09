@@ -10,7 +10,7 @@
       "en": "Seedpod"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "DEFAULT",
   "status": {
     "state": "NON_DROP"
   },
@@ -22,27 +22,6 @@
         "text": ""
       },
       "elements": [
-        {
-          "type": "key-value",
-          "key": {
-            "type": "translation",
-            "key": "core.tooltip.info.rank",
-            "args": {},
-            "lines": {
-              "ru": "Ранг",
-              "en": "Rank"
-            }
-          },
-          "value": {
-            "type": "translation",
-            "key": "core.rank.veteran",
-            "args": {},
-            "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
-            }
-          }
-        },
         {
           "type": "key-value",
           "key": {
@@ -101,28 +80,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.kordon.npc_add.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "2600.0"
+            },
             "lines": {
-              "ru": "С низким шансом у людей на Кордоне, Агропроме, Темной долине и Свалке",
-              "en": "A low chance from people at the Cordon, Agroprom, the Dark Valley, and the Dump"
+              "ru": "2 600 руб.",
+              "en": "2,600 rubles"
             }
           }
         }
@@ -140,7 +126,7 @@
         "key": "item.brt.kordon.npc_add.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Говорят, этот крупный черный камень конусообразной формы - это множество мелких \"семечек\", повторно подвергнувшихся аномальному воздействию. Также отличается высокой прочностью.",
+          "ru": "Говорят, этот крупный черный камень конусообразной формы - это множество мелких «семечек», повторно подвергнувшихся аномальному воздействию. Также отличается высокой прочностью.",
           "en": "They say that this large, black cone-shaped stone was formed from a whole plethora of smaller “seeds” that were repeatedly exposed to the effect of anomalies. They also possess great durability."
         }
       }

@@ -80,6 +80,14 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
           "type": "text",
@@ -144,6 +152,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойность",
+              "en": "Armor-penetration"
+            }
+          },
+          "value": 4.0,
+          "formatted": {
+            "value": {
+              "ru": "+4%",
+              "en": "+4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
         {
           "type": "numeric",
           "name": {

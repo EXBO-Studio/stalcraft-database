@@ -80,6 +80,46 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "43300.0"
+            },
+            "lines": {
+              "ru": "43 300 руб.",
+              "en": "43,300 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
           "type": "key-value",
@@ -257,8 +297,8 @@
         "key": "item.art.trampoline_braslet.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт, своей формой напоминающий браслет на руку, за что и получил свое название. Поддерживая организм носителя в тонусе и увеличивая скорость восстановление после нагрузок, оказывает воздействие и на психику. Можно сказать, что в какой-то степени эффект аналогичен действию слабого анаболика.",
-          "en": "An artifact that looks like a bracelet on a wrist, which is where it gets its name. It helps keep the body energized and increases regeneration speed after exertion, while also positively affecting the psyche. You might say that, to some extent, the effects are similar to a weak anabolic steroid."
+          "ru": "Артефакт, своей формой напоминающий небольшую луковицу, за что и получил свое название. Поддерживая организм носителя в тонусе и увеличивая скорость восстановление после нагрузок, оказывает воздействие и на психику. Можно сказать, что в какой-то степени эффект аналогичен действию слабого анаболика.",
+          "en": "An artifact that looks like a little onion, which is where it gets its name. It helps keep the body energized and increases regeneration speed after exertion, while also positively affecting the psyche. You might say that, to some extent, the effects are similar to a weak anabolic steroid."
         }
       }
     }

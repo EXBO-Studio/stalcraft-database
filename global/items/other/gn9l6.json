@@ -10,7 +10,7 @@
       "en": "Pickle"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.bar.npc.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "32.0"
+            },
             "lines": {
-              "ru": "У людей в Яме, Лесу и Заводе «Росток»",
-              "en": "From people in the Pit, the Forest, and Rostok Factory"
+              "ru": "32 руб.",
+              "en": "32 rubles"
             }
           }
         }
@@ -139,8 +146,8 @@
         "key": "item.brt.bar.npc.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Этот желтовато-зеленый минерал впервые был обнаружен на заводе Росток. Если залить его кипятком и оставить на пару часов, полученный отвар легко снимет похмелье. Надо ли говорить, что это очень ценный ресурс?!",
-          "en": "This yellowy-green mineral was first discovered in the Rostok Factory. If you pour boiling water into it and leave it for a couple of hours, the resulting decoction can alleviate a hangover. It goes without saying that it’s a really valuable resource!"
+          "ru": "Этот желтовато-зеленый минерал впервые был обнаружен на заводе «Первомайский». Если залить его кипятком и оставить на пару часов, полученный отвар легко снимет похмелье. Надо ли говорить, что это очень ценный ресурс?!",
+          "en": "This yellowy-green mineral was first discovered in the Pervomaisky Factory. If you pour boiling water into it and leave it for a couple of hours, the resulting decoction can alleviate a hangover. It goes without saying that it’s a really valuable resource!"
         }
       }
     }

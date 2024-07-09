@@ -6,8 +6,8 @@
     "key": "item.mtl.wpn.lim.name",
     "args": {},
     "lines": {
-      "ru": "«Лим»",
-      "en": "Lim"
+      "ru": "«Лимб»",
+      "en": "Limbo"
     }
   },
   "color": "DEFAULT",
@@ -44,6 +44,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
     },
     {
       "type": "list",
@@ -119,8 +127,8 @@
             "key": "item.wpn.svu_mod.name",
             "args": {},
             "lines": {
-              "ru": "«Лавина»",
-              "en": "Avalanche"
+              "ru": "«Волна»",
+              "en": "Tsunami"
             }
           }
         },
@@ -131,7 +139,7 @@
             "key": "item.wpn.gauss.name",
             "args": {},
             "lines": {
-              "ru": "Гаусс-пушка",
+              "ru": "Винтовка Гаусса",
               "en": "Gauss Rifle"
             }
           }
@@ -491,8 +499,8 @@
             "key": "item.wpn.mp5_mod.name",
             "args": {},
             "lines": {
-              "ru": "«Гадюка»",
-              "en": "Viper"
+              "ru": "«Лягуха»",
+              "en": "Frog"
             }
           }
         },
@@ -623,8 +631,8 @@
             "key": "item.wpn.l85_mod.name",
             "args": {},
             "lines": {
-              "ru": "«Баланс»",
-              "en": "Balance"
+              "ru": "«Уравнитель»",
+              "en": "Equalizer"
             }
           }
         },
@@ -673,6 +681,18 @@
             "lines": {
               "ru": "SIG MPX",
               "en": "SIG MPX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.kriss.name",
+            "args": {},
+            "lines": {
+              "ru": "TDI KRISS Vector",
+              "en": "TDI KRISS Vector"
             }
           }
         },
@@ -936,7 +956,7 @@
             "args": {},
             "lines": {
               "ru": "МЦ-255",
-              "en": "MTs255"
+              "en": "MTs-255"
             }
           }
         },
@@ -1295,8 +1315,8 @@
             "key": "item.wpn.storm.name",
             "args": {},
             "lines": {
-              "ru": "ОЦ-14М «Шторм»",
-              "en": "OTs-14M Shtorm"
+              "ru": "ОЦ-14М «Ураган»",
+              "en": "OTs-14M Hurricane"
             }
           }
         },
@@ -1525,6 +1545,18 @@
             "lines": {
               "ru": "ПП-2000",
               "en": "PP-2000"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.protecta.name",
+            "args": {},
+            "lines": {
+              "ru": "Protecta",
+              "en": "Protecta"
             }
           }
         },

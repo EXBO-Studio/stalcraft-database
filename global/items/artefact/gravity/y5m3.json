@@ -80,6 +80,46 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "13000.0"
+            },
+            "lines": {
+              "ru": "13 000 руб.",
+              "en": "13,000 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
           "type": "key-value",
@@ -257,7 +297,7 @@
         "key": "item.art.voronka_kriogen.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт, способный образоваться только при редчайшем стечении обстоятельств. Имеет начальный механизм образования, схожий с янтарником, но аномальная субстанция впоследствии, пройдя через несколько перепадов давления, теряет энергию и начинает интенсивно поглощать ее из окружающего воздуха, охлаждая небольшое пространство вокруг себя, в следствие чего охлаждается и организм владельца, затрудняя его восстановление и передвижение.",
+          "ru": "Артефакт, способный образоваться только при редчайшем стечении обстоятельств. Имеет начальный механизм образования, схожий с янтарником, но аномальная субстанция впоследствии, пройдя через несколько перепадов давления, теряет энергию и начинает интенсивно поглощать ее из окружающего воздуха, охлаждая небольшое пространство вокруг себя, вследствие чего охлаждается и организм владельца, затрудняя его восстановление и передвижение.",
           "en": "An artifact that is formed only under an extremely rare set of circumstances. Its initial formation is similar to that of Amberite, but the anomalous substance, after undergoing several fluctuations in pressure, eventually loses energy and begins to intensively absorb it from the surrounding oxygen, cooling a small area around itself. This results in the body of the owner also cooling down, which slows regeneration and movement speed."
         }
       }

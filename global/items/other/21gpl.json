@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.mg.signal.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1000.0"
+            },
             "lines": {
-              "ru": "При обнаружении сигналов в Мертвом городе, Могильнике, Путь Дураков и Армейских складах.",
-              "en": "When you detect signals in the Dead City, the Graveyard, the Path of Fools, and Army Warehouses."
+              "ru": "1 000 руб.",
+              "en": "1,000 rubles"
             }
           }
         }

@@ -6,7 +6,7 @@
     "key": "item.wpn.gauss.name",
     "args": {},
     "lines": {
-      "ru": "Гаусс-пушка",
+      "ru": "Винтовка Гаусса",
       "en": "Gauss Rifle"
     }
   },
@@ -75,11 +75,11 @@
               "en": "Weight"
             }
           },
-          "value": 9.5,
+          "value": 7.5,
           "formatted": {
             "value": {
-              "ru": "9,5 кг",
-              "en": "9.5 kg"
+              "ru": "7,5 кг",
+              "en": "7.5 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -128,6 +128,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
     },
     {
       "type": "list",
@@ -239,11 +247,11 @@
               "en": "Rate of fire"
             }
           },
-          "value": 34.0,
+          "value": 36.0,
           "formatted": {
             "value": {
-              "ru": "34 выстр/мин",
-              "en": "34 shots/min"
+              "ru": "36 выстр/мин",
+              "en": "36 shots/min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -260,11 +268,11 @@
               "en": "Reload"
             }
           },
-          "value": 4.0,
+          "value": 3.75,
           "formatted": {
             "value": {
-              "ru": "4 с",
-              "en": "4 sec"
+              "ru": "3,75 с",
+              "en": "3.75 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -632,8 +640,8 @@
         "key": "item.wpn.gauss.description",
         "args": {},
         "lines": {
-          "ru": "Снайперская винтовка, использующая для разгона пули систему электромагнитов, питаемую энергией артефакта «Вспышка». Также известна как «Изделие №62».",
-          "en": "A sniper rifle that uses a system of electromagnets to accelerate bullets. This system is fed by energy from the Flare artifact. It is also known as “Object 62.”"
+          "ru": "Снайперская винтовка, использующая для разгона пули систему электромагнитов, питаемую энергией артефакта «Комета». Также известна как «Изделие №62».",
+          "en": "A sniper rifle that uses a system of electromagnets to accelerate bullets. This system is fed by energy from the Comet artifact. It is also known as “Object 62.”"
         }
       }
     }

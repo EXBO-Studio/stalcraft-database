@@ -10,7 +10,7 @@
       "en": "“Astrixin”"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "NON_DROP"
   },
@@ -22,6 +22,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -65,6 +86,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
     },
     {
       "type": "list",
@@ -142,6 +171,18 @@
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death"
+            }
           }
         }
       ]
@@ -229,8 +270,8 @@
         "key": "item.med.astrikcin.description",
         "args": {},
         "lines": {
-          "ru": "Медицинский препарат, пришедший на замену «Барвинку» и комплексно способствующий загустению и быстрому свертыванию крови.",
-          "en": "A medicinal drug that replaced Vinca, which comprehensively contributes to the coagulation and clotting of the blood."
+          "ru": "Медицинский препарат, пришедший на замену «Гемостату» и комплексно способствующий загустению и быстрому свертыванию крови.",
+          "en": "A medicinal drug that replaced Hemostat, which comprehensively contributes to the coagulation and clotting of the blood."
         }
       }
     }

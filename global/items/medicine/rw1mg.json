@@ -6,11 +6,11 @@
     "key": "item.med.gerkules.name",
     "args": {},
     "lines": {
-      "ru": "«Геркулес»",
-      "en": "“Hercules”"
+      "ru": "Тоник «Арни»",
+      "en": "Arnie Tonic"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "NONE"
   },
@@ -22,6 +22,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -72,8 +93,30 @@
         "type": "text",
         "text": ""
       },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": []
     },
+    {},
     {
       "type": "list",
       "title": {
@@ -143,6 +186,18 @@
             "nameColor": "838383",
             "valueColor": "EEEEEE"
           }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death"
+            }
+          }
         }
       ]
     },
@@ -208,10 +263,11 @@
         "key": "item.med.gerkules.description",
         "args": {},
         "lines": {
-          "ru": "Основной компонент — искусственносозданный стероид, по химическому составу сходный с тестостероном. Применяется сталкерами в долгих переходах для повышения порога утомляемости мышц.",
+          "ru": "Основной компонент — искусственно созданный стероид, по химическому составу сходный с тестостероном. Применяется сталкерами в долгих переходах для повышения порога утомляемости мышц.",
           "en": "The main component is an artificial steroid with a chemical make-up similar to testosterone. Used by stalkers for long journeys to increase muscle fatigue tolerance."
         }
       }
-    }
+    },
+    {}
   ]
 }

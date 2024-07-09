@@ -80,6 +80,46 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1800.0"
+            },
+            "lines": {
+              "ru": "1 800 руб.",
+              "en": "1,800 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
           "type": "key-value",
@@ -279,8 +319,8 @@
         "key": "item.art.kisel_kisel.description",
         "args": {},
         "lines": {
-          "ru": "Прото-артефактное студенистое вещество (коллоидный газ), составляющее основу аномалии «кисель». Поглощает радиоактивные элементы из окружающего воздуха, выделяя, однако, опасные токсины, что и делает его использование по назначению практически невозможным.",
-          "en": "A proto-artifact and gelatinous substance (colloid gas) that forms the basis of the Kissel anomaly. Absorbs radioactive elements from the surrounding oxygen, while also releasing dangerous toxins. This makes it almost impossible to use as intended."
+          "ru": "Прото-артефактное студенистое вещество (коллоидный газ), составляющее основу аномалии «Холодец». Поглощает радиоактивные элементы из окружающего воздуха, выделяя, однако, опасные токсины, что и делает его использование по назначению практически невозможным.",
+          "en": "A proto-artifact and gelatinous substance (colloid gas) that forms the basis of the Aspic anomaly. Absorbs radioactive elements from the surrounding oxygen, while also releasing dangerous toxins. This makes it almost impossible to use as intended."
         }
       }
     }
