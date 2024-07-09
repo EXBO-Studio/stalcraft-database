@@ -6,8 +6,8 @@
     "key": "item.art.voronka_goldgravi.name",
     "args": {},
     "lines": {
-      "ru": "Золотистый грави",
-      "en": "Gold Gravi"
+      "ru": "Золотистая Прима",
+      "en": "Golden Prima"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "10800.0"
+            },
+            "lines": {
+              "ru": "10 800 руб.",
+              "en": "10,800 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,8 +297,8 @@
         "key": "item.art.voronka_goldgravi.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт-гравирегулятор, представитель побочной эволюционной ветки семейства «вывертов». Формируется в «воронке» параллельно с «золотой рыбкой», но технически совершенно по иному принципу. Cоздает устойчивое поле с отрицательной гравитацией, благодаря чему не только рюкзак носителя становится легче, но и он сам. Вследствие редкости, все свойства не изучены.",
-          "en": "A gravity regulator artifact of a split-off evolutionary branch of the Quirk family. Formed in a Blackhole alongside the Goldfish, but in a totally different way. This artifact creates a sustained field of negative gravity, which makes both the wearer’s backpack and the wearer themselves much lighter. Due to its rarity, not all of its properties are well-studied."
+          "ru": "Артефакт-гравирегулятор, представитель побочной эволюционной ветки семейства «Вехоток». Формируется в «Омуте» параллельно с «Креветкой», но технически совершенно по иному принципу. Cоздает устойчивое поле с отрицательной гравитацией, благодаря чему не только рюкзак носителя становится легче, но и он сам. Вследствие редкости, все свойства не изучены.",
+          "en": "A gravity regulator artifact of a split-off evolutionary branch of the Sponge family. Formed in a Whirlpool alongside the Shrimp, but in a totally different way. This artifact creates a sustained field of negative gravity, which makes both the wearer’s backpack and the wearer themselves much lighter. Due to its rarity, not all of its properties are well-studied."
         }
       }
     }

@@ -6,8 +6,8 @@
     "key": "item.art.karousel_lomot.name",
     "args": {},
     "lines": {
-      "ru": "Ломоть мяса",
-      "en": "Meat Chunk"
+      "ru": "Сало",
+      "en": "Lard"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1600.0"
+            },
+            "lines": {
+              "ru": "1 600 руб.",
+              "en": "1,600 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,8 +297,8 @@
         "key": "item.art.karousel_lomot.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт, по консистенции напоминающий стейк средней прожарки, но пробовать на вкус его не стоит. Возможно, является вырожденным случаем формирования «Крови камня».",
-          "en": "This artifact has the consistency of a medium-cooked steak—but don’t get any ideas about tasting it! It may be the degraded form of Stone Blood."
+          "ru": "Артефакт, по консистенции напоминающий стейк средней прожарки, но пробовать на вкус его не стоит. Возможно, является вырожденным случаем формирования «Ягодки».",
+          "en": "This artifact has the consistency of a medium-cooked steak—but don’t get any ideas about tasting it! It may be the degraded form of Berry."
         }
       }
     }

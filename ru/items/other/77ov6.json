@@ -10,7 +10,7 @@
       "en": "Quantum Battery"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -103,26 +103,55 @@
       },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "numeric",
+          "name": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.energy",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Энергия",
+              "en": "Energy"
             }
+          },
+          "value": 1500.0,
+          "formatted": {
+            "value": {
+              "ru": "1500 ед",
+              "en": "1500 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
           }
-        },
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "item.brt.sever.airdrop.item_origin_tip",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "С аирдропов на Севере",
-              "en": "From airdrops in the North"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "450.0"
+            },
+            "lines": {
+              "ru": "450 руб.",
+              "en": "450 rubles"
             }
           }
         }

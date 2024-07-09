@@ -1,0 +1,170 @@
+{
+  "id": "g4rq6",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.crate.vog25p_crafted.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик кустарных ВОГ-25П",
+      "en": "Crate of jury-rigged VOG-25Ps"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.misc",
+            "args": {},
+            "lines": {
+              "ru": "Разное",
+              "en": "Miscellaneous"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "6 кг",
+              "en": "6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "customitem.lore.command.info.usages_left",
+            "args": {},
+            "lines": {
+              "ru": "Использований осталось",
+              "en": "Uses remaining"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "5/5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.crate.vog25p_crafted.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "При использовании вы получите:@- Кустарный ВОГ-25П, 2 шт.",
+          "en": "When you use it, you’ll get:@- Jury-rigged VOG-25P grenades, 2 units."
+        }
+      }
+    }
+  ]
+}

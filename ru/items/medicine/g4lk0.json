@@ -6,11 +6,11 @@
     "key": "item.med.apt_a.name",
     "args": {},
     "lines": {
-      "ru": "Аптечка армейская",
-      "en": "Army First-Aid Kit"
+      "ru": "Военная аптечка",
+      "en": "Military First-Aid Kit"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "NONE"
   },
@@ -22,6 +22,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -62,6 +83,27 @@
             },
             "nameColor": "838383",
             "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
           }
         }
       ]
@@ -233,6 +275,7 @@
           "en": "A specialized medical kit for treating physical wounds and bleeding. The kit contains a tourniquet for stopping bleeding, an adrenaline injection, a weak antirad treatment, and a special regeneration drug."
         }
       }
-    }
+    },
+    {}
   ]
 }

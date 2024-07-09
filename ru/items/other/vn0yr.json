@@ -10,7 +10,7 @@
       "en": "Remains of a Radio Transmitter"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.les.mining.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "25.0"
+            },
             "lines": {
-              "ru": "Из прикопов в Яме и Лесу",
-              "en": "From caches in the Pit and the Forest"
+              "ru": "25 руб.",
+              "en": "25 rubles"
             }
           }
         }

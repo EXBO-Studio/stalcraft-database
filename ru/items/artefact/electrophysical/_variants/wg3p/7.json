@@ -80,6 +80,46 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "10200.0"
+            },
+            "lines": {
+              "ru": "10 200 руб.",
+              "en": "10,200 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
           "type": "key-value",
@@ -257,8 +297,8 @@
         "key": "item.art.electra_dezintegrator.description",
         "args": {},
         "lines": {
-          "ru": "Удивительный электростатический артефакт; «лунный свет», лишенный оболочки. Электрический ток при воздействии на артефакт значительно усиливается, что может привести к летальным последствиям.",
-          "en": "An intriguing electrostatic Moonlight artifact with no covering. If an electrical current interacts with the artifact, it is greatly strengthened, but this can have lethal side effects."
+          "ru": "Удивительный электростатический артефакт; «Лампочка Ильича», лишенный оболочки. Электрический ток при воздействии на артефакт значительно усиливается, что может привести к летальным последствиям.",
+          "en": "An intriguing electrostatic Ilyich Lamp artifact with no covering. If an electrical current interacts with the artifact, it is greatly strengthened, but this can have lethal side effects."
         }
       }
     }

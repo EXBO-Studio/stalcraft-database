@@ -1,0 +1,148 @@
+{
+  "id": "21065",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.mob_limansk_9.name",
+    "args": {},
+    "lines": {
+      "ru": "Сердце мутанта из Любеча",
+      "en": "Lyubech Mutant’s Heart"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.8,
+          "formatted": {
+            "value": {
+              "ru": "0,8 кг",
+              "en": "0.8 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "7500.0"
+            },
+            "lines": {
+              "ru": "7 500 руб.",
+              "en": "7,500 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.filler.mob_limansk_9.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Один сталкер-ветеран, по слухам, съел сырое сердце мутанта из Любеча-3 и сам стал превращаться в мутанта. Байка, конечно... но пробовать на вкус все равно не стоит.",
+          "en": "Rumor has it that a veteran stalker ate the heart of a Lyubech-3 mutant raw and consequently began to turn into a mutant himself. It’s just a tale, of course... but nonetheless, it’s probably not worth seeing what this tastes like."
+        }
+      }
+    },
+    {}
+  ]
+}

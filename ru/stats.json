@@ -647,8 +647,8 @@
       "key": "general.stats.stat.fun-ano-dea",
       "args": {},
       "lines": {
-        "ru": "Смертей от воронки",
-        "en": "Deaths from Blackholes"
+        "ru": "Смертей от «Омута»",
+        "en": "Deaths from Whirlpool"
       }
     }
   },
@@ -661,8 +661,8 @@
       "key": "general.stats.stat.car-ano-dea",
       "args": {},
       "lines": {
-        "ru": "Смертей от карусели",
-        "en": "Deaths from Vortices"
+        "ru": "Смертей от «Волчка»",
+        "en": "Deaths from Blender"
       }
     }
   },
@@ -675,8 +675,8 @@
       "key": "general.stats.stat.kis-ano-dea",
       "args": {},
       "lines": {
-        "ru": "Смертей от киселя",
-        "en": "Deaths from Kissel"
+        "ru": "Смертей от «Холодца»",
+        "en": "Deaths from Aspic"
       }
     }
   },
@@ -689,8 +689,8 @@
       "key": "general.stats.stat.tra-ano-dea",
       "args": {},
       "lines": {
-        "ru": "Смертей от трамплина",
-        "en": "Deaths from Trampolines"
+        "ru": "Смертей от «Батута»",
+        "en": "Deaths from Trampoline"
       }
     }
   },
@@ -703,8 +703,8 @@
       "key": "general.stats.stat.lig-ano-dea",
       "args": {},
       "lines": {
-        "ru": "Смертей от жарки",
-        "en": "Deaths from Lighters"
+        "ru": "Смертей от «Зажигалки»",
+        "en": "Deaths from Lighter"
       }
     }
   },
@@ -717,8 +717,8 @@
       "key": "general.stats.stat.ste-ano-dea",
       "args": {},
       "lines": {
-        "ru": "Смертей от пара",
-        "en": "Deaths from Steam"
+        "ru": "Смертей от «Чайника»",
+        "en": "Deaths from Kettle"
       }
     }
   },
@@ -731,8 +731,8 @@
       "key": "general.stats.stat.ele-ano-dea",
       "args": {},
       "lines": {
-        "ru": "Смертей от электры",
-        "en": "Deaths from Electros"
+        "ru": "Смертей от «Разряда»",
+        "en": "Deaths from Discharge"
       }
     }
   },
@@ -745,8 +745,8 @@
       "key": "general.stats.stat.cir-ano-dea",
       "args": {},
       "lines": {
-        "ru": "Смертей от цирка",
-        "en": "Deaths from Circus"
+        "ru": "Смертей от «Пекла»",
+        "en": "Deaths from Inferno"
       }
     }
   },
@@ -807,6 +807,90 @@
     }
   },
   {
+    "id": "hid-wrk-crft",
+    "category": "HIDEOUT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.hid-wrk-crft",
+      "args": {},
+      "lines": {
+        "ru": "Изделий создно на верстаке",
+        "en": "Items created on the workbench"
+      }
+    }
+  },
+  {
+    "id": "hid-lab-crft",
+    "category": "HIDEOUT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.hid-lab-crft",
+      "args": {},
+      "lines": {
+        "ru": "Изделий создно на лабораторном столе",
+        "en": "Items created on the laboratory table"
+      }
+    }
+  },
+  {
+    "id": "hid-ktch-crft",
+    "category": "HIDEOUT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.hid-ktch-crft",
+      "args": {},
+      "lines": {
+        "ru": "Изделий создано на кухонном столе",
+        "en": "Items created on the kitchen table"
+      }
+    }
+  },
+  {
+    "id": "hid-enrg",
+    "category": "HIDEOUT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.hid-enrg",
+      "args": {},
+      "lines": {
+        "ru": "Сожжено энергии на создание изделий",
+        "en": "Energy burned to create items"
+      }
+    }
+  },
+  {
+    "id": "hid-plc",
+    "category": "HIDEOUT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.hid-plc",
+      "args": {},
+      "lines": {
+        "ru": "Поставлено объектов в Убежище",
+        "en": "Objects placed in the hideout"
+      }
+    }
+  },
+  {
+    "id": "hid-mat-mon",
+    "category": "HIDEOUT",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.hid-mat-mon",
+      "args": {},
+      "lines": {
+        "ru": "Потрачено ресурсов на создание изделий в денежном эквиваленте",
+        "en": "Resources spent on the creating products in monetary terms"
+      }
+    }
+  },
+  {
     "id": "mut-kil",
     "category": "SURVIVAL",
     "type": "INTEGER",
@@ -829,8 +913,8 @@
       "key": "general.stats.stat.mut-pse-kil",
       "args": {},
       "lines": {
-        "ru": "Убито псевдособак",
-        "en": "Pseudodogs killed"
+        "ru": "Убито диких гончих",
+        "en": "Wild hounds killed"
       }
     }
   },
@@ -843,8 +927,8 @@
       "key": "general.stats.stat.mut-dog-kil",
       "args": {},
       "lines": {
-        "ru": "Убито слепых псов",
-        "en": "Blind dogs killed"
+        "ru": "Убито шавок",
+        "en": "Mutts killed"
       }
     }
   },
@@ -857,8 +941,8 @@
       "key": "general.stats.stat.mut-flsh-kil",
       "args": {},
       "lines": {
-        "ru": "Убито плотей",
-        "en": "Fleshes killed"
+        "ru": "Убито хрюш",
+        "en": "Piggies killed"
       }
     }
   },
@@ -871,8 +955,8 @@
       "key": "general.stats.stat.mut-psi-kil",
       "args": {},
       "lines": {
-        "ru": "Убито псисобак",
-        "en": "Psy-dogs killed"
+        "ru": "Убито пси-гончих",
+        "en": "Psy-hounds killed"
       }
     }
   },
@@ -899,8 +983,8 @@
       "key": "general.stats.stat.mut-krv-kil",
       "args": {},
       "lines": {
-        "ru": "Убито кровососов",
-        "en": "Bloodsuckers killed"
+        "ru": "Убито упырей",
+        "en": "Ghouls killed"
       }
     }
   },
@@ -913,8 +997,8 @@
       "key": "general.stats.stat.mut-elp-kil",
       "args": {},
       "lines": {
-        "ru": "Убито снорков",
-        "en": "Snorks killed"
+        "ru": "Убито шнырей",
+        "en": "Skitters killed"
       }
     }
   },
@@ -927,8 +1011,8 @@
       "key": "general.stats.stat.mut-gig-kil",
       "args": {},
       "lines": {
-        "ru": "Убито псевдогигантов",
-        "en": "Pseudogiants killed"
+        "ru": "Убито буреломов",
+        "en": "Behemoths killed"
       }
     }
   },
@@ -941,8 +1025,8 @@
       "key": "general.stats.stat.mut-tush-kil",
       "args": {},
       "lines": {
-        "ru": "Убито тушканчиков",
-        "en": "Rodents killed"
+        "ru": "Убито крыс",
+        "en": "Rats killed"
       }
     }
   },
@@ -955,8 +1039,8 @@
       "key": "general.stats.stat.mut-chi-kill",
       "args": {},
       "lines": {
-        "ru": "Убито химер",
-        "en": "Chimeras killed"
+        "ru": "Убито бестий",
+        "en": "Fiends killed"
       }
     }
   },
@@ -1210,7 +1294,7 @@
       "key": "general.stats.stat.part-bf",
       "args": {},
       "lines": {
-        "ru": "Проведено игр в режиме \"Противостояние\"",
+        "ru": "Проведено игр в режиме «Противостояние»",
         "en": "Games played in Standoff mode"
       }
     }
@@ -1224,7 +1308,7 @@
       "key": "general.stats.stat.kills-bf",
       "args": {},
       "lines": {
-        "ru": "Убито игроков в режиме \"Противостояние\"",
+        "ru": "Убито игроков в режиме «Противостояние»",
         "en": "Players killed in Standoff mode"
       }
     }
@@ -1238,7 +1322,7 @@
       "key": "general.stats.stat.deaths-bf",
       "args": {},
       "lines": {
-        "ru": "Смертей в режиме \"Противостояние\"",
+        "ru": "Смертей в режиме «Противостояние»",
         "en": "Deaths in Standoff mode"
       }
     }
@@ -1252,7 +1336,7 @@
       "key": "general.stats.stat.won-bf",
       "args": {},
       "lines": {
-        "ru": "Побед в режиме \"Противостояние\"",
+        "ru": "Побед в режиме «Противостояние»",
         "en": "Victories in Standoff mode"
       }
     }
@@ -1266,7 +1350,7 @@
       "key": "general.stats.stat.lost-bf",
       "args": {},
       "lines": {
-        "ru": "Поражений в режиме \"Противостояние\"",
+        "ru": "Поражений в режиме «Противостояние»",
         "en": "Defeats in Standoff mode"
       }
     }
@@ -1310,6 +1394,20 @@
       "lines": {
         "ru": "Участий в поединках",
         "en": "Fights taken part in"
+      }
+    }
+  },
+  {
+    "id": "earned-on-arenas",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.earned-on-arenas",
+      "args": {},
+      "lines": {
+        "ru": "Выиграно на ставках",
+        "en": "Won on bets"
       }
     }
   },

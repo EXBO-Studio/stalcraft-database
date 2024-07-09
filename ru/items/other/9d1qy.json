@@ -10,7 +10,7 @@
       "en": "Anomalous Battery"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -103,26 +103,55 @@
       },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "numeric",
+          "name": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.energy",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Энергия",
+              "en": "Energy"
             }
+          },
+          "value": 7000.0,
+          "formatted": {
+            "value": {
+              "ru": "7000 ед",
+              "en": "7000 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
           }
-        },
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "item.brt.limansk.airdrop.item_origin_tip",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "С аирдропов в Лиманске",
-              "en": "From airdrops in Limansk"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "2000.0"
+            },
+            "lines": {
+              "ru": "2 000 руб.",
+              "en": "2,000 rubles"
             }
           }
         }

@@ -6,8 +6,8 @@
     "key": "item.art.trampoline_protomeduza.name",
     "args": {},
     "lines": {
-      "ru": "Протомедуза",
-      "en": "Proto-Jellyfish"
+      "ru": "Протоцибуля",
+      "en": "Proto-Onion"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "15000.0"
+            },
+            "lines": {
+              "ru": "15 000 руб.",
+              "en": "15,000 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,8 +297,8 @@
         "key": "item.art.trampoline_protomeduza.description",
         "args": {},
         "lines": {
-          "ru": "Являясь \"болванкой\" для будущего артефакта, поглощает радиоактивные частицы из окружающего пространства, используя их в качестве \"топлива\" для собственного развития. Вызревая в аномалии, со временем образует полноценный артефакт – чаще всего обычную «медузу». Если извлечь этот артефакт из аномалии вовремя, то его развитие остановится - он уже никогда не станет полноценной «медузой», но зато сохранит способность поглощать и удерживать в себе радиацию. Однако побочным эффектом станет легкое чувство усталости при ношении артефакта.",
-          "en": "A “blank” for a future artifact, the Proto-Jellyfish absorbs radioactive particles from the surrounding area and uses them as “fuel” for its own development. Maturing inside an anomaly, it eventually becomes a fully-fledged artifact, most often a Jellyfish. If this artifact is extracted from an anomaly in time, its development stops. It will never become a true Jellyfish, but it retains its ability to absorb and contain radiation. However, the side effect of wearing this artifact is a slight feeling of fatigue."
+          "ru": "Являясь «болванкой» для будущего артефакта, поглощает радиоактивные частицы из окружающего пространства, используя их в качестве «топлива» для собственного развития. Вызревая в аномалии, со временем образует полноценный артефакт – чаще всего обычную «Цибулю». Если извлечь этот артефакт из аномалии вовремя, то его развитие остановится - он уже никогда не станет полноценной «Цибулей», но зато сохранит способность поглощать и удерживать в себе радиацию. Однако побочным эффектом станет легкое чувство усталости при ношении артефакта.",
+          "en": "A “blank” for a future artifact, the Proto-Onion absorbs radioactive particles from the surrounding area and uses them as “fuel” for its own development. Maturing inside an anomaly, it eventually becomes a fully-fledged artifact, most often an Onion. If this artifact is extracted from an anomaly in time, its development stops. It will never become a true Onion, but it retains its ability to absorb and contain radiation. However, the side effect of wearing this artifact is a slight feeling of fatigue."
         }
       }
     }

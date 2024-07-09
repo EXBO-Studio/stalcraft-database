@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.svalka.npc.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "24.0"
+            },
             "lines": {
-              "ru": "У людей на Кордоне, Агропроме, Темной долине и Свалке",
-              "en": "From people at the Cordon, Agroprom, the Dark Valley, and the Dump"
+              "ru": "24 руб.",
+              "en": "24 rubles"
             }
           }
         }
@@ -139,8 +146,8 @@
         "key": "item.brt.svalka.npc.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Спекшиеся под аномальным воздействием слои ржавого железа, которым завалена Свалка, образуют новый металл, который диггеры прозвали «срачником».",
-          "en": "Layers of rusted metal, which abound in the Dump, become heated by anomalous activity and turn into a new metal that the diggers named “crappite.”"
+          "ru": "Спекшиеся под аномальным воздействием слои ржавого железа, которым завалена Свалка техники, образуют новый металл, который диггеры прозвали «срачником».",
+          "en": "Layers of rusted metal, which abound in the Scrapyard, become heated by anomalous activity and turn into a new metal that the diggers named “crappite.”"
         }
       }
     }

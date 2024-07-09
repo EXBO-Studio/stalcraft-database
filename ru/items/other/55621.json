@@ -93,7 +93,20 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -103,26 +116,55 @@
       },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "numeric",
+          "name": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.energy",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Энергия",
+              "en": "Energy"
             }
+          },
+          "value": 5000.0,
+          "formatted": {
+            "value": {
+              "ru": "5000 ед",
+              "en": "5000 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
           }
-        },
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "item.brt.pd.mining_add.item_origin_tip",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "С низким шансом из прикопов в Мертвом городе, Могильнике, Пути Дураков, Армейских складах",
-              "en": "A low chance from caches in the Dead City, the Graveyard, the Path of Fools, and Army Warehouses"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "3600.0"
+            },
+            "lines": {
+              "ru": "3 600 руб.",
+              "en": "3,600 rubles"
             }
           }
         }
@@ -144,6 +186,7 @@
           "en": "Reasonably well preserved army batteries are highly valued among merchants."
         }
       }
-    }
+    },
+    {}
   ]
 }

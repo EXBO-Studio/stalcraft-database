@@ -80,6 +80,46 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "7800.0"
+            },
+            "lines": {
+              "ru": "7 800 руб.",
+              "en": "7,800 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
           "type": "key-value",
@@ -257,8 +297,8 @@
         "key": "item.art.karousel_gnilec.description",
         "args": {},
         "lines": {
-          "ru": "Артефакт органической природы. Внешне напоминает «Ломоть мяса» и «Душу», но радикально отличается от них свойствами. Уменьшает восприимчивость организма к биологическим агентам, но из-за его воздействия на движения приходится тратить больше сил.",
-          "en": "An organic artifact that resembles the Meat Chunk and the Soul artifacts, but which differs radically in its properties. This artifact decreases the body’s susceptibility to biological agents, but increases energy expenditure when moving."
+          "ru": "Артефакт органической природы. Внешне напоминает «Сало» и «Сердце», но радикально отличается от них свойствами. Уменьшает восприимчивость организма к биологическим агентам, но из-за его воздействия на движения приходится тратить больше сил.",
+          "en": "An organic artifact that resembles the Lard and the Heart artifacts, but which differs radically in its properties. This artifact decreases the body’s susceptibility to biological agents, but increases energy expenditure when moving."
         }
       }
     }

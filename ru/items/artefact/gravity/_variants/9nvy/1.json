@@ -6,8 +6,8 @@
     "key": "item.art.voronka_vivert.name",
     "args": {},
     "lines": {
-      "ru": "Выверт",
-      "en": "Quirk"
+      "ru": "Вехотка",
+      "en": "Sponge"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1700.0"
+            },
+            "lines": {
+              "ru": "1 700 руб.",
+              "en": "1,700 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,7 +297,7 @@
         "key": "item.art.voronka_vivert.description",
         "args": {},
         "lines": {
-          "ru": "Из \"пор\" данного артефакта выделяется неизвестное газообразное вещество, ускоряющее регенерацию тканей при получении царапин и ран. Радиоактивен, распространен и не дорог.",
+          "ru": "Из «пор» данного артефакта выделяется неизвестное газообразное вещество, ускоряющее регенерацию тканей при получении царапин и ран. Радиоактивен, распространен и не дорог.",
           "en": "An unknown gas is emitted from the “pores” of this artifact. It speeds up tissue regeneration from scratches and injuries. The artifact is radioactive, easy to find, and inexpensive."
         }
       }

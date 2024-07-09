@@ -10,7 +10,7 @@
       "en": "Modified Anomalous Battery"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_MASTER",
   "status": {
     "state": "NON_DROP"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.limansk.airdrop_add.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "200000.0"
+            },
             "lines": {
-              "ru": "С низким шансом с аирдропов в Лиманске",
-              "en": "A low chance from airdrops in Limansk"
+              "ru": "200 000 руб.",
+              "en": "200,000 rubles"
             }
           }
         }

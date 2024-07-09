@@ -10,7 +10,7 @@
       "en": "Flare Grenade"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "NONE"
   },
@@ -22,6 +22,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -72,8 +93,30 @@
         "type": "text",
         "text": ""
       },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": []
     },
+    {},
     {
       "type": "list",
       "title": {
@@ -161,6 +204,7 @@
           "en": "A flash grenade produced in the Zone. It is popular due to its price and lightness, and it allows you to scare small mutants."
         }
       }
-    }
+    },
+    {}
   ]
 }

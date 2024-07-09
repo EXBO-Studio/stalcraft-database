@@ -10,7 +10,7 @@
       "en": "Green Mold"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "DEFAULT",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -22,27 +22,6 @@
         "text": ""
       },
       "elements": [
-        {
-          "type": "key-value",
-          "key": {
-            "type": "translation",
-            "key": "core.tooltip.info.rank",
-            "args": {},
-            "lines": {
-              "ru": "Ранг",
-              "en": "Rank"
-            }
-          },
-          "value": {
-            "type": "translation",
-            "key": "core.rank.newbie",
-            "args": {},
-            "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
-            }
-          }
-        },
         {
           "type": "key-value",
           "key": {
@@ -101,28 +80,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.bolota.mob.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "6.0"
+            },
             "lines": {
-              "ru": "У мутантов на Болотах",
-              "en": "From mutants in the Swamps"
+              "ru": "6 руб.",
+              "en": "6 rubles"
             }
           }
         }

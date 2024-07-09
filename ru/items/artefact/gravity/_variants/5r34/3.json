@@ -6,8 +6,8 @@
     "key": "item.art.karousel_dusha.name",
     "args": {},
     "lines": {
-      "ru": "Душа",
-      "en": "Soul"
+      "ru": "Сердце",
+      "en": "Heart"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "5700.0"
+            },
+            "lines": {
+              "ru": "5 700 руб.",
+              "en": "5,700 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",

@@ -6,8 +6,8 @@
     "key": "item.art.kisel_slyda.name",
     "args": {},
     "lines": {
-      "ru": "Слюда",
-      "en": "Mica"
+      "ru": "Чернильница",
+      "en": "Inkwell"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "14700.0"
+            },
+            "lines": {
+              "ru": "14 700 руб.",
+              "en": "14,700 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",

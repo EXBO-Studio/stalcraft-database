@@ -6,8 +6,8 @@
     "key": "item.art.voronka_goldfish.name",
     "args": {},
     "lines": {
-      "ru": "Золотая рыбка",
-      "en": "Goldfish"
+      "ru": "Креветка",
+      "en": "Shrimp"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "6000.0"
+            },
+            "lines": {
+              "ru": "6 000 руб.",
+              "en": "6,000 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,7 +297,7 @@
         "key": "item.art.voronka_goldfish.description",
         "args": {},
         "lines": {
-          "ru": "Много артхантеров потеряло голову при виде этого артефакта. Многие даже буквально. Как представитель гравиартефактов – может создать небольшое силовое поле, но от резонирующего пси-излучения стоит как-то защититься.",
+          "ru": "Много артхантеров потеряло голову при виде этого артефакта. Многие даже буквально. Как представитель грави-артефактов – может создать небольшое силовое поле, но от резонирующего пси-излучения стоит как-то защититься.",
           "en": "Many arthunters lose their minds at the sight of this artifact. And not in a good way. A member of the gravitational family of artifacts, it can create a small energy field, but you’ll need to somehow protect yourself from the resulting psy-emissions."
         }
       }

@@ -6,8 +6,8 @@
     "key": "item.art.trampoline_darkmeduza.name",
     "args": {},
     "lines": {
-      "ru": "Темная медуза",
-      "en": "Dark Jellyfish"
+      "ru": "Проклятая роза",
+      "en": "Cursed Rose"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "12000.0"
+            },
+            "lines": {
+              "ru": "12 000 руб.",
+              "en": "12,000 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,8 +297,8 @@
         "key": "item.art.trampoline_darkmeduza.description",
         "args": {},
         "lines": {
-          "ru": "Малоизвестный представитель группы экранно-силовых гравитоников. По плотности гравитационного излучения, вероятно, значительно превосходит все другие артефакты подобного типа. Предположительно, «Темная медуза» может присутствовать в нескольких старых грави-аномалиях, с чрезвычайно высокой степенью активности. При длительном ношении негативно влияет на толерантность организма к нагрузкам.",
-          "en": "A little-known member of the power-shielding gravitational anomaly family. The strength of its gravitational emissions is likely much stronger than that of any other artifacts of this type. The Dark Jellyfish is believed to be present in several old gravitational anomalies with extremely high activity levels. If worn for a long time, it has a negative effect on the body’s tolerance to exertion."
+          "ru": "Малоизвестный представитель группы экранно-силовых гравитоников. По плотности гравитационного излучения, вероятно, значительно превосходит все другие артефакты подобного типа. Предположительно, «Проклятая роза» может присутствовать в нескольких старых грави-аномалиях, с чрезвычайно высокой степенью активности. При длительном ношении негативно влияет на толерантность организма к нагрузкам.",
+          "en": "A little-known member of the power-shielding gravitational anomaly family. The strength of its gravitational emissions is likely much stronger than that of any other artifacts of this type. The Cursed Rose is believed to be present in several old gravitational anomalies with extremely high activity levels. If worn for a long time, it has a negative effect on the body’s tolerance to exertion."
         }
       }
     }

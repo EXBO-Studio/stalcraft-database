@@ -10,7 +10,7 @@
       "en": "Purified Substance 07270"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_MASTER",
   "status": {
     "state": "NON_DROP"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -93,6 +93,27 @@
         "type": "text",
         "text": ""
       },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": []
     },
     {
@@ -103,26 +124,25 @@
       },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.sever.npc_add.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "4800.0"
+            },
             "lines": {
-              "ru": "С низким шансом у людей на Севере",
-              "en": "A low chance from people in the North"
+              "ru": "4 800 руб.",
+              "en": "4,800 rubles"
             }
           }
         }
@@ -144,6 +164,7 @@
           "en": "Rumor has it that the American billionaire Lion Xam is preparing to unveil a prototype of the car of the future, which will run on purified Substance 07270. Unfortunately, since there is so little of this resource, production of the transport of tomorrow risks not going further than just that one car, however."
         }
       }
-    }
+    },
+    {}
   ]
 }

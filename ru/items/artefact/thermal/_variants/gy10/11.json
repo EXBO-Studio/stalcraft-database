@@ -6,8 +6,8 @@
     "key": "item.art.jarka_crystal.name",
     "args": {},
     "lines": {
-      "ru": "Кристалл",
-      "en": "Crystal"
+      "ru": "Красный кристалл",
+      "en": "Red Crystal"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1500.0"
+            },
+            "lines": {
+              "ru": "1 500 руб.",
+              "en": "1,500 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -279,7 +319,7 @@
         "key": "item.art.jarka_crystal.description",
         "args": {},
         "lines": {
-          "ru": "Получается при попадании редкоземельного металла в аномалию «Жарка».",
+          "ru": "Получается при попадании редкоземельного металла в аномалию «Зажигалка».",
           "en": "Acquired by placing rare-earth metal in a Lighter anomaly."
         }
       }

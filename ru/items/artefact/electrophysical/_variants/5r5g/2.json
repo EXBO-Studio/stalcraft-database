@@ -6,8 +6,8 @@
     "key": "item.art.electra_snowflake.name",
     "args": {},
     "lines": {
-      "ru": "Снежинка",
-      "en": "Snowflake"
+      "ru": "Ледяной ежик",
+      "en": "Ice Hedgehog"
     }
   },
   "color": "DEFAULT",
@@ -73,6 +73,46 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "11400.0"
+            },
+            "lines": {
+              "ru": "11 400 руб.",
+              "en": "11,400 rubles"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -257,8 +297,8 @@
         "key": "item.art.electra_snowflake.description",
         "args": {},
         "lines": {
-          "ru": "Пусть вас не вводит в заблужение визуальное сходство с «Колобком» - положительные свойства артефактов значительно различаются. Способен увеличивать скорость восстановления выносливости, но, как и предполагаемый родитель - «Колобок», токсичен.",
-          "en": "Don’t be fooled by its visual similarity to Kolobok—the benefits of the artifacts differ considerably. This artifact can speed up stamina regeneration. The one thing it does have in common with its supposed relative, Kolobok, is toxicity."
+          "ru": "Пусть вас не вводит в заблуждение визуальное сходство с «Ежиком» - положительные свойства артефактов значительно различаются. Способен увеличивать скорость восстановления выносливости, но, как и предполагаемый родитель - «Ежик», токсичен.",
+          "en": "Don’t be fooled by its visual similarity to Hedgehog—the benefits of the artifacts differ considerably. This artifact can speed up stamina regeneration. The one thing it does have in common with its supposed relative, Hedgehog, is toxicity."
         }
       }
     }

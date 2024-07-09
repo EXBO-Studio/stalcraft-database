@@ -10,7 +10,7 @@
       "en": "Portable Quantum Generator"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_MASTER",
   "status": {
     "state": "NON_DROP"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -103,26 +103,55 @@
       },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "numeric",
+          "name": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.energy",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Энергия",
+              "en": "Energy"
             }
+          },
+          "value": 30000.0,
+          "formatted": {
+            "value": {
+              "ru": "30000 ед",
+              "en": "30000 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
           }
-        },
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "item.brt.sever.airdrop_add.item_origin_tip",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "С низким шансом с аирдропов на Севере",
-              "en": "A low chance from airdrops in the North"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "45000.0"
+            },
+            "lines": {
+              "ru": "45 000 руб.",
+              "en": "45,000 rubles"
             }
           }
         }

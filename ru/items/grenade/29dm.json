@@ -10,7 +10,7 @@
       "en": "F-1"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "NONE"
   },
@@ -22,6 +22,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -65,6 +86,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
     },
     {
       "type": "list",

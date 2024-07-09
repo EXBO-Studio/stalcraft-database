@@ -10,7 +10,7 @@
       "en": "Epinephrine"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_MASTER",
   "status": {
     "state": "NONE"
   },
@@ -22,6 +22,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -74,6 +95,15 @@
       },
       "elements": []
     },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
     {
       "type": "list",
       "title": {
@@ -142,6 +172,18 @@
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death"
+            }
           }
         }
       ]
@@ -229,7 +271,7 @@
         "key": "item.med.epinephrine.description",
         "args": {},
         "lines": {
-          "ru": "Адреналин синтетического происхождения, основной гормон мозгового вещества надпочечников, а также нейромедиатор. Повышает артериальное давление, увеличивая как восприимчивость к лечащим средствам, так и шанс сильного кровотечения при повреждении.",
+          "ru": "Адреналин синтетического происхождения, основной гормон мозгового вещества надпочечников, а также нейромедиатор. Повышает артериальное давление, увеличивая, как восприимчивость к лечащим средствам, так и шанс сильного кровотечения при повреждении.",
           "en": "Adrenaline of synthetic origin. The main hormone of the adrenal medulla, as well as a neurotransmitter. Raises blood pressure, which increases both efficacy of healing treatments and the risk of serious bleeding if injured."
         }
       }

@@ -6,11 +6,11 @@
     "key": "item.med.psiblock_2.name",
     "args": {},
     "lines": {
-      "ru": "«Пси-блокада» второго класса",
-      "en": "2nd Class Psy-Blocker"
+      "ru": "Пси-блок «Нейрон-22»",
+      "en": "Neuron-22 PsyBlock"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "NONE"
   },
@@ -22,6 +22,27 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -65,6 +86,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
     },
     {
       "type": "list",
@@ -142,6 +171,18 @@
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death"
+            }
           }
         }
       ]

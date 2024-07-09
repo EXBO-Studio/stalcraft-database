@@ -10,7 +10,7 @@
       "en": "Large Pickle"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_STALKER",
   "status": {
     "state": "NON_DROP"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran"
+              "ru": "Сталкер",
+              "en": "Stalker"
             }
           }
         },
@@ -93,6 +93,27 @@
         "type": "text",
         "text": ""
       },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": []
     },
     {
@@ -103,26 +124,25 @@
       },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.bar.npc_add.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "3200.0"
+            },
             "lines": {
-              "ru": "С низким шансом у людей в Яме, Лесу и Заводе «Росток»",
-              "en": "A low chance from people in the Pit, the Forest, and Rostok Factory"
+              "ru": "3 200 руб.",
+              "en": "3,200 rubles"
             }
           }
         }
@@ -144,6 +164,7 @@
           "en": "The more serious the bender they’re planning, the larger the pickle that stalkers look for, so that everyone can take the edge off their hangover and no one leaves offended!"
         }
       }
-    }
+    },
+    {}
   ]
 }

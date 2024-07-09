@@ -10,7 +10,7 @@
       "en": "Dopestone"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -101,28 +101,35 @@
         "type": "text",
         "text": ""
       },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
       "elements": [
         {
-          "type": "text",
-          "text": {
+          "type": "key-value",
+          "key": {
             "type": "translation",
-            "key": "core.tooltip.origin",
+            "key": "core.tooltip.info.base_price",
             "args": {},
             "lines": {
-              "ru": "Получение",
-              "en": "Obtained"
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
             }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
+          },
+          "value": {
             "type": "translation",
-            "key": "item.brt.pd.npc.item_origin_tip",
-            "args": {},
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "40.0"
+            },
             "lines": {
-              "ru": "У людей в Мертвом городе, Могильнике, Пути Дураков, Армейских складах",
-              "en": "From people in the Dead City, the Graveyard, the Path of Fools, and Army Warehouses"
+              "ru": "40 руб.",
+              "en": "40 rubles"
             }
           }
         }
@@ -139,8 +146,8 @@
         "key": "item.brt.pd.npc.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Однажды крупный схрон Свободы с трав... ой, т.е., конечно же, с артефактами, накрыло аномалиями. В том месте появились первые образцы дурман-камня.",
-          "en": "Once, anomalies sprung up all over a large Freedom hideout containing weed... I mean, er... artifacts. That’s where the first forms of dopestone appeared."
+          "ru": "Однажды крупный схрон «Зари» с трав... ой, т.е., конечно же, с препаратами, накрыло аномалиями. В том месте появились первые образцы дурман-камня.",
+          "en": "Once, anomalies sprang up all over a large Rise hideout containing weed... I mean, er... medicines. That’s where the first forms of dopestone appeared."
         }
       }
     }
