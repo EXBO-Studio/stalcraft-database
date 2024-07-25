@@ -177,27 +177,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.tick_spread_multiplier_reduction",
-            "args": {},
-            "lines": {
-              "ru": "Стабилизация",
-              "en": "Stabilization"
-            }
-          },
-          "value": 12.800002,
-          "formatted": {
-            "value": {
-              "ru": "+12,8%",
-              "en": "+12.8%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.aim_switch_time",
             "args": {},
             "lines": {
@@ -231,6 +210,27 @@
             "value": {
               "ru": "+8%",
               "en": "+8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.shoot_factor_decrement",
+            "args": {},
+            "lines": {
+              "ru": "Стабилизация",
+              "en": "Stabilization"
+            }
+          },
+          "value": 12.799501,
+          "formatted": {
+            "value": {
+              "ru": "+12,8%",
+              "en": "+12.8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -554,6 +554,18 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.mc558.name",
+            "args": {},
+            "lines": {
+              "ru": "МЦ-558",
+              "en": "MTs-558"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.cr380.name",
             "args": {},
             "lines": {
@@ -566,11 +578,11 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mc558.name",
+            "key": "item.wpn.mk14ebr.name",
             "args": {},
             "lines": {
-              "ru": "МЦ-558",
-              "en": "MTs-558"
+              "ru": "Mk 14 EBR",
+              "en": "Mk 14 EBR"
             }
           }
         },

@@ -184,11 +184,11 @@
               "en": "Damage"
             }
           },
-          "value": 94.80488,
+          "value": 104.07926,
           "formatted": {
             "value": {
-              "ru": "94,8 ед",
-              "en": "94.8 unit(s)"
+              "ru": "104,08 ед",
+              "en": "104.08 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -261,18 +261,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.info.reload_time",
+            "key": "weapon.stat_factor.reload_modifier",
             "args": {},
             "lines": {
-              "ru": "Перезарядка",
-              "en": "Reload"
+              "ru": "Эргономика оружия",
+              "en": "Weapon Ergonomics"
             }
           },
-          "value": 4.5,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "4,5 с",
-              "en": "4.5 sec"
+              "ru": "100%",
+              "en": "100%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -289,7 +289,7 @@
               "en": "Spread"
             }
           },
-          "value": 0.08,
+          "value": 0.07999992,
           "formatted": {
             "value": {
               "ru": "0,08°",
@@ -589,9 +589,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 94.80488,
+      "startDamage": 104.07926,
       "damageDecreaseStart": 20.0,
-      "endDamage": 94.80488,
+      "endDamage": 104.07926,
       "damageDecreaseEnd": 60.0,
       "maxDistance": 180.0
     },

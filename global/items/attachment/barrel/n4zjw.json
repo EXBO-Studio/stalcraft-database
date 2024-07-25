@@ -151,27 +151,6 @@
             "nameColor": "53C353",
             "valueColor": "53C353"
           }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.tick_spread_multiplier_reduction",
-            "args": {},
-            "lines": {
-              "ru": "Стабилизация",
-              "en": "Stabilization"
-            }
-          },
-          "value": 6.400001,
-          "formatted": {
-            "value": {
-              "ru": "+6,4%",
-              "en": "+6.4%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
         }
       ]
     },
@@ -335,11 +314,47 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.skst.name",
+            "args": {},
+            "lines": {
+              "ru": "СКС-Т",
+              "en": "SKS-T"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.svd.name",
             "args": {},
             "lines": {
               "ru": "СВД",
               "en": "SVD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svds.name",
+            "args": {},
+            "lines": {
+              "ru": "СВД-С",
+              "en": "SVD-S"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svdm.name",
+            "args": {},
+            "lines": {
+              "ru": "СВД-М",
+              "en": "SVD-M"
             }
           }
         },

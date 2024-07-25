@@ -114,18 +114,60 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.magazine.info.additive_clip_size",
+            "key": "weapon.tooltip.magazine.info.clip_size",
             "args": {},
             "lines": {
-              "ru": "Доп. размер магазина",
-              "en": "Additional magazine size"
+              "ru": "Размер магазина",
+              "en": "Magazine size:"
             }
           },
-          "value": 10.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "10",
-              "en": "10"
+              "ru": "30",
+              "en": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload"
+            }
+          },
+          "value": 2.4,
+          "formatted": {
+            "value": {
+              "ru": "2,4 с",
+              "en": "2.4 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -162,6 +204,30 @@
             "lines": {
               "ru": "АС «Вал»",
               "en": "AS Val"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sr3.name",
+            "args": {},
+            "lines": {
+              "ru": "СР-3 «Вихрь»",
+              "en": "SR-3 Vikhr"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sr3m.name",
+            "args": {},
+            "lines": {
+              "ru": "СР-3М",
+              "en": "SR-3M"
             }
           }
         },

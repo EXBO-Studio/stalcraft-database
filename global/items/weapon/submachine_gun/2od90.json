@@ -261,18 +261,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.info.reload_time",
+            "key": "weapon.tooltip.magazine.info.reload_time",
             "args": {},
             "lines": {
               "ru": "Перезарядка",
               "en": "Reload"
             }
           },
-          "value": 3.0,
+          "value": 2.5,
           "formatted": {
             "value": {
-              "ru": "3 с",
-              "en": "3 sec"
+              "ru": "2,5 с",
+              "en": "2.5 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -282,18 +282,39 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.info.tactical_reload_time",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload"
+              "en": "Tactical Reload"
             }
           },
-          "value": 2.5,
+          "value": 2.0,
           "formatted": {
             "value": {
-              "ru": "2,5 с",
-              "en": "2.5 sec"
+              "ru": "2 с",
+              "en": "2 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.reload_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Эргономика оружия",
+              "en": "Weapon Ergonomics"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -477,6 +498,29 @@
             "lines": {
               "ru": "Урон по конечностям: х0,7",
               "en": "Limb damage: х0.7"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.overheat_after",
+            "args": {
+              "value": "45.0"
+            },
+            "lines": {
+              "ru": "Перегрев через 45 выстрелов непрерывной стрельбы",
+              "en": "Overheat after 45 shots of continuous fire"
             }
           }
         }
