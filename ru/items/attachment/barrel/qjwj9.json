@@ -156,14 +156,14 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.tick_spread_multiplier_reduction",
+            "key": "weapon.stat_factor.shoot_factor_decrement",
             "args": {},
             "lines": {
               "ru": "Стабилизация",
               "en": "Stabilization"
             }
           },
-          "value": 15.999996,
+          "value": 16.00027,
           "formatted": {
             "value": {
               "ru": "+16%",
@@ -455,11 +455,35 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.skst.name",
+            "args": {},
+            "lines": {
+              "ru": "СКС-Т",
+              "en": "SKS-T"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.svd.name",
             "args": {},
             "lines": {
               "ru": "СВД",
               "en": "SVD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svds.name",
+            "args": {},
+            "lines": {
+              "ru": "СВД-С",
+              "en": "SVD-S"
             }
           }
         },
@@ -496,6 +520,42 @@
             "lines": {
               "ru": "L96A1",
               "en": "L96A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m1a-1.name",
+            "args": {},
+            "lines": {
+              "ru": "M1A",
+              "en": "M1A"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mk14ebr.name",
+            "args": {},
+            "lines": {
+              "ru": "Mk 14 EBR",
+              "en": "Mk 14 EBR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svdm.name",
+            "args": {},
+            "lines": {
+              "ru": "СВД-М",
+              "en": "SVD-M"
             }
           }
         },

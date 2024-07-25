@@ -130,6 +130,48 @@
             "nameColor": "838383",
             "valueColor": "EEEEEE"
           }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload"
+            }
+          },
+          "value": 3.3,
+          "formatted": {
+            "value": {
+              "ru": "3,3 с",
+              "en": "3.3 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload"
+            }
+          },
+          "value": 2.64,
+          "formatted": {
+            "value": {
+              "ru": "2,64 с",
+              "en": "2.64 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -144,18 +186,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.reload_time",
+            "key": "weapon.stat_factor.hip_spread",
             "args": {},
             "lines": {
-              "ru": "Время перезарядки",
-              "en": "Reload time"
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread"
             }
           },
-          "value": 20.000004,
+          "value": 31.999992,
           "formatted": {
             "value": {
-              "ru": "+20%",
-              "en": "+20%"
+              "ru": "+32%",
+              "en": "+32%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -172,53 +214,11 @@
               "en": "Aim speed"
             }
           },
-          "value": 4.999995,
+          "value": 31.999992,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.draw_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость доставания",
-              "en": "Draw speed"
-            }
-          },
-          "value": 12.5,
-          "formatted": {
-            "value": {
-              "ru": "-12,5%",
-              "en": "-12.5%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.wiggle",
-            "args": {},
-            "lines": {
-              "ru": "Покачивание",
-              "en": "Sway"
-            }
-          },
-          "value": 4.999995,
-          "formatted": {
-            "value": {
-              "ru": "+5%",
-              "en": "+5%"
+              "ru": "-32%",
+              "en": "-32%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

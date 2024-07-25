@@ -261,39 +261,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.info.reload_time",
+            "key": "weapon.stat_factor.reload_modifier",
             "args": {},
             "lines": {
-              "ru": "Перезарядка",
-              "en": "Reload"
+              "ru": "Эргономика оружия",
+              "en": "Weapon Ergonomics"
             }
           },
-          "value": 4.5,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "4,5 с",
-              "en": "4.5 sec"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.info.tactical_reload_time",
-            "args": {},
-            "lines": {
-              "ru": "Тактическая перезарядка",
-              "en": "Tactical reload"
-            }
-          },
-          "value": 2.95,
-          "formatted": {
-            "value": {
-              "ru": "2,95 с",
-              "en": "2.95 sec"
+              "ru": "100%",
+              "en": "100%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

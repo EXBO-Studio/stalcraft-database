@@ -261,7 +261,7 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.info.reload_time",
+            "key": "weapon.tooltip.magazine.info.reload_time",
             "args": {},
             "lines": {
               "ru": "Перезарядка",
@@ -282,11 +282,11 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.info.tactical_reload_time",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload"
+              "en": "Tactical Reload"
             }
           },
           "value": 2.25,
@@ -294,6 +294,27 @@
             "value": {
               "ru": "2,25 с",
               "en": "2.25 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.reload_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Эргономика оружия",
+              "en": "Weapon Ergonomics"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -534,6 +555,29 @@
             },
             "nameColor": "F1AA21",
             "valueColor": "F1AA21"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.overheat_after",
+            "args": {
+              "value": "20.0"
+            },
+            "lines": {
+              "ru": "Перегрев через 20 выстрелов непрерывной стрельбы",
+              "en": "Overheat after 20 shots of continuous fire"
+            }
           }
         }
       ]

@@ -130,6 +130,48 @@
             "nameColor": "838383",
             "valueColor": "EEEEEE"
           }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload"
+            }
+          },
+          "value": 3.9,
+          "formatted": {
+            "value": {
+              "ru": "3,9 с",
+              "en": "3.9 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload"
+            }
+          },
+          "value": 3.16,
+          "formatted": {
+            "value": {
+              "ru": "3,16 с",
+              "en": "3.16 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
         }
       ]
     },
@@ -144,18 +186,39 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.reload_time",
+            "key": "weapon.stat_factor.draw_time",
             "args": {},
             "lines": {
-              "ru": "Время перезарядки",
-              "en": "Reload time"
+              "ru": "Скорость доставания",
+              "en": "Draw speed"
             }
           },
-          "value": 10.000002,
+          "value": 27.999996,
           "formatted": {
             "value": {
-              "ru": "+10%",
-              "en": "+10%"
+              "ru": "-28%",
+              "en": "-28%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway"
+            }
+          },
+          "value": 55.999992,
+          "formatted": {
+            "value": {
+              "ru": "+56%",
+              "en": "+56%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

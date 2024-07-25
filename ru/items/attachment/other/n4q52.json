@@ -177,27 +177,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.tick_spread_multiplier_reduction",
-            "args": {},
-            "lines": {
-              "ru": "Стабилизация",
-              "en": "Stabilization"
-            }
-          },
-          "value": 9.599996,
-          "formatted": {
-            "value": {
-              "ru": "+9,6%",
-              "en": "+9.6%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.aim_switch_time",
             "args": {},
             "lines": {
@@ -250,6 +229,42 @@
         }
       },
       "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ump45.name",
+            "args": {},
+            "lines": {
+              "ru": "HK UMP45",
+              "en": "HK UMP45"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mx4.name",
+            "args": {},
+            "lines": {
+              "ru": "Beretta Mx4 Storm",
+              "en": "Beretta Mx4 Storm"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ppk20.name",
+            "args": {},
+            "lines": {
+              "ru": "ППК-20",
+              "en": "PPK-20"
+            }
+          }
+        },
         {
           "type": "item",
           "name": {
@@ -674,6 +689,18 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.mc558.name",
+            "args": {},
+            "lines": {
+              "ru": "МЦ-558",
+              "en": "MTs-558"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.cr380.name",
             "args": {},
             "lines": {
@@ -686,11 +713,11 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mc558.name",
+            "key": "item.wpn.mk14ebr.name",
             "args": {},
             "lines": {
-              "ru": "МЦ-558",
-              "en": "MTs-558"
+              "ru": "Mk 14 EBR",
+              "en": "Mk 14 EBR"
             }
           }
         },

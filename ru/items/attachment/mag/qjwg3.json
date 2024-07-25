@@ -109,7 +109,71 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:"
+            }
+          },
+          "value": 20.0,
+          "formatted": {
+            "value": {
+              "ru": "20",
+              "en": "20"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload"
+            }
+          },
+          "value": 2.6,
+          "formatted": {
+            "value": {
+              "ru": "2,6 с",
+              "en": "2.6 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload"
+            }
+          },
+          "value": 2.08,
+          "formatted": {
+            "value": {
+              "ru": "2,08 с",
+              "en": "2.08 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -122,18 +186,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.reload_time",
+            "key": "weapon.stat_factor.hip_spread",
             "args": {},
             "lines": {
-              "ru": "Время перезарядки",
-              "en": "Reload time"
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread"
             }
           },
-          "value": -25.0,
+          "value": -26.0,
           "formatted": {
             "value": {
-              "ru": "-25%",
-              "en": "-25%"
+              "ru": "-26%",
+              "en": "-26%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -150,32 +214,11 @@
               "en": "Aim speed"
             }
           },
-          "value": -15.999996,
+          "value": -26.0,
           "formatted": {
             "value": {
-              "ru": "+16%",
-              "en": "+16%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.draw_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость доставания",
-              "en": "Draw speed"
-            }
-          },
-          "value": -7.999998,
-          "formatted": {
-            "value": {
-              "ru": "+8%",
-              "en": "+8%"
+              "ru": "+26%",
+              "en": "+26%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -204,6 +247,30 @@
             "lines": {
               "ru": "АС «Вал»",
               "en": "AS Val"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sr3.name",
+            "args": {},
+            "lines": {
+              "ru": "СР-3 «Вихрь»",
+              "en": "SR-3 Vikhr"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sr3m.name",
+            "args": {},
+            "lines": {
+              "ru": "СР-3М",
+              "en": "SR-3M"
             }
           }
         },

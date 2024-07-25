@@ -156,27 +156,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.tick_spread_multiplier_reduction",
-            "args": {},
-            "lines": {
-              "ru": "Стабилизация",
-              "en": "Stabilization"
-            }
-          },
-          "value": 31.999992,
-          "formatted": {
-            "value": {
-              "ru": "+32%",
-              "en": "+32%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.draw_time",
             "args": {},
             "lines": {
@@ -214,6 +193,27 @@
             "nameColor": "53C353",
             "valueColor": "53C353"
           }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.shoot_factor_decrement",
+            "args": {},
+            "lines": {
+              "ru": "Стабилизация",
+              "en": "Stabilization"
+            }
+          },
+          "value": 32.00054,
+          "formatted": {
+            "value": {
+              "ru": "+32%",
+              "en": "+32%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -229,6 +229,42 @@
         }
       },
       "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ump45.name",
+            "args": {},
+            "lines": {
+              "ru": "HK UMP45",
+              "en": "HK UMP45"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mx4.name",
+            "args": {},
+            "lines": {
+              "ru": "Beretta Mx4 Storm",
+              "en": "Beretta Mx4 Storm"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ppk20.name",
+            "args": {},
+            "lines": {
+              "ru": "ППК-20",
+              "en": "PPK-20"
+            }
+          }
+        },
         {
           "type": "item",
           "name": {
@@ -641,11 +677,35 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.deagle.name",
+            "args": {},
+            "lines": {
+              "ru": "Desert Eagle Mark XIX",
+              "en": "Desert Eagle Mark XIX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.rsh12.name",
             "args": {},
             "lines": {
               "ru": "РШ-12",
               "en": "RSh-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mc558.name",
+            "args": {},
+            "lines": {
+              "ru": "МЦ-558",
+              "en": "MTs-558"
             }
           }
         },
@@ -665,11 +725,11 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mc558.name",
+            "key": "item.wpn.mk14ebr.name",
             "args": {},
             "lines": {
-              "ru": "МЦ-558",
-              "en": "MTs-558"
+              "ru": "Mk 14 EBR",
+              "en": "Mk 14 EBR"
             }
           }
         },
@@ -778,6 +838,18 @@
             "lines": {
               "ru": "Планка RIS на ПП-91 «Кедр»",
               "en": "RIS Rail for PP-91 KEDR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.barrel_longdeagle.name",
+            "args": {},
+            "lines": {
+              "ru": "Удлиненный ствол D-Eagle",
+              "en": "D-Eagle Barrel Extension"
             }
           }
         }

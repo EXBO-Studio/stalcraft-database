@@ -6,11 +6,11 @@
     "key": "item.wpn.m1a-1.name",
     "args": {},
     "lines": {
-      "ru": "Поношенная M1A",
-      "en": "Worn M1A"
+      "ru": "M1A",
+      "en": "M1A"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran"
             }
           }
         },
@@ -75,11 +75,11 @@
               "en": "Weight"
             }
           },
-          "value": 4.63,
+          "value": 3.52,
           "formatted": {
             "value": {
-              "ru": "4,63 кг",
-              "en": "4.63 kg"
+              "ru": "3,52 кг",
+              "en": "3.52 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -184,11 +184,11 @@
               "en": "Damage"
             }
           },
-          "value": 37.258995,
+          "value": 44.18323,
           "formatted": {
             "value": {
-              "ru": "37,26 ед",
-              "en": "37.26 unit(s)"
+              "ru": "44,18 ед",
+              "en": "44.18 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -226,11 +226,11 @@
               "en": "Maximum distance"
             }
           },
-          "value": 170.0,
+          "value": 175.0,
           "formatted": {
             "value": {
-              "ru": "170 м",
-              "en": "170 m"
+              "ru": "175 м",
+              "en": "175 m"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -261,7 +261,7 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.info.reload_time",
+            "key": "weapon.tooltip.magazine.info.reload_time",
             "args": {},
             "lines": {
               "ru": "Перезарядка",
@@ -282,11 +282,11 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.info.tactical_reload_time",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload"
+              "en": "Tactical Reload"
             }
           },
           "value": 3.2,
@@ -303,6 +303,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.stat_factor.reload_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Эргономика оружия",
+              "en": "Weapon Ergonomics"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.tooltip.weapon.info.spread",
             "args": {},
             "lines": {
@@ -310,7 +331,7 @@
               "en": "Spread"
             }
           },
-          "value": 0.15,
+          "value": 0.1500001,
           "formatted": {
             "value": {
               "ru": "0,15°",
@@ -352,11 +373,11 @@
               "en": "Vertical recoil"
             }
           },
-          "value": 0.96,
+          "value": 0.9,
           "formatted": {
             "value": {
-              "ru": "0,96°",
-              "en": "0.96°"
+              "ru": "0,9°",
+              "en": "0.9°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -541,6 +562,29 @@
     {
       "type": "list",
       "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.overheat_after",
+            "args": {
+              "value": "30.0"
+            },
+            "lines": {
+              "ru": "Перегрев через 30 выстрелов непрерывной стрельбы",
+              "en": "Overheat after 30 shots of continuous fire"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
         "type": "translation",
         "key": "weapon.tooltip.weapon.info.feature",
         "args": {},
@@ -566,11 +610,11 @@
     },
     {
       "type": "damage",
-      "startDamage": 37.258995,
+      "startDamage": 44.18323,
       "damageDecreaseStart": 30.0,
-      "endDamage": 31.873474,
+      "endDamage": 37.808537,
       "damageDecreaseEnd": 80.0,
-      "maxDistance": 170.0
+      "maxDistance": 175.0
     },
     {
       "type": "text",
