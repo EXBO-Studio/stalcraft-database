@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.crate.mini_crafted.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Самодельный мини-граната, 4 шт.",
-          "en": "When you use it, you’ll get:@- Handmade mini grenades, 4 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.exp.mini_crafted.name",
+            "args": {},
+            "lines": {
+              "ru": "Самодельная мини-граната",
+              "en": "Handmade Mini Grenade"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

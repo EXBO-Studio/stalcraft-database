@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.bag.9far.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Патроны 9 мм дальнобойные, 100 шт.",
-          "en": "When you use it, you’ll get:@- 9 mm long-range rounds, 100 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.amm.9far.name",
+            "args": {},
+            "lines": {
+              "ru": "Патрон 9 мм дальнобойный",
+              "en": "9 mm Long-Range Round"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

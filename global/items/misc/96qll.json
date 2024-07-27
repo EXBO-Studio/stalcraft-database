@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.crate.homemade_flashbang.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Самодельный светошум, 2 шт.",
-          "en": "When you use it, you’ll get:@- Handmade flashbang grenades, 2 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.exp.homemade_flashbang.name",
+            "args": {},
+            "lines": {
+              "ru": "Самодельный светошум",
+              "en": "Handmade Flashbang Grenade"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

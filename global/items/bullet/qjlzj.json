@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.bag.762sep.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Патроны 7.62 мм СЭП, 60 шт.",
-          "en": "When you use it, you’ll get:@- 7.62 mm SEP rounds, 60 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.amm.762sep.name",
+            "args": {},
+            "lines": {
+              "ru": "Патрон 7.62 мм СЭП",
+              "en": "7.62 mm SEP Round"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }
