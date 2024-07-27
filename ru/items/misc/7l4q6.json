@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.crate.homemade.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Кустарная граната, 2 шт.",
-          "en": "When you use it, you’ll get:@- Jury-rigged grenades, 2 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.exp.homemade.name",
+            "args": {},
+            "lines": {
+              "ru": "Кустарная граната",
+              "en": "Jury-Rigged Grenade"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.bag.12txc.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Патроны 12 калибра «Кислотный дракон», 40 шт.",
-          "en": "When you use it, you’ll get:@- 12 caliber Acid Dragon rounds, 40 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.amm.12txc.name",
+            "args": {},
+            "lines": {
+              "ru": "Патрон 12 калибра «Кислотный дракон»",
+              "en": "12 Caliber Acid Dragon Round"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.crate.craft_napalm.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- «Напалм», 2 шт.",
-          "en": "When you use it, you’ll get:@- Napalm grenades, 2 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.exp.craft_napalm.name",
+            "args": {},
+            "lines": {
+              "ru": "«Напалм»",
+              "en": "Napalm"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

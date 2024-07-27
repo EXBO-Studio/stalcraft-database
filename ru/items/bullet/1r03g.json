@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.bag.10inc.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Патроны 10 мм зажигательные, 100 шт.",
-          "en": "When you use it, you’ll get:@- 10 mm incendiary rounds, 100 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.amm.10inc.name",
+            "args": {},
+            "lines": {
+              "ru": "Патрон 10 мм зажигательный",
+              "en": "10 mm Incendiary Round"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

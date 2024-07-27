@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.crate.m381_crafted.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Самодельный M381, 2 шт.",
-          "en": "When you use it, you’ll get:@- Handmade M381 grenade rounds, 2 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.exp.m381_crafted.name",
+            "args": {},
+            "lines": {
+              "ru": "Самодельный выстрел M381",
+              "en": "Handmade M381 Round"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

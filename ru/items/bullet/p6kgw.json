@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.bag.127sft.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Патроны 12.7 мм Easy mode, 60 шт.",
-          "en": "When you use it, you’ll get:@- 12.7 mm Easy Mode rounds, 60 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.amm.127sft.name",
+            "args": {},
+            "lines": {
+              "ru": "Патрон 12.7 мм Easy mode",
+              "en": "12.7 mm Easy Mode Round"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

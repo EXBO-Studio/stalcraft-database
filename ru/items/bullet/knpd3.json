@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.bag.545sbp.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Патроны 5.45 мм СБП, 60 шт.",
-          "en": "When you use it, you’ll get:@- 5.45 mm SBP rounds, 60 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.amm.545sbp.name",
+            "args": {},
+            "lines": {
+              "ru": "Патрон 5.45 мм СБП",
+              "en": "5.45 mm SBP Round"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

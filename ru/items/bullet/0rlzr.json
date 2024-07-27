@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.bag.12inc.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Зажигательный патрон 12х76 мм, 40 шт.",
-          "en": "When you use it, you’ll get:@- 12x76 mm incendiary rounds, 40 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.amm.12inc.name",
+            "args": {},
+            "lines": {
+              "ru": "Зажигательные 12 калибра",
+              "en": "12 Caliber Incendiary"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

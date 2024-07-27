@@ -151,20 +151,37 @@
       ]
     },
     {
-      "type": "text",
+      "type": "list",
       "title": {
         "type": "text",
         "text": ""
       },
-      "text": {
-        "type": "translation",
-        "key": "item.bag.545inc.additional_stats_tip",
-        "args": {},
-        "lines": {
-          "ru": "При использовании вы получите:@- Патроны 5.45 мм зажигательные, 60 шт.",
-          "en": "When you use it, you’ll get:@- 5.45 mm incendiary rounds, 60 units."
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.amm.545inc.name",
+            "args": {},
+            "lines": {
+              "ru": "Патрон 5.45 мм зажигательный",
+              "en": "5.45 mm Incendiary Round"
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }
