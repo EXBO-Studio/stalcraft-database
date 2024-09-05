@@ -146,12 +146,13 @@
             "type": "translation",
             "key": "anomaly.tooltip.scanner.info.energy_value",
             "args": {
-              "currentEnergy": "1000",
-              "maxEnergy": "1000"
+              "currentEnergy": "1000.0",
+              "maxEnergy": "1000.0",
+              "energy": "100.0"
             },
             "lines": {
-              "ru": "1 000/1 000 mAh",
-              "en": "1,000/1,000 mAh"
+              "ru": "1000/1 000 mAh (100%)",
+              "en": "1000/1,000 mAh (100%)"
             }
           }
         },
