@@ -184,11 +184,11 @@
               "en": "Damage"
             }
           },
-          "value": 226.7073,
+          "value": 211.25,
           "formatted": {
             "value": {
-              "ru": "226,71 ед",
-              "en": "226.71 unit(s)"
+              "ru": "211,25 ед",
+              "en": "211.25 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -543,6 +543,20 @@
               "en": "Limb damage: х1"
             }
           }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
+            "args": {
+              "modifier": "3.5"
+            },
+            "lines": {
+              "ru": "Урон по мутантам: х3,5",
+              "en": "Damage to mutants: x3.5"
+            }
+          }
         }
       ]
     },
@@ -630,9 +644,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 226.7073,
+      "startDamage": 211.25,
       "damageDecreaseStart": 50.0,
-      "endDamage": 226.7073,
+      "endDamage": 211.25,
       "damageDecreaseEnd": 150.0,
       "maxDistance": 250.0
     },
