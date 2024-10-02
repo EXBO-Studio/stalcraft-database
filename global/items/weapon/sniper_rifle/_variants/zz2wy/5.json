@@ -184,11 +184,11 @@
               "en": "Damage"
             }
           },
-          "value": 50.350304,
+          "value": 49.718292,
           "formatted": {
             "value": {
-              "ru": "50,35 ед",
-              "en": "50.35 unit(s)"
+              "ru": "49,72 ед",
+              "en": "49.72 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -268,11 +268,11 @@
               "en": "Reload"
             }
           },
-          "value": 3.7,
+          "value": 3.5,
           "formatted": {
             "value": {
-              "ru": "3,7 с",
-              "en": "3.7 sec"
+              "ru": "3,5 с",
+              "en": "3.5 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -289,11 +289,11 @@
               "en": "Tactical Reload"
             }
           },
-          "value": 3.2,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "3,2 с",
-              "en": "3.2 sec"
+              "ru": "3 с",
+              "en": "3 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -394,11 +394,11 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 0.16,
+          "value": 0.15,
           "formatted": {
             "value": {
-              "ru": "0,16°",
-              "en": "0.16°"
+              "ru": "0,15°",
+              "en": "0.15°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -415,11 +415,11 @@
               "en": "Draw time"
             }
           },
-          "value": 0.95,
+          "value": 1.1,
           "formatted": {
             "value": {
-              "ru": "0,95 с",
-              "en": "0.95 sec"
+              "ru": "1,1 с",
+              "en": "1.1 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -436,11 +436,11 @@
               "en": "Aiming time"
             }
           },
-          "value": 0.27,
+          "value": 0.3,
           "formatted": {
             "value": {
-              "ru": "0,27 с",
-              "en": "0.27 sec"
+              "ru": "0,3 с",
+              "en": "0.3 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -562,62 +562,6 @@
     {
       "type": "list",
       "title": {
-        "type": "translation",
-        "key": "weapon.tooltip.weapon.info.attachment_stats",
-        "args": {},
-        "lines": {
-          "ru": "Характеристики обвесов",
-          "en": "Attachment properties"
-        }
-      },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.aim_switch_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость прицеливания",
-              "en": "Aim speed"
-            }
-          },
-          "value": -10.000002,
-          "formatted": {
-            "value": {
-              "ru": "+10%",
-              "en": "+10%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.draw_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость доставания",
-              "en": "Draw speed"
-            }
-          },
-          "value": -10.000002,
-          "formatted": {
-            "value": {
-              "ru": "+10%",
-              "en": "+10%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        }
-      ]
-    },
-    {
-      "type": "list",
-      "title": {
         "type": "text",
         "text": ""
       },
@@ -653,9 +597,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 50.350304,
+      "startDamage": 49.718292,
       "damageDecreaseStart": 30.0,
-      "endDamage": 44.451527,
+      "endDamage": 46.34756,
       "damageDecreaseEnd": 80.0,
       "maxDistance": 185.0
     },

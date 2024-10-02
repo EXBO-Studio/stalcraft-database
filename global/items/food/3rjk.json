@@ -139,11 +139,11 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "187.0"
+              "cost": "171.0"
             },
             "lines": {
-              "ru": "187 руб.",
-              "en": "187 rubles"
+              "ru": "171 руб.",
+              "en": "171 rubles"
             }
           }
         }
@@ -188,11 +188,11 @@
               "en": "Duration"
             }
           },
-          "value": 1140.0,
+          "value": 1260.0,
           "formatted": {
             "value": {
-              "ru": "19 мин",
-              "en": "19 min"
+              "ru": "21 мин",
+              "en": "21 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -235,6 +235,27 @@
             "value": {
               "ru": "1,1%",
               "en": "1.1%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "value": 12.0,
+          "formatted": {
+            "value": {
+              "ru": "12%",
+              "en": "12%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

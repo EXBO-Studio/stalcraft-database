@@ -93,7 +93,20 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -101,29 +114,7 @@
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "core.tooltip.energy",
-            "args": {},
-            "lines": {
-              "ru": "Энергия",
-              "en": "Energy"
-            }
-          },
-          "value": 30000.0,
-          "formatted": {
-            "value": {
-              "ru": "30000 ед",
-              "en": "30000 unit(s)"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
-          }
-        }
-      ]
+      "elements": []
     },
     {},
     {
@@ -174,6 +165,7 @@
           "en": "A unique development made by an international team of scientists. Mass production of these portable generators is not yet underway, but the unseen hands of the black market are already moving them in the Zone, for example."
         }
       }
-    }
+    },
+    {}
   ]
 }

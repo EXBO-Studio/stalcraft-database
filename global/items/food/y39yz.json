@@ -178,27 +178,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
-            }
-          },
-          "value": 16.0,
-          "formatted": {
-            "value": {
-              "ru": "16%",
-              "en": "16%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
@@ -220,18 +199,39 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration"
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
             }
           },
-          "value": 3.5,
+          "value": 10.7,
           "formatted": {
             "value": {
-              "ru": "3,5%",
-              "en": "3.5%"
+              "ru": "10,7",
+              "en": "10.7"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5%",
+              "en": "2.5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

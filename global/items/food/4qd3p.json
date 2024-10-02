@@ -178,6 +178,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality"
+            }
+          },
+          "value": 1.4,
+          "formatted": {
+            "value": {
+              "ru": "1,4%",
+              "en": "1.4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
@@ -199,18 +220,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration"
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration"
             }
           },
-          "value": 2.5,
+          "value": 3.5,
           "formatted": {
             "value": {
-              "ru": "2,5%",
-              "en": "2.5%"
+              "ru": "3,5%",
+              "en": "3.5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -220,39 +241,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.reaction_to_chemical_burn",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
             "args": {},
             "lines": {
-              "ru": "Реакция на хим. ожог",
-              "en": "Reaction to chemical burns"
+              "ru": "Кровотечение",
+              "en": "Bleeding"
             }
           },
-          "value": 4.0,
+          "value": -0.9,
           "formatted": {
             "value": {
-              "ru": "4%",
-              "en": "4%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.reaction_to_tear",
-            "args": {},
-            "lines": {
-              "ru": "Реакция на разрыв",
-              "en": "Reaction to laceration"
-            }
-          },
-          "value": 2.7,
-          "formatted": {
-            "value": {
-              "ru": "2,7%",
-              "en": "2.7%"
+              "ru": "-0,9",
+              "en": "-0.9"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -136,6 +136,38 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "175.0"
+            },
+            "lines": {
+              "ru": "175 руб.",
+              "en": "175 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "customitem.lore.command.info.usages_left",
             "args": {},
             "lines": {

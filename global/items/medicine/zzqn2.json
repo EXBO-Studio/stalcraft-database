@@ -1,0 +1,273 @@
+{
+  "id": "zzqn2",
+  "category": "medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.bady_tonic.name",
+    "args": {},
+    "lines": {
+      "ru": "Нейротоник",
+      "en": "Neurotonic"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.strength",
+            "args": {},
+            "lines": {
+              "ru": "Повышение силы",
+              "en": "Strength Improvement"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration"
+            }
+          },
+          "value": 510.0,
+          "formatted": {
+            "value": {
+              "ru": "8 мин 30 с",
+              "en": "8 min 30 sec"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison"
+            }
+          },
+          "value": 15.0,
+          "formatted": {
+            "value": {
+              "ru": "15",
+              "en": "15"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "value": 19.2,
+          "formatted": {
+            "value": {
+              "ru": "19,2%",
+              "en": "19.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
+            }
+          },
+          "value": 12.9,
+          "formatted": {
+            "value": {
+              "ru": "12,9",
+              "en": "12.9"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.bady_tonic.description",
+        "args": {},
+        "lines": {
+          "ru": "Значительно стимулирует функцию надпочечников и гипофиза. Поговаривают, может поднять даже мертвого, но проверять не рекомендуется.",
+          "en": "Significantly stimulates adrenal and pituitary function. It is said to even raise the dead, but it is not recommended to test this."
+        }
+      }
+    },
+    {}
+  ]
+}

@@ -117,6 +117,38 @@
       "elements": []
     },
     {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "500.0"
+            },
+            "lines": {
+              "ru": "500 руб.",
+              "en": "500 rubles"
+            }
+          }
+        }
+      ]
+    },
     {}
   ]
 }

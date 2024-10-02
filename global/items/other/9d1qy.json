@@ -93,7 +93,20 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -101,29 +114,7 @@
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "core.tooltip.energy",
-            "args": {},
-            "lines": {
-              "ru": "Энергия",
-              "en": "Energy"
-            }
-          },
-          "value": 7000.0,
-          "formatted": {
-            "value": {
-              "ru": "7000 ед",
-              "en": "7000 unit(s)"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
-          }
-        }
-      ]
+      "elements": []
     },
     {},
     {
@@ -173,6 +164,7 @@
           "en": "These experimental developments can currently only be found on the black market, as official production of them has been deemed illegal. The principle according to which these batteries function is based on the use of the Zone’s anomalous energy. Representatives of the scientific community assure us that anomalous batteries are not safe to use."
         }
       }
-    }
+    },
+    {}
   ]
 }

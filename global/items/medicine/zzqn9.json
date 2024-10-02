@@ -1,0 +1,301 @@
+{
+  "id": "zzqn9",
+  "category": "medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.unforgettable_mix.name",
+    "args": {},
+    "lines": {
+      "ru": "Коктейль «Незабываемый»",
+      "en": "Unforgettable Cocktail"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5 кг",
+              "en": "0.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.powerful_medicine",
+            "args": {},
+            "lines": {
+              "ru": "Мощное усиление",
+              "en": "Strong Boost"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration"
+            }
+          },
+          "value": 900.0,
+          "formatted": {
+            "value": {
+              "ru": "15 мин",
+              "en": "15 min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison"
+            }
+          },
+          "value": 50.0,
+          "formatted": {
+            "value": {
+              "ru": "50",
+              "en": "50"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality"
+            }
+          },
+          "value": 2.8,
+          "formatted": {
+            "value": {
+              "ru": "2,8%",
+              "en": "2.8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "value": 32.0,
+          "formatted": {
+            "value": {
+              "ru": "32%",
+              "en": "32%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
+            }
+          },
+          "value": 3.3,
+          "formatted": {
+            "value": {
+              "ru": "3,3%",
+              "en": "3.3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration"
+            }
+          },
+          "value": 4.9,
+          "formatted": {
+            "value": {
+              "ru": "4,9%",
+              "en": "4.9%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.unforgettable_mix.description",
+        "args": {},
+        "lines": {
+          "ru": "Толкает на подвиги. После трёх бутылок этого коктейля забываешь всё что угодно, кроме его вкуса.",
+          "en": "Inspires grate feats. After three bottles of this cocktail, you forget anything except its taste."
+        }
+      }
+    }
+  ]
+}

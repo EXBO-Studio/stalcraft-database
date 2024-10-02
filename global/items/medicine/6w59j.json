@@ -93,7 +93,20 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -263,6 +276,7 @@
           "en": "A cocktail of chemicals that quickly relieves pain and removes any feeling of fatigue. Toxic."
         }
       }
-    }
+    },
+    {}
   ]
 }
