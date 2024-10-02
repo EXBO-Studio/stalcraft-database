@@ -128,6 +128,38 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "479.0"
+            },
+            "lines": {
+              "ru": "479 руб.",
+              "en": "479 rubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "stalker.tooltip.medicine.info.effect_type",
             "args": {},
             "lines": {
@@ -137,11 +169,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.stamina",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost"
+              "ru": "Повышение выносливости",
+              "en": "Stamina Improvement"
             }
           }
         },
@@ -156,11 +188,11 @@
               "en": "Duration"
             }
           },
-          "value": 1140.0,
+          "value": 420.0,
           "formatted": {
             "value": {
-              "ru": "19 мин",
-              "en": "19 min"
+              "ru": "7 мин",
+              "en": "7 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -191,18 +223,60 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration"
+              "ru": "Выносливость",
+              "en": "Stamina"
             }
           },
-          "value": 1.9,
+          "value": 14.5,
           "formatted": {
             "value": {
-              "ru": "1,9%",
-              "en": "1.9%"
+              "ru": "14,5%",
+              "en": "14.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
+            }
+          },
+          "value": 0.8,
+          "formatted": {
+            "value": {
+              "ru": "0,8%",
+              "en": "0.8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration"
+            }
+          },
+          "value": 1.6,
+          "formatted": {
+            "value": {
+              "ru": "1,6%",
+              "en": "1.6%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

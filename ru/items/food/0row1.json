@@ -156,11 +156,11 @@
               "en": "Duration"
             }
           },
-          "value": 1140.0,
+          "value": 1380.0,
           "formatted": {
             "value": {
-              "ru": "19 мин",
-              "en": "19 min"
+              "ru": "23 мин",
+              "en": "23 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -170,11 +170,11 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "key": "stalker.tooltip.medicine.info.persistent",
             "args": {},
             "lines": {
-              "ru": "Эффект пропадает при смерти",
-              "en": "Effect wears off after death"
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death"
             }
           }
         }
@@ -191,6 +191,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "value": 12.8,
+          "formatted": {
+            "value": {
+              "ru": "12,8%",
+              "en": "12.8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
@@ -198,11 +219,11 @@
               "en": "Stamina regeneration"
             }
           },
-          "value": 2.7,
+          "value": 2.8,
           "formatted": {
             "value": {
-              "ru": "2,7%",
-              "en": "2.7%"
+              "ru": "2,8%",
+              "en": "2.8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -1,16 +1,16 @@
 {
-  "id": "179g",
+  "id": "401j",
   "category": "misc",
   "name": {
     "type": "translation",
-    "key": "item.misc.sleeve_blank.name",
+    "key": "item.misc.cold_fusion_battery.name",
     "args": {},
     "lines": {
-      "ru": "Заготовка для гильзы",
-      "en": "Casing Blank"
+      "ru": "Батарея холодного синтеза",
+      "en": "Cold fusion battery"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_MASTER",
   "status": {
     "state": "NON_DROP"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie"
+              "ru": "Мастер",
+              "en": "Master"
             }
           }
         },
@@ -93,20 +93,7 @@
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "usage",
-          "name": {
-            "type": "translation",
-            "key": "core.tooltip.used_in_crafts",
-            "args": {},
-            "lines": {
-              "ru": "Используется для крафтов",
-              "en": "Used for crafting"
-            }
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",
@@ -114,41 +101,46 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.energy",
+            "args": {},
+            "lines": {
+              "ru": "Энергия",
+              "en": "Energy"
+            }
+          },
+          "value": 5000.0,
+          "formatted": {
+            "value": {
+              "ru": "5000 ед",
+              "en": "5000 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
     },
     {},
     {
-      "type": "list",
+      "type": "text",
       "title": {
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "key-value",
-          "key": {
-            "type": "translation",
-            "key": "core.tooltip.info.base_price",
-            "args": {},
-            "lines": {
-              "ru": "Базовая цена продажи",
-              "en": "Base selling price"
-            }
-          },
-          "value": {
-            "type": "translation",
-            "key": "core.tooltip.info.rubles",
-            "args": {
-              "cost": "15.0"
-            },
-            "lines": {
-              "ru": "15 руб.",
-              "en": "15 rubles"
-            }
-          }
+      "text": {
+        "type": "translation",
+        "key": "item.misc.cold_fusion_battery.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Универсальная батарея, которая содержит колоссальные объемы энергии.",
+          "en": "Universal battery that contains immense amounts of energy."
         }
-      ]
-    },
-    {}
+      }
+    }
   ]
 }

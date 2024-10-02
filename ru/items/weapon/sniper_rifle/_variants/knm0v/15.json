@@ -184,11 +184,11 @@
               "en": "Damage"
             }
           },
-          "value": 149.375,
+          "value": 160.0,
           "formatted": {
             "value": {
-              "ru": "149,38 ед",
-              "en": "149.38 unit(s)"
+              "ru": "160 ед",
+              "en": "160 unit(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -522,11 +522,11 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.5"
+              "modifier": "1.4"
             },
             "lines": {
-              "ru": "Урон в голову: х1,5",
-              "en": "Headshot damage: x1.5"
+              "ru": "Урон в голову: х1,4",
+              "en": "Headshot damage: x1.4"
             }
           }
         },
@@ -631,9 +631,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 149.375,
+      "startDamage": 160.0,
       "damageDecreaseStart": 20.0,
-      "endDamage": 149.375,
+      "endDamage": 160.0,
       "damageDecreaseEnd": 60.0,
       "maxDistance": 200.0
     },
