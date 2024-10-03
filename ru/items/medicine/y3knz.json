@@ -196,11 +196,11 @@
               "en": "Poison"
             }
           },
-          "value": 135.0,
+          "value": 70.0,
           "formatted": {
             "value": {
-              "ru": "135",
-              "en": "135"
+              "ru": "70",
+              "en": "70"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -231,6 +231,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "value": 40.0,
+          "formatted": {
+            "value": {
+              "ru": "40%",
+              "en": "40%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.stopping_protection",
             "args": {},
             "lines": {
@@ -238,14 +259,35 @@
               "en": "Stability"
             }
           },
-          "value": 60.0,
+          "value": 80.0,
           "formatted": {
             "value": {
-              "ru": "60%",
-              "en": "60%"
+              "ru": "80%",
+              "en": "80%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5",
+              "en": "0.5"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         }
       ]
