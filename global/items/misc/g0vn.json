@@ -1,16 +1,16 @@
 {
-  "id": "dr9r2",
+  "id": "g0vn",
   "category": "misc",
   "name": {
     "type": "translation",
-    "key": "item.part.sledgehammer_1.name",
+    "key": "item.misc.canister_petrol.name",
     "args": {},
     "lines": {
-      "ru": "Часть Кувалды #1",
-      "en": "Sledgehammer Part #1"
+      "ru": "Канистра с бензином",
+      "en": "Canister of Gas"
     }
   },
-  "color": "RANK_LEGEND",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "NON_DROP"
   },
@@ -35,11 +35,11 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.legend",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Легенда",
-              "en": "Legend"
+              "ru": "Новичок",
+              "en": "Newbie"
             }
           }
         },
@@ -63,6 +63,27 @@
               "en": "Other"
             }
           }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 кг",
+              "en": "5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
         }
       ]
     },
@@ -80,9 +101,30 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.energy",
+            "args": {},
+            "lines": {
+              "ru": "Энергия",
+              "en": "Energy"
+            }
+          },
+          "value": 2000.0,
+          "formatted": {
+            "value": {
+              "ru": "2000 ед",
+              "en": "2000 unit(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
     },
-    {},
     {}
   ]
 }
