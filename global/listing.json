@@ -306,6 +306,74 @@
     }
   },
   {
+    "data": "/items/misc/g0vn.json",
+    "icon": "/icons/misc/g0vn.png",
+    "name": {
+      "type": "translation",
+      "key": "item.misc.canister_petrol.name",
+      "args": {},
+      "lines": {
+        "ru": "Канистра с бензином",
+        "en": "Canister of Gas"
+      }
+    },
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/misc/z7lk.json",
+    "icon": "/icons/misc/z7lk.png",
+    "name": {
+      "type": "translation",
+      "key": "item.misc.canister_diesel.name",
+      "args": {},
+      "lines": {
+        "ru": "Канистра с дизелем",
+        "en": "Canister of Diesel"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/misc/5dgo.json",
+    "icon": "/icons/misc/5dgo.png",
+    "name": {
+      "type": "translation",
+      "key": "item.misc.balon_propane.name",
+      "args": {},
+      "lines": {
+        "ru": "Баллон с пропаном",
+        "en": "Propane Tank"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/misc/y7j0.json",
+    "icon": "/icons/misc/y7j0.png",
+    "name": {
+      "type": "translation",
+      "key": "item.misc.balon_methane.name",
+      "args": {},
+      "lines": {
+        "ru": "Баллон с метаном",
+        "en": "Methane Tank"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
     "data": "/items/misc/wo6z.json",
     "icon": "/icons/misc/wo6z.png",
     "name": {
@@ -4074,7 +4142,7 @@
         "en": "Buryat Short Range Detector"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -4091,7 +4159,7 @@
         "en": "Elbrus Short Range Detector"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "RANK_MASTER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -8772,6 +8840,23 @@
     }
   },
   {
+    "data": "/items/misc/3gqkg.json",
+    "icon": "/icons/misc/3gqkg.png",
+    "name": {
+      "type": "translation",
+      "key": "item.misc.anomal_battery.name",
+      "args": {},
+      "lines": {
+        "ru": "Нестабильная аномальная батарея",
+        "en": "Unstable Anomalous Battery"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
     "data": "/items/misc/7l127.json",
     "icon": "/icons/misc/7l127.png",
     "name": {
@@ -8798,6 +8883,23 @@
       "lines": {
         "ru": "Хронопыль",
         "en": "Chronodust"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/misc/1rl61.json",
+    "icon": "/icons/misc/1rl61.png",
+    "name": {
+      "type": "translation",
+      "key": "item.misc.chronosphere.name",
+      "args": {},
+      "lines": {
+        "ru": "Хроносфера",
+        "en": "Chronosphere"
       }
     },
     "color": "RANK_VETERAN",
@@ -24777,7 +24879,7 @@
       "args": {},
       "lines": {
         "ru": "«Убийца Боли»",
-        "en": "Painkiller"
+        "en": "Pain Killer"
       }
     },
     "color": "RANK_MASTER",
@@ -28132,7 +28234,7 @@
     },
     "color": "RANK_LEGEND",
     "status": {
-      "state": "NONE"
+      "state": "NON_DROP"
     }
   },
   {
@@ -28149,7 +28251,7 @@
     },
     "color": "RANK_MASTER",
     "status": {
-      "state": "NONE"
+      "state": "NON_DROP"
     }
   },
   {
@@ -28166,7 +28268,7 @@
     },
     "color": "RANK_VETERAN",
     "status": {
-      "state": "NONE"
+      "state": "NON_DROP"
     }
   },
   {
@@ -28183,7 +28285,7 @@
     },
     "color": "RANK_STALKER",
     "status": {
-      "state": "NONE"
+      "state": "NON_DROP"
     }
   },
   {
