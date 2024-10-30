@@ -122,32 +122,11 @@
               "en": "Duration"
             }
           },
-          "value": 5.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "5 с",
-              "en": "5 sec"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.tooltip.medicine.info.toxicity",
-            "args": {},
-            "lines": {
-              "ru": "Отравление",
-              "en": "Poison"
-            }
-          },
-          "value": 50.0,
-          "formatted": {
-            "value": {
-              "ru": "50",
-              "en": "50"
+              "ru": "30 с",
+              "en": "30 sec"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -166,6 +145,111 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление радиации",
+              "en": "Radiation resistance"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75%",
+              "en": "75%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление температуре",
+              "en": "Thermal resistance"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75%",
+              "en": "75%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление биозаражению",
+              "en": "Bioinfection resistance"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75%",
+              "en": "75%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление пси-излучению",
+              "en": "Psy-emission resistance"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75%",
+              "en": "75%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление холоду",
+              "en": "Frost resistance"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75%",
+              "en": "75%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
@@ -173,11 +257,11 @@
               "en": "Radiation"
             }
           },
-          "value": -100.0,
+          "value": -20.0,
           "formatted": {
             "value": {
-              "ru": "-100",
-              "en": "-100"
+              "ru": "-20",
+              "en": "-20"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -194,11 +278,11 @@
               "en": "Temperature"
             }
           },
-          "value": -100.0,
+          "value": -20.0,
           "formatted": {
             "value": {
-              "ru": "-100",
-              "en": "-100"
+              "ru": "-20",
+              "en": "-20"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -215,11 +299,11 @@
               "en": "Biological infection"
             }
           },
-          "value": -100.0,
+          "value": -20.0,
           "formatted": {
             "value": {
-              "ru": "-100",
-              "en": "-100"
+              "ru": "-20",
+              "en": "-20"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -236,32 +320,11 @@
               "en": "Psy-emissions"
             }
           },
-          "value": -100.0,
+          "value": -20.0,
           "formatted": {
             "value": {
-              "ru": "-100",
-              "en": "-100"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Кровотечение",
-              "en": "Bleeding"
-            }
-          },
-          "value": -100.0,
-          "formatted": {
-            "value": {
-              "ru": "-100",
-              "en": "-100"
+              "ru": "-20",
+              "en": "-20"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -278,11 +341,11 @@
               "en": "Frost"
             }
           },
-          "value": -100.0,
+          "value": -20.0,
           "formatted": {
             "value": {
-              "ru": "-100",
-              "en": "-100"
+              "ru": "-20",
+              "en": "-20"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -292,18 +355,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "key": "stalker.artefact_properties.factor.toxic_accumulation",
             "args": {},
             "lines": {
-              "ru": "Горение",
-              "en": "Burning"
+              "ru": "Отравление",
+              "en": "Poison"
             }
           },
-          "value": -100.0,
+          "value": -20.0,
           "formatted": {
             "value": {
-              "ru": "-100",
-              "en": "-100"
+              "ru": "-20",
+              "en": "-20"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
