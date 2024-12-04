@@ -6,8 +6,8 @@
     "key": "item.misc.dead_bladder.name",
     "args": {},
     "lines": {
-      "ru": "Мочевой пузырь мертвеца",
-      "en": "Dead Man\u0027s Bladder"
+      "ru": "Опухоль мертвеца",
+      "en": "Corpse Tumor"
     }
   },
   "color": "DEFAULT",
@@ -127,6 +127,22 @@
           }
         }
       ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.dead_bladder.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Болезненного вида аномальное органическое образование. Если взять в руку, можно почувствовать легкую пульсацию. Название получило из-за внешнего сходства с раковой опухолью на четвертой стадии заболевания.",
+          "en": "Painful-looking anomalous organic growth. When held in hand, a slight pulsation can be felt. Named for its resemblance to stage four cancer tumor."
+        }
+      }
     },
     {}
   ]

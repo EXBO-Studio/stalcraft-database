@@ -133,11 +133,11 @@
               "en": "Number of projectiles"
             }
           },
-          "value": 20.0,
+          "value": 12.0,
           "formatted": {
             "value": {
-              "ru": "20",
-              "en": "20"
+              "ru": "12",
+              "en": "12"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -177,6 +177,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread"
+            }
+          },
+          "value": 200.0,
+          "formatted": {
+            "value": {
+              "ru": "+200%",
+              "en": "+200%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.tooltip.bullet.stat_name.stopping_power",
             "args": {},
             "lines": {
@@ -184,11 +205,53 @@
               "en": "Stopping power"
             }
           },
-          "value": 100.0,
+          "value": 69.99999,
           "formatted": {
             "value": {
-              "ru": "+100",
-              "en": "+100"
+              "ru": "+70",
+              "en": "+70"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.armor_plate_damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон по броне",
+              "en": "Damage to armor"
+            }
+          },
+          "value": -50.0,
+          "formatted": {
+            "value": {
+              "ru": "-50%",
+              "en": "-50%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.mobs_damage_multiplier",
+            "args": {},
+            "lines": {
+              "ru": "Модификатор урона по мутантам",
+              "en": "Damage modifier on mutants"
+            }
+          },
+          "value": 50.0,
+          "formatted": {
+            "value": {
+              "ru": "+50%",
+              "en": "+50%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

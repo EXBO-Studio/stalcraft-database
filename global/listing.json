@@ -840,8 +840,8 @@
       "key": "item.misc.dead_bladder.name",
       "args": {},
       "lines": {
-        "ru": "Мочевой пузырь мертвеца",
-        "en": "Dead Man\u0027s Bladder"
+        "ru": "Опухоль мертвеца",
+        "en": "Corpse Tumor"
       }
     },
     "color": "DEFAULT",
@@ -4245,6 +4245,74 @@
       }
     },
     "color": "RANK_NEWBIE",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/9r2l.json",
+    "icon": "/icons/other/9r2l.png",
+    "name": {
+      "type": "translation",
+      "key": "item.keyholder.small.name",
+      "args": {},
+      "lines": {
+        "ru": "Маленькая ключница",
+        "en": "Small Key Holder"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/156g.json",
+    "icon": "/icons/other/156g.png",
+    "name": {
+      "type": "translation",
+      "key": "item.keyholder.medium.name",
+      "args": {},
+      "lines": {
+        "ru": "Ключница",
+        "en": "Key Holder"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/g6w6.json",
+    "icon": "/icons/other/g6w6.png",
+    "name": {
+      "type": "translation",
+      "key": "item.keyholder.big.name",
+      "args": {},
+      "lines": {
+        "ru": "Большая ключница",
+        "en": "Large Key Holder"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/zd6y.json",
+    "icon": "/icons/other/zd6y.png",
+    "name": {
+      "type": "translation",
+      "key": "item.keyholder.large.name",
+      "args": {},
+      "lines": {
+        "ru": "Особая ключница",
+        "en": "Special Key Holder"
+      }
+    },
+    "color": "RANK_MASTER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -14824,6 +14892,23 @@
     }
   },
   {
+    "data": "/items/weapon/assault_rifle/7lrm3.json",
+    "icon": "/icons/weapon/assault_rifle/7lrm3.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.fal_old.name",
+      "args": {},
+      "lines": {
+        "ru": "Старый FN FAL",
+        "en": "Old FN FAL"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/weapon/assault_rifle/zz7y2.json",
     "icon": "/icons/weapon/assault_rifle/zz7y2.png",
     "name": {
@@ -16635,6 +16720,23 @@
       "lines": {
         "ru": "SIG Sauer P320",
         "en": "Sig Sauer P320"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/weapon/pistol/vj297.json",
+    "icon": "/icons/weapon/pistol/vj297.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.glock18x.name",
+      "args": {},
+      "lines": {
+        "ru": "Glock 18X",
+        "en": "Glock 18X"
       }
     },
     "color": "RANK_MASTER",
@@ -21216,6 +21318,23 @@
     }
   },
   {
+    "data": "/items/attachment/mag/96pmy.json",
+    "icon": "/icons/attachment/mag/96pmy.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.mag_pmag556gen2.name",
+      "args": {},
+      "lines": {
+        "ru": "Магазин PMAG GEN2 M2 MOE",
+        "en": "PMAG GEN2 M2 MOE Magazine"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/attachment/mag/5lpgq.json",
     "icon": "/icons/attachment/mag/5lpgq.png",
     "name": {
@@ -21602,6 +21721,74 @@
       }
     },
     "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/mag/qjwk3.json",
+    "icon": "/icons/attachment/mag/qjwk3.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.mag_545waffle.name",
+      "args": {},
+      "lines": {
+        "ru": "Магазин 5.45 «Вафля»",
+        "en": "5.45 \"Waffle\" Magazine"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/mag/j521g.json",
+    "icon": "/icons/attachment/mag/j521g.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.mag_sg545.name",
+      "args": {},
+      "lines": {
+        "ru": "Магазин MAG SG545",
+        "en": "AKM Airforce Magazine"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/mag/ly1zo.json",
+    "icon": "/icons/attachment/mag/ly1zo.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.mag_trooper762.name",
+      "args": {},
+      "lines": {
+        "ru": "Магазин АКМ десантный",
+        "en": "AKM Airborne Magazine"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/mag/rw4qy.json",
+    "icon": "/icons/attachment/mag/rw4qy.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.mag_pmag76239.name",
+      "args": {},
+      "lines": {
+        "ru": "Магазин Magpul PMAG 7.62x39",
+        "en": "Magpul PMAG 7.62x39 Magazine"
+      }
+    },
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -24064,6 +24251,23 @@
       "lines": {
         "ru": "Бронекостюм «КЗ-4»",
         "en": "CD-4 Armored Suit"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/scientist/ly3w1.json",
+    "icon": "/icons/armor/scientist/ly3w1.png",
+    "name": {
+      "type": "translation",
+      "key": "item.arm.antares.name",
+      "args": {},
+      "lines": {
+        "ru": "Экзокостюм «Антарес»",
+        "en": "Antares Exosuit"
       }
     },
     "color": "RANK_MASTER",
