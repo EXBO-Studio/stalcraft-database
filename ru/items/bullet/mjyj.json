@@ -124,11 +124,11 @@
               "en": "Chemical damage"
             }
           },
-          "value": 10.0,
+          "value": 5.5,
           "formatted": {
             "value": {
-              "ru": "10%",
-              "en": "10%"
+              "ru": "5,5%",
+              "en": "5.5%"
             },
             "nameColor": "F1AA21",
             "valueColor": "F1AA21"
@@ -154,11 +154,11 @@
               "en": "Number of projectiles"
             }
           },
-          "value": 20.0,
+          "value": 8.0,
           "formatted": {
             "value": {
-              "ru": "20",
-              "en": "20"
+              "ru": "8",
+              "en": "8"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -198,6 +198,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "+100%",
+              "en": "+100%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.tooltip.bullet.stat_name.stopping_power",
             "args": {},
             "lines": {
@@ -205,14 +226,35 @@
               "en": "Stopping power"
             }
           },
-          "value": 75.0,
+          "value": 70.0,
           "formatted": {
             "value": {
-              "ru": "+75",
-              "en": "+75"
+              "ru": "+70",
+              "en": "+70"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.armor_plate_damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон по броне",
+              "en": "Damage to armor"
+            }
+          },
+          "value": -35.000004,
+          "formatted": {
+            "value": {
+              "ru": "-35%",
+              "en": "-35%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         }
       ]

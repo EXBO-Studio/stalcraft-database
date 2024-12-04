@@ -226,11 +226,11 @@
               "en": "Maximum distance"
             }
           },
-          "value": 40.0,
+          "value": 70.0,
           "formatted": {
             "value": {
-              "ru": "40 м",
-              "en": "40 m"
+              "ru": "70 м",
+              "en": "70 m"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -331,11 +331,11 @@
               "en": "Spread"
             }
           },
-          "value": 1.5,
+          "value": 0.5,
           "formatted": {
             "value": {
-              "ru": "1,5°",
-              "en": "1.5°"
+              "ru": "0,5°",
+              "en": "0.5°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -352,11 +352,11 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 3.0,
+          "value": 2.25,
           "formatted": {
             "value": {
-              "ru": "3°",
-              "en": "3°"
+              "ru": "2,25°",
+              "en": "2.25°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -459,29 +459,7 @@
           "en": "Additional properties"
         }
       },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.info.stopping_power",
-            "args": {},
-            "lines": {
-              "ru": "Останавливающее действие",
-              "en": "Stopping power"
-            }
-          },
-          "value": 150.0,
-          "formatted": {
-            "value": {
-              "ru": "150",
-              "en": "150"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",
@@ -515,11 +493,11 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.75"
+              "modifier": "0.8"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,75",
-              "en": "Limb damage: х0.75"
+              "ru": "Урон по конечностям: х0,8",
+              "en": "Limb damage: х0.8"
             }
           }
         },
@@ -611,10 +589,10 @@
     {
       "type": "damage",
       "startDamage": 101.52439,
-      "damageDecreaseStart": 3.0,
-      "endDamage": 45.685974,
-      "damageDecreaseEnd": 12.0,
-      "maxDistance": 40.0
+      "damageDecreaseStart": 4.0,
+      "endDamage": 35.533535,
+      "damageDecreaseEnd": 28.0,
+      "maxDistance": 70.0
     },
     {
       "type": "text",

@@ -126,6 +126,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.distance",
+            "args": {},
+            "lines": {
+              "ru": "Дистанция",
+              "en": "Distance"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "+25%",
+              "en": "+25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.tooltip.bullet.stat_name.piercing",
             "args": {},
             "lines": {
@@ -133,11 +154,11 @@
               "en": "Armor-penetration"
             }
           },
-          "value": 20.0,
+          "value": 10.0,
           "formatted": {
             "value": {
-              "ru": "+20%",
-              "en": "+20%"
+              "ru": "+10%",
+              "en": "+10%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -168,39 +189,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.bullet.stat_name.spread",
+            "key": "weapon.tooltip.bullet.stat_name.stopping_power",
             "args": {},
             "lines": {
-              "ru": "Разброс",
-              "en": "Spread"
+              "ru": "Останавливающее действие",
+              "en": "Stopping power"
             }
           },
-          "value": -60.000004,
+          "value": 70.0,
           "formatted": {
             "value": {
-              "ru": "-60%",
-              "en": "-60%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.hip_spread",
-            "args": {},
-            "lines": {
-              "ru": "Разброс от бедра",
-              "en": "Hip-fire spread"
-            }
-          },
-          "value": -50.0,
-          "formatted": {
-            "value": {
-              "ru": "-50%",
-              "en": "-50%"
+              "ru": "+70",
+              "en": "+70"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

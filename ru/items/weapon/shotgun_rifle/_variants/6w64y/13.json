@@ -226,11 +226,11 @@
               "en": "Maximum distance"
             }
           },
-          "value": 60.0,
+          "value": 75.0,
           "formatted": {
             "value": {
-              "ru": "60 м",
-              "en": "60 m"
+              "ru": "75 м",
+              "en": "75 m"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -247,11 +247,11 @@
               "en": "Rate of fire"
             }
           },
-          "value": 85.0,
+          "value": 65.0,
           "formatted": {
             "value": {
-              "ru": "85 выстр/мин",
-              "en": "85 shots/min"
+              "ru": "65 выстр/мин",
+              "en": "65 shots/min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -331,11 +331,11 @@
               "en": "Spread"
             }
           },
-          "value": 2.0,
+          "value": 0.39999998,
           "formatted": {
             "value": {
-              "ru": "2°",
-              "en": "2°"
+              "ru": "0,4°",
+              "en": "0.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -352,11 +352,11 @@
               "en": "Hip-fire spread"
             }
           },
-          "value": 3.0,
+          "value": 2.25,
           "formatted": {
             "value": {
-              "ru": "3°",
-              "en": "3°"
+              "ru": "2,25°",
+              "en": "2.25°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -394,11 +394,11 @@
               "en": "Horizontal recoil"
             }
           },
-          "value": 1.5,
+          "value": 2.0,
           "formatted": {
             "value": {
-              "ru": "1,5°",
-              "en": "1.5°"
+              "ru": "2°",
+              "en": "2°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -459,29 +459,7 @@
           "en": "Additional properties"
         }
       },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.info.stopping_power",
-            "args": {},
-            "lines": {
-              "ru": "Останавливающее действие",
-              "en": "Stopping power"
-            }
-          },
-          "value": 150.0,
-          "formatted": {
-            "value": {
-              "ru": "150",
-              "en": "150"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",
@@ -515,11 +493,11 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.75"
+              "modifier": "0.8"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,75",
-              "en": "Limb damage: х0.75"
+              "ru": "Урон по конечностям: х0,8",
+              "en": "Limb damage: х0.8"
             }
           }
         },
@@ -611,10 +589,10 @@
     {
       "type": "damage",
       "startDamage": 227.12196,
-      "damageDecreaseStart": 3.0,
-      "endDamage": 102.20489,
-      "damageDecreaseEnd": 17.0,
-      "maxDistance": 60.0
+      "damageDecreaseStart": 8.0,
+      "endDamage": 79.49268,
+      "damageDecreaseEnd": 55.0,
+      "maxDistance": 75.0
     },
     {
       "type": "text",

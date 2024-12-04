@@ -126,6 +126,27 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.distance",
+            "args": {},
+            "lines": {
+              "ru": "Дистанция",
+              "en": "Distance"
+            }
+          },
+          "value": 12.5,
+          "formatted": {
+            "value": {
+              "ru": "+12,5%",
+              "en": "+12.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.tooltip.bullet.stat_name.bleeding",
             "args": {},
             "lines": {
@@ -147,39 +168,18 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.bullet.stat_name.spread",
+            "key": "weapon.tooltip.bullet.stat_name.stopping_power",
             "args": {},
             "lines": {
-              "ru": "Разброс",
-              "en": "Spread"
+              "ru": "Останавливающее действие",
+              "en": "Stopping power"
             }
           },
-          "value": -60.000004,
+          "value": 70.0,
           "formatted": {
             "value": {
-              "ru": "-60%",
-              "en": "-60%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.hip_spread",
-            "args": {},
-            "lines": {
-              "ru": "Разброс от бедра",
-              "en": "Hip-fire spread"
-            }
-          },
-          "value": -50.0,
-          "formatted": {
-            "value": {
-              "ru": "-50%",
-              "en": "-50%"
+              "ru": "+70",
+              "en": "+70"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
