@@ -5423,23 +5423,6 @@
     }
   },
   {
-    "data": "/items/artefact/thermal/4lgj.json",
-    "icon": "/icons/artefact/thermal/4lgj.png",
-    "name": {
-      "type": "translation",
-      "key": "item.11455.name",
-      "args": {},
-      "lines": {
-        "ru": "Бритва",
-        "en": "Razor"
-      }
-    },
-    "color": "DEFAULT",
-    "status": {
-      "state": "NON_DROP"
-    }
-  },
-  {
     "data": "/items/artefact/thermal/kqoj.json",
     "icon": "/icons/artefact/thermal/kqoj.png",
     "name": {
@@ -5806,6 +5789,74 @@
       "lines": {
         "ru": "Утепленная пластина V",
         "en": "Insulated Plate V"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/other/rg7y.json",
+    "icon": "/icons/other/rg7y.png",
+    "name": {
+      "type": "translation",
+      "key": "item.plate.radiator1.name",
+      "args": {},
+      "lines": {
+        "ru": "Экспериментальная термопластина I",
+        "en": "Experimental Thermoplate I"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/other/0nzy.json",
+    "icon": "/icons/other/0nzy.png",
+    "name": {
+      "type": "translation",
+      "key": "item.plate.radiator2.name",
+      "args": {},
+      "lines": {
+        "ru": "Экспериментальная термопластина II",
+        "en": "Experimental Thermoplate II"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/other/m372.json",
+    "icon": "/icons/other/m372.png",
+    "name": {
+      "type": "translation",
+      "key": "item.plate.radiator3.name",
+      "args": {},
+      "lines": {
+        "ru": "Экспериментальная термопластина III",
+        "en": "Experimental Thermoplate III"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/other/o37m.json",
+    "icon": "/icons/other/o37m.png",
+    "name": {
+      "type": "translation",
+      "key": "item.plate.radiator4.name",
+      "args": {},
+      "lines": {
+        "ru": "Экспериментальная термопластина IV",
+        "en": "Experimental Thermoplate IV"
       }
     },
     "color": "DEFAULT",
@@ -17901,6 +17952,23 @@
     }
   },
   {
+    "data": "/items/weapon/heavy/knv1p.json",
+    "icon": "/icons/weapon/heavy/knv1p.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.frostthrower.name",
+      "args": {},
+      "lines": {
+        "ru": "«Хладомет»",
+        "en": "Frostthrower"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/weapon/heavy/zzl6m.json",
     "icon": "/icons/weapon/heavy/zzl6m.png",
     "name": {
@@ -19049,6 +19117,23 @@
       "lines": {
         "ru": "ZIVCAS Valor",
         "en": "ZIVCAS Valor"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/weapon/melee/ok9j5.json",
+    "icon": "/icons/weapon/melee/ok9j5.png",
+    "name": {
+      "type": "translation",
+      "key": "item.melee.britva_frost.name",
+      "args": {},
+      "lines": {
+        "ru": "Морозная бритва",
+        "en": "Frost Razor"
       }
     },
     "color": "RANK_MASTER",
@@ -24883,6 +24968,23 @@
       }
     },
     "color": "RANK_STALKER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/combined/m03w7.json",
+    "icon": "/icons/armor/combined/m03w7.png",
+    "name": {
+      "type": "translation",
+      "key": "item.arm.zivcas_commander.name",
+      "args": {},
+      "lines": {
+        "ru": "Бронекостюм ZIVCAS M2-C",
+        "en": "ZIVCAS M2-C Armored Suit"
+      }
+    },
+    "color": "RANK_LEGEND",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
