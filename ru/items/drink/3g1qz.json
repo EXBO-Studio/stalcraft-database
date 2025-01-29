@@ -7,7 +7,8 @@
     "args": {},
     "lines": {
       "ru": "Водка",
-      "en": "Vodka"
+      "en": "Vodka",
+      "es": "Vodka"
     }
   },
   "color": "RANK_STALKER",
@@ -30,7 +31,8 @@
             "args": {},
             "lines": {
               "ru": "Ранг",
-              "en": "Rank"
+              "en": "Rank",
+              "es": "Rango"
             }
           },
           "value": {
@@ -39,7 +41,8 @@
             "args": {},
             "lines": {
               "ru": "Сталкер",
-              "en": "Stalker"
+              "en": "Stalker",
+              "es": "Acechador"
             }
           }
         },
@@ -51,7 +54,8 @@
             "args": {},
             "lines": {
               "ru": "Класс",
-              "en": "Class"
+              "en": "Class",
+              "es": "Clase"
             }
           },
           "value": {
@@ -60,7 +64,8 @@
             "args": {},
             "lines": {
               "ru": "Напитки",
-              "en": "Beverages"
+              "en": "Beverages",
+              "es": "Bebidas"
             }
           }
         },
@@ -72,14 +77,16 @@
             "args": {},
             "lines": {
               "ru": "Вес",
-              "en": "Weight"
+              "en": "Weight",
+              "es": "Peso"
             }
           },
           "value": 0.5,
           "formatted": {
             "value": {
               "ru": "0,5 кг",
-              "en": "0.5 kg"
+              "en": "0.5 kg",
+              "es": "0,5 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -102,7 +109,8 @@
             "args": {},
             "lines": {
               "ru": "Используется для крафтов",
-              "en": "Used for crafting"
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear"
             }
           }
         }
@@ -132,16 +140,18 @@
             "args": {},
             "lines": {
               "ru": "Назначение",
-              "en": "Purpose"
+              "en": "Purpose",
+              "es": "Propósito"
             }
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_antirad",
+            "key": "item.effects.effect_type.low_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабый вывод радиации",
-              "en": "Weak Radiation Cleansing"
+              "ru": "Слабое усиление",
+              "en": "Weak Boost",
+              "es": "Impulso débil"
             }
           }
         },
@@ -153,14 +163,16 @@
             "args": {},
             "lines": {
               "ru": "Время действия",
-              "en": "Duration"
+              "en": "Duration",
+              "es": "Duración"
             }
           },
           "value": 600.0,
           "formatted": {
             "value": {
               "ru": "10 мин",
-              "en": "10 min"
+              "en": "10 min",
+              "es": "10 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -174,7 +186,8 @@
             "args": {},
             "lines": {
               "ru": "Эффект не пропадает при смерти",
-              "en": "Effect does not wear off after death"
+              "en": "Effect does not wear off after death",
+              "es": "El efecto no desaparece tras la muerte"
             }
           }
         }
@@ -195,14 +208,16 @@
             "args": {},
             "lines": {
               "ru": "Радиация",
-              "en": "Radiation"
+              "en": "Radiation",
+              "es": "Radiación"
             }
           },
           "value": -1.5,
           "formatted": {
             "value": {
               "ru": "-1,5",
-              "en": "-1.5"
+              "en": "-1.5",
+              "es": "-1,5"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -222,7 +237,8 @@
         "args": {},
         "lines": {
           "ru": "Согревает и медленно выводит радиацию из организма, но имеет побочные эффекты.",
-          "en": "Warms and slowly removes radiation from the body, but has side effects."
+          "en": "Warms and slowly removes radiation from the body, but has side effects.",
+          "es": "Calienta y elimina lentamente la radiación del cuerpo, pero tiene efectos secundarios."
         }
       }
     },

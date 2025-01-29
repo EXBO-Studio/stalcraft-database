@@ -7,7 +7,8 @@
     "args": {},
     "lines": {
       "ru": "Крупнокалиберный самодельный патрон",
-      "en": "Large-Caliber Handmade Round"
+      "en": "Large-Caliber Handmade Round",
+      "es": "Munición casera de gran calibre"
     }
   },
   "color": "DEFAULT",
@@ -30,7 +31,8 @@
             "args": {},
             "lines": {
               "ru": "Класс",
-              "en": "Class"
+              "en": "Class",
+              "es": "Clase"
             }
           },
           "value": {
@@ -39,7 +41,8 @@
             "args": {},
             "lines": {
               "ru": "Патроны",
-              "en": "Rounds"
+              "en": "Rounds",
+              "es": "Munición"
             }
           }
         },
@@ -51,14 +54,16 @@
             "args": {},
             "lines": {
               "ru": "Вес",
-              "en": "Weight"
+              "en": "Weight",
+              "es": "Peso"
             }
           },
           "value": 0.2,
           "formatted": {
             "value": {
               "ru": "0,2 кг",
-              "en": "0.2 kg"
+              "en": "0.2 kg",
+              "es": "0,2 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -97,7 +102,8 @@
             "args": {},
             "lines": {
               "ru": "Бронебойный патрон",
-              "en": "Armor-piercing Round"
+              "en": "Armor-piercing Round",
+              "es": "Munición perforante"
             }
           }
         },
@@ -109,7 +115,8 @@
             "args": {},
             "lines": {
               "ru": "Высокая пробиваемость",
-              "en": "High penetration"
+              "en": "High penetration",
+              "es": "Penetración alta"
             }
           }
         },
@@ -121,14 +128,16 @@
             "args": {},
             "lines": {
               "ru": "Огненный урон",
-              "en": "Fire damage"
+              "en": "Fire damage",
+              "es": "Daño de fuego"
             }
           },
           "value": 11.5,
           "formatted": {
             "value": {
               "ru": "11,5%",
-              "en": "11.5%"
+              "en": "11.5%",
+              "es": "11,5 %"
             },
             "nameColor": "F1AA21",
             "valueColor": "F1AA21"
@@ -147,18 +156,43 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.tooltip.bullet.stat_name.combustion",
+            "key": "weapon.tooltip.bullet.stat_name.bleeding",
             "args": {},
             "lines": {
-              "ru": "Горение",
-              "en": "Burning"
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia"
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "+100%",
-              "en": "+100%"
+              "en": "+100%",
+              "es": "+100 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.combustion",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "+100%",
+              "en": "+100%",
+              "es": "+100 %"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -172,14 +206,16 @@
             "args": {},
             "lines": {
               "ru": "Останавливающее действие",
-              "en": "Stopping power"
+              "en": "Stopping power",
+              "es": "Poder de parada"
             }
           },
-          "value": 200.0,
+          "value": 500.0,
           "formatted": {
             "value": {
-              "ru": "+200",
-              "en": "+200"
+              "ru": "+500",
+              "en": "+500",
+              "es": "+500"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

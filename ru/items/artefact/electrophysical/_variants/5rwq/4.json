@@ -7,7 +7,8 @@
     "args": {},
     "lines": {
       "ru": "Осколок",
-      "en": "Shard"
+      "en": "Shard",
+      "es": "Fragmento"
     }
   },
   "color": "DEFAULT",
@@ -30,7 +31,8 @@
             "args": {},
             "lines": {
               "ru": "Класс",
-              "en": "Class"
+              "en": "Class",
+              "es": "Clase"
             }
           },
           "value": {
@@ -39,7 +41,8 @@
             "args": {},
             "lines": {
               "ru": "Электрофизические",
-              "en": "Electrophysical"
+              "en": "Electrophysical",
+              "es": "Electrofísica"
             }
           }
         },
@@ -51,14 +54,16 @@
             "args": {},
             "lines": {
               "ru": "Вес",
-              "en": "Weight"
+              "en": "Weight",
+              "es": "Peso"
             }
           },
           "value": 0.2,
           "formatted": {
             "value": {
               "ru": "0,2 кг",
-              "en": "0.2 kg"
+              "en": "0.2 kg",
+              "es": "0,2 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -97,7 +102,8 @@
             "args": {},
             "lines": {
               "ru": "Базовая цена продажи",
-              "en": "Base selling price"
+              "en": "Base selling price",
+              "es": "Precio de venta base"
             }
           },
           "value": {
@@ -108,7 +114,8 @@
             },
             "lines": {
               "ru": "24 000 руб.",
-              "en": "24,000 rubles"
+              "en": "24,000 rubles",
+              "es": "24.000 rublos"
             }
           }
         }
@@ -129,7 +136,8 @@
             "args": {},
             "lines": {
               "ru": "Обычный",
-              "en": "Common"
+              "en": "Common",
+              "es": "Común"
             }
           },
           "value": {
@@ -138,7 +146,8 @@
             "args": {},
             "lines": {
               "ru": "Не исследовано",
-              "en": "Not studied"
+              "en": "Not studied",
+              "es": "No estudiado"
             }
           }
         }
@@ -159,7 +168,8 @@
             "args": {},
             "lines": {
               "ru": "Свежесть",
-              "en": "Freshness"
+              "en": "Freshness",
+              "es": "Frescura"
             }
           },
           "value": {
@@ -175,14 +185,16 @@
             "args": {},
             "lines": {
               "ru": "Заряд",
-              "en": "Charge"
+              "en": "Charge",
+              "es": "Carga"
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -196,14 +208,16 @@
             "args": {},
             "lines": {
               "ru": "Макс. заряд",
-              "en": "Max. charge"
+              "en": "Max. charge",
+              "es": "Carga máx."
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -226,7 +240,8 @@
             "args": {},
             "lines": {
               "ru": "Живучесть",
-              "en": "Vitality"
+              "en": "Vitality",
+              "es": "Vitalidad"
             }
           },
           "min": 1.026,
@@ -234,7 +249,8 @@
           "formatted": {
             "value": {
               "ru": "[+1,03%; +2,05%]",
-              "en": "[+1.03%; +2.05%]"
+              "en": "[+1.03%; +2.05%]",
+              "es": "[+1,03 %; +2,05 %]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -248,7 +264,8 @@
             "args": {},
             "lines": {
               "ru": "Эффективность лечения",
-              "en": "Healing effectiveness"
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación"
             }
           },
           "min": 4.698,
@@ -256,7 +273,8 @@
           "formatted": {
             "value": {
               "ru": "[+4,7%; +9,4%]",
-              "en": "[+4.7%; +9.4%]"
+              "en": "[+4.7%; +9.4%]",
+              "es": "[+4,7 %; +9,4 %]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -270,7 +288,8 @@
             "args": {},
             "lines": {
               "ru": "Биологическое заражение",
-              "en": "Biological infection"
+              "en": "Biological infection",
+              "es": "Infección biológica"
             }
           },
           "min": 1.25,
@@ -278,7 +297,8 @@
           "formatted": {
             "value": {
               "ru": "[+1,25; +2,5]",
-              "en": "[+1.25; +2.5]"
+              "en": "[+1.25; +2.5]",
+              "es": "[+1,25; +2,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -298,7 +318,8 @@
         "args": {},
         "lines": {
           "ru": "Артефакт похож на осколок какого-то дешевого кристалла, но пусть вас не вводит в заблуждение его дешевый вид. Данный артефакт повышает живучесть владельца, позволяя пережить практически смертельные ранения. Тем не менее, артефакт состоит из токсичных веществ и может быть опасен без должной защиты.",
-          "en": "An artifact that resembles a shard of cheap crystal. Don’t let its appearance deceive you, though—this artifact increases the owner’s vitality, allowing them to survive nearly fatal wounds. However, the artifact is made of toxic substances and could be dangerous without the necessary protection."
+          "en": "An artifact that resembles a shard of cheap crystal. Don’t let its appearance deceive you, though—this artifact increases the owner’s vitality, allowing them to survive nearly fatal wounds. However, the artifact is made of toxic substances and could be dangerous without the necessary protection.",
+          "es": "Un artefacto que se asemeja a un fragmento de cristal barato. Pero no te dejes engañar por su aspecto: este artefacto aumenta la vitalidad de su propietario, lo que le permite sobrevivir a heridas casi mortales. Sin embargo, el artefacto está hecho de sustancias tóxicas y podría ser peligroso sin la protección necesaria."
         }
       }
     }

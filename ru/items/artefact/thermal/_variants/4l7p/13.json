@@ -7,7 +7,8 @@
     "args": {},
     "lines": {
       "ru": "Гребешок",
-      "en": "Scallop"
+      "en": "Scallop",
+      "es": "Vieira"
     }
   },
   "color": "DEFAULT",
@@ -30,7 +31,8 @@
             "args": {},
             "lines": {
               "ru": "Класс",
-              "en": "Class"
+              "en": "Class",
+              "es": "Clase"
             }
           },
           "value": {
@@ -39,7 +41,8 @@
             "args": {},
             "lines": {
               "ru": "Термические",
-              "en": "Thermal"
+              "en": "Thermal",
+              "es": "Térmico"
             }
           }
         },
@@ -51,14 +54,16 @@
             "args": {},
             "lines": {
               "ru": "Вес",
-              "en": "Weight"
+              "en": "Weight",
+              "es": "Peso"
             }
           },
           "value": 0.1,
           "formatted": {
             "value": {
               "ru": "0,1 кг",
-              "en": "0.1 kg"
+              "en": "0.1 kg",
+              "es": "0,1 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -97,7 +102,8 @@
             "args": {},
             "lines": {
               "ru": "Базовая цена продажи",
-              "en": "Base selling price"
+              "en": "Base selling price",
+              "es": "Precio de venta base"
             }
           },
           "value": {
@@ -108,7 +114,8 @@
             },
             "lines": {
               "ru": "8 400 руб.",
-              "en": "8,400 rubles"
+              "en": "8,400 rubles",
+              "es": "8.400 rublos"
             }
           }
         }
@@ -129,7 +136,8 @@
             "args": {},
             "lines": {
               "ru": "Обычный",
-              "en": "Common"
+              "en": "Common",
+              "es": "Común"
             }
           },
           "value": {
@@ -138,7 +146,8 @@
             "args": {},
             "lines": {
               "ru": "Не исследовано",
-              "en": "Not studied"
+              "en": "Not studied",
+              "es": "No estudiado"
             }
           }
         }
@@ -159,7 +168,8 @@
             "args": {},
             "lines": {
               "ru": "Свежесть",
-              "en": "Freshness"
+              "en": "Freshness",
+              "es": "Frescura"
             }
           },
           "value": {
@@ -175,14 +185,16 @@
             "args": {},
             "lines": {
               "ru": "Заряд",
-              "en": "Charge"
+              "en": "Charge",
+              "es": "Carga"
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -196,14 +208,16 @@
             "args": {},
             "lines": {
               "ru": "Макс. заряд",
-              "en": "Max. charge"
+              "en": "Max. charge",
+              "es": "Carga máx."
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -226,7 +240,8 @@
             "args": {},
             "lines": {
               "ru": "Пулестойкость",
-              "en": "Bullet resistance"
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas"
             }
           },
           "min": 5.7330003,
@@ -234,7 +249,8 @@
           "formatted": {
             "value": {
               "ru": "[+5,73; +12,73]",
-              "en": "[+5.73; +12.73]"
+              "en": "[+5.73; +12.73]",
+              "es": "[+5,73; +12,73]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -248,7 +264,8 @@
             "args": {},
             "lines": {
               "ru": "Защита от взрыва",
-              "en": "Explosion protection"
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones"
             }
           },
           "min": 3.5909998,
@@ -256,7 +273,8 @@
           "formatted": {
             "value": {
               "ru": "[+3,59; +7,18]",
-              "en": "[+3.59; +7.18]"
+              "en": "[+3.59; +7.18]",
+              "es": "[+3,59; +7,18]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -270,7 +288,8 @@
             "args": {},
             "lines": {
               "ru": "Радиация",
-              "en": "Radiation"
+              "en": "Radiation",
+              "es": "Radiación"
             }
           },
           "min": 0.75,
@@ -278,7 +297,8 @@
           "formatted": {
             "value": {
               "ru": "[+0,75; +1,5]",
-              "en": "[+0.75; +1.5]"
+              "en": "[+0.75; +1.5]",
+              "es": "[+0,75; +1,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -298,7 +318,8 @@
         "args": {},
         "lines": {
           "ru": "Артефакт ускоряет метаболизм владельца, что позволяет его тканям быстрее восстанавливаться после повреждений. Некоторые суеверные сталкеры верят, что находясь под «надзором» владелец также будет защищен от тяжелых ранений - пули и осколки не смогут попасть в важные органы.",
-          "en": "This artifact improves the metabolism of its owner, which means that they recover quicker after damage. Some of the more superstitious stalkers believe that it keeps “watch” over its owner, providing protection against serious injuries—as bullets and fragments won’t hit any vital organs."
+          "en": "This artifact improves the metabolism of its owner, which means that they recover quicker after damage. Some of the more superstitious stalkers believe that it keeps “watch” over its owner, providing protection against serious injuries—as bullets and fragments won’t hit any vital organs.",
+          "es": "Este artefacto mejora el metabolismo de su propietario, lo que significa que se recupera más rápido tras sufrir daño. Algunos de los acechadores más supersticiosos creen que \"cuida\" a su propietario, protegiéndolo de heridas graves, ya que las balas y los fragmentos no alcanzan ningún órgano vital."
         }
       }
     }

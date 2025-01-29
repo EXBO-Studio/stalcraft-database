@@ -7,7 +7,8 @@
     "args": {},
     "lines": {
       "ru": "Змеиный глаз",
-      "en": "Snake Eye"
+      "en": "Snake Eye",
+      "es": "Ojo de serpiente"
     }
   },
   "color": "DEFAULT",
@@ -30,7 +31,8 @@
             "args": {},
             "lines": {
               "ru": "Класс",
-              "en": "Class"
+              "en": "Class",
+              "es": "Clase"
             }
           },
           "value": {
@@ -39,7 +41,8 @@
             "args": {},
             "lines": {
               "ru": "Биохимические",
-              "en": "Biochemical"
+              "en": "Biochemical",
+              "es": "Bioquímica"
             }
           }
         },
@@ -51,14 +54,16 @@
             "args": {},
             "lines": {
               "ru": "Вес",
-              "en": "Weight"
+              "en": "Weight",
+              "es": "Peso"
             }
           },
           "value": 0.2,
           "formatted": {
             "value": {
               "ru": "0,2 кг",
-              "en": "0.2 kg"
+              "en": "0.2 kg",
+              "es": "0,2 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -97,7 +102,8 @@
             "args": {},
             "lines": {
               "ru": "Базовая цена продажи",
-              "en": "Base selling price"
+              "en": "Base selling price",
+              "es": "Precio de venta base"
             }
           },
           "value": {
@@ -108,7 +114,8 @@
             },
             "lines": {
               "ru": "23 400 руб.",
-              "en": "23,400 rubles"
+              "en": "23,400 rubles",
+              "es": "23.400 rublos"
             }
           }
         }
@@ -129,7 +136,8 @@
             "args": {},
             "lines": {
               "ru": "Обычный",
-              "en": "Common"
+              "en": "Common",
+              "es": "Común"
             }
           },
           "value": {
@@ -138,7 +146,8 @@
             "args": {},
             "lines": {
               "ru": "Не исследовано",
-              "en": "Not studied"
+              "en": "Not studied",
+              "es": "No estudiado"
             }
           }
         }
@@ -159,7 +168,8 @@
             "args": {},
             "lines": {
               "ru": "Свежесть",
-              "en": "Freshness"
+              "en": "Freshness",
+              "es": "Frescura"
             }
           },
           "value": {
@@ -175,14 +185,16 @@
             "args": {},
             "lines": {
               "ru": "Заряд",
-              "en": "Charge"
+              "en": "Charge",
+              "es": "Carga"
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -196,14 +208,16 @@
             "args": {},
             "lines": {
               "ru": "Макс. заряд",
-              "en": "Max. charge"
+              "en": "Max. charge",
+              "es": "Carga máx."
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -226,7 +240,8 @@
             "args": {},
             "lines": {
               "ru": "Живучесть",
-              "en": "Vitality"
+              "en": "Vitality",
+              "es": "Vitalidad"
             }
           },
           "min": 1.02,
@@ -234,7 +249,8 @@
           "formatted": {
             "value": {
               "ru": "[+1,02%; +1,94%]",
-              "en": "[+1.02%; +1.94%]"
+              "en": "[+1.02%; +1.94%]",
+              "es": "[+1,02 %; +1,94 %]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -244,19 +260,21 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
             }
           },
-          "min": 7.446,
-          "max": 14.892,
+          "min": 0.765,
+          "max": 1.53,
           "formatted": {
             "value": {
-              "ru": "[+7,45%; +14,89%]",
-              "en": "[+7.45%; +14.89%]"
+              "ru": "[+0,76%; +1,53%]",
+              "en": "[+0.76%; +1.53%]",
+              "es": "[+0,76 %; +1,53 %]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -270,7 +288,8 @@
             "args": {},
             "lines": {
               "ru": "Пси-излучение",
-              "en": "Psy-emissions"
+              "en": "Psy-emissions",
+              "es": "Psicoemisiones"
             }
           },
           "min": 2.5,
@@ -278,7 +297,8 @@
           "formatted": {
             "value": {
               "ru": "[+2,5; +5]",
-              "en": "[+2.5; +5]"
+              "en": "[+2.5; +5]",
+              "es": "[+2,5; +5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -298,7 +318,8 @@
         "args": {},
         "lines": {
           "ru": "Воздействует на нервную систему владельца и тем самым повышает болевой порог, но негативно влияет на разум человека, нарушая его ментальную стабильность.",
-          "en": "Affects the owner’s nervous system, thereby increasing pain tolerance. However, it has a negative effect on the human mind, damaging mental stability."
+          "en": "Affects the owner’s nervous system, thereby increasing pain tolerance. However, it has a negative effect on the human mind, damaging mental stability.",
+          "es": "Afecta al sistema nervioso del propietario, aumentando así la tolerancia al dolor. Sin embargo, tiene un efecto negativo en la mente humana y perjudica la estabilidad mental."
         }
       }
     }
