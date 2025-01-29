@@ -7,7 +7,8 @@
     "args": {},
     "lines": {
       "ru": "Многогранник",
-      "en": "Polyhedron"
+      "en": "Polyhedron",
+      "es": "Poliedro"
     }
   },
   "color": "DEFAULT",
@@ -30,7 +31,8 @@
             "args": {},
             "lines": {
               "ru": "Класс",
-              "en": "Class"
+              "en": "Class",
+              "es": "Clase"
             }
           },
           "value": {
@@ -39,7 +41,8 @@
             "args": {},
             "lines": {
               "ru": "Биохимические",
-              "en": "Biochemical"
+              "en": "Biochemical",
+              "es": "Bioquímica"
             }
           }
         },
@@ -51,14 +54,16 @@
             "args": {},
             "lines": {
               "ru": "Вес",
-              "en": "Weight"
+              "en": "Weight",
+              "es": "Peso"
             }
           },
           "value": 0.05,
           "formatted": {
             "value": {
               "ru": "0,05 кг",
-              "en": "0.05 kg"
+              "en": "0.05 kg",
+              "es": "0,05 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -97,7 +102,8 @@
             "args": {},
             "lines": {
               "ru": "Базовая цена продажи",
-              "en": "Base selling price"
+              "en": "Base selling price",
+              "es": "Precio de venta base"
             }
           },
           "value": {
@@ -108,7 +114,8 @@
             },
             "lines": {
               "ru": "27 000 руб.",
-              "en": "27,000 rubles"
+              "en": "27,000 rubles",
+              "es": "27.000 rublos"
             }
           }
         }
@@ -129,7 +136,8 @@
             "args": {},
             "lines": {
               "ru": "Обычный",
-              "en": "Common"
+              "en": "Common",
+              "es": "Común"
             }
           },
           "value": {
@@ -138,7 +146,8 @@
             "args": {},
             "lines": {
               "ru": "Не исследовано",
-              "en": "Not studied"
+              "en": "Not studied",
+              "es": "No estudiado"
             }
           }
         }
@@ -159,7 +168,8 @@
             "args": {},
             "lines": {
               "ru": "Свежесть",
-              "en": "Freshness"
+              "en": "Freshness",
+              "es": "Frescura"
             }
           },
           "value": {
@@ -175,14 +185,16 @@
             "args": {},
             "lines": {
               "ru": "Заряд",
-              "en": "Charge"
+              "en": "Charge",
+              "es": "Carga"
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -196,14 +208,16 @@
             "args": {},
             "lines": {
               "ru": "Макс. заряд",
-              "en": "Max. charge"
+              "en": "Max. charge",
+              "es": "Carga máx."
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -226,7 +240,8 @@
             "args": {},
             "lines": {
               "ru": "Защищает от прямого урона",
-              "en": "Protects against direct damage"
+              "en": "Protects against direct damage",
+              "es": "Protege contra el daño directo"
             }
           }
         },
@@ -238,7 +253,8 @@
             "args": {},
             "lines": {
               "ru": "Срабатывает при",
-              "en": "Triggers when"
+              "en": "Triggers when",
+              "es": "Se activa cuando"
             }
           },
           "min": 82.0,
@@ -246,7 +262,8 @@
           "formatted": {
             "value": {
               "ru": "≥82 ед",
-              "en": "≥82 unit(s)"
+              "en": "≥82 unit(s)",
+              "es": "≥82 unidad(es)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -260,7 +277,8 @@
             "args": {},
             "lines": {
               "ru": "Снижает урон на",
-              "en": "Reduces damage by"
+              "en": "Reduces damage by",
+              "es": "Reduce el daño un"
             }
           },
           "min": 72.848,
@@ -268,7 +286,8 @@
           "formatted": {
             "value": {
               "ru": "[73 ед; 91 ед]",
-              "en": "[73 unit(s); 91 unit(s)]"
+              "en": "[73 unit(s); 91 unit(s)]",
+              "es": "[73 unidad(es); 91 unidad(es)]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -282,7 +301,8 @@
             "args": {},
             "lines": {
               "ru": "Перезарядка",
-              "en": "Reload"
+              "en": "Reload",
+              "es": "Recarga"
             }
           },
           "min": 25.200003,
@@ -290,7 +310,8 @@
           "formatted": {
             "value": {
               "ru": "[25,2 с; 15,12 с]",
-              "en": "[25.2 sec; 15.12 sec]"
+              "en": "[25.2 sec; 15.12 sec]",
+              "es": "[25,2 s; 15,12 s]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -304,7 +325,8 @@
             "args": {},
             "lines": {
               "ru": "Заряда за активацию",
-              "en": "Charge required to activate"
+              "en": "Charge required to activate",
+              "es": "Carga necesaria para activar"
             }
           },
           "min": 4.2000003,
@@ -312,32 +334,11 @@
           "formatted": {
             "value": {
               "ru": "[4,2%; 2,52%]",
-              "en": "[4.2%; 2.52%]"
+              "en": "[4.2%; 2.52%]",
+              "es": "[4,2 %; 2,52 %]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina"
-            }
-          },
-          "min": 6.786,
-          "max": 13.572,
-          "formatted": {
-            "value": {
-              "ru": "[+6,79%; +13,57%]",
-              "en": "[+6.79%; +13.57%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
           }
         },
         {
@@ -348,7 +349,8 @@
             "args": {},
             "lines": {
               "ru": "Радиация",
-              "en": "Radiation"
+              "en": "Radiation",
+              "es": "Radiación"
             }
           },
           "min": 0.6,
@@ -356,7 +358,8 @@
           "formatted": {
             "value": {
               "ru": "[+0,6; +1,25]",
-              "en": "[+0.6; +1.25]"
+              "en": "[+0.6; +1.25]",
+              "es": "[+0,6; +1,25]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -376,7 +379,8 @@
         "args": {},
         "lines": {
           "ru": "Странный радиоактивный артефакт, не дающий владельцу погибнуть.",
-          "en": "A strange radioactive artifact that prevents its owner from dying."
+          "en": "A strange radioactive artifact that prevents its owner from dying.",
+          "es": "Un extraño artefacto radiactivo que evita que su portador muera."
         }
       }
     }

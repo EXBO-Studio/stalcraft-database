@@ -7,7 +7,8 @@
     "args": {},
     "lines": {
       "ru": "Протоцибуля",
-      "en": "Proto-Onion"
+      "en": "Proto-Onion",
+      "es": "Proto-Cebolla"
     }
   },
   "color": "DEFAULT",
@@ -30,7 +31,8 @@
             "args": {},
             "lines": {
               "ru": "Класс",
-              "en": "Class"
+              "en": "Class",
+              "es": "Clase"
             }
           },
           "value": {
@@ -39,7 +41,8 @@
             "args": {},
             "lines": {
               "ru": "Гравитационные",
-              "en": "Gravitational"
+              "en": "Gravitational",
+              "es": "Gravitacional"
             }
           }
         },
@@ -51,14 +54,16 @@
             "args": {},
             "lines": {
               "ru": "Вес",
-              "en": "Weight"
+              "en": "Weight",
+              "es": "Peso"
             }
           },
           "value": 0.2,
           "formatted": {
             "value": {
               "ru": "0,2 кг",
-              "en": "0.2 kg"
+              "en": "0.2 kg",
+              "es": "0,2 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -97,7 +102,8 @@
             "args": {},
             "lines": {
               "ru": "Базовая цена продажи",
-              "en": "Base selling price"
+              "en": "Base selling price",
+              "es": "Precio de venta base"
             }
           },
           "value": {
@@ -108,7 +114,8 @@
             },
             "lines": {
               "ru": "15 000 руб.",
-              "en": "15,000 rubles"
+              "en": "15,000 rubles",
+              "es": "15.000 rublos"
             }
           }
         }
@@ -129,7 +136,8 @@
             "args": {},
             "lines": {
               "ru": "Обычный",
-              "en": "Common"
+              "en": "Common",
+              "es": "Común"
             }
           },
           "value": {
@@ -138,7 +146,8 @@
             "args": {},
             "lines": {
               "ru": "Не исследовано",
-              "en": "Not studied"
+              "en": "Not studied",
+              "es": "No estudiado"
             }
           }
         }
@@ -159,7 +168,8 @@
             "args": {},
             "lines": {
               "ru": "Свежесть",
-              "en": "Freshness"
+              "en": "Freshness",
+              "es": "Frescura"
             }
           },
           "value": {
@@ -175,14 +185,16 @@
             "args": {},
             "lines": {
               "ru": "Заряд",
-              "en": "Charge"
+              "en": "Charge",
+              "es": "Carga"
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -196,14 +208,16 @@
             "args": {},
             "lines": {
               "ru": "Макс. заряд",
-              "en": "Max. charge"
+              "en": "Max. charge",
+              "es": "Carga máx."
             }
           },
           "value": 100.0,
           "formatted": {
             "value": {
               "ru": "100%",
-              "en": "100%"
+              "en": "100%",
+              "es": "100 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -226,7 +240,8 @@
             "args": {},
             "lines": {
               "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration"
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante"
             }
           },
           "min": 1.38,
@@ -234,7 +249,8 @@
           "formatted": {
             "value": {
               "ru": "[+1,38%; +2,76%]",
-              "en": "[+1.38%; +2.76%]"
+              "en": "[+1.38%; +2.76%]",
+              "es": "[+1,38 %; +2,76 %]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -248,7 +264,8 @@
             "args": {},
             "lines": {
               "ru": "Сопротивление радиации",
-              "en": "Radiation resistance"
+              "en": "Radiation resistance",
+              "es": "Resistencia a la radiación"
             }
           },
           "min": 11.1,
@@ -256,7 +273,8 @@
           "formatted": {
             "value": {
               "ru": "[+11,1%; +22,2%]",
-              "en": "[+11.1%; +22.2%]"
+              "en": "[+11.1%; +22.2%]",
+              "es": "[+11,1 %; +22,2 %]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -270,7 +288,8 @@
             "args": {},
             "lines": {
               "ru": "Радиация",
-              "en": "Radiation"
+              "en": "Radiation",
+              "es": "Radiación"
             }
           },
           "min": -3.4800003,
@@ -278,7 +297,8 @@
           "formatted": {
             "value": {
               "ru": "[-3,48; -1,74]",
-              "en": "[-3.48; -1.74]"
+              "en": "[-3.48; -1.74]",
+              "es": "[-3,48; -1,74]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -298,7 +318,8 @@
         "args": {},
         "lines": {
           "ru": "Являясь «болванкой» для будущего артефакта, поглощает радиоактивные частицы из окружающего пространства, используя их в качестве «топлива» для собственного развития. Вызревая в аномалии, со временем образует полноценный артефакт – чаще всего обычную «Цибулю». Если извлечь этот артефакт из аномалии вовремя, то его развитие остановится - он уже никогда не станет полноценной «Цибулей», но зато сохранит способность поглощать и удерживать в себе радиацию. Однако побочным эффектом станет легкое чувство усталости при ношении артефакта.",
-          "en": "A “blank” for a future artifact, the Proto-Onion absorbs radioactive particles from the surrounding area and uses them as “fuel” for its own development. Maturing inside an anomaly, it eventually becomes a fully-fledged artifact, most often an Onion. If this artifact is extracted from an anomaly in time, its development stops. It will never become a true Onion, but it retains its ability to absorb and contain radiation. However, the side effect of wearing this artifact is a slight feeling of fatigue."
+          "en": "A “blank” for a future artifact, the Proto-Onion absorbs radioactive particles from the surrounding area and uses them as “fuel” for its own development. Maturing inside an anomaly, it eventually becomes a fully-fledged artifact, most often an Onion. If this artifact is extracted from an anomaly in time, its development stops. It will never become a true Onion, but it retains its ability to absorb and contain radiation. However, the side effect of wearing this artifact is a slight feeling of fatigue.",
+          "es": "La proto-Cebolla, un \"lienzo en blanco\" para un artefacto futuro, absorbe partículas radiactivas de la zona circundante y las utiliza como \"combustible\" para su propio desarrollo. Al madurar dentro de una anomalía, acaba convirtiéndose en un artefacto de pleno derecho, casi siempre una Cebolla. Si este artefacto se extrae de una anomalía a tiempo, su desarrollo se detiene. Nunca se convertirá en una verdadera Cebolla, pero conserva su capacidad de absorber y contener radiación. Sin embargo, el efecto secundario de llevar este artefacto es una ligera sensación de fatiga."
         }
       }
     }
