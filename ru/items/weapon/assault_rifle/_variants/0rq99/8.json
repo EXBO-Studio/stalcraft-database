@@ -1,0 +1,867 @@
+{
+  "id": "0rq99",
+  "category": "weapon/assault_rifle",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn.m16a3_rune_a.name",
+    "args": {},
+    "lines": {
+      "ru": "«Руна» Арсенала",
+      "en": "Arsenal Rune",
+      "es": "Arsenal Runa"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.assault_rifle",
+            "args": {},
+            "lines": {
+              "ru": "Автоматы",
+              "en": "Assault Rifles",
+              "es": "Fusiles de asalto"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 4.508,
+          "formatted": {
+            "value": {
+              "ru": "4,51 кг",
+              "en": "4.51 kg",
+              "es": "4,51 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.556mm",
+            "args": {},
+            "lines": {
+              "ru": "5.56",
+              "en": "5.56",
+              "es": "5,56"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.stat_name.damage_type.direct",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño"
+            }
+          },
+          "value": 50.140778,
+          "formatted": {
+            "value": {
+              "ru": "50,14 ед",
+              "en": "50.14 unit(s)",
+              "es": "50,14 unidad(es)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Объем магазина",
+              "en": "Magazine capacity",
+              "es": "Capacidad del cargador"
+            }
+          },
+          "value": 45.0,
+          "formatted": {
+            "value": {
+              "ru": "0/45",
+              "en": "0/45",
+              "es": "0/45"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.distance",
+            "args": {},
+            "lines": {
+              "ru": "Максимальная дистанция",
+              "en": "Maximum distance",
+              "es": "Distancia máxima"
+            }
+          },
+          "value": 165.0,
+          "formatted": {
+            "value": {
+              "ru": "165 м",
+              "en": "165 m",
+              "es": "165 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.rate_of_fire",
+            "args": {},
+            "lines": {
+              "ru": "Скорострельность",
+              "en": "Rate of fire",
+              "es": "Cadencia de disparo"
+            }
+          },
+          "value": 695.0,
+          "formatted": {
+            "value": {
+              "ru": "695 выстр/мин",
+              "en": "695 shots/min",
+              "es": "695 disparos/min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload",
+              "es": "Recarga"
+            }
+          },
+          "value": 3.2,
+          "formatted": {
+            "value": {
+              "ru": "3,2 с",
+              "en": "3.2 sec",
+              "es": "3,2 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload",
+              "es": "Recarga táctica"
+            }
+          },
+          "value": 2.56,
+          "formatted": {
+            "value": {
+              "ru": "2,56 с",
+              "en": "2.56 sec",
+              "es": "2,56 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.reload_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Эргономика оружия",
+              "en": "Weapon Ergonomics",
+              "es": "Ergonomía de las armas"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread",
+              "es": "Dispersión"
+            }
+          },
+          "value": 0.42000008,
+          "formatted": {
+            "value": {
+              "ru": "0,42°",
+              "en": "0.42°",
+              "es": "0,42°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera"
+            }
+          },
+          "value": 2.9160001,
+          "formatted": {
+            "value": {
+              "ru": "2,92°",
+              "en": "2.92°",
+              "es": "2,92°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Вертикальная отдача",
+              "en": "Vertical recoil",
+              "es": "Retroceso vertical"
+            }
+          },
+          "value": 0.51,
+          "formatted": {
+            "value": {
+              "ru": "0,51°",
+              "en": "0.51°",
+              "es": "0,51°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Горизонтальная отдача",
+              "en": "Horizontal recoil",
+              "es": "Retroceso horizontal"
+            }
+          },
+          "value": 0.1105,
+          "formatted": {
+            "value": {
+              "ru": "0,11°",
+              "en": "0.11°",
+              "es": "0,11°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Доставание",
+              "en": "Draw time",
+              "es": "Tiempo de desenfundado"
+            }
+          },
+          "value": 1.05,
+          "formatted": {
+            "value": {
+              "ru": "1,05 с",
+              "en": "1.05 sec",
+              "es": "1,05 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.aim_switch",
+            "args": {},
+            "lines": {
+              "ru": "Прицеливание",
+              "en": "Aiming time",
+              "es": "Tiempo de apuntado"
+            }
+          },
+          "value": 0.216,
+          "formatted": {
+            "value": {
+              "ru": "0,22 с",
+              "en": "0.22 sec",
+              "es": "0,22 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "stalker.tooltip.artefact.info.additional_stats",
+        "args": {},
+        "lines": {
+          "ru": "Дополнительные характеристики",
+          "en": "Additional properties",
+          "es": "Propiedades adicionales"
+        }
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.damage_modifiers",
+        "args": {},
+        "lines": {
+          "ru": "Множитель урона",
+          "en": "Damage modifier",
+          "es": "Modificador de daño"
+        }
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.head_damage_modifier",
+            "args": {
+              "modifier": "1.25"
+            },
+            "lines": {
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.limbs_damage_modifier",
+            "args": {
+              "modifier": "0.7"
+            },
+            "lines": {
+              "ru": "Урон по конечностям: х0,7",
+              "en": "Limb damage: x0.7",
+              "es": "Daño a extremidades: x0,7"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.upgrade_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики модификации",
+          "en": "Modification properties",
+          "es": "Propiedades de modificación"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño"
+            }
+          },
+          "value": 8.765243,
+          "formatted": {
+            "value": {
+              "ru": "+8,77%",
+              "en": "+8.77%",
+              "es": "+8,77 %"
+            },
+            "nameColor": "F1AA21",
+            "valueColor": "F1AA21"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage_distant",
+            "args": {},
+            "lines": {
+              "ru": "Урон вдали",
+              "en": "Damage at range",
+              "es": "Daño a distancia"
+            }
+          },
+          "value": 8.765243,
+          "formatted": {
+            "value": {
+              "ru": "+8,77%",
+              "en": "+8.77%",
+              "es": "+8,77 %"
+            },
+            "nameColor": "F1AA21",
+            "valueColor": "F1AA21"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.attachment_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики обвесов",
+          "en": "Attachment properties",
+          "es": "Propiedades de accesorios"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera"
+            }
+          },
+          "value": -6.9999933,
+          "formatted": {
+            "value": {
+              "ru": "-7%",
+              "en": "-7%",
+              "es": "-7 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil",
+              "es": "Retroceso horizontal"
+            }
+          },
+          "value": -14.999998,
+          "formatted": {
+            "value": {
+              "ru": "-15%",
+              "en": "-15%",
+              "es": "-15 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {
+              "ru": "Нарастание отдачи",
+              "en": "Recoil buildup",
+              "es": "Acumulación de retroceso"
+            }
+          },
+          "value": -18.999994,
+          "formatted": {
+            "value": {
+              "ru": "-19%",
+              "en": "-19%",
+              "es": "-19 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed",
+              "es": "Velocidad de apuntado"
+            }
+          },
+          "value": 8.000004,
+          "formatted": {
+            "value": {
+              "ru": "-8%",
+              "en": "-8%",
+              "es": "-8 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость доставания",
+              "en": "Draw speed",
+              "es": "Velocidad de desenfundado"
+            }
+          },
+          "value": 20.000004,
+          "formatted": {
+            "value": {
+              "ru": "-20%",
+              "en": "-20%",
+              "es": "-20 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway",
+              "es": "Oscilación"
+            }
+          },
+          "value": -41.999996,
+          "formatted": {
+            "value": {
+              "ru": "-42%",
+              "en": "-42%",
+              "es": "-42 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.shoot_factor_decrement",
+            "args": {},
+            "lines": {
+              "ru": "Стабилизация",
+              "en": "Stabilization",
+              "es": "Estabilización"
+            }
+          },
+          "value": 39.999485,
+          "formatted": {
+            "value": {
+              "ru": "+40%",
+              "en": "+40%",
+              "es": "+40 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.overheat_after",
+            "args": {
+              "value": "46.0"
+            },
+            "lines": {
+              "ru": "Перегрев через 46 выстрелов непрерывной стрельбы",
+              "en": "Overheat after 46 shots of continuous fire",
+              "es": "Se sobrecalienta tras 46 disparos de fuego continuo"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.feature",
+        "args": {},
+        "lines": {
+          "ru": "Особенности",
+          "en": "Features",
+          "es": "Características"
+        }
+      },
+      "elements": []
+    },
+    {
+      "type": "damage",
+      "startDamage": 50.140778,
+      "damageDecreaseStart": 18.0,
+      "endDamage": 40.025608,
+      "damageDecreaseEnd": 60.0,
+      "maxDistance": 165.0
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.arsenal.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Оружие улучшено в мастерской Арсенала",
+          "en": "Weapon improved in the Arsenals Workshop",
+          "es": "Weapon improved in the Arsenals Workshop"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.m16a3_rune.description",
+        "args": {},
+        "lines": {
+          "ru": "Предыдущий владелец покрыл эту винтовку таинственными символами. Вы можете лишь догадываться об их истинном значении...",
+          "en": "The previous owner covered this rifle in mysterious symbols. You can only guess as to their true meaning...",
+          "es": "El propietario anterior cubrió este fusil con símbolos misteriosos. No puedes más que aventurar su verdadero significado..."
+        }
+      }
+    }
+  ]
+}
