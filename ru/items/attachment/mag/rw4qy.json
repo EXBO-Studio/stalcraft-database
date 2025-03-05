@@ -152,12 +152,12 @@
               "es": "Recarga"
             }
           },
-          "value": 2.6,
+          "value": 2.85,
           "formatted": {
             "value": {
-              "ru": "2,6 с",
-              "en": "2.6 sec",
-              "es": "2,6 s"
+              "ru": "2,85 с",
+              "en": "2.85 sec",
+              "es": "2,85 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -175,12 +175,12 @@
               "es": "Recarga táctica"
             }
           },
-          "value": 2.08,
+          "value": 2.28,
           "formatted": {
             "value": {
-              "ru": "2,08 с",
-              "en": "2.08 sec",
-              "es": "2,08 s"
+              "ru": "2,28 с",
+              "en": "2.28 sec",
+              "es": "2,28 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -207,12 +207,12 @@
               "es": "Dispersión de disparos desde la cadera"
             }
           },
-          "value": -26.0,
+          "value": -9.749996,
           "formatted": {
             "value": {
-              "ru": "-26%",
-              "en": "-26%",
-              "es": "-26 %"
+              "ru": "-9,75%",
+              "en": "-9.75%",
+              "es": "-9,75 %"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -230,12 +230,35 @@
               "es": "Velocidad de apuntado"
             }
           },
-          "value": -26.0,
+          "value": -9.749996,
           "formatted": {
             "value": {
-              "ru": "+26%",
-              "en": "+26%",
-              "es": "+26 %"
+              "ru": "+9,75%",
+              "en": "+9.75%",
+              "es": "+9,75 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
+            }
+          },
+          "value": 1.1999965,
+          "formatted": {
+            "value": {
+              "ru": "+1,2%",
+              "en": "+1.2%",
+              "es": "+1,2 %"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -335,6 +358,19 @@
               "ru": "АК-15",
               "en": "AK-15",
               "es": "AK-15"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mk47.name",
+            "args": {},
+            "lines": {
+              "ru": "MK47 Mutant",
+              "en": "MK47 Mutant",
+              "es": "MK47 Mutante"
             }
           }
         },

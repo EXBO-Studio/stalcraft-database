@@ -152,12 +152,12 @@
               "es": "Recarga"
             }
           },
-          "value": 3.2,
+          "value": 3.45,
           "formatted": {
             "value": {
-              "ru": "3,2 с",
-              "en": "3.2 sec",
-              "es": "3,2 s"
+              "ru": "3,45 с",
+              "en": "3.45 sec",
+              "es": "3,45 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -175,12 +175,12 @@
               "es": "Recarga táctica"
             }
           },
-          "value": 2.56,
+          "value": 2.76,
           "formatted": {
             "value": {
-              "ru": "2,56 с",
-              "en": "2.56 sec",
-              "es": "2,56 s"
+              "ru": "2,76 с",
+              "en": "2.76 sec",
+              "es": "2,76 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -199,43 +199,20 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.hip_spread",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Разброс от бедра",
-              "en": "Hip-fire spread",
-              "es": "Dispersión de disparos desde la cadera"
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
             }
           },
-          "value": 8.000004,
+          "value": -0.49999952,
           "formatted": {
             "value": {
-              "ru": "+8%",
-              "en": "+8%",
-              "es": "+8 %"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.aim_switch_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость прицеливания",
-              "en": "Aim speed",
-              "es": "Velocidad de apuntado"
-            }
-          },
-          "value": 8.000004,
-          "formatted": {
-            "value": {
-              "ru": "-8%",
-              "en": "-8%",
-              "es": "-8 %"
+              "ru": "-0,5%",
+              "en": "-0.5%",
+              "es": "-0,5 %"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -318,6 +295,19 @@
               "ru": "АК-15",
               "en": "AK-15",
               "es": "AK-15"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mk47.name",
+            "args": {},
+            "lines": {
+              "ru": "MK47 Mutant",
+              "en": "MK47 Mutant",
+              "es": "MK47 Mutante"
             }
           }
         },

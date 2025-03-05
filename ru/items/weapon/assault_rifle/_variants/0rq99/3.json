@@ -164,6 +164,38 @@
       },
       "elements": [
         {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": -3.399998,
+          "formatted": {
+            "value": {
+              "ru": "-3,4%",
+              "en": "-3.4%",
+              "es": "-3,4 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "key-value",
           "key": {
             "type": "translation",
@@ -359,7 +391,7 @@
               "es": "Dispersión"
             }
           },
-          "value": 0.42000008,
+          "value": 0.41999996,
           "formatted": {
             "value": {
               "ru": "0,42°",
@@ -382,12 +414,12 @@
               "es": "Dispersión de disparos desde la cadera"
             }
           },
-          "value": 2.5110002,
+          "value": 2.295,
           "formatted": {
             "value": {
-              "ru": "2,51°",
-              "en": "2.51°",
-              "es": "2,51°"
+              "ru": "2,3°",
+              "en": "2.3°",
+              "es": "2,3°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -474,12 +506,12 @@
               "es": "Tiempo de apuntado"
             }
           },
-          "value": 0.216,
+          "value": 0.2,
           "formatted": {
             "value": {
-              "ru": "0,22 с",
-              "en": "0.22 sec",
-              "es": "0,22 s"
+              "ru": "0,2 с",
+              "en": "0.2 sec",
+              "es": "0,2 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -632,12 +664,12 @@
               "es": "Dispersión de disparos desde la cadera"
             }
           },
-          "value": -6.9999933,
+          "value": -14.999998,
           "formatted": {
             "value": {
-              "ru": "-7%",
-              "en": "-7%",
-              "es": "-7 %"
+              "ru": "-15%",
+              "en": "-15%",
+              "es": "-15 %"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -693,29 +725,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.aim_switch_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость прицеливания",
-              "en": "Aim speed",
-              "es": "Velocidad de apuntado"
-            }
-          },
-          "value": 8.000004,
-          "formatted": {
-            "value": {
-              "ru": "-8%",
-              "en": "-8%",
-              "es": "-8 %"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.draw_time",
             "args": {},
             "lines": {
@@ -762,6 +771,29 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
+            }
+          },
+          "value": -0.4000008,
+          "formatted": {
+            "value": {
+              "ru": "-0,4%",
+              "en": "-0.4%",
+              "es": "-0,4 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.stat_factor.shoot_factor_decrement",
             "args": {},
             "lines": {
@@ -796,12 +828,12 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.info.overheat_after",
             "args": {
-              "value": "46.0"
+              "value": "51.0"
             },
             "lines": {
-              "ru": "Перегрев через 46 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 46 shots of continuous fire",
-              "es": "Se sobrecalienta tras 46 disparos de fuego continuo"
+              "ru": "Перегрев через 51 выстрелов непрерывной стрельбы",
+              "en": "Overheat after 51 shots of continuous fire",
+              "es": "Se sobrecalienta tras 51 disparos de fuego continuo"
             }
           }
         }

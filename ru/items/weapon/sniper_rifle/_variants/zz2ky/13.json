@@ -81,12 +81,12 @@
               "es": "Peso"
             }
           },
-          "value": 2.9099998,
+          "value": 2.65,
           "formatted": {
             "value": {
-              "ru": "2,91 кг",
-              "en": "2.91 kg",
-              "es": "2,91 kg"
+              "ru": "2,65 кг",
+              "en": "2.65 kg",
+              "es": "2,65 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -155,6 +155,38 @@
         "text": ""
       },
       "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": -2.9999971,
+          "formatted": {
+            "value": {
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
     },
     {
       "type": "list",

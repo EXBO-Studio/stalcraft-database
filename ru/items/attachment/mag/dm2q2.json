@@ -199,43 +199,20 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.hip_spread",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Разброс от бедра",
-              "en": "Hip-fire spread",
-              "es": "Dispersión de disparos desde la cadera"
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
             }
           },
-          "value": 8.000004,
+          "value": -0.4000008,
           "formatted": {
             "value": {
-              "ru": "+8%",
-              "en": "+8%",
-              "es": "+8 %"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.aim_switch_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость прицеливания",
-              "en": "Aim speed",
-              "es": "Velocidad de apuntado"
-            }
-          },
-          "value": 8.000004,
-          "formatted": {
-            "value": {
-              "ru": "-8%",
-              "en": "-8%",
-              "es": "-8 %"
+              "ru": "-0,4%",
+              "en": "-0.4%",
+              "es": "-0,4 %"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -331,19 +308,6 @@
               "ru": "XM8 Арсенала",
               "en": "Arsenal XM8",
               "es": "Arsenal XM8"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.xm8s_a.name",
-            "args": {},
-            "lines": {
-              "ru": "XM8S Арсенала",
-              "en": "Arsenal XM8S",
-              "es": "Arsenal XM8S"
             }
           }
         }

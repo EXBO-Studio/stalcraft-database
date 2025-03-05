@@ -167,6 +167,29 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "+1%",
+              "en": "+1%",
+              "es": "+1 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
@@ -175,12 +198,12 @@
               "es": "Peso de carga"
             }
           },
-          "value": 8.0,
+          "value": 6.0,
           "formatted": {
             "value": {
-              "ru": "+8",
-              "en": "+8",
-              "es": "+8"
+              "ru": "+6",
+              "en": "+6",
+              "es": "+6"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -207,12 +230,12 @@
               "es": "Resistencia a las balas"
             }
           },
-          "value": 71.96,
+          "value": 57.32805,
           "formatted": {
             "value": {
-              "ru": "71,96",
-              "en": "71.96",
-              "es": "71,96"
+              "ru": "57,33",
+              "en": "57.33",
+              "es": "57,33"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -230,12 +253,12 @@
               "es": "Protección contra laceración"
             }
           },
-          "value": 45.0,
+          "value": 37.0,
           "formatted": {
             "value": {
-              "ru": "45",
-              "en": "45",
-              "es": "45"
+              "ru": "37",
+              "en": "37",
+              "es": "37"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -253,12 +276,12 @@
               "es": "Protección contra explosiones"
             }
           },
-          "value": 44.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "44",
-              "en": "44",
-              "es": "44"
+              "ru": "20",
+              "en": "20",
+              "es": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -276,12 +299,12 @@
               "es": "Resistencia a la electricidad"
             }
           },
-          "value": 30.0,
+          "value": 15.0,
           "formatted": {
             "value": {
-              "ru": "30",
-              "en": "30",
-              "es": "30"
+              "ru": "15",
+              "en": "15",
+              "es": "15"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -299,12 +322,12 @@
               "es": "Resistencia al fuego"
             }
           },
-          "value": 30.0,
+          "value": 15.0,
           "formatted": {
             "value": {
-              "ru": "30",
-              "en": "30",
-              "es": "30"
+              "ru": "15",
+              "en": "15",
+              "es": "15"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -322,12 +345,12 @@
               "es": "Resistencia a los productos químicos"
             }
           },
-          "value": 30.0,
+          "value": 15.0,
           "formatted": {
             "value": {
-              "ru": "30",
-              "en": "30",
-              "es": "30"
+              "ru": "15",
+              "en": "15",
+              "es": "15"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -345,12 +368,12 @@
               "es": "Protección contra radiación"
             }
           },
-          "value": 100.0,
+          "value": 50.0,
           "formatted": {
             "value": {
-              "ru": "100",
-              "en": "100",
-              "es": "100"
+              "ru": "50",
+              "en": "50",
+              "es": "50"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -391,12 +414,12 @@
               "es": "Protección contra bioinfección"
             }
           },
-          "value": 70.0,
+          "value": 50.0,
           "formatted": {
             "value": {
-              "ru": "70",
-              "en": "70",
-              "es": "70"
+              "ru": "50",
+              "en": "50",
+              "es": "50"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -414,12 +437,12 @@
               "es": "Prot contra psicoemisiones"
             }
           },
-          "value": 30.0,
+          "value": 0.0,
           "formatted": {
             "value": {
-              "ru": "30",
-              "en": "30",
-              "es": "30"
+              "ru": "0",
+              "en": "0",
+              "es": "0"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -437,12 +460,12 @@
               "es": "Protección contra hemorragia"
             }
           },
-          "value": 40.0,
+          "value": 25.0,
           "formatted": {
             "value": {
-              "ru": "40%",
-              "en": "40%",
-              "es": "40 %"
+              "ru": "25%",
+              "en": "25%",
+              "es": "25 %"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -475,12 +498,12 @@
               "es": "Resistencia a las balas"
             }
           },
-          "value": 30.96,
+          "value": 28.328049,
           "formatted": {
             "value": {
-              "ru": "30,96",
-              "en": "30.96",
-              "es": "30,96"
+              "ru": "28,33",
+              "en": "28.33",
+              "es": "28,33"
             },
             "nameColor": "F1AA21",
             "valueColor": "F1AA21"

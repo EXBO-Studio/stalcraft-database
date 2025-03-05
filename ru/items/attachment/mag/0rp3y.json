@@ -207,12 +207,12 @@
               "es": "Dispersión de disparos desde la cadera"
             }
           },
-          "value": -22.000004,
+          "value": -11.000002,
           "formatted": {
             "value": {
-              "ru": "-22%",
-              "en": "-22%",
-              "es": "-22 %"
+              "ru": "-11%",
+              "en": "-11%",
+              "es": "-11 %"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -230,12 +230,35 @@
               "es": "Velocidad de apuntado"
             }
           },
-          "value": -22.000004,
+          "value": -11.000002,
           "formatted": {
             "value": {
-              "ru": "+22%",
-              "en": "+22%",
-              "es": "+22 %"
+              "ru": "+11%",
+              "en": "+11%",
+              "es": "+11 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
+            }
+          },
+          "value": 1.1999965,
+          "formatted": {
+            "value": {
+              "ru": "+1,2%",
+              "en": "+1.2%",
+              "es": "+1,2 %"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -526,19 +549,6 @@
               "ru": "X95 Арсенала",
               "en": "Arsenal X95",
               "es": "Arsenal X95"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m16a3_rune_a.name",
-            "args": {},
-            "lines": {
-              "ru": "«Руна» Арсенала",
-              "en": "Arsenal Rune",
-              "es": "Runa de Arsenal"
             }
           }
         }

@@ -207,12 +207,12 @@
               "es": "Dispersión de disparos desde la cadera"
             }
           },
-          "value": 29.999996,
+          "value": 12.0,
           "formatted": {
             "value": {
-              "ru": "+30%",
-              "en": "+30%",
-              "es": "+30 %"
+              "ru": "+12%",
+              "en": "+12%",
+              "es": "+12 %"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -230,12 +230,35 @@
               "es": "Velocidad de apuntado"
             }
           },
-          "value": 29.999996,
+          "value": 12.0,
           "formatted": {
             "value": {
-              "ru": "-30%",
-              "en": "-30%",
-              "es": "-30 %"
+              "ru": "-12%",
+              "en": "-12%",
+              "es": "-12 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
+            }
+          },
+          "value": -1.2000024,
+          "formatted": {
+            "value": {
+              "ru": "-1,2%",
+              "en": "-1.2%",
+              "es": "-1,2 %"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -305,6 +328,19 @@
               "ru": "АК-103",
               "en": "AK-103",
               "es": "AK-103"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mk47.name",
+            "args": {},
+            "lines": {
+              "ru": "MK47 Mutant",
+              "en": "MK47 Mutant",
+              "es": "MK47 Mutante"
             }
           }
         },

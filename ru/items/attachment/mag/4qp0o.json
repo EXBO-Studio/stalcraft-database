@@ -207,12 +207,12 @@
               "es": "Dispersión de disparos desde la cadera"
             }
           },
-          "value": 29.999996,
+          "value": 12.5,
           "formatted": {
             "value": {
-              "ru": "+30%",
-              "en": "+30%",
-              "es": "+30 %"
+              "ru": "+12,5%",
+              "en": "+12.5%",
+              "es": "+12,5 %"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -230,12 +230,35 @@
               "es": "Velocidad de apuntado"
             }
           },
-          "value": 29.999996,
+          "value": 12.5,
           "formatted": {
             "value": {
-              "ru": "-30%",
-              "en": "-30%",
-              "es": "-30 %"
+              "ru": "-12,5%",
+              "en": "-12.5%",
+              "es": "-12,5 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
+            }
+          },
+          "value": -1.4999986,
+          "formatted": {
+            "value": {
+              "ru": "-1,5%",
+              "en": "-1.5%",
+              "es": "-1,5 %"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -461,19 +484,6 @@
               "ru": "«Уравнитель»",
               "en": "Equalizer",
               "es": "Ecualizador"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m16a3_rune_a.name",
-            "args": {},
-            "lines": {
-              "ru": "«Руна» Арсенала",
-              "en": "Arsenal Rune",
-              "es": "Runa de Arsenal"
             }
           }
         }
