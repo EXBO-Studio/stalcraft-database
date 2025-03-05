@@ -164,6 +164,38 @@
       },
       "elements": [
         {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": -4.000002,
+          "formatted": {
+            "value": {
+              "ru": "-4%",
+              "en": "-4%",
+              "es": "-4 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "key-value",
           "key": {
             "type": "translation",

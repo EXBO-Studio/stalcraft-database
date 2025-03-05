@@ -165,6 +165,38 @@
       },
       "elements": [
         {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": -1.9999981,
+          "formatted": {
+            "value": {
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "key-value",
           "key": {
             "type": "translation",
@@ -560,12 +592,12 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.info.overheat_after",
             "args": {
-              "value": "60.0"
+              "value": "51.0"
             },
             "lines": {
-              "ru": "Перегрев через 60 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 60 shots of continuous fire",
-              "es": "Se sobrecalienta tras 60 disparos de fuego continuo"
+              "ru": "Перегрев через 51 выстрелов непрерывной стрельбы",
+              "en": "Overheat after 51 shots of continuous fire",
+              "es": "Se sobrecalienta tras 51 disparos de fuego continuo"
             }
           }
         }
@@ -604,9 +636,9 @@
         "key": "item.wpn.ots14m.description",
         "args": {},
         "lines": {
-          "ru": "В основе этой штурмовой винтовки калибра 9х39 лежит оружие, позаимствованное Черным Рынком у \"Шепота\". Весьма грозное оружие, которое достойно покажет себя в бою на средней дистанции.",
-          "en": "This 9x39 caliber assault rifle is based on a weapon borrowed by the Black market from Murmur. A formidable weapon that will prove its worth in mid-range combat.",
-          "es": "Este fusil de asalto de calibre 9x39 está basado en un arma que el Mercado Negro tomó prestada de Susurro. Un arma formidable que muestra su poderío a medio alcance en combate."
+          "ru": "В основе этой штурмовой винтовки калибра 9х39 лежит оружие, позаимствованное Черным Рынком у «Шепота». Весьма грозное оружие, которое достойно покажет себя в бою на средней дистанции.",
+          "en": "Based on the weapon that Black Market borrowed from the Murmur, this 9x39 assault rifle is a formidable weapon that excels in mid-range combat.",
+          "es": "Este fusil de asalto 9x39 está basado en el arma prestada por el Mercado Negro a Susurro. Es un arma muy formidable que rendirá bien en combates a media distancia."
         }
       }
     }

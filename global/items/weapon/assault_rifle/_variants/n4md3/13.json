@@ -164,6 +164,38 @@
       },
       "elements": [
         {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": -2.9999971,
+          "formatted": {
+            "value": {
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "key-value",
           "key": {
             "type": "translation",
@@ -198,12 +230,12 @@
               "es": "Daño"
             }
           },
-          "value": 48.618294,
+          "value": 50.62927,
           "formatted": {
             "value": {
-              "ru": "48,62 ед",
-              "en": "48.62 unit(s)",
-              "es": "48,62 unidad(es)"
+              "ru": "50,63 ед",
+              "en": "50.63 unit(s)",
+              "es": "50,63 unidad(es)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -620,12 +652,12 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.info.overheat_after",
             "args": {
-              "value": "46.0"
+              "value": "56.0"
             },
             "lines": {
-              "ru": "Перегрев через 46 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 46 shots of continuous fire",
-              "es": "Se sobrecalienta tras 46 disparos de fuego continuo"
+              "ru": "Перегрев через 56 выстрелов непрерывной стрельбы",
+              "en": "Overheat after 56 shots of continuous fire",
+              "es": "Se sobrecalienta tras 56 disparos de fuego continuo"
             }
           }
         }
@@ -647,9 +679,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 48.618294,
+      "startDamage": 50.62927,
       "damageDecreaseStart": 18.0,
-      "endDamage": 38.68171,
+      "endDamage": 40.4561,
       "damageDecreaseEnd": 62.0,
       "maxDistance": 175.0
     },

@@ -207,12 +207,12 @@
               "es": "Dispersión de disparos desde la cadera"
             }
           },
-          "value": 31.999992,
+          "value": 8.000004,
           "formatted": {
             "value": {
-              "ru": "+32%",
-              "en": "+32%",
-              "es": "+32 %"
+              "ru": "+8%",
+              "en": "+8%",
+              "es": "+8 %"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -222,12 +222,12 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.aim_switch_time",
+            "key": "weapon.stat_factor.draw_time",
             "args": {},
             "lines": {
-              "ru": "Скорость прицеливания",
-              "en": "Aim speed",
-              "es": "Velocidad de apuntado"
+              "ru": "Скорость доставания",
+              "en": "Draw speed",
+              "es": "Velocidad de desenfundado"
             }
           },
           "value": 31.999992,
@@ -236,6 +236,29 @@
               "ru": "-32%",
               "en": "-32%",
               "es": "-32 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
+            }
+          },
+          "value": -1.0999978,
+          "formatted": {
+            "value": {
+              "ru": "-1,1%",
+              "en": "-1.1%",
+              "es": "-1,1 %"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

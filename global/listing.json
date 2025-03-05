@@ -16488,6 +16488,24 @@
     }
   },
   {
+    "data": "/items/weapon/assault_rifle/4q0gl.json",
+    "icon": "/icons/weapon/assault_rifle/4q0gl.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.mk47.name",
+      "args": {},
+      "lines": {
+        "ru": "MK47 Mutant",
+        "en": "MK47 Mutant",
+        "es": "MK47 Mutante"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/weapon/machine_gun/1rdnq.json",
     "icon": "/icons/weapon/machine_gun/1rdnq.png",
     "name": {
@@ -24282,78 +24300,6 @@
     }
   },
   {
-    "data": "/items/armor/combined/ok0v6.json",
-    "icon": "/icons/armor/combined/ok0v6.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.sokol-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный бронекостюм «Сокол»",
-        "en": "Worn Falcon Armored Suit",
-        "es": "Traje blindado Halcón desgastado"
-      }
-    },
-    "color": "RANK_STALKER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/n4rp1.json",
-    "icon": "/icons/armor/combined/n4rp1.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.mocking-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный бронекостюм «Пересмешник»",
-        "en": "Worn Mockingbird Armored Suit",
-        "es": "Traje blindado Sinsonte desgastado"
-      }
-    },
-    "color": "RANK_STALKER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/p6mrw.json",
-    "icon": "/icons/armor/combat/p6mrw.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.vorsa-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный защитный костюм «Ворса»",
-        "en": "Worn Fleece Protective Suit",
-        "es": "Traje protector Vellón desgastado"
-      }
-    },
-    "color": "RANK_STALKER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/vj1rr.json",
-    "icon": "/icons/armor/combat/vj1rr.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.goplit-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный бронекостюм «Гоплит»",
-        "en": "Worn Hoplite Armored Suit",
-        "es": "Traje blindado Hoplita desgastado"
-      }
-    },
-    "color": "RANK_STALKER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
     "data": "/items/armor/combat/dmgqj.json",
     "icon": "/icons/armor/combat/dmgqj.png",
     "name": {
@@ -24402,7 +24348,7 @@
         "es": "Traje blindado Hoplita"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -24418,42 +24364,6 @@
         "ru": "Костюм «Траппер»",
         "en": "Trapper Suit",
         "es": "Traje de trampero"
-      }
-    },
-    "color": "RANK_NEWBIE",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/6w0rp.json",
-    "icon": "/icons/armor/combat/6w0rp.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.trapper-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный костюм «Траппер»",
-        "en": "Worn Trapper Suit",
-        "es": "Traje de trampero desgastado"
-      }
-    },
-    "color": "RANK_NEWBIE",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/96nml.json",
-    "icon": "/icons/armor/combined/96nml.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.ao2-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный АО-2 «Странник»",
-        "en": "Worn AH-2 Nomad",
-        "es": "CA-2 Nómada desgastado"
       }
     },
     "color": "RANK_NEWBIE",
@@ -24798,7 +24708,7 @@
         "es": "Traje blindado de atacante"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "RANK_STALKER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -24906,7 +24816,7 @@
         "es": "TMA-99 Ámbar"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "RANK_STALKER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -24924,7 +24834,7 @@
         "es": "TMA-99 Malaquita"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -25164,24 +25074,6 @@
     }
   },
   {
-    "data": "/items/armor/combined/3g69l.json",
-    "icon": "/icons/armor/combined/3g69l.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.skat9b.name",
-      "args": {},
-      "lines": {
-        "ru": "Бронекостюм «Скиф-4б»",
-        "en": "Scythian-4b Armored Suit",
-        "es": "Traje blindado Escita-4b"
-      }
-    },
-    "color": "RANK_MASTER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
     "data": "/items/armor/combat/7lm56.json",
     "icon": "/icons/armor/combat/7lm56.png",
     "name": {
@@ -25266,7 +25158,7 @@
         "es": "Traje blindado Escita-4"
       }
     },
-    "color": "RANK_MASTER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -25308,330 +25200,6 @@
     }
   },
   {
-    "data": "/items/armor/scientist/knqgy.json",
-    "icon": "/icons/armor/scientist/knqgy.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.yantar-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный КИМ-99 «Янтарь»",
-        "en": "Worn MIS-99 Amber",
-        "es": "TMA-99 Ámbar desgastado"
-      }
-    },
-    "color": "RANK_NEWBIE",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/scientist/qjokj.json",
-    "icon": "/icons/armor/scientist/qjokj.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.kimm-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный КИМ-99М «Малахит»",
-        "en": "Worn MIS-99M Malachite",
-        "es": "TMA-99M Malaquita desgastado"
-      }
-    },
-    "color": "RANK_STALKER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/scientist/j5k10.json",
-    "icon": "/icons/armor/scientist/j5k10.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.seva-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный комбинезон «Уран»",
-        "en": "Worn Uranus Jumpsuit",
-        "es": "Traje Urano desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/scientist/lyjzk.json",
-    "icon": "/icons/armor/scientist/lyjzk.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.jnec-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный комбинезон «Жнец»",
-        "en": "Worn Reaper Jumpsuit",
-        "es": "Traje Segador desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/0r4k9.json",
-    "icon": "/icons/armor/combined/0r4k9.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.ao3-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный костюм АО-3 «Искатель»",
-        "en": "Worn AH-3 Seeker Suit",
-        "es": "Traje CA-3 Buscador desgastado"
-      }
-    },
-    "color": "RANK_STALKER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/m065y.json",
-    "icon": "/icons/armor/combat/m065y.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.voshod-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный тяжелый бронекостюм «Восход»",
-        "en": "Worn Voshod Heavy Armored Suit",
-        "es": "Traje blindado pesado Voshod desgastado"
-      }
-    },
-    "color": "RANK_STALKER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/ok0w6.json",
-    "icon": "/icons/armor/combat/ok0w6.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.gromila-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный тяжелый бронекостюм «Громила»",
-        "en": "Worn Thug Heavy Armored Suit",
-        "es": "Traje blindado pesado de matón desgastado"
-      }
-    },
-    "color": "RANK_STALKER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/n4ry1.json",
-    "icon": "/icons/armor/combat/n4ry1.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.osh-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный защитный костюм «Ош»",
-        "en": "Worn Osh Protective Suit",
-        "es": "Traje protector Osh desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/p6m4w.json",
-    "icon": "/icons/armor/combined/p6m4w.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.ao4-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный АО-4 «Рейдер»",
-        "en": "Worn AH-4 Raider",
-        "es": "CA-4 Asaltante desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/96n5l.json",
-    "icon": "/icons/armor/combat/96n5l.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.legion-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Легионер»",
-        "en": "Worn Legionnaire",
-        "es": "Legionario desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/1rkqg.json",
-    "icon": "/icons/armor/combined/1rkqg.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.bulat-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Скиф-2м»",
-        "en": "Worn Scythian-2m",
-        "es": "Escita-2m desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/g4yo6.json",
-    "icon": "/icons/armor/combined/g4yo6.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.pahan-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Пахан»",
-        "en": "Worn Kingpin",
-        "es": "Capo desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/zzy5y.json",
-    "icon": "/icons/armor/combat/zzy5y.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.exo-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный экзоскелет «Самсон»",
-        "en": "Worn Samson Exoskeleton",
-        "es": "Exoesqueleto Sansón desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/96n5y.json",
-    "icon": "/icons/armor/combat/96n5y.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.exo_bandit-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенная «Масть»",
-        "en": "Worn Trump",
-        "es": "Triunfo desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/1rkq2.json",
-    "icon": "/icons/armor/combined/1rkq2.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.skat9m-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Скиф-4»",
-        "en": "Worn Scythian-4",
-        "es": "Escita-4 desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/g4yo5.json",
-    "icon": "/icons/armor/combined/g4yo5.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.skat9m-2.name",
-      "args": {},
-      "lines": {
-        "ru": "Поврежденный «Скиф-4»",
-        "en": "Damaged Scythian-4",
-        "es": "Escita-4 dañado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/wjgp3.json",
-    "icon": "/icons/armor/combat/wjgp3.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.centurion-2.name",
-      "args": {},
-      "lines": {
-        "ru": "Поврежденный «Центурион»",
-        "en": "Damaged Centurion",
-        "es": "Centurión dañado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/4qlvo.json",
-    "icon": "/icons/armor/combat/4qlvo.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.centurion-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Центурион»",
-        "en": "Worn Centurion",
-        "es": "Centurión desgastado"
-      }
-    },
-    "color": "RANK_MASTER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
     "data": "/items/armor/combined/m06k2.json",
     "icon": "/icons/armor/combined/m06k2.png",
     "name": {
@@ -25645,60 +25213,6 @@
       }
     },
     "color": "RANK_MASTER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/ok0jm.json",
-    "icon": "/icons/armor/combined/ok0jm.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.skat9b-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Скиф-4б»",
-        "en": "Worn Scythian-4b",
-        "es": "Escita-4b desgastado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/vj1pp.json",
-    "icon": "/icons/armor/combined/vj1pp.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.turist-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Грибник»",
-        "en": "Worn Forager",
-        "es": "Recolector desgastado"
-      }
-    },
-    "color": "RANK_NEWBIE",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combined/dmg02.json",
-    "icon": "/icons/armor/combined/dmg02.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.klepto-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Клептоман»",
-        "en": "Worn Kleptomaniac",
-        "es": "Cleptómano desgastado"
-      }
-    },
-    "color": "RANK_NEWBIE",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -26334,42 +25848,6 @@
     }
   },
   {
-    "data": "/items/armor/scientist/3gdoz.json",
-    "icon": "/icons/armor/scientist/3gdoz.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.saturn-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный комбинезон «Сатурн»",
-        "en": "Worn Saturn Jumpsuit",
-        "es": "Traje Saturno desgastado"
-      }
-    },
-    "color": "RANK_MASTER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/scientist/7lzw3.json",
-    "icon": "/icons/armor/scientist/7lzw3.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.saturn-2.name",
-      "args": {},
-      "lines": {
-        "ru": "Поврежденный комбинезон «Сатурн»",
-        "en": "Damaged Saturn Jumpsuit",
-        "es": "Traje Saturno dañado"
-      }
-    },
-    "color": "RANK_VETERAN",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
     "data": "/items/armor/combat/g43k0.json",
     "icon": "/icons/armor/combat/g43k0.png",
     "name": {
@@ -26424,24 +25902,6 @@
     }
   },
   {
-    "data": "/items/armor/combined/y3qgz.json",
-    "icon": "/icons/armor/combined/y3qgz.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.ao6-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный АО-6 «Кочевник»",
-        "en": "Worn AH-6 Nomad",
-        "es": "CA-6 Nómada desgastado"
-      }
-    },
-    "color": "RANK_MASTER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
     "data": "/items/armor/combat/wj49p.json",
     "icon": "/icons/armor/combat/wj49p.png",
     "name": {
@@ -26452,60 +25912,6 @@
         "ru": "Экзоброня «Зверобой»",
         "en": "Beast Slayer Exoarmor",
         "es": "Exoarmadura Matabestias"
-      }
-    },
-    "color": "RANK_MASTER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/4q9op.json",
-    "icon": "/icons/armor/combat/4q9op.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.zveroboi-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Зверобой»",
-        "en": "Worn Beast Slayer",
-        "es": "Matabestias desgastado"
-      }
-    },
-    "color": "RANK_MASTER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/kn360.json",
-    "icon": "/icons/armor/combat/kn360.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.mule-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Мул»",
-        "en": "Worn Mule",
-        "es": "Mula desgastada"
-      }
-    },
-    "color": "RANK_MASTER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
-    "data": "/items/armor/combat/qj1y6.json",
-    "icon": "/icons/armor/combat/qj1y6.png",
-    "name": {
-      "type": "translation",
-      "key": "item.arm.tuz-1.name",
-      "args": {},
-      "lines": {
-        "ru": "Поношенный «Туз»",
-        "en": "Worn Ace",
-        "es": "As desgastado"
       }
     },
     "color": "RANK_MASTER",
@@ -26740,6 +26146,150 @@
         "ru": "ПНВ О1М",
         "en": "NVG O1M",
         "es": "GVN O1M"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/device/rwg9l.json",
+    "icon": "/icons/armor/device/rwg9l.png",
+    "name": {
+      "type": "translation",
+      "key": "item.device.nvdtest2_1.name",
+      "args": {},
+      "lines": {
+        "ru": "Штурмовой ПНВ",
+        "en": "Assault NVG",
+        "es": "GVN de asalto"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/device/0rn6r.json",
+    "icon": "/icons/armor/device/0rn6r.png",
+    "name": {
+      "type": "translation",
+      "key": "item.device.nvdtest2_8.name",
+      "args": {},
+      "lines": {
+        "ru": "Штурмовой ПНВ",
+        "en": "Assault NVG",
+        "es": "GVN de asalto"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/device/m03nr.json",
+    "icon": "/icons/armor/device/m03nr.png",
+    "name": {
+      "type": "translation",
+      "key": "item.device.nvdtest2_17.name",
+      "args": {},
+      "lines": {
+        "ru": "Штурмовой ПНВ",
+        "en": "Assault NVG",
+        "es": "GVN de asalto"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/device/p69o5.json",
+    "icon": "/icons/armor/device/p69o5.png",
+    "name": {
+      "type": "translation",
+      "key": "item.device.nvdtest2_24g.name",
+      "args": {},
+      "lines": {
+        "ru": "Штурмовой ПНВ (зеленый)",
+        "en": "Assault NVG (Green)",
+        "es": "GVN de asalto (verde)"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/device/2ovwm.json",
+    "icon": "/icons/armor/device/2ovwm.png",
+    "name": {
+      "type": "translation",
+      "key": "item.device.nvdtest2_24w.name",
+      "args": {},
+      "lines": {
+        "ru": "Штурмовой ПНВ (белый)",
+        "en": "Assault NVG (White)",
+        "es": "GVN de asalto (blanco)"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/device/3gd2k.json",
+    "icon": "/icons/armor/device/3gd2k.png",
+    "name": {
+      "type": "translation",
+      "key": "item.device.nvdtest2_24b.name",
+      "args": {},
+      "lines": {
+        "ru": "Штурмовой ПНВ (синий)",
+        "en": "Assault NVG (Blue)",
+        "es": "GVN de asalto (azul)"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/device/7lzdr.json",
+    "icon": "/icons/armor/device/7lzdr.png",
+    "name": {
+      "type": "translation",
+      "key": "item.device.nvd_broken.name",
+      "args": {},
+      "lines": {
+        "ru": "Сломанный ПНВ",
+        "en": "Broken NVG",
+        "es": "GVN roto"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor/device/6wgj6.json",
+    "icon": "/icons/armor/device/6wgj6.png",
+    "name": {
+      "type": "translation",
+      "key": "item.device.nvd_aww.name",
+      "args": {},
+      "lines": {
+        "ru": "Aww Scary NVD",
+        "en": "Aww Scary NVD",
+        "es": "Aww Scary NVD"
       }
     },
     "color": "DEFAULT",

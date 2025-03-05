@@ -165,6 +165,38 @@
       },
       "elements": [
         {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": -5.000001,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "key-value",
           "key": {
             "type": "translation",
@@ -383,12 +415,12 @@
               "es": "Dispersión de disparos desde la cadera"
             }
           },
-          "value": 2.45,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "2,45°",
-              "en": "2.45°",
-              "es": "2,45°"
+              "ru": "3°",
+              "en": "3°",
+              "es": "3°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -591,9 +623,9 @@
             "key": "item.wpn.lmg.features",
             "args": {},
             "lines": {
-              "ru": "Улучшенный разброс и отдача в положении лёжа",
-              "en": "Upgraded spread and recoil in the prone position",
-              "es": "Dispersión y retroceso mejorados en posición decúbito."
+              "ru": "Улучшенная отдача в положении лёжа",
+              "en": "Improved recoil in prone position",
+              "es": "Retroceso mejorado en posición decúbito"
             }
           }
         }
