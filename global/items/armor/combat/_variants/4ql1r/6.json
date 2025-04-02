@@ -221,12 +221,35 @@
               "es": "Peso de carga"
             }
           },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "+25",
+              "en": "+25",
+              "es": "+25"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad"
+            }
+          },
           "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "+20",
-              "en": "+20",
-              "es": "+20"
+              "ru": "+20%",
+              "en": "+20%",
+              "es": "+20 %"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -253,12 +276,12 @@
               "es": "Resistencia a las balas"
             }
           },
-          "value": 274.01184,
+          "value": 277.21036,
           "formatted": {
             "value": {
-              "ru": "274,01",
-              "en": "274.01",
-              "es": "274,01"
+              "ru": "277,21",
+              "en": "277.21",
+              "es": "277,21"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -299,12 +322,12 @@
               "es": "Protección contra explosiones"
             }
           },
-          "value": 200.0,
+          "value": 300.0,
           "formatted": {
             "value": {
-              "ru": "200",
-              "en": "200",
-              "es": "200"
+              "ru": "300",
+              "en": "300",
+              "es": "300"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -500,6 +523,34 @@
       "type": "list",
       "title": {
         "type": "translation",
+        "key": "weapon.tooltip.weapon.info.feature",
+        "args": {},
+        "lines": {
+          "ru": "Особенности",
+          "en": "Features",
+          "es": "Características"
+        }
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.heavy.feature",
+            "args": {},
+            "lines": {
+              "ru": "Игнорирует штраф скорости передвижения от оружия",
+              "en": "Ignores a weapon’s movement speed penalty",
+              "es": "Ignora la penalización a la velocidad de movimiento de un arma"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
         "key": "stalker.tooltip.armor_artefact.info.upgrade_stats",
         "args": {},
         "lines": {
@@ -521,12 +572,12 @@
               "es": "Resistencia a las balas"
             }
           },
-          "value": 27.011856,
+          "value": 27.210361,
           "formatted": {
             "value": {
-              "ru": "27,01",
-              "en": "27.01",
-              "es": "27,01"
+              "ru": "27,21",
+              "en": "27.21",
+              "es": "27,21"
             },
             "nameColor": "F1AA21",
             "valueColor": "F1AA21"

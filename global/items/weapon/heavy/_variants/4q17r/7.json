@@ -231,12 +231,12 @@
               "es": "Daño"
             }
           },
-          "value": 230.84909,
+          "value": 247.5305,
           "formatted": {
             "value": {
-              "ru": "230,85 ед",
-              "en": "230.85 unit(s)",
-              "es": "230,85 unidad(es)"
+              "ru": "247,53 ед",
+              "en": "247.53 unit(s)",
+              "es": "247,53 unidad(es)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -323,12 +323,12 @@
               "es": "Recarga"
             }
           },
-          "value": 2.25,
+          "value": 2.0,
           "formatted": {
             "value": {
-              "ru": "2,25 с",
-              "en": "2.25 sec",
-              "es": "2,25 s"
+              "ru": "2 с",
+              "en": "2 sec",
+              "es": "2 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -583,12 +583,12 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
-              "modifier": "3.5"
+              "modifier": "5.0"
             },
             "lines": {
-              "ru": "Урон по мутантам: х3,5",
-              "en": "Damage to mutants: x3.5",
-              "es": "Daño a mutantes: x3,5"
+              "ru": "Урон по мутантам: х5",
+              "en": "Damage to mutants: x5",
+              "es": "Daño a mutantes: x5"
             }
           }
         },
@@ -598,13 +598,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.execute_damage_modifier",
             "args": {
-              "plusPercent": "0.5",
+              "plusPercent": "1.0",
               "maxPercent": "100.0"
             },
             "lines": {
-              "ru": "Урон увеличивается на 0,5% за каждый % отсутствующего здоровья цели, максимум +100% урона",
-              "en": "Damage increases by 0.5% for every % of the target’s health that is missing, to a maximum of +100% damage",
-              "es": "El daño aumenta un 0,5 % por cada % de salud que le falte al objetivo, hasta un máximo de +100 % de daño"
+              "ru": "Урон увеличивается на 1% за каждый % отсутствующего здоровья цели, максимум +100% урона",
+              "en": "Damage increases by 1% for every % of the target’s health that is missing, to a maximum of +100% damage",
+              "es": "El daño aumenta un 1 % por cada % de salud que le falte al objetivo, hasta un máximo de +100 % de daño"
             }
           }
         }
@@ -691,9 +691,9 @@
             "key": "item.wpn.ptrd.features",
             "args": {},
             "lines": {
-              "ru": "Ломает пластины @Смертельный выстрел @Пониженный разброс в приседе",
-              "en": "Breaks plates @Fatal shot @Reduced spread when crouching",
-              "es": "Rompe placas @Disparo mortal @Dispersión reducida al agacharse"
+              "ru": "Игнорирует защиту пластин @Ломает пластины @Смертельный выстрел @Пониженный разброс в приседе @Улучшенная отдача в положении лёжа",
+              "en": "Ignores plates @Breaks plates @Fatal shot @Reduced spread when crouching @Improved recoil in prone position",
+              "es": "Ignora las placas @Rompe placas @Disparo mortal @Dispersión reducida al agacharse @Retroceso mejorado en posición decúbito"
             }
           }
         }
@@ -701,9 +701,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 230.84909,
+      "startDamage": 247.5305,
       "damageDecreaseStart": 50.0,
-      "endDamage": 230.84909,
+      "endDamage": 247.5305,
       "damageDecreaseEnd": 150.0,
       "maxDistance": 250.0
     },
