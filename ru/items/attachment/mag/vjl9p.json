@@ -1,0 +1,228 @@
+{
+  "id": "vjl9p",
+  "category": "attachment/mag",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mag_drum6p62.name",
+    "args": {},
+    "lines": {
+      "ru": "Барабанный магазин 6П62",
+      "en": "6P62 Drum magazine",
+      "es": "Cargador de tambor 6P62"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.mag",
+            "args": {},
+            "lines": {
+              "ru": "Магазины",
+              "en": "Magazines",
+              "es": "Cargadores"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 7.0,
+          "formatted": {
+            "value": {
+              "ru": "7 кг",
+              "en": "7 kg",
+              "es": "7 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:",
+              "es": "Tamaño del cargador:"
+            }
+          },
+          "value": 40.0,
+          "formatted": {
+            "value": {
+              "ru": "40",
+              "en": "40",
+              "es": "40"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload",
+              "es": "Recarga"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload",
+              "es": "Recarga táctica"
+            }
+          },
+          "value": 4.0,
+          "formatted": {
+            "value": {
+              "ru": "4 с",
+              "en": "4 sec",
+              "es": "4 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.6p62.name",
+            "args": {},
+            "lines": {
+              "ru": "6П62 «Малыш»",
+              "en": "6P62 Little Boy",
+              "es": "6P62 Niño"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

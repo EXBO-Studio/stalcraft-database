@@ -1,0 +1,108 @@
+{
+  "id": "w3zn3",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.battlefields.name",
+    "args": {},
+    "lines": {
+      "ru": "Боевой жетон",
+      "en": "Battle Token",
+      "es": "Ficha de Batalla"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.003,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.battlefields.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "«Честь и доблесть добываются кровью!» (С) Спартак\\nЭто не столько валюта, сколько доказательство себе и остальным, что ты - лучший.",
+          "en": "\"Honor and valor are gained by blood!\" (Spartak)\\nIt\u0027s not so much about currency as it is about proving to yourself and others that you are the best.",
+          "es": "\"¡El honor y el valor se ganan con sangre!\" (C) Espartaco\\nNo es tanto una divisa como una demostración a ti mismo y a los demás de que eres el mejor."
+        }
+      }
+    }
+  ]
+}

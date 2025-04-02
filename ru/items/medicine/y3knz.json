@@ -247,23 +247,46 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina",
-              "es": "Aguante"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
             }
           },
-          "value": 40.0,
+          "value": 5.0,
           "formatted": {
             "value": {
-              "ru": "40%",
-              "en": "40%",
-              "es": "40 %"
+              "ru": "5%",
+              "en": "5%",
+              "es": "5 %"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia"
+            }
+          },
+          "value": -35.0,
+          "formatted": {
+            "value": {
+              "ru": "-35%",
+              "en": "-35%",
+              "es": "-35 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -287,29 +310,6 @@
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Биологическое заражение",
-              "en": "Biological infection",
-              "es": "Infección biológica"
-            }
-          },
-          "value": 0.5,
-          "formatted": {
-            "value": {
-              "ru": "0,5",
-              "en": "0.5",
-              "es": "0,5"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
           }
         }
       ]
