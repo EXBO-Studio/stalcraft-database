@@ -1,0 +1,317 @@
+{
+  "id": "kq4v",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.inside_kalina.name",
+    "args": {},
+    "lines": {
+      "ru": "Темная калина",
+      "en": "Dark Viburnum",
+      "es": "Viburnum oscuro"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante"
+            }
+          },
+          "min": 17.863998,
+          "max": 35.727997,
+          "formatted": {
+            "value": {
+              "ru": "[+17,86%; +35,73%]",
+              "en": "[+17.86%; +35.73%]",
+              "es": "[+17,86 %; +35,73 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad"
+            }
+          },
+          "min": 4.698,
+          "max": 9.396,
+          "formatted": {
+            "value": {
+              "ru": "[+4,7%; +9,4%]",
+              "en": "[+4.7%; +9.4%]",
+              "es": "[+4,7 %; +9,4 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Psicoemisiones"
+            }
+          },
+          "min": 2.5,
+          "max": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "[+2,5; +5]",
+              "en": "[+2.5; +5]",
+              "es": "[+2,5; +5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.recoil_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso"
+            }
+          },
+          "min": 3.1,
+          "max": 6.2,
+          "formatted": {
+            "value": {
+              "ru": "[+3,1%; +6,2%]",
+              "en": "[+3.1%; +6.2%]",
+              "es": "[+3,1 %; +6,2 %]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.inside_kalina.description",
+        "args": {},
+        "lines": {
+          "ru": "Представляет собой окаменелую и измененную версию артефакта «Ветка калины», которую можно встретить в ЧЗО, но поросшую кристаллическими образованиями, характерными для Изнанки.\\nФормирует поле псионов, искажающее атомные силы в молекулах гидрида кислорода, за счет чего меняется гидравлическая способность жидкостей организма. Побочным действием является легкий тремор в руках.\\nОбладает легким псионным фоном. Рекомендуется игнорировать странные образы и видения на периферии зрения.",
+          "en": "It is a fossilized and altered version of the artifact Viburnum Branch, which can be found in the Chernobyl Exclusion Zone, but is overgrown with crystalline formations characteristic of the Inside Out.\\nIt forms a field of psions that distorts the atomic power in the molecules of oxygen hydride, thereby changing the hydraulic capacity of bodily fluids. A side effect is a slight tremor in the hands.\\nIt has a weak psionic background. It is recommended to ignore strange images and visions at the periphery of vision.",
+          "es": "Se trata de una versión fosilizada y alterada del artefacto Rama de durillo hallado en la Zona de exclusión de Chernóbil, pero recubierto de formaciones cristalinas típicas del Reverso.\\nForma un campo de psiónicos que distorsiona las fuerzas atómicas en las moléculas de hidruro de oxígeno, lo que modifica la capacidad hidráulica de los fluidos corporales. El efecto secundario es un ligero temblor en las manos.\\nObtiene un ligero trasfondo psiónico. Se recomienda ignorar las imágenes y visiones extrañas en la periferia de la visión."
+        }
+      }
+    }
+  ]
+}

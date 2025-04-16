@@ -1,0 +1,341 @@
+{
+  "id": "1kw1",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.inside_crystal.name",
+    "args": {},
+    "lines": {
+      "ru": "Кристалл Изнанки",
+      "en": "Crystal of Inside Out",
+      "es": "Cristal del Reverso"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante"
+            }
+          },
+          "min": 6.448,
+          "max": 12.896,
+          "formatted": {
+            "value": {
+              "ru": "[+6,45%; +12,9%]",
+              "en": "[+6.45%; +12.9%]",
+              "es": "[+6,45 %; +12,9 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga"
+            }
+          },
+          "min": 4.34,
+          "max": 8.68,
+          "formatted": {
+            "value": {
+              "ru": "[+4,34; +8,68]",
+              "en": "[+4.34; +8.68]",
+              "es": "[+4,34; +8,68]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación"
+            }
+          },
+          "min": -1.3640001,
+          "max": -0.68200004,
+          "formatted": {
+            "value": {
+              "ru": "[-1,36; -0,68]",
+              "en": "[-1.36; -0.68]",
+              "es": "[-1,36; -0,68]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica"
+            }
+          },
+          "min": 0.5,
+          "max": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "[+0,5; +1]",
+              "en": "[+0.5; +1]",
+              "es": "[+0,5; +1]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to laceration",
+              "es": "Reacción a la laceración"
+            }
+          },
+          "min": -3.6,
+          "max": -1.8,
+          "formatted": {
+            "value": {
+              "ru": "[-3,6%; -1,8%]",
+              "en": "[-3.6%; -1.8%]",
+              "es": "[-3,6 %; -1,8 %]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.inside_crystal.description",
+        "args": {},
+        "lines": {
+          "ru": "Кристаллическое образование, которое можно встретить в Изнанке. Является молекулярным отражением артефакта «Красный кристалл», вплоть до положения атомов в решетке.\\nПоглощает известные типы радиационного излучения, преобразуя их в слабое гравитационное поле.\\nПри нарушении целостности поля, формирует волны, губительные для органических тканей. По неясным причинам, способствует размножению болезнетворных микроорганизмов.",
+          "en": "A crystalline formation that can be found in the Inside Out. It is a molecular reflection of the artifact known as the Red Crystal – down to the positioning of atoms in the lattice.\\nIt absorbs known types of radiation, converting them into a weak gravitational field.\\nWhen the integrity of the field is compromised, it forms waves that are harmful to organic tissues. For reasons not yet understood, it also promotes the reproduction of pathogenic microorganisms.",
+          "es": "Una formación cristalina que puede encontrarse en el Reverso. Es un reflejo molecular del artefacto Cristal rojo, hasta la posición de los átomos en la red.\\nAbsorbe tipos conocidos de radiación, convirtiéndolos en un campo gravitatorio débil.\\nSi se rompe la integridad del campo, forma ondas destructivas para los tejidos orgánicos. Por razones desconocidas, favorece la reproducción de agentes patógenos."
+        }
+      }
+    }
+  ]
+}

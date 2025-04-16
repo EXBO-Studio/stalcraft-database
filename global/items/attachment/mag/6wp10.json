@@ -1,0 +1,382 @@
+{
+  "id": "6wp10",
+  "category": "attachment/mag",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mag_samodel76245.name",
+    "args": {},
+    "lines": {
+      "ru": "Самодельный магазин 7.62x39",
+      "en": "Handmade 7.62x39 Magazine",
+      "es": "Cargador casero de 7,62x39"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.mag",
+            "args": {},
+            "lines": {
+              "ru": "Магазины",
+              "en": "Magazines",
+              "es": "Cargadores"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.46,
+          "formatted": {
+            "value": {
+              "ru": "0,46 кг",
+              "en": "0.46 kg",
+              "es": "0,46 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:",
+              "es": "Tamaño del cargador:"
+            }
+          },
+          "value": 40.0,
+          "formatted": {
+            "value": {
+              "ru": "40",
+              "en": "40",
+              "es": "40"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload",
+              "es": "Recarga"
+            }
+          },
+          "value": 3.35,
+          "formatted": {
+            "value": {
+              "ru": "3,35 с",
+              "en": "3.35 sec",
+              "es": "3,35 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload",
+              "es": "Recarga táctica"
+            }
+          },
+          "value": 2.68,
+          "formatted": {
+            "value": {
+              "ru": "2,68 с",
+              "en": "2.68 sec",
+              "es": "2,68 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
+            }
+          },
+          "value": -0.24999976,
+          "formatted": {
+            "value": {
+              "ru": "-0,25%",
+              "en": "-0.25%",
+              "es": "-0,25 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ots14a1.name",
+            "args": {},
+            "lines": {
+              "ru": "ОЦ-14-А1 «Тор»",
+              "en": "OTs-14-A1 Thor",
+              "es": "OTs-14-A1 Thor"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akm.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ",
+              "en": "AKM",
+              "es": "AKM"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akmb.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ «Тишина»",
+              "en": "AKM Tishina",
+              "es": "AKM Tishina"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak203.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-203",
+              "en": "AK-203",
+              "es": "AK-203"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aek973.name",
+            "args": {},
+            "lines": {
+              "ru": "АЕК-973 «Марс»",
+              "en": "AEK-973 Mars",
+              "es": "AEK-973 Marte"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak103.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-103",
+              "en": "AK-103",
+              "es": "AK-103"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak15.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-15",
+              "en": "AK-15",
+              "es": "AK-15"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.a762.name",
+            "args": {},
+            "lines": {
+              "ru": "А-762 «Арес»",
+              "en": "A-762 Ares",
+              "es": "A-762 Ares"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mk47.name",
+            "args": {},
+            "lines": {
+              "ru": "MK47 Mutant",
+              "en": "MK47 Mutant",
+              "es": "MK47 Mutante"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sok94.name",
+            "args": {},
+            "lines": {
+              "ru": "СОК-94",
+              "en": "SOK-94",
+              "es": "SOK-94"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rpk.name",
+            "args": {},
+            "lines": {
+              "ru": "РПК",
+              "en": "RPK",
+              "es": "RPK"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

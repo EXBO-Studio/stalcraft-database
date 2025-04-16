@@ -1,0 +1,317 @@
+{
+  "id": "qodk",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.inside_bubblegum.name",
+    "args": {},
+    "lines": {
+      "ru": "Бубльгум",
+      "en": "Bubblegum",
+      "es": "Chicle"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5 кг",
+              "en": "0.5 kg",
+              "es": "0,5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "min": -3.4,
+          "max": -1.7,
+          "formatted": {
+            "value": {
+              "ru": "[-3,4%; -1,7%]",
+              "en": "[-3.4%; -1.7%]",
+              "es": "[-3,4 %; -1,7 %]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas"
+            }
+          },
+          "min": 10.615,
+          "max": 21.23,
+          "formatted": {
+            "value": {
+              "ru": "[+10,62; +21,23]",
+              "en": "[+10.62; +21.23]",
+              "es": "[+10,62; +21,23]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones"
+            }
+          },
+          "min": 5.94,
+          "max": 11.88,
+          "formatted": {
+            "value": {
+              "ru": "[+5,94; +11,88]",
+              "en": "[+5.94; +11.88]",
+              "es": "[+5,94; +11,88]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura"
+            }
+          },
+          "min": 1.25,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+1,25; +2,5]",
+              "en": "[+1.25; +2.5]",
+              "es": "[+1,25; +2,5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.inside_bubblegum.description",
+        "args": {},
+        "lines": {
+          "ru": "Шарообразный объект с небольшими наростами и кристаллическими вкраплениями. Немного мягкий на ощупь. Свое название получил из-за артефакта прародителя из ЧЗО — «Жвачки», которую будто надули в пузырь.\\nВоздействует на гравитационное поле носителя, искажая векторную информацию силы объектов, попадающих в область воздействия извне.\\nСталкер, не обладающий теоретической базой, может спутать с «Ягодкой».",
+          "en": "A spherical object with small outgrowths and crystalline inclusions, it is slightly soft to the touch. It got its name from the artifact of the progenitor from the Chernobyl Exclusion Zone - Gum, which appears to be inflated into a bubble.\\nThis object affects the gravitational field of the bearer, distorting the vector information of the force of objects entering the area of influence from outside.\\nA stalker without a theoretical background might confuse it with the Berry.",
+          "es": "Objeto esférico con pequeñas excrecencias e inclusiones cristalinas. Ligeramente blando al tacto. Obtuvo su nombre debido al artefacto de su antepasado de la Zona de exclusión de Chernóbil - Chicle, que parece inflado en una burbuja.\\nAfecta el campo gravitatorio del portador, distorsionando la información vectorial de la fuerza de los objetos que caen en el área de influencia desde el exterior.\\nUn acechador que no tiene una base teórica, puede confundirlo con Baya."
+        }
+      }
+    }
+  ]
+}

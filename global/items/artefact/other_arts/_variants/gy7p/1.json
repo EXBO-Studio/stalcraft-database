@@ -1,0 +1,341 @@
+{
+  "id": "gy7p",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.inside_setchatka.name",
+    "args": {},
+    "lines": {
+      "ru": "Сетчатка",
+      "en": "Retina",
+      "es": "Retina"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "min": 0.816,
+          "max": 1.632,
+          "formatted": {
+            "value": {
+              "ru": "[+0,82%; +1,63%]",
+              "en": "[+0.82%; +1.63%]",
+              "es": "[+0,82 %; +1,63 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante"
+            }
+          },
+          "min": 1.173,
+          "max": 2.346,
+          "formatted": {
+            "value": {
+              "ru": "[+1,17%; +2,35%]",
+              "en": "[+1.17%; +2.35%]",
+              "es": "[+1,17 %; +2,35 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica"
+            }
+          },
+          "min": -1.122,
+          "max": -0.561,
+          "formatted": {
+            "value": {
+              "ru": "[-1,12; -0,56]",
+              "en": "[-1.12; -0.56]",
+              "es": "[-1,12; -0,56]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Psicoemisiones"
+            }
+          },
+          "min": 1.0,
+          "max": 2.0,
+          "formatted": {
+            "value": {
+              "ru": "[+1; +2]",
+              "en": "[+1; +2]",
+              "es": "[+1; +2]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns",
+              "es": "Reacción a las quemaduras"
+            }
+          },
+          "min": -3.6,
+          "max": -1.8,
+          "formatted": {
+            "value": {
+              "ru": "[-3,6%; -1,8%]",
+              "en": "[-3.6%; -1.8%]",
+              "es": "[-3,6 %; -1,8 %]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.inside_setchatka.description",
+        "args": {},
+        "lines": {
+          "ru": "Несмотря на каменное основание и твердую роговую ткань наростов, имеет полностью органическое происхождение, так как его прародителем является «Змеиный глаз», встречающийся в ЧЗО.\\nПо сути, представляет собой искаженную версию некого организма, питающегося бактериальной и токсичной средой.\\nВыбрасывает в кровь носителя полигормональный состав, полностью совместимый с организмом. При воздействии высоких температур, состав теряет свою стабильность.\\nПовышенный фон сопутствующих нейромедиаторов незначительно понижает нейронную резистентность.",
+          "en": "Though it has a stone base and hard horn tissue, its origin is completely organic, tracing back to the Snake Eye found in the Chernobyl Exclusion Zone.\\nEssentially, it is a distorted version of an organism that thrives in bacterial and toxic environments.\\nIt releases a polyhormonal composition into the host\u0027s bloodstream that is fully compatible with the organism. When exposed to high temperatures, the composition loses its stability.\\nThe elevated levels of accompanying neurotransmitters slightly reduce neuronal resistance.",
+          "es": "A pesar de la base rocosa y el tejido córneo duro de los crecimientos, es de origen totalmente orgánico, ya que su antepasado es Ojo de serpiente que se encuentra en la Zona de exclusión de Chernóbil.\\nEn esencia, es una versión distorsionada de algún organismo que se alimenta de entornos bacterianos y tóxicos.\\nDescarga en el torrente sanguíneo del huésped una composición polihormonal que es totalmente compatible con el organismo. Cuando se expone a altas temperaturas, la composición pierde su estabilidad.\\nEl aumento del fondo de neurotransmisores asociados reduce ligeramente la resistencia neuronal."
+        }
+      }
+    }
+  ]
+}
