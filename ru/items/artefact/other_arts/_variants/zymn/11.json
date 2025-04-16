@@ -1,0 +1,341 @@
+{
+  "id": "zymn",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.inside_smalets.name",
+    "args": {},
+    "lines": {
+      "ru": "Смалец",
+      "en": "Tallow",
+      "es": "Manteca"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud"
+            }
+          },
+          "min": 0.976,
+          "max": 1.952,
+          "formatted": {
+            "value": {
+              "ru": "[+0,98%; +1,95%]",
+              "en": "[+0.98%; +1.95%]",
+              "es": "[+0,98 %; +1,95 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación"
+            }
+          },
+          "min": 5.368,
+          "max": 10.736,
+          "formatted": {
+            "value": {
+              "ru": "[+5,37%; +10,74%]",
+              "en": "[+5.37%; +10.74%]",
+              "es": "[+5,37 %; +10,74 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación"
+            }
+          },
+          "min": 0.5,
+          "max": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "[+0,5; +1]",
+              "en": "[+0.5; +1]",
+              "es": "[+0,5; +1]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura"
+            }
+          },
+          "min": -1.342,
+          "max": -0.671,
+          "formatted": {
+            "value": {
+              "ru": "[-1,34; -0,67]",
+              "en": "[-1.34; -0.67]",
+              "es": "[-1,34; -0,67]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_electroshock",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на электричество",
+              "en": "Reaction to electricity",
+              "es": "Reacción a la electricidad"
+            }
+          },
+          "min": -5.3,
+          "max": -2.65,
+          "formatted": {
+            "value": {
+              "ru": "[-5,3%; -2,65%]",
+              "en": "[-5.3%; -2.65%]",
+              "es": "[-5,3 %; -2,65 %]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.inside_smalets.description",
+        "args": {},
+        "lines": {
+          "ru": "Объект, состоящий из органических наростов с торцевой части и полностью твердой основы тела. По внешнему виду можно точно сказать, что базовая структура унаследована от артефакта «Сало». Материал имеет свойства как кристаллических наростов Изнанки, так и аномальных структур ЧЗО.\\nСпособен поглощать излишки тепла, вызывая при этом легкую радиацию, положительно влияющую на деление клеток.\\nПри контакте с электромагнитным полем высокого напряжения формирует поле, разрушающее клеточные мембраны.",
+          "en": "An object consisting of organic growths on the end part and a completely solid body base. By its appearance, it can be accurately stated that the basic structure is inherited from the artifact Lard. The material exhibits properties of both the crystalline growths found in the Inside Out and the anomalous structures of the Chernobyl Exclusion Zone.\\nIt is capable of absorbing excess heat, resulting in mild radiation that positively affects cell division.\\nUpon contact with a high-voltage electromagnetic field, it generates a field that destroys cell membranes.",
+          "es": "Un objeto formado por crecimientos orgánicos de la parte terminal y una base de cuerpo totalmente macizo. Por su aspecto podemos afirmar con seguridad que la estructura de la base es heredada del artefacto \"Manteca\". El material tiene las propiedades tanto de los crecimientos cristalinos del Reverso como de las estructuras anómalas de la Zona de exclusión de Chernóbil.\\nEs capaz de absorber el calor excesivo, provocando una radiación luminosa, que tiene un efecto positivo en la división celular.\\nEn contacto con un campo electromagnético de alta tensión, forma un campo que destruye las membranas celulares."
+        }
+      }
+    }
+  ]
+}

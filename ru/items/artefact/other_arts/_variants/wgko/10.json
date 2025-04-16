@@ -1,0 +1,317 @@
+{
+  "id": "wgko",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.inside_rose.name",
+    "args": {},
+    "lines": {
+      "ru": "Роза Изнанки",
+      "en": "Inside Out Rose",
+      "es": "Rosa del Reverso"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación"
+            }
+          },
+          "min": -17.4,
+          "max": -8.7,
+          "formatted": {
+            "value": {
+              "ru": "[-17,4%; -8,7%]",
+              "en": "[-17.4%; -8.7%]",
+              "es": "[-17,4 %; -8,7 %]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas"
+            }
+          },
+          "min": 7.32,
+          "max": 14.64,
+          "formatted": {
+            "value": {
+              "ru": "[+7,32; +14,64]",
+              "en": "[+7.32; +14.64]",
+              "es": "[+7,32; +14,64]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad"
+            }
+          },
+          "min": 6.2400002,
+          "max": 12.4800005,
+          "formatted": {
+            "value": {
+              "ru": "[+6,24%; +12,48%]",
+              "en": "[+6.24%; +12.48%]",
+              "es": "[+6,24 %; +12,48 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica"
+            }
+          },
+          "min": 1.25,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+1,25; +2,5]",
+              "en": "[+1.25; +2.5]",
+              "es": "[+1,25; +2,5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.inside_rose.description",
+        "args": {},
+        "lines": {
+          "ru": "Каменное образование с острыми псевдоуглеродными наростами высокой плотности. В основе имеет структуру артефакта «Проклятая роза», который встречается в ЧЗО.\\nЛокально замедляет взаимодействие хрононов в полях органических тканей, из-за чего меняется эластичность и плотность последних. Ввиду этого, под воздействием артефакта, нарушается клеточный метаболизм.\\nПри длительном использовании может появиться зуд, недомогание, бледность кожных покровов и тошнота.",
+          "en": "A stone formation with sharp pseudo-carbon outgrowths of high density. Its core structure is based on the artifact called the Cursed Rose, which was found in the Chernobyl Exclusion Zone.\\nIt locally slows the interaction of chronons within the fields of organic tissues, resulting in changes to their elasticity and density. Due to this, cellular metabolism is disrupted under the artifact\u0027s influence.\\nWith prolonged use, itching, malaise, skin pallor, and nausea may occur.",
+          "es": "Una formación pétrea con afilados brotes de pseudocarbono de alta densidad. Se basa en la estructura del artefacto Rosa maldita, que se encuentra en la Zona de exclusión de Chernóbil.\\nRalentiza localmente la interacción de los cronones en los campos de los tejidos orgánicos, lo que modifica la elasticidad y densidad de estos últimos.\\nPuede causar picor, malestar, palidez y náuseas si se utiliza durante largos periodos de tiempo."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "4lrn",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.inside_bismuth.name",
+    "args": {},
+    "lines": {
+      "ru": "Висмут",
+      "en": "Bismuth",
+      "es": "Bismuto"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante"
+            }
+          },
+          "min": -27.8,
+          "max": -13.9,
+          "formatted": {
+            "value": {
+              "ru": "[-27,8%; -13,9%]",
+              "en": "[-27.8%; -13.9%]",
+              "es": "[-27,8 %; -13,9 %]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud"
+            }
+          },
+          "min": 1.89,
+          "max": 3.78,
+          "formatted": {
+            "value": {
+              "ru": "[+1,89%; +3,78%]",
+              "en": "[+1.89%; +3.78%]",
+              "es": "[+1,89 %; +3,78 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica"
+            }
+          },
+          "min": 1.25,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+1,25; +2,5]",
+              "en": "[+1.25; +2.5]",
+              "es": "[+1,25; +2,5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.recoil_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso"
+            }
+          },
+          "min": -4.914,
+          "max": -2.457,
+          "formatted": {
+            "value": {
+              "ru": "[-4,91%; -2,46%]",
+              "en": "[-4.91%; -2.46%]",
+              "es": "[-4,91 %; -2,46 %]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.inside_bismuth.description",
+        "args": {},
+        "lines": {
+          "ru": "Уникальный артефакт Изнанки той же природы, что и «Ключик». Аналогов и прародителей в Зоне нет. Имеет узнаваемую форму из-за фрактального влияния Искажения на артефактогенез. Название получил в честь металла, встречающегося вне Зоны.\\nВ отличие от своего «собрата» по структуре, искажает квантовое состояние времени для клеток организма, что меняет метаболические функции и реакцию нейронов, но влияет на «усталость» тканей. \\nМетаболические функции повышаются и у бактерий, скапливающихся на коже, слизистой и снаряжении. Рекомендуется использовать артефакт после дезинфекции или душа.",
+          "en": "A unique artifact from the Inside Out, similar in nature to the Tiny Key. It has no analogs or predecessors in the Zone. It has a recognizable shape due to the fractal influence of Distortion on artifactogenesis. Unlike its structural \"sibling,\" it distorts the quantum state of time at the cellular level, altering metabolic functions and neuronal reactions, but also affects the \"fatigue\" of tissues. \\nMetabolic functions also increase in bacteria accumulating on the skin, mucosa, and equipment. It is recommended to use the artifact after disinfection or a shower.",
+          "es": "Un artefacto único del Reverso de la misma naturaleza que Llavecita. No existen análogos ni progenitores en la Zona. Tiene una forma reconocible debido a la influencia fractal de la Distorsión en la artefactogénesis. Recibió su nombre en honor de un metal encontrado fuera de la Zona.\\nEn contraste con su homólogo estructural, distorsiona el estado cuántico del tiempo para las células del organismo, lo que cambia las funciones metabólicas y la reacción de las neuronas, pero afecta a la \"fatiga\" de los tejidos.\\nLas funciones metabólicas también aumentan en las bacterias que se acumulan en la piel, las mucosas y el equipo. Se recomienda utilizar el artefacto después de desinfectarlo o ducharse."
+        }
+      }
+    }
+  ]
+}
