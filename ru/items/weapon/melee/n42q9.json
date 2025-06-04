@@ -1,0 +1,424 @@
+{
+  "id": "n42q9",
+  "category": "weapon/melee",
+  "name": {
+    "type": "translation",
+    "key": "item.melee.petal.name",
+    "args": {},
+    "lines": {
+      "ru": "«Лепесток»",
+      "en": "Petal",
+      "es": "Pétalo"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.melee",
+            "args": {},
+            "lines": {
+              "ru": "Ближний бой",
+              "en": "Melee Weapons",
+              "es": "Armas cuerpo a cuerpo"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.type",
+            "args": {},
+            "lines": {
+              "ru": "Тип",
+              "en": "Type",
+              "es": "Tipo"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.melee.fight.type",
+            "args": {},
+            "lines": {
+              "ru": "Боевой",
+              "en": "Combat",
+              "es": "Combate"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.153,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": 7.0,
+          "formatted": {
+            "value": {
+              "ru": "7%",
+              "en": "7%",
+              "es": "7 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.min.common",
+            "args": {},
+            "lines": {
+              "ru": "Быстрый удар (мин)",
+              "en": "Quick attack (min)",
+              "es": "Ataque rápido (mín.)"
+            }
+          },
+          "value": 32.0,
+          "formatted": {
+            "value": {
+              "ru": "32 ед",
+              "en": "32 unit(s)",
+              "es": "32 unidad(es)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.max.common",
+            "args": {},
+            "lines": {
+              "ru": "Быстрый удар (макс)",
+              "en": "Quick attack (max)",
+              "es": "Ataque rápido (máx.)"
+            }
+          },
+          "value": 48.0,
+          "formatted": {
+            "value": {
+              "ru": "48 ед",
+              "en": "48 unit(s)",
+              "es": "48 unidad(es)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.min.strong",
+            "args": {},
+            "lines": {
+              "ru": "Сильный удар (мин)",
+              "en": "Strong attack (min)",
+              "es": "Ataque potente (mín.)"
+            }
+          },
+          "value": 82.0,
+          "formatted": {
+            "value": {
+              "ru": "82 ед",
+              "en": "82 unit(s)",
+              "es": "82 unidad(es)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.max.strong",
+            "args": {},
+            "lines": {
+              "ru": "Сильный удар (макс)",
+              "en": "Strong attack (max)",
+              "es": "Ataque potente (máx.)"
+            }
+          },
+          "value": 123.0,
+          "formatted": {
+            "value": {
+              "ru": "123 ед",
+              "en": "123 unit(s)",
+              "es": "123 unidad(es)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.reach.common",
+            "args": {},
+            "lines": {
+              "ru": "Досягаемость (быстр)",
+              "en": "Weapon reach (quick)",
+              "es": "Alcance del arma (rápido)"
+            }
+          },
+          "value": 2.1,
+          "formatted": {
+            "value": {
+              "ru": "2,1 м",
+              "en": "2.1 m",
+              "es": "2,1 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.reach.strong",
+            "args": {},
+            "lines": {
+              "ru": "Досягаемость (сильн)",
+              "en": "Weapon reach (strong)",
+              "es": "Alcance del arma (potente)"
+            }
+          },
+          "value": 2.1,
+          "formatted": {
+            "value": {
+              "ru": "2,1 м",
+              "en": "2.1 m",
+              "es": "2,1 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.stat_name.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Пробиваемость",
+              "en": "Penetration",
+              "es": "Perforación"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75%",
+              "en": "75%",
+              "es": "75 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.stat_name.bloodlust_chance",
+            "args": {},
+            "lines": {
+              "ru": "Шанс глубокого ранения",
+              "en": "Chance for a deep wound",
+              "es": "Probabilidad de herida profunda"
+            }
+          },
+          "value": 50.0,
+          "formatted": {
+            "value": {
+              "ru": "50%",
+              "en": "50%",
+              "es": "50 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.melee_weapon.info.feature",
+        "args": {},
+        "lines": {
+          "ru": "Особенности",
+          "en": "Features",
+          "es": "Características"
+        }
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.critical_hit_mod",
+            "args": {
+              "factor": "1.7"
+            },
+            "lines": {
+              "ru": "Урон со спины: x1,7",
+              "en": "Backstab damage: x1.7",
+              "es": "Daño por puñalada desde atrás: x1,7"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.mutant_damage_mod",
+            "args": {
+              "factor": "1.85"
+            },
+            "lines": {
+              "ru": "Урон по мутантам: x1,85",
+              "en": "Damage to mutants: x1.85",
+              "es": "Daño a mutantes: x1,85"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.melee.petal.description",
+        "args": {},
+        "lines": {
+          "ru": "Легкий и элегантный нож-бабочка, снятый с погибшего бойца «Шепота».\\nСталь клинка имеет вкрапления артефактных материалов, в результате чего его заточка всегда на уровне бритвы.",
+          "en": "A light and elegant butterfly knife taken from the fallen Murmur fighter.\\nThe blade\u0027s steel contains inclusions of artifact materials, ensuring its sharpness is always at a razor level.",
+          "es": "Una ligera y elegante navaja mariposa tomada de un soldado de Susurro fallecido.\\nEl acero de la hoja tiene material de artefacto incrustado, lo que da como resultado un afilado de navaja en todo momento."
+        }
+      }
+    }
+  ]
+}

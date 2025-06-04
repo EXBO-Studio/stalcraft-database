@@ -13,7 +13,7 @@
   },
   "color": "DEFAULT",
   "status": {
-    "state": "NON_DROP"
+    "state": "PERSONAL_ON_USE"
   },
   "infoBlocks": [
     {
@@ -625,6 +625,19 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.arm.expedition.name",
+            "args": {},
+            "lines": {
+              "ru": "Костюм «Экспедиция»",
+              "en": "Expedition Suit",
+              "es": "Traje de expedición"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.arm.zarya_balon.name",
             "args": {},
             "lines": {
@@ -644,19 +657,6 @@
               "ru": "Бандитский костюм",
               "en": "Bandit Suit",
               "es": "Traje de bandido"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.expedition.name",
-            "args": {},
-            "lines": {
-              "ru": "Костюм «Экспедиция»",
-              "en": "Expedition Suit",
-              "es": "Traje de expedición"
             }
           }
         },
@@ -1294,6 +1294,19 @@
               "ru": "Экзоскелет «Мул»",
               "en": "Mule Exoskeleton",
               "es": "Exoesqueleto Mula"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.albatros_interceptor.name",
+            "args": {},
+            "lines": {
+              "ru": "Бронескелет «Альбатрос-Перехватчик»",
+              "en": "Albatross Interceptor Armored Exoskeleton",
+              "es": "Exoesqueleto blindado Albatros interceptor"
             }
           }
         },
