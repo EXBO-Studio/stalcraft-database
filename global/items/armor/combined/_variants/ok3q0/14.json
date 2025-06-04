@@ -1,0 +1,601 @@
+{
+  "id": "ok3q0",
+  "category": "armor/combined",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.albatros_interceptor.name",
+    "args": {},
+    "lines": {
+      "ru": "Бронескелет «Альбатрос-Перехватчик»",
+      "en": "Albatross Interceptor Armored Exoskeleton",
+      "es": "Exoesqueleto blindado Albatros interceptor"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.combined",
+            "args": {},
+            "lines": {
+              "ru": "Комбинированные",
+              "en": "Combo",
+              "es": "Combo"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 26.0,
+          "formatted": {
+            "value": {
+              "ru": "26 кг",
+              "en": "26 kg",
+              "es": "26 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "+6%",
+              "en": "+6%",
+              "es": "+6 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga"
+            }
+          },
+          "value": 20.0,
+          "formatted": {
+            "value": {
+              "ru": "+20",
+              "en": "+20",
+              "es": "+20"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia"
+            }
+          },
+          "value": -0.5,
+          "formatted": {
+            "value": {
+              "ru": "-0,5",
+              "en": "-0.5",
+              "es": "-0,5"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas"
+            }
+          },
+          "value": 250.82607,
+          "formatted": {
+            "value": {
+              "ru": "250,83",
+              "en": "250.83",
+              "es": "250,83"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración"
+            }
+          },
+          "value": 135.0,
+          "formatted": {
+            "value": {
+              "ru": "135",
+              "en": "135",
+              "es": "135"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones"
+            }
+          },
+          "value": 132.0,
+          "formatted": {
+            "value": {
+              "ru": "132",
+              "en": "132",
+              "es": "132"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity",
+              "es": "Resistencia a la electricidad"
+            }
+          },
+          "value": 150.0,
+          "formatted": {
+            "value": {
+              "ru": "150",
+              "en": "150",
+              "es": "150"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Resistance to fire",
+              "es": "Resistencia al fuego"
+            }
+          },
+          "value": 150.0,
+          "formatted": {
+            "value": {
+              "ru": "150",
+              "en": "150",
+              "es": "150"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Resistance to chemicals",
+              "es": "Resistencia a los productos químicos"
+            }
+          },
+          "value": 150.0,
+          "formatted": {
+            "value": {
+              "ru": "150",
+              "en": "150",
+              "es": "150"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection",
+              "es": "Protección contra radiación"
+            }
+          },
+          "value": 300.0,
+          "formatted": {
+            "value": {
+              "ru": "300",
+              "en": "300",
+              "es": "300"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection",
+              "es": "Protección térmica"
+            }
+          },
+          "value": 200.0,
+          "formatted": {
+            "value": {
+              "ru": "200",
+              "en": "200",
+              "es": "200"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection protection",
+              "es": "Protección contra bioinfección"
+            }
+          },
+          "value": 300.0,
+          "formatted": {
+            "value": {
+              "ru": "300",
+              "en": "300",
+              "es": "300"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission protection",
+              "es": "Prot contra psicoemisiones"
+            }
+          },
+          "value": 300.0,
+          "formatted": {
+            "value": {
+              "ru": "300",
+              "en": "300",
+              "es": "300"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia"
+            }
+          },
+          "value": 40.0,
+          "formatted": {
+            "value": {
+              "ru": "40%",
+              "en": "40%",
+              "es": "40 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "stalker.tooltip.armor_artefact.info.upgrade_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики модификации",
+          "en": "Modification properties",
+          "es": "Propiedades de modificación"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas"
+            }
+          },
+          "value": 67.82605,
+          "formatted": {
+            "value": {
+              "ru": "67,83",
+              "en": "67.83",
+              "es": "67,83"
+            },
+            "nameColor": "F1AA21",
+            "valueColor": "F1AA21"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_backpacks",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые рюкзаки",
+          "en": "Compatible backpacks",
+          "es": "Mochilas compatibles"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.backpacks.superheavy",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any",
+          "es": "Cualquiera"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_containers",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые контейнеры",
+          "en": "Compatible containers",
+          "es": "Contenedores compatibles"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.containers.bulky",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any",
+          "es": "Cualquiera"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.albatros_interceptor.description",
+        "args": {},
+        "lines": {
+          "ru": "Уникальная военная разработка, созданная для проведения глубоких рейдов в Зону. Проект создавался на основе сотрудничества с НИИ-7 в рамках обратной инженерии снаряжения «Шепота». Совмещает в себе как композитные полимерные пластины, так и подвижный внутренний каркас на основе титана и никеля. Между слоями ткани добавлена гибкая защитная сетка из вольфрамового сплава.",
+          "en": "A unique military development designed for deep raids into the Zone. The project was created in collaboration with Research Institute 7 as part of a reverse engineering of Murmur equipment. It combines composite polymer plates with a movable internal frame made of titanium and nickel. A flexible protective mesh made of tungsten alloy is added between the layers of fabric.",
+          "es": "Un diseño militar único creado para incursiones profundas en la Zona. El proyecto se creó sobre la base de la cooperación con el Instituto de Investigación 7 en el marco de la ingeniería inversa del equipamiento de Susurro. Combina placas de polímero compuesto y un armazón interior móvil a base de titanio y níquel. Entre las capas de tejido se añade una malla protectora flexible de aleación de tungsteno."
+        }
+      }
+    }
+  ]
+}

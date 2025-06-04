@@ -1,0 +1,281 @@
+{
+  "id": "w42z",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.overtone.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Овертон»",
+      "en": "Overton Container",
+      "es": "Contenedor Overton"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Рюкзаки и Контейнеры",
+              "en": "Backpacks and Containers",
+              "es": "Mochilas y contenedores"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 9.9,
+          "formatted": {
+            "value": {
+              "ru": "9,9 кг",
+              "en": "9.9 kg",
+              "es": "9,9 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.standard",
+        "args": {},
+        "lines": {
+          "ru": "Стандартный контейнер",
+          "en": "Standard Container",
+          "es": "Contenedor estándar"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior"
+            }
+          },
+          "value": 60.000004,
+          "formatted": {
+            "value": {
+              "ru": "60%",
+              "en": "60%",
+              "es": "60 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad"
+            }
+          },
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "0/6",
+              "en": "0/6",
+              "es": "0/6"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento"
+            }
+          },
+          "value": -3.5,
+          "formatted": {
+            "value": {
+              "ru": "-3,5%",
+              "en": "-3.5%",
+              "es": "-3,5 %"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "25%",
+              "en": "25%",
+              "es": "25 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.overtone.description",
+        "args": {},
+        "lines": {
+          "ru": "Контейнер для артефактов, созданный «Шепотом» на основе аномальных материалов и биоинженерии. Оснащен генератором поля синхронизации, позволяющим бойцам получать максимальную выгоду от использования артефакта. Испытания на обычных людях не выявили принципов, по которым работает данное поле.",
+          "en": "Artifact container created by Murmur based on anomalous materials and bioengineering. Equipped with a synchronization field generator, allowing fighters to gain maximum benefit from using the artifact. Trials on ordinary people have not revealed the principles by which this field operates.",
+          "es": "Un contenedor de artefactos creado por Susurro a base de materiales anómalos y bioingeniería. Equipado con un generador de campo de sincronización, que permite a los soldados obtener el máximo beneficio del uso del artefacto. Las pruebas con humanos normales no han revelado los principios por los que funciona este campo."
+        }
+      }
+    }
+  ]
+}

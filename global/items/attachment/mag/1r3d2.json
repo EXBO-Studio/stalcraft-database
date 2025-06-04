@@ -1,0 +1,467 @@
+{
+  "id": "1r3d2",
+  "category": "attachment/mag",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mag_ergo762nato.name",
+    "args": {},
+    "lines": {
+      "ru": "Эргономичный магазин 7.62 NATO",
+      "en": "Ergonomic magazine 7.62 NATO",
+      "es": "Cargador ergonómico para 7.62 NATO"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.mag",
+            "args": {},
+            "lines": {
+              "ru": "Магазины",
+              "en": "Magazines",
+              "es": "Cargadores"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:",
+              "es": "Tamaño del cargador:"
+            }
+          },
+          "value": 20.0,
+          "formatted": {
+            "value": {
+              "ru": "20",
+              "en": "20",
+              "es": "20"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload",
+              "es": "Recarga"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload",
+              "es": "Recarga táctica"
+            }
+          },
+          "value": 2.0,
+          "formatted": {
+            "value": {
+              "ru": "2 с",
+              "en": "2 sec",
+              "es": "2 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera"
+            }
+          },
+          "value": -14.999998,
+          "formatted": {
+            "value": {
+              "ru": "-15%",
+              "en": "-15%",
+              "es": "-15 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed",
+              "es": "Velocidad de apuntado"
+            }
+          },
+          "value": -14.999998,
+          "formatted": {
+            "value": {
+              "ru": "+15%",
+              "en": "+15%",
+              "es": "+15 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad"
+            }
+          },
+          "value": 1.9999981,
+          "formatted": {
+            "value": {
+              "ru": "+2%",
+              "en": "+2%",
+              "es": "+2 %"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.tact.name",
+            "args": {},
+            "lines": {
+              "ru": "PSA PA 10 «Такт»",
+              "en": "PSA PA 10 Beat",
+              "es": "PSA PA 10 Compás"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.fal_old.name",
+            "args": {},
+            "lines": {
+              "ru": "Старый FN FAL",
+              "en": "Old FN FAL",
+              "es": "FN FAL antiguo"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rhythm.name",
+            "args": {},
+            "lines": {
+              "ru": "PSA PA 10 «Ритм»",
+              "en": "PSA PA 10 Rhythm",
+              "es": "PSA PA 10 Ritmo"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pulse.name",
+            "args": {},
+            "lines": {
+              "ru": "PSA 20 STR «Пульс»",
+              "en": "PSA 20 STR Pulse",
+              "es": "PSA 20 STR Pulso"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.fal.name",
+            "args": {},
+            "lines": {
+              "ru": "FN FAL",
+              "en": "FN FAL",
+              "es": "FN FAL"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarh.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-H",
+              "en": "FN SCAR-H",
+              "es": "FN SCAR-H"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarssr.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR SSR",
+              "en": "FN SCAR SSR",
+              "es": "FN SCAR SSR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk417.name",
+            "args": {},
+            "lines": {
+              "ru": "HK417",
+              "en": "HK417",
+              "es": "HK417"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.dsa58.name",
+            "args": {},
+            "lines": {
+              "ru": "DSA-58",
+              "en": "DSA-58",
+              "es": "DSA-58"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sa58.name",
+            "args": {},
+            "lines": {
+              "ru": "SA-58 CTC",
+              "en": "SA-58 CTC",
+              "es": "CTC SA-58"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.fal_a.name",
+            "args": {},
+            "lines": {
+              "ru": "FAL Арсенала",
+              "en": "Arsenal FAL",
+              "es": "Arsenal FAL"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarh_a.name",
+            "args": {},
+            "lines": {
+              "ru": "SCAR-H Арсенала",
+              "en": "Arsenal SCAR-H",
+              "es": "Arsenal SCAR-H"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk417_a.name",
+            "args": {},
+            "lines": {
+              "ru": "HK417 Арсенала",
+              "en": "Arsenal HK417",
+              "es": "Arsenal HK417"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.dsa58_a.name",
+            "args": {},
+            "lines": {
+              "ru": "DSA-58 Арсенала",
+              "en": "Arsenal DSA-58",
+              "es": "Arsenal DSA-58"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

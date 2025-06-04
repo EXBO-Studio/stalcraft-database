@@ -13,7 +13,7 @@
   },
   "color": "DEFAULT",
   "status": {
-    "state": "NON_DROP"
+    "state": "PERSONAL_ON_USE"
   },
   "infoBlocks": [
     {
@@ -1275,6 +1275,19 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.arm.albatros_interceptor.name",
+            "args": {},
+            "lines": {
+              "ru": "Бронескелет «Альбатрос-Перехватчик»",
+              "en": "Albatross Interceptor Armored Exoskeleton",
+              "es": "Exoesqueleto blindado Albatros interceptor"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.arm.hound.name",
             "args": {},
             "lines": {
@@ -1418,12 +1431,12 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.arm.vorsa.name",
+            "key": "item.arm.rigel.name",
             "args": {},
             "lines": {
-              "ru": "Защитный костюм «Ворса»",
-              "en": "Fleece Protective Suit",
-              "es": "Traje protector Vellón"
+              "ru": "Комбинезон «Ригель»",
+              "en": "Rigel Jumpsuit",
+              "es": "Traje Rigel"
             }
           }
         },
@@ -1431,12 +1444,12 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.arm.rigel.name",
+            "key": "item.arm.vorsa.name",
             "args": {},
             "lines": {
-              "ru": "Комбинезон «Ригель»",
-              "en": "Rigel Jumpsuit",
-              "es": "Traje Rigel"
+              "ru": "Защитный костюм «Ворса»",
+              "en": "Fleece Protective Suit",
+              "es": "Traje protector Vellón"
             }
           }
         },
