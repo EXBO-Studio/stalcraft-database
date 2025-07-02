@@ -1,0 +1,141 @@
+{
+  "id": "g5kp",
+  "category": "bullet",
+  "name": {
+    "type": "translation",
+    "key": "item.amm.gas.name",
+    "args": {},
+    "lines": {
+      "ru": "Баллон с горючей смесью",
+      "en": "Tank of Combustible Mixture",
+      "es": "Depósito de mezcla combustible",
+      "fr": "Citerne de Mélange Combustible"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.bullet",
+            "args": {},
+            "lines": {
+              "ru": "Патроны",
+              "en": "Rounds",
+              "es": "Munición",
+              "fr": "Munitions"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 3.5,
+          "formatted": {
+            "value": {
+              "ru": "3,5 кг",
+              "en": "3.5 kg",
+              "es": "3,5 kg",
+              "fr": "3,5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.bullet_type.default",
+            "args": {},
+            "lines": {
+              "ru": "Стандартный патрон",
+              "en": "Standard Round",
+              "es": "Munición estándar",
+              "fr": "Cartouche standard"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.low_penetration",
+            "args": {},
+            "lines": {
+              "ru": "Низкая пробиваемость",
+              "en": "Low penetration",
+              "es": "Penetración baja",
+              "fr": "Faible pénétration"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    }
+  ]
+}

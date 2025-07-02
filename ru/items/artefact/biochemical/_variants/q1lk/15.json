@@ -1,0 +1,312 @@
+{
+  "id": "q1lk",
+  "category": "artefact/biochemical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.murmur_gills.name",
+    "args": {},
+    "lines": {
+      "ru": "Жабры",
+      "en": "Gills",
+      "es": "Agallas",
+      "fr": "« Branchies »"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.biochemical",
+            "args": {},
+            "lines": {
+              "ru": "Биохимические",
+              "en": "Biochemical",
+              "es": "Bioquímica",
+              "fr": "Biochimique"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.8449999,
+          "max": 1.6899998,
+          "formatted": {
+            "value": {
+              "ru": "[+0,84%; +1,69%]",
+              "en": "[+0.84%; +1.69%]",
+              "es": "[+0,84 %; +1,69 %]",
+              "fr": "[+0,84%; +1,69%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 2.08,
+          "max": 4.16,
+          "formatted": {
+            "value": {
+              "ru": "[+2,08%; +4,16%]",
+              "en": "[+2.08%; +4.16%]",
+              "es": "[+2,08 %; +4,16 %]",
+              "fr": "[+2,08%; +4,16%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation"
+            }
+          },
+          "min": 1.25,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+1,25; +2,5]",
+              "en": "[+1.25; +2.5]",
+              "es": "[+1,25; +2,5]",
+              "fr": "[+1,25; +2,5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.murmur_gills.description",
+        "args": {},
+        "lines": {
+          "ru": "Трофейный артефакт, полученный в боях с «Шепотом».\\nНапоминает хитиновый кокон с упругими полупрозрачными образованиями, по внешнему виду напоминающими дыхательные органы рыб.\\nОбразования немного «открываются» и поглощают кислород из окружающего пространства. При близости с крупным живым организмом начинает образовывать на поверхности эпителия организма прозрачную слизь с сильным запахом, которая мгновенно впитывается кожей без остатка. В образцах слизи найдены микроорганизмы — бактериальная колония неизвестной природы.",
+          "en": "A trophy artifact obtained in battles with Murmur.\\nIt resembles a chitinous cocoon with resilient translucent formations that look like the respiratory organs of fish. These formations slightly \"open\" and absorb oxygen from the surrounding environment. When in proximity to a large living organism, it begins to form a transparent slime with a strong odor on the organism\u0027s epithelial surface, which is instantly absorbed into the skin without a trace. Samples of the slime contain microorganisms— a bacterial colony of unknown nature.",
+          "es": "Artefacto trofeo obtenido en las batallas con Susurro.\\nSe asemeja a un capullo quitinoso con formaciones translúcidas elásticas, en apariencia parecidas a los órganos respiratorios de los peces. \\nLas formaciones se abren ligeramente y absorben oxígeno del espacio circundante. En la proximidad de un gran organismo vivo comienza a formarse en la superficie del epitelio del cuerpo moco transparente con un fuerte olor, que es absorbido instantáneamente por la piel sin dejar residuos. En las muestras de moco se encontraron microorganismos, una colonia bacteriana de naturaleza desconocida.",
+          "fr": "Artefact trophée obtenu lors des combats contre le Murmure.\\nRessemble à un cocon chitineux orné de structures semi-transparentes, évoquant des organes respiratoires de poissons.\\nCes formations « s\u0027ouvrent » légèrement pour capter l\u0027oxygène ambiant. À proximité d\u0027un organisme vivant, elles sécrètent une substance visqueuse à l\u0027odeur prononcée, immédiatement absorbée par la peau.\\nDes micro-organismes — une colonie bactérienne d\u0027origine inconnue — ont été retrouvés dans cette sécrétion."
+        }
+      }
+    }
+  ]
+}
