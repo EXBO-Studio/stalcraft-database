@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 17.3,
+          "value": 10.0,
           "formatted": {
             "value": {
-              "ru": "17,3 кг",
-              "en": "17.3 kg",
-              "es": "17,3 kg",
-              "fr": "17,3 kg"
+              "ru": "10 кг",
+              "en": "10 kg",
+              "es": "10 kg",
+              "fr": "10 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -322,13 +322,13 @@
               "fr": "Cadence de tir"
             }
           },
-          "value": 50.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "50 выстр/мин",
-              "en": "50 shots/min",
-              "es": "50 disparos/min",
-              "fr": "50tirs/min"
+              "ru": "100 выстр/мин",
+              "en": "100 shots/min",
+              "es": "100 disparos/min",
+              "fr": "100tirs/min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -422,13 +422,13 @@
               "fr": "Dispersion"
             }
           },
-          "value": 0.5,
+          "value": 0.07999992,
           "formatted": {
             "value": {
-              "ru": "0,5°",
-              "en": "0.5°",
-              "es": "0,5°",
-              "fr": "0,5°"
+              "ru": "0,08°",
+              "en": "0.08°",
+              "es": "0,08°",
+              "fr": "0,08°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -447,13 +447,13 @@
               "fr": "Dispersion du tir à l\u0027aveugle"
             }
           },
-          "value": 8.0,
+          "value": 4.0,
           "formatted": {
             "value": {
-              "ru": "8°",
-              "en": "8°",
-              "es": "8°",
-              "fr": "8°"
+              "ru": "4°",
+              "en": "4°",
+              "es": "4°",
+              "fr": "4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -497,13 +497,13 @@
               "fr": "Recul horizontal"
             }
           },
-          "value": 6.0,
+          "value": 10.0,
           "formatted": {
             "value": {
-              "ru": "6°",
-              "en": "6°",
-              "es": "6°",
-              "fr": "6°"
+              "ru": "10°",
+              "en": "10°",
+              "es": "10°",
+              "fr": "10°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -547,13 +547,13 @@
               "fr": "Temps de visée"
             }
           },
-          "value": 0.5,
+          "value": 0.45,
           "formatted": {
             "value": {
-              "ru": "0,5 с",
-              "en": "0.5 sec",
-              "es": "0,5 s",
-              "fr": "0,5 s"
+              "ru": "0,45 с",
+              "en": "0.45 sec",
+              "es": "0,45 s",
+              "fr": "0,45 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -628,13 +628,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
-              "modifier": "5.0"
+              "modifier": "3.5"
             },
             "lines": {
-              "ru": "Урон по мутантам: х5",
-              "en": "Damage to mutants: x5",
-              "es": "Daño a mutantes: x5",
-              "fr": "Dégât au mutants : x5"
+              "ru": "Урон по мутантам: х3,5",
+              "en": "Damage to mutants: x3.5",
+              "es": "Daño a mutantes: x3,5",
+              "fr": "Dégât au mutants : x3,5"
             }
           }
         },
@@ -744,10 +744,10 @@
             "key": "item.wpn.ptrd.features",
             "args": {},
             "lines": {
-              "ru": "Игнорирует защиту пластин @Ломает пластины @Смертельный выстрел @Пониженный разброс в приседе @Улучшенная отдача в положении лёжа",
-              "en": "Ignores plates @Breaks plates @Fatal shot @Reduced spread when crouching @Improved recoil in prone position",
-              "es": "Ignora las placas @Rompe placas @Disparo mortal @Dispersión reducida al agacharse @Retroceso mejorado en posición decúbito",
-              "fr": "Ignore la protection des plaques @Brise des plaques @Tir mortel @Réduction de la distance d\u0027accroupissement @Amélioration du recul en position couchée"
+              "ru": "Игнорирует защиту пластин @Ломает пластины @Смертельный выстрел @Улучшенный контроль лёжа и в приседе",
+              "en": "Ignores Plate Defense @Breaks plates @Lethal shot @Enhanced control while prone and crouching",
+              "es": "Ignora la protección de placas @ Rompe placas @ Disparo mortal @ Control mejorado al agacharse y en posición decúbito",
+              "fr": "Effets en jeu : @Ignore la protection des plaques @Brise les plaques @Tir mortel @Contrôle accru en position couchée et accroupie"
             }
           }
         }

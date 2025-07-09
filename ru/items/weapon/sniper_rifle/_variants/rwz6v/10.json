@@ -246,13 +246,13 @@
               "fr": "Dégâts"
             }
           },
-          "value": 108.27865,
+          "value": 109.86433,
           "formatted": {
             "value": {
-              "ru": "108,28 ед",
-              "en": "108.28 unit(s)",
-              "es": "108,28 unidad(es)",
-              "fr": "108,28 unité(s)"
+              "ru": "109,86 ед",
+              "en": "109.86 unit(s)",
+              "es": "109,86 unidad(es)",
+              "fr": "109,86 unité(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -271,13 +271,13 @@
               "fr": "Capacité du chargeur"
             }
           },
-          "value": 12.0,
+          "value": 10.0,
           "formatted": {
             "value": {
-              "ru": "0/12",
-              "en": "0/12",
-              "es": "0/12",
-              "fr": "0/12"
+              "ru": "0/10",
+              "en": "0/10",
+              "es": "0/10",
+              "fr": "0/10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -727,13 +727,28 @@
           "fr": "Caractéristiques"
         }
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.wpn.svu_mod.features",
+            "args": {},
+            "lines": {
+              "ru": "Доступна стрельба очередями по 2 патрона@Скорострельность очередями: 800 выстрелов/мин",
+              "en": "Burst fire mode available with 2-round rounds @Burst-fire: 800 rounds/min",
+              "es": "Disponible el modo de disparo en ráfagas de 2 balas@Cadencia de ráfaga: 800 disparos/min",
+              "fr": "Tir en rafale de 2 coups disponible@ Cadence de tir en rafale : 800 coups/min"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "damage",
-      "startDamage": 108.27865,
+      "startDamage": 109.86433,
       "damageDecreaseStart": 30.0,
-      "endDamage": 107.14603,
+      "endDamage": 104.767525,
       "damageDecreaseEnd": 80.0,
       "maxDistance": 190.0
     },
