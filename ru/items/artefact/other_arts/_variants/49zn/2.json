@@ -1,0 +1,348 @@
+{
+  "id": "49zn",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.murmur_nerves.name",
+    "args": {},
+    "lines": {
+      "ru": "Нервяк",
+      "en": "Stress fest",
+      "es": "Nerviosismo",
+      "fr": "Nervure"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "10080.0"
+            },
+            "lines": {
+              "ru": "10 080 руб.",
+              "en": "10,080 rubles",
+              "es": "10.080 rublos",
+              "fr": "10 080 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.57199997,
+          "max": 1.1439999,
+          "formatted": {
+            "value": {
+              "ru": "[+0,57%; +1,14%]",
+              "en": "[+0.57%; +1.14%]",
+              "es": "[+0,57 %; +1,14 %]",
+              "fr": "[+0,57%; +1,14%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 4.5759997,
+          "max": 9.151999,
+          "formatted": {
+            "value": {
+              "ru": "[+4,58%; +9,15%]",
+              "en": "[+4.58%; +9.15%]",
+              "es": "[+4,58 %; +9,15 %]",
+              "fr": "[+4,58%; +9,15%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": 0.5,
+          "max": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "[+0,5; +1]",
+              "en": "[+0.5; +1]",
+              "es": "[+0,5; +1]",
+              "fr": "[+0,5; +1]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.murmur_nerves.description",
+        "args": {},
+        "lines": {
+          "ru": "Трофейный артефакт, полученный в боях с «Шепотом».\\nЛипкая и мягкая на ощупь органическая основа, покрытая плотными жгутиками из соединительной ткани.\\nВ состоянии покоя отростки сводит редкой судорогой. Когда артефакт оказывает свое воздействие, жгутики стремятся оплести конечность и проникнуть под эпителий, значительно удлиняясь. При этом органическая основа начинает пульсировать в такт сокращениям сердечной мышцы. \\nВпрыскивает в кровь коктейль из гормонов и органических соединений, влияющих на кровоснабжение и высшую нервную деятельность.",
+          "en": "A trophy artifact obtained from battles with Murmur.\\nA sticky and soft-to-touch organic base covered with dense connective tissue tendrils.\\nIn a resting state, extremities occasionally undergo spasms. When the artifact exerts its effect, the tendrils attempt to envelop the limb and penetrate the epithelium while significantly elongating. Simultaneously, the organic base begins pulsing in rhythm with heart contractions.\\nInjects a cocktail of hormones and organic compounds affecting blood supply and higher nervous activity.",
+          "es": "Artefacto trofeo obtenido en las batallas con Susurro.\\nUna base orgánica pegajosa y suave al tacto recubierta de densos flagelos de tejido conjuntivo.\\nEn reposo, las excrecencias se convulsionan con un raro espasmo. Cuando el artejo ejerce su influencia, los flagelos tienden a trenzar el miembro y penetran en el epitelio, alargándose considerablemente. Al hacerlo, la base orgánica comienza a pulsar al compás de las contracciones del músculo cardíaco.\\nInyecta en la sangre un cóctel de hormonas y compuestos orgánicos que afectan al riego sanguíneo y a la actividad nerviosa superior.",
+          "fr": "Artefact trophée obtenu en affrontant le Murmure.\\nBase organique collante et molle, couverte de cordons de tissu conjonctif.\\nAu repos, les excroissances sont prises de spasmes occasionnels. Lors de l\u0027activation, les cordons tentent d\u0027enrouler un membre et de pénétrer l\u0027épiderme, tout en s\u0027allongeant. En même temps, la base organique commence à pulser au rythme des battements du cœur.\\nInjecte dans le sang un cocktail d\u0027hormones et de composés organiques influant sur la circulation et les fonctions cérébrales supérieures."
+        }
+      }
+    }
+  ]
+}
