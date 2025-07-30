@@ -1,20 +1,20 @@
 {
-  "id": "n4vg6",
-  "category": "medicine",
+  "id": "2o9w0",
+  "category": "drink",
   "name": {
     "type": "translation",
-    "key": "item.med.brine.name",
+    "key": "item.food.blizzard.grog.name",
     "args": {},
     "lines": {
-      "ru": "«Рассол»",
-      "en": "Brine",
-      "es": "Salmuera",
-      "fr": "Eau salée"
+      "ru": "Грог",
+      "en": "Grog",
+      "es": "Grog",
+      "fr": "Grog"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_MASTER",
   "status": {
-    "state": "NON_DROP"
+    "state": "NONE"
   },
   "infoBlocks": [
     {
@@ -39,13 +39,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.master",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran",
-              "es": "Veterano",
-              "fr": "Vétéran"
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître"
             }
           }
         },
@@ -64,13 +64,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.medicine",
+            "key": "core.handbook.category.drink",
             "args": {},
             "lines": {
-              "ru": "Медикаменты",
-              "en": "Medicine",
-              "es": "Medicamentos",
-              "fr": "Médicaments"
+              "ru": "Напитки",
+              "en": "Beverages",
+              "es": "Bebidas",
+              "fr": "Boissons"
             }
           }
         },
@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 0.5,
+          "value": 0.1,
           "formatted": {
             "value": {
-              "ru": "0,5 кг",
-              "en": "0.5 kg",
-              "es": "0,5 kg",
-              "fr": "0,5 kg"
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -107,22 +107,7 @@
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "usage",
-          "name": {
-            "type": "translation",
-            "key": "core.tooltip.used_in_crafts",
-            "args": {},
-            "lines": {
-              "ru": "Используется для крафтов",
-              "en": "Used for crafting",
-              "es": "Se utiliza para crear",
-              "fr": "Utilisé pour l\u0027artisanat"
-            }
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",
@@ -132,7 +117,6 @@
       },
       "elements": []
     },
-    {},
     {
       "type": "list",
       "title": {
@@ -155,13 +139,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.stamina",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Повышение выносливости",
+              "en": "Stamina Improvement",
+              "es": "Mejora de aguante",
+              "fr": "Amélioration de l\u0027endurance"
             }
           }
         },
@@ -178,13 +162,13 @@
               "fr": "Priorité de l\u0027effet"
             }
           },
-          "value": 8.0,
+          "value": 10.0,
           "formatted": {
             "value": {
-              "ru": "8",
-              "en": "8",
-              "es": "8",
-              "fr": "8"
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -203,13 +187,38 @@
               "fr": "Durée"
             }
           },
-          "value": 1860.0,
+          "value": 1800.0,
           "formatted": {
             "value": {
-              "ru": "31 мин",
-              "en": "31 min",
-              "es": "31 min",
-              "fr": "31 min"
+              "ru": "30 мин",
+              "en": "30 min",
+              "es": "30 min",
+              "fr": "30 min"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison"
+            }
+          },
+          "value": 15.0,
+          "formatted": {
+            "value": {
+              "ru": "15",
+              "en": "15",
+              "es": "15",
+              "fr": "15"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -242,31 +251,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité"
-            }
-          },
-          "value": 1.3,
-          "formatted": {
-            "value": {
-              "ru": "1,3%",
-              "en": "1.3%",
-              "es": "1,3 %",
-              "fr": "1,3%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
@@ -276,13 +260,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 15.2,
+          "value": 24.0,
           "formatted": {
             "value": {
-              "ru": "15,2%",
-              "en": "15.2%",
-              "es": "15,2 %",
-              "fr": "15,2%"
+              "ru": "24%",
+              "en": "24%",
+              "es": "24 %",
+              "fr": "24%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -292,22 +276,47 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Биологическое заражение",
-              "en": "Biological infection",
-              "es": "Infección biológica",
-              "fr": "Infection biologique"
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": -1.5,
+          "value": 5.3,
           "formatted": {
             "value": {
-              "ru": "-1,5",
-              "en": "-1.5",
-              "es": "-1,5",
-              "fr": "-1,5"
+              "ru": "5,3%",
+              "en": "5.3%",
+              "es": "5,3 %",
+              "fr": "5,3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от холода",
+              "en": "Frost protection",
+              "es": "Protección contra congelación",
+              "fr": "Protection contre le gel"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5",
+              "en": "5",
+              "es": "5",
+              "fr": "5"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -323,16 +332,15 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.med.brine.additional_stats_tip",
+        "key": "item.food.blizzard.grog.description",
         "args": {},
         "lines": {
-          "ru": "Древнее, как Зона, средство от последствий хорошего вечера.",
-          "en": "As ancient as the Zone, a remedy for the consequences of a good evening.",
-          "es": "Un remedio para las consecuencias de una noche de juerga. Tan antiguo como la Zona.",
-          "fr": "Aussi vieux que la Zone, un remède pour les conséquences d\u0027une soirée arrosée."
+          "ru": "Приготовленный неизвестным умельцем с «Колоса» напиток, согревающий душу и тело. Одна проблема – водка вместо рома! Сталкеры поговаривают, что он не только хорошо согревает, чем повышает шансы выжить во время Бурана, но еще и приносит удачу! При условии, что вы, приняв добрую бутыль грога на грудь, сумеете остаться на ногах...",
+          "en": "A brew prepared by an unknown craftsman from Kolos, for warming the soul and body. There’s just one problem—this drink has vodka instead of rum! Stalkers say that it not only warms you up, increasing your chances of survival during the Blizzard, but it also brings good luck! Provided that you are capable of staying on your feet after a nice bottle of grog...",
+          "es": "Un brebaje que preparó un artesano desconocido de Kolos. Calienta el alma y el cuerpo. Solo hay un problema: ¡lleva vodka en lugar de ron! Los acechadores dicen que, además de calentarte y aumentar así tus posibilidades de sobrevivir durante la ventisca, ¡también da buena suerte! Si es que eres capaz de mantenerte en pie tras una buena botella de grog...",
+          "fr": "Un breuvage préparé par un artisan inconnu de Kolos, pour réchauffer l\u0027âme et le corps. Il n’y a qu’un seul problème : cette boisson contient de la vodka au lieu du rhum ! Les harceleurs disent que non seulement cela vous réchauffe, augmentant vos chances de survie pendant le Blizzard, mais que cela porte aussi chance ! A condition d\u0027être capable de rester debout après une bonne bouteille de grog..."
         }
       }
-    },
-    {}
+    }
   ]
 }

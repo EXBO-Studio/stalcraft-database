@@ -1,20 +1,20 @@
 {
-  "id": "3g1zz",
-  "category": "medicine",
+  "id": "2opo6",
+  "category": "food",
   "name": {
     "type": "translation",
-    "key": "item.med.subtropics.name",
+    "key": "item.food.turist.name",
     "args": {},
     "lines": {
-      "ru": "«Субтропики»",
-      "en": "Subtropics",
-      "es": "Jungla",
-      "fr": "Régions subtropicales"
+      "ru": "«Радость туриста»",
+      "en": "Tourist’s Delight",
+      "es": "Delicia de turista",
+      "fr": "Le plaisir du Touriste"
     }
   },
-  "color": "RANK_MASTER",
+  "color": "RANK_STALKER",
   "status": {
-    "state": "NON_DROP"
+    "state": "NONE"
   },
   "infoBlocks": [
     {
@@ -39,13 +39,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.master",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Мастер",
-              "en": "Master",
-              "es": "Maestro",
-              "fr": "Maître"
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker"
             }
           }
         },
@@ -64,13 +64,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.medicine",
+            "key": "core.handbook.category.food",
             "args": {},
             "lines": {
-              "ru": "Медикаменты",
-              "en": "Medicine",
-              "es": "Medicamentos",
-              "fr": "Médicaments"
+              "ru": "Еда",
+              "en": "Food",
+              "es": "Alimentos",
+              "fr": "Aliments"
             }
           }
         },
@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 0.33,
+          "value": 0.2,
           "formatted": {
             "value": {
-              "ru": "0,33 кг",
-              "en": "0.33 kg",
-              "es": "0,33 kg",
-              "fr": "0,33 kg"
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -117,7 +117,6 @@
       },
       "elements": []
     },
-    {},
     {
       "type": "list",
       "title": {
@@ -163,13 +162,13 @@
               "fr": "Priorité de l\u0027effet"
             }
           },
-          "value": 10.0,
+          "value": 5.0,
           "formatted": {
             "value": {
-              "ru": "10",
-              "en": "10",
-              "es": "10",
-              "fr": "10"
+              "ru": "5",
+              "en": "5",
+              "es": "5",
+              "fr": "5"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -188,13 +187,13 @@
               "fr": "Durée"
             }
           },
-          "value": 2100.0,
+          "value": 1800.0,
           "formatted": {
             "value": {
-              "ru": "35 мин",
-              "en": "35 min",
-              "es": "35 min",
-              "fr": "35 min"
+              "ru": "30 мин",
+              "en": "30 min",
+              "es": "30 min",
+              "fr": "30 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -204,13 +203,13 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "stalker.tooltip.medicine.info.persistent",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
             "args": {},
             "lines": {
-              "ru": "Эффект не пропадает при смерти",
-              "en": "Effect does not wear off after death",
-              "es": "El efecto no desaparece tras la muerte",
-              "fr": "L\u0027effet disparaît après la mort"
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death",
+              "es": "El efecto desaparece tras la muerte",
+              "fr": "L\u0027effet persiste après la mort"
             }
           }
         }
@@ -236,13 +235,13 @@
               "fr": "Vitalité"
             }
           },
-          "value": 1.4,
+          "value": 1.2,
           "formatted": {
             "value": {
-              "ru": "1,4%",
-              "en": "1.4%",
-              "es": "1,4 %",
-              "fr": "1,4%"
+              "ru": "1,2%",
+              "en": "1.2%",
+              "es": "1,2 %",
+              "fr": "1,2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -261,63 +260,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 16.0,
+          "value": 13.6,
           "formatted": {
             "value": {
-              "ru": "16%",
-              "en": "16%",
-              "es": "16 %",
-              "fr": "16%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.frost_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление холоду",
-              "en": "Frost resistance",
-              "es": "Resistencia a la congelación",
-              "fr": "Résistance au gel"
-            }
-          },
-          "value": 75.0,
-          "formatted": {
-            "value": {
-              "ru": "75%",
-              "en": "75%",
-              "es": "75 %",
-              "fr": "75%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.frost_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Холод",
-              "en": "Frost",
-              "es": "Congelación",
-              "fr": "Givre"
-            }
-          },
-          "value": -1.0,
-          "formatted": {
-            "value": {
-              "ru": "-1",
-              "en": "-1",
-              "es": "-1",
-              "fr": "-1"
+              "ru": "13,6%",
+              "en": "13.6%",
+              "es": "13,6 %",
+              "fr": "13,6%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -333,13 +282,13 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.med.subtropics.additional_stats_tip",
+        "key": "item.food.turist.description",
         "args": {},
         "lines": {
-          "ru": "Со вкусом аномалии \"Зажигалка\".",
-          "en": "With the taste of the \"Lighter\" anomaly.",
-          "es": "Con el sabor de la anomalía Abrasador.",
-          "fr": "Avec le goût de l\u0027anomalie « Briquet»."
+          "ru": "Мясные консервы фирмы Benis.",
+          "en": "Meat preserves made by Benis.",
+          "es": "Conserva de carne elaborada por Benis.",
+          "fr": "Conserves de viande fabriquées par Benis."
         }
       }
     }

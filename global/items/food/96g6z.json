@@ -1,18 +1,18 @@
 {
-  "id": "1r246",
-  "category": "medicine",
+  "id": "96g6z",
+  "category": "food",
   "name": {
     "type": "translation",
-    "key": "item.med.inside_goroh.name",
+    "key": "item.food.octopus.name",
     "args": {},
     "lines": {
-      "ru": "Хорог",
-      "en": "Saep",
-      "es": "Setnasiug",
-      "fr": "Siop"
+      "ru": "Салат «Осьминожая свежесть»",
+      "en": "Octopus Fresh Salad",
+      "es": "Ensalada fresca de pulpo",
+      "fr": "Salade de Poulpe"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "NONE"
   },
@@ -39,13 +39,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran",
-              "es": "Veterano",
-              "fr": "Vétéran"
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant"
             }
           }
         },
@@ -64,13 +64,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.medicine",
+            "key": "core.handbook.category.food",
             "args": {},
             "lines": {
-              "ru": "Медикаменты",
-              "en": "Medicine",
-              "es": "Medicamentos",
-              "fr": "Médicaments"
+              "ru": "Еда",
+              "en": "Food",
+              "es": "Alimentos",
+              "fr": "Aliments"
             }
           }
         },
@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 0.4,
+          "value": 0.3,
           "formatted": {
             "value": {
-              "ru": "0,4 кг",
-              "en": "0.4 kg",
-              "es": "0,4 kg",
-              "fr": "0,4 kg"
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -107,22 +107,7 @@
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "usage",
-          "name": {
-            "type": "translation",
-            "key": "core.tooltip.used_in_crafts",
-            "args": {},
-            "lines": {
-              "ru": "Используется для крафтов",
-              "en": "Used for crafting",
-              "es": "Se utiliza para crear",
-              "fr": "Utilisé pour l\u0027artisanat"
-            }
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",
@@ -132,7 +117,6 @@
       },
       "elements": []
     },
-    {},
     {
       "type": "list",
       "title": {
@@ -178,13 +162,13 @@
               "fr": "Priorité de l\u0027effet"
             }
           },
-          "value": 9.0,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "9",
-              "en": "9",
-              "es": "9",
-              "fr": "9"
+              "ru": "3",
+              "en": "3",
+              "es": "3",
+              "fr": "3"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -203,13 +187,13 @@
               "fr": "Durée"
             }
           },
-          "value": 1980.0,
+          "value": 1800.0,
           "formatted": {
             "value": {
-              "ru": "33 мин",
-              "en": "33 min",
-              "es": "33 min",
-              "fr": "33 min"
+              "ru": "30 мин",
+              "en": "30 min",
+              "es": "30 min",
+              "fr": "30 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -219,13 +203,13 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "stalker.tooltip.medicine.info.persistent",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
             "args": {},
             "lines": {
-              "ru": "Эффект не пропадает при смерти",
-              "en": "Effect does not wear off after death",
-              "es": "El efecto no desaparece tras la muerte",
-              "fr": "L\u0027effet disparaît après la mort"
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death",
+              "es": "El efecto desaparece tras la muerte",
+              "fr": "L\u0027effet persiste après la mort"
             }
           }
         }
@@ -242,22 +226,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité"
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
             }
           },
-          "value": 1.4,
+          "value": 1.9,
           "formatted": {
             "value": {
-              "ru": "1,4%",
-              "en": "1.4%",
-              "es": "1,4 %",
-              "fr": "1,4%"
+              "ru": "1,9%",
+              "en": "1.9%",
+              "es": "1,9 %",
+              "fr": "1,9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -267,72 +251,28 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina",
-              "es": "Aguante",
-              "fr": "Endurance"
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 16.0,
+          "value": 2.7,
           "formatted": {
             "value": {
-              "ru": "16%",
-              "en": "16%",
-              "es": "16 %",
-              "fr": "16%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
-            "args": {},
-            "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed",
-              "es": "Velocidad de movimiento",
-              "fr": "Vitesse de déplacement"
-            }
-          },
-          "value": 1.7,
-          "formatted": {
-            "value": {
-              "ru": "1,7%",
-              "en": "1.7%",
-              "es": "1,7 %",
-              "fr": "1,7%"
+              "ru": "2,7%",
+              "en": "2.7%",
+              "es": "2,7 %",
+              "fr": "2,7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
           }
         }
       ]
-    },
-    {
-      "type": "text",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
-      "text": {
-        "type": "translation",
-        "key": "item.med.inside_goroh.description",
-        "args": {},
-        "lines": {
-          "ru": "Крайне ядреная штука... есть на свой страх и риск.",
-          "en": "This substance has a real kick... Eat at your own risk.",
-          "es": "Esta sustancia tiene un efecto muy potente... Consúmela bajo tu propia responsabilidad.",
-          "fr": "Cette substance donne un vrai coup de fouet... Mangez à vos risques et périls."
-        }
-      }
-    },
-    {}
+    }
   ]
 }

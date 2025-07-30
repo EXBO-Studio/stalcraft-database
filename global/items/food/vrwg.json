@@ -1,18 +1,18 @@
 {
-  "id": "vjy0n",
-  "category": "medicine",
+  "id": "vrwg",
+  "category": "food",
   "name": {
     "type": "translation",
-    "key": "item.med.tinfoil_hat.name",
+    "key": "item.misc.mash.name",
     "args": {},
     "lines": {
-      "ru": "«Шапочка из фольги»",
-      "en": "Tinfoil Hat",
-      "es": "Sombrerito de papel de aluminio",
-      "fr": "Chapeau en aluminium"
+      "ru": "Сусло",
+      "en": "Wort",
+      "es": "Mosto",
+      "fr": "Moût"
     }
   },
-  "color": "RANK_MASTER",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "NON_DROP"
   },
@@ -39,13 +39,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.master",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Мастер",
-              "en": "Master",
-              "es": "Maestro",
-              "fr": "Maître"
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant"
             }
           }
         },
@@ -64,13 +64,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.medicine",
+            "key": "core.handbook.category.food",
             "args": {},
             "lines": {
-              "ru": "Медикаменты",
-              "en": "Medicine",
-              "es": "Medicamentos",
-              "fr": "Médicaments"
+              "ru": "Еда",
+              "en": "Food",
+              "es": "Alimentos",
+              "fr": "Aliments"
             }
           }
         },
@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 0.33,
+          "value": 0.1,
           "formatted": {
             "value": {
-              "ru": "0,33 кг",
-              "en": "0.33 kg",
-              "es": "0,33 kg",
-              "fr": "0,33 kg"
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -107,7 +107,22 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l\u0027artisanat"
+            }
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -118,6 +133,42 @@
       "elements": []
     },
     {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "54.0"
+            },
+            "lines": {
+              "ru": "54 руб.",
+              "en": "54 rubles",
+              "es": "54 rublos",
+              "fr": "54 roubles"
+            }
+          }
+        }
+      ]
+    },
     {
       "type": "list",
       "title": {
@@ -163,13 +214,13 @@
               "fr": "Priorité de l\u0027effet"
             }
           },
-          "value": 10.0,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "10",
-              "en": "10",
-              "es": "10",
-              "fr": "10"
+              "ru": "3",
+              "en": "3",
+              "es": "3",
+              "fr": "3"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -188,13 +239,13 @@
               "fr": "Durée"
             }
           },
-          "value": 2100.0,
+          "value": 1800.0,
           "formatted": {
             "value": {
-              "ru": "35 мин",
-              "en": "35 min",
-              "es": "35 min",
-              "fr": "35 min"
+              "ru": "30 мин",
+              "en": "30 min",
+              "es": "30 min",
+              "fr": "30 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -204,13 +255,13 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "stalker.tooltip.medicine.info.persistent",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
             "args": {},
             "lines": {
-              "ru": "Эффект не пропадает при смерти",
-              "en": "Effect does not wear off after death",
-              "es": "El efecto no desaparece tras la muerte",
-              "fr": "L\u0027effet disparaît après la mort"
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death",
+              "es": "El efecto desaparece tras la muerte",
+              "fr": "L\u0027effet persiste après la mort"
             }
           }
         }
@@ -227,22 +278,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
             }
           },
-          "value": 1.4,
+          "value": 1.3,
           "formatted": {
             "value": {
-              "ru": "1,4%",
-              "en": "1.4%",
-              "es": "1,4 %",
-              "fr": "1,4%"
+              "ru": "1,3%",
+              "en": "1.3%",
+              "es": "1,3 %",
+              "fr": "1,3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -252,72 +303,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina",
-              "es": "Aguante",
-              "fr": "Endurance"
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to laceration",
+              "es": "Reacción a la laceración",
+              "fr": "Réaction aux lacérations"
             }
           },
-          "value": 16.0,
+          "value": 2.1,
           "formatted": {
             "value": {
-              "ru": "16%",
-              "en": "16%",
-              "es": "16 %",
-              "fr": "16%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.psycho_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление пси-излучению",
-              "en": "Psy-emission resistance",
-              "es": "Resistencia a la emisión psy",
-              "fr": "Résistance aux émissions psys"
-            }
-          },
-          "value": 75.0,
-          "formatted": {
-            "value": {
-              "ru": "75%",
-              "en": "75%",
-              "es": "75 %",
-              "fr": "75%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.psycho_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Пси-излучение",
-              "en": "Psy-emissions",
-              "es": "Emisiones psy",
-              "fr": "Émissions psys"
-            }
-          },
-          "value": -3.0,
-          "formatted": {
-            "value": {
-              "ru": "-3",
-              "en": "-3",
-              "es": "-3",
-              "fr": "-3"
+              "ru": "2,1%",
+              "en": "2.1%",
+              "es": "2,1 %",
+              "fr": "2,1%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -333,15 +334,16 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.med.tinfoil_hat.additional_stats_tip",
+        "key": "item.misc.mash.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "Защита от рептилоидов в каждом глотке.",
-          "en": "Protection from reptiloids in every sip.",
-          "es": "Defensa contra los reptiloides con cada sorbo.",
-          "fr": "Protection contre les reptiloïdes à chaque gorgée."
+          "ru": "Самая базовая основа для изготовления спирта. Прием внутрь без обработки приводит к резким пертурбациям в перистальтике.",
+          "en": "The most basic foundation for making alcohol. Ingesting it without processing leads to sharp disturbances in peristalsis.",
+          "es": "La base más elemental para fabricar alcohol. Ingerirlo sin procesar provoca alteraciones bruscas del peristaltismo.",
+          "fr": "Base fondamentale de la fabrication de l\u0027alcool. Son ingestion sans transformation entraîne de graves perturbations du péristaltisme."
         }
       }
-    }
+    },
+    {}
   ]
 }

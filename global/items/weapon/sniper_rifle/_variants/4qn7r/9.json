@@ -573,7 +573,33 @@
           "fr": "Propriétés additionnelles"
         }
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.plate_penetrating",
+            "args": {},
+            "lines": {
+              "ru": "Пробитие пластин",
+              "en": "Plate penetration",
+              "es": "Perforación de placas",
+              "fr": "Perforation des plaques"
+            }
+          },
+          "value": 99.0,
+          "formatted": {
+            "value": {
+              "ru": "99%",
+              "en": "99%",
+              "es": "99 %",
+              "fr": "99%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -618,6 +644,22 @@
               "en": "Limb damage: x0.9",
               "es": "Daño a extremidades: x0,9",
               "fr": "Dégât aux membres : x0,9"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.armor_plate_damage_factor",
+            "args": {
+              "modifier": "0.49999952"
+            },
+            "lines": {
+              "ru": "Урон по броне: х0,5",
+              "en": "Damage to armor: х0.5",
+              "es": "Daño a la armadura: х0,5",
+              "fr": "Dégâts à l\u0027armure : x0,5"
             }
           }
         }
