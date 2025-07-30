@@ -1,0 +1,294 @@
+{
+  "id": "z4v9",
+  "category": "weapon/device",
+  "name": {
+    "type": "translation",
+    "key": "item.device.dud_beluga.name",
+    "args": {},
+    "lines": {
+      "ru": "Детектор узкого диапазона «Белуха»",
+      "en": "Beluga Short Range Detector",
+      "es": "Detector de corto alcance Beluga",
+      "fr": "Détecteur Courte Portée « Beloukha  »"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.device",
+            "args": {},
+            "lines": {
+              "ru": "Устройства",
+              "en": "Devices",
+              "es": "Dispositivos",
+              "fr": "Appareils"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.6,
+          "formatted": {
+            "value": {
+              "ru": "0,6 кг",
+              "en": "0.6 kg",
+              "es": "0,6 kg",
+              "fr": "0,6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max."
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "anomaly.tooltip.signal_detector.can_detect_signals",
+            "args": {},
+            "lines": {
+              "ru": "Поиск сигналов",
+              "en": "Searching for signals",
+              "es": "Buscando señales",
+              "fr": "Recherche de signaux"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "anomaly.tooltip.signal_detector.can_detect_artefacts",
+            "args": {},
+            "lines": {
+              "ru": "Поиск артефактов",
+              "en": "Searching for artifacts",
+              "es": "Buscando artefactos",
+              "fr": "Recherche d\u0027artefacts"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "anomaly.tooltip.signal_detector.info.charge",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "anomaly.tooltip.signal_detector.info.range",
+            "args": {},
+            "lines": {
+              "ru": "Радиус",
+              "en": "Range",
+              "es": "Alcance",
+              "fr": "Portée"
+            }
+          },
+          "value": 60.0,
+          "formatted": {
+            "value": {
+              "ru": "60 м",
+              "en": "60 m",
+              "es": "60 m",
+              "fr": "60 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.device.dud_beluga.description",
+        "args": {},
+        "lines": {
+          "ru": "Первый детектор узкого диапазона, снабженный экраном, визуализирующим местонахождения сигнала.\\n\\nКак и прочие устройства, работающие с фиксацией аномальных сигналов, использует компонент на основе №137-ВА.\\n\\nНесмотря на кажущуюся простоту, задача по интеграции компонента с визуализирующей системой оказалась довольно сложной даже для инженеров НИИ-7, однако подобная инновация была тепло принята не только сталкерами, но и оперативниками института.",
+          "en": "First short range detector equipped with a screen that visualizes the signal\u0027s location.\\n\\nLike other devices working with the detection of anomalous signals, it uses a component based on No. 137-VA.\\n\\nDespite its apparent simplicity, the task of integrating the component with the visualization system proved quite challenging even for the engineers at Research Institute 7. However, this innovation was warmly received not only by stalkers but also by the institute\u0027s operatives.",
+          "es": "Primero detector de corto alcance, equipado con una pantalla que visualiza la ubicación de la señal.\\n\\nAl igual que otros dispositivos que trabajan con la fijación de señales anómalas, utiliza un componente basado en el n.° 137-IА.\\n\\nA pesar de su aparente simplicidad, la tarea de integrar el componente con el sistema de visualización resultó bastante complicada, incluso para los ingenieros del Instituto de Investigación 7. Sin embargo, esta innovación fue bien recibida no sólo por los acechadores, sino también por los operadores del instituto.",
+          "fr": "Premier détecteur courte portée équipé d\u0027un écran permettant de visualiser la position du signal.\\n\\nComme les autres dispositifs de détection des signaux anormaux, il utilise un composant à base de l\u0027élément №137-IA.\\n\\nEn dépit de sa simplicité apparente, l\u0027intégration de ce composant au système de visualisation s\u0027est révélée un défi technique même pour les ingénieurs de l\u0027Institut de Recherche 7. Pourtant, cette innovation a été accueillie favorablement tant par les stalkers que par les agents de terrain de l\u0027Institut."
+        }
+      }
+    }
+  ]
+}
