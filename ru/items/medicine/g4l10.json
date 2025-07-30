@@ -12,7 +12,7 @@
       "fr": "ATLAS Stéroïde Anabolisant"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "NON_DROP"
   },
@@ -24,6 +24,31 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -162,13 +187,13 @@
               "fr": "Durée"
             }
           },
-          "value": 540.0,
+          "value": 1800.0,
           "formatted": {
             "value": {
-              "ru": "9 мин",
-              "en": "9 min",
-              "es": "9 min",
-              "fr": "9 min"
+              "ru": "30 мин",
+              "en": "30 min",
+              "es": "30 min",
+              "fr": "30 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

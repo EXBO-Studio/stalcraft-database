@@ -1609,7 +1609,7 @@
         "fr": "Viande de canoïde frit"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NON_DROP"
     }
@@ -1628,7 +1628,7 @@
         "fr": "Viande de porcinou frit"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NON_DROP"
     }
@@ -1647,7 +1647,7 @@
         "fr": "Viande de sanglier frit"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NON_DROP"
     }
@@ -1685,7 +1685,7 @@
         "fr": "Filet de poisson"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NON_DROP"
     }
@@ -1723,7 +1723,7 @@
         "fr": "Cornichons"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NON_DROP"
     }
@@ -1742,14 +1742,14 @@
         "fr": "Légumes en purée"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NON_DROP"
     }
   },
   {
-    "data": "/items/medicine/5drg.json",
-    "icon": "/icons/medicine/5drg.png",
+    "data": "/items/food/5drg.json",
+    "icon": "/icons/food/5drg.png",
     "name": {
       "type": "translation",
       "key": "item.misc.grape_must.name",
@@ -1761,7 +1761,7 @@
         "fr": "Braga"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NON_DROP"
     }
@@ -1780,7 +1780,7 @@
         "fr": "Jus"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NON_DROP"
     }
@@ -2166,8 +2166,8 @@
     }
   },
   {
-    "data": "/items/medicine/vrwg.json",
-    "icon": "/icons/medicine/vrwg.png",
+    "data": "/items/food/vrwg.json",
+    "icon": "/icons/food/vrwg.png",
     "name": {
       "type": "translation",
       "key": "item.misc.mash.name",
@@ -10862,7 +10862,7 @@
         "fr": "Sacoche de trousses de premiers secours du guide"
       }
     },
-    "color": "RANK_MASTER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NON_DROP"
     }
@@ -10881,7 +10881,7 @@
         "fr": "Sacoche de trousses de premiers secours des scientifiques"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "RANK_STALKER",
     "status": {
       "state": "NON_DROP"
     }
@@ -10900,7 +10900,7 @@
         "fr": "Sacoche de trousses de premiers secours militaire"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "DEFAULT",
     "status": {
       "state": "NON_DROP"
     }
@@ -30546,7 +30546,7 @@
         "fr": "Kit personnel de premiers secours"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -30565,7 +30565,7 @@
         "fr": "Trousse de premiers secours des scientifiques"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "RANK_STALKER",
     "status": {
       "state": "NONE"
     }
@@ -30584,7 +30584,7 @@
         "fr": "Trousse de premiers secours militaire"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -30603,7 +30603,7 @@
         "fr": "Pansement"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -30622,7 +30622,7 @@
         "fr": "Hémostase"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -30641,7 +30641,7 @@
         "fr": "Antirad B-191"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -30660,7 +30660,7 @@
         "fr": "Antirad B-292"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "RANK_STALKER",
     "status": {
       "state": "NONE"
     }
@@ -30679,7 +30679,7 @@
         "fr": "Antirad B-393"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NONE"
     }
@@ -30780,6 +30780,63 @@
     }
   },
   {
+    "data": "/items/medicine/0rd7d.json",
+    "icon": "/icons/medicine/0rd7d.png",
+    "name": {
+      "type": "translation",
+      "key": "item.med.protector_1.name",
+      "args": {},
+      "lines": {
+        "ru": "Радиопротектор первого класса",
+        "en": "1st Class Radioprotectant",
+        "es": "Radioprotector de 1.ª clase",
+        "fr": "Radioprotecteur de 1ère Classe"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/medicine/m0p4j.json",
+    "icon": "/icons/medicine/m0p4j.png",
+    "name": {
+      "type": "translation",
+      "key": "item.med.protector_2.name",
+      "args": {},
+      "lines": {
+        "ru": "Радиопротектор второго класса",
+        "en": "2nd Class Radioprotectant",
+        "es": "Radioprotector de 2.ª clase",
+        "fr": "Radioprotecteur de 2e Classe"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/medicine/okd4o.json",
+    "icon": "/icons/medicine/okd4o.png",
+    "name": {
+      "type": "translation",
+      "key": "item.med.protector_3.name",
+      "args": {},
+      "lines": {
+        "ru": "Радиопротектор третьего класса",
+        "en": "3rd Class Radioprotectant",
+        "es": "Radioprotector de 3.ª clase",
+        "fr": "Radioprotecteur de 3e classe"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
     "data": "/items/medicine/n4vw6.json",
     "icon": "/icons/medicine/n4vw6.png",
     "name": {
@@ -30812,7 +30869,7 @@
         "fr": "Morphine"
       }
     },
-    "color": "RANK_MASTER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NONE"
     }
@@ -30831,7 +30888,7 @@
         "fr": "Epinéphrine"
       }
     },
-    "color": "RANK_MASTER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NONE"
     }
@@ -30856,6 +30913,25 @@
     }
   },
   {
+    "data": "/items/drink/2o900.json",
+    "icon": "/icons/drink/2o900.png",
+    "name": {
+      "type": "translation",
+      "key": "item.med.vodka_ny.name",
+      "args": {},
+      "lines": {
+        "ru": "Водка «Морозная»",
+        "en": "Frosty Vodka",
+        "es": "Vodka Frosty",
+        "fr": "Vodka Glacée"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
     "data": "/items/drink/3g1qz.json",
     "icon": "/icons/drink/3g1qz.png",
     "name": {
@@ -30869,7 +30945,7 @@
         "fr": "Vodka"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -30888,7 +30964,7 @@
         "fr": "Trousse de Premiers Soins du Guide"
       }
     },
-    "color": "RANK_MASTER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NONE"
     }
@@ -30926,7 +31002,7 @@
         "fr": "Vodka Griffe Crochue"
       }
     },
-    "color": "RANK_MASTER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NONE"
     }
@@ -30964,7 +31040,7 @@
         "fr": "ATLAS Stéroïde Anabolisant"
       }
     },
-    "color": "DEFAULT",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NON_DROP"
     }
@@ -30986,6 +31062,25 @@
     "color": "RANK_MASTER",
     "status": {
       "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/drink/knop0.json",
+    "icon": "/icons/drink/knop0.png",
+    "name": {
+      "type": "translation",
+      "key": "item.med.cider_hw.name",
+      "args": {},
+      "lines": {
+        "ru": "Яблочный сидр",
+        "en": "Apple Cider",
+        "es": "Sidra",
+        "fr": "Cidre de Pomme"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NONE"
     }
   },
   {
@@ -31021,7 +31116,7 @@
         "fr": "Antidote de 1ère classe"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -31059,7 +31154,7 @@
         "fr": "ThermoBloc de 1ère classe"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -31097,14 +31192,14 @@
         "fr": "BloquePsy Neuro-11"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
   },
   {
-    "data": "/items/medicine/okdpo.json",
-    "icon": "/icons/medicine/okdpo.png",
+    "data": "/items/drink/okdpo.json",
+    "icon": "/icons/drink/okdpo.png",
     "name": {
       "type": "translation",
       "key": "item.med.lemonade.name",
@@ -31122,8 +31217,8 @@
     }
   },
   {
-    "data": "/items/medicine/n4vg6.json",
-    "icon": "/icons/medicine/n4vg6.png",
+    "data": "/items/drink/n4vg6.json",
+    "icon": "/icons/drink/n4vg6.png",
     "name": {
       "type": "translation",
       "key": "item.med.brine.name",
@@ -31160,8 +31255,8 @@
     }
   },
   {
-    "data": "/items/medicine/vjy0n.json",
-    "icon": "/icons/medicine/vjy0n.png",
+    "data": "/items/drink/vjy0n.json",
+    "icon": "/icons/drink/vjy0n.png",
     "name": {
       "type": "translation",
       "key": "item.med.tinfoil_hat.name",
@@ -31179,8 +31274,46 @@
     }
   },
   {
-    "data": "/items/medicine/3g1zz.json",
-    "icon": "/icons/medicine/3g1zz.png",
+    "data": "/items/drink/dmk65.json",
+    "icon": "/icons/drink/dmk65.png",
+    "name": {
+      "type": "translation",
+      "key": "item.med.birthday_punch.name",
+      "args": {},
+      "lines": {
+        "ru": "Праздничный пунш",
+        "en": "Holiday Punch",
+        "es": "Ponche navideño",
+        "fr": "Punch de Vacances"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/medicine/2o9g0.json",
+    "icon": "/icons/medicine/2o9g0.png",
+    "name": {
+      "type": "translation",
+      "key": "item.med.ozverin.name",
+      "args": {},
+      "lines": {
+        "ru": "«Озверин»",
+        "en": "Ozverin",
+        "es": "Ozverin",
+        "fr": "Ozverine"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/drink/3g1zz.json",
+    "icon": "/icons/drink/3g1zz.png",
     "name": {
       "type": "translation",
       "key": "item.med.subtropics.name",
@@ -31198,8 +31331,8 @@
     }
   },
   {
-    "data": "/items/medicine/7lyo3.json",
-    "icon": "/icons/medicine/7lyo3.png",
+    "data": "/items/drink/7lyo3.json",
+    "icon": "/icons/drink/7lyo3.png",
     "name": {
       "type": "translation",
       "key": "item.med.alcobull.name",
@@ -31274,8 +31407,8 @@
     }
   },
   {
-    "data": "/items/medicine/1r246.json",
-    "icon": "/icons/medicine/1r246.png",
+    "data": "/items/food/1r246.json",
+    "icon": "/icons/food/1r246.png",
     "name": {
       "type": "translation",
       "key": "item.med.inside_goroh.name",
@@ -31287,7 +31420,7 @@
         "fr": "Siop"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "RANK_MASTER",
     "status": {
       "state": "NONE"
     }
@@ -31306,7 +31439,64 @@
         "fr": "Cidre Modifié"
       }
     },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/medicine/zzqo2.json",
+    "icon": "/icons/medicine/zzqo2.png",
+    "name": {
+      "type": "translation",
+      "key": "item.med.inside_salt.name",
+      "args": {},
+      "lines": {
+        "ru": "Анаболик «SALT»",
+        "en": "SALT Anabolic Steroid",
+        "es": "Esteroide anabólico SALT",
+        "fr": "Stéroïde Anabolisant SALT"
+      }
+    },
     "color": "RANK_MASTER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/5lz3g.json",
+    "icon": "/icons/food/5lz3g.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.mandarin_slice.name",
+      "args": {},
+      "lines": {
+        "ru": "Дольки мандарина",
+        "en": "Mandarin Segments",
+        "es": "Gajos de mandarina",
+        "fr": "Segments de Mandarines"
+      }
+    },
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/y3kyz.json",
+    "icon": "/icons/food/y3kyz.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.icecream_stakan.name",
+      "args": {},
+      "lines": {
+        "ru": "Стаканчик мороженого",
+        "en": "Ice Cream Cone",
+        "es": "Cono de helado",
+        "fr": "Cône de Crème Glacée"
+      }
+    },
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NONE"
     }
@@ -31323,6 +31513,44 @@
         "en": "Children’s Champagne",
         "es": "Champán infantil",
         "fr": "Champagne pour Enfants"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/4qg3p.json",
+    "icon": "/icons/food/4qg3p.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.beans.name",
+      "args": {},
+      "lines": {
+        "ru": "Бобы «С новым счастьем!»",
+        "en": "“Happy New Year!” Beans",
+        "es": "\"¡Feliz Año Nuevo!\" Judías",
+        "fr": "Haricots « Bonne année ! »"
+      }
+    },
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/knoz0.json",
+    "icon": "/icons/food/knoz0.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.mandarine_half.name",
+      "args": {},
+      "lines": {
+        "ru": "Половинка мандарина",
+        "en": "Half a Mandarin",
+        "es": "Media mandarina",
+        "fr": "Une Demi-Mandarine"
       }
     },
     "color": "RANK_NEWBIE",
@@ -31363,7 +31591,64 @@
         "fr": "Champagne Pétillant"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/lyn5j.json",
+    "icon": "/icons/food/lyn5j.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.beans_christmas.name",
+      "args": {},
+      "lines": {
+        "ru": "Фасоль «Рождественская»",
+        "en": "Christmas Beans",
+        "es": "Judías navideñas",
+        "fr": "Haricots de Noël"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/rw1pg.json",
+    "icon": "/icons/food/rw1pg.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.mandarin.name",
+      "args": {},
+      "lines": {
+        "ru": "Свежий мандарин",
+        "en": "Fresh Mandarin",
+        "es": "Mandarina fresca",
+        "fr": "Mandarine Fraîche"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/0rdjd.json",
+    "icon": "/icons/food/0rdjd.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.icecream_chocolate.name",
+      "args": {},
+      "lines": {
+        "ru": "Шоколадный пломбир",
+        "en": "Chocolate Ice Cream",
+        "es": "Helado de chocolate",
+        "fr": "Crème Glacée au Chocolat"
+      }
+    },
+    "color": "RANK_STALKER",
     "status": {
       "state": "NONE"
     }
@@ -31382,7 +31667,121 @@
         "fr": "Champagne Anormal"
       }
     },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/okdno.json",
+    "icon": "/icons/food/okdno.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.corn.name",
+      "args": {},
+      "lines": {
+        "ru": "Кукуруза «Сладкий декабрь»",
+        "en": "Sweet December Corn",
+        "es": "Maíz dulce de diciembre",
+        "fr": "Maïs Doux de Décembre"
+      }
+    },
     "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/n4vo6.json",
+    "icon": "/icons/food/n4vo6.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.mandarin_anomal.name",
+      "args": {},
+      "lines": {
+        "ru": "Аномальный мандарин",
+        "en": "Anomalous Mandarin",
+        "es": "Mandarina anómala",
+        "fr": "Mandarine Anomale"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/p62o6.json",
+    "icon": "/icons/food/p62o6.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.eskimo.name",
+      "args": {},
+      "lines": {
+        "ru": "Эскимо",
+        "en": "Popsicle",
+        "es": "Polo",
+        "fr": "Esquimau"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/drink/vjy5n.json",
+    "icon": "/icons/drink/vjy5n.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.champagne_soviet.name",
+      "args": {},
+      "lines": {
+        "ru": "Советское шампанское",
+        "en": "Soviet Champagne",
+        "es": "Champán soviético",
+        "fr": "Champagne Soviétique"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/dmk95.json",
+    "icon": "/icons/food/dmk95.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.ny23.peas_old.name",
+      "args": {},
+      "lines": {
+        "ru": "Горох «Прошлогодний»",
+        "en": "Last Year’s Peas",
+        "es": "Guisantes del año pasado",
+        "fr": "Pois de l\u0027Année Dernière"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/drink/2o9w0.json",
+    "icon": "/icons/drink/2o9w0.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.blizzard.grog.name",
+      "args": {},
+      "lines": {
+        "ru": "Грог",
+        "en": "Grog",
+        "es": "Grog",
+        "fr": "Grog"
+      }
+    },
+    "color": "RANK_MASTER",
     "status": {
       "state": "NONE"
     }
@@ -31401,7 +31800,45 @@
         "fr": "Rôti de Mutant"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/medicine/7lyd3.json",
+    "icon": "/icons/medicine/7lyd3.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.blizzard.stark.name",
+      "args": {},
+      "lines": {
+        "ru": "Анаболик «STARK»",
+        "en": "STARK Anabolic Steroid",
+        "es": "Esteroide anabólico STARK",
+        "fr": "Stéroïde Anabolisant STARK"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/drink/6w5jj.json",
+    "icon": "/icons/drink/6w5jj.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.blizzard.vodka.name",
+      "args": {},
+      "lines": {
+        "ru": "Брусничная водка",
+        "en": "Lingonberry Vodka",
+        "es": "Vodka de arándanos rojos",
+        "fr": "Vodka à la Myrtille"
+      }
+    },
+    "color": "RANK_MASTER",
     "status": {
       "state": "NONE"
     }
@@ -31483,8 +31920,8 @@
     }
   },
   {
-    "data": "/items/medicine/g4lzg.json",
-    "icon": "/icons/medicine/g4lzg.png",
+    "data": "/items/drink/g4lzg.json",
+    "icon": "/icons/drink/g4lzg.png",
     "name": {
       "type": "translation",
       "key": "item.med.vodka_geyser.name",
@@ -31502,8 +31939,8 @@
     }
   },
   {
-    "data": "/items/medicine/zzqn9.json",
-    "icon": "/icons/medicine/zzqn9.png",
+    "data": "/items/drink/zzqn9.json",
+    "icon": "/icons/drink/zzqn9.png",
     "name": {
       "type": "translation",
       "key": "item.med.unforgettable_mix.name",
@@ -31534,7 +31971,7 @@
         "fr": "Morceau de Pain Blanc"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -31553,7 +31990,26 @@
         "fr": "Morceau de Pain de Seigle"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/g45rp.json",
+    "icon": "/icons/food/g45rp.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.mandarin.name",
+      "args": {},
+      "lines": {
+        "ru": "Мандарин",
+        "en": "Mandarin",
+        "es": "Mandarina",
+        "fr": "Mandarine"
+      }
+    },
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -31572,7 +32028,7 @@
         "fr": "Tranches de Saucisses"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NONE"
     }
@@ -31591,7 +32047,7 @@
         "fr": "Pain Croustillant de l\u0027Armée"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NONE"
     }
@@ -31610,7 +32066,26 @@
         "fr": "Sandwich au Caviar"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/j54p6.json",
+    "icon": "/icons/food/j54p6.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.buter_w_kolbasa.name",
+      "args": {},
+      "lines": {
+        "ru": "Бутерброд с колбасой",
+        "en": "Salami Sandwich",
+        "es": "Bocadillo de salami",
+        "fr": "Sandwich au Salami"
+      }
+    },
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NONE"
     }
@@ -31629,7 +32104,7 @@
         "fr": "Sandwich au Salami"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NONE"
     }
@@ -31648,7 +32123,7 @@
         "fr": "Haricots en Conserve"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NONE"
     }
@@ -31667,7 +32142,7 @@
         "fr": "Conserves de Poissons"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NONE"
     }
@@ -31705,7 +32180,7 @@
         "fr": "Conserves de Viande"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NONE"
     }
@@ -31725,6 +32200,25 @@
       }
     },
     "color": "RANK_STALKER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/p60k2.json",
+    "icon": "/icons/food/p60k2.png",
+    "name": {
+      "type": "translation",
+      "key": "item.26517.name",
+      "args": {},
+      "lines": {
+        "ru": "Салат крабовый",
+        "en": "Crab Salad",
+        "es": "Ensalada de cangrejo",
+        "fr": "Salade de Crabe"
+      }
+    },
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NONE"
     }
@@ -31762,7 +32256,26 @@
         "fr": "Caviar Rouge"
       }
     },
-    "color": "DEFAULT",
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/2opo6.json",
+    "icon": "/icons/food/2opo6.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.turist.name",
+      "args": {},
+      "lines": {
+        "ru": "«Радость туриста»",
+        "en": "Tourist’s Delight",
+        "es": "Delicia de turista",
+        "fr": "Le plaisir du Touriste"
+      }
+    },
+    "color": "RANK_STALKER",
     "status": {
       "state": "NONE"
     }
@@ -31800,9 +32313,85 @@
         "fr": "Gelée de viande « Sabot dans la Face »"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/6w3wy.json",
+    "icon": "/icons/food/6w3wy.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.dogscream.name",
+      "args": {},
+      "lines": {
+        "ru": "Консервы «Псиный визг»",
+        "en": "Canine Howl Preserves",
+        "es": "Conserva Aullido Canino",
+        "fr": "Conserves « Hurlement de Chien »"
+      }
+    },
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/96g6z.json",
+    "icon": "/icons/food/96g6z.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.octopus.name",
+      "args": {},
+      "lines": {
+        "ru": "Салат «Осьминожая свежесть»",
+        "en": "Octopus Fresh Salad",
+        "es": "Ensalada fresca de pulpo",
+        "fr": "Salade de Poulpe"
+      }
+    },
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/1rnr1.json",
+    "icon": "/icons/food/1rnr1.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.masterpiece.name",
+      "args": {},
+      "lines": {
+        "ru": "«Шедевральная красота»",
+        "en": "Exceptional Beauty",
+        "es": "Belleza excepcional",
+        "fr": "Beauté Exceptionnelle"
+      }
+    },
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/food/wj2jo.json",
+    "icon": "/icons/food/wj2jo.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.irp_usa.name",
+      "args": {},
+      "lines": {
+        "ru": "Американский ИРП",
+        "en": "American MRE",
+        "es": "Rac. de combate americana",
+        "fr": "MRE américain"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NON_DROP"
     }
   },
   {
@@ -31819,7 +32408,7 @@
         "fr": "MRE domestiques"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "RANK_MASTER",
     "status": {
       "state": "NON_DROP"
     }
@@ -31838,7 +32427,7 @@
         "fr": "Pois de Combat"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "NON_DROP"
     }
@@ -31863,6 +32452,25 @@
     }
   },
   {
+    "data": "/items/food/ly6y1.json",
+    "icon": "/icons/food/ly6y1.png",
+    "name": {
+      "type": "translation",
+      "key": "item.food.champion_breakfast.name",
+      "args": {},
+      "lines": {
+        "ru": "Завтрак чемпиона",
+        "en": "Breakfast of Champions",
+        "es": "Desayuno de campeones",
+        "fr": "Le Petit-Déjeuner des Champions"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
     "data": "/items/drink/rwow5.json",
     "icon": "/icons/drink/rwow5.png",
     "name": {
@@ -31876,7 +32484,7 @@
         "fr": "Bouteille d\u0027eau pure"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -31914,7 +32522,7 @@
         "fr": "Bouillie de millet avec de la viande"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NON_DROP"
     }
@@ -31933,7 +32541,7 @@
         "fr": "Porridge de pois avec de la viande"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "RANK_MASTER",
     "status": {
       "state": "NON_DROP"
     }
@@ -31952,7 +32560,7 @@
         "fr": "Pâtes de style Marine"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NON_DROP"
     }
@@ -31971,7 +32579,7 @@
         "fr": "Aspic"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "RANK_MASTER",
     "status": {
       "state": "NON_DROP"
     }
@@ -31990,7 +32598,7 @@
         "fr": "Soupe de haricots"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NON_DROP"
     }
@@ -32331,7 +32939,7 @@
         "fr": "Alcool Industriel"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "DEFAULT",
     "status": {
       "state": "NONE"
     }
@@ -34227,7 +34835,7 @@
       "lines": {
         "ru": "Часть АМ-17 #1",
         "en": "AM-17 Part #1",
-        "es": "AM-17 Pieza n.º 1",
+        "es": "AM-17 Pieza n.° 1",
         "fr": "AM-17 Partie #1"
       }
     },
@@ -34246,7 +34854,7 @@
       "lines": {
         "ru": "Часть АМ-17 #2",
         "en": "AM-17 Part #2",
-        "es": "AM-17 Pieza n.º 2",
+        "es": "AM-17 Pieza n.° 2",
         "fr": "AM-17 Partie #2"
       }
     },
@@ -34265,7 +34873,7 @@
       "lines": {
         "ru": "Часть АМ-17 #3",
         "en": "AM-17 Part #3",
-        "es": "AM-17 Pieza n.º 3",
+        "es": "AM-17 Pieza n.° 3",
         "fr": "AM-17 Partie #3"
       }
     },
@@ -34284,7 +34892,7 @@
       "lines": {
         "ru": "Часть АМ-17 #4",
         "en": "AM-17 Part #4",
-        "es": "AM-17 Pieza n.º 4",
+        "es": "AM-17 Pieza n.° 4",
         "fr": "AM-17 Partie #4"
       }
     },
@@ -34303,7 +34911,7 @@
       "lines": {
         "ru": "Часть Scorpion EVO III #1",
         "en": "Scorpion EVO III Part #1",
-        "es": "Scorpion EVO III Pieza n.º 1",
+        "es": "Scorpion EVO III Pieza n.° 1",
         "fr": "Scorpion EVO III Partie #1"
       }
     },
@@ -34322,7 +34930,7 @@
       "lines": {
         "ru": "Часть Scorpion EVO III #2",
         "en": "Scorpion EVO III Part #2",
-        "es": "Scorpion EVO III Pieza n.º 2",
+        "es": "Scorpion EVO III Pieza n.° 2",
         "fr": "Scorpion EVO III Partie #2"
       }
     },
@@ -34341,7 +34949,7 @@
       "lines": {
         "ru": "Часть Scorpion EVO III #3",
         "en": "Scorpion EVO III Part #3",
-        "es": "Scorpion EVO III Pieza n.º 3",
+        "es": "Scorpion EVO III Pieza n.° 3",
         "fr": "Scorpion EVO III Partie #3"
       }
     },
@@ -34360,7 +34968,7 @@
       "lines": {
         "ru": "Часть Scorpion EVO III #4",
         "en": "Scorpion EVO III Part #4",
-        "es": "Scorpion EVO III Pieza n.º 4",
+        "es": "Scorpion EVO III Pieza n.° 4",
         "fr": "Scorpion EVO III Partie #4"
       }
     },
@@ -34379,7 +34987,7 @@
       "lines": {
         "ru": "Часть SIG Sauer P320 #1",
         "en": "Sig Sauer P320 Part #1",
-        "es": "Sig Sauer P320 Pieza n.º 1",
+        "es": "Sig Sauer P320 Pieza n.° 1",
         "fr": "Sig Sauer P320 Partie #1"
       }
     },
@@ -34398,7 +35006,7 @@
       "lines": {
         "ru": "Часть SIG Sauer P320 #2",
         "en": "Sig Sauer P320 Part #2",
-        "es": "Sig Sauer P320 Pieza n.º 2",
+        "es": "Sig Sauer P320 Pieza n.° 2",
         "fr": "Sig Sauer P320 Partie #2"
       }
     },
@@ -34417,7 +35025,7 @@
       "lines": {
         "ru": "Часть SIG Sauer P320 #3",
         "en": "Sig Sauer P320 Part #3",
-        "es": "Sig Sauer P320 Pieza n.º 3",
+        "es": "Sig Sauer P320 Pieza n.° 3",
         "fr": "Sig Sauer P320 Partie #3"
       }
     },
@@ -34436,7 +35044,7 @@
       "lines": {
         "ru": "Часть SIG Sauer P320 #4",
         "en": "Sig Sauer P320 Part #4",
-        "es": "Sig Sauer P320 Pieza n.º 4",
+        "es": "Sig Sauer P320 Pieza n.° 4",
         "fr": "Sig Sauer P320 Partie #4"
       }
     },
@@ -34455,7 +35063,7 @@
       "lines": {
         "ru": "Часть VIKING Tactics #1",
         "en": "VIKING Tactics Part #1",
-        "es": "VIKING Tactics Pieza n.º 1",
+        "es": "VIKING Tactics Pieza n.° 1",
         "fr": "VIKING Tactics Partie #1"
       }
     },
@@ -34474,7 +35082,7 @@
       "lines": {
         "ru": "Часть VIKING Tactics #2",
         "en": "VIKING Tactics Part #2",
-        "es": "VIKING Tactics Pieza n.º 2",
+        "es": "VIKING Tactics Pieza n.° 2",
         "fr": "VIKING Tactics Partie #2"
       }
     },
@@ -34493,7 +35101,7 @@
       "lines": {
         "ru": "Часть VIKING Tactics #3",
         "en": "VIKING Tactics Part #3",
-        "es": "VIKING Tactics Pieza n.º 3",
+        "es": "VIKING Tactics Pieza n.° 3",
         "fr": "VIKING Tactics Partie #3"
       }
     },
@@ -34512,7 +35120,7 @@
       "lines": {
         "ru": "Часть Lantac BMD #1",
         "en": "Lantac BMD Part #1",
-        "es": "Lantac BMD Pieza n.º 1",
+        "es": "Lantac BMD Pieza n.° 1",
         "fr": "Lantac BMD Partie #1"
       }
     },
@@ -34531,7 +35139,7 @@
       "lines": {
         "ru": "Часть Lantac BMD #2",
         "en": "Lantac BMD Part #2",
-        "es": "Lantac BMD Pieza n.º 2",
+        "es": "Lantac BMD Pieza n.° 2",
         "fr": "Lantac BMD Partie #2"
       }
     },
@@ -34550,7 +35158,7 @@
       "lines": {
         "ru": "Часть Lantac BMD #3",
         "en": "Lantac BMD Part #3",
-        "es": "Lantac BMD Pieza n.º 3",
+        "es": "Lantac BMD Pieza n.° 3",
         "fr": "Lantac BMD Partie #3"
       }
     },
@@ -34569,7 +35177,7 @@
       "lines": {
         "ru": "Часть ACOG 2x40 #1",
         "en": "ACOG 2x40 Part #1",
-        "es": "ACOG 2x40 Pieza n.º 1",
+        "es": "ACOG 2x40 Pieza n.° 1",
         "fr": "ACOG 2x40 Partie #1"
       }
     },
@@ -34588,7 +35196,7 @@
       "lines": {
         "ru": "Часть ACOG 2x40 #2",
         "en": "ACOG 2x40 Part #2",
-        "es": "ACOG 2x40 Pieza n.º 2",
+        "es": "ACOG 2x40 Pieza n.° 2",
         "fr": "ACOG 2x40 Partie #2"
       }
     },
@@ -34607,7 +35215,7 @@
       "lines": {
         "ru": "Часть ACOG 2x40 #3",
         "en": "ACOG 2x40 Part #3",
-        "es": "ACOG 2x40 Pieza n.º 3",
+        "es": "ACOG 2x40 Pieza n.° 3",
         "fr": "ACOG 2x40 Partie #3"
       }
     },
@@ -34626,7 +35234,7 @@
       "lines": {
         "ru": "Часть DOTSAT #1",
         "en": "DOTSAT Part #1",
-        "es": "DOTSAT Pieza n.º 1",
+        "es": "DOTSAT Pieza n.° 1",
         "fr": "DOTSTAT Partie #1"
       }
     },
@@ -34645,7 +35253,7 @@
       "lines": {
         "ru": "Часть DOTSAT #2",
         "en": "DOTSAT Part #2",
-        "es": "DOTSAT Pieza n.º 2",
+        "es": "DOTSAT Pieza n.° 2",
         "fr": "DOTSTAT Partie #2"
       }
     },
@@ -34664,7 +35272,7 @@
       "lines": {
         "ru": "Часть DOTSAT #3",
         "en": "DOTSAT Part #3",
-        "es": "DOTSAT Pieza n.º 3",
+        "es": "DOTSAT Pieza n.° 3",
         "fr": "DOTSTAT Partie #3"
       }
     },
@@ -34683,7 +35291,7 @@
       "lines": {
         "ru": "Часть Lantac Dragon #1",
         "en": "Lantac Dragon Part #1",
-        "es": "Lantac Dragon Pieza n.º 1",
+        "es": "Lantac Dragon Pieza n.° 1",
         "fr": "Lantac Dragon Partie #1"
       }
     },
@@ -34702,7 +35310,7 @@
       "lines": {
         "ru": "Часть Lantac Dragon #2",
         "en": "Lantac Dragon Part #2",
-        "es": "Lantac Dragon Pieza n.º 2",
+        "es": "Lantac Dragon Pieza n.° 2",
         "fr": "Lantac Dragon Partie #2"
       }
     },
@@ -34721,7 +35329,7 @@
       "lines": {
         "ru": "Часть Lantac Dragon #3",
         "en": "Lantac Dragon Part #3",
-        "es": "Lantac Dragon Pieza n.º 3",
+        "es": "Lantac Dragon Pieza n.° 3",
         "fr": "Lantac Dragon Partie #3"
       }
     },
@@ -34740,7 +35348,7 @@
       "lines": {
         "ru": "Часть Кувалды #1",
         "en": "Sledgehammer Part #1",
-        "es": "Mazo Pieza n.º 1",
+        "es": "Mazo Pieza n.° 1",
         "fr": "Massue Partie #1"
       }
     },
@@ -34759,7 +35367,7 @@
       "lines": {
         "ru": "Часть Кувалды #2",
         "en": "Sledgehammer Part #2",
-        "es": "Mazo Pieza n.º 2",
+        "es": "Mazo Pieza n.° 2",
         "fr": "Massue Partie #2"
       }
     },
@@ -34778,7 +35386,7 @@
       "lines": {
         "ru": "Часть Кувалды #3",
         "en": "Sledgehammer Part #3",
-        "es": "Mazo Pieza n.º 3",
+        "es": "Mazo Pieza n.° 3",
         "fr": "Massue Partie #3"
       }
     },
@@ -34797,7 +35405,7 @@
       "lines": {
         "ru": "Часть Кувалды #4",
         "en": "Sledgehammer Part #4",
-        "es": "Mazo Pieza n.º 4",
+        "es": "Mazo Pieza n.° 4",
         "fr": "Massue Partie #4"
       }
     },
