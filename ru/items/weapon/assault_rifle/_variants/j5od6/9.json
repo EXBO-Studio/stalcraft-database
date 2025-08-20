@@ -246,13 +246,13 @@
               "fr": "Dégâts"
             }
           },
-          "value": 39.127438,
+          "value": 39.01753,
           "formatted": {
             "value": {
-              "ru": "39,13 ед",
-              "en": "39.13 unit(s)",
-              "es": "39,13 unidad(es)",
-              "fr": "39,13 unité(s)"
+              "ru": "39,02 ед",
+              "en": "39.02 unit(s)",
+              "es": "39,02 unidad(es)",
+              "fr": "39,02 unité(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -692,6 +692,47 @@
     {
       "type": "list",
       "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.attachment_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики обвесов",
+          "en": "Attachment properties",
+          "es": "Propiedades de accesorios",
+          "fr": "Propriétés des accessoires"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l\u0027aveugle"
+            }
+          },
+          "value": -25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
         "type": "text",
         "text": ""
       },
@@ -731,7 +772,7 @@
     },
     {
       "type": "damage",
-      "startDamage": 39.127438,
+      "startDamage": 39.01753,
       "damageDecreaseStart": 12.0,
       "endDamage": 26.378048,
       "damageDecreaseEnd": 52.0,

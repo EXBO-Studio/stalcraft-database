@@ -246,13 +246,13 @@
               "fr": "Dégâts"
             }
           },
-          "value": 45.03232,
+          "value": 45.34146,
           "formatted": {
             "value": {
-              "ru": "45,03 ед",
-              "en": "45.03 unit(s)",
-              "es": "45,03 unidad(es)",
-              "fr": "45,03 unité(s)"
+              "ru": "45,34 ед",
+              "en": "45.34 unit(s)",
+              "es": "45,34 unidad(es)",
+              "fr": "45,34 unité(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -421,7 +421,7 @@
               "fr": "Dispersion"
             }
           },
-          "value": 0.42000008,
+          "value": 0.41999996,
           "formatted": {
             "value": {
               "ru": "0,42°",
@@ -446,13 +446,13 @@
               "fr": "Dispersion du tir à l\u0027aveugle"
             }
           },
-          "value": 2.7,
+          "value": 2.025,
           "formatted": {
             "value": {
-              "ru": "2,7°",
-              "en": "2.7°",
-              "es": "2,7°",
-              "fr": "2,7°"
+              "ru": "2,02°",
+              "en": "2.02°",
+              "es": "2,02°",
+              "fr": "2,02°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -692,6 +692,47 @@
     {
       "type": "list",
       "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.attachment_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики обвесов",
+          "en": "Attachment properties",
+          "es": "Propiedades de accesorios",
+          "fr": "Propriétés des accessoires"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l\u0027aveugle"
+            }
+          },
+          "value": -25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
         "type": "text",
         "text": ""
       },
@@ -731,7 +772,7 @@
     },
     {
       "type": "damage",
-      "startDamage": 45.03232,
+      "startDamage": 45.34146,
       "damageDecreaseStart": 18.0,
       "endDamage": 35.242683,
       "damageDecreaseEnd": 62.0,
