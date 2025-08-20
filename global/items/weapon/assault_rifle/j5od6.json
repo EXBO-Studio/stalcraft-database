@@ -246,13 +246,13 @@
               "fr": "Dégâts"
             }
           },
-          "value": 35.6,
+          "value": 35.5,
           "formatted": {
             "value": {
-              "ru": "35,6 ед",
-              "en": "35.6 unit(s)",
-              "es": "35,6 unidad(es)",
-              "fr": "35,6 unité(s)"
+              "ru": "35,5 ед",
+              "en": "35.5 unit(s)",
+              "es": "35,5 unidad(es)",
+              "fr": "35,5 unité(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -626,6 +626,47 @@
     {
       "type": "list",
       "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.attachment_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики обвесов",
+          "en": "Attachment properties",
+          "es": "Propiedades de accesorios",
+          "fr": "Propriétés des accessoires"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l\u0027aveugle"
+            }
+          },
+          "value": -25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
         "type": "text",
         "text": ""
       },
@@ -665,7 +706,7 @@
     },
     {
       "type": "damage",
-      "startDamage": 35.6,
+      "startDamage": 35.5,
       "damageDecreaseStart": 12.0,
       "endDamage": 24.0,
       "damageDecreaseEnd": 52.0,
