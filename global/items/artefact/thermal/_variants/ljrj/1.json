@@ -259,40 +259,14 @@
               "fr": "Vitesse de déplacement"
             }
           },
-          "min": 0.612,
-          "max": 1.224,
+          "min": 0.867,
+          "max": 1.02,
           "formatted": {
             "value": {
-              "ru": "[+0,61%; +1,22%]",
-              "en": "[+0.61%; +1.22%]",
-              "es": "[+0,61 %; +1,22 %]",
-              "fr": "[+0,61%; +1,22%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.thermal_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление температуре",
-              "en": "Thermal resistance",
-              "es": "Resistencia térmica",
-              "fr": "Résistance thermique"
-            }
-          },
-          "min": 10.608,
-          "max": 21.216,
-          "formatted": {
-            "value": {
-              "ru": "[+10,61%; +21,22%]",
-              "en": "[+10.61%; +21.22%]",
-              "es": "[+10,61 %; +21,22 %]",
-              "fr": "[+10,61%; +21,22%]"
+              "ru": "[+0,87%; +1,02%]",
+              "en": "[+0.87%; +1.02%]",
+              "es": "[+0,87 %; +1,02 %]",
+              "fr": "[+0,87%; +1,02%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +285,14 @@
               "fr": "Température"
             }
           },
-          "min": -2.754,
-          "max": -1.377,
+          "min": -2.2032,
+          "max": -1.8727201,
           "formatted": {
             "value": {
-              "ru": "[-2,75; -1,38]",
-              "en": "[-2.75; -1.38]",
-              "es": "[-2,75; -1,38]",
-              "fr": "[-2,75; -1,38]"
+              "ru": "[-2,2; -1,87]",
+              "en": "[-2.2; -1.87]",
+              "es": "[-2,2; -1,87]",
+              "fr": "[-2,2; -1,87]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -337,14 +311,40 @@
               "fr": "Émissions psys"
             }
           },
-          "min": -2.652,
-          "max": -1.326,
+          "min": -1.3055999,
+          "max": -1.1097599,
           "formatted": {
             "value": {
-              "ru": "[-2,65; -1,33]",
-              "en": "[-2.65; -1.33]",
-              "es": "[-2,65; -1,33]",
-              "fr": "[-2,65; -1,33]"
+              "ru": "[-1,31; -1,11]",
+              "en": "[-1.31; -1.11]",
+              "es": "[-1,31; -1,11]",
+              "fr": "[-1,31; -1,11]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns",
+              "es": "Reacción a las quemaduras",
+              "fr": "Réaction aux brûlures"
+            }
+          },
+          "min": 2.0808,
+          "max": 2.448,
+          "formatted": {
+            "value": {
+              "ru": "[+2,08%; +2,45%]",
+              "en": "[+2.08%; +2.45%]",
+              "es": "[+2,08 %; +2,45 %]",
+              "fr": "[+2,08%; +2,45%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

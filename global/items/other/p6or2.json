@@ -12,7 +12,7 @@
       "fr": "Camouflage Gravier"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -24,6 +24,31 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -647,7 +672,7 @@
             "lines": {
               "ru": "SA-58 CTC",
               "en": "SA-58 CTC",
-              "es": "CTC SA-58",
+              "es": "SA-58 CTC",
               "fr": "SA-58 CTC"
             }
           }
@@ -775,6 +800,20 @@
               "en": "PP-19 Bizon-2-01",
               "es": "PP-19 Bizon-2-01",
               "fr": "PP-19 Bizon-2-01"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.cheytac300_a.name",
+            "args": {},
+            "lines": {
+              "ru": "Cheytac M300 Арсенала",
+              "en": "Arsenal Cheytac M300",
+              "es": "Arsenal Cheytac M300",
+              "fr": "Cheytac M300 d\u0027Arsenal"
             }
           }
         },
@@ -1076,20 +1115,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.gornostay.name",
-            "args": {},
-            "lines": {
-              "ru": "АКС-9 «Горностай»",
-              "en": "AKS-9 Stoat",
-              "es": "AKS-9 Armiño",
-              "fr": "AKS-9 Hermine"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.otl.name",
             "args": {},
             "lines": {
@@ -1097,6 +1122,20 @@
               "en": "Karbach OTL-03",
               "es": "Karbach OTL-03",
               "fr": "Karbach OTL-03"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.gornostay.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-9 «Горностай»",
+              "en": "AKS-9 Stoat",
+              "es": "AKS-9 Armiño",
+              "fr": "AKS-9 Hermine"
             }
           }
         },
@@ -1258,6 +1297,20 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.ak12_a.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-12 Арсенала",
+              "en": "Arsenal АК-12",
+              "es": "Arsenal AK-12",
+              "fr": "AK-12 de l’Arsenal"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.vityaz.name",
             "args": {},
             "lines": {
@@ -1391,6 +1444,20 @@
               "en": "A-762 Ares",
               "es": "A-762 Ares",
               "fr": "A-762 Arès"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aug3_a.name",
+            "args": {},
+            "lines": {
+              "ru": "AUG A3 Арсенала",
+              "en": "Arsenal AUG A3",
+              "es": "Arsenal AUG A3",
+              "fr": "AUG A3 de l’Arsenal"
             }
           }
         },
@@ -1930,20 +1997,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.kashtan.name",
-            "args": {},
-            "lines": {
-              "ru": "АЕК-919К «Каштан»",
-              "en": "AEK-919K Kashtan",
-              "es": "AEK-919K Kashtan",
-              "fr": "AEK-919K Kashtan"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.aksu.name",
             "args": {},
             "lines": {
@@ -1951,6 +2004,20 @@
               "en": "AKS-74U",
               "es": "AKS-74U",
               "fr": "AKS-74U"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.kashtan.name",
+            "args": {},
+            "lines": {
+              "ru": "АЕК-919К «Каштан»",
+              "en": "AEK-919K Kashtan",
+              "es": "AEK-919K Kashtan",
+              "fr": "AEK-919K Kashtan"
             }
           }
         },
@@ -2035,6 +2102,34 @@
               "en": "SVT-40",
               "es": "SVT-40",
               "fr": "SVT-40"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ks12.name",
+            "args": {},
+            "lines": {
+              "ru": "KS-12 Komrad",
+              "en": "KS-12 Komrad",
+              "es": "KS-12 Komrad",
+              "fr": "KS-12 Komrad"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.jackhammer.name",
+            "args": {},
+            "lines": {
+              "ru": "Pancor Jackhammer",
+              "en": "Pancor Jackhammer",
+              "es": "Pancor Jackhammer",
+              "fr": "Pancor Jackhammer"
             }
           }
         },
@@ -2385,6 +2480,34 @@
               "en": "AMB-17",
               "es": "AMB-17",
               "fr": "AMB-17"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.cheytac300.name",
+            "args": {},
+            "lines": {
+              "ru": "Cheytac M300",
+              "en": "Cheytac M300",
+              "es": "Cheytac M300",
+              "fr": "Cheytac M300"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk416_a.name",
+            "args": {},
+            "lines": {
+              "ru": "HK416 Арсенала",
+              "en": "Arsenal HK416",
+              "es": "Arsenal HK416",
+              "fr": "HK416 de l’Arsenal"
             }
           }
         },

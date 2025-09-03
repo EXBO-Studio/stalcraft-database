@@ -299,14 +299,14 @@
               "fr": "Réduit les dégâts de"
             }
           },
-          "min": 80.383995,
+          "min": 85.408,
           "max": 100.479996,
           "formatted": {
             "value": {
-              "ru": "[80 ед; 100 ед]",
-              "en": "[80 unit(s); 100 unit(s)]",
-              "es": "[80 unidad(es); 100 unidad(es)]",
-              "fr": "[80 unité(s); 100 unité(s)]"
+              "ru": "[85 ед; 100 ед]",
+              "en": "[85 unit(s); 100 unit(s)]",
+              "es": "[85 unidad(es); 100 unidad(es)]",
+              "fr": "[85 unité(s); 100 unité(s)]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -326,13 +326,13 @@
             }
           },
           "min": 21.6,
-          "max": 12.960001,
+          "max": 11.6640005,
           "formatted": {
             "value": {
-              "ru": "[21,6 с; 12,96 с]",
-              "en": "[21.6 sec; 12.96 sec]",
-              "es": "[21,6 s; 12,96 s]",
-              "fr": "[21,6 s; 12,96 s]"
+              "ru": "[21,6 с; 11,66 с]",
+              "en": "[21.6 sec; 11.66 sec]",
+              "es": "[21,6 s; 11,66 s]",
+              "fr": "[21,6 s; 11,66 s]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -352,16 +352,42 @@
             }
           },
           "min": 3.6,
-          "max": 2.1600003,
+          "max": 1.9440002,
           "formatted": {
             "value": {
-              "ru": "[3,6%; 2,16%]",
-              "en": "[3.6%; 2.16%]",
-              "es": "[3,6 %; 2,16 %]",
-              "fr": "[3,6%; 2,16%]"
+              "ru": "[3,6%; 1,94%]",
+              "en": "[3.6%; 1.94%]",
+              "es": "[3,6 %; 1,94 %]",
+              "fr": "[3,6%; 1,94%]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 15.8848,
+          "max": 18.688,
+          "formatted": {
+            "value": {
+              "ru": "[+15,88%; +18,69%]",
+              "en": "[+15.88%; +18.69%]",
+              "es": "[+15,88 %; +18,69 %]",
+              "fr": "[+15,88%; +18,69%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -377,14 +403,14 @@
               "fr": "Radiation"
             }
           },
-          "min": 0.6,
-          "max": 1.25,
+          "min": 2.125,
+          "max": 2.5,
           "formatted": {
             "value": {
-              "ru": "[+0,6; +1,25]",
-              "en": "[+0.6; +1.25]",
-              "es": "[+0,6; +1,25]",
-              "fr": "[+0,6; +1,25]"
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

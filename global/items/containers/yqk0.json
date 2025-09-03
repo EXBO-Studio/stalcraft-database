@@ -1,0 +1,249 @@
+{
+  "id": "yqk0",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.cocoonu.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Кокон-У»",
+      "en": "Cocoon-U Container",
+      "es": "Contenedor Capullo-U",
+      "fr": "Conteneur Cocon-U"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 4.8,
+          "formatted": {
+            "value": {
+              "ru": "4,8 кг",
+              "en": "4.8 kg",
+              "es": "4,8 kg",
+              "fr": "4,8 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.standard",
+        "args": {},
+        "lines": {
+          "ru": "Стандартный контейнер",
+          "en": "Standard Container",
+          "es": "Contenedor estándar",
+          "fr": "Conteneur standard"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 89.5,
+          "formatted": {
+            "value": {
+              "ru": "89,5%",
+              "en": "89.5%",
+              "es": "89,5 %",
+              "fr": "89,5%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 110.0,
+          "formatted": {
+            "value": {
+              "ru": "110%",
+              "en": "110%",
+              "es": "110 %",
+              "fr": "110%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "0/3",
+              "en": "0/3",
+              "es": "0/3",
+              "fr": "0/3"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.cocoonu.description",
+        "args": {},
+        "lines": {
+          "ru": "Укрепленный вариант контейнера «КЗК-1», известного также как «Кокон».\\nПо старой традиции, НИИ-7 решила продолжить практику создания укрепленных и более дорогостоящих контейнеров для своих оперативников в Зоне.",
+          "en": "A reinforced version of the KZK-1 container, also known as Cocoonl.\\nFollowing their old tradition, Research Institute 7 decided to continue the practice of creating reinforced and more expensive containers for their operatives in the Zone.",
+          "es": "Una versión fortificada del contenedor KZK-1, también conocido como Capullo.\\nSiguiendo una vieja tradición, el Instituto de Investigación 7 decidió continuar con la práctica de crear contenedores fortificados y más caros para sus operativos en la Zona.",
+          "fr": "Version renforcée du conteneur « KZK-1 », également connu sous le nom de Cocon.\\nSelon l’ancienne tradition, l’Institut de Recherche 7 a décidé de poursuivre la pratique de création de conteneurs renforcés et plus coûteux pour ses agents dans la Zone."
+        }
+      }
+    }
+  ]
+}

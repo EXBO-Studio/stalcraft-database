@@ -250,101 +250,23 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Сопротивление радиации",
-              "en": "Radiation resistance",
-              "es": "Resistencia a la radiación",
-              "fr": "Résistance aux radiations"
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
             }
           },
-          "min": 13.860001,
-          "max": 27.720001,
+          "min": 3.4680004,
+          "max": 4.0800004,
           "formatted": {
             "value": {
-              "ru": "[+13,86%; +27,72%]",
-              "en": "[+13.86%; +27.72%]",
-              "es": "[+13,86 %; +27,72 %]",
-              "fr": "[+13,86%; +27,72%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.thermal_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление температуре",
-              "en": "Thermal resistance",
-              "es": "Resistencia térmica",
-              "fr": "Résistance thermique"
-            }
-          },
-          "min": 13.860001,
-          "max": 27.720001,
-          "formatted": {
-            "value": {
-              "ru": "[+13,86%; +27,72%]",
-              "en": "[+13.86%; +27.72%]",
-              "es": "[+13,86 %; +27,72 %]",
-              "fr": "[+13,86%; +27,72%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление биозаражению",
-              "en": "Bioinfection resistance",
-              "es": "Resistencia a la bioinfección",
-              "fr": "Résistance aux bio infections"
-            }
-          },
-          "min": 13.860001,
-          "max": 27.720001,
-          "formatted": {
-            "value": {
-              "ru": "[+13,86%; +27,72%]",
-              "en": "[+13.86%; +27.72%]",
-              "es": "[+13,86 %; +27,72 %]",
-              "fr": "[+13,86%; +27,72%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.psycho_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление пси-излучению",
-              "en": "Psy-emission resistance",
-              "es": "Resistencia a la emisión psy",
-              "fr": "Résistance aux émissions psys"
-            }
-          },
-          "min": 13.860001,
-          "max": 27.720001,
-          "formatted": {
-            "value": {
-              "ru": "[+13,86%; +27,72%]",
-              "en": "[+13.86%; +27.72%]",
-              "es": "[+13,86 %; +27,72 %]",
-              "fr": "[+13,86%; +27,72%]"
+              "ru": "[+3,47%; +4,08%]",
+              "en": "[+3.47%; +4.08%]",
+              "es": "[+3,47 %; +4,08 %]",
+              "fr": "[+3,47%; +4,08%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -363,14 +285,14 @@
               "fr": "Radiation"
             }
           },
-          "min": -1.9200001,
-          "max": -0.96000004,
+          "min": -1.536,
+          "max": -1.3056,
           "formatted": {
             "value": {
-              "ru": "[-1,92; -0,96]",
-              "en": "[-1.92; -0.96]",
-              "es": "[-1,92; -0,96]",
-              "fr": "[-1,92; -0,96]"
+              "ru": "[-1,54; -1,31]",
+              "en": "[-1.54; -1.31]",
+              "es": "[-1,54; -1,31]",
+              "fr": "[-1,54; -1,31]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -389,14 +311,14 @@
               "fr": "Température"
             }
           },
-          "min": -1.9200001,
-          "max": -0.96000004,
+          "min": -1.536,
+          "max": -1.3056,
           "formatted": {
             "value": {
-              "ru": "[-1,92; -0,96]",
-              "en": "[-1.92; -0.96]",
-              "es": "[-1,92; -0,96]",
-              "fr": "[-1,92; -0,96]"
+              "ru": "[-1,54; -1,31]",
+              "en": "[-1.54; -1.31]",
+              "es": "[-1,54; -1,31]",
+              "fr": "[-1,54; -1,31]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -415,14 +337,14 @@
               "fr": "Infection biologique"
             }
           },
-          "min": -1.9200001,
-          "max": -0.96000004,
+          "min": -1.536,
+          "max": -1.3056,
           "formatted": {
             "value": {
-              "ru": "[-1,92; -0,96]",
-              "en": "[-1.92; -0.96]",
-              "es": "[-1,92; -0,96]",
-              "fr": "[-1,92; -0,96]"
+              "ru": "[-1,54; -1,31]",
+              "en": "[-1.54; -1.31]",
+              "es": "[-1,54; -1,31]",
+              "fr": "[-1,54; -1,31]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -441,14 +363,40 @@
               "fr": "Émissions psys"
             }
           },
-          "min": -3.1200001,
-          "max": -1.5600001,
+          "min": -1.536,
+          "max": -1.3056,
           "formatted": {
             "value": {
-              "ru": "[-3,12; -1,56]",
-              "en": "[-3.12; -1.56]",
-              "es": "[-3,12; -1,56]",
-              "fr": "[-3,12; -1,56]"
+              "ru": "[-1,54; -1,31]",
+              "en": "[-1.54; -1.31]",
+              "es": "[-1,54; -1,31]",
+              "fr": "[-1,54; -1,31]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "min": -1.08,
+          "max": -0.91800004,
+          "formatted": {
+            "value": {
+              "ru": "[-1,08; -0,92]",
+              "en": "[-1.08; -0.92]",
+              "es": "[-1,08; -0,92]",
+              "fr": "[-1,08; -0,92]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -250,6 +250,58 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 7.395,
+          "max": 8.7,
+          "formatted": {
+            "value": {
+              "ru": "[+7,4; +8,7]",
+              "en": "[+7.4; +8.7]",
+              "es": "[+7,4; +8,7]",
+              "fr": "[+7,4; +8,7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": -0.192,
+          "max": -0.1632,
+          "formatted": {
+            "value": {
+              "ru": "[-0,19; -0,16]",
+              "en": "[-0.19; -0.16]",
+              "es": "[-0,19; -0,16]",
+              "fr": "[-0,19; -0,16]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.frost_accumulation",
             "args": {},
             "lines": {
@@ -259,14 +311,14 @@
               "fr": "Givre"
             }
           },
-          "min": 0.25,
+          "min": 0.425,
           "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+0,25; +0,5]",
-              "en": "[+0.25; +0.5]",
-              "es": "[+0,25; +0,5]",
-              "fr": "[+0,25; +0,5]"
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -285,14 +337,14 @@
               "fr": "Réaction à l\u0027électricité"
             }
           },
-          "min": 2.35,
+          "min": 3.995,
           "max": 4.7,
           "formatted": {
             "value": {
-              "ru": "[+2,35%; +4,7%]",
-              "en": "[+2.35%; +4.7%]",
-              "es": "[+2,35 %; +4,7 %]",
-              "fr": "[+2,35%; +4,7%]"
+              "ru": "[+4%; +4,7%]",
+              "en": "[+4%; +4.7%]",
+              "es": "[+4 %; +4,7 %]",
+              "fr": "[+4%; +4,7%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +363,14 @@
               "fr": "Réaction aux brûlures"
             }
           },
-          "min": 2.35,
+          "min": 3.995,
           "max": 4.7,
           "formatted": {
             "value": {
-              "ru": "[+2,35%; +4,7%]",
-              "en": "[+2.35%; +4.7%]",
-              "es": "[+2,35 %; +4,7 %]",
-              "fr": "[+2,35%; +4,7%]"
+              "ru": "[+4%; +4,7%]",
+              "en": "[+4%; +4.7%]",
+              "es": "[+4 %; +4,7 %]",
+              "fr": "[+4%; +4,7%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -337,14 +389,14 @@
               "fr": "Réaction aux brûlures chimiques"
             }
           },
-          "min": 2.35,
+          "min": 3.995,
           "max": 4.7,
           "formatted": {
             "value": {
-              "ru": "[+2,35%; +4,7%]",
-              "en": "[+2.35%; +4.7%]",
-              "es": "[+2,35 %; +4,7 %]",
-              "fr": "[+2,35%; +4,7%]"
+              "ru": "[+4%; +4,7%]",
+              "en": "[+4%; +4.7%]",
+              "es": "[+4 %; +4,7 %]",
+              "fr": "[+4%; +4,7%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

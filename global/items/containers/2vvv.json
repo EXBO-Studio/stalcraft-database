@@ -6,10 +6,10 @@
     "key": "item.cont.kzs3.name",
     "args": {},
     "lines": {
-      "ru": "«КЗС-3»",
-      "en": "KZS-3",
-      "es": "KZS-3",
-      "fr": "KZS-3"
+      "ru": "Контейнер «КЗС-М»",
+      "en": "KZS-M Container",
+      "es": "Contenedor KZS-M",
+      "fr": "Conteneur KZS-M"
     }
   },
   "color": "RANK_STALKER",
@@ -67,10 +67,10 @@
             "key": "core.handbook.category.containers",
             "args": {},
             "lines": {
-              "ru": "Рюкзаки и Контейнеры",
-              "en": "Backpacks and Containers",
-              "es": "Mochilas y contenedores",
-              "fr": "Sacs à dos et conteneurs"
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
             }
           }
         },
@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 5.25,
+          "value": 3.6,
           "formatted": {
             "value": {
-              "ru": "5,25 кг",
-              "en": "5.25 kg",
-              "es": "5,25 kg",
-              "fr": "5,25 kg"
+              "ru": "3,6 кг",
+              "en": "3.6 kg",
+              "es": "3,6 kg",
+              "fr": "3,6 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -125,13 +125,13 @@
       },
       "text": {
         "type": "translation",
-        "key": "general.container.class.bulky",
+        "key": "general.container.class.compact",
         "args": {},
         "lines": {
-          "ru": "Громоздкий контейнер",
-          "en": "Bulky Container",
-          "es": "Contenedor voluminoso",
-          "fr": "Conteneur encombrant"
+          "ru": "Компактный контейнер",
+          "en": "Compact Container",
+          "es": "Contenedor compacto",
+          "fr": "Conteneur compact"
         }
       }
     },
@@ -155,13 +155,13 @@
               "fr": "Protection interne"
             }
           },
-          "value": 50.0,
+          "value": 95.0,
           "formatted": {
             "value": {
-              "ru": "50%",
-              "en": "50%",
-              "es": "50 %",
-              "fr": "50%"
+              "ru": "95%",
+              "en": "95%",
+              "es": "95 %",
+              "fr": "95%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -180,13 +180,13 @@
               "fr": "Efficacité"
             }
           },
-          "value": 100.0,
+          "value": 115.0,
           "formatted": {
             "value": {
-              "ru": "100%",
-              "en": "100%",
-              "es": "100 %",
-              "fr": "100%"
+              "ru": "115%",
+              "en": "115%",
+              "es": "115 %",
+              "fr": "115%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -235,13 +235,31 @@
       },
       "text": {
         "type": "translation",
+        "key": "item.att.temp_model.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
+          "en": "This item has a TEMPORARY model, which will be replaced.",
+          "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
+          "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé."
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
         "key": "item.cont.kzs3.description",
         "args": {},
         "lines": {
-          "ru": "Набор из трех контейнеров «КЗС-1». Позволяет переносить три артефакта и, очевидно, обладает хорошими экранирующими свойствами.",
-          "en": "A set of three KZS-1 containers. Lets you carry three artifacts and, obviously, has good shielding capabilities.",
-          "es": "Un juego de tres contenedores KZS-1. Te permite llevar tres artefactos y, obviamente, tiene buenas capacidades protectoras.",
-          "fr": "Un ensemble de trois conteneurs KZS-1. Vous permet de transporter trois artéfacts et possède évidemment de bonnes capacités de blindage."
+          "ru": "Комплект из трех контейнеров «КЗС-М» заводского производства.\\nИнженеры НИИ-7 долгое время ломали голову над наиболее эргономичной компоновкой контейнеров и повышением эффективности, однако в последнем не преуспели. По итогу было решено дополнительно укрепить внутренние изоляционные слои, как это было сделано на «КЗС-2».",
+          "en": "A factory-produced set of three KZS-M containers.\\nResearch Institute 7 engineers struggled for a long time with achieving the most ergonomic container arrangement and efficiency improvement but did not succeed in the latter. Ultimately, it was decided to additionally reinforce the internal insulation layers, as was done on the KZS-2.",
+          "es": "Un conjunto de tres contenedores KZS-M hechos en fábrica.\\nLos ingenieros del Instituto de Investigación 7 llevaban mucho tiempo dándole vueltas a la distribución más ergonómica de los contenedores y al aumento de la eficiencia, pero no consiguieron esto último. Como resultado, se decidió reforzar adicionalmente las capas internas de aislamiento, como se hizo en KZS-2.",
+          "fr": "Ensemble de trois conteneurs KZS-M de fabrication industrielle.\\nLes ingénieurs de l’Institut de Recherche 7 ont longtemps cherché la configuration la plus ergonomique des conteneurs et l’amélioration de leur efficacité, sans y parvenir. Finalement, il a été décidé de renforcer davantage les couches isolantes internes, comme cela avait été fait sur le KZS-2."
         }
       }
     }

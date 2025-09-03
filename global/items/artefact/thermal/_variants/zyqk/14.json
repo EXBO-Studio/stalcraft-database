@@ -259,14 +259,14 @@
               "fr": "Radiation"
             }
           },
-          "min": -0.768,
-          "max": -0.384,
+          "min": -1.6384,
+          "max": -1.39264,
           "formatted": {
             "value": {
-              "ru": "[-0,77; -0,38]",
-              "en": "[-0.77; -0.38]",
-              "es": "[-0,77; -0,38]",
-              "fr": "[-0,77; -0,38]"
+              "ru": "[-1,64; -1,39]",
+              "en": "[-1.64; -1.39]",
+              "es": "[-1,64; -1,39]",
+              "fr": "[-1,64; -1,39]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,14 +285,14 @@
               "fr": "Température"
             }
           },
-          "min": -0.768,
-          "max": -0.384,
+          "min": -0.24576,
+          "max": -0.208896,
           "formatted": {
             "value": {
-              "ru": "[-0,77; -0,38]",
-              "en": "[-0.77; -0.38]",
-              "es": "[-0,77; -0,38]",
-              "fr": "[-0,77; -0,38]"
+              "ru": "[-0,25; -0,21]",
+              "en": "[-0.25; -0.21]",
+              "es": "[-0,25; -0,21]",
+              "fr": "[-0,25; -0,21]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +311,14 @@
               "fr": "Émissions psys"
             }
           },
-          "min": -1.28,
-          "max": -0.64,
+          "min": -1.6384,
+          "max": -1.39264,
           "formatted": {
             "value": {
-              "ru": "[-1,28; -0,64]",
-              "en": "[-1.28; -0.64]",
-              "es": "[-1,28; -0,64]",
-              "fr": "[-1,28; -0,64]"
+              "ru": "[-1,64; -1,39]",
+              "en": "[-1.64; -1.39]",
+              "es": "[-1,64; -1,39]",
+              "fr": "[-1,64; -1,39]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -337,17 +337,69 @@
               "fr": "Givre"
             }
           },
-          "min": 0.25,
+          "min": 0.425,
           "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+0,25; +0,5]",
-              "en": "[+0.25; +0.5]",
-              "es": "[+0,25; +0,5]",
-              "fr": "[+0,25; +0,5]"
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.256,
+          "max": -0.21760002,
+          "formatted": {
+            "value": {
+              "ru": "[-0,26; -0,22]",
+              "en": "[-0.26; -0.22]",
+              "es": "[-0,26; -0,22]",
+              "fr": "[-0,26; -0,22]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns",
+              "es": "Reacción a las quemaduras",
+              "fr": "Réaction aux brûlures"
+            }
+          },
+          "min": 1.7408001,
+          "max": 2.048,
+          "formatted": {
+            "value": {
+              "ru": "[+1,74%; +2,05%]",
+              "en": "[+1.74%; +2.05%]",
+              "es": "[+1,74 %; +2,05 %]",
+              "fr": "[+1,74%; +2,05%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         }
       ]

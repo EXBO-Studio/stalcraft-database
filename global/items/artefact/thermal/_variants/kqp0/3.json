@@ -259,14 +259,40 @@
               "fr": "Régénération de la santé"
             }
           },
-          "min": 2.067,
-          "max": 3.074,
+          "min": 1.8019999,
+          "max": 2.12,
           "formatted": {
             "value": {
-              "ru": "[+2,07%; +3,07%]",
-              "en": "[+2.07%; +3.07%]",
-              "es": "[+2,07 %; +3,07 %]",
-              "fr": "[+2,07%; +3,07%]"
+              "ru": "[+1,8%; +2,12%]",
+              "en": "[+1.8%; +2.12%]",
+              "es": "[+1,8 %; +2,12 %]",
+              "fr": "[+1,8%; +2,12%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 9.911,
+          "max": 11.66,
+          "formatted": {
+            "value": {
+              "ru": "[+9,91%; +11,66%]",
+              "en": "[+9.91%; +11.66%]",
+              "es": "[+9,91 %; +11,66 %]",
+              "fr": "[+9,91%; +11,66%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,43 +311,17 @@
               "fr": "Température"
             }
           },
-          "min": 1.0,
-          "max": 2.0,
+          "min": 1.0625,
+          "max": 1.25,
           "formatted": {
             "value": {
-              "ru": "[+1; +2]",
-              "en": "[+1; +2]",
-              "es": "[+1; +2]",
-              "fr": "[+1; +2]"
+              "ru": "[+1,06; +1,25]",
+              "en": "[+1.06; +1.25]",
+              "es": "[+1,06; +1,25]",
+              "fr": "[+1,06; +1,25]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Кровотечение",
-              "en": "Bleeding",
-              "es": "Hemorragia",
-              "fr": "Saignement"
-            }
-          },
-          "min": -1.06,
-          "max": -0.2862,
-          "formatted": {
-            "value": {
-              "ru": "[-1,06; -0,29]",
-              "en": "[-1.06; -0.29]",
-              "es": "[-1,06; -0,29]",
-              "fr": "[-1,06; -0,29]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
           }
         }
       ]

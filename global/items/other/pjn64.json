@@ -1,0 +1,139 @@
+{
+  "id": "pjn64",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.arsenal_box.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик с ресурсами",
+      "en": "A crate with resources",
+      "es": "Caja con recursos",
+      "fr": "Caisse de ressources"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 15.0,
+          "formatted": {
+            "value": {
+              "ru": "15 кг",
+              "en": "15 kg",
+              "es": "15 kg",
+              "fr": "15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.arsenal_box_stealable.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Ящик с ресурсами для Арсенала. Номер ящика отправлен Арсеналу, и если сдать его пытается не тот, кто его собрал - количество полученной репутации будет уменьшено.",
+          "en": "A resource crate for Arsenal. The crate number has been sent to Arsenal, and if someone other than the person who collected it tries to turn it in, the amount of reputation gained will be reduced.",
+          "es": "Caja con recursos para Arsenal. El número de la caja se envía a Arsenal, y si no es la persona que la ha recogido quien intenta entregarla, la cantidad de reputación obtenida se reducirá.",
+          "fr": "Caisse de ressources pour l’Arsenal. Le numéro de la caisse a été envoyé à l’Arsenal, et si quelqu’un d’autre que celui qui l’a collectée tente de la remettre, la quantité de réputation obtenue sera réduite."
+        }
+      }
+    }
+  ]
+}

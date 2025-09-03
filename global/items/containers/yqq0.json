@@ -3,7 +3,7 @@
   "category": "containers",
   "name": {
     "type": "translation",
-    "key": "item.cont.kzs1d.name",
+    "key": "item.cont.kzs1u.name",
     "args": {},
     "lines": {
       "ru": "Контейнер «КЗС-1у»",
@@ -12,7 +12,7 @@
       "fr": "Conteneur KZS-1u"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "DEFAULT",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -39,13 +39,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.picklock",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie",
-              "es": "Novato",
-              "fr": "Débutant"
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur"
             }
           }
         },
@@ -67,10 +67,10 @@
             "key": "core.handbook.category.containers",
             "args": {},
             "lines": {
-              "ru": "Рюкзаки и Контейнеры",
-              "en": "Backpacks and Containers",
-              "es": "Mochilas y contenedores",
-              "fr": "Sacs à dos et conteneurs"
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
             }
           }
         },
@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 1.75,
+          "value": 1.5,
           "formatted": {
             "value": {
-              "ru": "1,75 кг",
-              "en": "1.75 kg",
-              "es": "1,75 kg",
-              "fr": "1,75 kg"
+              "ru": "1,5 кг",
+              "en": "1.5 kg",
+              "es": "1,5 kg",
+              "fr": "1,5 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -155,13 +155,13 @@
               "fr": "Protection interne"
             }
           },
-          "value": 55.0,
+          "value": 95.0,
           "formatted": {
             "value": {
-              "ru": "55%",
-              "en": "55%",
-              "es": "55 %",
-              "fr": "55%"
+              "ru": "95%",
+              "en": "95%",
+              "es": "95 %",
+              "fr": "95%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -180,13 +180,13 @@
               "fr": "Efficacité"
             }
           },
-          "value": 100.0,
+          "value": 180.0,
           "formatted": {
             "value": {
-              "ru": "100%",
-              "en": "100%",
-              "es": "100 %",
-              "fr": "100%"
+              "ru": "180%",
+              "en": "180%",
+              "es": "180 %",
+              "fr": "180%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -235,13 +235,13 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.cont.kzs1d.description",
+        "key": "item.cont.kzs1u.description",
         "args": {},
         "lines": {
-          "ru": "Укрепленный вариант контейнера. Имеет ячейку только для одного артефакта, но обладает хорошими экранирующими свойствами. Распространен и недорог.",
-          "en": "A reinforced container model. Contains only 1 artifact slot but has good shielding capabilities. Widespread and inexpensive.",
-          "es": "Un modelo de contenedor reforzado. Solo contiene 1 espacio de artefacto, pero tiene buenas capacidades protectoras. Generalizado y barato.",
-          "fr": "Un modèle de conteneur renforcé. Il ne peut contenir qu\u0027un artéfact, mais possède de bonnes propriétés de protection. Commun et peu coûteux."
+          "ru": "Укрепленный вариант контейнера «КЗС-1» с частично модернизированным компонентом, заимствованном из образца №3-ВА.",
+          "en": "Reinforced version of the KZS-1 container with a partially upgraded component borrowed from sample No. 3-EA.",
+          "es": "Una versión reforzada del contenedor KZS-1 con un componente parcialmente modernizado tomado de la muestra nº 3-IA.",
+          "fr": "Variante renforcée du conteneur KZS-1 avec un composant partiellement modifié emprunté à l’échantillon n°3-IA."
         }
       }
     }

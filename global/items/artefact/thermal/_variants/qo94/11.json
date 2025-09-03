@@ -250,6 +250,58 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 9.0219,
+          "max": 10.614,
+          "formatted": {
+            "value": {
+              "ru": "[+9,02; +10,61]",
+              "en": "[+9.02; +10.61]",
+              "es": "[+9,02; +10,61]",
+              "fr": "[+9,02; +10,61]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": -0.23424001,
+          "max": -0.19910401,
+          "formatted": {
+            "value": {
+              "ru": "[-0,23; -0,2]",
+              "en": "[-0.23; -0.2]",
+              "es": "[-0,23; -0,2]",
+              "fr": "[-0,23; -0,2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.frost_accumulation",
             "args": {},
             "lines": {
@@ -259,14 +311,14 @@
               "fr": "Givre"
             }
           },
-          "min": 0.25,
+          "min": 0.425,
           "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+0,25; +0,5]",
-              "en": "[+0.25; +0.5]",
-              "es": "[+0,25; +0,5]",
-              "fr": "[+0,25; +0,5]"
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -285,14 +337,14 @@
               "fr": "Réaction à l\u0027électricité"
             }
           },
-          "min": 2.8669999,
+          "min": 4.8739,
           "max": 5.7339997,
           "formatted": {
             "value": {
-              "ru": "[+2,87%; +5,73%]",
-              "en": "[+2.87%; +5.73%]",
-              "es": "[+2,87 %; +5,73 %]",
-              "fr": "[+2,87%; +5,73%]"
+              "ru": "[+4,87%; +5,73%]",
+              "en": "[+4.87%; +5.73%]",
+              "es": "[+4,87 %; +5,73 %]",
+              "fr": "[+4,87%; +5,73%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +363,14 @@
               "fr": "Réaction aux brûlures"
             }
           },
-          "min": 2.8669999,
+          "min": 4.8739,
           "max": 5.7339997,
           "formatted": {
             "value": {
-              "ru": "[+2,87%; +5,73%]",
-              "en": "[+2.87%; +5.73%]",
-              "es": "[+2,87 %; +5,73 %]",
-              "fr": "[+2,87%; +5,73%]"
+              "ru": "[+4,87%; +5,73%]",
+              "en": "[+4.87%; +5.73%]",
+              "es": "[+4,87 %; +5,73 %]",
+              "fr": "[+4,87%; +5,73%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -337,14 +389,14 @@
               "fr": "Réaction aux brûlures chimiques"
             }
           },
-          "min": 2.8669999,
+          "min": 4.8739,
           "max": 5.7339997,
           "formatted": {
             "value": {
-              "ru": "[+2,87%; +5,73%]",
-              "en": "[+2.87%; +5.73%]",
-              "es": "[+2,87 %; +5,73 %]",
-              "fr": "[+2,87%; +5,73%]"
+              "ru": "[+4,87%; +5,73%]",
+              "en": "[+4.87%; +5.73%]",
+              "es": "[+4,87 %; +5,73 %]",
+              "fr": "[+4,87%; +5,73%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

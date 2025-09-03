@@ -12,7 +12,7 @@
       "fr": "Peinture d\u0027armure rouge"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -24,6 +24,31 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -656,6 +681,20 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.arm.expedition.name",
+            "args": {},
+            "lines": {
+              "ru": "Костюм «Экспедиция»",
+              "en": "Expedition Suit",
+              "es": "Traje de expedición",
+              "fr": "Combinaison d\u0027Expédition"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.arm.zarya_balon.name",
             "args": {},
             "lines": {
@@ -677,20 +716,6 @@
               "en": "Bandit Suit",
               "es": "Traje de bandido",
               "fr": "Costume de Bandit"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.expedition.name",
-            "args": {},
-            "lines": {
-              "ru": "Костюм «Экспедиция»",
-              "en": "Expedition Suit",
-              "es": "Traje de expedición",
-              "fr": "Combinaison d\u0027Expédition"
             }
           }
         },

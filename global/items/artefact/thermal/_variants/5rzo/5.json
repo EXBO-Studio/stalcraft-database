@@ -259,14 +259,14 @@
               "fr": "Résistance aux balles"
             }
           },
-          "min": 5.005,
+          "min": 9.4435005,
           "max": 11.110001,
           "formatted": {
             "value": {
-              "ru": "[+5; +11,11]",
-              "en": "[+5; +11.11]",
-              "es": "[+5; +11,11]",
-              "fr": "[+5; +11,11]"
+              "ru": "[+9,44; +11,11]",
+              "en": "[+9.44; +11.11]",
+              "es": "[+9,44; +11,11]",
+              "fr": "[+9,44; +11,11]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,14 +285,40 @@
               "fr": "Protection contre les lacérations"
             }
           },
-          "min": 4.18,
-          "max": 8.36,
+          "min": 10.0045,
+          "max": 11.77,
           "formatted": {
             "value": {
-              "ru": "[+4,18; +8,36]",
-              "en": "[+4.18; +8.36]",
-              "es": "[+4,18; +8,36]",
-              "fr": "[+4,18; +8,36]"
+              "ru": "[+10; +11,77]",
+              "en": "[+10; +11.77]",
+              "es": "[+10; +11,77]",
+              "fr": "[+10; +11,77]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": -0.21120001,
+          "max": -0.17952001,
+          "formatted": {
+            "value": {
+              "ru": "[-0,21; -0,18]",
+              "en": "[-0.21; -0.18]",
+              "es": "[-0,21; -0,18]",
+              "fr": "[-0,21; -0,18]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +337,14 @@
               "fr": "Givre"
             }
           },
-          "min": 0.25,
+          "min": 0.425,
           "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+0,25; +0,5]",
-              "en": "[+0.25; +0.5]",
-              "es": "[+0,25; +0,5]",
-              "fr": "[+0,25; +0,5]"
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

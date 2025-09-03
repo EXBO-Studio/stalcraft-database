@@ -191,13 +191,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.antirad",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Вывод радиации",
+              "en": "Radiation Cleansing",
+              "es": "Limpieza radiológica",
+              "fr": "Nettoyage des radiations"
             }
           }
         },
@@ -239,13 +239,13 @@
               "fr": "Durée"
             }
           },
-          "value": 1800.0,
+          "value": 5.0,
           "formatted": {
             "value": {
-              "ru": "30 мин",
-              "en": "30 min",
-              "es": "30 min",
-              "fr": "30 min"
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -264,30 +264,16 @@
               "fr": "Poison"
             }
           },
-          "value": 200.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "200",
-              "en": "200",
-              "es": "200",
-              "fr": "200"
+              "ru": "100",
+              "en": "100",
+              "es": "100",
+              "fr": "100"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
-          }
-        },
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "stalker.tooltip.medicine.info.non_persistent",
-            "args": {},
-            "lines": {
-              "ru": "Эффект пропадает при смерти",
-              "en": "Effect wears off after death",
-              "es": "El efecto desaparece tras la muerte",
-              "fr": "L\u0027effet persiste après la mort"
-            }
           }
         }
       ]
@@ -312,13 +298,13 @@
               "fr": "Radiation"
             }
           },
-          "value": -1.5,
+          "value": -5.0,
           "formatted": {
             "value": {
-              "ru": "-1,5",
-              "en": "-1.5",
-              "es": "-1,5",
-              "fr": "-1,5"
+              "ru": "-5",
+              "en": "-5",
+              "es": "-5",
+              "fr": "-5"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

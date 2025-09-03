@@ -188,13 +188,13 @@
               "fr": "Durée"
             }
           },
-          "value": 135.0,
+          "value": 270.0,
           "formatted": {
             "value": {
-              "ru": "2 мин 15 с",
-              "en": "2 min 15 sec",
-              "es": "2 min 15 s",
-              "fr": "2 min 15 s"
+              "ru": "4 мин 30 с",
+              "en": "4 min 30 sec",
+              "es": "4 min 30 s",
+              "fr": "4 min 30 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -213,13 +213,13 @@
               "fr": "Poison"
             }
           },
-          "value": 135.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "135",
-              "en": "135",
-              "es": "135",
-              "fr": "135"
+              "ru": "40",
+              "en": "40",
+              "es": "40",
+              "fr": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -261,13 +261,13 @@
               "fr": "Vitalité"
             }
           },
-          "value": 17.5,
+          "value": 8.4,
           "formatted": {
             "value": {
-              "ru": "17,5%",
-              "en": "17.5%",
-              "es": "17,5 %",
-              "fr": "17,5%"
+              "ru": "8,4%",
+              "en": "8.4%",
+              "es": "8,4 %",
+              "fr": "8,4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -277,25 +277,50 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Эффективность лечения",
-              "en": "Healing effectiveness",
-              "es": "Eficacia de curación",
-              "fr": "Efficacité des soins"
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
             }
           },
-          "value": -25.0,
+          "value": 4.9,
           "formatted": {
             "value": {
-              "ru": "-25%",
-              "en": "-25%",
-              "es": "-25 %",
-              "fr": "-25%"
+              "ru": "4,9%",
+              "en": "4.9%",
+              "es": "4,9 %",
+              "fr": "4,9%"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "value": 9.9,
+          "formatted": {
+            "value": {
+              "ru": "9,9",
+              "en": "9.9",
+              "es": "9,9",
+              "fr": "9,9"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -311,13 +336,13 @@
               "fr": "Émissions psys"
             }
           },
-          "value": 0.25,
+          "value": 0.01,
           "formatted": {
             "value": {
-              "ru": "0,25",
-              "en": "0.25",
-              "es": "0,25",
-              "fr": "0,25"
+              "ru": "0,01",
+              "en": "0.01",
+              "es": "0,01",
+              "fr": "0,01"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

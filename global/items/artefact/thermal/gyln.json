@@ -259,14 +259,14 @@
               "fr": "Efficacité des soins"
             }
           },
-          "min": 2.9,
+          "min": 4.9300003,
           "max": 5.8,
           "formatted": {
             "value": {
-              "ru": "[+2,9%; +5,8%]",
-              "en": "[+2.9%; +5.8%]",
-              "es": "[+2,9 %; +5,8 %]",
-              "fr": "[+2,9%; +5,8%]"
+              "ru": "[+4,93%; +5,8%]",
+              "en": "[+4.93%; +5.8%]",
+              "es": "[+4,93 %; +5,8 %]",
+              "fr": "[+4,93%; +5,8%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,14 +285,40 @@
               "fr": "Protection contre les lacérations"
             }
           },
-          "min": 4.65,
-          "max": 9.3,
+          "min": 11.05,
+          "max": 13.0,
           "formatted": {
             "value": {
-              "ru": "[+4,65; +9,3]",
-              "en": "[+4.65; +9.3]",
-              "es": "[+4,65; +9,3]",
-              "fr": "[+4,65; +9,3]"
+              "ru": "[+11,05; +13]",
+              "en": "[+11.05; +13]",
+              "es": "[+11,05; +13]",
+              "fr": "[+11,05; +13]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": -0.192,
+          "max": -0.1632,
+          "formatted": {
+            "value": {
+              "ru": "[-0,19; -0,16]",
+              "en": "[-0.19; -0.16]",
+              "es": "[-0,19; -0,16]",
+              "fr": "[-0,19; -0,16]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +337,14 @@
               "fr": "Givre"
             }
           },
-          "min": 0.25,
+          "min": 0.425,
           "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+0,25; +0,5]",
-              "en": "[+0.25; +0.5]",
-              "es": "[+0,25; +0,5]",
-              "fr": "[+0,25; +0,5]"
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
