@@ -259,14 +259,14 @@
               "fr": "Vitesse de déplacement"
             }
           },
-          "min": 0.915,
-          "max": 1.83,
+          "min": 2.2814,
+          "max": 2.684,
           "formatted": {
             "value": {
-              "ru": "[+0,92%; +1,83%]",
-              "en": "[+0.92%; +1.83%]",
-              "es": "[+0,92 %; +1,83 %]",
-              "fr": "[+0,92%; +1,83%]"
+              "ru": "[+2,28%; +2,68%]",
+              "en": "[+2.28%; +2.68%]",
+              "es": "[+2,28 %; +2,68 %]",
+              "fr": "[+2,28%; +2,68%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -276,23 +276,49 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance"
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
             }
           },
-          "min": 2.806,
-          "max": 5.612,
+          "min": 2.3851001,
+          "max": 2.806,
           "formatted": {
             "value": {
-              "ru": "[+2,81%; +5,61%]",
-              "en": "[+2.81%; +5.61%]",
-              "es": "[+2,81 %; +5,61 %]",
-              "fr": "[+2,81%; +5,61%]"
+              "ru": "[+2,39%; +2,81%]",
+              "en": "[+2.39%; +2.81%]",
+              "es": "[+2,39 %; +2,81 %]",
+              "fr": "[+2,39%; +2,81%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad",
+              "fr": "Stabilité"
+            }
+          },
+          "min": 2.4888003,
+          "max": 2.9280002,
+          "formatted": {
+            "value": {
+              "ru": "[+2,49%; +2,93%]",
+              "en": "[+2.49%; +2.93%]",
+              "es": "[+2,49 %; +2,93 %]",
+              "fr": "[+2,49%; +2,93%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +337,14 @@
               "fr": "Infection biologique"
             }
           },
-          "min": 1.25,
+          "min": 2.125,
           "max": 2.5,
           "formatted": {
             "value": {
-              "ru": "[+1,25; +2,5]",
-              "en": "[+1.25; +2.5]",
-              "es": "[+1,25; +2,5]",
-              "fr": "[+1,25; +2,5]"
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"

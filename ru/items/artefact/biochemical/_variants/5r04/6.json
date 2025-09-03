@@ -250,23 +250,49 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration",
-              "es": "Regeneración de salud",
-              "fr": "Régénération de la santé"
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
             }
           },
-          "min": 0.952,
-          "max": 1.904,
+          "min": 7.901601,
+          "max": 9.2960005,
           "formatted": {
             "value": {
-              "ru": "[+0,95%; +1,9%]",
-              "en": "[+0.95%; +1.9%]",
-              "es": "[+0,95 %; +1,9 %]",
-              "fr": "[+0,95%; +1,9%]"
+              "ru": "[+7,9%; +9,3%]",
+              "en": "[+7.9%; +9.3%]",
+              "es": "[+7,9 %; +9,3 %]",
+              "fr": "[+7,9%; +9,3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "min": 5.4264,
+          "max": 6.384,
+          "formatted": {
+            "value": {
+              "ru": "[+5,43%; +6,38%]",
+              "en": "[+5.43%; +6.38%]",
+              "es": "[+5,43 %; +6,38 %]",
+              "fr": "[+5,43%; +6,38%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,43 +311,17 @@
               "fr": "Infection biologique"
             }
           },
-          "min": 0.25,
-          "max": 0.5,
+          "min": 1.0625,
+          "max": 1.25,
           "formatted": {
             "value": {
-              "ru": "[+0,25; +0,5]",
-              "en": "[+0.25; +0.5]",
-              "es": "[+0,25; +0,5]",
-              "fr": "[+0,25; +0,5]"
+              "ru": "[+1,06; +1,25]",
+              "en": "[+1.06; +1.25]",
+              "es": "[+1,06; +1,25]",
+              "fr": "[+1,06; +1,25]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Кровотечение",
-              "en": "Bleeding",
-              "es": "Hemorragia",
-              "fr": "Saignement"
-            }
-          },
-          "min": -0.67200005,
-          "max": -0.1792,
-          "formatted": {
-            "value": {
-              "ru": "[-0,67; -0,18]",
-              "en": "[-0.67; -0.18]",
-              "es": "[-0,67; -0,18]",
-              "fr": "[-0,67; -0,18]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
           }
         }
       ]

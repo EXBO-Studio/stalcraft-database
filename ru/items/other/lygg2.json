@@ -12,7 +12,7 @@
       "fr": "Camouflage Hexcam Brume"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -24,6 +24,31 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {

@@ -250,49 +250,23 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance"
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
             }
           },
-          "min": 1.3519999,
-          "max": 2.7039998,
+          "min": 1.326,
+          "max": 1.56,
           "formatted": {
             "value": {
-              "ru": "[+1,35%; +2,7%]",
-              "en": "[+1.35%; +2.7%]",
-              "es": "[+1,35 %; +2,7 %]",
-              "fr": "[+1,35%; +2,7%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление радиации",
-              "en": "Radiation resistance",
-              "es": "Resistencia a la radiación",
-              "fr": "Résistance aux radiations"
-            }
-          },
-          "min": 10.815999,
-          "max": 21.631998,
-          "formatted": {
-            "value": {
-              "ru": "[+10,82%; +21,63%]",
-              "en": "[+10.82%; +21.63%]",
-              "es": "[+10,82 %; +21,63 %]",
-              "fr": "[+10,82%; +21,63%]"
+              "ru": "[+1,33%; +1,56%]",
+              "en": "[+1.33%; +1.56%]",
+              "es": "[+1,33 %; +1,56 %]",
+              "fr": "[+1,33%; +1,56%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +285,14 @@
               "fr": "Radiation"
             }
           },
-          "min": -2.8079998,
-          "max": -1.4039999,
+          "min": -2.2464,
+          "max": -1.9094402,
           "formatted": {
             "value": {
-              "ru": "[-2,81; -1,4]",
-              "en": "[-2.81; -1.4]",
-              "es": "[-2,81; -1,4]",
-              "fr": "[-2,81; -1,4]"
+              "ru": "[-2,25; -1,91]",
+              "en": "[-2.25; -1.91]",
+              "es": "[-2,25; -1,91]",
+              "fr": "[-2,25; -1,91]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -337,14 +311,40 @@
               "fr": "Température"
             }
           },
-          "min": -1.6639999,
-          "max": -0.83199996,
+          "min": -1.3311999,
+          "max": -1.1315199,
           "formatted": {
             "value": {
-              "ru": "[-1,66; -0,83]",
-              "en": "[-1.66; -0.83]",
-              "es": "[-1,66; -0,83]",
-              "fr": "[-1,66; -0,83]"
+              "ru": "[-1,33; -1,13]",
+              "en": "[-1.33; -1.13]",
+              "es": "[-1,33; -1,13]",
+              "fr": "[-1,33; -1,13]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_chemical_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на хим. ожог",
+              "en": "Reaction to chemical burns",
+              "es": "Reacción a quemaduras químicas",
+              "fr": "Réaction aux brûlures chimiques"
+            }
+          },
+          "min": 3.0939999,
+          "max": 3.6399999,
+          "formatted": {
+            "value": {
+              "ru": "[+3,09%; +3,64%]",
+              "en": "[+3.09%; +3.64%]",
+              "es": "[+3,09 %; +3,64 %]",
+              "fr": "[+3,09%; +3,64%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

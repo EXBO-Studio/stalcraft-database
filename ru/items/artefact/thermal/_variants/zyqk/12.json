@@ -259,14 +259,14 @@
               "fr": "Radiation"
             }
           },
-          "min": -0.744,
-          "max": -0.372,
+          "min": -1.5871999,
+          "max": -1.34912,
           "formatted": {
             "value": {
-              "ru": "[-0,74; -0,37]",
-              "en": "[-0.74; -0.37]",
-              "es": "[-0,74; -0,37]",
-              "fr": "[-0,74; -0,37]"
+              "ru": "[-1,59; -1,35]",
+              "en": "[-1.59; -1.35]",
+              "es": "[-1,59; -1,35]",
+              "fr": "[-1,59; -1,35]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,14 +285,14 @@
               "fr": "Température"
             }
           },
-          "min": -0.744,
-          "max": -0.372,
+          "min": -0.23808001,
+          "max": -0.20236802,
           "formatted": {
             "value": {
-              "ru": "[-0,74; -0,37]",
-              "en": "[-0.74; -0.37]",
-              "es": "[-0,74; -0,37]",
-              "fr": "[-0,74; -0,37]"
+              "ru": "[-0,24; -0,2]",
+              "en": "[-0.24; -0.2]",
+              "es": "[-0,24; -0,2]",
+              "fr": "[-0,24; -0,2]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +311,14 @@
               "fr": "Émissions psys"
             }
           },
-          "min": -1.24,
-          "max": -0.62,
+          "min": -1.5871999,
+          "max": -1.34912,
           "formatted": {
             "value": {
-              "ru": "[-1,24; -0,62]",
-              "en": "[-1.24; -0.62]",
-              "es": "[-1,24; -0,62]",
-              "fr": "[-1,24; -0,62]"
+              "ru": "[-1,59; -1,35]",
+              "en": "[-1.59; -1.35]",
+              "es": "[-1,59; -1,35]",
+              "fr": "[-1,59; -1,35]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -337,17 +337,69 @@
               "fr": "Givre"
             }
           },
-          "min": 0.25,
+          "min": 0.425,
           "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+0,25; +0,5]",
-              "en": "[+0.25; +0.5]",
-              "es": "[+0,25; +0,5]",
-              "fr": "[+0,25; +0,5]"
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.24800001,
+          "max": -0.21080002,
+          "formatted": {
+            "value": {
+              "ru": "[-0,25; -0,21]",
+              "en": "[-0.25; -0.21]",
+              "es": "[-0,25; -0,21]",
+              "fr": "[-0,25; -0,21]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns",
+              "es": "Reacción a las quemaduras",
+              "fr": "Réaction aux brûlures"
+            }
+          },
+          "min": 1.6864002,
+          "max": 1.9840001,
+          "formatted": {
+            "value": {
+              "ru": "[+1,69%; +1,98%]",
+              "en": "[+1.69%; +1.98%]",
+              "es": "[+1,69 %; +1,98 %]",
+              "fr": "[+1,69%; +1,98%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         }
       ]

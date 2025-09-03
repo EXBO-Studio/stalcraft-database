@@ -259,14 +259,14 @@
               "fr": "Poids maximum supporté"
             }
           },
-          "min": 3.0679998,
-          "max": 6.1359997,
+          "min": 4.4132,
+          "max": 5.192,
           "formatted": {
             "value": {
-              "ru": "[+3,07; +6,14]",
-              "en": "[+3.07; +6.14]",
-              "es": "[+3,07; +6,14]",
-              "fr": "[+3,07; +6,14]"
+              "ru": "[+4,41; +5,19]",
+              "en": "[+4.41; +5.19]",
+              "es": "[+4,41; +5,19]",
+              "fr": "[+4,41; +5,19]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -276,26 +276,26 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.thermal_dmg_factor",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
-              "ru": "Сопротивление температуре",
-              "en": "Thermal resistance",
-              "es": "Resistencia térmica",
-              "fr": "Résistance thermique"
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation"
             }
           },
-          "min": 8.200999,
-          "max": 16.401999,
+          "min": 0.425,
+          "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+8,2%; +16,4%]",
-              "en": "[+8.2%; +16.4%]",
-              "es": "[+8,2 %; +16,4 %]",
-              "fr": "[+8,2%; +16,4%]"
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
             },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {
@@ -311,14 +311,40 @@
               "fr": "Température"
             }
           },
-          "min": -1.77,
-          "max": -0.885,
+          "min": -2.5488,
+          "max": -2.16648,
           "formatted": {
             "value": {
-              "ru": "[-1,77; -0,88]",
-              "en": "[-1.77; -0.88]",
-              "es": "[-1,77; -0,88]",
-              "fr": "[-1,77; -0,88]"
+              "ru": "[-2,55; -2,17]",
+              "en": "[-2.55; -2.17]",
+              "es": "[-2,55; -2,17]",
+              "fr": "[-2,55; -2,17]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns",
+              "es": "Reacción a las quemaduras",
+              "fr": "Réaction aux brûlures"
+            }
+          },
+          "min": 1.6048,
+          "max": 1.8879999,
+          "formatted": {
+            "value": {
+              "ru": "[+1,6%; +1,89%]",
+              "en": "[+1.6%; +1.89%]",
+              "es": "[+1,6 %; +1,89 %]",
+              "fr": "[+1,6%; +1,89%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

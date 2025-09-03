@@ -1,0 +1,249 @@
+{
+  "id": "rgoz",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.barrel.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Бочонок»",
+      "en": "Barrel Container",
+      "es": "Contenedor Barrica",
+      "fr": "Conteneur Tonneau"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 12.7,
+          "formatted": {
+            "value": {
+              "ru": "12,7 кг",
+              "en": "12.7 kg",
+              "es": "12,7 kg",
+              "fr": "12,7 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.bulky",
+        "args": {},
+        "lines": {
+          "ru": "Громоздкий контейнер",
+          "en": "Bulky Container",
+          "es": "Contenedor voluminoso",
+          "fr": "Conteneur encombrant"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 60.000004,
+          "formatted": {
+            "value": {
+              "ru": "60%",
+              "en": "60%",
+              "es": "60 %",
+              "fr": "60%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 92.5,
+          "formatted": {
+            "value": {
+              "ru": "92,5%",
+              "en": "92.5%",
+              "es": "92,5 %",
+              "fr": "92,5%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 7.0,
+          "formatted": {
+            "value": {
+              "ru": "0/7",
+              "en": "0/7",
+              "es": "0/7",
+              "fr": "0/7"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.barrel.description",
+        "args": {},
+        "lines": {
+          "ru": "Новейший контейнер из серии «КЗР». За свой внешний вид получила прозвище «Бочонок» среди сталкеров.\\nВ отличие от других контейнеров этой серии, обладает одной из передовых систем для повышения эффективности, которая была использована в том числе при изготовлении и разработке «Улья».",
+          "en": "The newest container from the KZR series. It earned the nickname Barrel among stalkers due to its appearance.\\nUnlike other containers in this series, it features one of the advanced systems for enhancing effectiveness, which was also used in the production and development of Hive.",
+          "es": "El contenedor más nuevo de la serie de KZR. Recibe el apodo de Barrica entre los acechadores por su aspecto.\\nA diferencia de otros contenedores de esta serie, dispone de uno de los sistemas más avanzados para aumentar la eficacia, que se utilizó también en la fabricación y el desarrollo de Colmena.",
+          "fr": "Le tout nouveau conteneur de la série « KZR ». En raison de son apparence extérieure, il a été surnommé Tonneau par les Stalkers.\\nContrairement aux autres conteneurs de cette série, il est doté de l\u0027un des systèmes les plus avancés pour améliorer l\u0027efficacité, système également utilisé dans la fabrication et le développement de la Ruche."
+        }
+      }
+    }
+  ]
+}

@@ -259,14 +259,14 @@
               "fr": "Poids maximum supporté"
             }
           },
-          "min": 4.992,
-          "max": 9.984,
+          "min": 10.118401,
+          "max": 11.904,
           "formatted": {
             "value": {
-              "ru": "[+4,99; +9,98]",
-              "en": "[+4.99; +9.98]",
-              "es": "[+4,99; +9,98]",
-              "fr": "[+4,99; +9,98]"
+              "ru": "[+10,12; +11,9]",
+              "en": "[+10.12; +11.9]",
+              "es": "[+10,12; +11,9]",
+              "fr": "[+10,12; +11,9]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,14 +285,66 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "min": 1.9839998,
-          "max": 3.9679997,
+          "min": 2.3936,
+          "max": 2.816,
           "formatted": {
             "value": {
-              "ru": "[+1,98%; +3,97%]",
-              "en": "[+1.98%; +3.97%]",
-              "es": "[+1,98 %; +3,97 %]",
-              "fr": "[+1,98%; +3,97%]"
+              "ru": "[+2,39%; +2,82%]",
+              "en": "[+2.39%; +2.82%]",
+              "es": "[+2,39 %; +2,82 %]",
+              "fr": "[+2,39%; +2,82%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation"
+            }
+          },
+          "min": -1.6384,
+          "max": -1.39264,
+          "formatted": {
+            "value": {
+              "ru": "[-1,64; -1,39]",
+              "en": "[-1.64; -1.39]",
+              "es": "[-1,64; -1,39]",
+              "fr": "[-1,64; -1,39]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": -1.6384,
+          "max": -1.39264,
+          "formatted": {
+            "value": {
+              "ru": "[-1,64; -1,39]",
+              "en": "[-1.64; -1.39]",
+              "es": "[-1,64; -1,39]",
+              "fr": "[-1,64; -1,39]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +363,14 @@
               "fr": "Infection biologique"
             }
           },
-          "min": -2.048,
-          "max": -1.024,
+          "min": -1.6384,
+          "max": -1.39264,
           "formatted": {
             "value": {
-              "ru": "[-2,05; -1,02]",
-              "en": "[-2.05; -1.02]",
-              "es": "[-2,05; -1,02]",
-              "fr": "[-2,05; -1,02]"
+              "ru": "[-1,64; -1,39]",
+              "en": "[-1.64; -1.39]",
+              "es": "[-1,64; -1,39]",
+              "fr": "[-1,64; -1,39]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

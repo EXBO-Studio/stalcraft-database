@@ -1,0 +1,300 @@
+{
+  "id": "2v9v",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.kolotun.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Колотун»",
+      "en": "Freezer Container",
+      "es": "Contenedor Congelador",
+      "fr": "Conteneur de Congélation"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 7.9,
+          "formatted": {
+            "value": {
+              "ru": "7,9 кг",
+              "en": "7.9 kg",
+              "es": "7,9 kg",
+              "fr": "7,9 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.spacious",
+        "args": {},
+        "lines": {
+          "ru": "Вместительный контейнер",
+          "en": "Capacious Container",
+          "es": "Contenedor espacioso",
+          "fr": "Conteneur spacieux"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75%",
+              "en": "75%",
+              "es": "75 %",
+              "fr": "75%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "0/5",
+              "en": "0/5",
+              "es": "0/5",
+              "fr": "0/5"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "value": -1.875,
+          "formatted": {
+            "value": {
+              "ru": "-1,88",
+              "en": "-1.88",
+              "es": "-1,88",
+              "fr": "-1,88"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5",
+              "en": "0.5",
+              "es": "0,5",
+              "fr": "0,5"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.kolotun.description",
+        "args": {},
+        "lines": {
+          "ru": "Основываясь на базовом функционале «Холодильника», «Колотун» для повышения эффективности работы системы использует особый охлаждающий агент, выделяющий токсичные газы. К сожалению, из-за кустарных условий производства распространены случаи его утечки из системы.",
+          "en": "Taking on features of the Fridge container, the Freezer uses a special cooling agent that emits toxic gases for improved efficiency. Unfortunately, these jury-rigged systems are prone to leakages.",
+          "es": "Basándose en la funcionalidad básica de Nevera, Congelador utiliza un agente refrigerante especial que emite gases tóxicos para aumentar la eficiencia del sistema. Lamentablemente, debido a las condiciones artesanales de producción, son frecuentes los casos de fugas del sistema.",
+          "fr": "En se basant sur les fonctionnalités de base du Frigo, le Congélateur utilise, pour améliorer l’efficacité du système, un agent réfrigérant spécial qui dégage des gaz toxiques. Malheureusement, en raison des conditions artisanales de production, des fuites de ce système sont fréquentes."
+        }
+      }
+    }
+  ]
+}

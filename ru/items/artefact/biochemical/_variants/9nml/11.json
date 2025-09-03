@@ -259,14 +259,14 @@
               "fr": "Endurance"
             }
           },
-          "min": 4.7580004,
-          "max": 9.516001,
+          "min": 9.644101,
+          "max": 11.346001,
           "formatted": {
             "value": {
-              "ru": "[+4,76%; +9,52%]",
-              "en": "[+4.76%; +9.52%]",
-              "es": "[+4,76 %; +9,52 %]",
-              "fr": "[+4,76%; +9,52%]"
+              "ru": "[+9,64%; +11,35%]",
+              "en": "[+9.64%; +11.35%]",
+              "es": "[+9,64 %; +11,35 %]",
+              "fr": "[+9,64%; +11,35%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -276,23 +276,23 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Сопротивление радиации",
-              "en": "Radiation resistance",
-              "es": "Resistencia a la radiación",
-              "fr": "Résistance aux radiations"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
             }
           },
-          "min": 8.479,
-          "max": 16.958,
+          "min": 0.72590005,
+          "max": 0.85400003,
           "formatted": {
             "value": {
-              "ru": "[+8,48%; +16,96%]",
-              "en": "[+8.48%; +16.96%]",
-              "es": "[+8,48 %; +16,96 %]",
-              "fr": "[+8,48%; +16,96%]"
+              "ru": "[+0,73%; +0,85%]",
+              "en": "[+0.73%; +0.85%]",
+              "es": "[+0,73 %; +0,85 %]",
+              "fr": "[+0,73%; +0,85%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,17 +311,43 @@
               "fr": "Radiation"
             }
           },
-          "min": -1.83,
-          "max": -0.915,
+          "min": -2.6352003,
+          "max": -2.2399204,
           "formatted": {
             "value": {
-              "ru": "[-1,83; -0,92]",
-              "en": "[-1.83; -0.92]",
-              "es": "[-1,83; -0,92]",
-              "fr": "[-1,83; -0,92]"
+              "ru": "[-2,64; -2,24]",
+              "en": "[-2.64; -2.24]",
+              "es": "[-2,64; -2,24]",
+              "fr": "[-2,64; -2,24]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         }
       ]

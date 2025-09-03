@@ -3,16 +3,16 @@
   "category": "containers",
   "name": {
     "type": "translation",
-    "key": "item.cont.kzs5.name",
+    "key": "item.cont.apiary.name",
     "args": {},
     "lines": {
-      "ru": "«КЗС-5»",
-      "en": "KZS-5",
-      "es": "KZS-5",
-      "fr": "KZS-5"
+      "ru": "Контейнер «Пасека»",
+      "en": "Apiary Container",
+      "es": "Contenedor Apiario",
+      "fr": "Conteneur pour Ruchers"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_LEGEND",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -39,13 +39,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.legend",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker",
-              "es": "Acechador",
-              "fr": "Stalker"
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende"
             }
           }
         },
@@ -67,10 +67,10 @@
             "key": "core.handbook.category.containers",
             "args": {},
             "lines": {
-              "ru": "Рюкзаки и Контейнеры",
-              "en": "Backpacks and Containers",
-              "es": "Mochilas y contenedores",
-              "fr": "Sacs à dos et conteneurs"
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
             }
           }
         },
@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 9.0,
+          "value": 8.0,
           "formatted": {
             "value": {
-              "ru": "9 кг",
-              "en": "9 kg",
-              "es": "9 kg",
-              "fr": "9 kg"
+              "ru": "8 кг",
+              "en": "8 kg",
+              "es": "8 kg",
+              "fr": "8 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -125,13 +125,13 @@
       },
       "text": {
         "type": "translation",
-        "key": "general.container.class.bulky",
+        "key": "general.container.class.standard",
         "args": {},
         "lines": {
-          "ru": "Громоздкий контейнер",
-          "en": "Bulky Container",
-          "es": "Contenedor voluminoso",
-          "fr": "Conteneur encombrant"
+          "ru": "Стандартный контейнер",
+          "en": "Standard Container",
+          "es": "Contenedor estándar",
+          "fr": "Conteneur standard"
         }
       }
     },
@@ -155,13 +155,13 @@
               "fr": "Protection interne"
             }
           },
-          "value": 50.0,
+          "value": 89.5,
           "formatted": {
             "value": {
-              "ru": "50%",
-              "en": "50%",
-              "es": "50 %",
-              "fr": "50%"
+              "ru": "89,5%",
+              "en": "89.5%",
+              "es": "89,5 %",
+              "fr": "89,5%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -180,13 +180,13 @@
               "fr": "Efficacité"
             }
           },
-          "value": 100.0,
+          "value": 120.00001,
           "formatted": {
             "value": {
-              "ru": "100%",
-              "en": "100%",
-              "es": "100 %",
-              "fr": "100%"
+              "ru": "120%",
+              "en": "120%",
+              "es": "120 %",
+              "fr": "120%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -235,13 +235,13 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.cont.kzs5.description",
+        "key": "item.cont.apiary.description",
         "args": {},
         "lines": {
-          "ru": "Набор из пяти контейнеров «КЗС-1». Позволяет переносить пять артефактов и, очевидно, обладает хорошими экранирующими свойствами.",
-          "en": "A set of five KZS-1 containers. Lets you carry five artifacts and, obviously, has good shielding capabilities.",
-          "es": "Un juego de cinco contenedores KZS-1. Te permite llevar cinco artefactos y, obviamente, tiene buenas capacidades protectoras.",
-          "fr": "Un ensemble de cinq conteneurs KZS-1. Vous permet de transporter cinq artéfacts et possède évidemment de bonnes capacités de blindage."
+          "ru": "Один из шедевров НИИ-7, разработанный в качестве продолжения серии «КЗК», сохранивший идею совмещения компактности и объема.\\nКак и «Берлога-6У», «КЗК-4» был снабжен модифицированным вариантом компонента на основе образца №3-ВА, что улучшило эффективность контейнера.\\nСталкеры, не долго думая, решили дать разработке института название, соответствующее прочим контейнерам серии.",
+          "en": "One of Research Institute 7\u0027s masterpieces, developed as a continuation of the KZK series, retaining the idea of combining compactness and volume.\\nLike the Berloga-6U, KZK-4 was equipped with a modified component based on sample No. 3-EA, which improved the container\u0027s efficiency.\\nStalkers, not thinking long, decided to give the institute\u0027s development a name consistent with other containers in the series.",
+          "es": "Una de las obras maestras del Instituto de Investigación 7, desarrollada como continuación de la serie de KZK, conservando la idea de combinar compacidad y volumen.\\nAl igual que el Berloga-6u, KZK-4 estaba equipado con una versión modificada de un componente basado en la muestra nº 3-IA, que mejoraba la eficiencia del contenedor.\\nAcechadores, sin pensarlo lo suficiente, decidió dar al desarrollo del Instituto un nombre correspondiente a los demás contenedores de la serie.",
+          "fr": "L\u0027un des chefs-d\u0027œuvre de l\u0027Institut de Recherche 7, développé comme une continuation de la série « KZK », conservant l\u0027idée d\u0027allier compacité et capacité.\\nComme le Berloga-6U, le « KZK-4 » a été équipé d\u0027une version modifiée du composant basé sur l\u0027échantillon n°3-IA, ce qui a amélioré l\u0027efficacité du conteneur.\\nSans trop réfléchir, les Stalkers ont décidé de donner à ce développement un nom correspondant aux autres conteneurs de la série."
         }
       }
     }

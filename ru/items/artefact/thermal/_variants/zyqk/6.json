@@ -259,14 +259,14 @@
               "fr": "Radiation"
             }
           },
-          "min": -0.67200005,
-          "max": -0.33600003,
+          "min": -1.4336,
+          "max": -1.21856,
           "formatted": {
             "value": {
-              "ru": "[-0,67; -0,34]",
-              "en": "[-0.67; -0.34]",
-              "es": "[-0,67; -0,34]",
-              "fr": "[-0,67; -0,34]"
+              "ru": "[-1,43; -1,22]",
+              "en": "[-1.43; -1.22]",
+              "es": "[-1,43; -1,22]",
+              "fr": "[-1,43; -1,22]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,14 +285,14 @@
               "fr": "Température"
             }
           },
-          "min": -0.67200005,
-          "max": -0.33600003,
+          "min": -0.21504,
+          "max": -0.182784,
           "formatted": {
             "value": {
-              "ru": "[-0,67; -0,34]",
-              "en": "[-0.67; -0.34]",
-              "es": "[-0,67; -0,34]",
-              "fr": "[-0,67; -0,34]"
+              "ru": "[-0,22; -0,18]",
+              "en": "[-0.22; -0.18]",
+              "es": "[-0,22; -0,18]",
+              "fr": "[-0,22; -0,18]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +311,14 @@
               "fr": "Émissions psys"
             }
           },
-          "min": -1.12,
-          "max": -0.56,
+          "min": -1.4336,
+          "max": -1.21856,
           "formatted": {
             "value": {
-              "ru": "[-1,12; -0,56]",
-              "en": "[-1.12; -0.56]",
-              "es": "[-1,12; -0,56]",
-              "fr": "[-1,12; -0,56]"
+              "ru": "[-1,43; -1,22]",
+              "en": "[-1.43; -1.22]",
+              "es": "[-1,43; -1,22]",
+              "fr": "[-1,43; -1,22]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -337,17 +337,69 @@
               "fr": "Givre"
             }
           },
-          "min": 0.25,
+          "min": 0.425,
           "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+0,25; +0,5]",
-              "en": "[+0.25; +0.5]",
-              "es": "[+0,25; +0,5]",
-              "fr": "[+0,25; +0,5]"
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.224,
+          "max": -0.1904,
+          "formatted": {
+            "value": {
+              "ru": "[-0,22; -0,19]",
+              "en": "[-0.22; -0.19]",
+              "es": "[-0,22; -0,19]",
+              "fr": "[-0,22; -0,19]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns",
+              "es": "Reacción a las quemaduras",
+              "fr": "Réaction aux brûlures"
+            }
+          },
+          "min": 1.5232,
+          "max": 1.792,
+          "formatted": {
+            "value": {
+              "ru": "[+1,52%; +1,79%]",
+              "en": "[+1.52%; +1.79%]",
+              "es": "[+1,52 %; +1,79 %]",
+              "fr": "[+1,52%; +1,79%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         }
       ]

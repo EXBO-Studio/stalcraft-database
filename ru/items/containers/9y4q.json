@@ -1,0 +1,249 @@
+{
+  "id": "9y4q",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.cocoon.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Кокон»",
+      "en": "Cocoon Container",
+      "es": "Contenedor Capullo",
+      "fr": "Conteneur Cocon"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 4.5,
+          "formatted": {
+            "value": {
+              "ru": "4,5 кг",
+              "en": "4.5 kg",
+              "es": "4,5 kg",
+              "fr": "4,5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.standard",
+        "args": {},
+        "lines": {
+          "ru": "Стандартный контейнер",
+          "en": "Standard Container",
+          "es": "Contenedor estándar",
+          "fr": "Conteneur standard"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 89.5,
+          "formatted": {
+            "value": {
+              "ru": "89,5%",
+              "en": "89.5%",
+              "es": "89,5 %",
+              "fr": "89,5%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "0/3",
+              "en": "0/3",
+              "es": "0/3",
+              "fr": "0/3"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.cocoon.description",
+        "args": {},
+        "lines": {
+          "ru": "После начала работ над сериями «КЗС» и «КЗР» возникла идея создания более компактной конструкции для защитного контейнера, что позволило бы повысить комфортность использования снаряжения.\\n«КЗК-1», получивший среди сталкеров наименование «Кокон», стал первым успешным прототипом в серии, на основе которого разрабатывались дальнейшие контейнеры типа «КЗК».",
+          "en": "After starting work on the KZS and KZR series, the idea arose to create a more compact design for a protective container to enhance equipment usability.\\nKZK-1, named \u0027Cocoon\u0027 by stalkers due to its characteristic surface pattern, became the first successful prototype in the series, serving as the basis for developing future KZK type containers.",
+          "es": "Tras el inicio de los trabajos en las series KZS y KZR, surgió la idea de crear un diseño más compacto para el contenedor de protección, que aumentara la comodidad de uso del equipo.\\nKZK-1, llamado Capullo entre los acechadores por su característico dibujo en la superficie, fue el primer prototipo exitoso de la serie, sobre cuya base se desarrollaron otros contenedores del tipo KZK.",
+          "fr": "Lors du développement des séries « KZS » et « KZR », l\u0027idée d\u0027une structure plus compacte pour un conteneur de protection a vu le jour, dans le but d\u0027améliorer le confort d\u0027utilisation de l\u0027équipement.\\nLe « KZK-1 », surnommé « Rayon » par les Stalkers à cause du motif caractéristique sur sa surface, a été le premier prototype réussi de la série, sur la base duquel les autres conteneurs de type « KZK » ont été conçus."
+        }
+      }
+    }
+  ]
+}

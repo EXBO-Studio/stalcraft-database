@@ -259,14 +259,40 @@
               "fr": "Vitalité"
             }
           },
-          "min": 1.007,
+          "min": 1.7119,
           "max": 2.014,
           "formatted": {
             "value": {
-              "ru": "[+1,01%; +2,01%]",
-              "en": "[+1.01%; +2.01%]",
-              "es": "[+1,01 %; +2,01 %]",
-              "fr": "[+1,01%; +2,01%]"
+              "ru": "[+1,71%; +2,01%]",
+              "en": "[+1.71%; +2.01%]",
+              "es": "[+1,71 %; +2,01 %]",
+              "fr": "[+1,71%; +2,01%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "min": 3.3337,
+          "max": 3.922,
+          "formatted": {
+            "value": {
+              "ru": "[+3,33%; +3,92%]",
+              "en": "[+3.33%; +3.92%]",
+              "es": "[+3,33 %; +3,92 %]",
+              "fr": "[+3,33%; +3,92%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,43 +311,17 @@
               "fr": "Température"
             }
           },
-          "min": 1.25,
+          "min": 2.125,
           "max": 2.5,
           "formatted": {
             "value": {
-              "ru": "[+1,25; +2,5]",
-              "en": "[+1.25; +2.5]",
-              "es": "[+1,25; +2,5]",
-              "fr": "[+1,25; +2,5]"
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Кровотечение",
-              "en": "Bleeding",
-              "es": "Hemorragia",
-              "fr": "Saignement"
-            }
-          },
-          "min": -1.166,
-          "max": -0.318,
-          "formatted": {
-            "value": {
-              "ru": "[-1,17; -0,32]",
-              "en": "[-1.17; -0.32]",
-              "es": "[-1,17; -0,32]",
-              "fr": "[-1,17; -0,32]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
           }
         },
         {
@@ -337,14 +337,14 @@
               "fr": "Réaction aux brûlures"
             }
           },
-          "min": 1.3249999,
+          "min": 2.2525,
           "max": 2.6499999,
           "formatted": {
             "value": {
-              "ru": "[+1,32%; +2,65%]",
-              "en": "[+1.32%; +2.65%]",
-              "es": "[+1,32 %; +2,65 %]",
-              "fr": "[+1,32%; +2,65%]"
+              "ru": "[+2,25%; +2,65%]",
+              "en": "[+2.25%; +2.65%]",
+              "es": "[+2,25 %; +2,65 %]",
+              "fr": "[+2,25%; +2,65%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

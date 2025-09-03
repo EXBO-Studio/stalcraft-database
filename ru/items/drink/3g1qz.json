@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.antirad",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Вывод радиации",
+              "en": "Radiation Cleansing",
+              "es": "Limpieza radiológica",
+              "fr": "Nettoyage des radiations"
             }
           }
         },
@@ -203,30 +203,16 @@
               "fr": "Durée"
             }
           },
-          "value": 1800.0,
+          "value": 5.0,
           "formatted": {
             "value": {
-              "ru": "30 мин",
-              "en": "30 min",
-              "es": "30 min",
-              "fr": "30 min"
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
-          }
-        },
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "stalker.tooltip.medicine.info.persistent",
-            "args": {},
-            "lines": {
-              "ru": "Эффект не пропадает при смерти",
-              "en": "Effect does not wear off after death",
-              "es": "El efecto no desaparece tras la muerte",
-              "fr": "L\u0027effet disparaît après la mort"
-            }
           }
         }
       ]
@@ -242,6 +228,31 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
+            }
+          },
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10 %",
+              "fr": "10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
@@ -251,13 +262,13 @@
               "fr": "Radiation"
             }
           },
-          "value": -1.5,
+          "value": -10.0,
           "formatted": {
             "value": {
-              "ru": "-1,5",
-              "en": "-1.5",
-              "es": "-1,5",
-              "fr": "-1,5"
+              "ru": "-10",
+              "en": "-10",
+              "es": "-10",
+              "fr": "-10"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

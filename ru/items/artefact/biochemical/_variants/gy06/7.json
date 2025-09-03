@@ -250,49 +250,23 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina",
-              "es": "Aguante",
-              "fr": "Endurance"
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
             }
           },
-          "min": 6.6689997,
-          "max": 13.337999,
+          "min": 5.6202,
+          "max": 6.612,
           "formatted": {
             "value": {
-              "ru": "[+6,67%; +13,34%]",
-              "en": "[+6.67%; +13.34%]",
-              "es": "[+6,67 %; +13,34 %]",
-              "fr": "[+6,67%; +13,34%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление биозаражению",
-              "en": "Bioinfection resistance",
-              "es": "Resistencia a la bioinfección",
-              "fr": "Résistance aux bio infections"
-            }
-          },
-          "min": 11.855999,
-          "max": 23.711998,
-          "formatted": {
-            "value": {
-              "ru": "[+11,86%; +23,71%]",
-              "en": "[+11.86%; +23.71%]",
-              "es": "[+11,86 %; +23,71 %]",
-              "fr": "[+11,86%; +23,71%]"
+              "ru": "[+5,62%; +6,61%]",
+              "en": "[+5.62%; +6.61%]",
+              "es": "[+5,62 %; +6,61 %]",
+              "fr": "[+5,62%; +6,61%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +285,14 @@
               "fr": "Radiation"
             }
           },
-          "min": -1.824,
-          "max": -0.912,
+          "min": -1.4591999,
+          "max": -1.24032,
           "formatted": {
             "value": {
-              "ru": "[-1,82; -0,91]",
-              "en": "[-1.82; -0.91]",
-              "es": "[-1,82; -0,91]",
-              "fr": "[-1,82; -0,91]"
+              "ru": "[-1,46; -1,24]",
+              "en": "[-1.46; -1.24]",
+              "es": "[-1,46; -1,24]",
+              "fr": "[-1,46; -1,24]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -337,14 +311,40 @@
               "fr": "Infection biologique"
             }
           },
-          "min": -3.078,
-          "max": -1.539,
+          "min": -2.4624,
+          "max": -2.09304,
           "formatted": {
             "value": {
-              "ru": "[-3,08; -1,54]",
-              "en": "[-3.08; -1.54]",
-              "es": "[-3,08; -1,54]",
-              "fr": "[-3,08; -1,54]"
+              "ru": "[-2,46; -2,09]",
+              "en": "[-2.46; -2.09]",
+              "es": "[-2,46; -2,09]",
+              "fr": "[-2,46; -2,09]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to laceration",
+              "es": "Reacción a la laceración",
+              "fr": "Réaction aux lacérations"
+            }
+          },
+          "min": 2.8101,
+          "max": 3.306,
+          "formatted": {
+            "value": {
+              "ru": "[+2,81%; +3,31%]",
+              "en": "[+2.81%; +3.31%]",
+              "es": "[+2,81 %; +3,31 %]",
+              "fr": "[+2,81%; +3,31%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -227,31 +227,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité"
-            }
-          },
-          "value": 1.4,
-          "formatted": {
-            "value": {
-              "ru": "1,4%",
-              "en": "1.4%",
-              "es": "1,4 %",
-              "fr": "1,4%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
@@ -277,22 +252,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.frost_dmg_factor",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Сопротивление холоду",
-              "en": "Frost resistance",
-              "es": "Resistencia a la congelación",
-              "fr": "Résistance au gel"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
             }
           },
-          "value": 75.0,
+          "value": 1.7,
           "formatted": {
             "value": {
-              "ru": "75%",
-              "en": "75%",
-              "es": "75 %",
-              "fr": "75%"
+              "ru": "1,7%",
+              "en": "1.7%",
+              "es": "1,7 %",
+              "fr": "1,7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -302,22 +277,47 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.frost_accumulation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
-              "ru": "Холод",
-              "en": "Frost",
-              "es": "Congelación",
-              "fr": "Givre"
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
             }
           },
-          "value": -1.0,
+          "value": 9.5,
           "formatted": {
             "value": {
-              "ru": "-1",
-              "en": "-1",
-              "es": "-1",
-              "fr": "-1"
+              "ru": "9,5%",
+              "en": "9.5%",
+              "es": "9,5 %",
+              "fr": "9,5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns",
+              "es": "Reacción a las quemaduras",
+              "fr": "Réaction aux brûlures"
+            }
+          },
+          "value": 2.7,
+          "formatted": {
+            "value": {
+              "ru": "2,7%",
+              "en": "2.7%",
+              "es": "2,7 %",
+              "fr": "2,7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

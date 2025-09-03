@@ -1,0 +1,249 @@
+{
+  "id": "6g5n",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.bidonu.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Бидон-У»",
+      "en": "Canister-U Container",
+      "es": "Contenedor Bidón-U",
+      "fr": "Conteneur Bidon-U"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 9.25,
+          "formatted": {
+            "value": {
+              "ru": "9,25 кг",
+              "en": "9.25 kg",
+              "es": "9,25 kg",
+              "fr": "9,25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.bulky",
+        "args": {},
+        "lines": {
+          "ru": "Громоздкий контейнер",
+          "en": "Bulky Container",
+          "es": "Contenedor voluminoso",
+          "fr": "Conteneur encombrant"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 60.000004,
+          "formatted": {
+            "value": {
+              "ru": "60%",
+              "en": "60%",
+              "es": "60 %",
+              "fr": "60%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 83.5,
+          "formatted": {
+            "value": {
+              "ru": "83,5%",
+              "en": "83.5%",
+              "es": "83,5 %",
+              "fr": "83,5%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "0/5",
+              "en": "0/5",
+              "es": "0/5",
+              "fr": "0/5"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.bidonu.description",
+        "args": {},
+        "lines": {
+          "ru": "Укрепленный вариант контейнера, получившего народное название «Бидон».\\nБлагодаря работе ученых, удалось частично оптимизировать конструкцию, что повысило технические характеристики контейнера «КЗР».",
+          "en": "A reinforced version of the container known by the folk name \"Canister.\"\\nThanks to the work of scientists, the design was partially optimized, improving the technical characteristics of the KZR container.",
+          "es": "Una versión reforzada del contenedor, conocido popularmente como Bidón.\\nGracias al trabajo de los científicos, fue posible optimizar parcialmente el diseño, lo que aumentó las características técnicas del contenedor KZR.",
+          "fr": "Version renforcée d\u0027un conteneur connu sous le nom populaire de Bidon.\\nGrâce aux travaux des scientifiques, la structure a pu être partiellement optimisée, ce qui a amélioré les caractéristiques techniques du conteneur « KZR »."
+        }
+      }
+    }
+  ]
+}

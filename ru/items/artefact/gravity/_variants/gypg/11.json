@@ -259,40 +259,14 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "min": 1.0370001,
-          "max": 2.0740001,
+          "min": 1.5555,
+          "max": 1.83,
           "formatted": {
             "value": {
-              "ru": "[+1,04%; +2,07%]",
-              "en": "[+1.04%; +2.07%]",
-              "es": "[+1,04 %; +2,07 %]",
-              "fr": "[+1,04%; +2,07%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Сопротивление биозаражению",
-              "en": "Bioinfection resistance",
-              "es": "Resistencia a la bioinfección",
-              "fr": "Résistance aux bio infections"
-            }
-          },
-          "min": 8.479,
-          "max": 16.958,
-          "formatted": {
-            "value": {
-              "ru": "[+8,48%; +16,96%]",
-              "en": "[+8.48%; +16.96%]",
-              "es": "[+8,48 %; +16,96 %]",
-              "fr": "[+8,48%; +16,96%]"
+              "ru": "[+1,56%; +1,83%]",
+              "en": "[+1.56%; +1.83%]",
+              "es": "[+1,56 %; +1,83 %]",
+              "fr": "[+1,56%; +1,83%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,14 +285,14 @@
               "fr": "Radiation"
             }
           },
-          "min": 0.25,
+          "min": 0.425,
           "max": 0.5,
           "formatted": {
             "value": {
-              "ru": "[+0,25; +0,5]",
-              "en": "[+0.25; +0.5]",
-              "es": "[+0,25; +0,5]",
-              "fr": "[+0,25; +0,5]"
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -337,14 +311,40 @@
               "fr": "Infection biologique"
             }
           },
-          "min": -1.83,
-          "max": -0.915,
+          "min": -2.6352003,
+          "max": -2.2399204,
           "formatted": {
             "value": {
-              "ru": "[-1,83; -0,92]",
-              "en": "[-1.83; -0.92]",
-              "es": "[-1,83; -0,92]",
-              "fr": "[-1,83; -0,92]"
+              "ru": "[-2,64; -2,24]",
+              "en": "[-2.64; -2.24]",
+              "es": "[-2,64; -2,24]",
+              "fr": "[-2,64; -2,24]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_chemical_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на хим. ожог",
+              "en": "Reaction to chemical burns",
+              "es": "Reacción a quemaduras químicas",
+              "fr": "Réaction aux brûlures chimiques"
+            }
+          },
+          "min": 2.4888003,
+          "max": 2.9280002,
+          "formatted": {
+            "value": {
+              "ru": "[+2,49%; +2,93%]",
+              "en": "[+2.49%; +2.93%]",
+              "es": "[+2,49 %; +2,93 %]",
+              "fr": "[+2,49%; +2,93%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

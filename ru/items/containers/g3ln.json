@@ -67,10 +67,10 @@
             "key": "core.handbook.category.containers",
             "args": {},
             "lines": {
-              "ru": "Рюкзаки и Контейнеры",
-              "en": "Backpacks and Containers",
-              "es": "Mochilas y contenedores",
-              "fr": "Sacs à dos et conteneurs"
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
             }
           }
         },
@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 4.0,
+          "value": 6.4,
           "formatted": {
             "value": {
-              "ru": "4 кг",
-              "en": "4 kg",
-              "es": "4 kg",
-              "fr": "4 kg"
+              "ru": "6,4 кг",
+              "en": "6.4 kg",
+              "es": "6,4 kg",
+              "fr": "6,4 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -155,13 +155,13 @@
               "fr": "Protection interne"
             }
           },
-          "value": 60.000004,
+          "value": 78.5,
           "formatted": {
             "value": {
-              "ru": "60%",
-              "en": "60%",
-              "es": "60 %",
-              "fr": "60%"
+              "ru": "78,5%",
+              "en": "78.5%",
+              "es": "78,5 %",
+              "fr": "78,5%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -180,13 +180,13 @@
               "fr": "Efficacité"
             }
           },
-          "value": 100.0,
+          "value": 110.0,
           "formatted": {
             "value": {
-              "ru": "100%",
-              "en": "100%",
-              "es": "100 %",
-              "fr": "100%"
+              "ru": "110%",
+              "en": "110%",
+              "es": "110 %",
+              "fr": "110%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -239,19 +239,37 @@
               "fr": "Température"
             }
           },
-          "value": -2.5,
+          "value": -1.62,
           "formatted": {
             "value": {
-              "ru": "-2,5",
-              "en": "-2.5",
-              "es": "-2,5",
-              "fr": "-2,5"
+              "ru": "-1,62",
+              "en": "-1.62",
+              "es": "-1,62",
+              "fr": "-1,62"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
           }
         }
       ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.fridge.description",
+        "args": {},
+        "lines": {
+          "ru": "Кустарный контейнер для артефактов, созданный на основе «Берлоги» одним умелым диггером. Изначально этот контейнер создавали для личного пользования. Но когда другие сталкеры заметили его уникальные свойства, помогающие использовать определенные артефакты, некоторые из них тоже захотели заказать такую модификацию.",
+          "en": "A makeshift artifact container based on Berloga, created by a skilled digger. Originally, this container was made for personal use. However, when other stalkers noticed its unique properties that help utilize certain artifacts, some of them also wanted to order such a modification.",
+          "es": "Contenedor artesanal para objetos, creado sobre la base de Berloga por un hábil excavador. Este contenedor se creó originalmente para uso personal. Pero cuando otros acechadores se dieron cuenta de sus propiedades únicas para ayudarles a utilizar ciertos artefactos, algunos de ellos también quisieron encargar una modificación de este tipo.",
+          "fr": "Conteneur artisanal pour artefacts, créé à partir de Berloga par un fouilleur talentueux. À l’origine, ce conteneur avait été conçu pour un usage personnel. Mais lorsque d’autres stalkers ont remarqué ses propriétés uniques, permettant une meilleure utilisation de certains artefacts, certains ont voulu eux aussi commander une telle modification."
+        }
+      }
     }
   ]
 }

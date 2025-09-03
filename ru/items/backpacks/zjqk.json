@@ -1,0 +1,325 @@
+{
+  "id": "zjqk",
+  "category": "backpacks",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.pouch.name",
+    "args": {},
+    "lines": {
+      "ru": "Марафонская сумка",
+      "en": "Marathon bag",
+      "es": "Bolsa de maratón",
+      "fr": "Sac de Marathon"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.backpacks",
+            "args": {},
+            "lines": {
+              "ru": "Рюкзаки и сумки",
+              "en": "Backpacks and Pouches",
+              "es": "Mochilas y bolsas",
+              "fr": "Pochettes et sacs à dos"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 4.0,
+          "formatted": {
+            "value": {
+              "ru": "4 кг",
+              "en": "4 kg",
+              "es": "4 kg",
+              "fr": "4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.backpack.class.light",
+        "args": {},
+        "lines": {
+          "ru": "Легкий рюкзак",
+          "en": "Light Backpack",
+          "es": "Mochila ligera",
+          "fr": "Sac à dos léger"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 78.5,
+          "formatted": {
+            "value": {
+              "ru": "78,5%",
+              "en": "78.5%",
+              "es": "78,5 %",
+              "fr": "78,5%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 110.0,
+          "formatted": {
+            "value": {
+              "ru": "110%",
+              "en": "110%",
+              "es": "110 %",
+              "fr": "110%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "0/3",
+              "en": "0/3",
+              "es": "0/3",
+              "fr": "0/3"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "value": 5.2,
+          "formatted": {
+            "value": {
+              "ru": "5,2%",
+              "en": "5.2%",
+              "es": "5,2 %",
+              "fr": "5,2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "value": 32.0,
+          "formatted": {
+            "value": {
+              "ru": "32",
+              "en": "32",
+              "es": "32",
+              "fr": "32"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique"
+            }
+          },
+          "value": -1.62,
+          "formatted": {
+            "value": {
+              "ru": "-1,62",
+              "en": "-1.62",
+              "es": "-1,62",
+              "fr": "-1,62"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.pouch.description",
+        "args": {},
+        "lines": {
+          "ru": "Специальная сумка, появившаяся во время съемок шоу «Марафон Мертвецов» по заказу спонсоров. Сумка имеет три контейнера и фильтрующую систему.",
+          "en": "A special bag that appeared during the filming of the show “Dead Man’s Marathon” by order of sponsors. The bag has three containers and a filter system.",
+          "es": "Una bolsa especial que apareció durante el rodaje del programa \"Maratón del Hombre Muerto\" a petición de los patrocinadores. La bolsa tiene tres contenedores y un sistema de filtrado.",
+          "fr": "Un sac spécial apparu lors du tournage de l\u0027émission « Marathon de l\u0027Homme Mort » sur commande des sponsors. Le sac comporte trois conteneurs et un système de filtre."
+        }
+      }
+    }
+  ]
+}
