@@ -1,15 +1,15 @@
 {
-  "id": "512o",
+  "id": "0nok",
   "category": "containers",
   "name": {
     "type": "translation",
-    "key": "item.cont.zivcas.name",
+    "key": "item.cont.pathfinder.name",
     "args": {},
     "lines": {
-      "ru": "ZIVCAS ArcticSafe-6",
-      "en": "ZIVCAS ArcticSafe-6",
-      "es": "ZIVCAS ArcticSafe-6",
-      "fr": "ArcticSafe-6 ZIVCAS"
+      "ru": "Контейнер «Вязанка»",
+      "en": "Sheaf Container",
+      "es": "Contenedor Haz",
+      "fr": "Conteneur Fagot"
     }
   },
   "color": "RANK_MASTER",
@@ -87,13 +87,13 @@
               "fr": "Poids"
             }
           },
-          "value": 9.2,
+          "value": 12.7,
           "formatted": {
             "value": {
-              "ru": "9,2 кг",
-              "en": "9.2 kg",
-              "es": "9,2 kg",
-              "fr": "9,2 kg"
+              "ru": "12,7 кг",
+              "en": "12.7 kg",
+              "es": "12,7 kg",
+              "fr": "12,7 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -125,13 +125,13 @@
       },
       "text": {
         "type": "translation",
-        "key": "general.container.class.spacious",
+        "key": "general.container.class.bulky",
         "args": {},
         "lines": {
-          "ru": "Вместительный контейнер",
-          "en": "Capacious Container",
-          "es": "Contenedor espacioso",
-          "fr": "Conteneur spacieux"
+          "ru": "Громоздкий контейнер",
+          "en": "Bulky Container",
+          "es": "Contenedor voluminoso",
+          "fr": "Conteneur encombrant"
         }
       }
     },
@@ -155,13 +155,13 @@
               "fr": "Protection interne"
             }
           },
-          "value": 75.0,
+          "value": 60.000004,
           "formatted": {
             "value": {
-              "ru": "75%",
-              "en": "75%",
-              "es": "75 %",
-              "fr": "75%"
+              "ru": "60%",
+              "en": "60%",
+              "es": "60 %",
+              "fr": "60%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -205,13 +205,13 @@
               "fr": "Capacité"
             }
           },
-          "value": 6.0,
+          "value": 7.0,
           "formatted": {
             "value": {
-              "ru": "0/6",
-              "en": "0/6",
-              "es": "0/6",
-              "fr": "0/6"
+              "ru": "0/7",
+              "en": "0/7",
+              "es": "0/7",
+              "fr": "0/7"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -230,31 +230,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.psycho_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Пси-излучение",
-              "en": "Psy-emissions",
-              "es": "Emisiones psy",
-              "fr": "Émissions psys"
-            }
-          },
-          "value": 0.5,
-          "formatted": {
-            "value": {
-              "ru": "0,5",
-              "en": "0.5",
-              "es": "0,5",
-              "fr": "0,5"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.frost_accumulation",
             "args": {},
             "lines": {
@@ -264,16 +239,16 @@
               "fr": "Givre"
             }
           },
-          "value": -2.5,
+          "value": 1.0,
           "formatted": {
             "value": {
-              "ru": "-2,5",
-              "en": "-2.5",
-              "es": "-2,5",
-              "fr": "-2,5"
+              "ru": "1",
+              "en": "1",
+              "es": "1",
+              "fr": "1"
             },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         }
       ]
@@ -286,13 +261,13 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.cont.zivcas.description",
+        "key": "item.cont.pathfinder.description",
         "args": {},
         "lines": {
-          "ru": "ZIVCAS ArcticSafe-6 — контейнер из линейки ArcticSafe, предназначенный для транспортировки и использования до 6 артефактов. Оснащён инновационной системой терморегуляции GlacialFlow, которая способствует дополнительному теплообмену с окружающей средой. Из-за уникальных запатентованных процессов GlacialFlow, контейнер испускает пси-излучение, влияние которого не превышает допустимое в рамках рекомендаций специалистов ZIVCAS.",
-          "en": "ZIVCAS ArcticSafe-6 — a container from the ArcticSafe line designed for transporting and using up to 6 artifacts. Equipped with the innovative GlacialFlow thermal regulation system, which facilitates additional heat exchange with the environment. Due to the unique patented GlacialFlow processes, the container emits psy-radiation, the influence of which does not exceed acceptable levels according to ZIVCAS specialists recommendations.",
-          "es": "ZIVCAS ArcticSafe-6: un contenedor de la línea ArcticSafe diseñado para transportar y utilizar hasta 6 artefactos. Está equipado con el innovador sistema termorregulador GlacialFlow, que favorece un intercambio térmico adicional con el entorno. Gracias al proceso único patentado GlacialFlow, el contenedor emite emisión psy, cuya influencia no supera los niveles aceptables según las recomendaciones de los especialistas de ZIVCAS.",
-          "fr": "ZIVCAS ArcticSafe-6 —  conteneur de la gamme ArcticSafe, conçu pour transporter et stocker jusqu\u0027à 6 artefacts. Équipé du système de régulation thermique innovant GlacialFlow, favorisant un échange de chaleur accru avec l\u0027environnement. En raison des processus brevetés uniques de GlacialFlow, le conteneur émet une radiation psy, dont l\u0027intensité reste dans les limites recommandées par les experts de ZIVCAS."
+          "ru": "Уникальный контейнер, найденный при изучении складов со снаряжением Первопроходцев в лаборатории под Радаром, прозванный сталкерами «Вязанка».\\n\\n",
+          "en": "A unique container discovered during the exploration of the Trailblazers\u0027 gear warehouses in the laboratory beneath the Radar, nicknamed \"Sheaf\" by stalkers.\\n\\n",
+          "es": "Contenedor único, encontrado durante el estudio de los almacenes con el equipamiento de los pioneros en el laboratorio bajo el Radar, llamado Haz por los acechadores.\\n\\n",
+          "fr": "Un conteneur unique, découvert lors de l\u0027étude des entrepôts avec l\u0027équipement des Pionniers dans le laboratoire sous le Radar, surnommé par les stalkers — Fagot.\\n\\n"
         }
       }
     }
