@@ -191,13 +191,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.stamina",
+            "key": "item.effects.effect_type.mobility",
             "args": {},
             "lines": {
-              "ru": "Повышение выносливости",
-              "en": "Stamina Improvement",
-              "es": "Mejora de aguante",
-              "fr": "Amélioration de l\u0027endurance"
+              "ru": "Подвижность",
+              "en": "Mobility",
+              "es": "Movilidad",
+              "fr": "Mobilité"
             }
           }
         },
@@ -255,13 +255,13 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "key": "stalker.tooltip.medicine.info.persistent",
             "args": {},
             "lines": {
-              "ru": "Эффект пропадает при смерти",
-              "en": "Effect wears off after death",
-              "es": "El efecto desaparece tras la muerte",
-              "fr": "L\u0027effet persiste après la mort"
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death",
+              "es": "El efecto no desaparece tras la muerte",
+              "fr": "L\u0027effet disparaît après la mort"
             }
           }
         }
@@ -287,38 +287,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 14.5,
+          "value": 32.0,
           "formatted": {
             "value": {
-              "ru": "14,5%",
-              "en": "14.5%",
-              "es": "14,5 %",
-              "fr": "14,5%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
-            "args": {},
-            "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed",
-              "es": "Velocidad de movimiento",
-              "fr": "Vitesse de déplacement"
-            }
-          },
-          "value": 0.8,
-          "formatted": {
-            "value": {
-              "ru": "0,8%",
-              "en": "0.8%",
-              "es": "0,8 %",
-              "fr": "0,8%"
+              "ru": "32%",
+              "en": "32%",
+              "es": "32 %",
+              "fr": "32%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -337,13 +312,13 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 1.6,
+          "value": 3.3,
           "formatted": {
             "value": {
-              "ru": "1,6%",
-              "en": "1.6%",
-              "es": "1,6 %",
-              "fr": "1,6%"
+              "ru": "3,3%",
+              "en": "3.3%",
+              "es": "3,3 %",
+              "fr": "3,3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -14,7 +14,7 @@
   },
   "color": "RANK_MASTER",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -139,13 +139,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.stamina",
+            "key": "item.effects.effect_type.mobility",
             "args": {},
             "lines": {
-              "ru": "Повышение выносливости",
-              "en": "Stamina Improvement",
-              "es": "Mejora de aguante",
-              "fr": "Amélioration de l\u0027endurance"
+              "ru": "Подвижность",
+              "en": "Mobility",
+              "es": "Movilidad",
+              "fr": "Mobilité"
             }
           }
         },
@@ -260,13 +260,63 @@
               "fr": "Endurance"
             }
           },
-          "value": 24.0,
+          "value": 33.6,
           "formatted": {
             "value": {
-              "ru": "24%",
-              "en": "24%",
-              "es": "24 %",
-              "fr": "24%"
+              "ru": "33,6%",
+              "en": "33.6%",
+              "es": "33,6 %",
+              "fr": "33,6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "value": 2.7,
+          "formatted": {
+            "value": {
+              "ru": "2,7%",
+              "en": "2.7%",
+              "es": "2,7 %",
+              "fr": "2,7%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "value": 14.1,
+          "formatted": {
+            "value": {
+              "ru": "14,1",
+              "en": "14.1",
+              "es": "14,1",
+              "fr": "14,1"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,13 +335,13 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 5.3,
+          "value": 4.9,
           "formatted": {
             "value": {
-              "ru": "5,3%",
-              "en": "5.3%",
-              "es": "5,3 %",
-              "fr": "5,3%"
+              "ru": "4,9%",
+              "en": "4.9%",
+              "es": "4,9 %",
+              "fr": "4,9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

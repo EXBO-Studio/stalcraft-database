@@ -140,13 +140,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.powerful_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Мощное усиление",
-              "en": "Strong Boost",
-              "es": "Impulso fuerte",
-              "fr": "Boost puissant"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -201,6 +201,31 @@
           }
         },
         {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison"
+            }
+          },
+          "value": 20.0,
+          "formatted": {
+            "value": {
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
           "type": "text",
           "text": {
             "type": "translation",
@@ -236,13 +261,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 32.0,
+          "value": 44.2,
           "formatted": {
             "value": {
-              "ru": "32%",
-              "en": "32%",
-              "es": "32 %",
-              "fr": "32%"
+              "ru": "44,2%",
+              "en": "44.2%",
+              "es": "44,2 %",
+              "fr": "44,2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -261,13 +286,13 @@
               "fr": "Vitesse de déplacement"
             }
           },
-          "value": 3.3,
+          "value": 3.8,
           "formatted": {
             "value": {
-              "ru": "3,3%",
-              "en": "3.3%",
-              "es": "3,3 %",
-              "fr": "3,3%"
+              "ru": "3,8%",
+              "en": "3.8%",
+              "es": "3,8 %",
+              "fr": "3,8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -286,13 +311,13 @@
               "fr": "Poids maximum supporté"
             }
           },
-          "value": 21.4,
+          "value": 34.8,
           "formatted": {
             "value": {
-              "ru": "21,4",
-              "en": "21.4",
-              "es": "21,4",
-              "fr": "21,4"
+              "ru": "34,8",
+              "en": "34.8",
+              "es": "34,8",
+              "fr": "34,8"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,13 +336,13 @@
               "fr": "Recul"
             }
           },
-          "value": -5.0,
+          "value": -4.5,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%",
-              "es": "-5 %",
-              "fr": "-5%"
+              "ru": "-4,5%",
+              "en": "-4.5%",
+              "es": "-4,5 %",
+              "fr": "-4,5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

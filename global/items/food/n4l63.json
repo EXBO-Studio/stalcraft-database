@@ -14,7 +14,7 @@
   },
   "color": "RANK_STALKER",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -251,13 +251,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 13.6,
+          "value": 31.9,
           "formatted": {
             "value": {
-              "ru": "13,6%",
-              "en": "13.6%",
-              "es": "13,6 %",
-              "fr": "13,6%"
+              "ru": "31,9%",
+              "en": "31.9%",
+              "es": "31,9 %",
+              "fr": "31,9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -276,13 +276,13 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 3.0,
+          "value": 8.2,
           "formatted": {
             "value": {
-              "ru": "3%",
-              "en": "3%",
-              "es": "3 %",
-              "fr": "3%"
+              "ru": "8,2%",
+              "en": "8.2%",
+              "es": "8,2 %",
+              "fr": "8,2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

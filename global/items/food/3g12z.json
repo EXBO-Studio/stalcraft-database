@@ -14,7 +14,7 @@
   },
   "color": "RANK_VETERAN",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -191,13 +191,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -287,13 +287,13 @@
               "fr": "Vitalité"
             }
           },
-          "value": 1.3,
+          "value": 2.7,
           "formatted": {
             "value": {
-              "ru": "1,3%",
-              "en": "1.3%",
-              "es": "1,3 %",
-              "fr": "1,3%"
+              "ru": "2,7%",
+              "en": "2.7%",
+              "es": "2,7 %",
+              "fr": "2,7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -312,13 +312,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 14.4,
+          "value": 43.3,
           "formatted": {
             "value": {
-              "ru": "14,4%",
-              "en": "14.4%",
-              "es": "14,4 %",
-              "fr": "14,4%"
+              "ru": "43,3%",
+              "en": "43.3%",
+              "es": "43,3 %",
+              "fr": "43,3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -328,22 +328,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance"
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
             }
           },
-          "value": 3.2,
+          "value": 21.9,
           "formatted": {
             "value": {
-              "ru": "3,2%",
-              "en": "3.2%",
-              "es": "3,2 %",
-              "fr": "3,2%"
+              "ru": "21,9%",
+              "en": "21.9%",
+              "es": "21,9 %",
+              "fr": "21,9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

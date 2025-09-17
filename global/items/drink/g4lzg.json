@@ -14,7 +14,7 @@
   },
   "color": "RANK_MASTER",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -140,13 +140,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.powerful_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Мощное усиление",
-              "en": "Strong Boost",
-              "es": "Impulso fuerte",
-              "fr": "Boost puissant"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -213,13 +213,13 @@
               "fr": "Poison"
             }
           },
-          "value": 50.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50",
-              "es": "50",
-              "fr": "50"
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -252,22 +252,47 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité"
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
             }
           },
-          "value": 2.8,
+          "value": 28.6,
           "formatted": {
             "value": {
-              "ru": "2,8%",
-              "en": "2.8%",
-              "es": "2,8 %",
-              "fr": "2,8%"
+              "ru": "28,6%",
+              "en": "28.6%",
+              "es": "28,6 %",
+              "fr": "28,6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "value": 3.8,
+          "formatted": {
+            "value": {
+              "ru": "3,8%",
+              "en": "3.8%",
+              "es": "3,8 %",
+              "fr": "3,8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -286,38 +311,13 @@
               "fr": "Régénération de la santé"
             }
           },
-          "value": 4.9,
+          "value": 6.8,
           "formatted": {
             "value": {
-              "ru": "4,9%",
-              "en": "4.9%",
-              "es": "4,9 %",
-              "fr": "4,9%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance"
-            }
-          },
-          "value": 7.0,
-          "formatted": {
-            "value": {
-              "ru": "7%",
-              "en": "7%",
-              "es": "7 %",
-              "fr": "7%"
+              "ru": "6,8%",
+              "en": "6.8%",
+              "es": "6,8 %",
+              "fr": "6,8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -336,13 +336,13 @@
               "fr": "Efficacité des soins"
             }
           },
-          "value": 19.0,
+          "value": 30.9,
           "formatted": {
             "value": {
-              "ru": "19%",
-              "en": "19%",
-              "es": "19 %",
-              "fr": "19%"
+              "ru": "30,9%",
+              "en": "30.9%",
+              "es": "30,9 %",
+              "fr": "30,9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

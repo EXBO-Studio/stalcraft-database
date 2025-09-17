@@ -10113,128 +10113,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.strength",
+        "key": "item.effects.effect_type.mobility",
         "args": {},
         "lines": {
-          "ru": "Повышение силы",
-          "en": "Strength Improvement",
-          "es": "Mejora de fuerza",
-          "fr": "Amélioration de la force"
-        }
-      },
-      "result": [
-        {
-          "item": "zzqn2",
-          "amount": 15
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "prl2",
-          "amount": 5
-        },
-        {
-          "item": "l2kk",
-          "amount": 1
-        },
-        {
-          "item": "npp9",
-          "amount": 6
-        },
-        {
-          "item": "g00n",
-          "amount": 3
-        }
-      ],
-      "energy": 900.0,
-      "requirements": {
-        "perks": {
-          "medicine": 3
-        },
-        "features": [
-          "centrifuge",
-          "laboratory_table"
-        ]
-      }
-    },
-    {
-      "bench": "laboratory_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.medicine.name",
-        "args": {},
-        "lines": {
-          "ru": "Медицина",
-          "en": "Medicine",
-          "es": "Medicamentos",
-          "fr": "Médicaments"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.strength",
-        "args": {},
-        "lines": {
-          "ru": "Повышение силы",
-          "en": "Strength Improvement",
-          "es": "Mejora de fuerza",
-          "fr": "Amélioration de la force"
-        }
-      },
-      "result": [
-        {
-          "item": "1r2yq",
-          "amount": 3
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "w7ro",
-          "amount": 1
-        },
-        {
-          "item": "964ow",
-          "amount": 1
-        },
-        {
-          "item": "y220",
-          "amount": 1
-        }
-      ],
-      "energy": 1000.0,
-      "requirements": {
-        "perks": {
-          "medicine": 5
-        },
-        "features": [
-          "laminar_box",
-          "chemical_reactor",
-          "rotary_evaporator"
-        ]
-      }
-    },
-    {
-      "bench": "laboratory_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.medicine.name",
-        "args": {},
-        "lines": {
-          "ru": "Медицина",
-          "en": "Medicine",
-          "es": "Medicamentos",
-          "fr": "Médicaments"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.stamina",
-        "args": {},
-        "lines": {
-          "ru": "Повышение выносливости",
-          "en": "Stamina Improvement",
-          "es": "Mejora de aguante",
-          "fr": "Amélioration de l\u0027endurance"
+          "ru": "Подвижность",
+          "en": "Mobility",
+          "es": "Movilidad",
+          "fr": "Mobilité"
         }
       },
       "result": [
@@ -10287,13 +10172,128 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.bleeding_protection",
+        "key": "item.effects.effect_type.mobility",
         "args": {},
         "lines": {
-          "ru": "Защита от кровотечения",
-          "en": "Bleeding Protection",
-          "es": "Protección contra hemorragia",
-          "fr": "Protection contre les saignements"
+          "ru": "Подвижность",
+          "en": "Mobility",
+          "es": "Movilidad",
+          "fr": "Mobilité"
+        }
+      },
+      "result": [
+        {
+          "item": "zzqn2",
+          "amount": 15
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "prl2",
+          "amount": 5
+        },
+        {
+          "item": "l2kk",
+          "amount": 1
+        },
+        {
+          "item": "npp9",
+          "amount": 6
+        },
+        {
+          "item": "g00n",
+          "amount": 3
+        }
+      ],
+      "energy": 900.0,
+      "requirements": {
+        "perks": {
+          "medicine": 3
+        },
+        "features": [
+          "centrifuge",
+          "laboratory_table"
+        ]
+      }
+    },
+    {
+      "bench": "laboratory_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.medicine.name",
+        "args": {},
+        "lines": {
+          "ru": "Медицина",
+          "en": "Medicine",
+          "es": "Medicamentos",
+          "fr": "Médicaments"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.mobility",
+        "args": {},
+        "lines": {
+          "ru": "Подвижность",
+          "en": "Mobility",
+          "es": "Movilidad",
+          "fr": "Mobilité"
+        }
+      },
+      "result": [
+        {
+          "item": "1r2yq",
+          "amount": 3
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "w7ro",
+          "amount": 1
+        },
+        {
+          "item": "964ow",
+          "amount": 1
+        },
+        {
+          "item": "y220",
+          "amount": 1
+        }
+      ],
+      "energy": 1000.0,
+      "requirements": {
+        "perks": {
+          "medicine": 5
+        },
+        "features": [
+          "laminar_box",
+          "chemical_reactor",
+          "rotary_evaporator"
+        ]
+      }
+    },
+    {
+      "bench": "laboratory_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.medicine.name",
+        "args": {},
+        "lines": {
+          "ru": "Медицина",
+          "en": "Medicine",
+          "es": "Medicamentos",
+          "fr": "Médicaments"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.protection",
+        "args": {},
+        "lines": {
+          "ru": "Защита",
+          "en": "Protection",
+          "es": "Protección",
+          "fr": "Protection"
         }
       },
       "result": [
@@ -10337,13 +10337,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.bleeding_protection",
+        "key": "item.effects.effect_type.protection",
         "args": {},
         "lines": {
-          "ru": "Защита от кровотечения",
-          "en": "Bleeding Protection",
-          "es": "Protección contra hemorragia",
-          "fr": "Protection contre les saignements"
+          "ru": "Защита",
+          "en": "Protection",
+          "es": "Protección",
+          "fr": "Protection"
         }
       },
       "result": [
@@ -10397,69 +10397,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.bleeding_protection",
+        "key": "item.effects.effect_type.protection",
         "args": {},
         "lines": {
-          "ru": "Защита от кровотечения",
-          "en": "Bleeding Protection",
-          "es": "Protección contra hemorragia",
-          "fr": "Protection contre les saignements"
-        }
-      },
-      "result": [
-        {
-          "item": "g4lz0",
-          "amount": 10
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "z2y2",
-          "amount": 1
-        },
-        {
-          "item": "km9v",
-          "amount": 1
-        },
-        {
-          "item": "r29y",
-          "amount": 1
-        }
-      ],
-      "energy": 1000.0,
-      "requirements": {
-        "perks": {
-          "medicine": 5
-        },
-        "features": [
-          "laminar_box",
-          "chemical_reactor",
-          "rotary_evaporator"
-        ]
-      }
-    },
-    {
-      "bench": "laboratory_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.medicine.name",
-        "args": {},
-        "lines": {
-          "ru": "Медицина",
-          "en": "Medicine",
-          "es": "Medicamentos",
-          "fr": "Médicaments"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.fire_protection",
-        "args": {},
-        "lines": {
-          "ru": "Защита от ожогов",
-          "en": "Burn Protection",
-          "es": "Protección contra quemaduras",
-          "fr": "Protection contre les brûlures"
+          "ru": "Защита",
+          "en": "Protection",
+          "es": "Protección",
+          "fr": "Protection"
         }
       },
       "result": [
@@ -10512,13 +10456,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.fire_protection",
+        "key": "item.effects.effect_type.protection",
         "args": {},
         "lines": {
-          "ru": "Защита от ожогов",
-          "en": "Burn Protection",
-          "es": "Protección contra quemaduras",
-          "fr": "Protection contre les brûlures"
+          "ru": "Защита",
+          "en": "Protection",
+          "es": "Protección",
+          "fr": "Protection"
         }
       },
       "result": [
@@ -10551,6 +10495,62 @@
           "medicine": 5
         },
         "features": [
+          "chemical_reactor",
+          "rotary_evaporator"
+        ]
+      }
+    },
+    {
+      "bench": "laboratory_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.medicine.name",
+        "args": {},
+        "lines": {
+          "ru": "Медицина",
+          "en": "Medicine",
+          "es": "Medicamentos",
+          "fr": "Médicaments"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.protection",
+        "args": {},
+        "lines": {
+          "ru": "Защита",
+          "en": "Protection",
+          "es": "Protección",
+          "fr": "Protection"
+        }
+      },
+      "result": [
+        {
+          "item": "g4lz0",
+          "amount": 10
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "z2y2",
+          "amount": 1
+        },
+        {
+          "item": "km9v",
+          "amount": 1
+        },
+        {
+          "item": "r29y",
+          "amount": 1
+        }
+      ],
+      "energy": 1000.0,
+      "requirements": {
+        "perks": {
+          "medicine": 5
+        },
+        "features": [
+          "laminar_box",
           "chemical_reactor",
           "rotary_evaporator"
         ]
@@ -16302,13 +16302,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16356,13 +16356,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16410,13 +16410,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16464,13 +16464,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16510,13 +16510,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16556,13 +16556,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16602,13 +16602,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16660,13 +16660,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16718,13 +16718,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16777,13 +16777,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16832,13 +16832,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16883,13 +16883,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -16946,13 +16946,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17009,13 +17009,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17064,13 +17064,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17127,13 +17127,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17185,13 +17185,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17244,13 +17244,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17303,13 +17303,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17358,13 +17358,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17417,13 +17417,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17480,13 +17480,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17538,13 +17538,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17597,13 +17597,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17656,13 +17656,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17715,13 +17715,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17774,13 +17774,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17833,13 +17833,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17887,13 +17887,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -17945,13 +17945,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18003,13 +18003,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18057,13 +18057,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18115,13 +18115,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18177,13 +18177,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18239,13 +18239,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18297,13 +18297,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18359,13 +18359,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.stamina",
+        "key": "item.effects.effect_type.mobility",
         "args": {},
         "lines": {
-          "ru": "Повышение выносливости",
-          "en": "Stamina Improvement",
-          "es": "Mejora de aguante",
-          "fr": "Amélioration de l\u0027endurance"
+          "ru": "Подвижность",
+          "en": "Mobility",
+          "es": "Movilidad",
+          "fr": "Mobilité"
         }
       },
       "result": [
@@ -18410,13 +18410,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.stamina",
+        "key": "item.effects.effect_type.mobility",
         "args": {},
         "lines": {
-          "ru": "Повышение выносливости",
-          "en": "Stamina Improvement",
-          "es": "Mejora de aguante",
-          "fr": "Amélioration de l\u0027endurance"
+          "ru": "Подвижность",
+          "en": "Mobility",
+          "es": "Movilidad",
+          "fr": "Mobilité"
         }
       },
       "result": [
@@ -18472,13 +18472,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18531,13 +18531,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18586,13 +18586,72 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
+        }
+      },
+      "result": [
+        {
+          "item": "wjwzp",
+          "amount": 5
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "y75z",
+          "amount": 4
+        },
+        {
+          "item": "rwow5",
+          "amount": 3
+        },
+        {
+          "item": "z3ozm",
+          "amount": 1
+        },
+        {
+          "item": "5drg",
+          "amount": 2
+        }
+      ],
+      "energy": 400.0,
+      "requirements": {
+        "perks": {
+          "brewing": 2
+        },
+        "features": [
+          "kitchen_items",
+          "gauze_filter"
+        ]
+      }
+    },
+    {
+      "bench": "kitchen_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.brewing.name",
+        "args": {},
+        "lines": {
+          "ru": "Алкоголь",
+          "en": "Alcohol",
+          "es": "Alcohol",
+          "fr": "Alcool"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.long_time_medicine",
+        "args": {},
+        "lines": {
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18637,13 +18696,257 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
+        }
+      },
+      "result": [
+        {
+          "item": "j5mg7",
+          "amount": 6
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "1dwq",
+          "amount": 5
+        },
+        {
+          "item": "40pn",
+          "amount": 1
+        },
+        {
+          "item": "g00n",
+          "amount": 15
+        },
+        {
+          "item": "r2mv",
+          "amount": 2
+        },
+        {
+          "item": "1ddr",
+          "amount": 7
+        }
+      ],
+      "energy": 700.0,
+      "requirements": {
+        "perks": {
+          "brewing": 3
+        },
+        "features": [
+          "fermentation_container",
+          "sterilization_system"
+        ]
+      }
+    },
+    {
+      "bench": "kitchen_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.brewing.name",
+        "args": {},
+        "lines": {
+          "ru": "Алкоголь",
+          "en": "Alcohol",
+          "es": "Alcohol",
+          "fr": "Alcool"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.long_time_medicine",
+        "args": {},
+        "lines": {
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
+        }
+      },
+      "result": [
+        {
+          "item": "m0pyj",
+          "amount": 5
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "j5mg7",
+          "amount": 4
+        },
+        {
+          "item": "40pn",
+          "amount": 1
+        },
+        {
+          "item": "z3ozm",
+          "amount": 1
+        },
+        {
+          "item": "5ddo",
+          "amount": 10
+        }
+      ],
+      "energy": 900.0,
+      "requirements": {
+        "perks": {
+          "brewing": 4
+        },
+        "features": [
+          "fermentation_container",
+          "sterilization_system"
+        ]
+      }
+    },
+    {
+      "bench": "kitchen_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.brewing.name",
+        "args": {},
+        "lines": {
+          "ru": "Алкоголь",
+          "en": "Alcohol",
+          "es": "Alcohol",
+          "fr": "Alcool"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.long_time_medicine",
+        "args": {},
+        "lines": {
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
+        }
+      },
+      "result": [
+        {
+          "item": "g4lp0",
+          "amount": 3
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "y75z",
+          "amount": 2
+        },
+        {
+          "item": "m0pyj",
+          "amount": 2
+        },
+        {
+          "item": "z3ozm",
+          "amount": 1
+        },
+        {
+          "item": "rwow5",
+          "amount": 4
+        },
+        {
+          "item": "y770",
+          "amount": 5
+        }
+      ],
+      "energy": 1000.0,
+      "requirements": {
+        "perks": {
+          "brewing": 4
+        },
+        "features": [
+          "hoods",
+          "sterilization_system"
+        ]
+      }
+    },
+    {
+      "bench": "kitchen_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.brewing.name",
+        "args": {},
+        "lines": {
+          "ru": "Алкоголь",
+          "en": "Alcohol",
+          "es": "Alcohol",
+          "fr": "Alcool"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.long_time_medicine",
+        "args": {},
+        "lines": {
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
+        }
+      },
+      "result": [
+        {
+          "item": "964z0",
+          "amount": 3
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "3g1qz",
+          "amount": 5
+        },
+        {
+          "item": "m0pyj",
+          "amount": 2
+        },
+        {
+          "item": "rwow5",
+          "amount": 4
+        },
+        {
+          "item": "y770",
+          "amount": 5
+        }
+      ],
+      "energy": 1000.0,
+      "requirements": {
+        "perks": {
+          "brewing": 4
+        },
+        "features": [
+          "hoods",
+          "sterilization_system"
+        ]
+      }
+    },
+    {
+      "bench": "kitchen_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.brewing.name",
+        "args": {},
+        "lines": {
+          "ru": "Алкоголь",
+          "en": "Alcohol",
+          "es": "Alcohol",
+          "fr": "Alcool"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.long_time_medicine",
+        "args": {},
+        "lines": {
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18655,7 +18958,7 @@
       "ingredients": [
         {
           "item": "964z0",
-          "amount": 8
+          "amount": 4
         },
         {
           "item": "3g1qz",
@@ -18663,7 +18966,7 @@
         },
         {
           "item": "g4lp0",
-          "amount": 4
+          "amount": 2
         },
         {
           "item": "rwoj5",
@@ -18700,13 +19003,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18759,13 +19062,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18822,13 +19125,13 @@
       },
       "subcategory": {
         "type": "translation",
-        "key": "item.effects.effect_type.low_medicine",
+        "key": "item.effects.effect_type.long_time_medicine",
         "args": {},
         "lines": {
-          "ru": "Слабое усиление",
-          "en": "Weak Boost",
-          "es": "Impulso débil",
-          "fr": "Boost faible"
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
         }
       },
       "result": [
@@ -18866,6 +19169,179 @@
         },
         "features": [
           "fermentation_container",
+          "sterilization_system"
+        ]
+      }
+    },
+    {
+      "bench": "kitchen_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.brewing.name",
+        "args": {},
+        "lines": {
+          "ru": "Алкоголь",
+          "en": "Alcohol",
+          "es": "Alcohol",
+          "fr": "Alcool"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.long_time_medicine",
+        "args": {},
+        "lines": {
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
+        }
+      },
+      "result": [
+        {
+          "item": "7lyo3",
+          "amount": 4
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "lynkj",
+          "amount": 6
+        },
+        {
+          "item": "rw1mg",
+          "amount": 6
+        },
+        {
+          "item": "964z0",
+          "amount": 3
+        },
+        {
+          "item": "3gvgg",
+          "amount": 7
+        },
+        {
+          "item": "1r246",
+          "amount": 6
+        }
+      ],
+      "energy": 1200.0,
+      "requirements": {
+        "perks": {
+          "brewing": 5
+        },
+        "features": [
+          "fermentation_container",
+          "sterilization_system"
+        ]
+      }
+    },
+    {
+      "bench": "kitchen_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.brewing.name",
+        "args": {},
+        "lines": {
+          "ru": "Алкоголь",
+          "en": "Alcohol",
+          "es": "Alcohol",
+          "fr": "Alcool"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.long_time_medicine",
+        "args": {},
+        "lines": {
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
+        }
+      },
+      "result": [
+        {
+          "item": "zzqn9",
+          "amount": 3
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "g4lp0",
+          "amount": 2
+        },
+        {
+          "item": "3g1qz",
+          "amount": 4
+        },
+        {
+          "item": "5drg",
+          "amount": 3
+        }
+      ],
+      "energy": 1000.0,
+      "requirements": {
+        "perks": {
+          "brewing": 5
+        },
+        "features": [
+          "hoods",
+          "sterilization_system"
+        ]
+      }
+    },
+    {
+      "bench": "kitchen_table",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.brewing.name",
+        "args": {},
+        "lines": {
+          "ru": "Алкоголь",
+          "en": "Alcohol",
+          "es": "Alcohol",
+          "fr": "Alcool"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "item.effects.effect_type.long_time_medicine",
+        "args": {},
+        "lines": {
+          "ru": "Усиление",
+          "en": "Enhancement",
+          "es": "Impulso",
+          "fr": "Boost"
+        }
+      },
+      "result": [
+        {
+          "item": "g4lzg",
+          "amount": 3
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "964z0",
+          "amount": 2
+        },
+        {
+          "item": "j5mg7",
+          "amount": 4
+        },
+        {
+          "item": "wjwzp",
+          "amount": 2
+        }
+      ],
+      "energy": 1000.0,
+      "requirements": {
+        "perks": {
+          "brewing": 5
+        },
+        "features": [
+          "hoods",
           "sterilization_system"
         ]
       }
@@ -18930,482 +19406,6 @@
         "features": [
           "fermentation_container",
           "gauze_filter"
-        ]
-      }
-    },
-    {
-      "bench": "kitchen_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.brewing.name",
-        "args": {},
-        "lines": {
-          "ru": "Алкоголь",
-          "en": "Alcohol",
-          "es": "Alcohol",
-          "fr": "Alcool"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.powerful_medicine",
-        "args": {},
-        "lines": {
-          "ru": "Мощное усиление",
-          "en": "Strong Boost",
-          "es": "Impulso fuerte",
-          "fr": "Boost puissant"
-        }
-      },
-      "result": [
-        {
-          "item": "wjwzp",
-          "amount": 5
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "y75z",
-          "amount": 4
-        },
-        {
-          "item": "rwow5",
-          "amount": 3
-        },
-        {
-          "item": "z3ozm",
-          "amount": 1
-        },
-        {
-          "item": "5drg",
-          "amount": 2
-        }
-      ],
-      "energy": 400.0,
-      "requirements": {
-        "perks": {
-          "brewing": 2
-        },
-        "features": [
-          "kitchen_items",
-          "gauze_filter"
-        ]
-      }
-    },
-    {
-      "bench": "kitchen_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.brewing.name",
-        "args": {},
-        "lines": {
-          "ru": "Алкоголь",
-          "en": "Alcohol",
-          "es": "Alcohol",
-          "fr": "Alcool"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.powerful_medicine",
-        "args": {},
-        "lines": {
-          "ru": "Мощное усиление",
-          "en": "Strong Boost",
-          "es": "Impulso fuerte",
-          "fr": "Boost puissant"
-        }
-      },
-      "result": [
-        {
-          "item": "j5mg7",
-          "amount": 6
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "1dwq",
-          "amount": 5
-        },
-        {
-          "item": "40pn",
-          "amount": 1
-        },
-        {
-          "item": "g00n",
-          "amount": 15
-        },
-        {
-          "item": "r2mv",
-          "amount": 2
-        },
-        {
-          "item": "1ddr",
-          "amount": 7
-        }
-      ],
-      "energy": 700.0,
-      "requirements": {
-        "perks": {
-          "brewing": 3
-        },
-        "features": [
-          "fermentation_container",
-          "sterilization_system"
-        ]
-      }
-    },
-    {
-      "bench": "kitchen_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.brewing.name",
-        "args": {},
-        "lines": {
-          "ru": "Алкоголь",
-          "en": "Alcohol",
-          "es": "Alcohol",
-          "fr": "Alcool"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.powerful_medicine",
-        "args": {},
-        "lines": {
-          "ru": "Мощное усиление",
-          "en": "Strong Boost",
-          "es": "Impulso fuerte",
-          "fr": "Boost puissant"
-        }
-      },
-      "result": [
-        {
-          "item": "m0pyj",
-          "amount": 5
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "j5mg7",
-          "amount": 4
-        },
-        {
-          "item": "40pn",
-          "amount": 1
-        },
-        {
-          "item": "z3ozm",
-          "amount": 1
-        },
-        {
-          "item": "5ddo",
-          "amount": 10
-        }
-      ],
-      "energy": 900.0,
-      "requirements": {
-        "perks": {
-          "brewing": 4
-        },
-        "features": [
-          "fermentation_container",
-          "sterilization_system"
-        ]
-      }
-    },
-    {
-      "bench": "kitchen_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.brewing.name",
-        "args": {},
-        "lines": {
-          "ru": "Алкоголь",
-          "en": "Alcohol",
-          "es": "Alcohol",
-          "fr": "Alcool"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.powerful_medicine",
-        "args": {},
-        "lines": {
-          "ru": "Мощное усиление",
-          "en": "Strong Boost",
-          "es": "Impulso fuerte",
-          "fr": "Boost puissant"
-        }
-      },
-      "result": [
-        {
-          "item": "g4lp0",
-          "amount": 3
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "y75z",
-          "amount": 2
-        },
-        {
-          "item": "m0pyj",
-          "amount": 2
-        },
-        {
-          "item": "z3ozm",
-          "amount": 1
-        },
-        {
-          "item": "rwow5",
-          "amount": 4
-        },
-        {
-          "item": "y770",
-          "amount": 5
-        }
-      ],
-      "energy": 1000.0,
-      "requirements": {
-        "perks": {
-          "brewing": 4
-        },
-        "features": [
-          "hoods",
-          "sterilization_system"
-        ]
-      }
-    },
-    {
-      "bench": "kitchen_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.brewing.name",
-        "args": {},
-        "lines": {
-          "ru": "Алкоголь",
-          "en": "Alcohol",
-          "es": "Alcohol",
-          "fr": "Alcool"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.powerful_medicine",
-        "args": {},
-        "lines": {
-          "ru": "Мощное усиление",
-          "en": "Strong Boost",
-          "es": "Impulso fuerte",
-          "fr": "Boost puissant"
-        }
-      },
-      "result": [
-        {
-          "item": "964z0",
-          "amount": 3
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "3g1qz",
-          "amount": 5
-        },
-        {
-          "item": "m0pyj",
-          "amount": 2
-        },
-        {
-          "item": "rwow5",
-          "amount": 4
-        },
-        {
-          "item": "y770",
-          "amount": 5
-        }
-      ],
-      "energy": 1000.0,
-      "requirements": {
-        "perks": {
-          "brewing": 4
-        },
-        "features": [
-          "hoods",
-          "sterilization_system"
-        ]
-      }
-    },
-    {
-      "bench": "kitchen_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.brewing.name",
-        "args": {},
-        "lines": {
-          "ru": "Алкоголь",
-          "en": "Alcohol",
-          "es": "Alcohol",
-          "fr": "Alcool"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.powerful_medicine",
-        "args": {},
-        "lines": {
-          "ru": "Мощное усиление",
-          "en": "Strong Boost",
-          "es": "Impulso fuerte",
-          "fr": "Boost puissant"
-        }
-      },
-      "result": [
-        {
-          "item": "7lyo3",
-          "amount": 4
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "lynkj",
-          "amount": 6
-        },
-        {
-          "item": "rw1mg",
-          "amount": 6
-        },
-        {
-          "item": "964z0",
-          "amount": 6
-        },
-        {
-          "item": "3gvgg",
-          "amount": 7
-        },
-        {
-          "item": "1r246",
-          "amount": 6
-        }
-      ],
-      "energy": 1200.0,
-      "requirements": {
-        "perks": {
-          "brewing": 5
-        },
-        "features": [
-          "fermentation_container",
-          "sterilization_system"
-        ]
-      }
-    },
-    {
-      "bench": "kitchen_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.brewing.name",
-        "args": {},
-        "lines": {
-          "ru": "Алкоголь",
-          "en": "Alcohol",
-          "es": "Alcohol",
-          "fr": "Alcool"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.powerful_medicine",
-        "args": {},
-        "lines": {
-          "ru": "Мощное усиление",
-          "en": "Strong Boost",
-          "es": "Impulso fuerte",
-          "fr": "Boost puissant"
-        }
-      },
-      "result": [
-        {
-          "item": "zzqn9",
-          "amount": 3
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "g4lp0",
-          "amount": 5
-        },
-        {
-          "item": "3g1qz",
-          "amount": 4
-        },
-        {
-          "item": "5drg",
-          "amount": 3
-        }
-      ],
-      "energy": 1000.0,
-      "requirements": {
-        "perks": {
-          "brewing": 5
-        },
-        "features": [
-          "hoods",
-          "sterilization_system"
-        ]
-      }
-    },
-    {
-      "bench": "kitchen_table",
-      "category": {
-        "type": "translation",
-        "key": "hideout.benches.categories.brewing.name",
-        "args": {},
-        "lines": {
-          "ru": "Алкоголь",
-          "en": "Alcohol",
-          "es": "Alcohol",
-          "fr": "Alcool"
-        }
-      },
-      "subcategory": {
-        "type": "translation",
-        "key": "item.effects.effect_type.powerful_medicine",
-        "args": {},
-        "lines": {
-          "ru": "Мощное усиление",
-          "en": "Strong Boost",
-          "es": "Impulso fuerte",
-          "fr": "Boost puissant"
-        }
-      },
-      "result": [
-        {
-          "item": "g4lzg",
-          "amount": 3
-        }
-      ],
-      "ingredients": [
-        {
-          "item": "964z0",
-          "amount": 5
-        },
-        {
-          "item": "j5mg7",
-          "amount": 4
-        },
-        {
-          "item": "wjwzp",
-          "amount": 2
-        }
-      ],
-      "energy": 1000.0,
-      "requirements": {
-        "perks": {
-          "brewing": 5
-        },
-        "features": [
-          "hoods",
-          "sterilization_system"
         ]
       }
     },
@@ -19513,7 +19513,7 @@
         },
         {
           "item": "g4lp0",
-          "amount": 5
+          "amount": 2
         }
       ],
       "energy": 1200.0,

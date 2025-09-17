@@ -14,7 +14,7 @@
   },
   "color": "RANK_NEWBIE",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -242,22 +242,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.health_bonus",
             "args": {},
             "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration",
-              "es": "Regeneración de salud",
-              "fr": "Régénération de la santé"
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
             }
           },
-          "value": 2.0,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "2%",
-              "en": "2%",
-              "es": "2 %",
-              "fr": "2%"
+              "ru": "3%",
+              "en": "3%",
+              "es": "3 %",
+              "fr": "3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -267,22 +267,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Реакция на разрыв",
-              "en": "Reaction to laceration",
-              "es": "Reacción a la laceración",
-              "fr": "Réaction aux lacérations"
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
             }
           },
-          "value": 2.2,
+          "value": 4.5,
           "formatted": {
             "value": {
-              "ru": "2,2%",
-              "en": "2.2%",
-              "es": "2,2 %",
-              "fr": "2,2%"
+              "ru": "4,5%",
+              "en": "4.5%",
+              "es": "4,5 %",
+              "fr": "4,5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

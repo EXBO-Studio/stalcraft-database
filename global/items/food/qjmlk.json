@@ -14,7 +14,7 @@
   },
   "color": "RANK_NEWBIE",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -140,13 +140,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -236,13 +236,13 @@
               "fr": "Vitalité"
             }
           },
-          "value": 1.1,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "1,1%",
-              "en": "1.1%",
-              "es": "1,1 %",
-              "fr": "1,1%"
+              "ru": "3%",
+              "en": "3%",
+              "es": "3 %",
+              "fr": "3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -261,13 +261,13 @@
               "fr": "Efficacité des soins"
             }
           },
-          "value": 7.6,
+          "value": 17.5,
           "formatted": {
             "value": {
-              "ru": "7,6%",
-              "en": "7.6%",
-              "es": "7,6 %",
-              "fr": "7,6%"
+              "ru": "17,5%",
+              "en": "17.5%",
+              "es": "17,5 %",
+              "fr": "17,5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -14,7 +14,7 @@
   },
   "color": "RANK_NEWBIE",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -139,13 +139,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -203,13 +203,13 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "key": "stalker.tooltip.medicine.info.persistent",
             "args": {},
             "lines": {
-              "ru": "Эффект пропадает при смерти",
-              "en": "Effect wears off after death",
-              "es": "El efecto desaparece tras la muerte",
-              "fr": "L\u0027effet persiste après la mort"
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death",
+              "es": "El efecto no desaparece tras la muerte",
+              "fr": "L\u0027effet disparaît après la mort"
             }
           }
         }
@@ -235,13 +235,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 12.0,
+          "value": 27.0,
           "formatted": {
             "value": {
-              "ru": "12%",
-              "en": "12%",
-              "es": "12 %",
-              "fr": "12%"
+              "ru": "27%",
+              "en": "27%",
+              "es": "27 %",
+              "fr": "27%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -251,22 +251,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed",
-              "es": "Velocidad de movimiento",
-              "fr": "Vitesse de déplacement"
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 1.3,
+          "value": 7.0,
           "formatted": {
             "value": {
-              "ru": "1,3%",
-              "en": "1.3%",
-              "es": "1,3 %",
-              "fr": "1,3%"
+              "ru": "7%",
+              "en": "7%",
+              "es": "7 %",
+              "fr": "7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

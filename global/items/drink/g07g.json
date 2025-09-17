@@ -191,13 +191,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -255,13 +255,13 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "key": "stalker.tooltip.medicine.info.persistent",
             "args": {},
             "lines": {
-              "ru": "Эффект пропадает при смерти",
-              "en": "Effect wears off after death",
-              "es": "El efecto desaparece tras la muerte",
-              "fr": "L\u0027effet persiste après la mort"
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death",
+              "es": "El efecto no desaparece tras la muerte",
+              "fr": "L\u0027effet disparaît après la mort"
             }
           }
         }
@@ -278,22 +278,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration",
-              "es": "Regeneración de salud",
-              "fr": "Régénération de la santé"
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
             }
           },
-          "value": 1.9,
+          "value": 31.8,
           "formatted": {
             "value": {
-              "ru": "1,9%",
-              "en": "1.9%",
-              "es": "1,9 %",
-              "fr": "1,9%"
+              "ru": "31,8%",
+              "en": "31.8%",
+              "es": "31,8 %",
+              "fr": "31,8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -303,22 +303,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance"
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
             }
           },
-          "value": 2.7,
+          "value": 16.0,
           "formatted": {
             "value": {
-              "ru": "2,7%",
-              "en": "2.7%",
-              "es": "2,7 %",
-              "fr": "2,7%"
+              "ru": "16%",
+              "en": "16%",
+              "es": "16 %",
+              "fr": "16%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

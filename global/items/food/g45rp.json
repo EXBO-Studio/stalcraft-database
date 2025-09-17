@@ -14,7 +14,7 @@
   },
   "color": "DEFAULT",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -139,13 +139,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -235,13 +235,13 @@
               "fr": "Vitalité"
             }
           },
-          "value": 1.1,
+          "value": 2.5,
           "formatted": {
             "value": {
-              "ru": "1,1%",
-              "en": "1.1%",
-              "es": "1,1 %",
-              "fr": "1,1%"
+              "ru": "2,5%",
+              "en": "2.5%",
+              "es": "2,5 %",
+              "fr": "2,5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

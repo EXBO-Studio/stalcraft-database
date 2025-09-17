@@ -14,7 +14,7 @@
   },
   "color": "RANK_VETERAN",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.strength",
+            "key": "item.effects.effect_type.mobility",
             "args": {},
             "lines": {
-              "ru": "Повышение силы",
-              "en": "Strength Improvement",
-              "es": "Mejora de fuerza",
-              "fr": "Amélioration de la force"
+              "ru": "Подвижность",
+              "en": "Mobility",
+              "es": "Movilidad",
+              "fr": "Mobilité"
             }
           }
         },
@@ -276,13 +276,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 19.2,
+          "value": 34.0,
           "formatted": {
             "value": {
-              "ru": "19,2%",
-              "en": "19.2%",
-              "es": "19,2 %",
-              "fr": "19,2%"
+              "ru": "34%",
+              "en": "34%",
+              "es": "34 %",
+              "fr": "34%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -301,13 +301,38 @@
               "fr": "Poids maximum supporté"
             }
           },
-          "value": 12.9,
+          "value": 21.4,
           "formatted": {
             "value": {
-              "ru": "12,9",
-              "en": "12.9",
-              "es": "12,9",
-              "fr": "12,9"
+              "ru": "21,4",
+              "en": "21.4",
+              "es": "21,4",
+              "fr": "21,4"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
+            }
+          },
+          "value": 3.4,
+          "formatted": {
+            "value": {
+              "ru": "3,4%",
+              "en": "3.4%",
+              "es": "3,4 %",
+              "fr": "3,4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -14,7 +14,7 @@
   },
   "color": "RANK_STALKER",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.fire_protection",
+            "key": "item.effects.effect_type.protection",
             "args": {},
             "lines": {
-              "ru": "Защита от ожогов",
-              "en": "Burn Protection",
-              "es": "Protección contra quemaduras",
-              "fr": "Protection contre les brûlures"
+              "ru": "Защита",
+              "en": "Protection",
+              "es": "Protección",
+              "fr": "Protection"
             }
           }
         },
@@ -242,6 +242,31 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "value": 4.5,
+          "formatted": {
+            "value": {
+              "ru": "4,5",
+              "en": "4.5",
+              "es": "4,5",
+              "fr": "4,5"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.burn_dmg_factor",
             "args": {},
             "lines": {
@@ -251,13 +276,13 @@
               "fr": "Résistance au feu"
             }
           },
-          "value": 18.8,
+          "value": 18.1,
           "formatted": {
             "value": {
-              "ru": "18,8",
-              "en": "18.8",
-              "es": "18,8",
-              "fr": "18,8"
+              "ru": "18,1",
+              "en": "18.1",
+              "es": "18,1",
+              "fr": "18,1"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -276,13 +301,13 @@
               "fr": "Résistance aux produits chimiques"
             }
           },
-          "value": 18.8,
+          "value": 18.1,
           "formatted": {
             "value": {
-              "ru": "18,8",
-              "en": "18.8",
-              "es": "18,8",
-              "fr": "18,8"
+              "ru": "18,1",
+              "en": "18.1",
+              "es": "18,1",
+              "fr": "18,1"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -301,13 +326,13 @@
               "fr": "Combustion"
             }
           },
-          "value": -0.5,
+          "value": -0.75,
           "formatted": {
             "value": {
-              "ru": "-0,5",
-              "en": "-0.5",
-              "es": "-0,5",
-              "fr": "-0,5"
+              "ru": "-0,75",
+              "en": "-0.75",
+              "es": "-0,75",
+              "fr": "-0,75"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

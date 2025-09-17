@@ -14,7 +14,7 @@
   },
   "color": "RANK_NEWBIE",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -139,13 +139,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -203,13 +203,13 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "key": "stalker.tooltip.medicine.info.persistent",
             "args": {},
             "lines": {
-              "ru": "Эффект пропадает при смерти",
-              "en": "Effect wears off after death",
-              "es": "El efecto desaparece tras la muerte",
-              "fr": "L\u0027effet persiste après la mort"
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death",
+              "es": "El efecto no desaparece tras la muerte",
+              "fr": "L\u0027effet disparaît après la mort"
             }
           }
         }
@@ -235,13 +235,13 @@
               "fr": "Vitalité"
             }
           },
-          "value": 1.1,
+          "value": 2.8,
           "formatted": {
             "value": {
-              "ru": "1,1%",
-              "en": "1.1%",
-              "es": "1,1 %",
-              "fr": "1,1%"
+              "ru": "2,8%",
+              "en": "2.8%",
+              "es": "2,8 %",
+              "fr": "2,8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -260,13 +260,13 @@
               "fr": "Régénération de la santé"
             }
           },
-          "value": 1.9,
+          "value": 4.1,
           "formatted": {
             "value": {
-              "ru": "1,9%",
-              "en": "1.9%",
-              "es": "1,9 %",
-              "fr": "1,9%"
+              "ru": "4,1%",
+              "en": "4.1%",
+              "es": "4,1 %",
+              "fr": "4,1%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

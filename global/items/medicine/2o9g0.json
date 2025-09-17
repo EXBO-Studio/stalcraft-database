@@ -14,7 +14,7 @@
   },
   "color": "RANK_VETERAN",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -212,13 +212,13 @@
               "fr": "Poison"
             }
           },
-          "value": 50.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50",
-              "es": "50",
-              "fr": "50"
+              "ru": "40",
+              "en": "40",
+              "es": "40",
+              "fr": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -251,6 +251,31 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "value": 30.4,
+          "formatted": {
+            "value": {
+              "ru": "30,4%",
+              "en": "30.4%",
+              "es": "30,4 %",
+              "fr": "30,4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
@@ -260,16 +285,16 @@
               "fr": "Régénération de la santé"
             }
           },
-          "value": -2.5,
+          "value": 4.7,
           "formatted": {
             "value": {
-              "ru": "-2,5%",
-              "en": "-2.5%",
-              "es": "-2,5 %",
-              "fr": "-2,5%"
+              "ru": "4,7%",
+              "en": "4.7%",
+              "es": "4,7 %",
+              "fr": "4,7%"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
@@ -310,13 +335,13 @@
               "fr": "Réaction aux lacérations"
             }
           },
-          "value": 3.6,
+          "value": 6.2,
           "formatted": {
             "value": {
-              "ru": "3,6%",
-              "en": "3.6%",
-              "es": "3,6 %",
-              "fr": "3,6%"
+              "ru": "6,2%",
+              "en": "6.2%",
+              "es": "6,2 %",
+              "fr": "6,2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

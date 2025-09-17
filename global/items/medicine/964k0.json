@@ -176,13 +176,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.fire_protection",
+            "key": "item.effects.effect_type.protection",
             "args": {},
             "lines": {
-              "ru": "Защита от ожогов",
-              "en": "Burn Protection",
-              "es": "Protección contra quemaduras",
-              "fr": "Protection contre les brûlures"
+              "ru": "Защита",
+              "en": "Protection",
+              "es": "Protección",
+              "fr": "Protection"
             }
           }
         },
@@ -263,6 +263,56 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "value": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "1,5%",
+              "en": "1.5%",
+              "es": "1,5 %",
+              "fr": "1,5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "value": 6.3,
+          "formatted": {
+            "value": {
+              "ru": "6,3",
+              "en": "6.3",
+              "es": "6,3",
+              "fr": "6,3"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.burn_dmg_factor",
             "args": {},
             "lines": {
@@ -322,13 +372,13 @@
               "fr": "Combustion"
             }
           },
-          "value": -1.0,
+          "value": -1.5,
           "formatted": {
             "value": {
-              "ru": "-1",
-              "en": "-1",
-              "es": "-1",
-              "fr": "-1"
+              "ru": "-1,5",
+              "en": "-1.5",
+              "es": "-1,5",
+              "fr": "-1,5"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

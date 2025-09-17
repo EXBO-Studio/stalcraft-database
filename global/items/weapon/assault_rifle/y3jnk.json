@@ -421,7 +421,7 @@
               "fr": "Dispersion"
             }
           },
-          "value": 0.41999996,
+          "value": 0.42000008,
           "formatted": {
             "value": {
               "ru": "0,42°",
@@ -446,13 +446,13 @@
               "fr": "Dispersion du tir à l\u0027aveugle"
             }
           },
-          "value": 2.025,
+          "value": 2.7,
           "formatted": {
             "value": {
-              "ru": "2,02°",
-              "en": "2.02°",
-              "es": "2,02°",
-              "fr": "2,02°"
+              "ru": "2,7°",
+              "en": "2.7°",
+              "es": "2,7°",
+              "fr": "2,7°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -619,47 +619,6 @@
               "es": "Daño a extremidades: x0,7",
               "fr": "Dégât aux membres : x0,7"
             }
-          }
-        }
-      ]
-    },
-    {
-      "type": "list",
-      "title": {
-        "type": "translation",
-        "key": "weapon.tooltip.weapon.info.attachment_stats",
-        "args": {},
-        "lines": {
-          "ru": "Характеристики обвесов",
-          "en": "Attachment properties",
-          "es": "Propiedades de accesorios",
-          "fr": "Propriétés des accessoires"
-        }
-      },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.hip_spread",
-            "args": {},
-            "lines": {
-              "ru": "Разброс от бедра",
-              "en": "Hip-fire spread",
-              "es": "Dispersión de disparos desde la cadera",
-              "fr": "Dispersion du tir à l\u0027aveugle"
-            }
-          },
-          "value": -25.0,
-          "formatted": {
-            "value": {
-              "ru": "-25%",
-              "en": "-25%",
-              "es": "-25 %",
-              "fr": "-25%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
           }
         }
       ]

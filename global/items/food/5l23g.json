@@ -140,13 +140,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -236,38 +236,13 @@
               "fr": "Vitalité"
             }
           },
-          "value": 1.4,
+          "value": 3.2,
           "formatted": {
             "value": {
-              "ru": "1,4%",
-              "en": "1.4%",
-              "es": "1,4 %",
-              "fr": "1,4%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina",
-              "es": "Aguante",
-              "fr": "Endurance"
-            }
-          },
-          "value": 16.0,
-          "formatted": {
-            "value": {
-              "ru": "16%",
-              "en": "16%",
-              "es": "16 %",
-              "fr": "16%"
+              "ru": "3,2%",
+              "en": "3.2%",
+              "es": "3,2 %",
+              "fr": "3,2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -286,13 +261,38 @@
               "fr": "Régénération de la santé"
             }
           },
-          "value": 2.5,
+          "value": 6.8,
           "formatted": {
             "value": {
-              "ru": "2,5%",
-              "en": "2.5%",
-              "es": "2,5 %",
-              "fr": "2,5%"
+              "ru": "6,8%",
+              "en": "6.8%",
+              "es": "6,8 %",
+              "fr": "6,8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
+            }
+          },
+          "value": 6.3,
+          "formatted": {
+            "value": {
+              "ru": "6,3%",
+              "en": "6.3%",
+              "es": "6,3 %",
+              "fr": "6,3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -311,13 +311,13 @@
               "fr": "Efficacité des soins"
             }
           },
-          "value": 9.5,
+          "value": 30.9,
           "formatted": {
             "value": {
-              "ru": "9,5%",
-              "en": "9.5%",
-              "es": "9,5 %",
-              "fr": "9,5%"
+              "ru": "30,9%",
+              "en": "30.9%",
+              "es": "30,9 %",
+              "fr": "30,9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
