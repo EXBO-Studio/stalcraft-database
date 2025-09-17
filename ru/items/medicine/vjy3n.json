@@ -14,7 +14,7 @@
   },
   "color": "RANK_VETERAN",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -318,6 +318,31 @@
               "en": "6.3%",
               "es": "6,3 %",
               "fr": "6,3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "value": 17.1,
+          "formatted": {
+            "value": {
+              "ru": "17,1%",
+              "en": "17.1%",
+              "es": "17,1 %",
+              "fr": "17,1%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

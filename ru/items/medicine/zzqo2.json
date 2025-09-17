@@ -14,7 +14,7 @@
   },
   "color": "RANK_MASTER",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -139,13 +139,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.stamina",
+            "key": "item.effects.effect_type.mobility",
             "args": {},
             "lines": {
-              "ru": "Повышение выносливости",
-              "en": "Stamina Improvement",
-              "es": "Mejora de aguante",
-              "fr": "Amélioration de l\u0027endurance"
+              "ru": "Подвижность",
+              "en": "Mobility",
+              "es": "Movilidad",
+              "fr": "Mobilité"
             }
           }
         },
@@ -260,13 +260,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 24.0,
+          "value": 26.4,
           "formatted": {
             "value": {
-              "ru": "24%",
-              "en": "24%",
-              "es": "24 %",
-              "fr": "24%"
+              "ru": "26,4%",
+              "en": "26.4%",
+              "es": "26,4 %",
+              "fr": "26,4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -285,13 +285,38 @@
               "fr": "Vitesse de déplacement"
             }
           },
-          "value": 1.3,
+          "value": 2.3,
           "formatted": {
             "value": {
-              "ru": "1,3%",
-              "en": "1.3%",
-              "es": "1,3 %",
-              "fr": "1,3%"
+              "ru": "2,3%",
+              "en": "2.3%",
+              "es": "2,3 %",
+              "fr": "2,3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "value": 18.0,
+          "formatted": {
+            "value": {
+              "ru": "18",
+              "en": "18",
+              "es": "18",
+              "fr": "18"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -310,13 +335,13 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 2.7,
+          "value": 5.8,
           "formatted": {
             "value": {
-              "ru": "2,7%",
-              "en": "2.7%",
-              "es": "2,7 %",
-              "fr": "2,7%"
+              "ru": "5,8%",
+              "en": "5.8%",
+              "es": "5,8 %",
+              "fr": "5,8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

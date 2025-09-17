@@ -14,7 +14,7 @@
   },
   "color": "RANK_STALKER",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.powerful_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Мощное усиление",
-              "en": "Strong Boost",
-              "es": "Impulso fuerte",
-              "fr": "Boost puissant"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -228,13 +228,13 @@
               "fr": "Poison"
             }
           },
-          "value": 50.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50",
-              "es": "50",
-              "fr": "50"
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -267,22 +267,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité"
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
             }
           },
-          "value": 2.5,
+          "value": 36.8,
           "formatted": {
             "value": {
-              "ru": "2,5%",
-              "en": "2.5%",
-              "es": "2,5 %",
-              "fr": "2,5%"
+              "ru": "36,8%",
+              "en": "36.8%",
+              "es": "36,8 %",
+              "fr": "36,8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -292,22 +292,47 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
             }
           },
-          "value": 6.3,
+          "value": 4.5,
           "formatted": {
             "value": {
-              "ru": "6,3%",
-              "en": "6.3%",
-              "es": "6,3 %",
-              "fr": "6,3%"
+              "ru": "4,5%",
+              "en": "4.5%",
+              "es": "4,5 %",
+              "fr": "4,5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "value": 20.3,
+          "formatted": {
+            "value": {
+              "ru": "20,3",
+              "en": "20.3",
+              "es": "20,3",
+              "fr": "20,3"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

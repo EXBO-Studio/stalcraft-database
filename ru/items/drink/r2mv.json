@@ -191,13 +191,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -278,31 +278,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité"
-            }
-          },
-          "value": 1.2,
-          "formatted": {
-            "value": {
-              "ru": "1,2%",
-              "en": "1.2%",
-              "es": "1,2 %",
-              "fr": "1,2%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
@@ -312,13 +287,38 @@
               "fr": "Vitesse de déplacement"
             }
           },
-          "value": 1.5,
+          "value": 3.9,
           "formatted": {
             "value": {
-              "ru": "1,5%",
-              "en": "1.5%",
-              "es": "1,5 %",
-              "fr": "1,5%"
+              "ru": "3,9%",
+              "en": "3.9%",
+              "es": "3,9 %",
+              "fr": "3,9%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "value": 4.9,
+          "formatted": {
+            "value": {
+              "ru": "4,9%",
+              "en": "4.9%",
+              "es": "4,9 %",
+              "fr": "4,9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

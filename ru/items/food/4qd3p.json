@@ -140,13 +140,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -236,13 +236,13 @@
               "fr": "Vitalité"
             }
           },
-          "value": 1.4,
+          "value": 4.6,
           "formatted": {
             "value": {
-              "ru": "1,4%",
-              "en": "1.4%",
-              "es": "1,4 %",
-              "fr": "1,4%"
+              "ru": "4,6%",
+              "en": "4.6%",
+              "es": "4,6 %",
+              "fr": "4,6%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -252,22 +252,47 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed",
-              "es": "Velocidad de movimiento",
-              "fr": "Vitesse de déplacement"
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
             }
           },
-          "value": 1.7,
+          "value": 19.4,
           "formatted": {
             "value": {
-              "ru": "1,7%",
-              "en": "1.7%",
-              "es": "1,7 %",
-              "fr": "1,7%"
+              "ru": "19,4",
+              "en": "19.4",
+              "es": "19,4",
+              "fr": "19,4"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "value": 5.6,
+          "formatted": {
+            "value": {
+              "ru": "5,6%",
+              "en": "5.6%",
+              "es": "5,6 %",
+              "fr": "5,6%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -286,38 +311,13 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 3.5,
+          "value": 9.7,
           "formatted": {
             "value": {
-              "ru": "3,5%",
-              "en": "3.5%",
-              "es": "3,5 %",
-              "fr": "3,5%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Кровотечение",
-              "en": "Bleeding",
-              "es": "Hemorragia",
-              "fr": "Saignement"
-            }
-          },
-          "value": -0.9,
-          "formatted": {
-            "value": {
-              "ru": "-0,9",
-              "en": "-0.9",
-              "es": "-0,9",
-              "fr": "-0,9"
+              "ru": "9,7%",
+              "en": "9.7%",
+              "es": "9,7 %",
+              "fr": "9,7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

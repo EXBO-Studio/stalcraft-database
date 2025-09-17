@@ -176,39 +176,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.bandage",
+            "key": "item.effects.effect_type.protection",
             "args": {},
             "lines": {
-              "ru": "Устранение кровотечения",
-              "en": "Bleeding Elimination",
-              "es": "Eliminación de hemorragia",
-              "fr": "Arrêt du saignement"
+              "ru": "Защита",
+              "en": "Protection",
+              "es": "Protección",
+              "fr": "Protection"
             }
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.tooltip.medicine.info.hp_regen",
-            "args": {},
-            "lines": {
-              "ru": "Мгновенное лечение",
-              "en": "Instant healing",
-              "es": "Curación instantánea",
-              "fr": "Soins instantanés"
-            }
-          },
-          "value": 5.0,
-          "formatted": {
-            "value": {
-              "ru": "5",
-              "en": "5",
-              "es": "5",
-              "fr": "5"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
           }
         },
         {
@@ -249,16 +224,30 @@
               "fr": "Durée"
             }
           },
-          "value": 5.0,
+          "value": 1800.0,
           "formatted": {
             "value": {
-              "ru": "5 с",
-              "en": "5 sec",
-              "es": "5 s",
-              "fr": "5 s"
+              "ru": "30 мин",
+              "en": "30 min",
+              "es": "30 min",
+              "fr": "30 min"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death",
+              "es": "El efecto no desaparece tras la muerte",
+              "fr": "L\u0027effet disparaît après la mort"
+            }
           }
         }
       ]
@@ -283,13 +272,63 @@
               "fr": "Régénération de la santé"
             }
           },
-          "value": 10.0,
+          "value": 1.5,
           "formatted": {
             "value": {
-              "ru": "10%",
-              "en": "10%",
-              "es": "10 %",
-              "fr": "10%"
+              "ru": "1,5%",
+              "en": "1.5%",
+              "es": "1,5 %",
+              "fr": "1,5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "value": 5.9,
+          "formatted": {
+            "value": {
+              "ru": "5,9%",
+              "en": "5.9%",
+              "es": "5,9 %",
+              "fr": "5,9%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "value": 17.5,
+          "formatted": {
+            "value": {
+              "ru": "17,5%",
+              "en": "17.5%",
+              "es": "17,5 %",
+              "fr": "17,5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -308,13 +347,13 @@
               "fr": "Saignement"
             }
           },
-          "value": -20.0,
+          "value": -2.3,
           "formatted": {
             "value": {
-              "ru": "-20",
-              "en": "-20",
-              "es": "-20",
-              "fr": "-20"
+              "ru": "-2,3",
+              "en": "-2.3",
+              "es": "-2,3",
+              "fr": "-2,3"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

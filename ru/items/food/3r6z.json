@@ -176,13 +176,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -240,13 +240,13 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "key": "stalker.tooltip.medicine.info.persistent",
             "args": {},
             "lines": {
-              "ru": "Эффект пропадает при смерти",
-              "en": "Effect wears off after death",
-              "es": "El efecto desaparece tras la muerte",
-              "fr": "L\u0027effet persiste après la mort"
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death",
+              "es": "El efecto no desaparece tras la muerte",
+              "fr": "L\u0027effet disparaît après la mort"
             }
           }
         }
@@ -263,22 +263,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Кровотечение",
-              "en": "Bleeding",
-              "es": "Hemorragia",
-              "fr": "Saignement"
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
             }
           },
-          "value": -0.63,
+          "value": 26.0,
           "formatted": {
             "value": {
-              "ru": "-0,63",
-              "en": "-0.63",
-              "es": "-0,63",
-              "fr": "-0,63"
+              "ru": "26%",
+              "en": "26%",
+              "es": "26 %",
+              "fr": "26%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

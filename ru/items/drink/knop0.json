@@ -14,7 +14,7 @@
   },
   "color": "RANK_STALKER",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -139,13 +139,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.powerful_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Мощное усиление",
-              "en": "Strong Boost",
-              "es": "Impulso fuerte",
-              "fr": "Boost puissant"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -212,13 +212,13 @@
               "fr": "Poison"
             }
           },
-          "value": 50.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50",
-              "es": "50",
-              "fr": "50"
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -251,47 +251,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
             }
           },
-          "value": 2.4,
+          "value": 3.9,
           "formatted": {
             "value": {
-              "ru": "2,4%",
-              "en": "2.4%",
-              "es": "2,4 %",
-              "fr": "2,4%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina",
-              "es": "Aguante",
-              "fr": "Endurance"
-            }
-          },
-          "value": 27.2,
-          "formatted": {
-            "value": {
-              "ru": "27,2%",
-              "en": "27.2%",
-              "es": "27,2 %",
-              "fr": "27,2%"
+              "ru": "3,9%",
+              "en": "3.9%",
+              "es": "3,9 %",
+              "fr": "3,9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -310,13 +285,13 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 6.0,
+          "value": 7.0,
           "formatted": {
             "value": {
-              "ru": "6%",
-              "en": "6%",
-              "es": "6 %",
-              "fr": "6%"
+              "ru": "7%",
+              "en": "7%",
+              "es": "7 %",
+              "fr": "7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

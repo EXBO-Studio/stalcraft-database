@@ -14,7 +14,7 @@
   },
   "color": "RANK_VETERAN",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.stamina",
+            "key": "item.effects.effect_type.mobility",
             "args": {},
             "lines": {
-              "ru": "Повышение выносливости",
-              "en": "Stamina Improvement",
-              "es": "Mejora de aguante",
-              "fr": "Amélioration de l\u0027endurance"
+              "ru": "Подвижность",
+              "en": "Mobility",
+              "es": "Movilidad",
+              "fr": "Mobilité"
             }
           }
         },
@@ -267,6 +267,31 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "value": 28.0,
+          "formatted": {
+            "value": {
+              "ru": "28%",
+              "en": "28%",
+              "es": "28 %",
+              "fr": "28%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
@@ -276,13 +301,13 @@
               "fr": "Vitesse de déplacement"
             }
           },
-          "value": 2.0,
+          "value": 2.3,
           "formatted": {
             "value": {
-              "ru": "2%",
-              "en": "2%",
-              "es": "2 %",
-              "fr": "2%"
+              "ru": "2,3%",
+              "en": "2.3%",
+              "es": "2,3 %",
+              "fr": "2,3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -301,13 +326,13 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 4.2,
+          "value": 4.1,
           "formatted": {
             "value": {
-              "ru": "4,2%",
-              "en": "4.2%",
-              "es": "4,2 %",
-              "fr": "4,2%"
+              "ru": "4,1%",
+              "en": "4.1%",
+              "es": "4,1 %",
+              "fr": "4,1%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

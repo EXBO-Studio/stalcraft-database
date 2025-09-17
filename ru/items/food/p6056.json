@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -242,6 +242,31 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "value": 41.7,
+          "formatted": {
+            "value": {
+              "ru": "41,7%",
+              "en": "41.7%",
+              "es": "41,7 %",
+              "fr": "41,7%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
@@ -251,13 +276,13 @@
               "fr": "Poids maximum supporté"
             }
           },
-          "value": 10.7,
+          "value": 32.8,
           "formatted": {
             "value": {
-              "ru": "10,7",
-              "en": "10.7",
-              "es": "10,7",
-              "fr": "10,7"
+              "ru": "32,8",
+              "en": "32.8",
+              "es": "32,8",
+              "fr": "32,8"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -276,38 +301,13 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 3.5,
+          "value": 7.5,
           "formatted": {
             "value": {
-              "ru": "3,5%",
-              "en": "3.5%",
-              "es": "3,5 %",
-              "fr": "3,5%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.reaction_to_tear",
-            "args": {},
-            "lines": {
-              "ru": "Реакция на разрыв",
-              "en": "Reaction to laceration",
-              "es": "Reacción a la laceración",
-              "fr": "Réaction aux lacérations"
-            }
-          },
-          "value": 2.7,
-          "formatted": {
-            "value": {
-              "ru": "2,7%",
-              "en": "2.7%",
-              "es": "2,7 %",
-              "fr": "2,7%"
+              "ru": "7,5%",
+              "en": "7.5%",
+              "es": "7,5 %",
+              "fr": "7,5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

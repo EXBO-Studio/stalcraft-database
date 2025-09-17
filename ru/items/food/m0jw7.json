@@ -14,7 +14,7 @@
   },
   "color": "RANK_STALKER",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -242,31 +242,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
-            "args": {},
-            "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed",
-              "es": "Velocidad de movimiento",
-              "fr": "Vitesse de déplacement"
-            }
-          },
-          "value": 1.5,
-          "formatted": {
-            "value": {
-              "ru": "1,5%",
-              "en": "1.5%",
-              "es": "1,5 %",
-              "fr": "1,5%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
@@ -276,13 +251,38 @@
               "fr": "Régénération de la santé"
             }
           },
-          "value": 2.1,
+          "value": 4.9,
           "formatted": {
             "value": {
-              "ru": "2,1%",
-              "en": "2.1%",
-              "es": "2,1 %",
-              "fr": "2,1%"
+              "ru": "4,9%",
+              "en": "4.9%",
+              "es": "4,9 %",
+              "fr": "4,9%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
+            }
+          },
+          "value": 8.2,
+          "formatted": {
+            "value": {
+              "ru": "8,2%",
+              "en": "8.2%",
+              "es": "8,2 %",
+              "fr": "8,2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

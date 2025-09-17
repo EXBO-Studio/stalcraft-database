@@ -14,7 +14,7 @@
   },
   "color": "RANK_VETERAN",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -267,6 +267,56 @@
               "en": "30.4%",
               "es": "30,4 %",
               "fr": "30,4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
+            }
+          },
+          "value": 6.7,
+          "formatted": {
+            "value": {
+              "ru": "6,7%",
+              "en": "6.7%",
+              "es": "6,7 %",
+              "fr": "6,7%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "value": 18.1,
+          "formatted": {
+            "value": {
+              "ru": "18,1%",
+              "en": "18.1%",
+              "es": "18,1 %",
+              "fr": "18,1%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

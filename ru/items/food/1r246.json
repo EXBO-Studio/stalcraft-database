@@ -14,7 +14,7 @@
   },
   "color": "RANK_MASTER",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.low_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Слабое усиление",
-              "en": "Weak Boost",
-              "es": "Impulso débil",
-              "fr": "Boost faible"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -251,13 +251,13 @@
               "fr": "Vitalité"
             }
           },
-          "value": 1.4,
+          "value": 4.3,
           "formatted": {
             "value": {
-              "ru": "1,4%",
-              "en": "1.4%",
-              "es": "1,4 %",
-              "fr": "1,4%"
+              "ru": "4,3%",
+              "en": "4.3%",
+              "es": "4,3 %",
+              "fr": "4,3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -276,13 +276,13 @@
               "fr": "Endurance"
             }
           },
-          "value": 16.0,
+          "value": 41.7,
           "formatted": {
             "value": {
-              "ru": "16%",
-              "en": "16%",
-              "es": "16 %",
-              "fr": "16%"
+              "ru": "41,7%",
+              "en": "41.7%",
+              "es": "41,7 %",
+              "fr": "41,7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -292,22 +292,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed",
-              "es": "Velocidad de movimiento",
-              "fr": "Vitesse de déplacement"
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
             }
           },
-          "value": 1.7,
+          "value": 20.4,
           "formatted": {
             "value": {
-              "ru": "1,7%",
-              "en": "1.7%",
-              "es": "1,7 %",
-              "fr": "1,7%"
+              "ru": "20,4%",
+              "en": "20.4%",
+              "es": "20,4 %",
+              "fr": "20,4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

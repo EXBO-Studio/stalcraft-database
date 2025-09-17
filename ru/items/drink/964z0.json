@@ -14,7 +14,7 @@
   },
   "color": "RANK_VETERAN",
   "status": {
-    "state": "NONE"
+    "state": "NON_DROP"
   },
   "infoBlocks": [
     {
@@ -155,13 +155,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.powerful_medicine",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Мощное усиление",
-              "en": "Strong Boost",
-              "es": "Impulso fuerte",
-              "fr": "Boost puissant"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost"
             }
           }
         },
@@ -228,13 +228,13 @@
               "fr": "Poison"
             }
           },
-          "value": 50.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50",
-              "es": "50",
-              "fr": "50"
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -267,22 +267,22 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
             }
           },
-          "value": 2.7,
+          "value": 3.3,
           "formatted": {
             "value": {
-              "ru": "2,7%",
-              "en": "2.7%",
-              "es": "2,7 %",
-              "fr": "2,7%"
+              "ru": "3,3%",
+              "en": "3.3%",
+              "es": "3,3 %",
+              "fr": "3,3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -301,13 +301,13 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "value": 6.7,
+          "value": 8.6,
           "formatted": {
             "value": {
-              "ru": "6,7%",
-              "en": "6.7%",
-              "es": "6,7 %",
-              "fr": "6,7%"
+              "ru": "8,6%",
+              "en": "8.6%",
+              "es": "8,6 %",
+              "fr": "8,6%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -326,13 +326,13 @@
               "fr": "Efficacité des soins"
             }
           },
-          "value": 18.1,
+          "value": 27.4,
           "formatted": {
             "value": {
-              "ru": "18,1%",
-              "en": "18.1%",
-              "es": "18,1 %",
-              "fr": "18,1%"
+              "ru": "27,4%",
+              "en": "27.4%",
+              "es": "27,4 %",
+              "fr": "27,4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
