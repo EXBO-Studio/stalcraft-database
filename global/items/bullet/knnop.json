@@ -1,0 +1,242 @@
+{
+  "id": "knnop",
+  "category": "bullet",
+  "name": {
+    "type": "translation",
+    "key": "item.amm.12st_sessions.name",
+    "args": {},
+    "lines": {
+      "ru": "Крупнокалиберный самодельный патрон",
+      "en": "Large-Caliber Handmade Round",
+      "es": "Munición casera de gran calibre",
+      "fr": "Cartouche de Gros Calibre Artisanale"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.bullet",
+            "args": {},
+            "lines": {
+              "ru": "Патроны",
+              "en": "Rounds",
+              "es": "Munición",
+              "fr": "Munitions"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.bullet_type.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойный патрон",
+              "en": "Armor-piercing Round",
+              "es": "Munición perforante",
+              "fr": "Cartouche perforante"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.high_penetration",
+            "args": {},
+            "lines": {
+              "ru": "Высокая пробиваемость",
+              "en": "High penetration",
+              "es": "Penetración alta",
+              "fr": "Forte pénétration"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.stat_name.damage_type.burn",
+            "args": {},
+            "lines": {
+              "ru": "Огненный урон",
+              "en": "Fire damage",
+              "es": "Daño de fuego",
+              "fr": "Dégâts de feu"
+            }
+          },
+          "value": 11.5,
+          "formatted": {
+            "value": {
+              "ru": "11,5%",
+              "en": "11.5%",
+              "es": "11,5 %",
+              "fr": "11,5%"
+            },
+            "nameColor": "F1AA21",
+            "valueColor": "F1AA21"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "+100%",
+              "en": "+100%",
+              "es": "+100 %",
+              "fr": "+100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.combustion",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "+100%",
+              "en": "+100%",
+              "es": "+100 %",
+              "fr": "+100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power",
+              "es": "Poder de parada",
+              "fr": "Pouvoir d\u0027arrêt"
+            }
+          },
+          "value": 500.0,
+          "formatted": {
+            "value": {
+              "ru": "+500",
+              "en": "+500",
+              "es": "+500",
+              "fr": "+500"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

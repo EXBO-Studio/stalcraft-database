@@ -1,0 +1,202 @@
+{
+  "id": "2o0vl",
+  "category": "bullet",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.23dart.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка боевых пуль 23х75 мм",
+      "en": "Pouch of 23x75 mm Caliber Slug",
+      "es": "Bolsa de balas de combate de 23x75 mm",
+      "fr": "Sac de balles de combat 23x75 mm"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.bullet",
+            "args": {},
+            "lines": {
+              "ru": "Патроны",
+              "en": "Rounds",
+              "es": "Munición",
+              "fr": "Munitions"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "6 кг",
+              "en": "6 kg",
+              "es": "6 kg",
+              "fr": "6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l\u0027artisanat"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "customitem.lore.command.info.usages_left",
+            "args": {},
+            "lines": {
+              "ru": "Использований осталось",
+              "en": "Uses remaining",
+              "es": "Usos restantes",
+              "fr": "Utilisations restantes"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "5/5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.info.command_item.content",
+            "args": {},
+            "lines": {
+              "ru": "При использовании вы получите:",
+              "en": "When you use it, you’ll get:",
+              "es": "Al usar esto, obtendrás:",
+              "fr": "Lorsque vous l\u0027utilisez, vous aurez :"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.amm.23dart.name",
+            "args": {},
+            "lines": {
+              "ru": "Боевая пуля 23x75",
+              "en": "23x75 Caliber Slug",
+              "es": "Bala de combate de 23x75",
+              "fr": "Balle de combat 23x75"
+            }
+          }
+        }
+      ]
+    },
+    {}
+  ]
+}

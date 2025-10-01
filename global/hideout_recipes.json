@@ -2372,6 +2372,124 @@
       "bench": "workbench",
       "category": {
         "type": "translation",
+        "key": "hideout.benches.categories.ammunition.name",
+        "args": {},
+        "lines": {
+          "ru": "Боеприпасы",
+          "en": "Ammo",
+          "es": "Munición",
+          "fr": "Munitions"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "hideout.benches.categories.ammunition.23mm.name",
+        "args": {},
+        "lines": {
+          "ru": "23x75 мм",
+          "en": "23x75 mm",
+          "es": "23x75 mm",
+          "fr": "23x75 mm"
+        }
+      },
+      "result": [
+        {
+          "item": "2o0vl",
+          "amount": 1
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "1dnq",
+          "amount": 1
+        },
+        {
+          "item": "5n51",
+          "amount": 20
+        },
+        {
+          "item": "5nno",
+          "amount": 20
+        },
+        {
+          "item": "gmmn",
+          "amount": 20
+        }
+      ],
+      "energy": 1000.0,
+      "requirements": {
+        "perks": {
+          "ammunition": 3
+        },
+        "features": [
+          "workbench",
+          "precise_tools"
+        ]
+      }
+    },
+    {
+      "bench": "workbench",
+      "category": {
+        "type": "translation",
+        "key": "hideout.benches.categories.ammunition.name",
+        "args": {},
+        "lines": {
+          "ru": "Боеприпасы",
+          "en": "Ammo",
+          "es": "Munición",
+          "fr": "Munitions"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "hideout.benches.categories.ammunition.23mm.name",
+        "args": {},
+        "lines": {
+          "ru": "23x75 мм",
+          "en": "23x75 mm",
+          "es": "23x75 mm",
+          "fr": "23x75 mm"
+        }
+      },
+      "result": [
+        {
+          "item": "7l1z6",
+          "amount": 1
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "2o0vl",
+          "amount": 1
+        },
+        {
+          "item": "q2yj",
+          "amount": 2
+        },
+        {
+          "item": "m2lr",
+          "amount": 15
+        },
+        {
+          "item": "4nnj",
+          "amount": 5
+        }
+      ],
+      "energy": 1200.0,
+      "requirements": {
+        "perks": {
+          "ammunition": 5
+        },
+        "features": [
+          "tool_trolley",
+          "cnc"
+        ]
+      }
+    },
+    {
+      "bench": "workbench",
+      "category": {
+        "type": "translation",
         "key": "hideout.benches.categories.armor.name",
         "args": {},
         "lines": {

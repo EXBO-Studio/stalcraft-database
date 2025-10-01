@@ -8012,7 +8012,7 @@
         "fr": "M84"
       }
     },
-    "color": "DEFAULT",
+    "color": "RANK_STALKER",
     "status": {
       "state": "NONE"
     }
@@ -8205,25 +8205,6 @@
     "color": "RANK_MASTER",
     "status": {
       "state": "NON_DROP"
-    }
-  },
-  {
-    "data": "/items/grenade/7ynr.json",
-    "icon": "/icons/grenade/7ynr.png",
-    "name": {
-      "type": "translation",
-      "key": "item.exp.m381_2.name",
-      "args": {},
-      "lines": {
-        "ru": "Выстрел гранатометный M2",
-        "en": "M2 Grenade Round",
-        "es": "Proyectil de granada M2",
-        "fr": "Cartouche M2"
-      }
-    },
-    "color": "DEFAULT",
-    "status": {
-      "state": "NONE"
     }
   },
   {
@@ -9112,6 +9093,63 @@
         "en": "Tank of Combustible Mixture",
         "es": "Depósito de mezcla combustible",
         "fr": "Citerne de Mélange Combustible"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/bullet/z1kn.json",
+    "icon": "/icons/bullet/z1kn.png",
+    "name": {
+      "type": "translation",
+      "key": "item.amm.23dart.name",
+      "args": {},
+      "lines": {
+        "ru": "Боевая пуля 23x75",
+        "en": "23x75 Caliber Slug",
+        "es": "Bala de combate de 23x75",
+        "fr": "Balle de combat 23x75"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/bullet/52y0.json",
+    "icon": "/icons/bullet/52y0.png",
+    "name": {
+      "type": "translation",
+      "key": "item.amm.23kar.name",
+      "args": {},
+      "lines": {
+        "ru": "Картечь 23x75",
+        "en": "23x75 Buckshot",
+        "es": "Perdigones de 23x75",
+        "fr": "Chevrotine 23x75"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/bullet/y9go.json",
+    "icon": "/icons/bullet/y9go.png",
+    "name": {
+      "type": "translation",
+      "key": "item.amm.barricade.name",
+      "args": {},
+      "lines": {
+        "ru": "Баррикада",
+        "en": "Barricade",
+        "es": "Barricada",
+        "fr": "Barricade"
       }
     },
     "color": "DEFAULT",
@@ -10754,6 +10792,25 @@
     }
   },
   {
+    "data": "/items/bullet/knnop.json",
+    "icon": "/icons/bullet/knnop.png",
+    "name": {
+      "type": "translation",
+      "key": "item.amm.12st_sessions.name",
+      "args": {},
+      "lines": {
+        "ru": "Крупнокалиберный самодельный патрон",
+        "en": "Large-Caliber Handmade Round",
+        "es": "Munición casera de gran calibre",
+        "fr": "Cartouche de Gros Calibre Artisanale"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
     "data": "/items/other/7lwvj.json",
     "icon": "/icons/other/7lwvj.png",
     "name": {
@@ -11438,6 +11495,44 @@
     }
   },
   {
+    "data": "/items/bullet/2o0vl.json",
+    "icon": "/icons/bullet/2o0vl.png",
+    "name": {
+      "type": "translation",
+      "key": "item.bag.23dart.name",
+      "args": {},
+      "lines": {
+        "ru": "Сумка боевых пуль 23х75 мм",
+        "en": "Pouch of 23x75 mm Caliber Slug",
+        "es": "Bolsa de balas de combate de 23x75 mm",
+        "fr": "Sac de balles de combat 23x75 mm"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/bullet/7l1z6.json",
+    "icon": "/icons/bullet/7l1z6.png",
+    "name": {
+      "type": "translation",
+      "key": "item.bag.barricade.name",
+      "args": {},
+      "lines": {
+        "ru": "Сумка Баррикад",
+        "en": "Pouch of Barricades",
+        "es": "Bolsa de Barricadas",
+        "fr": "Sac de barricades"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
     "data": "/items/misc/96z7y.json",
     "icon": "/icons/misc/96z7y.png",
     "name": {
@@ -11587,6 +11682,44 @@
     "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/armor_style/skins/96krw.json",
+    "icon": "/icons/armor_style/skins/96krw.png",
+    "name": {
+      "type": "translation",
+      "key": "item.style.arm.albatros_heavy_divisions.name",
+      "args": {},
+      "lines": {
+        "ru": "ZIVCAS 3.0 «Expanse»",
+        "en": "ZIVCAS 3.0 «Expanse»",
+        "es": "ZIVCAS 3.0 Expanse",
+        "fr": "ZIVCAS 3.0 Expanse"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/weapon_style/skins/rwp25.json",
+    "icon": "/icons/weapon_style/skins/rwp25.png",
+    "name": {
+      "type": "translation",
+      "key": "item.style.wpn.gauss_divisions.name",
+      "args": {},
+      "lines": {
+        "ru": "EMR-65 «Spark»",
+        "en": "EMR-65 «Spark»",
+        "es": "EMR-65 Spark",
+        "fr": "EMR-65 Spark"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NON_DROP"
     }
   },
   {
@@ -20444,6 +20577,25 @@
     }
   },
   {
+    "data": "/items/weapon/shotgun_rifle/2on45.json",
+    "icon": "/icons/weapon/shotgun_rifle/2on45.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.ks23.name",
+      "args": {},
+      "lines": {
+        "ru": "КС-23",
+        "en": "KS-23",
+        "es": "KS-23",
+        "fr": "KS-23"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/weapon/pistol/969mq.json",
     "icon": "/icons/weapon/pistol/969mq.png",
     "name": {
@@ -28367,6 +28519,120 @@
     }
   },
   {
+    "data": "/items/attachment/accessory/kn74v.json",
+    "icon": "/icons/attachment/accessory/kn74v.png",
+    "name": {
+      "type": "translation",
+      "key": "item.charm.crimson_token.name",
+      "args": {},
+      "lines": {
+        "ru": "Брелок «Багровый жетон»",
+        "en": "Crimson Token Charm",
+        "es": "Amuleto Ficha Carmesí",
+        "fr": "Breloque Jeton Pourpre"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/accessory/qj7dk.json",
+    "icon": "/icons/attachment/accessory/qj7dk.png",
+    "name": {
+      "type": "translation",
+      "key": "item.charm.ks23.name",
+      "args": {},
+      "lines": {
+        "ru": "Брелок «Мини КС-23»",
+        "en": "Mini KS-23 Charm",
+        "es": "Amuleto Mini KS-23",
+        "fr": "Breloque Mini KS-23"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/accessory/j57y6.json",
+    "icon": "/icons/attachment/accessory/j57y6.png",
+    "name": {
+      "type": "translation",
+      "key": "item.charm.am17.name",
+      "args": {},
+      "lines": {
+        "ru": "Брелок «Мини АМ-17»",
+        "en": "Mini АМ-17 Charm",
+        "es": "Amuleto Mini AM-17",
+        "fr": "Breloque Mini AM-17"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/accessory/ly7q1.json",
+    "icon": "/icons/attachment/accessory/ly7q1.png",
+    "name": {
+      "type": "translation",
+      "key": "item.charm.molot.name",
+      "args": {},
+      "lines": {
+        "ru": "Брелок «Мини Кувалда»",
+        "en": "Mini Sledgehammer Charm",
+        "es": "Amuleto Mini mazo",
+        "fr": "Breloque Mini Mass"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/accessory/rw735.json",
+    "icon": "/icons/attachment/accessory/rw735.png",
+    "name": {
+      "type": "translation",
+      "key": "item.charm.p320.name",
+      "args": {},
+      "lines": {
+        "ru": "Брелок «Мини SIG Sauer P320»",
+        "en": "Mini SIG Sauer P320 Charm",
+        "es": "Amuleto Mini Sig Sauer P320",
+        "fr": "Breloque Mini SIG Sauer P320"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/accessory/0rz51.json",
+    "icon": "/icons/attachment/accessory/0rz51.png",
+    "name": {
+      "type": "translation",
+      "key": "item.charm.skorp.name",
+      "args": {},
+      "lines": {
+        "ru": "Брелок «Мини Scorpion EVO 3»",
+        "en": "Mini Scorpion EVO 3 Charm",
+        "es": "Amuleto Mini Scorpion EVO 3",
+        "fr": "Breloque Mini Scorpion EVO 3"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/armor/clothes/96n2l.json",
     "icon": "/icons/armor/clothes/96n2l.png",
     "name": {
@@ -28984,7 +29250,7 @@
       "lines": {
         "ru": "Костюм «Скаут»",
         "en": "Scout Suit",
-        "es": "Traje de explorador",
+        "es": "Traje Explorador",
         "fr": "Combinaison Scout"
       }
     },
@@ -35662,20 +35928,77 @@
     }
   },
   {
-    "data": "/items/bullet/kr25j.json",
-    "icon": "/icons/bullet/kr25j.png",
+    "data": "/items/misc/z3nwm.json",
+    "icon": "/icons/misc/z3nwm.png",
     "name": {
       "type": "translation",
-      "key": "item.amm.12st_sessions.name",
+      "key": "item.part.ks23_1.name",
       "args": {},
       "lines": {
-        "ru": "Крупнокалиберный самодельный патрон",
-        "en": "Large-Caliber Handmade Round",
-        "es": "Munición casera de gran calibre",
-        "fr": "Cartouche de Gros Calibre Artisanale"
+        "ru": "Часть КС-23 #1",
+        "en": "KS-23 Part #1",
+        "es": "KS-23 Pieza n.° 1",
+        "fr": "Pièce du KS-23 #1"
       }
     },
-    "color": "DEFAULT",
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/misc/9dokq.json",
+    "icon": "/icons/misc/9dokq.png",
+    "name": {
+      "type": "translation",
+      "key": "item.part.ks23_2.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть КС-23 #2",
+        "en": "KS-23 Part #2",
+        "es": "KS-23 Pieza n.° 2",
+        "fr": "Pièce du KS-23 #2"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/misc/19y1r.json",
+    "icon": "/icons/misc/19y1r.png",
+    "name": {
+      "type": "translation",
+      "key": "item.part.ks23_3.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть КС-23 #3",
+        "en": "KS-23 Part #3",
+        "es": "KS-23 Pieza n.° 3",
+        "fr": "Pièce du KS-23 #3"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/misc/gnz9n.json",
+    "icon": "/icons/misc/gnz9n.png",
+    "name": {
+      "type": "translation",
+      "key": "item.part.ks23_4.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть КС-23 #4",
+        "en": "KS-23 Part #4",
+        "es": "KS-23 Pieza n.° 4",
+        "fr": "Pièce du KS-23 #4"
+      }
+    },
+    "color": "RANK_STALKER",
     "status": {
       "state": "NONE"
     }

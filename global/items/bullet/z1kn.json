@@ -1,15 +1,15 @@
 {
-  "id": "kr25j",
+  "id": "z1kn",
   "category": "bullet",
   "name": {
     "type": "translation",
-    "key": "item.amm.12st_sessions.name",
+    "key": "item.amm.23dart.name",
     "args": {},
     "lines": {
-      "ru": "Крупнокалиберный самодельный патрон",
-      "en": "Large-Caliber Handmade Round",
-      "es": "Munición casera de gran calibre",
-      "fr": "Cartouche de Gros Calibre Artisanale"
+      "ru": "Боевая пуля 23x75",
+      "en": "23x75 Caliber Slug",
+      "es": "Bala de combate de 23x75",
+      "fr": "Balle de combat 23x75"
     }
   },
   "color": "DEFAULT",
@@ -126,31 +126,6 @@
               "fr": "Forte pénétration"
             }
           }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "core.tooltip.stat_name.damage_type.burn",
-            "args": {},
-            "lines": {
-              "ru": "Огненный урон",
-              "en": "Fire damage",
-              "es": "Daño de fuego",
-              "fr": "Dégâts de feu"
-            }
-          },
-          "value": 11.5,
-          "formatted": {
-            "value": {
-              "ru": "11,5%",
-              "en": "11.5%",
-              "es": "11,5 %",
-              "fr": "11,5%"
-            },
-            "nameColor": "F1AA21",
-            "valueColor": "F1AA21"
-          }
         }
       ]
     },
@@ -174,38 +149,13 @@
               "fr": "Saignement"
             }
           },
-          "value": 100.0,
+          "value": 33.0,
           "formatted": {
             "value": {
-              "ru": "+100%",
-              "en": "+100%",
-              "es": "+100 %",
-              "fr": "+100%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.bullet.stat_name.combustion",
-            "args": {},
-            "lines": {
-              "ru": "Горение",
-              "en": "Burning",
-              "es": "Quemadura",
-              "fr": "Combustion"
-            }
-          },
-          "value": 100.0,
-          "formatted": {
-            "value": {
-              "ru": "+100%",
-              "en": "+100%",
-              "es": "+100 %",
-              "fr": "+100%"
+              "ru": "+33%",
+              "en": "+33%",
+              "es": "+33 %",
+              "fr": "+33%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -224,13 +174,38 @@
               "fr": "Pouvoir d\u0027arrêt"
             }
           },
-          "value": 500.0,
+          "value": 150.0,
           "formatted": {
             "value": {
-              "ru": "+500",
-              "en": "+500",
-              "es": "+500",
-              "fr": "+500"
+              "ru": "+150",
+              "en": "+150",
+              "es": "+150",
+              "fr": "+150"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.armor_plate_damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон по броне",
+              "en": "Damage to armor",
+              "es": "Daño a las armaduras",
+              "fr": "Dégâts sur l\u0027amure"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "+100%",
+              "en": "+100%",
+              "es": "+100 %",
+              "fr": "+100%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
