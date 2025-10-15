@@ -250,6 +250,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 9.9603,
+          "max": 11.718,
+          "formatted": {
+            "value": {
+              "ru": "[+9,96%; +11,72%]",
+              "en": "[+9.96%; +11.72%]",
+              "es": "[+9,96 %; +11,72 %]",
+              "fr": "[+9,96%; +11,72%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
@@ -337,14 +363,14 @@
               "fr": "Réaction aux brûlures"
             }
           },
-          "min": 1.7136,
-          "max": 2.016,
+          "min": 0.5355,
+          "max": 0.63,
           "formatted": {
             "value": {
-              "ru": "[+1,71%; +2,02%]",
-              "en": "[+1.71%; +2.02%]",
-              "es": "[+1,71 %; +2,02 %]",
-              "fr": "[+1,71%; +2,02%]"
+              "ru": "[+0,54%; +0,63%]",
+              "en": "[+0.54%; +0.63%]",
+              "es": "[+0,54 %; +0,63 %]",
+              "fr": "[+0,54%; +0,63%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

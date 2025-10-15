@@ -250,32 +250,6 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina",
-              "es": "Aguante",
-              "fr": "Endurance"
-            }
-          },
-          "min": 14.892001,
-          "max": 17.52,
-          "formatted": {
-            "value": {
-              "ru": "[+14,89%; +17,52%]",
-              "en": "[+14.89%; +17.52%]",
-              "es": "[+14,89 %; +17,52 %]",
-              "fr": "[+14,89%; +17,52%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
@@ -293,6 +267,32 @@
               "en": "[+3.26%; +3.84%]",
               "es": "[+3,26 %; +3,84 %]",
               "fr": "[+3,26%; +3,84%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 9.2820015,
+          "max": 10.920001,
+          "formatted": {
+            "value": {
+              "ru": "[+9,28; +10,92]",
+              "en": "[+9.28; +10.92]",
+              "es": "[+9,28; +10,92]",
+              "fr": "[+9,28; +10,92]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

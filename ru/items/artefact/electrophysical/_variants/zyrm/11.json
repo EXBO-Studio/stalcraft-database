@@ -276,6 +276,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l\u0027électricité"
+            }
+          },
+          "min": 14.206901,
+          "max": 16.714,
+          "formatted": {
+            "value": {
+              "ru": "[+14,21; +16,71]",
+              "en": "[+14.21; +16.71]",
+              "es": "[+14,21; +16,71]",
+              "fr": "[+14,21; +16,71]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.radiation_protection",
             "args": {},
             "lines": {
@@ -389,14 +415,14 @@
               "fr": "Réaction à l\u0027électricité"
             }
           },
-          "min": 3.8369,
-          "max": 4.514,
+          "min": 1.6592001,
+          "max": 1.952,
           "formatted": {
             "value": {
-              "ru": "[+3,84%; +4,51%]",
-              "en": "[+3.84%; +4.51%]",
-              "es": "[+3,84 %; +4,51 %]",
-              "fr": "[+3,84%; +4,51%]"
+              "ru": "[+1,66%; +1,95%]",
+              "en": "[+1.66%; +1.95%]",
+              "es": "[+1,66 %; +1,95 %]",
+              "fr": "[+1,66%; +1,95%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

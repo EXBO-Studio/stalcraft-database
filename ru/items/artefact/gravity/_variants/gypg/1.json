@@ -328,6 +328,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "min": -0.714,
+          "max": -0.6069,
+          "formatted": {
+            "value": {
+              "ru": "[-0,71; -0,61]",
+              "en": "[-0.71; -0.61]",
+              "es": "[-0,71; -0,61]",
+              "fr": "[-0,71; -0,61]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.reaction_to_chemical_burn",
             "args": {},
             "lines": {
@@ -337,14 +363,14 @@
               "fr": "Réaction aux brûlures chimiques"
             }
           },
-          "min": 2.0808,
-          "max": 2.448,
+          "min": 0.6069,
+          "max": 0.714,
           "formatted": {
             "value": {
-              "ru": "[+2,08%; +2,45%]",
-              "en": "[+2.08%; +2.45%]",
-              "es": "[+2,08 %; +2,45 %]",
-              "fr": "[+2,08%; +2,45%]"
+              "ru": "[+0,61%; +0,71%]",
+              "en": "[+0.61%; +0.71%]",
+              "es": "[+0,61 %; +0,71 %]",
+              "fr": "[+0,61%; +0,71%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

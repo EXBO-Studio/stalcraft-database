@@ -250,6 +250,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 6.5892,
+          "max": 7.752,
+          "formatted": {
+            "value": {
+              "ru": "[+6,59%; +7,75%]",
+              "en": "[+6.59%; +7.75%]",
+              "es": "[+6,59 %; +7,75 %]",
+              "fr": "[+6,59%; +7,75%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
@@ -311,14 +337,14 @@
               "fr": "Réaction à l\u0027électricité"
             }
           },
-          "min": 1.6473,
-          "max": 1.938,
+          "min": 0.7803,
+          "max": 0.918,
           "formatted": {
             "value": {
-              "ru": "[+1,65%; +1,94%]",
-              "en": "[+1.65%; +1.94%]",
-              "es": "[+1,65 %; +1,94 %]",
-              "fr": "[+1,65%; +1,94%]"
+              "ru": "[+0,78%; +0,92%]",
+              "en": "[+0.78%; +0.92%]",
+              "es": "[+0,78 %; +0,92 %]",
+              "fr": "[+0,78%; +0,92%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -276,6 +276,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 13.4402,
+          "max": 15.811999,
+          "formatted": {
+            "value": {
+              "ru": "[+13,44; +15,81]",
+              "en": "[+13.44; +15.81]",
+              "es": "[+13,44; +15,81]",
+              "fr": "[+13,44; +15,81]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.thermal_accumulation",
             "args": {},
             "lines": {
@@ -328,23 +354,23 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
             "args": {},
             "lines": {
-              "ru": "Реакция на разрыв",
-              "en": "Reaction to laceration",
-              "es": "Reacción a la laceración",
-              "fr": "Réaction aux lacérations"
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns",
+              "es": "Reacción a las quemaduras",
+              "fr": "Réaction aux brûlures"
             }
           },
-          "min": 4.012,
-          "max": 4.72,
+          "min": 1.5045,
+          "max": 1.77,
           "formatted": {
             "value": {
-              "ru": "[+4,01%; +4,72%]",
-              "en": "[+4.01%; +4.72%]",
-              "es": "[+4,01 %; +4,72 %]",
-              "fr": "[+4,01%; +4,72%]"
+              "ru": "[+1,5%; +1,77%]",
+              "en": "[+1.5%; +1.77%]",
+              "es": "[+1,5 %; +1,77 %]",
+              "fr": "[+1,5%; +1,77%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

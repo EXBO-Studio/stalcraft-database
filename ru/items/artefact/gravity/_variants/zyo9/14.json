@@ -250,6 +250,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
+            }
+          },
+          "min": 2.6112,
+          "max": 3.072,
+          "formatted": {
+            "value": {
+              "ru": "[+2,61%; +3,07%]",
+              "en": "[+2.61%; +3.07%]",
+              "es": "[+2,61 %; +3,07 %]",
+              "fr": "[+2,61%; +3,07%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
@@ -311,14 +337,14 @@
               "fr": "Réaction aux brûlures chimiques"
             }
           },
-          "min": 2.9376001,
-          "max": 3.456,
+          "min": 0.9792,
+          "max": 1.152,
           "formatted": {
             "value": {
-              "ru": "[+2,94%; +3,46%]",
-              "en": "[+2.94%; +3.46%]",
-              "es": "[+2,94 %; +3,46 %]",
-              "fr": "[+2,94%; +3,46%]"
+              "ru": "[+0,98%; +1,15%]",
+              "en": "[+0.98%; +1.15%]",
+              "es": "[+0,98 %; +1,15 %]",
+              "fr": "[+0,98%; +1,15%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

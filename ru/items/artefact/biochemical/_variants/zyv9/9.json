@@ -276,6 +276,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 6.1183,
+          "max": 7.1979995,
+          "formatted": {
+            "value": {
+              "ru": "[+6,12; +7,2]",
+              "en": "[+6.12; +7.2]",
+              "es": "[+6,12; +7,2]",
+              "fr": "[+6,12; +7,2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
@@ -337,14 +363,14 @@
               "fr": "Réaction aux lacérations"
             }
           },
-          "min": 1.4042,
-          "max": 1.652,
+          "min": 0.6018,
+          "max": 0.708,
           "formatted": {
             "value": {
-              "ru": "[+1,4%; +1,65%]",
-              "en": "[+1.4%; +1.65%]",
-              "es": "[+1,4 %; +1,65 %]",
-              "fr": "[+1,4%; +1,65%]"
+              "ru": "[+0,6%; +0,71%]",
+              "en": "[+0.6%; +0.71%]",
+              "es": "[+0,6 %; +0,71 %]",
+              "fr": "[+0,6%; +0,71%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

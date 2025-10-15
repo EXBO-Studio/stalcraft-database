@@ -3,7 +3,7 @@
   "category": "weapon/shotgun_rifle",
   "name": {
     "type": "translation",
-    "key": "item.wpn.spas.name",
+    "key": "item.wpn.spas12.name",
     "args": {},
     "lines": {
       "ru": "Franchi SPAS-12",
@@ -12,7 +12,7 @@
       "fr": "Franchi SPAS-12"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -39,13 +39,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker",
-              "es": "Acechador",
-              "fr": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
             }
           }
         },
@@ -220,13 +220,13 @@
               "fr": "Dégâts"
             }
           },
-          "value": 144.2683,
+          "value": 205.06706,
           "formatted": {
             "value": {
-              "ru": "144,27 ед",
-              "en": "144.27 unit(s)",
-              "es": "144,27 unidad(es)",
-              "fr": "144,27 unité(s)"
+              "ru": "205,07 ед",
+              "en": "205.07 unit(s)",
+              "es": "205,07 unidad(es)",
+              "fr": "205,07 unité(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -370,13 +370,13 @@
               "fr": "Dispersion du tir à l\u0027aveugle"
             }
           },
-          "value": 2.4,
+          "value": 2.75,
           "formatted": {
             "value": {
-              "ru": "2,4°",
-              "en": "2.4°",
-              "es": "2,4°",
-              "fr": "2,4°"
+              "ru": "2,75°",
+              "en": "2.75°",
+              "es": "2,75°",
+              "fr": "2,75°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -395,13 +395,13 @@
               "fr": "Recul vertical"
             }
           },
-          "value": 4.5,
+          "value": 8.0,
           "formatted": {
             "value": {
-              "ru": "4,5°",
-              "en": "4.5°",
-              "es": "4,5°",
-              "fr": "4,5°"
+              "ru": "8°",
+              "en": "8°",
+              "es": "8°",
+              "fr": "8°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -420,13 +420,13 @@
               "fr": "Recul horizontal"
             }
           },
-          "value": 1.0,
+          "value": 1.5,
           "formatted": {
             "value": {
-              "ru": "1°",
-              "en": "1°",
-              "es": "1°",
-              "fr": "1°"
+              "ru": "1,5°",
+              "en": "1.5°",
+              "es": "1,5°",
+              "fr": "1,5°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -519,13 +519,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.0"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25"
+              "ru": "Урон в голову: х1",
+              "en": "Headshot damage: x1",
+              "es": "Daño por disparo a la cabeza: x1",
+              "fr": "Dégât de tir à la tête : x1"
             }
           }
         },
@@ -535,13 +535,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.8"
+              "modifier": "1.0"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,8",
-              "en": "Limb damage: x0.8",
-              "es": "Daño a extremidades: x0,8",
-              "fr": "Dégât aux membres : x0,8"
+              "ru": "Урон по конечностям: х1",
+              "en": "Limb damage: x1",
+              "es": "Daño a extremidades: x1",
+              "fr": "Dégât aux membres : x1"
             }
           }
         },
@@ -551,13 +551,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
-              "modifier": "1.75"
+              "modifier": "2.2"
             },
             "lines": {
-              "ru": "Урон по мутантам: х1,75",
-              "en": "Damage to mutants: x1.75",
-              "es": "Daño a mutantes: x1,75",
-              "fr": "Dégât au mutants : x1,75"
+              "ru": "Урон по мутантам: х2,2",
+              "en": "Damage to mutants: x2.2",
+              "es": "Daño a mutantes: x2,2",
+              "fr": "Dégât au mutants : x2,2"
             }
           }
         }
@@ -646,10 +646,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 144.2683,
+      "startDamage": 205.06706,
       "damageDecreaseStart": 8.0,
-      "endDamage": 43.280487,
-      "damageDecreaseEnd": 52.0,
+      "endDamage": 90.16768,
+      "damageDecreaseEnd": 55.0,
       "maxDistance": 75.0
     },
     {
@@ -660,13 +660,13 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.wpn.spas.description",
+        "key": "item.wpn.spas12.description",
         "args": {},
         "lines": {
           "ru": "Franchi SPAS-12 (англ. Special Purpose Automatic Shotgun - автоматическое ружье специального назначения) - итальянское ружье, разработанное в конце 1970-х годов.",
-          "en": "The Franchi SPAS-12 (which is short for “Special Purpose Automatic Shotgun”) is an Italian shotgun that was developed at the end of the 1970s.",
-          "es": "La Franchi SPAS-12 (que es la abreviatura de \"escopeta automática de propósito especial\" por sus siglas en inglés) es una escopeta italiana que se desarrolló a finales de la década de los 70.",
-          "fr": "Le Franchi SPAS-12 (Abréviation de l\u0027anglais : « Special Purpose Automatic Shotgun ») est un fusil à pompe italien qui a été développé à la fin des années 1970."
+          "en": "Franchi SPAS-12 (Special Purpose Automatic Shotgun) - an Italian shotgun developed in the late 1970s.",
+          "es": "Franchi SPAS-12 (Special Purpose Automatic Shotgun - escopeta automática de propósito especial) es una escopeta italiana, desarrollada a finales de la década de 1970.",
+          "fr": "Franchi SPAS-12 (de l\u0027anglias Special Purpose Automatic Shotgun — fusil automatique à usage spécial) : fusil italien développé à la fin des années 1970."
         }
       }
     }
