@@ -10792,25 +10792,6 @@
     }
   },
   {
-    "data": "/items/bullet/knnop.json",
-    "icon": "/icons/bullet/knnop.png",
-    "name": {
-      "type": "translation",
-      "key": "item.amm.12st_sessions.name",
-      "args": {},
-      "lines": {
-        "ru": "Крупнокалиберный самодельный патрон",
-        "en": "Large-Caliber Handmade Round",
-        "es": "Munición casera de gran calibre",
-        "fr": "Cartouche de Gros Calibre Artisanale"
-      }
-    },
-    "color": "DEFAULT",
-    "status": {
-      "state": "NONE"
-    }
-  },
-  {
     "data": "/items/other/7lwvj.json",
     "icon": "/icons/other/7lwvj.png",
     "name": {
@@ -20254,6 +20235,44 @@
     }
   },
   {
+    "data": "/items/weapon/shotgun_rifle/5ln3q.json",
+    "icon": "/icons/weapon/shotgun_rifle/5ln3q.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.winchester1887.name",
+      "args": {},
+      "lines": {
+        "ru": "Winchester 1887",
+        "en": "Winchester 1887",
+        "es": "Winchester 1887",
+        "fr": "Winchester 1887"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/y32y3.json",
+    "icon": "/icons/weapon/shotgun_rifle/y32y3.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.obreztoz34.name",
+      "args": {},
+      "lines": {
+        "ru": "Обрез ТОЗ-34",
+        "en": "TOZ-34 Sawed-Off",
+        "es": "TOZ-34 recortada",
+        "fr": "TOZ-34 scié"
+      }
+    },
+    "color": "RANK_NEWBIE",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/weapon/shotgun_rifle/1r742.json",
     "icon": "/icons/weapon/shotgun_rifle/1r742.png",
     "name": {
@@ -20268,6 +20287,25 @@
       }
     },
     "color": "DEFAULT",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/zz2om.json",
+    "icon": "/icons/weapon/shotgun_rifle/zz2om.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.mossberg500.name",
+      "args": {},
+      "lines": {
+        "ru": "Mossberg 500",
+        "en": "Mossberg 500",
+        "es": "Mossberg 500",
+        "fr": "Mossberg 500"
+      }
+    },
+    "color": "RANK_NEWBIE",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -20305,7 +20343,7 @@
         "fr": "Mossberg 590A1"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "RANK_STALKER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -20391,7 +20429,7 @@
     "icon": "/icons/weapon/shotgun_rifle/zz2vm.png",
     "name": {
       "type": "translation",
-      "key": "item.wpn.spas.name",
+      "key": "item.wpn.spas12.name",
       "args": {},
       "lines": {
         "ru": "Franchi SPAS-12",
@@ -20400,7 +20438,7 @@
         "fr": "Franchi SPAS-12"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -20588,6 +20626,25 @@
         "en": "KS-23",
         "es": "KS-23",
         "fr": "KS-23"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/3gnk5.json",
+    "icon": "/icons/weapon/shotgun_rifle/3gnk5.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.spas15.name",
+      "args": {},
+      "lines": {
+        "ru": "Franchi SPAS-15",
+        "en": "Franchi SPAS-15",
+        "es": "Franchi SPAS-15",
+        "fr": "Franchi SPAS-15"
       }
     },
     "color": "RANK_MASTER",
@@ -21445,7 +21502,7 @@
         "fr": "M1014"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -23940,8 +23997,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/96v0y.json",
-    "icon": "/icons/attachment/other/96v0y.png",
+    "data": "/items/attachment/handgrips/96v0y.json",
+    "icon": "/icons/attachment/handgrips/96v0y.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_magpul.name",
@@ -23959,8 +24016,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/1rvm2.json",
-    "icon": "/icons/attachment/other/1rvm2.png",
+    "data": "/items/attachment/handgrips/1rvm2.json",
+    "icon": "/icons/attachment/handgrips/1rvm2.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_pclrs.name",
@@ -23978,8 +24035,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/g4gj5.json",
-    "icon": "/icons/attachment/other/g4gj5.png",
+    "data": "/items/attachment/handgrips/g4gj5.json",
+    "icon": "/icons/attachment/handgrips/g4gj5.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_ang4.name",
@@ -23997,8 +24054,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/zzpvm.json",
-    "icon": "/icons/attachment/other/zzpvm.png",
+    "data": "/items/attachment/handgrips/zzpvm.json",
+    "icon": "/icons/attachment/handgrips/zzpvm.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_regfbh.name",
@@ -24016,8 +24073,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/5lv7q.json",
-    "icon": "/icons/attachment/other/5lv7q.png",
+    "data": "/items/attachment/handgrips/5lv7q.json",
+    "icon": "/icons/attachment/handgrips/5lv7q.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_regfbb.name",
@@ -24054,8 +24111,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/knw1p.json",
-    "icon": "/icons/attachment/other/knw1p.png",
+    "data": "/items/attachment/handgrips/knw1p.json",
+    "icon": "/icons/attachment/handgrips/knw1p.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_fortiso.name",
@@ -24073,8 +24130,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/qjr43.json",
-    "icon": "/icons/attachment/other/qjr43.png",
+    "data": "/items/attachment/handgrips/qjr43.json",
+    "icon": "/icons/attachment/handgrips/qjr43.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_fortisb.name",
@@ -24092,8 +24149,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/j569g.json",
-    "icon": "/icons/attachment/other/j569g.png",
+    "data": "/items/attachment/handgrips/j569g.json",
+    "icon": "/icons/attachment/handgrips/j569g.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_fmade.name",
@@ -24111,8 +24168,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/ly4go.json",
-    "icon": "/icons/attachment/other/ly4go.png",
+    "data": "/items/attachment/handgrips/ly4go.json",
+    "icon": "/icons/attachment/handgrips/ly4go.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_fmatd.name",
@@ -24130,8 +24187,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/rw0ky.json",
-    "icon": "/icons/attachment/other/rw0ky.png",
+    "data": "/items/attachment/handgrips/rw0ky.json",
+    "icon": "/icons/attachment/handgrips/rw0ky.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_tapco.name",
@@ -24149,8 +24206,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/0rvyy.json",
-    "icon": "/icons/attachment/other/0rvyy.png",
+    "data": "/items/attachment/handgrips/0rvyy.json",
+    "icon": "/icons/attachment/handgrips/0rvyy.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_viking.name",
@@ -24168,8 +24225,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/m0kz2.json",
-    "icon": "/icons/attachment/other/m0kz2.png",
+    "data": "/items/attachment/handgrips/m0kz2.json",
+    "icon": "/icons/attachment/handgrips/m0kz2.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_fxptkb.name",
@@ -24187,8 +24244,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/okjym.json",
-    "icon": "/icons/attachment/other/okjym.png",
+    "data": "/items/attachment/handgrips/okjym.json",
+    "icon": "/icons/attachment/handgrips/okjym.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_rvg.name",
@@ -24206,8 +24263,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/n4q52.json",
-    "icon": "/icons/attachment/other/n4q52.png",
+    "data": "/items/attachment/handgrips/n4q52.json",
+    "icon": "/icons/attachment/handgrips/n4q52.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_rk5.name",
@@ -24225,8 +24282,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/p6lw4.json",
-    "icon": "/icons/attachment/other/p6lw4.png",
+    "data": "/items/attachment/handgrips/p6lw4.json",
+    "icon": "/icons/attachment/handgrips/p6lw4.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_rk0.name",
@@ -24244,8 +24301,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/vjpmp.json",
-    "icon": "/icons/attachment/other/vjpmp.png",
+    "data": "/items/attachment/handgrips/vjpmp.json",
+    "icon": "/icons/attachment/handgrips/vjpmp.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_rk1.name",
@@ -24263,8 +24320,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/dm0z2.json",
-    "icon": "/icons/attachment/other/dm0z2.png",
+    "data": "/items/attachment/handgrips/dm0z2.json",
+    "icon": "/icons/attachment/handgrips/dm0z2.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_rk2.name",
@@ -24282,8 +24339,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/3g7k5.json",
-    "icon": "/icons/attachment/other/3g7k5.png",
+    "data": "/items/attachment/handgrips/3g7k5.json",
+    "icon": "/icons/attachment/handgrips/3g7k5.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_murmur.name",
@@ -24301,8 +24358,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/7l62j.json",
-    "icon": "/icons/attachment/other/7l62j.png",
+    "data": "/items/attachment/handgrips/7l62j.json",
+    "icon": "/icons/attachment/handgrips/7l62j.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_arsenal_feather.name",
@@ -24320,8 +24377,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/6wv20.json",
-    "icon": "/icons/attachment/other/6wv20.png",
+    "data": "/items/attachment/handgrips/6wv20.json",
+    "icon": "/icons/attachment/handgrips/6wv20.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_arsenal_heavy.name",
@@ -24339,8 +24396,8 @@
     }
   },
   {
-    "data": "/items/attachment/other/96v2y.json",
-    "icon": "/icons/attachment/other/96v2y.png",
+    "data": "/items/attachment/handgrips/96v2y.json",
+    "icon": "/icons/attachment/handgrips/96v2y.png",
     "name": {
       "type": "translation",
       "key": "item.att.handgrip_arsenal_blitz.name",
@@ -25904,13 +25961,13 @@
       "key": "item.att.barrel_longdeagle.name",
       "args": {},
       "lines": {
-        "ru": "Удлиненный ствол D-Eagle",
-        "en": "D-Eagle Barrel Extension",
-        "es": "Extensión de cañón D-Eagle",
-        "fr": "Extension de canon D-Eagle"
+        "ru": "Удлиненный ствол D-Eagle XIX",
+        "en": "Extended Barrel D-Eagle XIX",
+        "es": "Extensión de cañón D-Eagle XIX",
+        "fr": "Extension de canon D-Eagle XIX"
       }
     },
-    "color": "RANK_VETERAN",
+    "color": "RANK_MASTER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -26709,6 +26766,25 @@
       }
     },
     "color": "RANK_STALKER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/barrel/ok5z4.json",
+    "icon": "/icons/attachment/barrel/ok5z4.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.barrel_longdeagle7.name",
+      "args": {},
+      "lines": {
+        "ru": "Удлиненный ствол D-Eagle VII",
+        "en": "Extended Barrel D-Eagle VII",
+        "es": "Extensión de cañón D-Eagle VII",
+        "fr": "Extension de canon D-Eagle VII"
+      }
+    },
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -32161,7 +32237,7 @@
         "fr": "Champagne Anormal"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NON_DROP"
     }

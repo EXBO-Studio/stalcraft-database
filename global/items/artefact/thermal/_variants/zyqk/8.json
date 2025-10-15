@@ -250,6 +250,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 1.4790001,
+          "max": 1.74,
+          "formatted": {
+            "value": {
+              "ru": "[+1,48%; +1,74%]",
+              "en": "[+1.48%; +1.74%]",
+              "es": "[+1,48 %; +1,74 %]",
+              "fr": "[+1,48%; +1,74%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
@@ -389,14 +415,14 @@
               "fr": "Réaction aux brûlures"
             }
           },
-          "min": 1.5776,
-          "max": 1.856,
+          "min": 0.493,
+          "max": 0.58,
           "formatted": {
             "value": {
-              "ru": "[+1,58%; +1,86%]",
-              "en": "[+1.58%; +1.86%]",
-              "es": "[+1,58 %; +1,86 %]",
-              "fr": "[+1,58%; +1,86%]"
+              "ru": "[+0,49%; +0,58%]",
+              "en": "[+0.49%; +0.58%]",
+              "es": "[+0,49 %; +0,58 %]",
+              "fr": "[+0,49%; +0,58%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

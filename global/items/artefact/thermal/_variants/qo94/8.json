@@ -250,6 +250,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 1.6762,
+          "max": 1.972,
+          "formatted": {
+            "value": {
+              "ru": "[+1,68%; +1,97%]",
+              "en": "[+1.68%; +1.97%]",
+              "es": "[+1,68 %; +1,97 %]",
+              "fr": "[+1,68%; +1,97%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
@@ -337,14 +363,14 @@
               "fr": "Réaction à l\u0027électricité"
             }
           },
-          "min": 4.6341996,
-          "max": 5.4519997,
+          "min": 0.986,
+          "max": 1.16,
           "formatted": {
             "value": {
-              "ru": "[+4,63%; +5,45%]",
-              "en": "[+4.63%; +5.45%]",
-              "es": "[+4,63 %; +5,45 %]",
-              "fr": "[+4,63%; +5,45%]"
+              "ru": "[+0,99%; +1,16%]",
+              "en": "[+0.99%; +1.16%]",
+              "es": "[+0,99 %; +1,16 %]",
+              "fr": "[+0,99%; +1,16%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -363,14 +389,14 @@
               "fr": "Réaction aux brûlures"
             }
           },
-          "min": 4.6341996,
-          "max": 5.4519997,
+          "min": 0.986,
+          "max": 1.16,
           "formatted": {
             "value": {
-              "ru": "[+4,63%; +5,45%]",
-              "en": "[+4.63%; +5.45%]",
-              "es": "[+4,63 %; +5,45 %]",
-              "fr": "[+4,63%; +5,45%]"
+              "ru": "[+0,99%; +1,16%]",
+              "en": "[+0.99%; +1.16%]",
+              "es": "[+0,99 %; +1,16 %]",
+              "fr": "[+0,99%; +1,16%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -389,14 +415,40 @@
               "fr": "Réaction aux brûlures chimiques"
             }
           },
-          "min": 4.6341996,
-          "max": 5.4519997,
+          "min": 0.986,
+          "max": 1.16,
           "formatted": {
             "value": {
-              "ru": "[+4,63%; +5,45%]",
-              "en": "[+4.63%; +5.45%]",
-              "es": "[+4,63 %; +5,45 %]",
-              "fr": "[+4,63%; +5,45%]"
+              "ru": "[+0,99%; +1,16%]",
+              "en": "[+0.99%; +1.16%]",
+              "es": "[+0,99 %; +1,16 %]",
+              "fr": "[+0,99%; +1,16%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to laceration",
+              "es": "Reacción a la laceración",
+              "fr": "Réaction aux lacérations"
+            }
+          },
+          "min": 0.986,
+          "max": 1.16,
+          "formatted": {
+            "value": {
+              "ru": "[+0,99%; +1,16%]",
+              "en": "[+0.99%; +1.16%]",
+              "es": "[+0,99 %; +1,16 %]",
+              "fr": "[+0,99%; +1,16%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

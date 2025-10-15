@@ -250,6 +250,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 8.1345,
+          "max": 9.57,
+          "formatted": {
+            "value": {
+              "ru": "[+8,13; +9,57]",
+              "en": "[+8.13; +9.57]",
+              "es": "[+8,13; +9,57]",
+              "fr": "[+8,13; +9,57]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
@@ -285,14 +311,14 @@
               "fr": "Régénération de l\u0027endurance"
             }
           },
-          "min": 2.7115002,
-          "max": 3.19,
+          "min": 1.2155,
+          "max": 1.43,
           "formatted": {
             "value": {
-              "ru": "[+2,71%; +3,19%]",
-              "en": "[+2.71%; +3.19%]",
-              "es": "[+2,71 %; +3,19 %]",
-              "fr": "[+2,71%; +3,19%]"
+              "ru": "[+1,22%; +1,43%]",
+              "en": "[+1.22%; +1.43%]",
+              "es": "[+1,22 %; +1,43 %]",
+              "fr": "[+1,22%; +1,43%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

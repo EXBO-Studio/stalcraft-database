@@ -1,0 +1,260 @@
+{
+  "id": "ok5z4",
+  "category": "attachment/barrel",
+  "name": {
+    "type": "translation",
+    "key": "item.att.barrel_longdeagle7.name",
+    "args": {},
+    "lines": {
+      "ru": "Удлиненный ствол D-Eagle VII",
+      "en": "Extended Barrel D-Eagle VII",
+      "es": "Extensión de cañón D-Eagle VII",
+      "fr": "Extension de canon D-Eagle VII"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.barrel",
+            "args": {},
+            "lines": {
+              "ru": "Надульники и глушители",
+              "en": "Muzzles and Silencers",
+              "es": "Bocas y silenciadores",
+              "fr": "Dispositifs de bouche et silencieux"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.96,
+          "formatted": {
+            "value": {
+              "ru": "0,96 кг",
+              "en": "0.96 kg",
+              "es": "0,96 kg",
+              "fr": "0,96 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread",
+              "es": "Dispersión",
+              "fr": "Dispersion"
+            }
+          },
+          "value": -18.0,
+          "formatted": {
+            "value": {
+              "ru": "-18%",
+              "en": "-18%",
+              "es": "-18 %",
+              "fr": "-18%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l\u0027aveugle"
+            }
+          },
+          "value": -5.000001,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5 %",
+              "fr": "-5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil",
+              "es": "Retroceso horizontal",
+              "fr": "Recul horizontal"
+            }
+          },
+          "value": -1.2000024,
+          "formatted": {
+            "value": {
+              "ru": "-1,2%",
+              "en": "-1.2%",
+              "es": "-1,2 %",
+              "fr": "-1,2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.shoot_factor_decrement",
+            "args": {},
+            "lines": {
+              "ru": "Стабилизация",
+              "en": "Stabilization",
+              "es": "Estabilización",
+              "fr": "Stabilisation"
+            }
+          },
+          "value": 12.799501,
+          "formatted": {
+            "value": {
+              "ru": "+12,8%",
+              "en": "+12.8%",
+              "es": "+12,8 %",
+              "fr": "+12,8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para",
+          "fr": "Compatible avec"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.deagle7.name",
+            "args": {},
+            "lines": {
+              "ru": "Desert Eagle Mark VII",
+              "en": "Desert Eagle Mark VII",
+              "es": "Desert Eagle Mark VII",
+              "fr": "Desert Eagle Mark VII"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

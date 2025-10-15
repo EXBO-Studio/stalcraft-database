@@ -220,13 +220,13 @@
               "fr": "Dégâts"
             }
           },
-          "value": 117.76829,
+          "value": 110.66158,
           "formatted": {
             "value": {
-              "ru": "117,77 ед",
-              "en": "117.77 unit(s)",
-              "es": "117,77 unidad(es)",
-              "fr": "117,77 unité(s)"
+              "ru": "110,66 ед",
+              "en": "110.66 unit(s)",
+              "es": "110,66 unidad(es)",
+              "fr": "110,66 unité(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -370,13 +370,13 @@
               "fr": "Dispersion du tir à l\u0027aveugle"
             }
           },
-          "value": 2.4,
+          "value": 2.75,
           "formatted": {
             "value": {
-              "ru": "2,4°",
-              "en": "2.4°",
-              "es": "2,4°",
-              "fr": "2,4°"
+              "ru": "2,75°",
+              "en": "2.75°",
+              "es": "2,75°",
+              "fr": "2,75°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -395,13 +395,13 @@
               "fr": "Recul vertical"
             }
           },
-          "value": 5.0,
+          "value": 8.0,
           "formatted": {
             "value": {
-              "ru": "5°",
-              "en": "5°",
-              "es": "5°",
-              "fr": "5°"
+              "ru": "8°",
+              "en": "8°",
+              "es": "8°",
+              "fr": "8°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -420,13 +420,13 @@
               "fr": "Recul horizontal"
             }
           },
-          "value": 1.0,
+          "value": 2.0,
           "formatted": {
             "value": {
-              "ru": "1°",
-              "en": "1°",
-              "es": "1°",
-              "fr": "1°"
+              "ru": "2°",
+              "en": "2°",
+              "es": "2°",
+              "fr": "2°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -519,13 +519,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.0"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25"
+              "ru": "Урон в голову: х1",
+              "en": "Headshot damage: x1",
+              "es": "Daño por disparo a la cabeza: x1",
+              "fr": "Dégât de tir à la tête : x1"
             }
           }
         },
@@ -535,13 +535,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.8"
+              "modifier": "1.0"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,8",
-              "en": "Limb damage: x0.8",
-              "es": "Daño a extremidades: x0,8",
-              "fr": "Dégât aux membres : x0,8"
+              "ru": "Урон по конечностям: х1",
+              "en": "Limb damage: x1",
+              "es": "Daño a extremidades: x1",
+              "fr": "Dégât aux membres : x1"
             }
           }
         },
@@ -551,13 +551,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
-              "modifier": "1.85"
+              "modifier": "2.5"
             },
             "lines": {
-              "ru": "Урон по мутантам: х1,85",
-              "en": "Damage to mutants: x1.85",
-              "es": "Daño a mutantes: x1,85",
-              "fr": "Dégât au mutants : x1,85"
+              "ru": "Урон по мутантам: х2,5",
+              "en": "Damage to mutants: x2.5",
+              "es": "Daño a mutantes: x2,5",
+              "fr": "Dégât au mutants : x2,5"
             }
           }
         }
@@ -646,9 +646,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 117.76829,
+      "startDamage": 110.66158,
       "damageDecreaseStart": 4.0,
-      "endDamage": 41.2189,
+      "endDamage": 38.88384,
       "damageDecreaseEnd": 25.0,
       "maxDistance": 75.0
     },

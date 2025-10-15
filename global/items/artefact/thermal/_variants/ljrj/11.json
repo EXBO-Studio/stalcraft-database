@@ -328,6 +328,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.36600003,
+          "max": -0.31110004,
+          "formatted": {
+            "value": {
+              "ru": "[-0,37; -0,31]",
+              "en": "[-0.37; -0.31]",
+              "es": "[-0,37; -0,31]",
+              "fr": "[-0,37; -0,31]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.reaction_to_burn",
             "args": {},
             "lines": {
@@ -337,14 +363,14 @@
               "fr": "Réaction aux brûlures"
             }
           },
-          "min": 2.4888003,
-          "max": 2.9280002,
+          "min": 0.82960004,
+          "max": 0.976,
           "formatted": {
             "value": {
-              "ru": "[+2,49%; +2,93%]",
-              "en": "[+2.49%; +2.93%]",
-              "es": "[+2,49 %; +2,93 %]",
-              "fr": "[+2,49%; +2,93%]"
+              "ru": "[+0,83%; +0,98%]",
+              "en": "[+0.83%; +0.98%]",
+              "es": "[+0,83 %; +0,98 %]",
+              "fr": "[+0,83%; +0,98%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

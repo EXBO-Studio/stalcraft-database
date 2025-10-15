@@ -302,6 +302,32 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "min": 3.2079,
+          "max": 3.774,
+          "formatted": {
+            "value": {
+              "ru": "[+3,21%; +3,77%]",
+              "en": "[+3.21%; +3.77%]",
+              "es": "[+3,21 %; +3,77 %]",
+              "fr": "[+3,21%; +3,77%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {

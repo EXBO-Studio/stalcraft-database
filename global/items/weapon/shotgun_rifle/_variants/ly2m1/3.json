@@ -12,7 +12,7 @@
       "fr": "M1014"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -39,13 +39,13 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker",
-              "es": "Acechador",
-              "fr": "Stalker"
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
             }
           }
         },
@@ -220,13 +220,13 @@
               "fr": "Dégâts"
             }
           },
-          "value": 148.31555,
+          "value": 171.33003,
           "formatted": {
             "value": {
-              "ru": "148,32 ед",
-              "en": "148.32 unit(s)",
-              "es": "148,32 unidad(es)",
-              "fr": "148,32 unité(s)"
+              "ru": "171,33 ед",
+              "en": "171.33 unit(s)",
+              "es": "171,33 unidad(es)",
+              "fr": "171,33 unité(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -370,13 +370,13 @@
               "fr": "Dispersion du tir à l\u0027aveugle"
             }
           },
-          "value": 2.4,
+          "value": 2.75,
           "formatted": {
             "value": {
-              "ru": "2,4°",
-              "en": "2.4°",
-              "es": "2,4°",
-              "fr": "2,4°"
+              "ru": "2,75°",
+              "en": "2.75°",
+              "es": "2,75°",
+              "fr": "2,75°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -395,13 +395,13 @@
               "fr": "Recul vertical"
             }
           },
-          "value": 4.8,
+          "value": 7.0,
           "formatted": {
             "value": {
-              "ru": "4,8°",
-              "en": "4.8°",
-              "es": "4,8°",
-              "fr": "4,8°"
+              "ru": "7°",
+              "en": "7°",
+              "es": "7°",
+              "fr": "7°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -519,13 +519,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.0"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25"
+              "ru": "Урон в голову: х1",
+              "en": "Headshot damage: x1",
+              "es": "Daño por disparo a la cabeza: x1",
+              "fr": "Dégât de tir à la tête : x1"
             }
           }
         },
@@ -535,13 +535,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.8"
+              "modifier": "1.0"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,8",
-              "en": "Limb damage: x0.8",
-              "es": "Daño a extremidades: x0,8",
-              "fr": "Dégât aux membres : x0,8"
+              "ru": "Урон по конечностям: х1",
+              "en": "Limb damage: x1",
+              "es": "Daño a extremidades: x1",
+              "fr": "Dégât aux membres : x1"
             }
           }
         },
@@ -551,13 +551,13 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
-              "modifier": "1.75"
+              "modifier": "2.3"
             },
             "lines": {
-              "ru": "Урон по мутантам: х1,75",
-              "en": "Damage to mutants: x1.75",
-              "es": "Daño a mutantes: x1,75",
-              "fr": "Dégât au mutants : x1,75"
+              "ru": "Урон по мутантам: х2,3",
+              "en": "Damage to mutants: x2.3",
+              "es": "Daño a mutantes: x2,3",
+              "fr": "Dégât au mutants : x2,3"
             }
           }
         }
@@ -646,9 +646,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 148.31555,
-      "damageDecreaseStart": 8.0,
-      "endDamage": 44.494667,
+      "startDamage": 171.33003,
+      "damageDecreaseStart": 7.0,
+      "endDamage": 75.18064,
       "damageDecreaseEnd": 54.0,
       "maxDistance": 75.0
     },
