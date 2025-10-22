@@ -6460,6 +6460,101 @@
     }
   },
   {
+    "data": "/items/artefact/other_arts/g34p.json",
+    "icon": "/icons/artefact/other_arts/g34p.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.scaries_silki.name",
+      "args": {},
+      "lines": {
+        "ru": "Силки",
+        "en": "Snares",
+        "es": "Cepos",
+        "fr": "Pièges"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/artefact/other_arts/zjzn.json",
+    "icon": "/icons/artefact/other_arts/zjzn.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.scaries_wood.name",
+      "args": {},
+      "lines": {
+        "ru": "Полено",
+        "en": "Timber",
+        "es": "Leña",
+        "fr": "Bûche"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/artefact/other_arts/51l0.json",
+    "icon": "/icons/artefact/other_arts/51l0.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.scaries_face.name",
+      "args": {},
+      "lines": {
+        "ru": "Харя",
+        "en": "Mug",
+        "es": "Jeta",
+        "fr": "Gueule"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/artefact/other_arts/yq3o.json",
+    "icon": "/icons/artefact/other_arts/yq3o.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.scaries_morel.name",
+      "args": {},
+      "lines": {
+        "ru": "Личинка",
+        "en": "Larva",
+        "es": "Larva",
+        "fr": "Larve"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/artefact/other_arts/w4jo.json",
+    "icon": "/icons/artefact/other_arts/w4jo.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.scaries_blackhole.name",
+      "args": {},
+      "lines": {
+        "ru": "Черная дыра",
+        "en": "Black Hole",
+        "es": "Agujero negro",
+        "fr": "Trou noir"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
     "data": "/items/other/9ypy.json",
     "icon": "/icons/other/9ypy.png",
     "name": {
@@ -7467,6 +7562,25 @@
     }
   },
   {
+    "data": "/items/containers/3d11.json",
+    "icon": "/icons/containers/3d11.png",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.cold.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «Холодок»",
+        "en": "Cool Container",
+        "es": "Contenedor Frescor",
+        "fr": "Conteneur Chill"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/containers/6g5n.json",
     "icon": "/icons/containers/6g5n.png",
     "name": {
@@ -7633,6 +7747,25 @@
       }
     },
     "color": "RANK_LEGEND",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/containers/j34l.json",
+    "icon": "/icons/containers/j34l.png",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.dubak.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «Дубак»",
+        "en": "Freezer Container",
+        "es": "Contenedor Congelador",
+        "fr": "Conteneur Congélateur"
+      }
+    },
+    "color": "RANK_MASTER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -9150,6 +9283,25 @@
         "en": "Barricade",
         "es": "Barricada",
         "fr": "Barricade"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/bullet/w29o.json",
+    "icon": "/icons/bullet/w29o.png",
+    "name": {
+      "type": "translation",
+      "key": "item.amm.9fire.name",
+      "args": {},
+      "lines": {
+        "ru": "Патрон 9 мм жгучий",
+        "en": "9 mm Fluff Round",
+        "es": "Munición de 9 mm de Baba",
+        "fr": "Cartouche Duvet Brûlé de 9 mm"
       }
     },
     "color": "DEFAULT",
@@ -11685,8 +11837,8 @@
     }
   },
   {
-    "data": "/items/weapon_style/skins/rwp25.json",
-    "icon": "/icons/weapon_style/skins/rwp25.png",
+    "data": "/items/weapon_style/skins/0rj21.json",
+    "icon": "/icons/weapon_style/skins/0rj21.png",
     "name": {
       "type": "translation",
       "key": "item.style.wpn.gauss_divisions.name",
@@ -27569,25 +27721,6 @@
     }
   },
   {
-    "data": "/items/attachment/mag/3gp95.json",
-    "icon": "/icons/attachment/mag/3gp95.png",
-    "name": {
-      "type": "translation",
-      "key": "item.att.mag_mc55810.name",
-      "args": {},
-      "lines": {
-        "ru": "Увеличенный магазин для МЦ-558",
-        "en": "MTs-558 Extended Magazine",
-        "es": "Cargador extendido MTs-558",
-        "fr": "Chargeur étendu MTs-558"
-      }
-    },
-    "color": "RANK_MASTER",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    }
-  },
-  {
     "data": "/items/attachment/mag/7lp5j.json",
     "icon": "/icons/attachment/mag/7lp5j.png",
     "name": {
@@ -28944,10 +29077,10 @@
       "key": "item.arm.vorsa.name",
       "args": {},
       "lines": {
-        "ru": "Защитный костюм «Ворса»",
-        "en": "Fleece Protective Suit",
-        "es": "Traje protector Vellón",
-        "fr": "Combinaison Polaire Protectrice"
+        "ru": "Бронекостюм «Ворса»",
+        "en": "Fleece Armored Suit",
+        "es": "Traje blindado Vellón",
+        "fr": "Combinaison Polaire Blindée"
       }
     },
     "color": "RANK_STALKER",
@@ -29077,7 +29210,7 @@
       "key": "item.arm.zarya_gas.name",
       "args": {},
       "lines": {
-        "ru": "Комбинезон «Аврора» с противогазом",
+        "ru": "Костюм «Аврора» с противогазом",
         "en": "Aurora Jumpsuit with Gas Mask",
         "es": "Traje Aurora con máscara antigás",
         "fr": "Combinaison Aurore avec Masque à Gaz"
@@ -29096,7 +29229,7 @@
       "key": "item.arm.zarya_balon.name",
       "args": {},
       "lines": {
-        "ru": "Комбинезон «Аврора-Б»",
+        "ru": "Костюм «Аврора-Б»",
         "en": "Aurora-B Jumpsuit",
         "es": "Traje Aurora-B",
         "fr": "Combinaison Aurore-B"
@@ -29115,7 +29248,7 @@
       "key": "item.arm.turist.name",
       "args": {},
       "lines": {
-        "ru": "Комбинезон «Грибник»",
+        "ru": "Костюм «Грибник»",
         "en": "Forager Jumpsuit",
         "es": "Traje Micólogo",
         "fr": "Combinaison Cueilleur"
@@ -29305,10 +29438,10 @@
       "key": "item.arm.dogger.name",
       "args": {},
       "lines": {
-        "ru": "Защитный костюм «Псарь»",
-        "en": "Houndmaster Protective Suit",
-        "es": "Traje protector Maestro de sabuesos",
-        "fr": "Combinaison Maître-Chien Protectrice"
+        "ru": "Костюм «Псарь»",
+        "en": "Houndmaster Jumpsuit",
+        "es": "Traje Maestro de sabuesos",
+        "fr": "Combinaison Maître-Chien"
       }
     },
     "color": "RANK_NEWBIE",
@@ -29419,7 +29552,7 @@
       "key": "item.arm.voshod.name",
       "args": {},
       "lines": {
-        "ru": "Tяжелый бронекостюм «Восход»",
+        "ru": "Тяжелый бронекостюм «Восход»",
         "en": "Voshod Heavy Armored Suit",
         "es": "Traje blindado pesado Voshod",
         "fr": "Combinaison Voshod Lourde Blindée"
@@ -29495,10 +29628,10 @@
       "key": "item.arm.sokol.name",
       "args": {},
       "lines": {
-        "ru": "Бронекостюм «Сокол»",
-        "en": "Falcon Armored Suit",
-        "es": "Traje blindado Halcón",
-        "fr": "Combinaison Faucon Blindée"
+        "ru": "Костюм «Сокол»",
+        "en": "Falcon Jumpsuit",
+        "es": "Traje Halcón",
+        "fr": "Combinaison Faucon"
       }
     },
     "color": "RANK_STALKER",
@@ -29514,10 +29647,10 @@
       "key": "item.arm.mocking.name",
       "args": {},
       "lines": {
-        "ru": "Бронекостюм «Пересмешник»",
-        "en": "Moqueur Armored Suit",
-        "es": "Traje blindado Sinsonte",
-        "fr": "Combinaison Moqueur Blindée"
+        "ru": "Костюм «Пересмешник»",
+        "en": "Moqueur Jumpsuit",
+        "es": "Traje Sinsonte",
+        "fr": "Combinaison Moqueur"
       }
     },
     "color": "RANK_STALKER",
@@ -29704,10 +29837,10 @@
       "key": "item.arm.osh.name",
       "args": {},
       "lines": {
-        "ru": "Защитный костюм «Ош»",
-        "en": "Osh Protective Suit",
-        "es": "Traje protector Osh",
-        "fr": "Combinaison Protectrice Osh"
+        "ru": "Бронекостюм «Ош»",
+        "en": "Osh Heavy Armored Suit",
+        "es": "Traje blindado pesado Osh",
+        "fr": "Combinaison Osh Blindée"
       }
     },
     "color": "RANK_VETERAN",
@@ -29742,10 +29875,10 @@
       "key": "item.arm.exo.name",
       "args": {},
       "lines": {
-        "ru": "Экзоскелет «Самсон»",
-        "en": "Samson Exoskeleton",
-        "es": "Exoesqueleto Sansón",
-        "fr": "Exosquelette Samson"
+        "ru": "Экзоброня «Самсон»",
+        "en": "Samson Exoarmor",
+        "es": "Exoarmadura Sansón",
+        "fr": "Exoarmure Samson"
       }
     },
     "color": "RANK_VETERAN",
@@ -29761,10 +29894,10 @@
       "key": "item.arm.exo_bandit.name",
       "args": {},
       "lines": {
-        "ru": "Экзоскелет «Масть»",
-        "en": "Trump Exoskeleton",
-        "es": "Exoesqueleto Triunfo",
-        "fr": "Exosquelette Trump"
+        "ru": "Экзоброня «Масть»",
+        "en": "Trump Exoarmor",
+        "es": "Exoarmadura Triunfo",
+        "fr": "Exoarmure Trump"
       }
     },
     "color": "RANK_VETERAN",
@@ -29837,10 +29970,10 @@
       "key": "item.arm.centurion.name",
       "args": {},
       "lines": {
-        "ru": "Бронескелет «Центурион»",
-        "en": "Centurion Armored Exoskeleton",
-        "es": "Exoesqueleto blindado Centurión",
-        "fr": "Exosquelette Centurion Blindé"
+        "ru": "Бронекостюм «Центурион»",
+        "en": "Centurion Armored Suit",
+        "es": "Traje blindado Centurión",
+        "fr": "Exoarmure Centurion Blindé"
       }
     },
     "color": "RANK_MASTER",
@@ -29970,10 +30103,10 @@
       "key": "item.arm.bear.name",
       "args": {},
       "lines": {
-        "ru": "Экзоскелет «Медведь»",
-        "en": "Bear Exoskeleton",
-        "es": "Exoesqueleto Oso",
-        "fr": "Exosquelette Ours"
+        "ru": "Экзоброня «Медведь»",
+        "en": "Bear Exoarmor",
+        "es": "Exoarmadura Oso",
+        "fr": "Exoarmure Ours"
       }
     },
     "color": "RANK_VETERAN",
@@ -30084,10 +30217,10 @@
       "key": "item.arm.grenadier.name",
       "args": {},
       "lines": {
-        "ru": "Экзоскелет «Гренадер»",
-        "en": "Grenadier Exoskeleton",
-        "es": "Exoesqueleto Granadero",
-        "fr": "Exosquelette Grenadier"
+        "ru": "Экзоброня «Гренадер»",
+        "en": "Grenadier Exoarmor",
+        "es": "Exoarmadura Granadero",
+        "fr": "Exoarmure Grenadier"
       }
     },
     "color": "RANK_VETERAN",
@@ -30103,7 +30236,7 @@
       "key": "item.arm.kz1.name",
       "args": {},
       "lines": {
-        "ru": "Комбинезон «КЗ-1»",
+        "ru": "Костюм «КЗ-1»",
         "en": "CD-1 Jumpsuit",
         "es": "Traje DC-1",
         "fr": "Combinaison CP-1"
@@ -30198,10 +30331,10 @@
       "key": "item.arm.altyn.name",
       "args": {},
       "lines": {
-        "ru": "Комплект «Алтын»",
-        "en": "Altyn Set",
-        "es": "Conjunto Altyn",
-        "fr": "Ensemble Altyn"
+        "ru": "Бронекостюм «Алтын»",
+        "en": "Altyn Armored Suit",
+        "es": "Traje blindado Altyn",
+        "fr": "Combinaison Altyn Blindée"
       }
     },
     "color": "RANK_STALKER",
@@ -30255,10 +30388,10 @@
       "key": "item.arm.heavyaltyn.name",
       "args": {},
       "lines": {
-        "ru": "Тяжелый комплект «Алтын-Т»",
-        "en": "Altyn-T Heavy Set",
-        "es": "Conjunto pesado Altyn-T",
-        "fr": "Ensemble lourd Altyn-T"
+        "ru": "Тяжелый бронекостюм «Алтын-Т»",
+        "en": "Altyn-T Heavy Armored Suit",
+        "es": "Traje blindado pesado Altyn-T",
+        "fr": "Combinaison Altyn Blindée Lourde"
       }
     },
     "color": "RANK_VETERAN",
@@ -30293,10 +30426,10 @@
       "key": "item.arm.albatros_scout.name",
       "args": {},
       "lines": {
-        "ru": "Бронескелет «Альбатрос-Разведчик»",
-        "en": "Albatross Scout Armored Exoskeleton",
-        "es": "Exoesqueleto blindado Albatros explorador",
-        "fr": "Combinaison d\u0027Exosquelette Albatros Éclaireur"
+        "ru": "Экзоброня «Альбатрос-Разведчик»",
+        "en": "Albatross Scout Armored Exoarmor",
+        "es": "Exoarmadura Albatros explorador",
+        "fr": "Exoarmure Albatros Éclaireur"
       }
     },
     "color": "RANK_VETERAN",
@@ -30350,10 +30483,10 @@
       "key": "item.arm.albatros_light.name",
       "args": {},
       "lines": {
-        "ru": "Бронескелет «Альбатрос-Лазутчик»",
-        "en": "Albatross Infiltrator Armored Exoskeleton",
-        "es": "Exoesqueleto blindado Albatros de infiltración",
-        "fr": "Combinaison d\u0027exosquelette Albatros Infiltrateur"
+        "ru": "Экзоброня «Альбатрос-Лазутчик»",
+        "en": "Albatross Infiltrator Exoarmor",
+        "es": "Exoarmadura Albatros de infiltración",
+        "fr": "Exoarmure Albatros Infiltrateur"
       }
     },
     "color": "RANK_VETERAN",
@@ -30369,10 +30502,10 @@
       "key": "item.arm.exo_mod.name",
       "args": {},
       "lines": {
-        "ru": "Экзоскелет «Гектор»",
-        "en": "Hector Exoskeleton",
-        "es": "Exoesqueleto Héctor",
-        "fr": "Exosquelette Hector"
+        "ru": "Экзоброня «Гектор»",
+        "en": "Hector Exoarmor",
+        "es": "Exoarmadura Héctor",
+        "fr": "Exoarmure Hector"
       }
     },
     "color": "RANK_MASTER",
@@ -30426,10 +30559,10 @@
       "key": "item.arm.rigel.name",
       "args": {},
       "lines": {
-        "ru": "Комбинезон «Ригель»",
-        "en": "Rigel Jumpsuit",
-        "es": "Traje Rigel",
-        "fr": "Combinaison Rigel"
+        "ru": "Экзоброня «Ригель»",
+        "en": "Rigel Exoarmor",
+        "es": "Exoarmadura Rigel",
+        "fr": "Exoarmure Rigel"
       }
     },
     "color": "RANK_MASTER",
@@ -30464,10 +30597,10 @@
       "key": "item.arm.antares.name",
       "args": {},
       "lines": {
-        "ru": "Экзокостюм «Антарес»",
-        "en": "Antares Exosuit",
-        "es": "Exotraje Antares",
-        "fr": "Tenue Exosquelette Antares"
+        "ru": "Экзоброня «Антарес»",
+        "en": "Antares Exoarmor",
+        "es": "Exoarmadura Antares",
+        "fr": "Exoarmure Antares"
       }
     },
     "color": "RANK_MASTER",
@@ -30521,10 +30654,10 @@
       "key": "item.arm.zivcas_commander.name",
       "args": {},
       "lines": {
-        "ru": "Бронекостюм ZIVCAS M2-C",
-        "en": "ZIVCAS M2-C Armored Suit",
-        "es": "Traje blindado ZIVCAS M2-C",
-        "fr": "Combinaison Blindée ZIVCAS M2-C"
+        "ru": "Экзоброня ZIVCAS M2-C",
+        "en": "ZIVCAS M2-C Exoarmor",
+        "es": "Exoarmadura ZIVCAS M2-C",
+        "fr": "Exoarmure ZIVCAS M2-C"
       }
     },
     "color": "RANK_LEGEND",
@@ -30730,10 +30863,10 @@
       "key": "item.arm.mule.name",
       "args": {},
       "lines": {
-        "ru": "Экзоскелет «Мул»",
-        "en": "Mule Exoskeleton",
-        "es": "Exoesqueleto Mula",
-        "fr": "Exosquelette Mule"
+        "ru": "Экзоброня «Мул»",
+        "en": "Mule Exoarmor",
+        "es": "Exoarmadura Mula",
+        "fr": "Exoarmure Mule"
       }
     },
     "color": "RANK_MASTER",
@@ -30749,10 +30882,10 @@
       "key": "item.arm.tuz.name",
       "args": {},
       "lines": {
-        "ru": "Экзоскелет «Туз»",
-        "en": "Ace Exoskeleton",
-        "es": "Exoesqueleto As",
-        "fr": "Exosquelette As"
+        "ru": "Экзоброня «Туз»",
+        "en": "Ace Exoarmor",
+        "es": "Exoarmadura As",
+        "fr": "Exoarmure As"
       }
     },
     "color": "RANK_MASTER",
@@ -30825,10 +30958,10 @@
       "key": "item.arm.hound.name",
       "args": {},
       "lines": {
-        "ru": "Экзокостюм «Гончий»",
-        "en": "Hounds Exoskeleton",
-        "es": "Exoesqueleto Sabueso",
-        "fr": "Exosquelette Molosse"
+        "ru": "Экзоброня «Гончий»",
+        "en": "Hounds Exoarmor",
+        "es": "Exoarmadura Sabueso",
+        "fr": "Exoarmure Molosse"
       }
     },
     "color": "RANK_MASTER",
@@ -30863,10 +30996,10 @@
       "key": "item.arm.punisher.name",
       "args": {},
       "lines": {
-        "ru": "Бронекостюм «Каратель»",
-        "en": "Punisher Armored Suit",
-        "es": "Traje blindado Castigador",
-        "fr": "Combinaison Blindée Punisher"
+        "ru": "Экзоброня «Каратель»",
+        "en": "Punisher Exoarmor",
+        "es": "Exoarmadura Castigador",
+        "fr": "Exoarmure Punisher"
       }
     },
     "color": "RANK_MASTER",
@@ -31586,9 +31719,9 @@
       "args": {},
       "lines": {
         "ru": "«Астрикцин»",
-        "en": "\"Astrixin\"",
-        "es": "\"Astrixina\"",
-        "fr": "« Astrixine »"
+        "en": "Astrixin",
+        "es": "Astrixina",
+        "fr": "Astrixine"
       }
     },
     "color": "RANK_VETERAN",
@@ -32915,10 +33048,10 @@
       "key": "item.food.octopus.name",
       "args": {},
       "lines": {
-        "ru": "Салат «Осьминожая свежесть»",
+        "ru": "Салат «Осьминожья свежесть»",
         "en": "Octopus Fresh Salad",
         "es": "Ensalada fresca de pulpo",
-        "fr": "Salade de Poulpe"
+        "fr": "Salade Fraîcheur de poulpe"
       }
     },
     "color": "RANK_NEWBIE",

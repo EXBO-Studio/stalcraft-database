@@ -1,0 +1,300 @@
+{
+  "id": "3d11",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.cold.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Холодок»",
+      "en": "Cool Container",
+      "es": "Contenedor Frescor",
+      "fr": "Conteneur Chill"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 7.6,
+          "formatted": {
+            "value": {
+              "ru": "7,6 кг",
+              "en": "7.6 kg",
+              "es": "7,6 kg",
+              "fr": "7,6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.spacious",
+        "args": {},
+        "lines": {
+          "ru": "Вместительный контейнер",
+          "en": "Capacious Container",
+          "es": "Contenedor espacioso",
+          "fr": "Conteneur spacieux"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75%",
+              "en": "75%",
+              "es": "75 %",
+              "fr": "75%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 90.0,
+          "formatted": {
+            "value": {
+              "ru": "90%",
+              "en": "90%",
+              "es": "90 %",
+              "fr": "90%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "0/5",
+              "en": "0/5",
+              "es": "0/5",
+              "fr": "0/5"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "value": -1.875,
+          "formatted": {
+            "value": {
+              "ru": "-1,88",
+              "en": "-1.88",
+              "es": "-1,88",
+              "fr": "-1,88"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5",
+              "en": "0.5",
+              "es": "0,5",
+              "fr": "0,5"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.cold.description",
+        "args": {},
+        "lines": {
+          "ru": "Когда Барон подмял под себя кустаря, создавшего кустарные контейнеры по типу «Холодильника» и «Колотуна», первым делом он поднял вопрос создания более «бюджетной» версии снаряжения для тех сталкеров, что только начинают покорять Зону. Так на рынке ЧЗО и появился «Холодок».",
+          "en": "When the Baron took control over the artisan who had created artisanal containers like Fridge and Freezer, the first thing he did was raise the issue of creating a more \u0027budget-friendly\u0027 version of equipment for those stalkers who are just beginning to conquer the Zone. This is how the Icy appeared on the CEZ market.",
+          "es": "Cuando el Barón subordinó al improvisado artesano que había creado contenedores improvisados del tipo Nevera y Congelador, lo primero que hizo fue plantear la cuestión de crear una versión más \"económica\" del equipamiento para aquellos stalkers que recién comienzan a conquistar la Zona. Así apareció en el mercado de la ZEC el Frescor.",
+          "fr": "Lorsque le Baron mit la main sur l\u0027artisan à l\u0027origine des conteneurs artisanaux comme le Frigo et le Congélateur, sa première exigence fut la création d\u0027une version plus économique de l\u0027équipement, destinée aux stalkers débutants dans la conquête de la Zone. C\u0027est ainsi qu\u0027est né le Congélateur sur le marché de la ZET."
+        }
+      }
+    }
+  ]
+}

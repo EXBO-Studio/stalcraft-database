@@ -1,0 +1,300 @@
+{
+  "id": "j34l",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.dubak.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Дубак»",
+      "en": "Freezer Container",
+      "es": "Contenedor Congelador",
+      "fr": "Conteneur Congélateur"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 9.2,
+          "formatted": {
+            "value": {
+              "ru": "9,2 кг",
+              "en": "9.2 kg",
+              "es": "9,2 kg",
+              "fr": "9,2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.spacious",
+        "args": {},
+        "lines": {
+          "ru": "Вместительный контейнер",
+          "en": "Capacious Container",
+          "es": "Contenedor espacioso",
+          "fr": "Conteneur spacieux"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75%",
+              "en": "75%",
+              "es": "75 %",
+              "fr": "75%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 6.0,
+          "formatted": {
+            "value": {
+              "ru": "0/6",
+              "en": "0/6",
+              "es": "0/6",
+              "fr": "0/6"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "value": -2.5,
+          "formatted": {
+            "value": {
+              "ru": "-2,5",
+              "en": "-2.5",
+              "es": "-2,5",
+              "fr": "-2,5"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5",
+              "en": "0.5",
+              "es": "0,5",
+              "fr": "0,5"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.dubak.description",
+        "args": {},
+        "lines": {
+          "ru": "Пускай Черный Рынок прибегает к не самым культурным методам для привлечения «новых кадров» в ряды своих мастеров, он также дает им ресурсы и возможности, которые нельзя получить, будучи Кулибиным-одиночкой.\\n\\nБлагодаря такому «сотрудничеству» смог появиться новый контейнер из серии кустарных контейнеров, как и прочие, имеющий определенные ограничения по использованию, но хорошо показывающий себя в деле использования некоторых артефактов.",
+          "en": "Although the Black Market resorts to less than refined methods to attract \"new talent\" into the ranks of its masters, it also provides them with resources and opportunities that cannot be obtained by being a lone Franklin.\\n\\nThanks to such “collaboration,” a new container from the series of artisanal containers has emerged, just like others, having certain usage limitations but proving effective when used with certain artefacts.",
+          "es": "Aunque el Mercado Negro recurre a métodos no muy cultos para atraer \"nuevos integrantes\" a las filas de sus maestros, también les brinda recursos y oportunidades que no se pueden obtener siendo un Quevedo solitario.\\n\\nGracias a esta \"colaboración\" pudo surgir un nuevo contenedor de la serie de contenedores improvisada; como los demás, tiene ciertas limitaciones de uso, pero se desempeña bien en el manejo de algunos artefactos.",
+          "fr": "Le Marché Noir, bien que peu regardant sur les méthodes employées pour recruter de nouveaux talents parmi les artisans, leur offre des ressources et des opportunités inaccessibles à un bricoleur solitaire.\\n\\nGrâce à cette collaboration, un nouveau conteneur a vu le jour dans la série des conteneurs artisanaux. Comme les autres, il présente certaines limites d\u0027utilisation, mais s\u0027avère très efficace pour manipuler certains artefacts."
+        }
+      }
+    }
+  ]
+}

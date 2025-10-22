@@ -1,0 +1,338 @@
+{
+  "id": "51l0",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.scaries_face.name",
+    "args": {},
+    "lines": {
+      "ru": "Харя",
+      "en": "Mug",
+      "es": "Jeta",
+      "fr": "Gueule"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.8,
+          "formatted": {
+            "value": {
+              "ru": "0,8 кг",
+              "en": "0.8 kg",
+              "es": "0,8 kg",
+              "fr": "0,8 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 1.3056,
+          "max": 1.536,
+          "formatted": {
+            "value": {
+              "ru": "[+1,31%; +1,54%]",
+              "en": "[+1.31%; +1.54%]",
+              "es": "[+1,31 %; +1,54 %]",
+              "fr": "[+1,31%; +1,54%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 13.817599,
+          "max": 16.255999,
+          "formatted": {
+            "value": {
+              "ru": "[+13,82; +16,26]",
+              "en": "[+13.82; +16.26]",
+              "es": "[+13,82; +16,26]",
+              "fr": "[+13,82; +16,26]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation"
+            }
+          },
+          "min": 0.53125,
+          "max": 0.625,
+          "formatted": {
+            "value": {
+              "ru": "[+0,53; +0,62]",
+              "en": "[+0.53; +0.62]",
+              "es": "[+0,53; +0,62]",
+              "fr": "[+0,53; +0,62]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique"
+            }
+          },
+          "min": -1.6384,
+          "max": -1.39264,
+          "formatted": {
+            "value": {
+              "ru": "[-1,64; -1,39]",
+              "en": "[-1.64; -1.39]",
+              "es": "[-1,64; -1,39]",
+              "fr": "[-1,64; -1,39]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.scaries_face.description",
+        "args": {},
+        "lines": {
+          "ru": "Жутковатый гравитационный артефакт, получивший среди сталкеров название «Харя» за некое сходство с человеческим лицом.\\n\\nУченые из НИИ-7 долго пытались выяснить его состав и структуру, но так и не пришли к единому мнению. Хотя каждый образец «Хари» выглядит почти одинаково, на деле он может состоять из другого мусора.\\n\\nСталкеры отметили другую особенность: два мигающих диода, которые подстраиваются под сердцебиение носителя. Подобное сходство «Хари» с «Сердцем» породило множество баек среди обитателей Зоны.",
+          "en": "A creepy gravitational artifact name Mug among stalkers for its slight resemblance to a human face.\\n\\nScientists at Scientific Research Institute 7 have long tried to determine its composition and structure but have not reached a consensus. Although each Mug sample looks almost identical, it may actually be composed of different debris.\\n\\nStalkers noted another feature: two blinking diodes that sync to the heartbeat of the bearer. This similarity of Mug to Heart has spawned many tales among Zone inhabitants.",
+          "es": "Un espeluznante artefacto gravitacional que los acechadores llaman Jeta debido a su ligero parecido con un rostro humano.\\n\\nLos científicos del Instituto de Investigación Científica 7 llevan mucho tiempo intentando determinar su composición y estructura, pero no han alcanzado un consenso. Aunque cada muestra de Jeta parece casi idéntica, en realidad puede estar compuesta por diferentes tipos de restos.\\n\\nLos acechadores observaron otra característica: dos diodos que parpadean y se sincronizan con los latidos del corazón del portador. Esta similitud de la Jeta con el Corazón ha dado lugar a muchas leyendas entre los habitantes de la Zona.",
+          "fr": "Artefact gravitationnel inquiétant, surnommé Gueule par les stalkers pour sa ressemblance avec un visage humain.\\n\\nLes chercheurs de l\u0027Institut de Recherche 7 ont longtemps tenté d\u0027en déterminer la composition et la structure, sans parvenir à un consensus. Bien que chaque exemplaire de Gueule paraisse presque identique, il peut en réalité être formé de débris totalement différents.\\n\\nLes stalkers ont noté une autre particularité : deux diodes clignotantes s\u0027ajustent au rythme cardiaque du porteur. Cette similitude entre la Gueule et le Cœur a inspiré de nombreuses histoires parmi les habitants de la Zone."
+        }
+      }
+    }
+  ]
+}
