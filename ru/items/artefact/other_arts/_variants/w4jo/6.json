@@ -1,0 +1,364 @@
+{
+  "id": "w4jo",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.scaries_blackhole.name",
+    "args": {},
+    "lines": {
+      "ru": "Черная дыра",
+      "en": "Black Hole",
+      "es": "Agujero negro",
+      "fr": "Trou noir"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 1.25,
+          "formatted": {
+            "value": {
+              "ru": "1,25 кг",
+              "en": "1.25 kg",
+              "es": "1,25 kg",
+              "fr": "1,25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.6664,
+          "max": 0.784,
+          "formatted": {
+            "value": {
+              "ru": "[+0,67%; +0,78%]",
+              "en": "[+0.67%; +0.78%]",
+              "es": "[+0,67 %; +0,78 %]",
+              "fr": "[+0,67%; +0,78%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 3.4272,
+          "max": 4.032,
+          "formatted": {
+            "value": {
+              "ru": "[+3,43%; +4,03%]",
+              "en": "[+3.43%; +4.03%]",
+              "es": "[+3,43 %; +4,03 %]",
+              "fr": "[+3,43%; +4,03%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 9.6152,
+          "max": 11.312,
+          "formatted": {
+            "value": {
+              "ru": "[+9,62; +11,31]",
+              "en": "[+9.62; +11.31]",
+              "es": "[+9,62; +11,31]",
+              "fr": "[+9,62; +11,31]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Resistance to fire",
+              "es": "Resistencia al fuego",
+              "fr": "Résistance au feu"
+            }
+          },
+          "min": -21.7,
+          "max": -18.445002,
+          "formatted": {
+            "value": {
+              "ru": "[-21,7; -18,45]",
+              "en": "[-21.7; -18.45]",
+              "es": "[-21,7; -18,45]",
+              "fr": "[-21,7; -18,45]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.scaries_blackhole.description",
+        "args": {},
+        "lines": {
+          "ru": "Артефакт поразительной красоты, привлекающий внимание как сталкеров, так и коллекционеров с Большой земли.\\n\\nХотя аномальное образование визуально почти полностью копирует черную дыру, при исследовании объекта в стенах НИИ-7 не было выявлено никаких структурных и внутренних свойств, характерных артефактам гравитационного класса.\\n\\nКак считает профессор Брусенко, подобная путаница с классификацией может быть вызвана не самым лучшим пониманием фундаментальных законов, по которым работают артефакты и аномалии.",
+          "en": "An artifact of stunning beauty, attracting the attention of both stalkers and collectors from the Mainland.\\n\\nAlthough the anomalous formation visually almost perfectly resembles a black hole, investigations of the object within the walls of Research Institute 7 revealed none of the structural and internal properties characteristic of gravitational class artifacts.\\n\\nAccording to Professor Brusenko, this confusion with classification may stem from a less than optimal understanding of the fundamental laws governing artifacts and anomalies.",
+          "es": "Un artefacto de una belleza asombrosa, que llama la atención tanto de los acechadores como de los coleccionistas del continente.\\n\\nAunque a nivel visual la formación anómala es casi idéntica a un agujero negro, las investigaciones del objeto llevadas a cabo entre los muros del Instituto de Investigación 7 no revelaron ninguna de las propiedades estructurales e internas características de los artefactos de clase gravitacional.\\n\\nSegún el profesor Brusenko, esta confusión en la clasificación podría deberse a un error de comprensión de las leyes fundamentales que rigen los artefactos y las anomalías.",
+          "fr": "Artefact d\u0027une beauté saisissante, attirant aussi bien les stalkers que les collectionneurs du Continent.\\n\\nBien que cette formation anormale imite presque parfaitement un trou noir, les analyses menées dans les laboratoires de l\u0027Institut de Recherche 7 n\u0027ont révélé aucune propriété structurelle ou interne propre aux artefacts de classe gravitationnelle.\\n\\n\\n\\nSelon le professeur Brussenko, cette confusion de classification pourrait être due à notre compréhension encore imparfaite des lois fondamentales qui régissent le fonctionnement des artefacts et des anomalies."
+        }
+      }
+    }
+  ]
+}

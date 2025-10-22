@@ -1,0 +1,338 @@
+{
+  "id": "zjzn",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.scaries_wood.name",
+    "args": {},
+    "lines": {
+      "ru": "Полено",
+      "en": "Timber",
+      "es": "Leña",
+      "fr": "Bûche"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5 кг",
+              "en": "0.5 kg",
+              "es": "0,5 kg",
+              "fr": "0,5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance"
+            }
+          },
+          "min": 3.8335004,
+          "max": 4.51,
+          "formatted": {
+            "value": {
+              "ru": "[+3,83%; +4,51%]",
+              "en": "[+3.83%; +4.51%]",
+              "es": "[+3,83 %; +4,51 %]",
+              "fr": "[+3,83%; +4,51%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 7.573501,
+          "max": 8.910001,
+          "formatted": {
+            "value": {
+              "ru": "[+7,57; +8,91]",
+              "en": "[+7.57; +8.91]",
+              "es": "[+7,57; +8,91]",
+              "fr": "[+7,57; +8,91]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation"
+            }
+          },
+          "min": -1.408,
+          "max": -1.1968,
+          "formatted": {
+            "value": {
+              "ru": "[-1,41; -1,2]",
+              "en": "[-1.41; -1.2]",
+              "es": "[-1,41; -1,2]",
+              "fr": "[-1,41; -1,2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": 0.53125,
+          "max": 0.625,
+          "formatted": {
+            "value": {
+              "ru": "[+0,53; +0,62]",
+              "en": "[+0.53; +0.62]",
+              "es": "[+0,53; +0,62]",
+              "fr": "[+0,53; +0,62]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.scaries_wood.description",
+        "args": {},
+        "lines": {
+          "ru": "Обманчивый артефакт, известный сталкерам как «Полено», на первый взгляд кажется обычной деревяшкой. Однако ученые из отделения артефактологии НИИ-7 обнаружили, что он состоит из ранее не зафиксированной аллотропной модификации углерода.\\n\\nПо мнению профессора Брусенко, исследование этого материала может приблизить человечество к созданию космического лифта, если удастся синтезировать подобное вещество в промышленных масштабах.\\n\\nПока ученые разбираются в природе артефакта, сталкеры уже нашли ему необычное применение. «Полено» постоянно выделяет дым, который идеально подходит для копчения мутантского мяса.",
+          "en": "The deceptive artifact, known to stalkers as Timber, initially appears to be an ordinary piece of wood. However, scientists from the artifactology department of Research Institute 7 discovered that it is composed of a previously unrecorded allotrope modification of carbon.\\n\\nAccording to Professor Brusenko, studying this material could bring humanity closer to creating a space elevator if it can be synthesized on an industrial scale.\\n\\nWhile scientists are still investigating the artifact\u0027s nature, stalkers have already found an unusual use for it. Timber continuously emits fume, which is perfect for smoking mutant meat.",
+          "es": "El engañoso artefacto, que los acechadores conocen con el nombre de leño, a primera vista parece un trozo de madera corriente. Sin embargo, los científicos del departamento de artefactología del Instituto de Investigación 7 descubrieron que está compuesto de una modificación alotrópica de carbono no registrada hasta ahora.\\n\\nSegún el profesor Brusenko, estudiar este material podría acercar a la humanidad a la creación de un ascensor espacial si se pudiera sintetizar a escala industrial.\\n\\nMientras los científicos siguen investigando la naturaleza del artefacto, los acechadores ya le han encontrado un uso poco común. El leño emite continuamente un humo perfecto para ahumar carne de mutante.",
+          "fr": "Artefact trompeur, connu des stalkers sous le nom de  Bûche, il ressemble à première vue à un simple morceau de bois. Cependant, les chercheurs du département d\u0027artéfactologie de l\u0027Institut de Recherche 7 ont découvert qu\u0027il est constitué d\u0027une modification allotropique du carbone encore jamais observée.\\n\\nSelon le professeur Brussenko, l\u0027étude de ce matériau pourrait rapprocher l\u0027humanité de la création d\u0027un ascenseur spatial, si une telle substance pouvait être synthétisée à l\u0027échelle industrielle.\\n\\nTandis que les scientifiques tentent de percer les secrets de l\u0027artefact, les stalkers lui ont déjà trouvé une utilité particulière : la Bûche dégage en permanence une fumée parfaite pour le fumage de la viande de mutant."
+        }
+      }
+    }
+  ]
+}

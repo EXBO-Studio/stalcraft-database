@@ -1,0 +1,312 @@
+{
+  "id": "g34p",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.scaries_silki.name",
+    "args": {},
+    "lines": {
+      "ru": "Силки",
+      "en": "Snares",
+      "es": "Cepos",
+      "fr": "Pièges"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 15.283,
+          "max": 17.98,
+          "formatted": {
+            "value": {
+              "ru": "[+15,28; +17,98]",
+              "en": "[+15.28; +17.98]",
+              "es": "[+15,28; +17,98]",
+              "fr": "[+15,28; +17,98]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 7.905,
+          "max": 9.3,
+          "formatted": {
+            "value": {
+              "ru": "[+7,9; +9,3]",
+              "en": "[+7.9; +9.3]",
+              "es": "[+7,9; +9,3]",
+              "fr": "[+7,9; +9,3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys"
+            }
+          },
+          "min": -5.0592,
+          "max": -4.30032,
+          "formatted": {
+            "value": {
+              "ru": "[-5,06; -4,3]",
+              "en": "[-5.06; -4.3]",
+              "es": "[-5,06; -4,3]",
+              "fr": "[-5,06; -4,3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.scaries_silki.description",
+        "args": {},
+        "lines": {
+          "ru": "Из-за того, что объекты класса «ВА», к которым был отнесен артефакт, зачастую не проявляют выраженных аномальных свойств, «Силки» длительное время пролеживали на складе образцов без внимания со стороны ученых НИИ-7.\\n\\nОднако сталкеры, имеющие наметанный глаз, сразу заприметили новую диковинку и даже успели случайно открыть необычное свойство артефакта — любой объект массой ровно в 3,14 грамма не может пересечь постоянное статическое поле артефакта, вместо чего просто превращается в пепел при контакте. \\n\\nКак считают ученые, за счет разрушения связей внутри подобных объектов артефакт берет энергию, которая поддерживает статическое поле.",
+          "en": "Due to the fact that the objects of the EA class to which the artifact was attributed often do not exhibit pronounced anomalous properties, Snares remained for a long time in the sample storage without any attention from the scientists at the Scientific Research Institute 7.\\n\\nHowever, stalkers with a keen eye immediately noticed the new curiosity and even accidentally discovered the unusual property of the artifact — any object weighing exactly 3.14 grams cannot cross the permanent static field of the artifact, instead turning to ash upon contact. \\n\\nScientists believe that through the destruction of bonds within such objects, the artifact draws energy which sustains the static field.",
+          "es": "Como los objetos de clase \"IA\", a la que se creía que pertenecía el artefacto, no suelen mostrar propiedades anómalas destacadas, los \"cepos\" permanecieron mucho tiempo en el almacén de muestras sin que los científicos del Instituto de Investigación Científica 7 les prestaran atención.\\n\\nSin embargo, los acechadores con buen ojo se percataron enseguida del nuevo objeto e incluso descubrieron por accidente la inusual propiedad del artefacto: todo objeto que pese exactamente 3,14 gramos no puede atravesar el campo estático permanente del artefacto, sino que se convierte en cenizas al entrar en contacto con este. \\n\\nLos científicos creen que, mediante la destrucción de los enlaces de dichos objetos, el artefacto extrae la energía que mantiene el campo estático.",
+          "fr": "En raison du fait que les objets de la classe IA, auxquels cet artefact avait été attribué, ne manifestaient souvent pas de propriétés anormales évidentes, les Pièges sont longtemps restés entreposés parmi les échantillons sans attirer l\u0027attention des chercheurs de l\u0027Institut de Recherche 7.\\n\\nCependant, les stalkers au regard affûté ont immédiatement remarqué cette nouveauté et ont même découvert par hasard une propriété inhabituelle de l\u0027artefact : tout objet d\u0027une masse exactement égale à 3,14 grammes ne peut pas traverser le champ statique permanent de l\u0027artefact, et se transforme simplement en cendres au contact.\\n\\nD\u0027après les scientifiques, en détruisant les liaisons internes de tels objets, l\u0027artefact puise l\u0027énergie nécessaire pour maintenir son champ statique."
+        }
+      }
+    }
+  ]
+}
