@@ -103,6 +103,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "30800.0"
+            },
+            "lines": {
+              "ru": "30 800 руб.",
+              "en": "30,800 rubles",
+              "es": "30.800 rublos",
+              "fr": "30 800 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.quality.common",
             "args": {},
             "lines": {
@@ -303,7 +339,7 @@
         "lines": {
           "ru": "Из-за того, что объекты класса «ВА», к которым был отнесен артефакт, зачастую не проявляют выраженных аномальных свойств, «Силки» длительное время пролеживали на складе образцов без внимания со стороны ученых НИИ-7.\\n\\nОднако сталкеры, имеющие наметанный глаз, сразу заприметили новую диковинку и даже успели случайно открыть необычное свойство артефакта — любой объект массой ровно в 3,14 грамма не может пересечь постоянное статическое поле артефакта, вместо чего просто превращается в пепел при контакте. \\n\\nКак считают ученые, за счет разрушения связей внутри подобных объектов артефакт берет энергию, которая поддерживает статическое поле.",
           "en": "Due to the fact that the objects of the EA class to which the artifact was attributed often do not exhibit pronounced anomalous properties, Snares remained for a long time in the sample storage without any attention from the scientists at the Scientific Research Institute 7.\\n\\nHowever, stalkers with a keen eye immediately noticed the new curiosity and even accidentally discovered the unusual property of the artifact — any object weighing exactly 3.14 grams cannot cross the permanent static field of the artifact, instead turning to ash upon contact. \\n\\nScientists believe that through the destruction of bonds within such objects, the artifact draws energy which sustains the static field.",
-          "es": "Como los objetos de clase \"IA\", a la que se creía que pertenecía el artefacto, no suelen mostrar propiedades anómalas destacadas, los \"cepos\" permanecieron mucho tiempo en el almacén de muestras sin que los científicos del Instituto de Investigación Científica 7 les prestaran atención.\\n\\nSin embargo, los acechadores con buen ojo se percataron enseguida del nuevo objeto e incluso descubrieron por accidente la inusual propiedad del artefacto: todo objeto que pese exactamente 3,14 gramos no puede atravesar el campo estático permanente del artefacto, sino que se convierte en cenizas al entrar en contacto con este. \\n\\nLos científicos creen que, mediante la destrucción de los enlaces de dichos objetos, el artefacto extrae la energía que mantiene el campo estático.",
+          "es": "Como los objetos de clase IA, a la que se creía que pertenecía el artefacto, no suelen mostrar propiedades anómalas destacadas, Cepos permanecieron mucho tiempo en el almacén de muestras sin que los científicos del Instituto de Investigación Científica 7 les prestaran atención.\\n\\nSin embargo, los acechadores con buen ojo se percataron enseguida del nuevo objeto e incluso descubrieron por accidente la inusual propiedad del artefacto: todo objeto que pese exactamente 3,14 gramos no puede atravesar el campo estático permanente del artefacto, sino que se convierte en cenizas al entrar en contacto con este. \\n\\nLos científicos creen que, mediante la destrucción de los enlaces de dichos objetos, el artefacto extrae la energía que mantiene el campo estático.",
           "fr": "En raison du fait que les objets de la classe IA, auxquels cet artefact avait été attribué, ne manifestaient souvent pas de propriétés anormales évidentes, les Pièges sont longtemps restés entreposés parmi les échantillons sans attirer l\u0027attention des chercheurs de l\u0027Institut de Recherche 7.\\n\\nCependant, les stalkers au regard affûté ont immédiatement remarqué cette nouveauté et ont même découvert par hasard une propriété inhabituelle de l\u0027artefact : tout objet d\u0027une masse exactement égale à 3,14 grammes ne peut pas traverser le champ statique permanent de l\u0027artefact, et se transforme simplement en cendres au contact.\\n\\nD\u0027après les scientifiques, en détruisant les liaisons internes de tels objets, l\u0027artefact puise l\u0027énergie nécessaire pour maintenir son champ statique."
         }
       }
