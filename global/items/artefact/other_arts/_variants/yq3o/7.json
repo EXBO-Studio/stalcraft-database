@@ -103,6 +103,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "30000.0"
+            },
+            "lines": {
+              "ru": "30 000 руб.",
+              "en": "30,000 rubles",
+              "es": "30.000 rublos",
+              "fr": "30 000 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.quality.common",
             "args": {},
             "lines": {
@@ -327,10 +363,10 @@
         "key": "item.art.scaries_morel.description",
         "args": {},
         "lines": {
-          "ru": "Биохимический артефакт довольно мерзкой наружности, напоминающий свернувшуюся личинку.\\n\\nХотя ученые отделения артефактологии выражают сомнения относительно некоторых свойств живого организма, найденных у образца, некоторые сотрудники отделения изучения флоры и фауны считают его впавшей в анабиоз личинкой неизвестного подземного мутанта, что, тем не менее, не объясняет аномальных свойств артефакта.\\n\\nВнушаемые сталкеры предпочитают не брать «Сморчка» в голые руки. По некоторым слухам, после такого контакта на коже могут появиться россыпи небольших отверстий, напоминающие плоды лотоса.",
-          "en": "A biochemical artifact of rather unsightly appearance, resembling a coiled larva.\\n\\nWhile scientists in the artifactology department express doubts about certain properties akin to a living organism found in the sample, some members of the flora and fauna study department believe it to be a larva of an unknown underground mutant in a state of anabiosis, which nonetheless doesn\u0027t explain the artifact\u0027s anomalous properties.\\n\\nSuperstitious stalkers prefer not to handle Morel with bare hands. According to some rumors, after such contact, clusters of small holes resembling lotus seeds may appear on the skin.",
-          "es": "Un artefacto bioquímico de aspecto bastante desagradable y que parece una larva enroscada.\\n\\nSi bien los científicos del departamento de artefactología expresan sus dudas sobre ciertas propiedades similares a las de un organismo vivo halladas en la muestra, algunos miembros del departamento de estudio de la flora y la fauna creen que se trata de una larva de un mutante subterráneo desconocido en estado de anabiosis, lo que, sin embargo, no explica las propiedades anómalas del artefacto.\\n\\nLos acechadores supersticiosos prefieren no tocar la Colmenilla con las manos desnudas. Corren rumores de que, al tocarla, pueden aparecer en la piel cúmulos de pequeños agujeros que recuerdan a las semillas de loto.",
-          "fr": "Artefact biochimique d\u0027apparence assez répugnante, rappelant une larve recroquevillée.\\n\\nBien que les chercheurs du département d\u0027artéfactologie doutent de certaines caractéristiques organiques observées sur l\u0027échantillon, certains membres du département d\u0027étude de la flore et de la faune le considèrent comme une larve en hibernation d\u0027un mutant souterrain inconnu — ce qui, néanmoins, n\u0027explique pas ses propriétés anormales.\\n\\nLes stalkers les plus impressionnables préfèrent ne pas toucher la Morille à mains nues. Selon certaines rumeurs, un contact direct provoquerait l\u0027apparition de petites cavités sur la peau, semblables aux fruits du lotus."
+          "ru": "Биохимический артефакт довольно мерзкой наружности, напоминающий свернувшуюся личинку.\\n\\nХотя ученые отделения артефактологии выражают сомнения относительно некоторых свойств живого организма, найденных у образца, некоторые сотрудники отделения изучения флоры и фауны считают его впавшей в анабиоз личинкой неизвестного подземного мутанта, что, тем не менее, не объясняет аномальных свойств артефакта.\\n\\nВнушаемые сталкеры предпочитают не брать «Личинку» в голые руки. По некоторым слухам, после такого контакта на коже могут появиться россыпи небольших отверстий, напоминающие плоды лотоса.",
+          "en": "A biochemical artifact of rather unsightly appearance, resembling a coiled larva.\\n\\nWhile scientists in the artifactology department express doubts about certain properties akin to a living organism found in the sample, some members of the flora and fauna study department believe it to be a larva of an unknown underground mutant in a state of anabiosis, which nonetheless doesn\u0027t explain the artifact\u0027s anomalous properties.\\n\\nSuperstitious stalkers prefer not to handle Larva with bare hands. According to some rumors, after such contact, clusters of small holes resembling lotus seeds may appear on the skin.",
+          "es": "Un artefacto bioquímico de aspecto bastante desagradable y que parece una larva enroscada.\\n\\nSi bien los científicos del departamento de artefactología expresan sus dudas sobre ciertas propiedades similares a las de un organismo vivo halladas en la muestra, algunos miembros del departamento de estudio de la flora y la fauna creen que se trata de una larva de un mutante subterráneo desconocido en estado de anabiosis, lo que, sin embargo, no explica las propiedades anómalas del artefacto.\\n\\nLos acechadores supersticiosos prefieren no tocar Larva con las manos desnudas. Corren rumores de que, al tocarla, pueden aparecer en la piel cúmulos de pequeños agujeros que recuerdan a las semillas de loto.",
+          "fr": "Artefact biochimique d\u0027apparence assez répugnante, rappelant une larve recroquevillée.\\n\\nBien que les chercheurs du département d\u0027artéfactologie doutent de certaines caractéristiques organiques observées sur l\u0027échantillon, certains membres du département d\u0027étude de la flore et de la faune le considèrent comme une larve en hibernation d\u0027un mutant souterrain inconnu — ce qui, néanmoins, n\u0027explique pas ses propriétés anormales.\\n\\nLes stalkers les plus impressionnables préfèrent ne pas toucher la Larve à mains nues. Selon certaines rumeurs, un contact direct provoquerait l\u0027apparition de petites cavités sur la peau, semblables aux fruits du lotus."
         }
       }
     }

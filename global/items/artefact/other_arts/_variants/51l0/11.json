@@ -103,6 +103,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "29300.0"
+            },
+            "lines": {
+              "ru": "29 300 руб.",
+              "en": "29,300 rubles",
+              "es": "29.300 rublos",
+              "fr": "29 300 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.quality.common",
             "args": {},
             "lines": {
@@ -329,7 +365,7 @@
         "lines": {
           "ru": "Жутковатый гравитационный артефакт, получивший среди сталкеров название «Харя» за некое сходство с человеческим лицом.\\n\\nУченые из НИИ-7 долго пытались выяснить его состав и структуру, но так и не пришли к единому мнению. Хотя каждый образец «Хари» выглядит почти одинаково, на деле он может состоять из другого мусора.\\n\\nСталкеры отметили другую особенность: два мигающих диода, которые подстраиваются под сердцебиение носителя. Подобное сходство «Хари» с «Сердцем» породило множество баек среди обитателей Зоны.",
           "en": "A creepy gravitational artifact name Mug among stalkers for its slight resemblance to a human face.\\n\\nScientists at Scientific Research Institute 7 have long tried to determine its composition and structure but have not reached a consensus. Although each Mug sample looks almost identical, it may actually be composed of different debris.\\n\\nStalkers noted another feature: two blinking diodes that sync to the heartbeat of the bearer. This similarity of Mug to Heart has spawned many tales among Zone inhabitants.",
-          "es": "Un espeluznante artefacto gravitacional que los acechadores llaman Jeta debido a su ligero parecido con un rostro humano.\\n\\nLos científicos del Instituto de Investigación Científica 7 llevan mucho tiempo intentando determinar su composición y estructura, pero no han alcanzado un consenso. Aunque cada muestra de Jeta parece casi idéntica, en realidad puede estar compuesta por diferentes tipos de restos.\\n\\nLos acechadores observaron otra característica: dos diodos que parpadean y se sincronizan con los latidos del corazón del portador. Esta similitud de la Jeta con el Corazón ha dado lugar a muchas leyendas entre los habitantes de la Zona.",
+          "es": "Un espeluznante artefacto gravitacional que los acechadores llaman Jeta debido a su ligero parecido con un rostro humano.\\n\\nLos científicos del Instituto de Investigación Científica 7 llevan mucho tiempo intentando determinar su composición y estructura, pero no han alcanzado un consenso. Aunque cada muestra de Jeta parece casi idéntica, en realidad puede estar compuesta por diferentes tipos de restos.\\n\\nLos acechadores observaron otra característica: dos diodos que parpadean y se sincronizan con los latidos del corazón del portador. Esta similitud de Jeta con Corazón ha dado lugar a muchas leyendas entre los habitantes de la Zona.",
           "fr": "Artefact gravitationnel inquiétant, surnommé Gueule par les stalkers pour sa ressemblance avec un visage humain.\\n\\nLes chercheurs de l\u0027Institut de Recherche 7 ont longtemps tenté d\u0027en déterminer la composition et la structure, sans parvenir à un consensus. Bien que chaque exemplaire de Gueule paraisse presque identique, il peut en réalité être formé de débris totalement différents.\\n\\nLes stalkers ont noté une autre particularité : deux diodes clignotantes s\u0027ajustent au rythme cardiaque du porteur. Cette similitude entre la Gueule et le Cœur a inspiré de nombreuses histoires parmi les habitants de la Zone."
         }
       }

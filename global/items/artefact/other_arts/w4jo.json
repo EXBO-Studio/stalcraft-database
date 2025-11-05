@@ -103,6 +103,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "35600.0"
+            },
+            "lines": {
+              "ru": "35 600 руб.",
+              "en": "35,600 rubles",
+              "es": "35.600 rublos",
+              "fr": "35 600 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.quality.common",
             "args": {},
             "lines": {
@@ -355,7 +391,7 @@
         "lines": {
           "ru": "Артефакт поразительной красоты, привлекающий внимание как сталкеров, так и коллекционеров с Большой земли.\\n\\nХотя аномальное образование визуально почти полностью копирует черную дыру, при исследовании объекта в стенах НИИ-7 не было выявлено никаких структурных и внутренних свойств, характерных артефактам гравитационного класса.\\n\\nКак считает профессор Брусенко, подобная путаница с классификацией может быть вызвана не самым лучшим пониманием фундаментальных законов, по которым работают артефакты и аномалии.",
           "en": "An artifact of stunning beauty, attracting the attention of both stalkers and collectors from the Mainland.\\n\\nAlthough the anomalous formation visually almost perfectly resembles a black hole, investigations of the object within the walls of Research Institute 7 revealed none of the structural and internal properties characteristic of gravitational class artifacts.\\n\\nAccording to Professor Brusenko, this confusion with classification may stem from a less than optimal understanding of the fundamental laws governing artifacts and anomalies.",
-          "es": "Un artefacto de una belleza asombrosa, que llama la atención tanto de los acechadores como de los coleccionistas del continente.\\n\\nAunque a nivel visual la formación anómala es casi idéntica a un agujero negro, las investigaciones del objeto llevadas a cabo entre los muros del Instituto de Investigación 7 no revelaron ninguna de las propiedades estructurales e internas características de los artefactos de clase gravitacional.\\n\\nSegún el profesor Brusenko, esta confusión en la clasificación podría deberse a un error de comprensión de las leyes fundamentales que rigen los artefactos y las anomalías.",
+          "es": "Un artefacto de una belleza asombrosa, que llama la atención tanto de los acechadores como de los coleccionistas del Continente.\\n\\nAunque a nivel visual la formación anómala es casi idéntica a un agujero negro, las investigaciones del objeto llevadas a cabo entre los muros del Instituto de Investigación 7 no revelaron ninguna de las propiedades estructurales e internas características de los artefactos de clase gravitacional.\\n\\nSegún el profesor Brusenko, esta confusión en la clasificación podría deberse a un error de comprensión de las leyes fundamentales que rigen los artefactos y las anomalías.",
           "fr": "Artefact d\u0027une beauté saisissante, attirant aussi bien les stalkers que les collectionneurs du Continent.\\n\\nBien que cette formation anormale imite presque parfaitement un trou noir, les analyses menées dans les laboratoires de l\u0027Institut de Recherche 7 n\u0027ont révélé aucune propriété structurelle ou interne propre aux artefacts de classe gravitationnelle.\\n\\n\\n\\nSelon le professeur Brussenko, cette confusion de classification pourrait être due à notre compréhension encore imparfaite des lois fondamentales qui régissent le fonctionnement des artefacts et des anomalies."
         }
       }
