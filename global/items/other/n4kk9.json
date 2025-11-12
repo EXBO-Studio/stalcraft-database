@@ -1,0 +1,121 @@
+{
+  "id": "n4kk9",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.lootbox.crimson_crate.name",
+    "args": {},
+    "lines": {
+      "ru": "Багровый кейс",
+      "en": "Crimson Case",
+      "es": "Caja carmesí",
+      "fr": "Caisse Pourpre"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 кг",
+              "en": "5 kg",
+              "es": "5 kg",
+              "fr": "5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "shop.tooltip.lootbox.opens_only_in_savezone",
+            "args": {},
+            "lines": {
+              "ru": "Для открытия необходимо находиться в безопасной зоне",
+              "en": "Requires to be located in the safe zone to open",
+              "es": "Para abrirla, debes estar en la zona segura",
+              "fr": "Obligation d\u0027être dans la zone de sécurité pour ouvrir"
+            }
+          }
+        }
+      ]
+    },
+    {}
+  ]
+}
