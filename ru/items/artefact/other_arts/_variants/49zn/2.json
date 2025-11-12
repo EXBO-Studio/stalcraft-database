@@ -259,14 +259,40 @@
               "fr": "Vitesse de déplacement"
             }
           },
-          "min": 1.2376,
-          "max": 1.456,
+          "min": 0.6188,
+          "max": 0.728,
           "formatted": {
             "value": {
-              "ru": "[+1,24%; +1,46%]",
-              "en": "[+1.24%; +1.46%]",
-              "es": "[+1,24 %; +1,46 %]",
-              "fr": "[+1,24%; +1,46%]"
+              "ru": "[+0,62%; +0,73%]",
+              "en": "[+0.62%; +0.73%]",
+              "es": "[+0,62 %; +0,73 %]",
+              "fr": "[+0,62%; +0,73%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course"
+            }
+          },
+          "min": 0.8398,
+          "max": 0.988,
+          "formatted": {
+            "value": {
+              "ru": "[+0,84%; +0,99%]",
+              "en": "[+0.84%; +0.99%]",
+              "es": "[+0,84 %; +0,99 %]",
+              "fr": "[+0,84%; +0,99%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

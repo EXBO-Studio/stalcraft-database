@@ -273,14 +273,14 @@
               "fr": "Se déclenche à"
             }
           },
-          "min": 82.0,
-          "max": 82.0,
+          "min": 90.0,
+          "max": 90.0,
           "formatted": {
             "value": {
-              "ru": "≥82 ед",
-              "en": "≥82 unit(s)",
-              "es": "≥82 unidad(es)",
-              "fr": "≥82 unité(s)"
+              "ru": "≥90 ед",
+              "en": "≥90 unit(s)",
+              "es": "≥90 unidad(es)",
+              "fr": "≥90 unité(s)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -326,13 +326,13 @@
             }
           },
           "min": 29.4,
-          "max": 15.876,
+          "max": 22.638,
           "formatted": {
             "value": {
-              "ru": "[29,4 с; 15,88 с]",
-              "en": "[29.4 sec; 15.88 sec]",
-              "es": "[29,4 s; 15,88 s]",
-              "fr": "[29,4 s; 15,88 s]"
+              "ru": "[29,4 с; 22,64 с]",
+              "en": "[29.4 sec; 22.64 sec]",
+              "es": "[29,4 s; 22,64 s]",
+              "fr": "[29,4 s; 22,64 s]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -385,6 +385,32 @@
               "en": "[+12.66%; +14.89%]",
               "es": "[+12,66 %; +14,89 %]",
               "fr": "[+12,66%; +14,89%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course"
+            }
+          },
+          "min": 0.65025,
+          "max": 0.765,
+          "formatted": {
+            "value": {
+              "ru": "[+0,65%; +0,76%]",
+              "en": "[+0.65%; +0.76%]",
+              "es": "[+0,65 %; +0,76 %]",
+              "fr": "[+0,65%; +0,76%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

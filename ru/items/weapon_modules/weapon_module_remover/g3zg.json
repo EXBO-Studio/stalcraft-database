@@ -1,0 +1,155 @@
+{
+  "id": "g3zg",
+  "category": "weapon_modules/weapon_module_remover",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn_mod.remover.name",
+    "args": {},
+    "lines": {
+      "ru": "Квазидеструктор",
+      "en": "Quasi-destructor",
+      "es": "Cuasidestructor",
+      "fr": "Quasidésintégrateur"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.weapon_module_remover",
+            "args": {},
+            "lines": {
+              "ru": "Квазидеструкторы",
+              "en": "Quasi-destructors",
+              "es": "Cuasidestructores",
+              "fr": "Quasidéstructeurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg",
+              "fr": "0,15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_module_remove",
+            "args": {},
+            "lines": {
+              "ru": "Снимает Модуль с оружия без уничтожения",
+              "en": "Removes a Module from a weapon",
+              "es": "Retira el Módulo de Armas del arma sin destrucción",
+              "fr": "Retire le module de l\u0027arme sans destruction"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn_mod.remover.description",
+        "args": {},
+        "lines": {
+          "ru": "Устройство, структура и принцип действия которого до конца не изучены. Формирует поле, в пределах которого все состояния квантовых частиц восстанавливаются до исходных, стирая информацию об фундаментальных взаимодействиях.\\n\\nЕдинственное устройство, способное открепить измененный и стабилизированный модуль от оружия.",
+          "en": "A device with structure and operating principle not fully understood. It generates a field within which all states of quantum particles are restored to their original, erasing information about fundamental interactions.\\n\\nThe only device capable of detaching a modified and stabilized module from a weapon.",
+          "es": "Dispositivo cuya estructura y principio de funcionamiento aún no se han estudiado por completo. Forma un campo dentro del cual todos los estados de las partículas cuánticas se restauran a su estado original, borrando la información sobre las interacciones fundamentales.\\n\\nEl único dispositivo capaz de desacoplar el módulo modificado y estabilizado del arma.",
+          "fr": "Appareil dont la structure et le principe de fonctionnement ne sont pas complètement compris. Il génère un champ dans lequel tous les états des particules quantiques sont restaurés à leur état initial, effaçant ainsi l\u0027information sur les interactions fondamentales.\\n\\nC\u0027est le seul appareil capable de détacher un module modifié et stabilisé de l\u0027arme."
+        }
+      }
+    }
+  ]
+}

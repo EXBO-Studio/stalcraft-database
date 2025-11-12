@@ -1,0 +1,115 @@
+{
+  "id": "19rzg",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28625.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть уничтоженного модуля",
+      "en": "Part of a destroyed module",
+      "es": "Parte de un módulo destruido",
+      "fr": "Élément d\u0027un module détruit"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28625.description",
+        "args": {},
+        "lines": {
+          "ru": "Часть модуля Отечина, который паразитировал на Деворе. @@§2Предмет для бартера",
+          "en": "Part of Otechin’s module. He was a parasite in Devora. @@§2Barter item",
+          "es": "Parte del módulo de Otechin. Era un parásito en Devora. @@§2Objeto de trueque",
+          "fr": "Élément du module d\u0027Otéchine. C\u0027était un parasite dans Devora. @@§2Objet de troc"
+        }
+      }
+    }
+  ]
+}

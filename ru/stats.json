@@ -665,6 +665,198 @@
     }
   },
   {
+    "id": "completed-ops",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.completed-ops",
+      "args": {},
+      "lines": {
+        "ru": "Операций пройдено",
+        "en": "Operations Completed",
+        "es": "Operaciones completadas",
+        "fr": "Opérations terminées"
+      }
+    }
+  },
+  {
+    "id": "big-cleanup-completed-ops",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.big-cleanup-completed-ops",
+      "args": {},
+      "lines": {
+        "ru": "Операций \"Большая Уборка\" пройдено",
+        "en": "The Big Clean Up Operations Completed",
+        "es": "Operaciones Gran Limpieza completadas",
+        "fr": "Opérations Grand Nettoyage terminées"
+      }
+    }
+  },
+  {
+    "id": "focus-completed-ops",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.focus-completed-ops",
+      "args": {},
+      "lines": {
+        "ru": "Операций \"Фокусировка\" пройдено",
+        "en": "Focus Operations Completed",
+        "es": "Operaciones Enfoque completadas",
+        "fr": "Opérations Focalisation terminées"
+      }
+    }
+  },
+  {
+    "id": "kills-ops",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.kills-ops",
+      "args": {},
+      "lines": {
+        "ru": "Противников убито в Операциях",
+        "en": "Enemies Killed in Operations",
+        "es": "Enemigos eliminados en las Operaciones",
+        "fr": "Adversaires éliminés en Opérations"
+      }
+    }
+  },
+  {
+    "id": "big-cleanup-max-key-ops",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.big-cleanup-max-key-ops",
+      "args": {},
+      "lines": {
+        "ru": "Максимальный пройденный допуск Операции \"Большая Уборка\"",
+        "en": "Highest Clearance level reached in the Big Clean Up Operation",
+        "es": "Máximo nivel del acceso superado en la Operación Gran Limpieza",
+        "fr": "Niveau maximum d\u0027Accès atteint dans l\u0027Opération Grand Nettoyage"
+      }
+    }
+  },
+  {
+    "id": "focus-max-key-ops",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.focus-max-key-ops",
+      "args": {},
+      "lines": {
+        "ru": "Максимальный пройденный допуск Операции \"Фокусировка\"",
+        "en": "Highest Clearance level reached in Focus Operation",
+        "es": "Máximo nivel del acceso superado en la Operación Enfoque",
+        "fr": "Niveau maximum d\u0027Accès atteint dans l\u0027Opération Focalisation"
+      }
+    }
+  },
+  {
+    "id": "scout-powerful-shot-damage-ops",
+    "category": "SESSION_MODES",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.scout-powerful-shot-damage-ops",
+      "args": {},
+      "lines": {
+        "ru": "Нанесено урона способностью \"Мощный выстрел\"",
+        "en": "Damage Dealt with Powerful Shot Ability",
+        "es": "Daño infligido por la habilidad Disparo poderoso",
+        "fr": "Dégâts infligés avec la compétence Tir puissant"
+      }
+    }
+  },
+  {
+    "id": "scout-powerful-shot-max-damage-ops",
+    "category": "SESSION_MODES",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.scout-powerful-shot-max-damage-ops",
+      "args": {},
+      "lines": {
+        "ru": "Максимальный урон способностью \"Мощный выстрел\"",
+        "en": "Maximum damage dealt with Powerful Shot ability",
+        "es": "Daño máximo por la habilidad Disparo poderoso",
+        "fr": "Dégâts maximum infligés avec la compétence Tir puissant"
+      }
+    }
+  },
+  {
+    "id": "support-healed-ops",
+    "category": "SESSION_MODES",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.support-healed-ops",
+      "args": {},
+      "lines": {
+        "ru": "Исцелено урона способностью \"Лечебные патроны\"",
+        "en": "Damage Healed with Healing Rounds Ability",
+        "es": "Daño sanado por la habilidad Cartuchos curativos",
+        "fr": "Soins prodigués avec la compétence Cartouches curatives"
+      }
+    }
+  },
+  {
+    "id": "support-grenades-used-ops",
+    "category": "SESSION_MODES",
+    "type": "INTEGER",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.support-grenades-used-ops",
+      "args": {},
+      "lines": {
+        "ru": "Использований способности \"Лечебный состав\"",
+        "en": "Uses of Healing Compound Ability",
+        "es": "Utilizaciones de la habilidad Composición curativa",
+        "fr": "Utilisations de la compétence Composé médical"
+      }
+    }
+  },
+  {
+    "id": "tank-damage-delayed-ops",
+    "category": "SESSION_MODES",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tank-damage-delayed-ops",
+      "args": {},
+      "lines": {
+        "ru": "Урона отложено способностью \"Отложенный урон\"",
+        "en": "Damage Delayed with Delayed Damage Ability",
+        "es": "Daño pospuesto por la habilidad Daño pospuesto",
+        "fr": "Dégâts différés par la compétence Dégâts différés"
+      }
+    }
+  },
+  {
+    "id": "tank-ultimate-max-damage-ops",
+    "category": "SESSION_MODES",
+    "type": "DECIMAL",
+    "name": {
+      "type": "translation",
+      "key": "general.stats.stat.tank-ultimate-max-damage-ops",
+      "args": {},
+      "lines": {
+        "ru": "Максимальный урон способностью \"Тремор\"",
+        "en": "Maximum damage dealt with Tremor ability",
+        "es": "Daño máximo  por la habilidad Temblores",
+        "fr": "Dégâts maximum infligés avec la compétence Trémor"
+      }
+    }
+  },
+  {
     "id": "air-drops-fnd",
     "category": "EXPLORATION",
     "type": "INTEGER",

@@ -1,0 +1,130 @@
+{
+  "id": "9yow",
+  "category": "weapon_modules/weapon_module_core",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn_mod.core.name",
+    "args": {},
+    "lines": {
+      "ru": "Ядро модуля",
+      "en": "Module Core",
+      "es": "Núcleo del módulo",
+      "fr": "Noyau du module"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.weapon_module_core",
+            "args": {},
+            "lines": {
+              "ru": "Ядра",
+              "en": "Cores",
+              "es": "Núcleos",
+              "fr": "Noyaux"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_module_craft",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафта оружейных Модулей на Ноостанке",
+              "en": "Used for crafting weapon Modules on Noomachine",
+              "es": "Se utiliza para crear módulos por Noomáquina",
+              "fr": "Utilisé pour l\u0027artisanat de modules sur la Noomachine"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn_mod.core.description",
+        "args": {},
+        "lines": {
+          "ru": "Аномальное образование, заключенное в подвижный, ферромагнитный каркас. После получения информации, каркас трансформируется в модуль.",
+          "en": "Anomalous formation encased in a movable, ferromagnetic frame. Once information is received, the frame transforms into a module.",
+          "es": "Formación anómala encerrada en un armazón móvil ferromagnético. Tras recibir la información, el armazón se transforma en un módulo.",
+          "fr": "Formation anormale enfermée dans une structure mobile et ferromagnétique. Après réception des informations, la structure se transforme en module."
+        }
+      }
+    }
+  ]
+}
