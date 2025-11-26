@@ -1,0 +1,129 @@
+{
+  "id": "1pyq",
+  "category": "weapon_modules/weapon_module",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn_mod.base.name",
+    "args": {},
+    "lines": {
+      "ru": "Оружейный модуль",
+      "en": "Weapon module",
+      "es": "Módulo de armas",
+      "fr": "Module d\u0027armement"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.weapon_module",
+            "args": {},
+            "lines": {
+              "ru": "Модули",
+              "en": "Modules",
+              "es": "Módulos",
+              "fr": "Modules"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg",
+              "fr": "0,15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.used_for_modules",
+            "args": {},
+            "lines": {
+              "ru": "При установке в оружие, улучшает его характеристики",
+              "en": "When installed in a weapon, improves its characteristics",
+              "es": "Al instalarlo en un arma, mejora sus propiedades",
+              "fr": "Améliore les caractéristiques de l\u0027arme lors de l\u0027installation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn_mod.base.description",
+        "args": {},
+        "lines": {
+          "ru": "Модуль — технология на основе аномальной сердцевины. Тессеракт, внутри которого заключено восприимчивое к гипотетическим псионам ядро. При занесении определенной конфигурации в ядро, оно формирует такое поле, которое перестраивает каркасную часть в нечто, служащее функцией информации.",
+          "en": "A module is a technology based on an anomalous core. A tesseract containing a core susceptible to hypothetical psions. When a specific configuration is input into the core, it generates a field that rearranges the framework into something serving the function of information.",
+          "es": "Módulo: tecnología basada en un centro anómalo. Teseracto que contiene un núcleo sensible a los psiones hipotéticos. Al introducir una configuración determinada en el núcleo, este forma un campo que transforma la estructura en algo que sirve como función de información.",
+          "fr": "Module — technologie basée sur un noyau anormal. Un tesseract dans lequel est enfermé un noyau sensible aux psions hypothétiques. Lorsqu\u0027une configuration spécifique est insérée dans le noyau, il génère un champ qui restructure la partie structurelle en une fonction d\u0027information."
+        }
+      }
+    }
+  ]
+}

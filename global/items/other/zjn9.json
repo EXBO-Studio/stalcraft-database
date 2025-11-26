@@ -1,0 +1,176 @@
+{
+  "id": "zjn9",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn_mod.token.name",
+    "args": {},
+    "lines": {
+      "ru": "Ингибитор ядра",
+      "en": "Core Inhibitor",
+      "es": "Inhibidor del núcleo",
+      "fr": "Inhibiteur de noyau"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "currency.tooltip.token.adds",
+        "args": {
+          "currencyAmountFormatted": {
+            "type": "translation",
+            "key": "currency.type.format.amount",
+            "args": {
+              "amount": "1",
+              "postfix": {
+                "type": "translation",
+                "key": "currency.type.id.inhibitors.postfix",
+                "args": {},
+                "lines": {
+                  "ru": " шт.",
+                  "en": "  pcs.",
+                  "es": " uds.",
+                  "fr": " pcs."
+                }
+              }
+            },
+            "lines": {
+              "ru": "1 шт.",
+              "en": "1 шт.",
+              "es": "1 шт.",
+              "fr": "1 шт."
+            }
+          }
+        },
+        "lines": {
+          "ru": "Начисляет 1 шт.",
+          "en": "Grants 1 шт.",
+          "es": "Otorga 1 шт.",
+          "fr": "Dons 1 шт."
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn_mod.token.used_in",
+        "args": {},
+        "lines": {
+          "ru": "Используется для управления свойствами создаваемого Модуля",
+          "en": "Used to manage the properties of the created Module",
+          "es": "Se utiliza para controlar las propiedades del Módulo que se crea",
+          "fr": "Utilisé pour contrôler les propriétés du Module en cours de création"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn_mod.token.description",
+        "args": {},
+        "lines": {
+          "ru": "Псионно-активная жидкость, которая уменьшает энтропическую составляющую приходящей и загружаемой в ядро информации.",
+          "en": "A psy-active liquid that reduces the entropic component of incoming and loaded information into the core.",
+          "es": "Líquido psyactivo que reduce el componente entrópico de la información entrante y cargada en el núcleo.",
+          "fr": "Liquide psyonique actif qui réduit la composante entropique des informations envoyées et chargées dans le noyau."
+        }
+      }
+    }
+  ]
+}

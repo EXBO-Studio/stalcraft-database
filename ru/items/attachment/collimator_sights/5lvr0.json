@@ -123,33 +123,6 @@
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "key-value",
-          "key": {
-            "type": "translation",
-            "key": "weapon.tooltip.sight.info.zoom",
-            "args": {},
-            "lines": {
-              "ru": "Увеличение",
-              "en": "Magnification",
-              "es": "Aumento",
-              "fr": "Grossissement"
-            }
-          },
-          "value": {
-            "type": "text",
-            "text": "x1.25"
-          }
-        }
-      ]
-    },
-    {
-      "type": "list",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
       "elements": []
     },
     {
@@ -188,13 +161,13 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.aksu.name",
+            "key": "item.wpn.sr3m.name",
             "args": {},
             "lines": {
-              "ru": "АКС-74У",
-              "en": "AKS-74U",
-              "es": "AKS-74U",
-              "fr": "AKS-74U"
+              "ru": "СР-3М",
+              "en": "SR-3M",
+              "es": "SR-3M",
+              "fr": "SR-3M"
             }
           }
         },
@@ -202,13 +175,111 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.gepard.name",
+            "key": "item.wpn.valm.name",
             "args": {},
             "lines": {
-              "ru": "«Гепард»",
-              "en": "Gepard",
-              "es": "Gepard",
-              "fr": "Guépard"
+              "ru": "АСМ «Сервал»",
+              "en": "ASM Serval",
+              "es": "ASM Serval",
+              "fr": "ASM Serval"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vsk94.name",
+            "args": {},
+            "lines": {
+              "ru": "ВСК-94",
+              "en": "VSK-94",
+              "es": "VSK-94",
+              "fr": "VSK-94"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pkp.name",
+            "args": {},
+            "lines": {
+              "ru": "ПКП «Печенег»",
+              "en": "PKP Pecheneg",
+              "es": "PKP Pecheneg",
+              "fr": "PKP Petcheneg"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svu_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Волна»",
+              "en": "Wave",
+              "es": "Ola",
+              "fr": "Tsunami"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vsk94_a.name",
+            "args": {},
+            "lines": {
+              "ru": "ВСК-94 (А)",
+              "en": "VSK-94 (А)",
+              "es": "VSK-94 (A)",
+              "fr": "ВСК-94 (А)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svu_mod_a.name",
+            "args": {},
+            "lines": {
+              "ru": "«Волна» (А)",
+              "en": "Wave (А)",
+              "es": "Ola (A)",
+              "fr": "Vague (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vssm.name",
+            "args": {},
+            "lines": {
+              "ru": "ВСС-М «Винторез»",
+              "en": "VSS-M Vintorez",
+              "es": "VSS-M Vintorez",
+              "fr": "VSS-M Vintorez"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svdm.name",
+            "args": {},
+            "lines": {
+              "ru": "СВД-М",
+              "en": "SVD-M",
+              "es": "SVD-M",
+              "fr": "SVD-M"
             }
           }
         },
@@ -244,20 +315,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.aks74.name",
-            "args": {},
-            "lines": {
-              "ru": "АКС-74",
-              "en": "AKS-74",
-              "es": "AKS-74",
-              "fr": "AKS-74"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.bizon.name",
             "args": {},
             "lines": {
@@ -272,20 +329,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.akm.name",
-            "args": {},
-            "lines": {
-              "ru": "АКМ",
-              "en": "AKM",
-              "es": "AKM",
-              "fr": "AKM"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.vityaz.name",
             "args": {},
             "lines": {
@@ -293,34 +336,6 @@
               "en": "PP-19-01 Vityaz",
               "es": "PP-19-01 Vityaz",
               "fr": "PP-19-01 Vityaz"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.abakan-05.name",
-            "args": {},
-            "lines": {
-              "ru": "АН-94 «Абакан»",
-              "en": "AN-94 Abakan",
-              "es": "AN-94 Abakan",
-              "fr": "AN-94 Abakan"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.ak74m.name",
-            "args": {},
-            "lines": {
-              "ru": "АК-74М",
-              "en": "AK-74M",
-              "es": "AK-74M",
-              "fr": "AK-74M"
             }
           }
         },
@@ -440,76 +455,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.sr3m.name",
-            "args": {},
-            "lines": {
-              "ru": "СР-3М",
-              "en": "SR-3M",
-              "es": "SR-3M",
-              "fr": "SR-3M"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.valm.name",
-            "args": {},
-            "lines": {
-              "ru": "АСМ «Сервал»",
-              "en": "ASM Serval",
-              "es": "ASM Serval",
-              "fr": "ASM Serval"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.wz88.name",
-            "args": {},
-            "lines": {
-              "ru": "Kbk wz. 88 Tantal",
-              "en": "Kbk wz. 88 Tantal",
-              "es": "Kbk wz. 88 Tantal",
-              "fr": "Kbk wz. 88 Tantal"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.sok94.name",
-            "args": {},
-            "lines": {
-              "ru": "СОК-94",
-              "en": "SOK-94",
-              "es": "SOK-94",
-              "fr": "SOK-94"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.ak105.name",
-            "args": {},
-            "lines": {
-              "ru": "АК-105",
-              "en": "AK-105",
-              "es": "AK-105",
-              "fr": "AK-105"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.rpk.name",
             "args": {},
             "lines": {
@@ -531,20 +476,6 @@
               "en": "9A-91",
               "es": "9A-91",
               "fr": "9A-91"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.vsk94.name",
-            "args": {},
-            "lines": {
-              "ru": "ВСК-94",
-              "en": "VSK-94",
-              "es": "VSK-94",
-              "fr": "VSK-94"
             }
           }
         },
@@ -580,20 +511,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.pkp.name",
-            "args": {},
-            "lines": {
-              "ru": "ПКП «Печенег»",
-              "en": "PKP Pecheneg",
-              "es": "PKP Pecheneg",
-              "fr": "PKP Petcheneg"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.aks74_mod.name",
             "args": {},
             "lines": {
@@ -608,48 +525,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.svu_mod.name",
-            "args": {},
-            "lines": {
-              "ru": "«Волна»",
-              "en": "Wave",
-              "es": "Ola",
-              "fr": "Tsunami"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.vsk94_a.name",
-            "args": {},
-            "lines": {
-              "ru": "ВСК-94 Арсенала",
-              "en": "Arsenal VSK-94",
-              "es": "Arsenal VSK-94",
-              "fr": "VSK-94 d\u0027Arsenal"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.svu_mod_a.name",
-            "args": {},
-            "lines": {
-              "ru": "«Волна» Арсенала",
-              "en": "Arsenal Wave",
-              "es": "Ola de Arsenal",
-              "fr": "Vague d\u0027Arsenal"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.svd.name",
             "args": {},
             "lines": {
@@ -657,20 +532,6 @@
               "en": "SVD",
               "es": "SVD",
               "fr": "SVD"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.vssm.name",
-            "args": {},
-            "lines": {
-              "ru": "ВСС-М «Винторез»",
-              "en": "VSS-M Vintorez",
-              "es": "VSS-M Vintorez",
-              "fr": "VSS-M Vintorez"
             }
           }
         },
@@ -720,13 +581,111 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.svdm.name",
+            "key": "item.wpn.akm.name",
             "args": {},
             "lines": {
-              "ru": "СВД-М",
-              "en": "SVD-M",
-              "es": "SVD-M",
-              "fr": "SVD-M"
+              "ru": "АКМ",
+              "en": "AKM",
+              "es": "AKM",
+              "fr": "AKM"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan-05.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94 «Абакан»",
+              "en": "AN-94 Abakan",
+              "es": "AN-94 Abakan",
+              "fr": "AN-94 Abakan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.wz88.name",
+            "args": {},
+            "lines": {
+              "ru": "Kbk wz. 88 Tantal",
+              "en": "Kbk wz. 88 Tantal",
+              "es": "Kbk wz. 88 Tantal",
+              "fr": "Kbk wz. 88 Tantal"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sok94.name",
+            "args": {},
+            "lines": {
+              "ru": "СОК-94",
+              "en": "SOK-94",
+              "es": "SOK-94",
+              "fr": "SOK-94"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak105.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-105",
+              "en": "AK-105",
+              "es": "AK-105",
+              "fr": "AK-105"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.gepard.name",
+            "args": {},
+            "lines": {
+              "ru": "«Гепард»",
+              "en": "Gepard",
+              "es": "Gepard",
+              "fr": "Guépard"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aks74.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-74",
+              "en": "AKS-74",
+              "es": "AKS-74",
+              "fr": "AKS-74"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak74m.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-74М",
+              "en": "AK-74M",
+              "es": "AK-74M",
+              "fr": "AK-74M"
             }
           }
         },
@@ -741,6 +700,20 @@
               "en": "SKS Bracket—Dovetail Joint",
               "es": "Soporte SKS con junta de cola de milano",
               "fr": "Support SKS à queue d\u0027aronde"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aksu.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-74У",
+              "en": "AKS-74U",
+              "es": "AKS-74U",
+              "fr": "AKS-74U"
             }
           }
         }
