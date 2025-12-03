@@ -1,0 +1,572 @@
+{
+  "id": "6wpz0",
+  "category": "attachment/mag",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mag_rumag54575_cloth.name",
+    "args": {},
+    "lines": {
+      "ru": "Барабанный магазин 5.45 в чехле",
+      "en": "5.45 Drum Magazine in a Pouch",
+      "es": "Cargador de tambor de 5,45 en un zurrón",
+      "fr": "Chargeur tambour de 5,45 dans un étui"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.mag",
+            "args": {},
+            "lines": {
+              "ru": "Магазины",
+              "en": "Magazines",
+              "es": "Cargadores",
+              "fr": "Chargeurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.9,
+          "formatted": {
+            "value": {
+              "ru": "0,9 кг",
+              "en": "0.9 kg",
+              "es": "0,9 kg",
+              "fr": "0,9 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:",
+              "es": "Tamaño del cargador:",
+              "fr": "Capacité du chargeur"
+            }
+          },
+          "value": 75.0,
+          "formatted": {
+            "value": {
+              "ru": "75",
+              "en": "75",
+              "es": "75",
+              "fr": "75"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload",
+              "es": "Recarga",
+              "fr": "Rechargement"
+            }
+          },
+          "value": 4.38,
+          "formatted": {
+            "value": {
+              "ru": "4,38 с",
+              "en": "4.38 sec",
+              "es": "4,38 s",
+              "fr": "4,38 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload",
+              "es": "Recarga táctica",
+              "fr": "Rechargement tactique"
+            }
+          },
+          "value": 3.5,
+          "formatted": {
+            "value": {
+              "ru": "3,5 с",
+              "en": "3.5 sec",
+              "es": "3,5 s",
+              "fr": "3,5 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l\u0027aveugle"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%",
+              "es": "+10 %",
+              "fr": "+10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed",
+              "es": "Velocidad de apuntado",
+              "fr": "Vitesse de visée"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%",
+              "es": "-10 %",
+              "fr": "-10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad",
+              "fr": "Vitesse"
+            }
+          },
+          "value": -0.99999905,
+          "formatted": {
+            "value": {
+              "ru": "-1%",
+              "en": "-1%",
+              "es": "-1 %",
+              "fr": "-1%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para",
+          "fr": "Compatible avec"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.a545.name",
+            "args": {},
+            "lines": {
+              "ru": "А-545",
+              "en": "A-545",
+              "es": "A-545",
+              "fr": "A-545"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.am17.name",
+            "args": {},
+            "lines": {
+              "ru": "АМ-17",
+              "en": "AM-17",
+              "es": "AM-17",
+              "fr": "AM-17"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.qbz191.name",
+            "args": {},
+            "lines": {
+              "ru": "QBZ-191 «Буревестник»",
+              "en": "QBZ-191 Thunderbird",
+              "es": "QBZ-191 Petrel",
+              "fr": "QBZ-191 L\u0027Oiseau-Tonnerre"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak12_a.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-12 (А)",
+              "en": "AK-12 (A)",
+              "es": "AK-12 (A)",
+              "fr": "AK-12 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.qbu191.name",
+            "args": {},
+            "lines": {
+              "ru": "QBU-191",
+              "en": "QBU-191",
+              "es": "QBU-191",
+              "fr": "QBU‑191"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94М «Абакан»",
+              "en": "AN-94M Abakan",
+              "es": "AN-94M Abakan",
+              "fr": "AN-94M Abakan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aek971.name",
+            "args": {},
+            "lines": {
+              "ru": "АЕК-971",
+              "en": "AEK-971",
+              "es": "AEK-971",
+              "fr": "AEK-971"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.storm.name",
+            "args": {},
+            "lines": {
+              "ru": "ОЦ-14М «Ураган»",
+              "en": "OTs-14M Hurricane",
+              "es": "OTs-14M Huracán",
+              "fr": "OTs-14M Ouragan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rpk16.name",
+            "args": {},
+            "lines": {
+              "ru": "РПК-16",
+              "en": "RPK-16",
+              "es": "RPK-16",
+              "fr": "RPK-16"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.tkb.name",
+            "args": {},
+            "lines": {
+              "ru": "ТКБ-0146М",
+              "en": "TKB-0146M",
+              "es": "TKB-0146M",
+              "fr": "TKB-0146M"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak12.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-12",
+              "en": "AK-12",
+              "es": "AK-12",
+              "fr": "AK-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rpk74.name",
+            "args": {},
+            "lines": {
+              "ru": "РПК-74",
+              "en": "RPK-74",
+              "es": "RPK-74",
+              "fr": "RPK-74"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aks74_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Рапира»",
+              "en": "Rapier",
+              "es": "Estoque",
+              "fr": "Rapière"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan-05.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94 «Абакан»",
+              "en": "AN-94 Abakan",
+              "es": "AN-94 Abakan",
+              "fr": "AN-94 Abakan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.wz88.name",
+            "args": {},
+            "lines": {
+              "ru": "Kbk wz. 88 Tantal",
+              "en": "Kbk wz. 88 Tantal",
+              "es": "Kbk wz. 88 Tantal",
+              "fr": "Kbk wz. 88 Tantal"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak105.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-105",
+              "en": "AK-105",
+              "es": "AK-105",
+              "fr": "AK-105"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aks74.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-74",
+              "en": "AKS-74",
+              "es": "AKS-74",
+              "fr": "AKS-74"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak74m.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-74М",
+              "en": "AK-74M",
+              "es": "AK-74M",
+              "fr": "AK-74M"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aksu.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-74У",
+              "en": "AKS-74U",
+              "es": "AKS-74U",
+              "fr": "AKS-74U"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
