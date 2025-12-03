@@ -7210,7 +7210,7 @@
       "lines": {
         "ru": "Укреплённая разгрузка",
         "en": "Reinforced Utility Vest",
-        "es": "Сhaleco multibolsillos reforzado",
+        "es": "Chaleco multibolsillos reforzado",
         "fr": "Gilet renforcé"
       }
     },
@@ -7934,6 +7934,25 @@
         "en": "Freezer Container",
         "es": "Contenedor Congelador",
         "fr": "Conteneur Congélateur"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/containers/l362.json",
+    "icon": "/icons/containers/l362.png",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.krab6.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «КРАБ-6»",
+        "en": "CRAW-6 Container",
+        "es": "Contenedor CRAB-6",
+        "fr": " Conteneur CRABE-6"
       }
     },
     "color": "RANK_MASTER",
@@ -8673,7 +8692,7 @@
       "lines": {
         "ru": "Картечь 12 калибра",
         "en": "12 Caliber Buckshot",
-        "es": "Perdigones del calibre 12",
+        "es": "Metralla del calibre 12",
         "fr": "Calibre 12 Chevrotine"
       }
     },
@@ -9433,7 +9452,7 @@
       "lines": {
         "ru": "Картечь 23x75",
         "en": "23x75 Buckshot",
-        "es": "Perdigones de 23x75",
+        "es": "Metralla de 23x75",
         "fr": "Chevrotine 23x75"
       }
     },
@@ -10077,9 +10096,9 @@
       "key": "item.amm.127sft.name",
       "args": {},
       "lines": {
-        "ru": "Патрон 12.7 мм Easy mode",
+        "ru": "Патрон 12.7 мм «EasyMode»",
         "en": "12.7 mm Easy Mode Round",
-        "es": "Munición Modo Fácil de 12,7 mm",
+        "es": "Munición EasyMode de 12,7 mm",
         "fr": "Cartouche d\u0027Easy Mode de 12,7 mm"
       }
     },
@@ -11261,7 +11280,7 @@
         "fr": "Batterie anormale instable"
       }
     },
-    "color": "RANK_MASTER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "NON_DROP"
     }
@@ -19969,6 +19988,25 @@
     }
   },
   {
+    "data": "/items/weapon/machine_gun/knmy3.json",
+    "icon": "/icons/weapon/machine_gun/knmy3.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.rpd_dsa.name",
+      "args": {},
+      "lines": {
+        "ru": "DSA RPD",
+        "en": "DSA RPD",
+        "es": "DSA RPD",
+        "fr": "DSA RPD"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/weapon/sniper_rifle/1r7rg.json",
     "icon": "/icons/weapon/sniper_rifle/1r7rg.png",
     "name": {
@@ -20987,6 +21025,25 @@
         "en": "Franchi SPAS-15",
         "es": "Franchi SPAS-15",
         "fr": "Franchi SPAS-15"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/7ln2j.json",
+    "icon": "/icons/weapon/shotgun_rifle/7ln2j.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.aek965.name",
+      "args": {},
+      "lines": {
+        "ru": "АЕК-965",
+        "en": "AEK-965",
+        "es": "AEK-965",
+        "fr": "AEK-965"
       }
     },
     "color": "RANK_MASTER",
@@ -22675,9 +22732,9 @@
       "args": {},
       "lines": {
         "ru": "ВСК-94 (А)",
-        "en": "VSK-94 (А)",
+        "en": "VSK-94 (A)",
         "es": "VSK-94 (A)",
-        "fr": "ВСК-94 (А)"
+        "fr": "VSK-94 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22694,9 +22751,9 @@
       "args": {},
       "lines": {
         "ru": "FAL (А)",
-        "en": "FAL (А)",
+        "en": "FAL (A)",
         "es": "FAL (A)",
-        "fr": "FAL (А)"
+        "fr": "FAL (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22713,9 +22770,9 @@
       "args": {},
       "lines": {
         "ru": "XM8 (А)",
-        "en": "XM8 (А)",
+        "en": "XM8 (A)",
         "es": "XM8 (A)",
-        "fr": "XM8 (А)"
+        "fr": "XM8 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22732,9 +22789,9 @@
       "args": {},
       "lines": {
         "ru": "SCAR-H (А)",
-        "en": "SCAR-H (А)",
+        "en": "SCAR-H (A)",
         "es": "SCAR-H (A)",
-        "fr": "SCAR-H (А)"
+        "fr": "SCAR-H (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22751,7 +22808,7 @@
       "args": {},
       "lines": {
         "ru": "ПТРД-М (А)",
-        "en": "PTRD-M (А)",
+        "en": "PTRD-M (A)",
         "es": "PTRD-M (A)",
         "fr": "PTRD-M (A)"
       }
@@ -22770,9 +22827,9 @@
       "args": {},
       "lines": {
         "ru": "HK417 (А)",
-        "en": "HK417 (А)",
+        "en": "HK417 (A)",
         "es": "HK417 (A)",
-        "fr": "HK417 (А)"
+        "fr": "HK417 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22789,9 +22846,9 @@
       "args": {},
       "lines": {
         "ru": "DSA-58 (А)",
-        "en": "DSA-58 (А)",
+        "en": "DSA-58 (A)",
         "es": "DSA-58 (A)",
-        "fr": "DSA-58 (А)"
+        "fr": "DSA-58 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22808,9 +22865,9 @@
       "args": {},
       "lines": {
         "ru": "АК-308 (А)",
-        "en": "AK-308 (А)",
+        "en": "AK-308 (A)",
         "es": "AK-308 (A)",
-        "fr": "АК-308 (А)"
+        "fr": "AK-308 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22827,9 +22884,9 @@
       "args": {},
       "lines": {
         "ru": "X95 (А)",
-        "en": "X95 (А)",
+        "en": "X95 (A)",
         "es": "X95 (A)",
-        "fr": "X95 (А)"
+        "fr": "X95 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22846,7 +22903,7 @@
       "args": {},
       "lines": {
         "ru": "«Волна» (А)",
-        "en": "Wave (А)",
+        "en": "Wave (A)",
         "es": "Ola (A)",
         "fr": "Vague (A)"
       }
@@ -22865,7 +22922,7 @@
       "args": {},
       "lines": {
         "ru": "«Руна» (А)",
-        "en": "Rune (А)",
+        "en": "Rune (A)",
         "es": "Runa (A)",
         "fr": "Rune (A)"
       }
@@ -22884,7 +22941,7 @@
       "args": {},
       "lines": {
         "ru": "«Инвертор» (А)",
-        "en": "Inverter (А)",
+        "en": "Inverter (A)",
         "es": "Inversor (A)",
         "fr": "Onduleur (A)"
       }
@@ -22903,9 +22960,9 @@
       "args": {},
       "lines": {
         "ru": "СВЧ (А)",
-        "en": "SVCh",
+        "en": "SVCh (A)",
         "es": "SVCh (A)",
-        "fr": "СВЧ (А)"
+        "fr": "SVCh (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22922,9 +22979,9 @@
       "args": {},
       "lines": {
         "ru": "AUG A3 (А)",
-        "en": "AUG A3 (А)",
+        "en": "AUG A3 (A)",
         "es": "AUG A3 (A)",
-        "fr": "AUG A3 (А)"
+        "fr": "AUG A3 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22941,9 +22998,9 @@
       "args": {},
       "lines": {
         "ru": "Derya MK-12 (А)",
-        "en": "Derya MK-12 (А)",
+        "en": "Derya MK-12 (A)",
         "es": "Derya MK-12 (A)",
-        "fr": "Derya MK-12 (А)"
+        "fr": "Derya MK-12 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22960,9 +23017,9 @@
       "args": {},
       "lines": {
         "ru": "АК-12 (А)",
-        "en": "АК-12 (А)",
+        "en": "AK-12 (A)",
         "es": "AK-12 (A)",
-        "fr": "АК-12 (А)"
+        "fr": "AK-12 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22979,9 +23036,9 @@
       "args": {},
       "lines": {
         "ru": "HK416 (А)",
-        "en": "HK416 (А)",
+        "en": "HK416 (A)",
         "es": "HK416 (A)",
-        "fr": "HK416 (А)"
+        "fr": "HK416 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -22998,9 +23055,9 @@
       "args": {},
       "lines": {
         "ru": "Cheytac M300 (А)",
-        "en": "Cheytac M300 (А)",
+        "en": "Cheytac M300 (A)",
         "es": "Cheytac M300 (A)",
-        "fr": "Cheytac M300 (А)"
+        "fr": "Cheytac M300 (A)"
       }
     },
     "color": "RANK_MASTER",
@@ -23361,7 +23418,7 @@
         "ru": "Охотничий мачете",
         "en": "Hunter’s Machete",
         "es": "Machete de cazador",
-        "fr": "Machette de Сhasseur"
+        "fr": "Machette de Chasseur"
       }
     },
     "color": "RANK_VETERAN",
@@ -24368,7 +24425,7 @@
         "ru": "Тактическая катана",
         "en": "Tactical katana",
         "es": "Katana táctica",
-        "fr": "Katana Tactique"
+        "fr": "Katana tactique"
       }
     },
     "color": "RANK_MASTER",
@@ -28253,6 +28310,25 @@
     }
   },
   {
+    "data": "/items/attachment/mag/6wpz0.json",
+    "icon": "/icons/attachment/mag/6wpz0.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.mag_rumag54575_cloth.name",
+      "args": {},
+      "lines": {
+        "ru": "Барабанный магазин 5.45 в чехле",
+        "en": "5.45 Drum Magazine in a Pouch",
+        "es": "Cargador de tambor de 5,45 en un zurrón",
+        "fr": "Chargeur tambour de 5,45 dans un étui"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/attachment/mag/96pwy.json",
     "icon": "/icons/attachment/mag/96pwy.png",
     "name": {
@@ -29287,7 +29363,7 @@
       "args": {},
       "lines": {
         "ru": "Брелок «Мини АМ-17»",
-        "en": "Mini АМ-17 Charm",
+        "en": "Mini AM-17 Charm",
         "es": "Amuleto Mini AM-17",
         "fr": "Breloque Mini AM-17"
       }
@@ -37008,6 +37084,44 @@
     "color": "RANK_STALKER",
     "status": {
       "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/misc/z3n0k.json",
+    "icon": "/icons/misc/z3n0k.png",
+    "name": {
+      "type": "translation",
+      "key": "item.scheme.rpd_dsa.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть схемы: DSA RPD",
+        "en": "Schematic: DSA RPD",
+        "es": "Esquema: DSA RPD",
+        "fr": "Partie du schéma : DSA RPD"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_GET"
+    }
+  },
+  {
+    "data": "/items/misc/55j6o.json",
+    "icon": "/icons/misc/55j6o.png",
+    "name": {
+      "type": "translation",
+      "key": "item.scheme.aek965.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть схемы: АЕК-965",
+        "en": "Schematic: AEK-965",
+        "es": "Esquema: AEK-965",
+        "fr": "Partie du schéma : AEK-965"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_GET"
     }
   },
   {
