@@ -240,6 +240,31 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.plate_penetrating",
+            "args": {},
+            "lines": {
+              "ru": "Пробитие пластин",
+              "en": "Plate penetration",
+              "es": "Perforación de placas",
+              "fr": "Perforation des plaques"
+            }
+          },
+          "value": -12.5,
+          "formatted": {
+            "value": {
+              "ru": "-12,5%",
+              "en": "-12.5%",
+              "es": "-12,5 %",
+              "fr": "-12,5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "weapon.stat_factor.armor_plate_damage",
             "args": {},
             "lines": {

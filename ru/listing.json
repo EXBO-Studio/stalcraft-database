@@ -4598,6 +4598,25 @@
     }
   },
   {
+    "data": "/items/other/59j1.json",
+    "icon": "/icons/other/59j1.png",
+    "name": {
+      "type": "translation",
+      "key": "go.misc.rigonda.name",
+      "args": {},
+      "lines": {
+        "ru": "Ригонда",
+        "en": "Rigonda",
+        "es": "Rigonda",
+        "fr": "Rigonda"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    }
+  },
+  {
     "data": "/items/weapon/device/z4v9.json",
     "icon": "/icons/weapon/device/z4v9.png",
     "name": {
@@ -6148,6 +6167,25 @@
         "en": "Chilly",
         "es": "Fresqui",
         "fr": "Frisquet"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/artefact/thermal/rn1z.json",
+    "icon": "/icons/artefact/thermal/rn1z.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.blizzard_opal.name",
+      "args": {},
+      "lines": {
+        "ru": "Опал",
+        "en": "Opal",
+        "es": "Ópalo",
+        "fr": "Opale"
       }
     },
     "color": "DEFAULT",
@@ -7722,9 +7760,9 @@
       "args": {},
       "lines": {
         "ru": "Контейнер «Колотун»",
-        "en": "Freezer Container",
-        "es": "Contenedor Congelador",
-        "fr": "Conteneur de Congélation"
+        "en": "Shiver Container",
+        "es": "Contenedor Frigorífico",
+        "fr": "Conteneur Frisson"
       }
     },
     "color": "RANK_VETERAN",
@@ -21546,6 +21584,25 @@
     }
   },
   {
+    "data": "/items/weapon/pistol/3gnl1.json",
+    "icon": "/icons/weapon/pistol/3gnl1.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.gauss_pistol.name",
+      "args": {},
+      "lines": {
+        "ru": "CR-72",
+        "en": "CR-72",
+        "es": "CR-72",
+        "fr": "CR-72"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/weapon/submachine_gun/969vz.json",
     "icon": "/icons/weapon/submachine_gun/969vz.png",
     "name": {
@@ -25137,6 +25194,44 @@
     }
   },
   {
+    "data": "/items/attachment/handgrips/g4gw5.json",
+    "icon": "/icons/attachment/handgrips/g4gw5.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.handgrip_nord_light.name",
+      "args": {},
+      "lines": {
+        "ru": "Рукоятка Fortis Nord",
+        "en": "Fortis Nord Grip",
+        "es": "Empuñadura Fortis Nord",
+        "fr": "Poignée Fortis Nord"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/handgrips/zzp6m.json",
+    "icon": "/icons/attachment/handgrips/zzp6m.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.handgrip_nord_heavy.name",
+      "args": {},
+      "lines": {
+        "ru": "Рукоятка Defense Nord",
+        "en": "Defense Nord Grip",
+        "es": "Empuñadura Defense Nord",
+        "fr": "Poignée Defense Nord"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/attachment/collimator_sights/96v5q.json",
     "icon": "/icons/attachment/collimator_sights/96v5q.png",
     "name": {
@@ -26182,6 +26277,25 @@
     }
   },
   {
+    "data": "/items/attachment/other/qjrd6.json",
+    "icon": "/icons/attachment/other/qjrd6.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.lcu_samodel.name",
+      "args": {},
+      "lines": {
+        "ru": "Самодельный ЛЦУ",
+        "en": "Handmade LD",
+        "es": "DL hecho a mano",
+        "fr": "LD Artisanal"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/attachment/other/j56y7.json",
     "icon": "/icons/attachment/other/j56y7.png",
     "name": {
@@ -26253,6 +26367,25 @@
       }
     },
     "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/other/dm2l5.json",
+    "icon": "/icons/attachment/other/dm2l5.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.lcu_compact_nord.name",
+      "args": {},
+      "lines": {
+        "ru": "ЛЦУ Compact Nord",
+        "en": "Compact Nord LD",
+        "es": "DL Compact Nord",
+        "fr": "LD Compact Nord"
+      }
+    },
+    "color": "RANK_MASTER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -27352,6 +27485,44 @@
         "en": "Hasty Silencer",
         "es": "Silenciador Apresurado",
         "fr": "Silenceux Vite-vite"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/barrel/p6yq5.json",
+    "icon": "/icons/attachment/barrel/p6yq5.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.silencer_knight_nord.name",
+      "args": {},
+      "lines": {
+        "ru": "Глушитель Knight Nord",
+        "en": "Knight Nord Silencer",
+        "es": "Silenciador Knight Nord",
+        "fr": "Silencieux Knight Nord"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/attachment/barrel/vjl3g.json",
+    "icon": "/icons/attachment/barrel/vjl3g.png",
+    "name": {
+      "type": "translation",
+      "key": "item.att.barrel_stable_nord.name",
+      "args": {},
+      "lines": {
+        "ru": "ДТК Stable Nord",
+        "en": "Stable Nord MBC",
+        "es": "CFB Stable Nord",
+        "fr": "MBC Stable Nord"
       }
     },
     "color": "RANK_MASTER",

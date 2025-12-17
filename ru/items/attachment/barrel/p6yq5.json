@@ -1,0 +1,719 @@
+{
+  "id": "p6yq5",
+  "category": "attachment/barrel",
+  "name": {
+    "type": "translation",
+    "key": "item.att.silencer_knight_nord.name",
+    "args": {},
+    "lines": {
+      "ru": "Глушитель Knight Nord",
+      "en": "Knight Nord Silencer",
+      "es": "Silenciador Knight Nord",
+      "fr": "Silencieux Knight Nord"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.barrel",
+            "args": {},
+            "lines": {
+              "ru": "Надульники и глушители",
+              "en": "Muzzles and Silencers",
+              "es": "Bocas y silenciadores",
+              "fr": "Dispositifs de bouche et silencieux"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.368,
+          "formatted": {
+            "value": {
+              "ru": "0,37 кг",
+              "en": "0.37 kg",
+              "es": "0,37 kg",
+              "fr": "0,37 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread",
+              "es": "Dispersión",
+              "fr": "Dispersion"
+            }
+          },
+          "value": -8.130002,
+          "formatted": {
+            "value": {
+              "ru": "-8,13%",
+              "en": "-8.13%",
+              "es": "-8,13 %",
+              "fr": "-8,13%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil",
+              "es": "Retroceso horizontal",
+              "fr": "Recul horizontal"
+            }
+          },
+          "value": -6.0,
+          "formatted": {
+            "value": {
+              "ru": "-6%",
+              "en": "-6%",
+              "es": "-6 %",
+              "fr": "-6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway",
+              "es": "Oscilación",
+              "fr": "Balancement"
+            }
+          },
+          "value": 14.999998,
+          "formatted": {
+            "value": {
+              "ru": "+15%",
+              "en": "+15%",
+              "es": "+15 %",
+              "fr": "+15%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.silencer.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",
+          "en": "ATTENTION: if you use a silencer, the enemy won’t know where you are firing from.",
+          "es": "ATENCIÓN: si usas un silenciador, el enemigo no sabrá desde dónde disparas.",
+          "fr": "ATTENTION : si vous utilisez un silencieux, l\u0027ennemi ne saura pas d\u0027où vous tirez."
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.silencer_knight_nord.description",
+        "args": {},
+        "lines": {
+          "ru": "Хотя некоторые сталкеры считают, что обвесы от Черного Рынка в определенной мере уступают в качестве стандартным примочкам, большая часть обитателей Зоны не имеет ничего против кастомного снаряжения, охотно покупая подобные обвесы втридорога лишь за особенный внешний вид.",
+          "en": "Although some stalkers believe that Black Market attachments somewhat fall short of standard accessories in terms of quality, most inhabitants of the Zone have nothing against custom gear and are eager to purchase such attachments at a premium just for the unique appearance.",
+          "es": "Aunque algunos acechadores consideran que los accesorios del Mercado Negro son, en cierta medida, de menor calidad que los estándares, la mayoría de los habitantes de la Zona no tienen problemas con el equipamiento personalizado, comprando estos accesorios a precios exorbitantes solo por su apariencia especial.",
+          "fr": "Bien que certains stalkers pensent que les accessoires du Marché Noir sont, dans une certaine mesure, moins performants que les pièces standard, la majorité des habitants de la Zone n\u0027a rien contre l\u0027équipement custom, achetant volontiers ces accessoires à prix triple juste pour leur apparence particulière."
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para",
+          "fr": "Compatible avec"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.f2000.name",
+            "args": {},
+            "lines": {
+              "ru": "FN F2000 Tactical",
+              "en": "FN F2000 Tactical",
+              "es": "FN F2000 táctico",
+              "fr": "FN F2000 Tactique"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ks1.name",
+            "args": {},
+            "lines": {
+              "ru": "KS-1",
+              "en": "KS-1",
+              "es": "KS-1",
+              "fr": "KS-1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.arx160.name",
+            "args": {},
+            "lines": {
+              "ru": "Beretta ARX-160",
+              "en": "Beretta ARX160",
+              "es": "Beretta ARX-160",
+              "fr": "Beretta ARX160"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.lr300.name",
+            "args": {},
+            "lines": {
+              "ru": "LR-300",
+              "en": "LR-300",
+              "es": "LR-300",
+              "fr": "LR-300"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.xm8.name",
+            "args": {},
+            "lines": {
+              "ru": "HK XM8",
+              "en": "HK XM8",
+              "es": "HK XM8",
+              "fr": "HK XM8"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.famas.name",
+            "args": {},
+            "lines": {
+              "ru": "FAMAS G2",
+              "en": "FAMAS G2",
+              "es": "FAMAS G2",
+              "fr": "FAMAS G2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.xm8s.name",
+            "args": {},
+            "lines": {
+              "ru": "HK XM8S",
+              "en": "HK XM8S",
+              "es": "HK XM8S",
+              "fr": "HK XM8S"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.x95.name",
+            "args": {},
+            "lines": {
+              "ru": "IWI Tavor X95",
+              "en": "IWI Tavor X95",
+              "es": "IWI Tavor X95",
+              "fr": "IWI Tavor X95"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.xm8_a.name",
+            "args": {},
+            "lines": {
+              "ru": "XM8 (А)",
+              "en": "XM8 (A)",
+              "es": "XM8 (A)",
+              "fr": "XM8 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.x95_a.name",
+            "args": {},
+            "lines": {
+              "ru": "X95 (А)",
+              "en": "X95 (A)",
+              "es": "X95 (A)",
+              "fr": "X95 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a3_rune_a.name",
+            "args": {},
+            "lines": {
+              "ru": "«Руна» (А)",
+              "en": "Rune (A)",
+              "es": "Runa (A)",
+              "fr": "Rune (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aug3_a.name",
+            "args": {},
+            "lines": {
+              "ru": "AUG A3 (А)",
+              "en": "AUG A3 (A)",
+              "es": "AUG A3 (A)",
+              "fr": "AUG A3 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk416_a.name",
+            "args": {},
+            "lines": {
+              "ru": "HK416 (А)",
+              "en": "HK416 (A)",
+              "es": "HK416 (A)",
+              "fr": "HK416 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.l85.name",
+            "args": {},
+            "lines": {
+              "ru": "L85A1",
+              "en": "L85A1",
+              "es": "L85A1",
+              "fr": "L85A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.lwrc.name",
+            "args": {},
+            "lines": {
+              "ru": "LWRC M6",
+              "en": "LWRC M6",
+              "es": "LWRC M6",
+              "fr": "LWRC M6"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sig.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG SG 550",
+              "en": "SIG SG 550",
+              "es": "SIG SG 550",
+              "fr": "SIG SG 550"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4_lb.name",
+            "args": {},
+            "lines": {
+              "ru": "M4 LB",
+              "en": "M4 LB",
+              "es": "M4 LB",
+              "fr": "M4 LB"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.g36c.name",
+            "args": {},
+            "lines": {
+              "ru": "HK G36C",
+              "en": "HK G36C",
+              "es": "HK G36C",
+              "fr": "HK G36C"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.f2000-1.name",
+            "args": {},
+            "lines": {
+              "ru": "FN F2000",
+              "en": "FN F2000",
+              "es": "FN F2000",
+              "fr": "FN F2000"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sig516.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG 516",
+              "en": "SIG 516",
+              "es": "SIG 516",
+              "fr": "SIG 516"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m249.name",
+            "args": {},
+            "lines": {
+              "ru": "M249 SAW",
+              "en": "M249 SAW",
+              "es": "M249 SAW",
+              "fr": "M249 SAW"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aug.name",
+            "args": {},
+            "lines": {
+              "ru": "Steyr AUG A1",
+              "en": "Steyr AUG A1",
+              "es": "Steyr AUG A1",
+              "fr": "Steyr AUG A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk416.name",
+            "args": {},
+            "lines": {
+              "ru": "HK416",
+              "en": "HK416",
+              "es": "HK416",
+              "fr": "HK416"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aug2.name",
+            "args": {},
+            "lines": {
+              "ru": "Steyr AUG A2",
+              "en": "Steyr AUG A2",
+              "es": "Steyr AUG A2",
+              "fr": "Steyr AUG A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aug3.name",
+            "args": {},
+            "lines": {
+              "ru": "Steyr AUG A3",
+              "en": "Steyr AUG A3",
+              "es": "Steyr AUG A3",
+              "fr": "Steyr AUG A3"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sigsniper.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG SG 550 Sniper",
+              "en": "SIG SG 550 Sniper",
+              "es": "Francotirador SIG SG 550",
+              "fr": "SIG SG 550 Sniper"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.l86.name",
+            "args": {},
+            "lines": {
+              "ru": "L86A1",
+              "en": "L86A1",
+              "es": "L86A1",
+              "fr": "L86A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.l85_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Уравнитель»",
+              "en": "Equalizer",
+              "es": "Ecualizador",
+              "fr": "Égaliseur"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1",
+              "en": "M4A1",
+              "es": "M4A1",
+              "fr": "M4A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarl.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-L",
+              "en": "FN SCAR-L",
+              "es": "FN SCAR-L",
+              "fr": "FN SCAR-L"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a3.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A3",
+              "en": "M16A3",
+              "es": "M16A3",
+              "fr": "M16A3"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a2.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A2",
+              "en": "M16A2",
+              "es": "M16A2",
+              "fr": "M16A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a1.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A1",
+              "en": "M16A1",
+              "es": "M16A1",
+              "fr": "M16A1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

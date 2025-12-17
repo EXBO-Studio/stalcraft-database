@@ -5407,6 +5407,80 @@
       "bench": "workbench",
       "category": {
         "type": "translation",
+        "key": "hideout.benches.categories.furniture.name",
+        "args": {},
+        "lines": {
+          "ru": "Функциональные объекты",
+          "en": "Functional objects",
+          "es": "Objetos funcionales",
+          "fr": "Objets fonctionnels"
+        }
+      },
+      "subcategory": {
+        "type": "translation",
+        "key": "hideout.benches.categories.other.name",
+        "args": {},
+        "lines": {
+          "ru": "Прочее",
+          "en": "Other",
+          "es": "Otros",
+          "fr": "Autre"
+        }
+      },
+      "result": [
+        {
+          "item": "59j1",
+          "amount": 1
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "wogp",
+          "amount": 20
+        },
+        {
+          "item": "jl77",
+          "amount": 5
+        },
+        {
+          "item": "olz36",
+          "amount": 1
+        },
+        {
+          "item": "z7pn",
+          "amount": 10
+        },
+        {
+          "item": "p3vw",
+          "amount": 1
+        },
+        {
+          "item": "5dm4",
+          "amount": 1
+        },
+        {
+          "item": "ll41",
+          "amount": 2
+        },
+        {
+          "item": "wokd",
+          "amount": 2
+        }
+      ],
+      "energy": 5000.0,
+      "requirements": {
+        "perks": {
+          "engineering": 2
+        },
+        "features": [
+          "tool_trolley"
+        ]
+      }
+    },
+    {
+      "bench": "workbench",
+      "category": {
+        "type": "translation",
         "key": "hideout.benches.categories.decorative.name",
         "args": {},
         "lines": {
