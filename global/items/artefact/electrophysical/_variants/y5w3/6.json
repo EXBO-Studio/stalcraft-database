@@ -320,6 +320,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad",
+              "fr": "Stabilité",
+              "ko": "안정성"
+            }
+          },
+          "min": 2.4752,
+          "max": 2.912,
+          "formatted": {
+            "value": {
+              "ru": "[+2,48%; +2,91%]",
+              "en": "[+2.48%; +2.91%]",
+              "es": "[+2,48 %; +2,91 %]",
+              "fr": "[+2,48%; +2,91%]",
+              "ko": "[+2.48%; +2.91%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.psycho_accumulation",
             "args": {},
             "lines": {

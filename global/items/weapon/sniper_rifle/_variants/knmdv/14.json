@@ -263,14 +263,14 @@
               "ko": "피해량"
             }
           },
-          "value": 215.94511,
+          "value": 296.3247,
           "formatted": {
             "value": {
-              "ru": "215,95 ед",
-              "en": "215.95 unit(s)",
-              "es": "215,95 unidad(es)",
-              "fr": "215,95 unité(s)",
-              "ko": "215.95 유닛"
+              "ru": "296,32 ед",
+              "en": "296.32 unit(s)",
+              "es": "296,32 unidad(es)",
+              "fr": "296,32 unité(s)",
+              "ko": "296.32 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -506,14 +506,14 @@
               "ko": "수직 반동"
             }
           },
-          "value": 3.0,
+          "value": 0.05,
           "formatted": {
             "value": {
-              "ru": "3°",
-              "en": "3°",
-              "es": "3°",
-              "fr": "3°",
-              "ko": "3°"
+              "ru": "0,05°",
+              "en": "0.05°",
+              "es": "0,05°",
+              "fr": "0,05°",
+              "ko": "0.05°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -533,14 +533,14 @@
               "ko": "수평 반동"
             }
           },
-          "value": 0.2,
+          "value": 0.05,
           "formatted": {
             "value": {
-              "ru": "0,2°",
-              "en": "0.2°",
-              "es": "0,2°",
-              "fr": "0,2°",
-              "ko": "0.2°"
+              "ru": "0,05°",
+              "en": "0.05°",
+              "es": "0,05°",
+              "fr": "0,05°",
+              "ko": "0.05°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -617,33 +617,6 @@
         }
       },
       "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.info.piercing",
-            "args": {},
-            "lines": {
-              "ru": "Бронебойность",
-              "en": "Armor-penetration",
-              "es": "Perforante",
-              "fr": "Pénétration d\u0027armure",
-              "ko": "방어구 관통력"
-            }
-          },
-          "value": 30.000002,
-          "formatted": {
-            "value": {
-              "ru": "30%",
-              "en": "30%",
-              "es": "30 %",
-              "fr": "30%",
-              "ko": "30%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
         {
           "type": "numeric",
           "name": {
@@ -780,23 +753,6 @@
           "type": "text",
           "text": {
             "type": "translation",
-            "key": "weapon.tooltip.weapon.armor_plate_damage_factor",
-            "args": {
-              "modifier": "0.49999952"
-            },
-            "lines": {
-              "ru": "Урон по прочности пластин: х0,5",
-              "en": "Plate durability damage: x0.5",
-              "es": "Daño a la durabilidad de las placas: x0,5",
-              "fr": "Dégâts à la durabilité des plaques : x0,5",
-              "ko": "장갑판 내구도 피해: x0.5"
-            }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
               "modifier": "1.5"
@@ -917,9 +873,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 215.94511,
+      "startDamage": 296.3247,
       "damageDecreaseStart": 200.0,
-      "endDamage": 215.94511,
+      "endDamage": 296.3247,
       "damageDecreaseEnd": 200.0,
       "maxDistance": 250.0
     },

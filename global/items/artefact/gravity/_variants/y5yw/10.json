@@ -264,6 +264,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": 0.61200005,
+          "max": 0.72,
+          "formatted": {
+            "value": {
+              "ru": "[+0,61%; +0,72%]",
+              "en": "[+0.61%; +0.72%]",
+              "es": "[+0,61 %; +0,72 %]",
+              "fr": "[+0,61%; +0,72%]",
+              "ko": "[+0.61%; +0.72%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
@@ -274,15 +302,15 @@
               "ko": "치유 효율"
             }
           },
-          "min": 8.874001,
-          "max": 10.440001,
+          "min": 11.7300005,
+          "max": 13.8,
           "formatted": {
             "value": {
-              "ru": "[+8,87%; +10,44%]",
-              "en": "[+8.87%; +10.44%]",
-              "es": "[+8,87 %; +10,44 %]",
-              "fr": "[+8,87%; +10,44%]",
-              "ko": "[+8.87%; +10.44%]"
+              "ru": "[+11,73%; +13,8%]",
+              "en": "[+11.73%; +13.8%]",
+              "es": "[+11,73 %; +13,8 %]",
+              "fr": "[+11,73%; +13,8%]",
+              "ko": "[+11.73%; +13.8%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -302,15 +330,15 @@
               "ko": "열상 보호율"
             }
           },
-          "min": 19.890001,
-          "max": 23.400002,
+          "min": 13.974001,
+          "max": 16.44,
           "formatted": {
             "value": {
-              "ru": "[+19,89; +23,4]",
-              "en": "[+19.89; +23.4]",
-              "es": "[+19,89; +23,4]",
-              "fr": "[+19,89; +23,4]",
-              "ko": "[+19.89; +23.4]"
+              "ru": "[+13,97; +16,44]",
+              "en": "[+13.97; +16.44]",
+              "es": "[+13,97; +16,44]",
+              "fr": "[+13,97; +16,44]",
+              "ko": "[+13.97; +16.44]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -342,34 +370,6 @@
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.reaction_to_tear",
-            "args": {},
-            "lines": {
-              "ru": "Реакция на разрыв",
-              "en": "Reaction to laceration",
-              "es": "Reacción a la laceración",
-              "fr": "Réaction aux lacérations",
-              "ko": "열상에 대항 능력"
-            }
-          },
-          "min": 1.3260001,
-          "max": 1.5600001,
-          "formatted": {
-            "value": {
-              "ru": "[+1,33%; +1,56%]",
-              "en": "[+1.33%; +1.56%]",
-              "es": "[+1,33 %; +1,56 %]",
-              "fr": "[+1,33%; +1,56%]",
-              "ko": "[+1.33%; +1.56%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
           }
         }
       ]

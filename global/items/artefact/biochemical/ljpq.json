@@ -317,15 +317,15 @@
               "ko": "피해 감소량"
             }
           },
-          "min": 66.725,
-          "max": 78.5,
+          "min": 38.25,
+          "max": 45.0,
           "formatted": {
             "value": {
-              "ru": "[67 ед; 78 ед]",
-              "en": "[67 unit(s); 78 unit(s)]",
-              "es": "[67 unidad(es); 78 unidad(es)]",
-              "fr": "[67 unité(s); 78 unité(s)]",
-              "ko": "[67 유닛; 78 유닛]"
+              "ru": "[38 ед; 45 ед]",
+              "en": "[38 unit(s); 45 unit(s)]",
+              "es": "[38 unidad(es); 45 unidad(es)]",
+              "fr": "[38 unité(s); 45 unité(s)]",
+              "ko": "[38 유닛; 45 유닛]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -345,15 +345,15 @@
               "ko": "재장전"
             }
           },
-          "min": 30.0,
-          "max": 23.1,
+          "min": 17.0,
+          "max": 11.825,
           "formatted": {
             "value": {
-              "ru": "[30 с; 23,1 с]",
-              "en": "[30 sec; 23.1 sec]",
-              "es": "[30 s; 23,1 s]",
-              "fr": "[30 s; 23,1 s]",
-              "ko": "[30초; 23.1초]"
+              "ru": "[17 с; 11,82 с]",
+              "en": "[17 sec; 11.82 sec]",
+              "es": "[17 s; 11,82 s]",
+              "fr": "[17 s; 11,82 s]",
+              "ko": "[17초; 11.82초]"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -401,15 +401,15 @@
               "ko": "스태미나"
             }
           },
-          "min": 12.410001,
-          "max": 14.6,
+          "min": 17.68,
+          "max": 20.8,
           "formatted": {
             "value": {
-              "ru": "[+12,41%; +14,6%]",
-              "en": "[+12.41%; +14.6%]",
-              "es": "[+12,41 %; +14,6 %]",
-              "fr": "[+12,41%; +14,6%]",
-              "ko": "[+12.41%; +14.6%]"
+              "ru": "[+17,68%; +20,8%]",
+              "en": "[+17.68%; +20.8%]",
+              "es": "[+17,68 %; +20,8 %]",
+              "fr": "[+17,68%; +20,8%]",
+              "ko": "[+17.68%; +20.8%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -438,6 +438,34 @@
               "es": "[+0,64 %; +0,75 %]",
               "fr": "[+0,64%; +0,75%]",
               "ko": "[+0.64%; +0.75%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "min": 2.72,
+          "max": 3.2,
+          "formatted": {
+            "value": {
+              "ru": "[+2,72%; +3,2%]",
+              "en": "[+2.72%; +3.2%]",
+              "es": "[+2,72 %; +3,2 %]",
+              "fr": "[+2,72%; +3,2%]",
+              "ko": "[+2.72%; +3.2%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

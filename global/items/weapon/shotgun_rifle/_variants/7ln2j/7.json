@@ -185,7 +185,35 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": -1.9999981,
+          "formatted": {
+            "value": {
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -235,14 +263,14 @@
               "ko": "피해량"
             }
           },
-          "value": 430.48782,
+          "value": 413.2683,
           "formatted": {
             "value": {
-              "ru": "430,49 ед",
-              "en": "430.49 unit(s)",
-              "es": "430,49 unidad(es)",
-              "fr": "430,49 unité(s)",
-              "ko": "430.49 유닛"
+              "ru": "413,27 ед",
+              "en": "413.27 unit(s)",
+              "es": "413,27 unidad(es)",
+              "fr": "413,27 unité(s)",
+              "ko": "413.27 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -397,14 +425,14 @@
               "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 2.75,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "2,75°",
-              "en": "2.75°",
-              "es": "2,75°",
-              "fr": "2,75°",
-              "ko": "2.75°"
+              "ru": "3°",
+              "en": "3°",
+              "es": "3°",
+              "fr": "3°",
+              "ko": "3°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -591,14 +619,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
-              "modifier": "1.75"
+              "modifier": "1.9"
             },
             "lines": {
-              "ru": "Урон по мутантам: х1,75",
-              "en": "Damage to mutants: x1.75",
-              "es": "Daño a mutantes: x1,75",
-              "fr": "Dégât au mutants : x1,75",
-              "ko": "돌연변이에게 입히는 피해: x1.75"
+              "ru": "Урон по мутантам: х1,9",
+              "en": "Damage to mutants: x1.9",
+              "es": "Daño a mutantes: x1,9",
+              "fr": "Dégât au mutants : x1,9",
+              "ko": "돌연변이에게 입히는 피해: x1.9"
             }
           }
         }
@@ -709,9 +737,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 430.48782,
+      "startDamage": 413.2683,
       "damageDecreaseStart": 4.0,
-      "endDamage": 204.48172,
+      "endDamage": 215.24391,
       "damageDecreaseEnd": 11.0,
       "maxDistance": 85.0
     },
