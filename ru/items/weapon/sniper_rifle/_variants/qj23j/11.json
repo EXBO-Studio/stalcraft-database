@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -4.000002,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-4%",
+              "en": "-4%",
+              "es": "-4 %",
+              "fr": "-4%",
+              "ko": "-4%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -262,14 +262,14 @@
               "ko": "피해량"
             }
           },
-          "value": 149.42073,
+          "value": 267.80792,
           "formatted": {
             "value": {
-              "ru": "149,42 ед",
-              "en": "149.42 unit(s)",
-              "es": "149,42 unidad(es)",
-              "fr": "149,42 unité(s)",
-              "ko": "149.42 유닛"
+              "ru": "267,81 ед",
+              "en": "267.81 unit(s)",
+              "es": "267,81 unidad(es)",
+              "fr": "267,81 unité(s)",
+              "ko": "267.81 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -289,14 +289,14 @@
               "ko": "탄창 용량"
             }
           },
-          "value": 6.0,
+          "value": 5.0,
           "formatted": {
             "value": {
-              "ru": "0/6",
-              "en": "0/6",
-              "es": "0/6",
-              "fr": "0/6",
-              "ko": "0/6"
+              "ru": "0/5",
+              "en": "0/5",
+              "es": "0/5",
+              "fr": "0/5",
+              "ko": "0/5"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -343,14 +343,14 @@
               "ko": "발사 속도"
             }
           },
-          "value": 72.0,
+          "value": 40.0,
           "formatted": {
             "value": {
-              "ru": "72 выстр/мин",
-              "en": "72 shots/min",
-              "es": "72 disparos/min",
-              "fr": "72tirs/min",
-              "ko": "분당 72 발"
+              "ru": "40 выстр/мин",
+              "en": "40 shots/min",
+              "es": "40 disparos/min",
+              "fr": "40tirs/min",
+              "ko": "분당 40 발"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.099999905,
+          "value": 0.059999943,
           "formatted": {
             "value": {
-              "ru": "0,1°",
-              "en": "0.1°",
-              "es": "0,1°",
-              "fr": "0,1°",
-              "ko": "0.1°"
+              "ru": "0,06°",
+              "en": "0.06°",
+              "es": "0,06°",
+              "fr": "0,06°",
+              "ko": "0.06°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -505,14 +505,14 @@
               "ko": "수직 반동"
             }
           },
-          "value": 2.7,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "2,7°",
-              "en": "2.7°",
-              "es": "2,7°",
-              "fr": "2,7°",
-              "ko": "2.7°"
+              "ru": "3°",
+              "en": "3°",
+              "es": "3°",
+              "fr": "3°",
+              "ko": "3°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -532,14 +532,14 @@
               "ko": "수평 반동"
             }
           },
-          "value": 0.9,
+          "value": 1.0,
           "formatted": {
             "value": {
-              "ru": "0,9°",
-              "en": "0.9°",
-              "es": "0,9°",
-              "fr": "0,9°",
-              "ko": "0.9°"
+              "ru": "1°",
+              "en": "1°",
+              "es": "1°",
+              "fr": "1°",
+              "ko": "1°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -657,14 +657,14 @@
               "ko": "저지력"
             }
           },
-          "value": 100.0,
+          "value": 110.0,
           "formatted": {
             "value": {
-              "ru": "100",
-              "en": "100",
-              "es": "100",
-              "fr": "100",
-              "ko": "100"
+              "ru": "110",
+              "en": "110",
+              "es": "110",
+              "fr": "110",
+              "ko": "110"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -693,14 +693,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.0"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1",
+              "en": "Headshot damage: x1",
+              "es": "Daño por disparo a la cabeza: x1",
+              "fr": "Dégât de tir à la tête : x1",
+              "ko": "헤드샷 피해: x1"
             }
           }
         },
@@ -829,9 +829,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 149.42073,
+      "startDamage": 267.80792,
       "damageDecreaseStart": 20.0,
-      "endDamage": 149.42073,
+      "endDamage": 267.80792,
       "damageDecreaseEnd": 60.0,
       "maxDistance": 225.0
     },

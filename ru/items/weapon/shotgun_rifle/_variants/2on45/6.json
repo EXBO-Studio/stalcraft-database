@@ -184,7 +184,35 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": -2.9999971,
+          "formatted": {
+            "value": {
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%",
+              "ko": "-3%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -234,14 +262,14 @@
               "ko": "피해량"
             }
           },
-          "value": 511.09753,
+          "value": 477.02438,
           "formatted": {
             "value": {
-              "ru": "511,1 ед",
-              "en": "511.1 unit(s)",
-              "es": "511,1 unidad(es)",
-              "fr": "511,1 unité(s)",
-              "ko": "511.1 유닛"
+              "ru": "477,02 ед",
+              "en": "477.02 unit(s)",
+              "es": "477,02 unidad(es)",
+              "fr": "477,02 unité(s)",
+              "ko": "477.02 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -396,14 +424,14 @@
               "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 2.75,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "2,75°",
-              "en": "2.75°",
-              "es": "2,75°",
-              "fr": "2,75°",
-              "ko": "2.75°"
+              "ru": "3°",
+              "en": "3°",
+              "es": "3°",
+              "fr": "3°",
+              "ko": "3°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -423,14 +451,14 @@
               "ko": "수직 반동"
             }
           },
-          "value": 20.0,
+          "value": 10.0,
           "formatted": {
             "value": {
-              "ru": "20°",
-              "en": "20°",
-              "es": "20°",
-              "fr": "20°",
-              "ko": "20°"
+              "ru": "10°",
+              "en": "10°",
+              "es": "10°",
+              "fr": "10°",
+              "ko": "10°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -590,14 +618,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
-              "modifier": "1.65"
+              "modifier": "2.3"
             },
             "lines": {
-              "ru": "Урон по мутантам: х1,65",
-              "en": "Damage to mutants: x1.65",
-              "es": "Daño a mutantes: x1,65",
-              "fr": "Dégât au mutants : x1,65",
-              "ko": "돌연변이에게 입히는 피해: x1.65"
+              "ru": "Урон по мутантам: х2,3",
+              "en": "Damage to mutants: x2.3",
+              "es": "Daño a mutantes: x2,3",
+              "fr": "Dégât au mutants : x2,3",
+              "ko": "돌연변이에게 입히는 피해: x2.3"
             }
           }
         }
@@ -708,9 +736,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 511.09753,
+      "startDamage": 477.02438,
       "damageDecreaseStart": 4.0,
-      "endDamage": 212.9573,
+      "endDamage": 236.38261,
       "damageDecreaseEnd": 10.0,
       "maxDistance": 85.0
     },

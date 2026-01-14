@@ -264,6 +264,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": -2.7,
+          "max": -2.295,
+          "formatted": {
+            "value": {
+              "ru": "[-2,7%; -2,3%]",
+              "en": "[-2.7%; -2.3%]",
+              "es": "[-2,7 %; -2,3 %]",
+              "fr": "[-2,7%; -2,3%]",
+              "ko": "[-2.7%; -2.3%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
@@ -342,34 +370,6 @@
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Пулестойкость",
-              "en": "Bullet resistance",
-              "es": "Resistencia a las balas",
-              "fr": "Résistance aux balles",
-              "ko": "총탄 보호율"
-            }
-          },
-          "min": -29.7,
-          "max": -25.245,
-          "formatted": {
-            "value": {
-              "ru": "[-29,7; -25,24]",
-              "en": "[-29.7; -25.24]",
-              "es": "[-29,7; -25,24]",
-              "fr": "[-29,7; -25,24]",
-              "ko": "[-29.7; -25.24]"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
           }
         },
         {

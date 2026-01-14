@@ -235,14 +235,14 @@
               "ko": "피해량"
             }
           },
-          "value": 206.09755,
+          "value": 185.4878,
           "formatted": {
             "value": {
-              "ru": "206,1 ед",
-              "en": "206.1 unit(s)",
-              "es": "206,1 unidad(es)",
-              "fr": "206,1 unité(s)",
-              "ko": "206.1 유닛"
+              "ru": "185,49 ед",
+              "en": "185.49 unit(s)",
+              "es": "185,49 unidad(es)",
+              "fr": "185,49 unité(s)",
+              "ko": "185.49 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -451,14 +451,14 @@
               "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 2.75,
+          "value": 2.0625,
           "formatted": {
             "value": {
-              "ru": "2,75°",
-              "en": "2.75°",
-              "es": "2,75°",
-              "fr": "2,75°",
-              "ko": "2.75°"
+              "ru": "2,06°",
+              "en": "2.06°",
+              "es": "2,06°",
+              "fr": "2,06°",
+              "ko": "2.06°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -645,14 +645,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
-              "modifier": "1.85"
+              "modifier": "2.05"
             },
             "lines": {
-              "ru": "Урон по мутантам: х1,85",
-              "en": "Damage to mutants: x1.85",
-              "es": "Daño a mutantes: x1,85",
-              "fr": "Dégât au mutants : x1,85",
-              "ko": "돌연변이에게 입히는 피해: x1.85"
+              "ru": "Урон по мутантам: х2,05",
+              "en": "Damage to mutants: x2.05",
+              "es": "Daño a mutantes: x2,05",
+              "fr": "Dégât au mutants : x2,05",
+              "ko": "돌연변이에게 입히는 피해: x2.05"
             }
           }
         }
@@ -732,6 +732,50 @@
     {
       "type": "list",
       "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.attachment_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики обвесов",
+          "en": "Attachment properties",
+          "es": "Propiedades de accesorios",
+          "fr": "Propriétés des accessoires",
+          "ko": "부착물 특성"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l\u0027aveugle",
+              "ko": "비조준 사격 탄퍼짐"
+            }
+          },
+          "value": -25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%",
+              "ko": "-25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
         "type": "text",
         "text": ""
       },
@@ -773,7 +817,7 @@
     },
     {
       "type": "damage",
-      "startDamage": 206.09755,
+      "startDamage": 185.4878,
       "damageDecreaseStart": 4.0,
       "endDamage": 51.524387,
       "damageDecreaseEnd": 18.0,

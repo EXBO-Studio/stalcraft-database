@@ -292,25 +292,25 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.artefakt_heal",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance",
-              "ko": "스태미나 재생"
+              "ru": "Периодическое лечение",
+              "en": "Periodic healing",
+              "es": "Curación periódica",
+              "fr": "Soins périodiques",
+              "ko": "지속 치유"
             }
           },
-          "min": 3.3048,
-          "max": 3.888,
+          "min": 0.45900002,
+          "max": 0.54,
           "formatted": {
             "value": {
-              "ru": "[+3,3%; +3,89%]",
-              "en": "[+3.3%; +3.89%]",
-              "es": "[+3,3 %; +3,89 %]",
-              "fr": "[+3,3%; +3,89%]",
-              "ko": "[+3.3%; +3.89%]"
+              "ru": "[+0,46%; +0,54%]",
+              "en": "[+0.46%; +0.54%]",
+              "es": "[+0,46 %; +0,54 %]",
+              "fr": "[+0,46%; +0,54%]",
+              "ko": "[+0.46%; +0.54%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

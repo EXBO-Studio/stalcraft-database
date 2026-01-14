@@ -264,14 +264,14 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed",
-              "es": "Velocidad de movimiento",
-              "fr": "Vitesse de déplacement",
-              "ko": "이동 속도"
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
             }
           },
           "min": 1.0361499,
@@ -292,25 +292,25 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Скорость бега",
-              "en": "Running speed",
-              "es": "Velocidad de carrera",
-              "fr": "Vitesse de course",
-              "ko": "달리기 속도"
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
             }
           },
-          "min": 1.3965499,
-          "max": 1.6429999,
+          "min": 3.9644,
+          "max": 4.664,
           "formatted": {
             "value": {
-              "ru": "[+1,4%; +1,64%]",
-              "en": "[+1.4%; +1.64%]",
-              "es": "[+1,4 %; +1,64 %]",
-              "fr": "[+1,4%; +1,64%]",
-              "ko": "[+1.4%; +1.64%]"
+              "ru": "[+3,96%; +4,66%]",
+              "en": "[+3.96%; +4.66%]",
+              "es": "[+3,96 %; +4,66 %]",
+              "fr": "[+3,96%; +4,66%]",
+              "ko": "[+3.96%; +4.66%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -320,14 +320,14 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration",
-              "es": "Regeneración de salud",
-              "fr": "Régénération de la santé",
-              "ko": "체력 회복력"
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance",
+              "ko": "스태미나 재생"
             }
           },
           "min": 4.3248,
