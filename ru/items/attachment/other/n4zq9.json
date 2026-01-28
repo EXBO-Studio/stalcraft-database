@@ -1,16 +1,16 @@
 {
-  "id": "n4qy9",
-  "category": "attachment/collimator_sights",
+  "id": "n4zq9",
+  "category": "attachment/other",
   "name": {
     "type": "translation",
-    "key": "item.att.scope_steiner46.name",
+    "key": "item.att.lcu_truglo.name",
     "args": {},
     "lines": {
-      "ru": "Прицел оптический Steiner",
-      "en": "Steiner Optical Sight",
-      "es": "Mira telescópica Steiner",
-      "fr": "Viseur optique Steiner",
-      "ko": "Steiner 광학 조준경"
+      "ru": "ЛЦУ Truglo-Ace",
+      "en": "Truglo-Ace LD",
+      "es": "DL Truglo-Ace",
+      "fr": "LD Truglo-Ace",
+      "ko": "Truglo-Ace 레이저 사이트"
     }
   },
   "color": "RANK_MASTER",
@@ -68,14 +68,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.collimator_sights",
+            "key": "core.handbook.category.other",
             "args": {},
             "lines": {
-              "ru": "Прицелы",
-              "en": "Sights",
-              "es": "Miras",
-              "fr": "Viseurs",
-              "ko": "조준기"
+              "ru": "Прочие обвесы",
+              "en": "Other Attachments",
+              "es": "Otros accesorios",
+              "fr": "Autres accessoires",
+              "ko": "기타 부착물"
             }
           }
         },
@@ -93,14 +93,14 @@
               "ko": "무게"
             }
           },
-          "value": 0.59,
+          "value": 0.15,
           "formatted": {
             "value": {
-              "ru": "0,59 кг",
-              "en": "0.59 kg",
-              "es": "0,59 kg",
-              "fr": "0,59 kg",
-              "ko": "0.59 kg"
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg",
+              "fr": "0,15 kg",
+              "ko": "0.15 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -132,55 +132,27 @@
       },
       "elements": [
         {
-          "type": "key-value",
-          "key": {
-            "type": "translation",
-            "key": "weapon.tooltip.sight.info.zoom",
-            "args": {},
-            "lines": {
-              "ru": "Увеличение",
-              "en": "Magnification",
-              "es": "Aumento",
-              "fr": "Grossissement",
-              "ko": "배율"
-            }
-          },
-          "value": {
-            "type": "text",
-            "text": "x4.00, x6.00"
-          }
-        }
-      ]
-    },
-    {
-      "type": "list",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
-      "elements": [
-        {
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.shoot_factor_decrement",
+            "key": "weapon.stat_factor.hip_spread",
             "args": {},
             "lines": {
-              "ru": "Стабилизация",
-              "en": "Stabilization",
-              "es": "Estabilización",
-              "fr": "Stabilisation",
-              "ko": "안정성"
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l\u0027aveugle",
+              "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 10.000467,
+          "value": -25.0,
           "formatted": {
             "value": {
-              "ru": "+10%",
-              "en": "+10%",
-              "es": "+10 %",
-              "fr": "+10%",
-              "ko": "+10%"
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%",
+              "ko": "-25%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -196,14 +168,14 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.att.scope_steiner46.description",
+        "key": "item.att.lcu_truglo.description",
         "args": {},
         "lines": {
-          "ru": "Модель: S432",
-          "en": "Model: S432",
-          "es": "Modelo: S432",
-          "fr": "Modèle : S432",
-          "ko": "모델: S432"
+          "ru": "Цвет лазера - синий\\n\\nНекоторые мастера Зоны развлекаются перепродажей снаряжения с минимальными косметическими изменениями. Если вам нравится — почему бы и нет?",
+          "en": "Laser color: blue\\n\\nSome masters in the Zone entertain themselves by reselling gear with minimal cosmetic changes. If you like it—why not?",
+          "es": "Color del láser: azul\\n\\nAlgunos artesanos de la Zona se divierten revendiendo equipamiento con cambios cosméticos mínimos. Si te gusta, ¿por qué no?",
+          "fr": "Couleur du laser — bleu\\n\\nCertains maîtres de la Zone s\u0027amusent à revendre de l\u0027équipement avec des modifications cosmétiques minimes. Si ça vous plaît — pourquoi pas ?",
+          "ko": "레이저 색상 - 파란색\\n\\n일부 존 마스터들은 장비를 최소한의 외형 변경만으로 재판매하며 즐기기도 한다. 마음에 든다면, 왜 안 되겠는가?"
         }
       }
     },
@@ -339,6 +311,21 @@
               "es": "ASh-12",
               "fr": "ASh-12",
               "ko": "ASh-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sr3m.name",
+            "args": {},
+            "lines": {
+              "ru": "СР-3М",
+              "en": "SR-3M",
+              "es": "SR-3M",
+              "fr": "SR-3M",
+              "ko": "SR-3M"
             }
           }
         },
@@ -556,21 +543,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.aa12.name",
-            "args": {},
-            "lines": {
-              "ru": "AA-12",
-              "en": "AA-12",
-              "es": "AA-12",
-              "fr": "AA-12",
-              "ko": "AA-12"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.fal.name",
             "args": {},
             "lines": {
@@ -609,21 +581,6 @@
               "es": "FN SCAR SSR",
               "fr": "FN SCAR SSR",
               "ko": "FN SCAR SSR"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.famas.name",
-            "args": {},
-            "lines": {
-              "ru": "FAMAS G2",
-              "en": "FAMAS G2",
-              "es": "FAMAS G2",
-              "fr": "FAMAS G2",
-              "ko": "FAMAS G2"
             }
           }
         },
@@ -781,21 +738,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.ks23.name",
-            "args": {},
-            "lines": {
-              "ru": "КС-23",
-              "en": "KS-23",
-              "es": "KS-23",
-              "fr": "KS-23",
-              "ko": "KS-23"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.spas15.name",
             "args": {},
             "lines": {
@@ -901,6 +843,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.deagle_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Большой Билл»",
+              "en": "Big Bill",
+              "es": "Big Bill",
+              "fr": "Grand Bill",
+              "ko": "빅 빌"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.fal_a.name",
             "args": {},
             "lines": {
@@ -984,36 +941,6 @@
               "es": "X95 (A)",
               "fr": "X95 (A)",
               "ko": "X95 (A)"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m16a3_rune_a.name",
-            "args": {},
-            "lines": {
-              "ru": "«Руна» (А)",
-              "en": "Rune (A)",
-              "es": "Runa (A)",
-              "fr": "Rune (A)",
-              "ko": "룬 (A)"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.invertor_a.name",
-            "args": {},
-            "lines": {
-              "ru": "«Инвертор» (А)",
-              "en": "Inverter (A)",
-              "es": "Inversor (A)",
-              "fr": "Onduleur (A)",
-              "ko": "인버터 (A)"
             }
           }
         },
@@ -1111,6 +1038,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.deagle.name",
+            "args": {},
+            "lines": {
+              "ru": "Desert Eagle Mark XIX",
+              "en": "Desert Eagle Mark XIX",
+              "es": "Desert Eagle Mark XIX",
+              "fr": "Desert Eagle Mark XIX",
+              "ko": "데저트 이글 마크 XIX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.rsh12.name",
             "args": {},
             "lines": {
@@ -1126,6 +1068,36 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.p320.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG Sauer P320",
+              "en": "Sig Sauer P320",
+              "es": "Sig Sauer P320",
+              "fr": "Sig Sauer P320",
+              "ko": "지크자우어 P320"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.glock18x.name",
+            "args": {},
+            "lines": {
+              "ru": "Glock 18X",
+              "en": "Glock 18X",
+              "es": "Glock 18X",
+              "fr": "Glock 18X",
+              "ko": "글록 18X"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.vssm.name",
             "args": {},
             "lines": {
@@ -1134,66 +1106,6 @@
               "es": "VSS-M Vintorez",
               "fr": "VSS-M Vintorez",
               "ko": "VSS-M [빈토레즈]"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.wa2000.name",
-            "args": {},
-            "lines": {
-              "ru": "WA2000",
-              "en": "WA2000",
-              "es": "WA2000",
-              "fr": "WA2000",
-              "ko": "WA2000"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.l96.name",
-            "args": {},
-            "lines": {
-              "ru": "L96A1",
-              "en": "L96A1",
-              "es": "L96A1",
-              "fr": "L96A1",
-              "ko": "L96A1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.vyhlop.name",
-            "args": {},
-            "lines": {
-              "ru": "ВССК «Выхлоп»",
-              "en": "VSSK Vykhlop",
-              "es": "VSSK Vykhlop",
-              "fr": "VSSK Vykhlop",
-              "ko": "VSSK 브이흘롭"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.otl.name",
-            "args": {},
-            "lines": {
-              "ru": "ОТЛ-03 «Карбач»",
-              "en": "Karbach OTL-03",
-              "es": "Karbach OTL-03",
-              "fr": "Karbach OTL-03",
-              "ko": "카르바흐 OTL-03"
             }
           }
         },
@@ -1366,14 +1278,14 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.l85.name",
+            "key": "item.wpn.vityaz.name",
             "args": {},
             "lines": {
-              "ru": "L85A1",
-              "en": "L85A1",
-              "es": "L85A1",
-              "fr": "L85A1",
-              "ko": "L85A1"
+              "ru": "ПП-19-01 «Витязь»",
+              "en": "PP-19-01 Vityaz",
+              "es": "PP-19-01 Vityaz",
+              "fr": "PP-19-01 Vityaz",
+              "ko": "PP-19-01 비타즈"
             }
           }
         },
@@ -1426,6 +1338,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.aek973.name",
+            "args": {},
+            "lines": {
+              "ru": "АЕК-973 «Марс»",
+              "en": "AEK-973 Mars",
+              "es": "AEK-973 Marte",
+              "fr": "AEK-973 Mars",
+              "ko": "AEK-973 마르스"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.rhythm.name",
             "args": {},
             "lines": {
@@ -1471,44 +1398,14 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.sig.name",
+            "key": "item.wpn.ak103.name",
             "args": {},
             "lines": {
-              "ru": "SIG SG 550",
-              "en": "SIG SG 550",
-              "es": "SIG SG 550",
-              "fr": "SIG SG 550",
-              "ko": "SIG SG 550"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m4_lb.name",
-            "args": {},
-            "lines": {
-              "ru": "M4 LB",
-              "en": "M4 LB",
-              "es": "M4 LB",
-              "fr": "M4 LB",
-              "ko": "M4 LB"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.alk22.name",
-            "args": {},
-            "lines": {
-              "ru": "АЛК-22 «Стрекоза»",
-              "en": "ALK-22 Dragonfly",
-              "es": "ALK-22 Dragonfly",
-              "fr": "ALK-22 Libellule",
-              "ko": "ALK-22 드래곤플라이"
+              "ru": "АК-103",
+              "en": "AK-103",
+              "es": "AK-103",
+              "fr": "AK-103",
+              "ko": "AK-103"
             }
           }
         },
@@ -1531,29 +1428,14 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.g3a1.name",
+            "key": "item.wpn.aek971.name",
             "args": {},
             "lines": {
-              "ru": "HK G3A1",
-              "en": "HK G3A1",
-              "es": "HK G3A1",
-              "fr": "HK G3A1",
-              "ko": "HK G3A1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.f2000-1.name",
-            "args": {},
-            "lines": {
-              "ru": "FN F2000",
-              "en": "FN F2000",
-              "es": "FN F2000",
-              "fr": "FN F2000",
-              "ko": "FN F2000"
+              "ru": "АЕК-971",
+              "en": "AEK-971",
+              "es": "AEK-971",
+              "fr": "AEK-971",
+              "ko": "AEK-971"
             }
           }
         },
@@ -1606,44 +1488,14 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.storm.name",
+            "key": "item.wpn.glock18c.name",
             "args": {},
             "lines": {
-              "ru": "ОЦ-14М «Ураган»",
-              "en": "OTs-14M Hurricane",
-              "es": "OTs-14M Huracán",
-              "fr": "OTs-14M Ouragan",
-              "ko": "OTs-14M 허리케인"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.sv98.name",
-            "args": {},
-            "lines": {
-              "ru": "СВ-98",
-              "en": "SV-98",
-              "es": "SV-98",
-              "fr": "SV-98",
-              "ko": "SV-98"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m249.name",
-            "args": {},
-            "lines": {
-              "ru": "M249 SAW",
-              "en": "M249 SAW",
-              "es": "M249 SAW",
-              "fr": "M249 SAW",
-              "ko": "M249 분대지원화기"
+              "ru": "Glock 18C",
+              "en": "Glock 18C",
+              "es": "Glock 18C",
+              "fr": "Glock 18C",
+              "ko": "글록 18C"
             }
           }
         },
@@ -1681,36 +1533,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.tkb.name",
-            "args": {},
-            "lines": {
-              "ru": "ТКБ-0146М",
-              "en": "TKB-0146M",
-              "es": "TKB-0146M",
-              "fr": "TKB-0146M",
-              "ko": "TKB-0146M"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.aug2.name",
-            "args": {},
-            "lines": {
-              "ru": "Steyr AUG A2",
-              "en": "Steyr AUG A2",
-              "es": "Steyr AUG A2",
-              "fr": "Steyr AUG A2",
-              "ko": "슈타이어 AUG A2"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.aug3.name",
             "args": {},
             "lines": {
@@ -1741,111 +1563,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.sigsniper.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG SG 550 Sniper",
-              "en": "SIG SG 550 Sniper",
-              "es": "Francotirador SIG SG 550",
-              "fr": "SIG SG 550 Sniper",
-              "ko": "SIG SG 550 저격수"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.six12.name",
-            "args": {},
-            "lines": {
-              "ru": "Crye Precision SIX12",
-              "en": "Crye Precision SIX12",
-              "es": "Crye Precision SIX12",
-              "fr": "SIX12 Crye Precision",
-              "ko": "크라이 프리시전 SIX12"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.psg.name",
-            "args": {},
-            "lines": {
-              "ru": "HK PSG1",
-              "en": "HK PSG1",
-              "es": "HK PSG1",
-              "fr": "HK PSG1",
-              "ko": "HK PSG1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.triple.name",
-            "args": {},
-            "lines": {
-              "ru": "Chiappa Triple Crown",
-              "en": "Chiappa Triple Crown",
-              "es": "Chiappa Triple Crown",
-              "fr": "Chiappa Triple Crown",
-              "ko": "키아파 트리플 크라운"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m1014_breacher.name",
-            "args": {},
-            "lines": {
-              "ru": "M1014 Breacher",
-              "en": "M1014 Breacher",
-              "es": "Quebrantador M1014",
-              "fr": "M1014 Breacher",
-              "ko": "M1014 브리처"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.l86.name",
-            "args": {},
-            "lines": {
-              "ru": "L86A1",
-              "en": "L86A1",
-              "es": "L86A1",
-              "fr": "L86A1",
-              "ko": "L86A1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.rpd.name",
-            "args": {},
-            "lines": {
-              "ru": "РПД",
-              "en": "RPD",
-              "es": "RPD",
-              "fr": "RPD",
-              "ko": "RPD"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.aks74_mod.name",
             "args": {},
             "lines": {
@@ -1854,21 +1571,6 @@
               "es": "Estoque",
               "fr": "Rapière",
               "ko": "레이피어"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.l85_mod.name",
-            "args": {},
-            "lines": {
-              "ru": "«Уравнитель»",
-              "en": "Equalizer",
-              "es": "Ecualizador",
-              "fr": "Égaliseur",
-              "ko": "이퀄라이저"
             }
           }
         },
@@ -1891,44 +1593,14 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.m40.name",
+            "key": "item.wpn.glock17.name",
             "args": {},
             "lines": {
-              "ru": "M40A5",
-              "en": "M40A5",
-              "es": "M40A5",
-              "fr": "M40A5",
-              "ko": "M40A5"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.alpine.name",
-            "args": {},
-            "lines": {
-              "ru": "Alpine TPG-1",
-              "en": "Alpine TPG-1",
-              "es": "Alpine TPG-1",
-              "fr": "Alpine TPG-1",
-              "ko": "알파인 TPG-1"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.fg42.name",
-            "args": {},
-            "lines": {
-              "ru": "FG-42 «Хлыст»",
-              "en": "FG-42 Whip",
-              "es": "FG-42 Whip",
-              "fr": "FG-42 Fouet",
-              "ko": "FG-42 채찍"
+              "ru": "Glock 17",
+              "en": "Glock 17",
+              "es": "Glock 17",
+              "fr": "Glock 17",
+              "ko": "글록 17"
             }
           }
         },
@@ -1951,6 +1623,51 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.m1a-1.name",
+            "args": {},
+            "lines": {
+              "ru": "M1A",
+              "en": "M1A",
+              "es": "M1A",
+              "fr": "M1A",
+              "ko": "M1A"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_m1pacs.name",
+            "args": {},
+            "lines": {
+              "ru": "Ложе Springfield M1A PACS",
+              "en": "Springfield M1A PACS Stock",
+              "es": "Culata Springfield M1A PACS",
+              "fr": "Crosse Springfield M1A PACS",
+              "ko": "스프링필드 M1A PACS 개머리판"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_saiga.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье для Сайга-12К",
+              "en": "Handguard for Saiga-12K",
+              "es": "Guardamanos para Saiga-12K",
+              "fr": "Garde-main Saiga-12K",
+              "ko": "사이가-12K용 총열덮개"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.att.barrel_longdeagle7.name",
             "args": {},
             "lines": {
@@ -1959,21 +1676,6 @@
               "es": "Extensión de cañón D-Eagle VII",
               "fr": "Extension de canon D-Eagle VII",
               "ko": "확장 총열 D-Eagle VII"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m4.name",
-            "args": {},
-            "lines": {
-              "ru": "M4A1",
-              "en": "M4A1",
-              "es": "M4A1",
-              "fr": "M4A1",
-              "ko": "M4A1"
             }
           }
         },
@@ -2011,21 +1713,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.winchester.name",
-            "args": {},
-            "lines": {
-              "ru": "Winchester M70",
-              "en": "Winchester M70",
-              "es": "Winchester M70",
-              "fr": "Winchester M70",
-              "ko": "윈체스터 M70"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.scout.name",
             "args": {},
             "lines": {
@@ -2034,6 +1721,36 @@
               "es": "Steyr Scout",
               "fr": "Steyr Scout",
               "ko": "슈타이어 스카우트"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_p90ris.name",
+            "args": {},
+            "lines": {
+              "ru": "Цевье RIS P90",
+              "en": "RIS P90 Handguard",
+              "es": "Guardamanos RIS P90",
+              "fr": "Garde-mainsRIS P90",
+              "ko": "RIS P90 총열덮개"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.forend_m1ris2.name",
+            "args": {},
+            "lines": {
+              "ru": "Ложе M1A с планками Пикатинни",
+              "en": "M1A Stock with Picatinny Rails",
+              "es": "Culata M1A con raíles Picatinny",
+              "fr": "Crosse M1A avec rails Picatinny",
+              "ko": "피카티니 레일이 달린 M1A 개머리판"
             }
           }
         },
@@ -2056,59 +1773,14 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.att.forend_m1ris1.name",
+            "key": "item.att.forend_mp5ris.name",
             "args": {},
             "lines": {
-              "ru": "Цевье M1A с планкой Пикатинни",
-              "en": "M1A Handguard with Picatinny Rail",
-              "es": "Guardamanos M1A con raíl Picatinny",
-              "fr": "M1A Garde-mainsavec rail Picatinny",
-              "ko": "피카티니 레일이 달린 M1A 총열덮개"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.mount_lastris.name",
-            "args": {},
-            "lines": {
-              "ru": "Боковой кронштейн с планкой Пикатинни",
-              "en": "Side Bracket with Picatinny Rail",
-              "es": "Soporte lateral con raíl Picatinny",
-              "fr": "Support latéral avec rail Picatinny",
-              "ko": "피카티니 레일이 달린 사이드 브래킷"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.mount_riselevator.name",
-            "args": {},
-            "lines": {
-              "ru": "Повышающая RIS-планка",
-              "en": "Increasing RIS-Rail",
-              "es": "Raíl RIS de aumento",
-              "fr": "Augmentation du rail SIF",
-              "ko": "높이 증가 RIS 레일"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m16a3.name",
-            "args": {},
-            "lines": {
-              "ru": "M16A3",
-              "en": "M16A3",
-              "es": "M16A3",
-              "fr": "M16A3",
-              "ko": "M16A3"
+              "ru": "Цевье MP5 с планками Пикатинни",
+              "en": "MP5 Handguard with Picatinny Rail",
+              "es": "Guardamanos MP5 con raíl Picatinny",
+              "fr": "Garde-main MP5 avec rail",
+              "ko": "피카티니 레일이 달린 MP5 총열덮개"
             }
           }
         },
@@ -2146,14 +1818,14 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.att.mount_mp5ris.name",
+            "key": "item.att.forend_uziris.name",
             "args": {},
             "lines": {
-              "ru": "Кронштейн-планка RIS",
-              "en": "RIS Bracket-Rail",
-              "es": "Soporte para raíl RIS",
-              "fr": "Support-Rail RIS",
-              "ko": "RIS 브래킷-레일"
+              "ru": "Цевье с направляющей RIS для Uzi",
+              "en": "Handguard with Guiding RIS for Uzi",
+              "es": "Guardamanos con guía RIS para Uzi",
+              "fr": "Garde-main avec guide RIS (Uzi)",
+              "ko": "Uzi용 유도 RIS 총열덮개"
             }
           }
         },
@@ -2161,59 +1833,14 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.att.mount_tozris.name",
+            "key": "item.att.forend_sks.name",
             "args": {},
             "lines": {
-              "ru": "Планка с базой Пикатинни",
-              "en": "Picatinny Rail and Base",
-              "es": "Base y raíl Picatinny",
-              "fr": "Rail et base Picatinny",
-              "ko": "피카티니 레일 및 베이스"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.mount_shotgunris.name",
-            "args": {},
-            "lines": {
-              "ru": "Направляющая RIS для дробовиков",
-              "en": "Guiding RIS for Shotgun",
-              "es": "Guía RIS para escopeta",
-              "fr": "Guide RIS pour fusil de chasse",
-              "ko": "산탄총용 유도 RIS"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.mount_m16ris.name",
-            "args": {},
-            "lines": {
-              "ru": "Крепление прицела для M16A2",
-              "en": "Sight Mount for M16A2",
-              "es": "Soporte de mira para M16A2",
-              "fr": "Support de viseur pour M16A2",
-              "ko": "M16A2용 조준경 마운트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.mount_mauser.name",
-            "args": {},
-            "lines": {
-              "ru": "Планка Пикатинни для Mauser 98k",
-              "en": "Picatinny Rail for Mauser 98k",
-              "es": "Raíl Picatinny para Mauser 98k",
-              "fr": "Rail Picatinny pour Mauser 98k",
-              "ko": "마우저 98k용 피카티니 레일"
+              "ru": "Тактическое ложе для СКС",
+              "en": "Tactical Stock for SKS",
+              "es": "Culata táctica para SKS",
+              "fr": "Crosse tactique SKS",
+              "ko": "SKS용 전술 개머리판"
             }
           }
         },
@@ -2236,29 +1863,14 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.att.mount_mosinris.name",
+            "key": "item.att.forend_kedrris.name",
             "args": {},
             "lines": {
-              "ru": "Кронштейн Кочетова «Патриот» с планкой Пикатинни",
-              "en": "Kochetov Mount for Patriot with Picatinny Rail",
-              "es": "Soporte Kochetov para Patriot con raíl Picatinny",
-              "fr": "Support Kochetov avec rail",
-              "ko": "피카티니 레일이 달린 패트리어트용 코체토프 마운트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.mount_svt.name",
-            "args": {},
-            "lines": {
-              "ru": "Планка Пикатинни для СВТ",
-              "en": "Picatinny Rail for SVT",
-              "es": "Rail Picatinny para SVT",
-              "fr": "Rail Picatinny pour SVT",
-              "ko": "SVT용 피카티니 레일"
+              "ru": "Планка RIS на ПП-91 «Кедр»",
+              "en": "RIS Rail for PP-91 KEDR",
+              "es": "Raíl RIS para PP-91 KEDR",
+              "fr": "Rail RIS pour PP-91 KEDR",
+              "ko": "PP-91 KEDR용 RIS 레일"
             }
           }
         }
