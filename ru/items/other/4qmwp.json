@@ -1,0 +1,147 @@
+{
+  "id": "4qmwp",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.dmz2026.data_block.name",
+    "args": {},
+    "lines": {
+      "ru": "Зашифрованный блок данных",
+      "en": "Encrypted Data Block",
+      "es": "Bloque de datos cifrado",
+      "fr": "Bloc de données chiffré",
+      "ko": "암호화된 데이터 블록"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2.0,
+          "formatted": {
+            "value": {
+              "ru": "2 кг",
+              "en": "2 kg",
+              "es": "2 kg",
+              "fr": "2 kg",
+              "ko": "2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.dmz2026_data_block.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Данные, зашифрованные технологиями Шепота, представляют особенный интерес для изучения. При эвакуации с этим блоком получаемые вами очки будут увеличены, а в обмен на него можно приобрести особое снаряжение.",
+          "en": "Data encrypted with Murmur technology is of great interest to researchers. If you evacuate with this data block, you will receive additional points and can trade it for special gear.",
+          "es": "Los datos cifrados con tecnologías de Susurro son de especial interés para su estudio. Al evacuar con este bloque, los puntos que obtengas se incrementarán y, a cambio, podrás adquirir equipamiento especial.",
+          "fr": "Les données cryptées par les technologies du Murmure présentent un intérêt particulier pour la recherche. Lors d\u0027une évacuation avec ce bloc, les points que vous obtenez seront augmentés, et en l\u0027échangeant, vous pourrez acquérir un équipement spécial.",
+          "ko": "속삭임 기술로 암호화된 데이터는 연구에 특별한 관심을 끈다. 이 블록을 가지고 철수하면 획득하는 점수가 증가하며, 이를 교환하여 특별한 장비를 구입할 수 있다."
+        }
+      }
+    }
+  ]
+}
