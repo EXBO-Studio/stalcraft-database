@@ -13,7 +13,7 @@
       "ko": "말소자"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -25,6 +25,33 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -41,14 +68,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.skins",
+            "key": "core.handbook.category.armor_motif",
             "args": {},
             "lines": {
-              "ru": "Косметика",
-              "en": "Cosmetics",
-              "es": "Cosméticos",
-              "fr": "Cosmétique",
-              "ko": "꾸미기"
+              "ru": "Мотив брони",
+              "en": "Armor motif",
+              "es": "Motivo para armadura",
+              "fr": "Motif d\u0027armure",
+              "ko": "방어구 장식"
             }
           }
         }
@@ -89,194 +116,7 @@
         }
       }
     },
-    {
-      "type": "list",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
-      "elements": [
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.lore.skin.all_suitable_targets",
-            "args": {},
-            "lines": {
-              "ru": "Подходит для:",
-              "en": "Suitable for:",
-              "es": "Adecuado para:",
-              "fr": "Compatible avec :",
-              "ko": "적용 가능:"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.zivcas.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня JD ZIVCAS 2A",
-              "en": "JD ZIVCAS 2A Exoarmor",
-              "es": "Exoarmadura JD ZIVCAS 2A",
-              "fr": "JD ZIVCAS 2A Exoarmure",
-              "ko": "JD 지브카스 2A 강화전투갑주"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.goplit.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «Гоплит»",
-              "en": "Hoplite Armored Suit",
-              "es": "Traje blindado Hoplita",
-              "fr": "Combinaison Hoplite Blindée",
-              "ko": "호플라이트 장갑 슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.seva.name",
-            "args": {},
-            "lines": {
-              "ru": "Комбинезон «Уран»",
-              "en": "Uranus Jumpsuit",
-              "es": "Traje Urano",
-              "fr": "Combinaison Uranus",
-              "ko": "우라누스 점프슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.jnec.name",
-            "args": {},
-            "lines": {
-              "ru": "Комбинезон «Жнец»",
-              "en": "REAPER Jumpsuit",
-              "es": "Traje Segador",
-              "fr": "Combinaison FAUCHEUSE",
-              "ko": "리퍼 점프슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.ao5.name",
-            "args": {},
-            "lines": {
-              "ru": "УКАЗ АО-5 «Пилигрим»",
-              "en": "RAPS AH-5 Pilgrim",
-              "es": "TPAR CA-5 Peregrino",
-              "fr": "RAPS AH-5 Pèlerin",
-              "ko": "RAPS AH-5 필그림"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.magnit.name",
-            "args": {},
-            "lines": {
-              "ru": "Комбинезон «Магнит»",
-              "en": "Magnet Jumpsuit",
-              "es": "Traje Imán",
-              "fr": "Combinaison Magnétique",
-              "ko": "자석 점프슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.heavyaltyn.name",
-            "args": {},
-            "lines": {
-              "ru": "Тяжелый бронекостюм «Алтын-Т»",
-              "en": "Altyn-T Heavy Armored Suit",
-              "es": "Traje blindado pesado Altyn-T",
-              "fr": "Combinaison Altyn Blindée Lourde",
-              "ko": "알틴-T 대태러 중장갑 세트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.albatros_light.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня «Альбатрос-Лазутчик»",
-              "en": "Albatross Infiltrator Exoarmor",
-              "es": "Exoarmadura Albatros de infiltración",
-              "fr": "Exoarmure Albatros Infiltrateur",
-              "ko": "알바트로스 침투자 강화전투복"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.ao3.name",
-            "args": {},
-            "lines": {
-              "ru": "Костюм АО-3 «Искатель»",
-              "en": "AH-3 Seeker Suit",
-              "es": "Traje CA-3 Buscador",
-              "fr": "Combinaison AH-3 Chercheur",
-              "ko": "AH-3 시커 슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.altyn.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «Алтын»",
-              "en": "Altyn Armored Suit",
-              "es": "Traje blindado Altyn",
-              "fr": "Combinaison Altyn Blindée",
-              "ko": "알틴 대테러 세트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.gorka.name",
-            "args": {},
-            "lines": {
-              "ru": "Костюм «Горка-3»",
-              "en": "Gorka-3 Suit",
-              "es": "Traje Gorka-3",
-              "fr": "Combinaison Gorka-3",
-              "ko": "고르카-3 슈트"
-            }
-          }
-        }
-      ]
-    }
+    {},
+    {}
   ]
 }

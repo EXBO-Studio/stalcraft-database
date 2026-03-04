@@ -147,14 +147,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.bio_protection",
+            "key": "item.effects.effect_type.accumulation",
             "args": {},
             "lines": {
-              "ru": "Защита от биозаражения",
-              "en": "Bioinfection Protection",
-              "es": "Protección contra la bioinfección",
-              "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 저항"
+              "ru": "Вывод",
+              "en": "Output",
+              "es": "Retirada",
+              "fr": "Retrait",
+              "ko": "결과"
             }
           }
         },
@@ -172,14 +172,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 2.0,
+          "value": 4.0,
           "formatted": {
             "value": {
-              "ru": "2",
-              "en": "2",
-              "es": "2",
-              "fr": "2",
-              "ko": "2"
+              "ru": "4",
+              "en": "4",
+              "es": "4",
+              "fr": "4",
+              "ko": "4"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -199,14 +199,14 @@
               "ko": "지속 시간"
             }
           },
-          "value": 90.0,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "1 мин 30 с",
-              "en": "1 min 30 sec",
-              "es": "1 min 30 s",
-              "fr": "1 min 30 s",
-              "ko": "1분 30초"
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -226,32 +226,17 @@
               "ko": "독성"
             }
           },
-          "value": 50.0,
+          "value": 25.0,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50",
-              "es": "50",
-              "fr": "50",
-              "ko": "50"
+              "ru": "25",
+              "en": "25",
+              "es": "25",
+              "fr": "25",
+              "ko": "25"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
-          }
-        },
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "stalker.tooltip.medicine.info.non_persistent",
-            "args": {},
-            "lines": {
-              "ru": "Эффект пропадает при смерти",
-              "en": "Effect wears off after death",
-              "es": "El efecto desaparece tras la muerte",
-              "fr": "L\u0027effet persiste après la mort",
-              "ko": "사망 후 효과가 소멸됩니다"
-            }
           }
         }
       ]
@@ -267,78 +252,105 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.health_bonus",
+            "key": "stalker.artefact_properties.factor.thermal_dmg_factor",
             "args": {},
             "lines": {
-              "ru": "Живучесть",
-              "en": "Vitality",
-              "es": "Vitalidad",
-              "fr": "Vitalité",
-              "ko": "생명력"
+              "ru": "Сопротивление температуре",
+              "en": "Thermal resistance",
+              "es": "Resistencia térmica",
+              "fr": "Résistance thermique",
+              "ko": "열 보호율"
             }
           },
-          "value": -17.5,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "-17,5%",
-              "en": "-17.5%",
-              "es": "-17,5 %",
-              "fr": "-17,5%",
-              "ko": "-17.5%"
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
             "args": {},
             "lines": {
-              "ru": "Эффективность лечения",
-              "en": "Healing effectiveness",
-              "es": "Eficacia de curación",
-              "fr": "Efficacité des soins",
-              "ko": "치유 효율"
+              "ru": "Сопротивление биозаражению",
+              "en": "Bioinfection resistance",
+              "es": "Resistencia a la bioinfección",
+              "fr": "Résistance aux bio infections",
+              "ko": "생물학적 감염 보호율"
             }
           },
-          "value": -25.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "-25%",
-              "en": "-25%",
-              "es": "-25 %",
-              "fr": "-25%",
-              "ko": "-25%"
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
             },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
+            "nameColor": "53C353",
+            "valueColor": "53C353"
           }
         },
         {
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_protection",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
             "args": {},
             "lines": {
-              "ru": "Защита от биозаражения",
-              "en": "Bioinfection protection",
-              "es": "Protección contra bioinfección",
-              "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 저항"
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température",
+              "ko": "열"
             }
           },
-          "value": 50.0,
+          "value": -30.0,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50",
-              "es": "50",
-              "fr": "50",
-              "ko": "50"
+              "ru": "-30",
+              "en": "-30",
+              "es": "-30",
+              "fr": "-30",
+              "ko": "-30"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique",
+              "ko": "생체 감염"
+            }
+          },
+          "value": -30.0,
+          "formatted": {
+            "value": {
+              "ru": "-30",
+              "en": "-30",
+              "es": "-30",
+              "fr": "-30",
+              "ko": "-30"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -357,11 +369,11 @@
         "key": "item.med.antidot.description",
         "args": {},
         "lines": {
-          "ru": "Средство первой помощи при химическом ожоге гортани и легких, отравлении химикатами. Не предоставляет защиты от прямого воздействия кислоты на тело.",
-          "en": "A first-aid treatment used for chemical burns of the larynx and lungs, or chemical poisoning. Does not protect against the direct effects of acid on the body.",
-          "es": "Tratamiento de primeros auxilios empleado para quemaduras químicas de laringe y pulmones o para intoxicaciones químicas. No protege contra los efectos directos del ácido en el cuerpo.",
-          "fr": "Traitement de premier secours utilisé en cas de brûlures chimiques du larynx et des poumons, ou d\u0027empoisonnement chimique. Ne protège pas contre les effets directs de l\u0027acide sur le corps.",
-          "ko": "기도와 폐에 생긴 화학 화상이나 화학 중독 시 사용되는 응급 처치용 약품. 다만 산이 신체에 직접적으로 미치는 영향까지는 막지 못한다."
+          "ru": "Средство первой помощи при ожоге и химическом ожоге гортани и легких, отравлении химикатами. Не предоставляет защиты от прямого воздействия кислоты и открытого огня на тело.",
+          "en": "A first-aid treatment used for chemical burns of the larynx and lungs, or chemical poisoning. Does not protect against the direct effects of acid and open fire on the body.",
+          "es": "Tratamiento de primeros auxilios empleado para quemaduras y quemaduras químicas de laringe y pulmones o para intoxicaciones químicas. No protege contra los efectos directos del ácido y el fuego abierto en el cuerpo.",
+          "fr": "Traitement de premier secours utilisé en cas de brûlures chimiques du larynx et des poumons, ou d\u0027empoisonnement chimique. Ne fournit pas de protection contre l’exposition directe à l’acide et aux flammes nues sur le corps.",
+          "ko": "후두와 폐의 화상 및 화학적 화상, 화학물질 중독 시 사용하는 응급 처치약이다. 몸에 직접 닿는 산과 불에는 보호 기능이 없다."
         }
       }
     }

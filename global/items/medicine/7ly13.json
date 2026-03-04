@@ -13,7 +13,7 @@
       "ko": "길잡이의 구급상자"
     }
   },
-  "color": "RANK_VETERAN",
+  "color": "RANK_STALKER",
   "status": {
     "state": "NONE"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.veteran",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Ветеран",
-              "en": "Veteran",
-              "es": "Veterano",
-              "fr": "Vétéran",
-              "ko": "베테랑"
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
             }
           }
         },
@@ -188,14 +188,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 7.0,
+          "value": 16.0,
           "formatted": {
             "value": {
-              "ru": "7",
-              "en": "7",
-              "es": "7",
-              "fr": "7",
-              "ko": "7"
+              "ru": "16",
+              "en": "16",
+              "es": "16",
+              "fr": "16",
+              "ko": "16"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -241,24 +241,24 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance",
-              "ko": "스태미나 재생"
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
             }
           },
-          "value": 7.0,
+          "value": 7.4,
           "formatted": {
             "value": {
-              "ru": "7%",
-              "en": "7%",
-              "es": "7 %",
-              "fr": "7%",
-              "ko": "7%"
+              "ru": "7,4%",
+              "en": "7.4%",
+              "es": "7,4 %",
+              "fr": "7,4%",
+              "ko": "7.4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -278,14 +278,14 @@
               "ko": "지속 치유"
             }
           },
-          "value": 7.0,
+          "value": 5.9,
           "formatted": {
             "value": {
-              "ru": "7%",
-              "en": "7%",
-              "es": "7 %",
-              "fr": "7%",
-              "ko": "7%"
+              "ru": "5,9%",
+              "en": "5.9%",
+              "es": "5,9 %",
+              "fr": "5,9%",
+              "ko": "5.9%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -295,51 +295,24 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "key": "stalker.artefact_properties.factor.bleeding_dmg_factor",
             "args": {},
             "lines": {
-              "ru": "Радиация",
-              "en": "Radiation",
-              "es": "Radiación",
-              "fr": "Radiation",
-              "ko": "방사능"
+              "ru": "Сопротивление кровотечению",
+              "en": "Bleeding resistance",
+              "es": "Resistencia a hemorragia",
+              "fr": "Résistance aux saignements",
+              "ko": "출혈 보호율"
             }
           },
-          "value": -5.0,
+          "value": 17.0,
           "formatted": {
             "value": {
-              "ru": "-5",
-              "en": "-5",
-              "es": "-5",
-              "fr": "-5",
-              "ko": "-5"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Биологическое заражение",
-              "en": "Biological infection",
-              "es": "Infección biológica",
-              "fr": "Infection biologique",
-              "ko": "생체 감염"
-            }
-          },
-          "value": -5.0,
-          "formatted": {
-            "value": {
-              "ru": "-5",
-              "en": "-5",
-              "es": "-5",
-              "fr": "-5",
-              "ko": "-5"
+              "ru": "17%",
+              "en": "17%",
+              "es": "17 %",
+              "fr": "17%",
+              "ko": "17%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -359,14 +332,14 @@
               "ko": "출혈"
             }
           },
-          "value": -1.5,
+          "value": -1.55,
           "formatted": {
             "value": {
-              "ru": "-1,5",
-              "en": "-1.5",
-              "es": "-1,5",
-              "fr": "-1,5",
-              "ko": "-1.5"
+              "ru": "-1,55",
+              "en": "-1.55",
+              "es": "-1,55",
+              "fr": "-1,55",
+              "ko": "-1.55"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -386,14 +359,14 @@
               "ko": "독성"
             }
           },
-          "value": -0.15,
+          "value": -0.3,
           "formatted": {
             "value": {
-              "ru": "-0,15",
-              "en": "-0.15",
-              "es": "-0,15",
-              "fr": "-0,15",
-              "ko": "-0.15"
+              "ru": "-0,3",
+              "en": "-0.3",
+              "es": "-0,3",
+              "fr": "-0,3",
+              "ko": "-0.3"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

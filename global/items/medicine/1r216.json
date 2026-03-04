@@ -13,7 +13,7 @@
       "ko": "STOMP 자극제"
     }
   },
-  "color": "RANK_MASTER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "NON_DROP"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.master",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Мастер",
-              "en": "Master",
-              "es": "Maestro",
-              "fr": "Maître",
-              "ko": "마스터"
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
             }
           }
         },
@@ -173,14 +173,14 @@
               "ko": "즉시 치유"
             }
           },
-          "value": 5.0,
+          "value": 7.1,
           "formatted": {
             "value": {
-              "ru": "5",
-              "en": "5",
-              "es": "5",
-              "fr": "5",
-              "ko": "5"
+              "ru": "7,1",
+              "en": "7.1",
+              "es": "7,1",
+              "fr": "7,1",
+              "ko": "7.1"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -200,14 +200,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 10.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "10",
-              "en": "10",
-              "es": "10",
-              "fr": "10",
-              "ko": "10"
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20",
+              "ko": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -239,33 +239,6 @@
             "nameColor": "838383",
             "valueColor": "EEEEEE"
           }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.tooltip.medicine.info.toxicity",
-            "args": {},
-            "lines": {
-              "ru": "Отравление",
-              "en": "Poison",
-              "es": "Veneno",
-              "fr": "Poison",
-              "ko": "독성"
-            }
-          },
-          "value": 25.0,
-          "formatted": {
-            "value": {
-              "ru": "25",
-              "en": "25",
-              "es": "25",
-              "fr": "25",
-              "ko": "25"
-            },
-            "nameColor": "838383",
-            "valueColor": "EEEEEE"
-          }
         }
       ]
     },
@@ -290,14 +263,14 @@
               "ko": "스태미나 재생"
             }
           },
-          "value": 17.5,
+          "value": 9.5,
           "formatted": {
             "value": {
-              "ru": "17,5%",
-              "en": "17.5%",
-              "es": "17,5 %",
-              "fr": "17,5%",
-              "ko": "17.5%"
+              "ru": "9,5%",
+              "en": "9.5%",
+              "es": "9,5 %",
+              "fr": "9,5%",
+              "ko": "9.5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -317,14 +290,14 @@
               "ko": "지속 치유"
             }
           },
-          "value": 12.6,
+          "value": 9.5,
           "formatted": {
             "value": {
-              "ru": "12,6%",
-              "en": "12.6%",
-              "es": "12,6 %",
-              "fr": "12,6%",
-              "ko": "12.6%"
+              "ru": "9,5%",
+              "en": "9.5%",
+              "es": "9,5 %",
+              "fr": "9,5%",
+              "ko": "9.5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

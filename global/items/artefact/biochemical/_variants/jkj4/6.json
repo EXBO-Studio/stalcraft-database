@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "6800.0"
+              "cost": "7200.0"
             },
             "lines": {
-              "ru": "6 800 руб.",
-              "en": "6,800 rubles",
-              "es": "6.800 rublos",
-              "fr": "6 800 roubles",
-              "ko": "6,800 루블"
+              "ru": "7 200 руб.",
+              "en": "7,200 rubles",
+              "es": "7.200 rublos",
+              "fr": "7 200 roubles",
+              "ko": "7,200 루블"
             }
           }
         }
@@ -292,25 +292,25 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration",
-              "es": "Regeneración de salud",
-              "fr": "Régénération de la santé",
-              "ko": "체력 회복력"
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
             }
           },
-          "min": 1.4280001,
-          "max": 1.6800001,
+          "min": 6.6640005,
+          "max": 7.84,
           "formatted": {
             "value": {
-              "ru": "[+1,43%; +1,68%]",
-              "en": "[+1.43%; +1.68%]",
-              "es": "[+1,43 %; +1,68 %]",
-              "fr": "[+1,43%; +1,68%]",
-              "ko": "[+1.43%; +1.68%]"
+              "ru": "[+6,66; +7,84]",
+              "en": "[+6.66; +7.84]",
+              "es": "[+6,66; +7,84]",
+              "fr": "[+6,66; +7,84]",
+              "ko": "[+6.66; +7.84]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

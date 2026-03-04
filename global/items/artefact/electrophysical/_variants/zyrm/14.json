@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "15000.0"
+              "cost": "20200.0"
             },
             "lines": {
-              "ru": "15 000 руб.",
-              "en": "15,000 rubles",
-              "es": "15.000 rublos",
-              "fr": "15 000 roubles",
-              "ko": "15,000 루블"
+              "ru": "20 200 руб.",
+              "en": "20,200 rubles",
+              "es": "20.200 rublos",
+              "fr": "20 200 roubles",
+              "ko": "20,200 루블"
             }
           }
         }
@@ -274,15 +274,15 @@
               "ko": "생명력"
             }
           },
-          "min": -8.0,
-          "max": -6.8,
+          "min": -14.8,
+          "max": -12.580001,
           "formatted": {
             "value": {
-              "ru": "[-8%; -6,8%]",
-              "en": "[-8%; -6.8%]",
-              "es": "[-8 %; -6,8 %]",
-              "fr": "[-8%; -6,8%]",
-              "ko": "[-8%; -6.8%]"
+              "ru": "[-14,8%; -12,58%]",
+              "en": "[-14.8%; -12.58%]",
+              "es": "[-14,8 %; -12,58 %]",
+              "fr": "[-14,8%; -12,58%]",
+              "ko": "[-14.8%; -12.58%]"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -292,25 +292,81 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Электрозащита",
-              "en": "Resistance to electricity",
-              "es": "Resistencia a la electricidad",
-              "fr": "Résistance à l\u0027électricité",
-              "ko": "전기 보호율"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
             }
           },
-          "min": 14.9056,
-          "max": 17.536,
+          "min": 0.816,
+          "max": 0.96,
           "formatted": {
             "value": {
-              "ru": "[+14,91; +17,54]",
-              "en": "[+14.91; +17.54]",
-              "es": "[+14,91; +17,54]",
-              "fr": "[+14,91; +17,54]",
-              "ko": "[+14.91; +17.54]"
+              "ru": "[+0,82%; +0,96%]",
+              "en": "[+0.82%; +0.96%]",
+              "es": "[+0,82 %; +0,96 %]",
+              "fr": "[+0,82%; +0,96%]",
+              "ko": "[+0.82%; +0.96%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "min": 1.088,
+          "max": 1.28,
+          "formatted": {
+            "value": {
+              "ru": "[+1,09%; +1,28%]",
+              "en": "[+1.09%; +1.28%]",
+              "es": "[+1,09 %; +1,28 %]",
+              "fr": "[+1,09%; +1,28%]",
+              "ko": "[+1.09%; +1.28%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "min": 10.6624,
+          "max": 12.544,
+          "formatted": {
+            "value": {
+              "ru": "[+10,66; +12,54]",
+              "en": "[+10.66; +12.54]",
+              "es": "[+10,66; +12,54]",
+              "fr": "[+10,66; +12,54]",
+              "ko": "[+10.66; +12.54]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -330,15 +386,15 @@
               "ko": "방사능 저항"
             }
           },
-          "min": 27.2,
-          "max": 32.0,
+          "min": 48.96,
+          "max": 57.6,
           "formatted": {
             "value": {
-              "ru": "[+27,2; +32]",
-              "en": "[+27.2; +32]",
-              "es": "[+27,2; +32]",
-              "fr": "[+27,2; +32]",
-              "ko": "[+27.2; +32]"
+              "ru": "[+48,96; +57,6]",
+              "en": "[+48.96; +57.6]",
+              "es": "[+48,96; +57,6]",
+              "fr": "[+48,96; +57,6]",
+              "ko": "[+48.96; +57.6]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -358,15 +414,15 @@
               "ko": "정신파 방사물 저항"
             }
           },
-          "min": 27.2,
-          "max": 32.0,
+          "min": 48.96,
+          "max": 57.6,
           "formatted": {
             "value": {
-              "ru": "[+27,2; +32]",
-              "en": "[+27.2; +32]",
-              "es": "[+27,2; +32]",
-              "fr": "[+27,2; +32]",
-              "ko": "[+27.2; +32]"
+              "ru": "[+48,96; +57,6]",
+              "en": "[+48.96; +57.6]",
+              "es": "[+48,96; +57,6]",
+              "fr": "[+48,96; +57,6]",
+              "ko": "[+48.96; +57.6]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -423,34 +479,6 @@
               "es": "[-2,76; -2,35]",
               "fr": "[-2,76; -2,35]",
               "ko": "[-2.76; -2.35]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.reaction_to_electroshock",
-            "args": {},
-            "lines": {
-              "ru": "Реакция на электричество",
-              "en": "Reaction to electricity",
-              "es": "Reacción a la electricidad",
-              "fr": "Réaction à l\u0027électricité",
-              "ko": "전기 대항 능력"
-            }
-          },
-          "min": 1.7408001,
-          "max": 2.048,
-          "formatted": {
-            "value": {
-              "ru": "[+1,74%; +2,05%]",
-              "en": "[+1.74%; +2.05%]",
-              "es": "[+1,74 %; +2,05 %]",
-              "fr": "[+1,74%; +2,05%]",
-              "ko": "[+1.74%; +2.05%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

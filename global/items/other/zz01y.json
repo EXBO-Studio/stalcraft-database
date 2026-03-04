@@ -1,0 +1,121 @@
+{
+  "id": "zz01y",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.style.melee.katana_halloween23.name",
+    "args": {},
+    "lines": {
+      "ru": "/seppuku",
+      "en": "/seppuku",
+      "es": "/seppuku",
+      "fr": "/seppuku",
+      "ko": "/할복"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.melee_style",
+            "args": {},
+            "lines": {
+              "ru": "Облик ножа",
+              "en": "Knife Style",
+              "es": "Estilo de cuchillo",
+              "fr": "Style d\u0027armes de mêlée",
+              "ko": "칼 외형"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.style.melee.katana_halloween23.description",
+        "args": {},
+        "lines": {
+          "ru": "У самурая нет цели, есть только путь... и кусок арматуры на тот случай, если в бою потерял он нормальный меч.",
+          "en": "A samurai has no goal, only a path... and a length of steel bar in case he loses his normal sword in battle.",
+          "es": "Un samurái no necesita un objetivo, sino un camino que seguir... y una barra de acero, por si acaso pierde su espada durante la batalla.",
+          "fr": "Un samouraï n\u0027a pas de but, seulement un chemin… et une barre d\u0027acier au cas où il perdrait son sabre normal au combat.",
+          "ko": "사무라이에게는 목표 대신 오직 길만이 존재한다... 그리고 전투 중 본래의 검을 잃을 경우를 대비한 강철봉 한 자루가 있을 뿐이다."
+        }
+      }
+    },
+    {}
+  ]
+}

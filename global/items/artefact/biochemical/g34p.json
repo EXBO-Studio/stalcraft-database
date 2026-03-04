@@ -1,0 +1,369 @@
+{
+  "id": "g34p",
+  "category": "artefact/biochemical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.kisel_spinning.name",
+    "args": {},
+    "lines": {
+      "ru": "Юла",
+      "en": "Peg-Top",
+      "es": "Peonza",
+      "fr": "Toupie",
+      "ko": "팽이"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.biochemical",
+            "args": {},
+            "lines": {
+              "ru": "Биохимические",
+              "en": "Biochemical",
+              "es": "Bioquímica",
+              "fr": "Biochimique",
+              "ko": "생화학"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "48000.0"
+            },
+            "lines": {
+              "ru": "48 000 руб.",
+              "en": "48,000 rubles",
+              "es": "48.000 rublos",
+              "fr": "48 000 roubles",
+              "ko": "48,000 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations",
+              "ko": "열상 보호율"
+            }
+          },
+          "min": 12.325001,
+          "max": 14.5,
+          "formatted": {
+            "value": {
+              "ru": "[+12,33; +14,5]",
+              "en": "[+12.33; +14.5]",
+              "es": "[+12,33; +14,5]",
+              "fr": "[+12,33; +14,5]",
+              "ko": "[+12.33; +14.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions",
+              "ko": "폭발 보호율"
+            }
+          },
+          "min": 6.375,
+          "max": 7.5,
+          "formatted": {
+            "value": {
+              "ru": "[+6,38; +7,5]",
+              "en": "[+6.38; +7.5]",
+              "es": "[+6,38; +7,5]",
+              "fr": "[+6,38; +7,5]",
+              "ko": "[+6.38; +7.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys",
+              "ko": "정신파 방사물"
+            }
+          },
+          "min": -4.08,
+          "max": -3.468,
+          "formatted": {
+            "value": {
+              "ru": "[-4,08; -3,47]",
+              "en": "[-4.08; -3.47]",
+              "es": "[-4,08; -3,47]",
+              "fr": "[-4,08; -3,47]",
+              "ko": "[-4.08; -3.47]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.kisel_spinning.description",
+        "args": {},
+        "lines": {
+          "ru": "Причудливое аномальное образование биохимической природы, обнаруженное сталкерами на Диком Севере. \\n\\nУченые до сих пор не могут найти каких-то четких объяснений, по какой причине некоторые артефакты появляются лишь на определенной территории. Особенный интерес вызывает значительное усиление аномальных свойств, имеющее общую корреляцию с удаленностью от границ Зоны. Подобные наблюдения стали фундаментом для возникновения теории о существовании «Эпицентра».\\n\\nОпытные сталкеры, обитающие на фронтире Зоны и ищущие пути на новые территории, периодически приносят из своих ходок невиданные ранее артефакты. Как говорит Кюри, подобные сталкеры еще неделю могут угощать всех желающих за деньги, которые НИИ-7 предлагает в обмен на такие диковинки.",
+          "en": "A peculiar anomalous formation of biochemical nature discovered by stalkers in the Wild North.\\n\\nScientists are still unable to find clear explanations for why some artifacts appear only in certain areas. Of particular interest is the significant enhancement of anomalous properties, which has a general correlation with the distance from the Zone\u0027s boundaries. Such observations have become the foundation for the theory of the Epicenter.\\n\\nExperienced stalkers dwelling on the Zone\u0027s frontier, seeking paths to new territories, occasionally bring back previously unseen artifacts from their trips. According to Curie, such stalkers can host feasts for a week with the money that Research Institute 7 offers in exchange for such rarities.",
+          "es": "Una extraña formación anómala de naturaleza bioquímica descubierta por los acechadores en el Norte Salvaje. \\n\\nLos científicos aún no han podido encontrar una explicación clara de por qué algunos artefactos solo aparecen en determinadas zonas. Especial interés suscita el notable aumento de las propiedades anómalas, que guarda una correlación general con la lejanía de los límites de la Zona. Observaciones de este tipo sentaron las bases para la aparición de la teoría sobre la existencia del Epicentro.\\n\\nLos acechadores experimentados que habitan en la frontera de la Zona y buscan caminos hacia nuevos territorios traen periódicamente de sus incursiones artefactos nunca antes vistos. Según Curio, estos acechadores pueden seguir agasajando a todos los interesados durante una semana con el dinero que el Instituto de Investigación 7 ofrece a cambio de tales rarezas.",
+          "fr": "Formation anormale singulière de nature biochimique, découverte par des stalkers dans le Nord Sauvage.\\n\\nLes scientifiques n\u0027ont toujours pas trouvé d\u0027explications claires quant à la raison pour laquelle certains artefacts n\u0027apparaissent que sur un territoire spécifique. Un intérêt particulier est porté au renforcement significatif des propriétés anormales, qui présente une corrélation générale avec l\u0027éloignement des frontières de la Zone. De telles observations sont à l\u0027origine de l\u0027émergence de la théorie sur l\u0027existence d\u0027un Épicentre.\\n\\nLes stalkers expérimentés, vivant à la frontière de la Zone et cherchant des voies vers de nouveaux territoires, rapportent périodiquement de leurs incursions des artefacts jamais vus auparavant. Comme le dit Curie, ces stalkers peuvent ensuite arroser tous les amateurs pendant une semaine avec l\u0027argent que l\u0027Institut de Recherche 7 offre en échange de telles curiosités.",
+          "ko": "이상 형성체 생화학적 특성을 가진 기이한 아노말리로, 야생 북부 지역에서 스토커들이 발견한다.\\n\\n과학자들은 아직도 일부 아티팩트가 특정 지역에서만 나타나는 이유를 명확히 설명하지 못한다. 특히, 아노말리 특성이 강화되는 현상은 구역 경계로부터의 거리와 상관관계가 있는 것으로 관찰된다. 이러한 관찰은 에피센터 존재 이론의 기초가 되었다.\\n\\n프론티어에서 활동하며 새로운 지역을 탐험하는 경험 많은 스토커들은 때때로 이전에 본 적 없는 아티팩트를 가져온다. 큐리에 따르면, 이러한 스토커들은 제7연구소가 해당 희귀 아이템과 교환해주는 보상을 받기 위해 일주일 정도는 누구에게나 판매할 수 있다."
+        }
+      }
+    }
+  ]
+}

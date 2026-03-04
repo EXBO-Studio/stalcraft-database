@@ -172,14 +172,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 1.0,
+          "value": 4.0,
           "formatted": {
             "value": {
-              "ru": "1",
-              "en": "1",
-              "es": "1",
-              "fr": "1",
-              "ko": "1"
+              "ru": "4",
+              "en": "4",
+              "es": "4",
+              "fr": "4",
+              "ko": "4"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -199,14 +199,14 @@
               "ko": "지속 시간"
             }
           },
-          "value": 8.0,
+          "value": 12.0,
           "formatted": {
             "value": {
-              "ru": "8 с",
-              "en": "8 sec",
-              "es": "8 s",
-              "fr": "8 s",
-              "ko": "8초"
+              "ru": "12 с",
+              "en": "12 sec",
+              "es": "12 s",
+              "fr": "12 s",
+              "ko": "12초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -225,6 +225,33 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "value": 5.4,
+          "formatted": {
+            "value": {
+              "ru": "5,4%",
+              "en": "5.4%",
+              "es": "5,4 %",
+              "fr": "5,4%",
+              "ko": "5.4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.artefakt_heal",
             "args": {},
             "lines": {
@@ -235,68 +262,14 @@
               "ko": "지속 치유"
             }
           },
-          "value": 4.0,
+          "value": 3.8,
           "formatted": {
             "value": {
-              "ru": "4%",
-              "en": "4%",
-              "es": "4 %",
-              "fr": "4%",
-              "ko": "4%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.radiation_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Радиация",
-              "en": "Radiation",
-              "es": "Radiación",
-              "fr": "Radiation",
-              "ko": "방사능"
-            }
-          },
-          "value": -1.0,
-          "formatted": {
-            "value": {
-              "ru": "-1",
-              "en": "-1",
-              "es": "-1",
-              "fr": "-1",
-              "ko": "-1"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.biological_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Биологическое заражение",
-              "en": "Biological infection",
-              "es": "Infección biológica",
-              "fr": "Infection biologique",
-              "ko": "생체 감염"
-            }
-          },
-          "value": -1.0,
-          "formatted": {
-            "value": {
-              "ru": "-1",
-              "en": "-1",
-              "es": "-1",
-              "fr": "-1",
-              "ko": "-1"
+              "ru": "3,8%",
+              "en": "3.8%",
+              "es": "3,8 %",
+              "fr": "3,8%",
+              "ko": "3.8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -316,14 +289,14 @@
               "ko": "출혈"
             }
           },
-          "value": -1.0,
+          "value": -0.4,
           "formatted": {
             "value": {
-              "ru": "-1",
-              "en": "-1",
-              "es": "-1",
-              "fr": "-1",
-              "ko": "-1"
+              "ru": "-0,4",
+              "en": "-0.4",
+              "es": "-0,4",
+              "fr": "-0,4",
+              "ko": "-0.4"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -343,14 +316,14 @@
               "ko": "독성"
             }
           },
-          "value": -0.05,
+          "value": -0.1,
           "formatted": {
             "value": {
-              "ru": "-0,05",
-              "en": "-0.05",
-              "es": "-0,05",
-              "fr": "-0,05",
-              "ko": "-0.05"
+              "ru": "-0,1",
+              "en": "-0.1",
+              "es": "-0,1",
+              "fr": "-0,1",
+              "ko": "-0.1"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -13,7 +13,7 @@
       "ko": "MP-153"
     }
   },
-  "color": "RANK_STALKER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.stalker",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Сталкер",
-              "en": "Stalker",
-              "es": "Acechador",
-              "fr": "Stalker",
-              "ko": "스토커"
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
             }
           }
         },
@@ -93,14 +93,14 @@
               "ko": "무게"
             }
           },
-          "value": 3.51,
+          "value": 3.634,
           "formatted": {
             "value": {
-              "ru": "3,51 кг",
-              "en": "3.51 kg",
-              "es": "3,51 kg",
-              "fr": "3,51 kg",
-              "ko": "3.51 kg"
+              "ru": "3,63 кг",
+              "en": "3.63 kg",
+              "es": "3,63 kg",
+              "fr": "3,63 kg",
+              "ko": "3.63 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -234,14 +234,14 @@
               "ko": "피해량"
             }
           },
-          "value": 159.7256,
+          "value": 225.77988,
           "formatted": {
             "value": {
-              "ru": "159,73 ед",
-              "en": "159.73 unit(s)",
-              "es": "159,73 unidad(es)",
-              "fr": "159,73 unité(s)",
-              "ko": "159.73 유닛"
+              "ru": "225,78 ед",
+              "en": "225.78 unit(s)",
+              "es": "225,78 unidad(es)",
+              "fr": "225,78 unité(s)",
+              "ko": "225.78 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -261,14 +261,14 @@
               "ko": "탄창 용량"
             }
           },
-          "value": 4.0,
+          "value": 6.0,
           "formatted": {
             "value": {
-              "ru": "0/4",
-              "en": "0/4",
-              "es": "0/4",
-              "fr": "0/4",
-              "ko": "0/4"
+              "ru": "0/6",
+              "en": "0/6",
+              "es": "0/6",
+              "fr": "0/6",
+              "ko": "0/6"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -315,14 +315,68 @@
               "ko": "발사 속도"
             }
           },
-          "value": 110.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "110 выстр/мин",
-              "en": "110 shots/min",
-              "es": "110 disparos/min",
-              "fr": "110tirs/min",
-              "ko": "분당 110 발"
+              "ru": "100 выстр/мин",
+              "en": "100 shots/min",
+              "es": "100 disparos/min",
+              "fr": "100tirs/min",
+              "ko": "분당 100 발"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload",
+              "es": "Recarga",
+              "fr": "Rechargement",
+              "ko": "재장전"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload",
+              "es": "Recarga táctica",
+              "fr": "Rechargement tactique",
+              "ko": "전술 재장전"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -573,14 +627,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "1.0"
+              "modifier": "0.9"
             },
             "lines": {
-              "ru": "Урон по конечностям: х1",
-              "en": "Limb damage: x1",
-              "es": "Daño a extremidades: x1",
-              "fr": "Dégât aux membres : x1",
-              "ko": "사지 피해: x1"
+              "ru": "Урон по конечностям: х0,9",
+              "en": "Limb damage: x0.9",
+              "es": "Daño a extremidades: x0,9",
+              "fr": "Dégât aux membres : x0,9",
+              "ko": "사지 피해: x0.9"
             }
           }
         },
@@ -692,9 +746,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 159.7256,
+      "startDamage": 225.77988,
       "damageDecreaseStart": 8.0,
-      "endDamage": 48.02073,
+      "endDamage": 112.83841,
       "damageDecreaseEnd": 54.0,
       "maxDistance": 75.0
     },

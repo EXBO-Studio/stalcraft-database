@@ -13,7 +13,7 @@
       "ko": "TOZ-34"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie",
-              "es": "Novato",
-              "fr": "Débutant",
-              "ko": "초보자"
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
             }
           }
         },
@@ -234,14 +234,14 @@
               "ko": "피해량"
             }
           },
-          "value": 137.7561,
+          "value": 194.79575,
           "formatted": {
             "value": {
-              "ru": "137,76 ед",
-              "en": "137.76 unit(s)",
-              "es": "137,76 unidad(es)",
-              "fr": "137,76 unité(s)",
-              "ko": "137.76 유닛"
+              "ru": "194,8 ед",
+              "en": "194.8 unit(s)",
+              "es": "194,8 unidad(es)",
+              "fr": "194,8 unité(s)",
+              "ko": "194.8 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -315,14 +315,14 @@
               "ko": "발사 속도"
             }
           },
-          "value": 240.0,
+          "value": 150.0,
           "formatted": {
             "value": {
-              "ru": "240 выстр/мин",
-              "en": "240 shots/min",
-              "es": "240 disparos/min",
-              "fr": "240tirs/min",
-              "ko": "분당 240 발"
+              "ru": "150 выстр/мин",
+              "en": "150 shots/min",
+              "es": "150 disparos/min",
+              "fr": "150tirs/min",
+              "ko": "분당 150 발"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -627,14 +627,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "1.0"
+              "modifier": "0.9"
             },
             "lines": {
-              "ru": "Урон по конечностям: х1",
-              "en": "Limb damage: x1",
-              "es": "Daño a extremidades: x1",
-              "fr": "Dégât aux membres : x1",
-              "ko": "사지 피해: x1"
+              "ru": "Урон по конечностям: х0,9",
+              "en": "Limb damage: x0.9",
+              "es": "Daño a extremidades: x0,9",
+              "fr": "Dégât aux membres : x0,9",
+              "ko": "사지 피해: x0.9"
             }
           }
         },
@@ -746,9 +746,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 137.7561,
+      "startDamage": 194.79575,
       "damageDecreaseStart": 9.0,
-      "endDamage": 48.214634,
+      "endDamage": 87.71189,
       "damageDecreaseEnd": 58.0,
       "maxDistance": 80.0
     },

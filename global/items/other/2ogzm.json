@@ -1,0 +1,121 @@
+{
+  "id": "2ogzm",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.style.arm.ao6_wintersoldier.name",
+    "args": {},
+    "lines": {
+      "ru": "«Зимний солдат»",
+      "en": "Winter Soldier",
+      "es": "Soldado de invierno",
+      "fr": "Soldat de l\u0027Hiver",
+      "ko": "겨울 병사"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.armor_style",
+            "args": {},
+            "lines": {
+              "ru": "Облик брони",
+              "en": "Armor Style",
+              "es": "Estilo de armadura",
+              "fr": "Style d\u0027armure",
+              "ko": "방어구 외형"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.style.arm.ao6_wintersoldier.description",
+        "args": {},
+        "lines": {
+          "ru": "Этот облик был разработан для АО-6. Специально для тех, кто хочет почувствовать себя хозяином заснеженной Зоны!",
+          "en": "This style was designed for the AH-6. It’s specially made for anyone who wants to feel like the master of the Zone in winter!",
+          "es": "Este estilo se diseñó para el CA-6. ¡Se creó para aquellos que desean sentirse los amos de la Zona en invierno!",
+          "fr": "Ce style a été conçu pour l\u0027AH-6. Il est spécialement conçu pour tous ceux qui souhaitent se sentir maître de la Zone en hiver !",
+          "ko": "이 외형은 AH-6용으로 디자인되었다. 겨울에 구역의 주인공처럼 느끼고 싶은 사람에게 딱 맞는 제품이다!"
+        }
+      }
+    },
+    {}
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "dry5g",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.npc_shopot_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Микросхема «Шепота»",
+      "en": "Murmur Microcircuit",
+      "es": "Microchip de Susurro",
+      "fr": "Micro-puce du Murmure",
+      "ko": "속삭임 마이크로칩"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "900.0"
+            },
+            "lines": {
+              "ru": "900 руб.",
+              "en": "900 rubles",
+              "es": "900 rublos",
+              "fr": "900 roubles",
+              "ko": "900 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.filler.npc_shopot_4.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Одна из микросхем, используемых в различной технике «Шепота». Пускай значительная часть электроники в подобной аппаратуре привычна любому профессионалу, некоторые из компонентов до сих пор не удалось как-то идентифицировать и понять их функцию.",
+          "en": "One of the microcircuits used in various Murmur equipment. Although most of the electronics in such apparatus are familiar to any professional, some components have yet to be identified and understood.",
+          "es": "Uno de los microchips utilizados en diversos dispositivos de Susurro. Aunque la mayor parte de la electrónica de este tipo de aparatos resulta familiar para cualquier profesional, algunos de los componentes aún no se han podido identificar ni comprender su función.",
+          "fr": "L\u0027une des micro-puces utilisées dans les divers équipements du Murmure. Bien qu\u0027une grande partie de l\u0027électronique de ces appareils soit familière à tout professionnel, certains composants n\u0027ont toujours pas pu être identifiés et leur fonction reste incomprise.",
+          "ko": "속삭임 장비에 사용되는 마이크로칩 중 하나이다. 대부분의 전자 부품은 전문가에게 익숙하지만, 일부 부품은 아직 정확한 기능이나 역할을 파악하지 못했다."
+        }
+      }
+    }
+  ]
+}

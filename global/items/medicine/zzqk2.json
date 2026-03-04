@@ -164,14 +164,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.bandage",
+            "key": "item.effects.effect_type.accumulation",
             "args": {},
             "lines": {
-              "ru": "Устранение кровотечения",
-              "en": "Bleeding Elimination",
-              "es": "Eliminación de hemorragia",
-              "fr": "Arrêt du saignement",
-              "ko": "출혈 제거"
+              "ru": "Вывод",
+              "en": "Output",
+              "es": "Retirada",
+              "fr": "Retrait",
+              "ko": "결과"
             }
           }
         },
@@ -189,14 +189,14 @@
               "ko": "즉시 치유"
             }
           },
-          "value": 5.0,
+          "value": 4.5,
           "formatted": {
             "value": {
-              "ru": "5",
-              "en": "5",
-              "es": "5",
-              "fr": "5",
-              "ko": "5"
+              "ru": "4,5",
+              "en": "4.5",
+              "es": "4,5",
+              "fr": "4,5",
+              "ko": "4.5"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -216,14 +216,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 2.0,
+          "value": 4.0,
           "formatted": {
             "value": {
-              "ru": "2",
-              "en": "2",
-              "es": "2",
-              "fr": "2",
-              "ko": "2"
+              "ru": "4",
+              "en": "4",
+              "es": "4",
+              "fr": "4",
+              "ko": "4"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -269,6 +269,33 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление кровотечению",
+              "en": "Bleeding resistance",
+              "es": "Resistencia a hemorragia",
+              "fr": "Résistance aux saignements",
+              "ko": "출혈 보호율"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.bleeding_accumulation",
             "args": {},
             "lines": {
@@ -279,14 +306,14 @@
               "ko": "출혈"
             }
           },
-          "value": -20.0,
+          "value": -12.5,
           "formatted": {
             "value": {
-              "ru": "-20",
-              "en": "-20",
-              "es": "-20",
-              "fr": "-20",
-              "ko": "-20"
+              "ru": "-12,5",
+              "en": "-12.5",
+              "es": "-12,5",
+              "fr": "-12,5",
+              "ko": "-12.5"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

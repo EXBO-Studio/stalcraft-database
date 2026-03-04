@@ -13,7 +13,7 @@
       "ko": "산전수전"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -25,6 +25,33 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -41,14 +68,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.skins",
+            "key": "core.handbook.category.armor_motif",
             "args": {},
             "lines": {
-              "ru": "Косметика",
-              "en": "Cosmetics",
-              "es": "Cosméticos",
-              "fr": "Cosmétique",
-              "ko": "꾸미기"
+              "ru": "Мотив брони",
+              "en": "Armor motif",
+              "es": "Motivo para armadura",
+              "fr": "Motif d\u0027armure",
+              "ko": "방어구 장식"
             }
           }
         }
@@ -89,269 +116,7 @@
         }
       }
     },
-    {
-      "type": "list",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
-      "elements": [
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.lore.skin.all_suitable_targets",
-            "args": {},
-            "lines": {
-              "ru": "Подходит для:",
-              "en": "Suitable for:",
-              "es": "Adecuado para:",
-              "fr": "Compatible avec :",
-              "ko": "적용 가능:"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.albatros_heavy.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронескелет «Альбатрос-Штурмовик»",
-              "en": "Albatross Heavy Assault Armored Exoskeleton",
-              "es": "Exoesqueleto blindado Albatros de asalto pesado",
-              "fr": "Exosquelette Blindé Albatros d\u0027Assaut",
-              "ko": "알바트로스 중강습 장갑 외골격"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.centurion.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «Центурион»",
-              "en": "Centurion Armored Suit",
-              "es": "Traje blindado Centurión",
-              "fr": "Exoarmure Centurion Blindé",
-              "ko": "센츄리온 장갑 슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.skat10.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «Скиф-5»",
-              "en": "Scythian-5 Armored Suit",
-              "es": "Traje blindado Escita-5",
-              "fr": "Combinaison Blindée Scythian-5",
-              "ko": "스키티아인-5 장갑 슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.zivcas.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня JD ZIVCAS 2A",
-              "en": "JD ZIVCAS 2A Exoarmor",
-              "es": "Exoarmadura JD ZIVCAS 2A",
-              "fr": "JD ZIVCAS 2A Exoarmure",
-              "ko": "JD 지브카스 2A 강화전투갑주"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.exo_mod.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня «Гектор»",
-              "en": "Hector Exoarmor",
-              "es": "Exoarmadura Héctor",
-              "fr": "Exoarmure Hector",
-              "ko": "헥토르 강화전투복"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.tank.name",
-            "args": {},
-            "lines": {
-              "ru": "SBA TANK",
-              "en": "SBA TANK",
-              "es": "TANQUE SBA",
-              "fr": "RÉSERVOIR SBA",
-              "ko": "SBA 전투전차"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.rigel.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня «Ригель»",
-              "en": "Rigel Exoarmor",
-              "es": "Exoarmadura Rigel",
-              "fr": "Exoarmure Rigel",
-              "ko": "리겔 강화전투복"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.saturn.name",
-            "args": {},
-            "lines": {
-              "ru": "Комбинезон «Сатурн»",
-              "en": "Saturn Jumpsuit",
-              "es": "Traje Saturno",
-              "fr": "Combinaison Saturn",
-              "ko": "새턴 점프슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.mule.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня «Мул»",
-              "en": "Mule Exoarmor",
-              "es": "Exoarmadura Mula",
-              "fr": "Exoarmure Mule",
-              "ko": "뮬 강화전투복"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.tuz.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня «Туз»",
-              "en": "Ace Exoarmor",
-              "es": "Exoarmadura As",
-              "fr": "Exoarmure As",
-              "ko": "에이스 강화전투복"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.ao6.name",
-            "args": {},
-            "lines": {
-              "ru": "УКАЗ АО-6 «Кочевник»",
-              "en": "RAPS AH-6 Nomad",
-              "es": "TPAR CA-6 Nómada",
-              "fr": "RAPS AH-6 Nomade",
-              "ko": "RAPS AH-6 방랑자"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.zveroboi.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня «Зверобой»",
-              "en": "Beast Slayer Exoarmor",
-              "es": "Exoarmadura Matabestias",
-              "fr": "Exoarmure de Tueur de Bêtes",
-              "ko": "야수 도살자 강화전투갑주"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.magnit.name",
-            "args": {},
-            "lines": {
-              "ru": "Комбинезон «Магнит»",
-              "en": "Magnet Jumpsuit",
-              "es": "Traje Imán",
-              "fr": "Combinaison Magnétique",
-              "ko": "자석 점프슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.smog.name",
-            "args": {},
-            "lines": {
-              "ru": "Тяжелый бронекостюм «Туманный охотник»",
-              "en": "Fog Hunter Heavy Armored Suit",
-              "es": "Traje blindado pesado Cazador de la niebla",
-              "fr": "Combinaison Blindée Lourde Chasseur du Brouillard",
-              "ko": "안개 사냥꾼 중장갑 슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.tonga.name",
-            "args": {},
-            "lines": {
-              "ru": "Комбинезон «Тонга»",
-              "en": "Tonga Jumpsuit",
-              "es": "Traje Tonga",
-              "fr": "Combinaison Tonga",
-              "ko": "통가 점프슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.albatros_light.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня «Альбатрос-Лазутчик»",
-              "en": "Albatross Infiltrator Exoarmor",
-              "es": "Exoarmadura Albatros de infiltración",
-              "fr": "Exoarmure Albatros Infiltrateur",
-              "ko": "알바트로스 침투자 강화전투복"
-            }
-          }
-        }
-      ]
-    }
+    {},
+    {}
   ]
 }
