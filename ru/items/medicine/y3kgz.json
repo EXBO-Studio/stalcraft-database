@@ -147,14 +147,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.antirad",
+            "key": "item.effects.effect_type.accumulation",
             "args": {},
             "lines": {
-              "ru": "Вывод радиации",
-              "en": "Radiation Cleansing",
-              "es": "Limpieza radiológica",
-              "fr": "Nettoyage des radiations",
-              "ko": "방사능 정화"
+              "ru": "Вывод",
+              "en": "Output",
+              "es": "Retirada",
+              "fr": "Retrait",
+              "ko": "결과"
             }
           }
         },
@@ -172,14 +172,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 2.0,
+          "value": 4.0,
           "formatted": {
             "value": {
-              "ru": "2",
-              "en": "2",
-              "es": "2",
-              "fr": "2",
-              "ko": "2"
+              "ru": "4",
+              "en": "4",
+              "es": "4",
+              "fr": "4",
+              "ko": "4"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -199,14 +199,14 @@
               "ko": "지속 시간"
             }
           },
-          "value": 5.0,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "5 с",
-              "en": "5 sec",
-              "es": "5 s",
-              "fr": "5 s",
-              "ko": "5초"
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -279,6 +279,33 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление пси-излучению",
+              "en": "Psy-emission resistance",
+              "es": "Resistencia a la emisión psy",
+              "fr": "Résistance aux émissions psys",
+              "ko": "정신파 방사물 보호율"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
@@ -289,14 +316,41 @@
               "ko": "방사능"
             }
           },
-          "value": -10.0,
+          "value": -30.0,
           "formatted": {
             "value": {
-              "ru": "-10",
-              "en": "-10",
-              "es": "-10",
-              "fr": "-10",
-              "ko": "-10"
+              "ru": "-30",
+              "en": "-30",
+              "es": "-30",
+              "fr": "-30",
+              "ko": "-30"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys",
+              "ko": "정신파 방사물"
+            }
+          },
+          "value": -30.0,
+          "formatted": {
+            "value": {
+              "ru": "-30",
+              "en": "-30",
+              "es": "-30",
+              "fr": "-30",
+              "ko": "-30"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -315,11 +369,11 @@
         "key": "item.med.antirad_1.description",
         "args": {},
         "lines": {
-          "ru": "Выводит радиацию из организма.",
-          "en": "Removes radiation from the body.",
-          "es": "Elimina la radiación del cuerpo.",
-          "fr": "Élimine les radiations du corps.",
-          "ko": "몸속의 방사능을 제거한다."
+          "ru": "Выводит радиацию и пси-излучение из организма.",
+          "en": "It removes radiation and psy radiation from the body.",
+          "es": "Elimina la radiación y la emisión psy del organismo.",
+          "fr": "Élimine la radiation et les émissions psy du corps.",
+          "ko": "체내의 방사능과 정신파 방사물을 제거한다."
         }
       }
     }

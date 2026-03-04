@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "6600.0"
+              "cost": "7100.0"
             },
             "lines": {
-              "ru": "6 600 руб.",
-              "en": "6,600 rubles",
-              "es": "6.600 rublos",
-              "fr": "6 600 roubles",
-              "ko": "6,600 루블"
+              "ru": "7 100 руб.",
+              "en": "7,100 rubles",
+              "es": "7.100 rublos",
+              "fr": "7 100 roubles",
+              "ko": "7,100 루블"
             }
           }
         }
@@ -292,53 +292,25 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed",
-              "es": "Velocidad de movimiento",
-              "fr": "Vitesse de déplacement",
-              "ko": "이동 속도"
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
             }
           },
-          "min": 0.53295004,
-          "max": 0.62700003,
+          "min": 6.783,
+          "max": 7.98,
           "formatted": {
             "value": {
-              "ru": "[+0,53%; +0,63%]",
-              "en": "[+0.53%; +0.63%]",
-              "es": "[+0,53 %; +0,63 %]",
-              "fr": "[+0,53%; +0,63%]",
-              "ko": "[+0.53%; +0.63%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
-            "args": {},
-            "lines": {
-              "ru": "Скорость бега",
-              "en": "Running speed",
-              "es": "Velocidad de carrera",
-              "fr": "Vitesse de course",
-              "ko": "달리기 속도"
-            }
-          },
-          "min": 0.72675,
-          "max": 0.855,
-          "formatted": {
-            "value": {
-              "ru": "[+0,73%; +0,86%]",
-              "en": "[+0.73%; +0.86%]",
-              "es": "[+0,73 %; +0,86 %]",
-              "fr": "[+0,73%; +0,86%]",
-              "ko": "[+0.73%; +0.86%]"
+              "ru": "[+6,78; +7,98]",
+              "en": "[+6.78; +7.98]",
+              "es": "[+6,78; +7,98]",
+              "fr": "[+6,78; +7,98]",
+              "ko": "[+6.78; +7.98]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

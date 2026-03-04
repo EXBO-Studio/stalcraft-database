@@ -1,0 +1,121 @@
+{
+  "id": "0rj31",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.style.wpn.oc33_stalker.name",
+    "args": {},
+    "lines": {
+      "ru": "Пернач Майора",
+      "en": "Major\u0027s Pernach",
+      "es": "Pernach del mayor",
+      "fr": "Pernach du Major",
+      "ko": "소령의 페르나흐"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.weapon_style",
+            "args": {},
+            "lines": {
+              "ru": "Облик оружия",
+              "en": "Weapon Style",
+              "es": "Estilo de armas",
+              "fr": "Style d\u0027arme",
+              "ko": "무기 외형"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.style.wpn.oc33_stalker.description",
+        "args": {},
+        "lines": {
+          "ru": "Наградной ствол, принадлежавший одному из наиболее успешных агентов военных в Зоне - майору Д.",
+          "en": "An honorary gun that belonged to one of the most successful military agents in the Zone—Major D.",
+          "es": "Un arma honorífica que perteneció a uno de los agentes militares más excelsos de la Zona: el mayor D.",
+          "fr": "Une arme de prestige qui appartenait à l\u0027un des plus grands agents militaires de la Zone – Major D.",
+          "ko": "구역에서 가장 성공적인 군사 요원 중 하나인 D 소령의 명예로운 총기이다."
+        }
+      }
+    },
+    {}
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "m01dr",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.style.arm.tank_ravent23.name",
+    "args": {},
+    "lines": {
+      "ru": "«Подрывник»",
+      "en": "Bomber",
+      "es": "Dinamitero",
+      "fr": "Bombardier",
+      "ko": "봄버"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.armor_style",
+            "args": {},
+            "lines": {
+              "ru": "Облик брони",
+              "en": "Armor Style",
+              "es": "Estilo de armadura",
+              "fr": "Style d\u0027armure",
+              "ko": "방어구 외형"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.style.arm.tank_ravent23.description",
+        "args": {},
+        "lines": {
+          "ru": "Соблюдай ДИСТНАЦИЮ!",
+          "en": "Keep your DISTANCE!",
+          "es": "¡Mantén la distancia!",
+          "fr": "Gardez vos DISTANCES !",
+          "ko": "접근 금지!"
+        }
+      }
+    },
+    {}
+  ]
+}

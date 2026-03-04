@@ -1,0 +1,121 @@
+{
+  "id": "5ldno",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn.aksu_main.name",
+    "args": {},
+    "lines": {
+      "ru": "«Блаженный» АКС-74У",
+      "en": "Blessed AKS-74U",
+      "es": "AKS-74U Bendecido",
+      "fr": "AKS-74U Béni",
+      "ko": "축복 받은 자의 AKS-74U"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur",
+              "ko": "도둑"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.weapon_motif",
+            "args": {},
+            "lines": {
+              "ru": "Мотив оружия",
+              "en": "Weapon motif",
+              "es": "Motivo para arma",
+              "fr": "Motif d\u0027arme",
+              "ko": "무기 장식"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.aksu_main.description",
+        "args": {},
+        "lines": {
+          "ru": "Шаман не хочет отправлять своих людей на верную смерть, так что в его же интересах заботиться о том, чтобы у них было достойное снаряжение.",
+          "en": "Shaman doesn’t want to send his people to their deaths, so it’s in his interest to ensure they have good gear.",
+          "es": "Chamán no quiere enviar a los suyos a la muerte, por lo que le interesa asegurarse de que tengan un buen equipamiento.",
+          "fr": "Le chaman ne veut pas envoyer ses hommes à la mort, il est donc dans son intérêt de s\u0027assurer qu\u0027ils ont un bon équipement.",
+          "ko": "샤먼은 부하를 허무하게 잃는 걸 원치 않는다. 자신의 사람이라면, 최소한 제대로 된 장비는 갖춰야 한다고 생각한다."
+        }
+      }
+    },
+    {}
+  ]
+}

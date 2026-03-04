@@ -13,7 +13,7 @@
       "ko": "군용 구급상자"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "NONE"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.picklock",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock",
-              "es": "Ratero",
-              "fr": "Crocheteur",
-              "ko": "도둑"
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
             }
           }
         },
@@ -188,14 +188,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 2.0,
+          "value": 8.0,
           "formatted": {
             "value": {
-              "ru": "2",
-              "en": "2",
-              "es": "2",
-              "fr": "2",
-              "ko": "2"
+              "ru": "8",
+              "en": "8",
+              "es": "8",
+              "fr": "8",
+              "ko": "8"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -215,14 +215,14 @@
               "ko": "지속 시간"
             }
           },
-          "value": 8.0,
+          "value": 12.0,
           "formatted": {
             "value": {
-              "ru": "8 с",
-              "en": "8 sec",
-              "es": "8 s",
-              "fr": "8 s",
-              "ko": "8초"
+              "ru": "12 с",
+              "en": "12 sec",
+              "es": "12 s",
+              "fr": "12 s",
+              "ko": "12초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -241,24 +241,24 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance",
-              "ko": "스태미나 재생"
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
             }
           },
-          "value": 6.0,
+          "value": 6.4,
           "formatted": {
             "value": {
-              "ru": "6%",
-              "en": "6%",
-              "es": "6 %",
-              "fr": "6%",
-              "ko": "6%"
+              "ru": "6,4%",
+              "en": "6.4%",
+              "es": "6,4 %",
+              "fr": "6,4%",
+              "ko": "6.4%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -278,41 +278,14 @@
               "ko": "지속 치유"
             }
           },
-          "value": 6.0,
+          "value": 4.5,
           "formatted": {
             "value": {
-              "ru": "6%",
-              "en": "6%",
-              "es": "6 %",
-              "fr": "6%",
-              "ko": "6%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.radiation_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Радиация",
-              "en": "Radiation",
-              "es": "Radiación",
-              "fr": "Radiation",
-              "ko": "방사능"
-            }
-          },
-          "value": -3.0,
-          "formatted": {
-            "value": {
-              "ru": "-3",
-              "en": "-3",
-              "es": "-3",
-              "fr": "-3",
-              "ko": "-3"
+              "ru": "4,5%",
+              "en": "4.5%",
+              "es": "4,5 %",
+              "fr": "4,5%",
+              "ko": "4.5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -332,14 +305,41 @@
               "ko": "출혈"
             }
           },
-          "value": -1.5,
+          "value": -0.75,
           "formatted": {
             "value": {
-              "ru": "-1,5",
-              "en": "-1.5",
-              "es": "-1,5",
-              "fr": "-1,5",
-              "ko": "-1.5"
+              "ru": "-0,75",
+              "en": "-0.75",
+              "es": "-0,75",
+              "fr": "-0,75",
+              "ko": "-0.75"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.toxic_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison",
+              "ko": "독성"
+            }
+          },
+          "value": -0.15,
+          "formatted": {
+            "value": {
+              "ru": "-0,15",
+              "en": "-0.15",
+              "es": "-0,15",
+              "fr": "-0,15",
+              "ko": "-0.15"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

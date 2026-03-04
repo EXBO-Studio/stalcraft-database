@@ -1,0 +1,158 @@
+{
+  "id": "pjqvd",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.npc_shopot_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Композит «Шепота»",
+      "en": "Murmur Composite",
+      "es": "Composite de Susurro",
+      "fr": "Composite du Murmure",
+      "ko": "속삭임 합성체"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1900.0"
+            },
+            "lines": {
+              "ru": "1 900 руб.",
+              "en": "1,900 rubles",
+              "es": "1.900 rublos",
+              "fr": "1 900 roubles",
+              "ko": "1,900 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.filler.npc_shopot_2.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Фрагмент композита, который часто можно обнаружить в различном снаряжении «Шепота».\\n\\nХотя материал не поддается привычным методам анализа структуры и компонентов, входящих в него, ученые до сих пор не теряют надежд узнать о природе композита.",
+          "en": "fragment of a composite material frequently found in various Murmur devices.\\n\\nAlthough the material resists traditional methods of structural and compositional analysis, scientists remain hopeful that its nature can eventually be determined.",
+          "es": "Fragmento de un composite que se encuentra a menudo en diversos tipos de equipamiento de Susurro.\\n\\nAunque el material no se presta a los métodos habituales de análisis de su estructura y componentes, los científicos aún no pierden la esperanza de descubrir la naturaleza del composite.",
+          "fr": "Fragment de composite que l\u0027on trouve souvent dans divers équipements du Murmure.\\n\\nBien que le matériau ne se prête pas aux méthodes d\u0027analyse habituelles de sa structure et de ses composants, les scientifiques n\u0027ont toujours pas perdu l\u0027espoir de connaître la nature du composite.",
+          "ko": "속삭임 합성체 조각, 속삭임 장비 곳곳에서 흔히 발견된다.\\n\\n비록 이 물질은 일반적인 구조와 성분 분석 방법으로는 분석이 불가능하지만, 과학자들은 여전히 합성체의 본질을 밝히려는 희망을 버리지 않고 있다."
+        }
+      }
+    }
+  ]
+}

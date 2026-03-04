@@ -13,7 +13,7 @@
       "ko": "서리 머리"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -25,6 +25,33 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -41,14 +68,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.skins",
+            "key": "core.handbook.category.armor_motif",
             "args": {},
             "lines": {
-              "ru": "Косметика",
-              "en": "Cosmetics",
-              "es": "Cosméticos",
-              "fr": "Cosmétique",
-              "ko": "꾸미기"
+              "ru": "Мотив брони",
+              "en": "Armor motif",
+              "es": "Motivo para armadura",
+              "fr": "Motif d\u0027armure",
+              "ko": "방어구 장식"
             }
           }
         }
@@ -89,74 +116,6 @@
         }
       }
     },
-    {
-      "type": "list",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
-      "elements": [
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.lore.skin.all_suitable_targets",
-            "args": {},
-            "lines": {
-              "ru": "Подходит для:",
-              "en": "Suitable for:",
-              "es": "Adecuado para:",
-              "fr": "Compatible avec :",
-              "ko": "적용 가능:"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.skat10.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «Скиф-5»",
-              "en": "Scythian-5 Armored Suit",
-              "es": "Traje blindado Escita-5",
-              "fr": "Combinaison Blindée Scythian-5",
-              "ko": "스키티아인-5 장갑 슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.bulat.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «Скиф-2м»",
-              "en": "Scythian-2m Armored Suit",
-              "es": "Traje blindado Escita-2m",
-              "fr": "Combinaison Blindée SCYTHIAN-2m",
-              "ko": "스키티아인-2m 장갑 슈트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.skat9m.name",
-            "args": {},
-            "lines": {
-              "ru": "Бронекостюм «Скиф-4»",
-              "en": "Scythian-4 Armored Suit",
-              "es": "Traje blindado Escita-4",
-              "fr": "Combinaison Blindée SCYTHIAN-4",
-              "ko": "스키티아인-4 장갑 슈트"
-            }
-          }
-        }
-      ]
-    }
+    {}
   ]
 }

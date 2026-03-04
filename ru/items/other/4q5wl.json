@@ -1,0 +1,102 @@
+{
+  "id": "4q5wl",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.style.arm.frostwalker_nord22.name",
+    "args": {},
+    "lines": {
+      "ru": "«Идущий» группы «Норд-22»",
+      "en": "Marching Nord-22 Group",
+      "es": "Grupo Marching Nord-22",
+      "fr": "Groupe Nord-22 en marche",
+      "ko": "진군하는 노르드-22 그룹"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.armor_style",
+            "args": {},
+            "lines": {
+              "ru": "Облик брони",
+              "en": "Armor Style",
+              "es": "Estilo de armadura",
+              "fr": "Style d\u0027armure",
+              "ko": "방어구 외형"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {}
+  ]
+}

@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.skins",
+            "key": "core.handbook.category.weapon_motif",
             "args": {},
             "lines": {
-              "ru": "Косметика",
-              "en": "Cosmetics",
-              "es": "Cosméticos",
-              "fr": "Cosmétique",
-              "ko": "꾸미기"
+              "ru": "Мотив оружия",
+              "en": "Weapon motif",
+              "es": "Motivo para arma",
+              "fr": "Motif d\u0027arme",
+              "ko": "무기 장식"
             }
           }
         }
@@ -70,44 +70,6 @@
       },
       "elements": []
     },
-    {
-      "type": "list",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
-      "elements": [
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.lore.skin.all_suitable_targets",
-            "args": {},
-            "lines": {
-              "ru": "Подходит для:",
-              "en": "Suitable for:",
-              "es": "Adecuado para:",
-              "fr": "Compatible avec :",
-              "ko": "적용 가능:"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.sv98.name",
-            "args": {},
-            "lines": {
-              "ru": "СВ-98",
-              "en": "SV-98",
-              "es": "SV-98",
-              "fr": "SV-98",
-              "ko": "SV-98"
-            }
-          }
-        }
-      ]
-    }
+    {}
   ]
 }

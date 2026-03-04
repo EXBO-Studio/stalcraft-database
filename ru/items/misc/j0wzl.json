@@ -1,0 +1,140 @@
+{
+  "id": "j0wzl",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.apogey.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть «Апогей»",
+      "en": "Apogee Part",
+      "es": "Pieza Apogeo",
+      "fr": "Plan du Apogée",
+      "ko": "아포게이 부분"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "40000.0"
+            },
+            "lines": {
+              "ru": "40 000 руб.",
+              "en": "40,000 rubles",
+              "es": "40.000 rublos",
+              "fr": "40 000 roubles",
+              "ko": "40,000 루블"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

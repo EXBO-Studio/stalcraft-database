@@ -13,7 +13,7 @@
       "ko": "촉매제"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_STALKER",
   "status": {
     "state": "NON_DROP"
   },
@@ -25,6 +25,33 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -66,14 +93,14 @@
               "ko": "무게"
             }
           },
-          "value": 0.1,
+          "value": 0.04,
           "formatted": {
             "value": {
-              "ru": "0,1 кг",
-              "en": "0.1 kg",
-              "es": "0,1 kg",
-              "fr": "0,1 kg",
-              "ko": "0.1 kg"
+              "ru": "0,04 кг",
+              "en": "0.04 kg",
+              "es": "0,04 kg",
+              "fr": "0,04 kg",
+              "ko": "0.04 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"

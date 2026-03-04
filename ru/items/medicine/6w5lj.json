@@ -278,14 +278,14 @@
               "ko": "생명력"
             }
           },
-          "value": 8.4,
+          "value": 3.3,
           "formatted": {
             "value": {
-              "ru": "8,4%",
-              "en": "8.4%",
-              "es": "8,4 %",
-              "fr": "8,4%",
-              "ko": "8.4%"
+              "ru": "3,3%",
+              "en": "3.3%",
+              "es": "3,3 %",
+              "fr": "3,3%",
+              "ko": "3.3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -295,24 +295,24 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration",
-              "es": "Regeneración de salud",
-              "fr": "Régénération de la santé",
-              "ko": "체력 회복력"
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
             }
           },
-          "value": 4.9,
+          "value": 37.3,
           "formatted": {
             "value": {
-              "ru": "4,9%",
-              "en": "4.9%",
-              "es": "4,9 %",
-              "fr": "4,9%",
-              "ko": "4.9%"
+              "ru": "37,3%",
+              "en": "37.3%",
+              "es": "37,3 %",
+              "fr": "37,3%",
+              "ko": "37.3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -332,14 +332,41 @@
               "ko": "총탄 보호율"
             }
           },
-          "value": 9.9,
+          "value": 23.3,
           "formatted": {
             "value": {
-              "ru": "9,9",
-              "en": "9.9",
-              "es": "9,9",
-              "fr": "9,9",
-              "ko": "9.9"
+              "ru": "23,3",
+              "en": "23.3",
+              "es": "23,3",
+              "fr": "23,3",
+              "ko": "23.3"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations",
+              "ko": "열상 보호율"
+            }
+          },
+          "value": 35.0,
+          "formatted": {
+            "value": {
+              "ru": "35",
+              "en": "35",
+              "es": "35",
+              "fr": "35",
+              "ko": "35"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

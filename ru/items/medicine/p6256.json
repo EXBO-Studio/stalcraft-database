@@ -13,7 +13,7 @@
       "ko": "만병통치약"
     }
   },
-  "color": "RANK_MASTER",
+  "color": "RANK_VETERAN",
   "status": {
     "state": "NON_DROP"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.master",
+            "key": "core.rank.veteran",
             "args": {},
             "lines": {
-              "ru": "Мастер",
-              "en": "Master",
-              "es": "Maestro",
-              "fr": "Maître",
-              "ko": "마스터"
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
             }
           }
         },
@@ -133,6 +133,60 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose",
+              "es": "Propósito",
+              "fr": "Objectif",
+              "ko": "용도"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Вывод",
+              "en": "Output",
+              "es": "Retirada",
+              "fr": "Retrait",
+              "ko": "결과"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.hp_regen",
+            "args": {},
+            "lines": {
+              "ru": "Мгновенное лечение",
+              "en": "Instant healing",
+              "es": "Curación instantánea",
+              "fr": "Soins instantanés",
+              "ko": "즉시 치유"
+            }
+          },
+          "value": 7.2,
+          "formatted": {
+            "value": {
+              "ru": "7,2",
+              "en": "7.2",
+              "es": "7,2",
+              "fr": "7,2",
+              "ko": "7.2"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -146,14 +200,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 10.0,
+          "value": 20.0,
           "formatted": {
             "value": {
-              "ru": "10",
-              "en": "10",
-              "es": "10",
-              "fr": "10",
-              "ko": "10"
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20",
+              "ko": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -173,14 +227,41 @@
               "ko": "지속 시간"
             }
           },
-          "value": 30.0,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "30 с",
-              "en": "30 sec",
-              "es": "30 s",
-              "fr": "30 s",
-              "ko": "30초"
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison",
+              "ko": "독성"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "25",
+              "en": "25",
+              "es": "25",
+              "fr": "25",
+              "ko": "25"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -209,14 +290,14 @@
               "ko": "방사능 보호율"
             }
           },
-          "value": 75.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "75%",
-              "en": "75%",
-              "es": "75 %",
-              "fr": "75%",
-              "ko": "75%"
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -236,14 +317,14 @@
               "ko": "열 보호율"
             }
           },
-          "value": 75.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "75%",
-              "en": "75%",
-              "es": "75 %",
-              "fr": "75%",
-              "ko": "75%"
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -263,14 +344,14 @@
               "ko": "생물학적 감염 보호율"
             }
           },
-          "value": 75.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "75%",
-              "en": "75%",
-              "es": "75 %",
-              "fr": "75%",
-              "ko": "75%"
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -290,14 +371,41 @@
               "ko": "정신파 방사물 보호율"
             }
           },
-          "value": 75.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "75%",
-              "en": "75%",
-              "es": "75 %",
-              "fr": "75%",
-              "ko": "75%"
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление кровотечению",
+              "en": "Bleeding resistance",
+              "es": "Resistencia a hemorragia",
+              "fr": "Résistance aux saignements",
+              "ko": "출혈 보호율"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -317,14 +425,14 @@
               "ko": "서리 보호율"
             }
           },
-          "value": 75.0,
+          "value": 100.0,
           "formatted": {
             "value": {
-              "ru": "75%",
-              "en": "75%",
-              "es": "75 %",
-              "fr": "75%",
-              "ko": "75%"
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -344,14 +452,14 @@
               "ko": "방사능"
             }
           },
-          "value": -20.0,
+          "value": -155.0,
           "formatted": {
             "value": {
-              "ru": "-20",
-              "en": "-20",
-              "es": "-20",
-              "fr": "-20",
-              "ko": "-20"
+              "ru": "-155",
+              "en": "-155",
+              "es": "-155",
+              "fr": "-155",
+              "ko": "-155"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -371,14 +479,14 @@
               "ko": "열"
             }
           },
-          "value": -20.0,
+          "value": -125.0,
           "formatted": {
             "value": {
-              "ru": "-20",
-              "en": "-20",
-              "es": "-20",
-              "fr": "-20",
-              "ko": "-20"
+              "ru": "-125",
+              "en": "-125",
+              "es": "-125",
+              "fr": "-125",
+              "ko": "-125"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -398,14 +506,14 @@
               "ko": "생체 감염"
             }
           },
-          "value": -20.0,
+          "value": -155.0,
           "formatted": {
             "value": {
-              "ru": "-20",
-              "en": "-20",
-              "es": "-20",
-              "fr": "-20",
-              "ko": "-20"
+              "ru": "-155",
+              "en": "-155",
+              "es": "-155",
+              "fr": "-155",
+              "ko": "-155"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -425,14 +533,41 @@
               "ko": "정신파 방사물"
             }
           },
-          "value": -20.0,
+          "value": -155.0,
           "formatted": {
             "value": {
-              "ru": "-20",
-              "en": "-20",
-              "es": "-20",
-              "fr": "-20",
-              "ko": "-20"
+              "ru": "-155",
+              "en": "-155",
+              "es": "-155",
+              "fr": "-155",
+              "ko": "-155"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -15.0,
+          "formatted": {
+            "value": {
+              "ru": "-15",
+              "en": "-15",
+              "es": "-15",
+              "fr": "-15",
+              "ko": "-15"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -452,14 +587,14 @@
               "ko": "서리"
             }
           },
-          "value": -20.0,
+          "value": -60.0,
           "formatted": {
             "value": {
-              "ru": "-20",
-              "en": "-20",
-              "es": "-20",
-              "fr": "-20",
-              "ko": "-20"
+              "ru": "-60",
+              "en": "-60",
+              "es": "-60",
+              "fr": "-60",
+              "ko": "-60"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -469,24 +604,24 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.toxic_accumulation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
             "args": {},
             "lines": {
-              "ru": "Отравление",
-              "en": "Poison",
-              "es": "Veneno",
-              "fr": "Poison",
-              "ko": "독성"
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion",
+              "ko": "발화"
             }
           },
-          "value": -20.0,
+          "value": -3.0,
           "formatted": {
             "value": {
-              "ru": "-20",
-              "en": "-20",
-              "es": "-20",
-              "fr": "-20",
-              "ko": "-20"
+              "ru": "-3",
+              "en": "-3",
+              "es": "-3",
+              "fr": "-3",
+              "ko": "-3"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

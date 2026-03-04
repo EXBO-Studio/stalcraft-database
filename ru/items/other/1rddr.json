@@ -6,11 +6,11 @@
     "key": "item.19825.name",
     "args": {},
     "lines": {
-      "ru": "«Головорез» ОТЛ-3",
-      "en": "OTL-3 Thug",
-      "es": "OTL-3 Matón",
-      "fr": "OTL-3 Voyou",
-      "ko": "OTL-3 불한당"
+      "ru": "«Головорез»",
+      "en": "Thug",
+      "es": "Matón",
+      "fr": "Voyou",
+      "ko": "불한당"
     }
   },
   "color": "DEFAULT",
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.skins",
+            "key": "core.handbook.category.weapon_motif",
             "args": {},
             "lines": {
-              "ru": "Косметика",
-              "en": "Cosmetics",
-              "es": "Cosméticos",
-              "fr": "Cosmétique",
-              "ko": "꾸미기"
+              "ru": "Мотив оружия",
+              "en": "Weapon motif",
+              "es": "Motivo para arma",
+              "fr": "Motif d\u0027arme",
+              "ko": "무기 장식"
             }
           }
         }
@@ -89,44 +89,6 @@
         }
       }
     },
-    {
-      "type": "list",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
-      "elements": [
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.lore.skin.all_suitable_targets",
-            "args": {},
-            "lines": {
-              "ru": "Подходит для:",
-              "en": "Suitable for:",
-              "es": "Adecuado para:",
-              "fr": "Compatible avec :",
-              "ko": "적용 가능:"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.otl.name",
-            "args": {},
-            "lines": {
-              "ru": "ОТЛ-03 «Карбач»",
-              "en": "Karbach OTL-03",
-              "es": "Karbach OTL-03",
-              "fr": "Karbach OTL-03",
-              "ko": "카르바흐 OTL-03"
-            }
-          }
-        }
-      ]
-    }
+    {}
   ]
 }

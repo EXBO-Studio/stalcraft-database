@@ -262,14 +262,14 @@
               "ko": "피해량"
             }
           },
-          "value": 454.82925,
+          "value": 475.13412,
           "formatted": {
             "value": {
-              "ru": "454,83 ед",
-              "en": "454.83 unit(s)",
-              "es": "454,83 unidad(es)",
-              "fr": "454,83 unité(s)",
-              "ko": "454.83 유닛"
+              "ru": "475,13 ед",
+              "en": "475.13 unit(s)",
+              "es": "475,13 unidad(es)",
+              "fr": "475,13 unité(s)",
+              "ko": "475.13 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -316,14 +316,14 @@
               "ko": "최대 사거리"
             }
           },
-          "value": 85.0,
+          "value": 125.0,
           "formatted": {
             "value": {
-              "ru": "85 м",
-              "en": "85 m",
-              "es": "85 m",
-              "fr": "85 m",
-              "ko": "85 미터"
+              "ru": "125 м",
+              "en": "125 m",
+              "es": "125 m",
+              "fr": "125 m",
+              "ko": "125 미터"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -397,14 +397,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.29999995,
+          "value": 0.38,
           "formatted": {
             "value": {
-              "ru": "0,3°",
-              "en": "0.3°",
-              "es": "0,3°",
-              "fr": "0,3°",
-              "ko": "0.3°"
+              "ru": "0,38°",
+              "en": "0.38°",
+              "es": "0,38°",
+              "fr": "0,38°",
+              "ko": "0.38°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -424,14 +424,14 @@
               "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 3.0,
+          "value": 2.25,
           "formatted": {
             "value": {
-              "ru": "3°",
-              "en": "3°",
-              "es": "3°",
-              "fr": "3°",
-              "ko": "3°"
+              "ru": "2,25°",
+              "en": "2.25°",
+              "es": "2,25°",
+              "fr": "2,25°",
+              "ko": "2.25°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -584,14 +584,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.0"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1",
+              "en": "Headshot damage: x1",
+              "es": "Daño por disparo a la cabeza: x1",
+              "fr": "Dégât de tir à la tête : x1",
+              "ko": "헤드샷 피해: x1"
             }
           }
         },
@@ -601,14 +601,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "1.0"
+              "modifier": "0.875"
             },
             "lines": {
-              "ru": "Урон по конечностям: х1",
-              "en": "Limb damage: x1",
-              "es": "Daño a extremidades: x1",
-              "fr": "Dégât aux membres : x1",
-              "ko": "사지 피해: x1"
+              "ru": "Урон по конечностям: х0,88",
+              "en": "Limb damage: x0.88",
+              "es": "Daño a extremidades: x0,88",
+              "fr": "Dégât aux membres : x0,88",
+              "ko": "사지 피해: x0.88"
             }
           }
         },
@@ -626,6 +626,24 @@
               "es": "Daño a mutantes: x2,3",
               "fr": "Dégât au mutants : x2,3",
               "ko": "돌연변이에게 입히는 피해: x2.3"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.execute_damage_modifier",
+            "args": {
+              "plusPercent": "1.0",
+              "maxPercent": "100.0"
+            },
+            "lines": {
+              "ru": "Урон увеличивается на 1% за каждый % отсутствующего здоровья цели, максимум +100% урона",
+              "en": "Damage increases by 1% for every % of the target’s health that is missing, to a maximum of +100% damage",
+              "es": "El daño aumenta un 1 % por cada % de salud que le falte al objetivo, hasta un máximo de +100 % de daño",
+              "fr": "Dégâts augmentés de 1% pour chaque % manquant de santé de la cible pour un maximum de +100% dégâts",
+              "ko": "대상의 남은 체력 1%마다 피해가 1% 증가하며, 최대 +100% 피해까지 증가합니다"
             }
           }
         }
@@ -706,6 +724,50 @@
       "type": "list",
       "title": {
         "type": "translation",
+        "key": "weapon.tooltip.weapon.info.attachment_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики обвесов",
+          "en": "Attachment properties",
+          "es": "Propiedades de accesorios",
+          "fr": "Propriétés des accessoires",
+          "ko": "부착물 특성"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l\u0027aveugle",
+              "ko": "비조준 사격 탄퍼짐"
+            }
+          },
+          "value": -25.0,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%",
+              "ko": "-25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
         "key": "weapon.tooltip.weapon.info.feature",
         "args": {},
         "lines": {
@@ -736,11 +798,11 @@
     },
     {
       "type": "damage",
-      "startDamage": 454.82925,
-      "damageDecreaseStart": 4.0,
-      "endDamage": 225.38414,
-      "damageDecreaseEnd": 10.0,
-      "maxDistance": 85.0
+      "startDamage": 475.13412,
+      "damageDecreaseStart": 2.0,
+      "endDamage": 304.57318,
+      "damageDecreaseEnd": 20.0,
+      "maxDistance": 125.0
     },
     {
       "type": "text",

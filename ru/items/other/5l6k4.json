@@ -1,0 +1,121 @@
+{
+  "id": "5l6k4",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.teller.name",
+    "args": {},
+    "lines": {
+      "ru": "Плащ рассказчика",
+      "en": "Storyteller\u0027s Cloak",
+      "es": "Capa de narrador",
+      "fr": "Cape du narrateur",
+      "ko": "이야기꾼의 망토"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.armor_style",
+            "args": {},
+            "lines": {
+              "ru": "Облик брони",
+              "en": "Armor Style",
+              "es": "Estilo de armadura",
+              "fr": "Style d\u0027armure",
+              "ko": "방어구 외형"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.teller.description",
+        "args": {},
+        "lines": {
+          "ru": "Мертвецы не рассказывают сказки, но они абсолютно не против их послушать.",
+          "en": "Dead men tell no tales, but they are absolutely not opposed to listening to them.",
+          "es": "Los muertos no cuentan historias, pero están totalmente dispuestos a escucharlas.",
+          "fr": "Les morts ne racontent pas d\u0027histoires, mais ils n\u0027ont aucun problème à les écouter",
+          "ko": "죽은 자는 말을 하지 않지만, 말을 듣는 것은 좋아합니다."
+        }
+      }
+    },
+    {}
+  ]
+}

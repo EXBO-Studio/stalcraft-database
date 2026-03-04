@@ -1,0 +1,355 @@
+{
+  "id": "zz92m",
+  "category": "attachment/mag",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mag_saiga1230.name",
+    "args": {},
+    "lines": {
+      "ru": "Барабанный магазин Сайга-12",
+      "en": "Saiga-12 Drum Magazine",
+      "es": "Cargador de tambor Saiga-12",
+      "fr": "Chargeur tambour Saiga-12",
+      "ko": "SAIGA 12 드럼 탄창"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.mag",
+            "args": {},
+            "lines": {
+              "ru": "Магазины",
+              "en": "Magazines",
+              "es": "Cargadores",
+              "fr": "Chargeurs",
+              "ko": "탄창"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.73,
+          "formatted": {
+            "value": {
+              "ru": "0,73 кг",
+              "en": "0.73 kg",
+              "es": "0,73 kg",
+              "fr": "0,73 kg",
+              "ko": "0.73 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:",
+              "es": "Tamaño del cargador:",
+              "fr": "Capacité du chargeur",
+              "ko": "탄창 크기:"
+            }
+          },
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30",
+              "es": "30",
+              "fr": "30",
+              "ko": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload",
+              "es": "Recarga",
+              "fr": "Rechargement",
+              "ko": "재장전"
+            }
+          },
+          "value": 4.38,
+          "formatted": {
+            "value": {
+              "ru": "4,38 с",
+              "en": "4.38 sec",
+              "es": "4,38 s",
+              "fr": "4,38 s",
+              "ko": "4.38초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical Reload",
+              "es": "Recarga táctica",
+              "fr": "Rechargement tactique",
+              "ko": "전술 재장전"
+            }
+          },
+          "value": 3.5,
+          "formatted": {
+            "value": {
+              "ru": "3,5 с",
+              "en": "3.5 sec",
+              "es": "3,5 s",
+              "fr": "3,5 s",
+              "ko": "3.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l\u0027aveugle",
+              "ko": "비조준 사격 탄퍼짐"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%",
+              "es": "+10 %",
+              "fr": "+10%",
+              "ko": "+10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed",
+              "es": "Velocidad de apuntado",
+              "fr": "Vitesse de visée",
+              "ko": "조준 속도"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%",
+              "es": "-10 %",
+              "fr": "-10%",
+              "ko": "-10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad",
+              "fr": "Vitesse",
+              "ko": "속도"
+            }
+          },
+          "value": -0.99999905,
+          "formatted": {
+            "value": {
+              "ru": "-1%",
+              "en": "-1%",
+              "es": "-1 %",
+              "fr": "-1%",
+              "ko": "-1%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para",
+          "fr": "Compatible avec",
+          "ko": "부착 가능"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ks12.name",
+            "args": {},
+            "lines": {
+              "ru": "KS-12 Komrad",
+              "en": "KS-12 Komrad",
+              "es": "KS-12 Komrad",
+              "fr": "KS-12 Komrad",
+              "ko": "KS-12 콤라드"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.saiga12.name",
+            "args": {},
+            "lines": {
+              "ru": "Сайга-12",
+              "en": "Saiga-12",
+              "es": "Saiga-12",
+              "fr": "Saiga-12",
+              "ko": "SAIGA 12"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

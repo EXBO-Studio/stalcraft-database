@@ -1,0 +1,369 @@
+{
+  "id": "rnvg",
+  "category": "artefact/thermal",
+  "name": {
+    "type": "translation",
+    "key": "item.art.jarka_shishka.name",
+    "args": {},
+    "lines": {
+      "ru": "Шишка",
+      "en": "Cone",
+      "es": "Estróbilo",
+      "fr": "Pomme de pin",
+      "ko": "구과"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.thermal",
+            "args": {},
+            "lines": {
+              "ru": "Термические",
+              "en": "Thermal",
+              "es": "Térmico",
+              "fr": "Thermique",
+              "ko": "열"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "67500.0"
+            },
+            "lines": {
+              "ru": "67 500 руб.",
+              "en": "67,500 rubles",
+              "es": "67.500 rublos",
+              "fr": "67 500 roubles",
+              "ko": "67,500 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "min": 13.6952,
+          "max": 16.112,
+          "formatted": {
+            "value": {
+              "ru": "[+13,7%; +16,11%]",
+              "en": "[+13.7%; +16.11%]",
+              "es": "[+13,7 %; +16,11 %]",
+              "fr": "[+13,7%; +16,11%]",
+              "ko": "[+13.7%; +16.11%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température",
+              "ko": "열"
+            }
+          },
+          "min": -4.3247995,
+          "max": -3.6760798,
+          "formatted": {
+            "value": {
+              "ru": "[-4,32; -3,68]",
+              "en": "[-4.32; -3.68]",
+              "es": "[-4,32; -3,68]",
+              "fr": "[-4,32; -3,68]",
+              "ko": "[-4.32; -3.68]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion",
+              "ko": "발화"
+            }
+          },
+          "min": -0.212,
+          "max": -0.1802,
+          "formatted": {
+            "value": {
+              "ru": "[-0,21; -0,18]",
+              "en": "[-0.21; -0.18]",
+              "es": "[-0,21; -0,18]",
+              "fr": "[-0,21; -0,18]",
+              "ko": "[-0.21; -0.18]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.jarka_shishka.description",
+        "args": {},
+        "lines": {
+          "ru": "Артефакт термической природы, встречающийся исключительно в районе Дикого Севера.\\n\\nВнешний вид аномального образования путает многих сталкеров, но не ученых, привыкших доверять своим приборам. Несмотря на существование гипотезы о замещении органических клеток минеральными веществами, анализ фрагментов артефакта показал отсутствие и намека на какую-либо внутреннюю клеточную структуру.\\n\\nПервый сталкер, нашедший «Шишку», счел артефакт за необычный плод чернобыльской ели, из-за чего постарался передать образец в отделение флоры и фауны через знакомого оперативника НИИ. По словам оперативника, ученые успели построить сотню теорий об аномальных елках, пока в крыло биологов случайно не забрел профессор Кубов.",
+          "en": "A thermally based artifact found exclusively in the Wild North.\\n\\nThe appearance of this anomalous formation confuses many stalkers, but not scientists, who are accustomed to trusting their instruments. Despite the existence of a hypothesis suggesting the replacement of organic cells with mineral substances, analysis of artifact fragments has shown no evidence of any internal cellular structure.\\n\\nThe first stalker to discover the Cone believed the artifact to be an unusual fruit of the Chernobyl pine and attempted to pass the sample to the flora and fauna department through a familiar operative of the Scientific Research Institute. According to the operative, the scientists had already developed a hundred theories about anomalous pines by the time Professor Cubov accidentally wandered into the biologists’ wing.",
+          "es": "Artefacto de naturaleza térmica que se encuentra exclusivamente en la región del Norte Salvaje.\\n\\nEl aspecto externo de esta formación anómala confunde a muchos acechadores, pero no a los científicos, acostumbrados a confiar en sus instrumentos. A pesar de la existencia de la hipótesis sobre la sustitución de células orgánicas por sustancias minerales, el análisis de los fragmentos del artefacto reveló la ausencia de cualquier indicio de estructura celular interna. \\n\\nEl primer acechador que encontró Estróbilo consideró que el artefacto era un fruto inusual del abeto de Chernóbil, por lo que intentó entregar la muestra al departamento de flora y fauna a través de un operador conocido del Instituto de Investigación. Según el agente, los científicos habían elaborado un centenar de teorías sobre los abetos anómalos, hasta que el profesor Cubov entró por casualidad en el ala de los biólogos.",
+          "fr": "Artefact de nature thermique, rencontré exclusivement dans la région du Nord Sauvage.\\n\\nL\u0027apparence de la formation anormale trompe de nombreux stalkers, mais pas les scientifiques, habitués à faire confiance à leurs instruments. Malgré l\u0027existence d\u0027une hypothèse sur le remplacement des cellules organiques par des substances minérales, l\u0027analyse des fragments de l\u0027artefact n\u0027a montré aucune trace de structure cellulaire interne.\\n\\nLe premier stalker à avoir trouvé la Pomme de pin a pris l\u0027artefact pour un fruit inhabituel du sapin de Tchernobyl, et a donc essayé de transmettre l\u0027échantillon au département de la flore et de la faune via un opératif de l\u0027Institut de Recherche. Selon l\u0027opératif, les scientifiques ont eu le temps d\u0027élaborer une centaine de théories sur les sapins anormaux, jusqu\u0027à ce que le professeur Kubov ne s\u0027aventure par hasard dans l\u0027aile des biologistes.",
+          "ko": "열성 아티팩트로, 오직 야생 북부 지역에서만 발견된다.\\n\\n이상 현상의 외형은 많은 스토커를 혼란스럽게 하지만, 자신의 기기를 믿는 과학자들에게는 그렇지 않다. 유기 세포가 광물질로 대체되었다는 가설이 존재함에도 불구하고, 아티팩트 조각 분석에서는 어떠한 내부 세포 구조의 흔적도 발견되지 않았다.\\n\\n구과를 처음 발견한 스토커는 아티팩트를 체르노빌 전나무의 특이한 열매로 착각하여, 연구소의 식물·동물 부서로 샘플을 전달하려고 했고, 이를 위해 알고 있는 작전 요원을 통해 전달했다. 요원의 말에 따르면, 과학자들은 이상한 전나무에 대한 수많은 이론을 세우고 있는 중, 우연히 쿠보프 교수가 생물학자 연구실에 들어오게 되었다."
+        }
+      }
+    }
+  ]
+}

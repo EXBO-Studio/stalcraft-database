@@ -1,0 +1,397 @@
+{
+  "id": "jkq7",
+  "category": "artefact/thermal",
+  "name": {
+    "type": "translation",
+    "key": "item.art.jarka_magma.name",
+    "args": {},
+    "lines": {
+      "ru": "Магма",
+      "en": "Magma",
+      "es": "Magma",
+      "fr": "Magma",
+      "ko": "마그마"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.thermal",
+            "args": {},
+            "lines": {
+              "ru": "Термические",
+              "en": "Thermal",
+              "es": "Térmico",
+              "fr": "Thermique",
+              "ko": "열"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "67500.0"
+            },
+            "lines": {
+              "ru": "67 500 руб.",
+              "en": "67,500 rubles",
+              "es": "67.500 rublos",
+              "fr": "67 500 roubles",
+              "ko": "67,500 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": 1.8563999,
+          "max": 2.1839998,
+          "formatted": {
+            "value": {
+              "ru": "[+1,86%; +2,18%]",
+              "en": "[+1.86%; +2.18%]",
+              "es": "[+1,86 %; +2,18 %]",
+              "fr": "[+1,86%; +2,18%]",
+              "ko": "[+1.86%; +2.18%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 보호율"
+            }
+          },
+          "min": 3.8895998,
+          "max": 4.5759997,
+          "formatted": {
+            "value": {
+              "ru": "[+3,89; +4,58]",
+              "en": "[+3.89; +4.58]",
+              "es": "[+3,89; +4,58]",
+              "fr": "[+3,89; +4,58]",
+              "ko": "[+3.89; +4.58]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad",
+              "fr": "Stabilité",
+              "ko": "안정성"
+            }
+          },
+          "min": 5.3924003,
+          "max": 6.344,
+          "formatted": {
+            "value": {
+              "ru": "[+5,39%; +6,34%]",
+              "en": "[+5.39%; +6.34%]",
+              "es": "[+5,39 %; +6,34 %]",
+              "fr": "[+5,39%; +6,34%]",
+              "ko": "[+5.39%; +6.34%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température",
+              "ko": "열"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]",
+              "ko": "[+2.12; +2.5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.jarka_magma.description",
+        "args": {},
+        "lines": {
+          "ru": "Один из самых красивых артефактов Зоны, встречающийся только на Диком Севере.\\n\\nПускай среди обитателей Зоны образование получило доходчивое название «Магма», ученые с точностью могут заявить, что вязкая высокотемпературная жидкость не является расплавленной породой, пускай и очень пытается на нее походить. «Горячая смола», как ее охарактеризовал один из ученых, имеет больше всего сходства с различными углеводородами, что, по предположению сотрудников НИИ-7, и позволяет поддерживать температуру артефакта.\\n\\nХотя «Магма» вполне себе может обжечь, если брать его голыми руками, многие коллекционеры с Большой земли очень заинтересованы в артефакте, желая пополнить им свои коллекции.",
+          "en": "One of the most beautiful artifacts of the Zone, found only in the Wild North.\\n\\nAlthough among the inhabitants of the Zone it has earned the straightforward name Magma, scientists can accurately state that the viscous high-temperature liquid is not molten rock, although it tries very hard to resemble it. Hot Resin, as one scientist described it, has the greatest similarity to various hydrocarbons, which, according to the Research Institute 7 employees, is what allows it to maintain the artifact\u0027s temperature.\\n\\nWhile Magma can certainly cause burns if handled with bare hands, many collectors from the Mainland are very interested in the artifact, eager to add it to their collections.",
+          "es": "Uno de los artefactos más bellos de la Zona, que solo se encuentra en el Norte Salvaje.\\n\\nAunque entre los habitantes de la Zona se le conoce con el nombre popular de Magma, los científicos pueden afirmar con certeza que este líquido viscoso y de alta temperatura no es roca fundida, por mucho que se parezca a ella. La resina caliente, como la describió uno de los científicos, se asemeja más a diversos hidrocarburos, lo que, según la hipótesis de los empleados del Instituto de Investigación 7, permite mantener la temperatura del artefacto.\\n\\nAunque Magma puede quemar si se toca con las manos desnudas, muchos coleccionistas del Continente están muy interesados en el artefacto y desean añadirlo a sus colecciones.",
+          "fr": "Un des plus beaux artefacts de la Zone, que l\u0027on ne trouve que dans le Nord Sauvage.\\n\\nBien que les habitants de la Zone aient baptisé cette formation — Magma, les scientifiques peuvent affirmer avec certitude que ce liquide visqueux à haute température n\u0027est pas de la roche fondue, même s\u0027il s\u0027en approche beaucoup. Le brai brûlant, comme l\u0027a qualifié l\u0027un des chercheurs, présente le plus de similitudes avec divers hydrocarbures, ce qui, selon les collaborateurs de l\u0027Institut de Recherche 7, permettrait de maintenir la température de l\u0027artefact.\\n\\nBien que Magma puisse tout à fait brûler si on le prend à mains nues, de nombreux collectionneurs du Continent sont très intéressés par l\u0027artefact, désirant l\u0027ajouter à leurs collections.",
+          "ko": "구역에서 가장 아름다운 아티팩트 중 하나로, 오직 야생 북부 지역에서만 발견된다.\\n\\n구역 주민들 사이에서는 마그마라는 직관적인 이름으로 불리지만, 과학자들은 끈적거리고 고온인 액체가 녹은 암석이 아니라고 정확히 말할 수 있다. 한 과학자가 표현한 뜨거운 수지라는 설명이 가장 적절하며, 다양한 탄화수소와 가장 유사해, 연구소 7 직원들의 추측으로는 이 덕분에 아티팩트의 온도가 유지되는 것으로 보인다.\\n\\n마그마는 맨손으로 만지면 화상을 입힐 수 있지만, 많은 본토 수집가들은 자신의 컬렉션을 채우기 위해 이 아티팩트에 큰 관심을 보이고 있다."
+        }
+      }
+    }
+  ]
+}

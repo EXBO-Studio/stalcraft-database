@@ -1,0 +1,158 @@
+{
+  "id": "210rv",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.npc_shopot_5.name",
+    "args": {},
+    "lines": {
+      "ru": "Пси-излучатель «Шепота»",
+      "en": "Murmur Psy-Emitter",
+      "es": "Emisor psy de Susurro",
+      "fr": "Émetteur psy du Murmure",
+      "ko": "속삭임 사이킥 방출기"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 12.0,
+          "formatted": {
+            "value": {
+              "ru": "12 кг",
+              "en": "12 kg",
+              "es": "12 kg",
+              "fr": "12 kg",
+              "ko": "12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "90000.0"
+            },
+            "lines": {
+              "ru": "90 000 руб.",
+              "en": "90,000 rubles",
+              "es": "90.000 rublos",
+              "fr": "90 000 roubles",
+              "ko": "90,000 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.filler.npc_shopot_5.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Рабочий пси-излучатель, который, по данным с обороны Периметра, используется для вербовки пленных в ряды «Шепота». Несмотря на выключенное состояние, оказывает слабое пси-воздействие. Однако, как показали эксперименты с подобными образцами, одно лишь воздействие излучателя не может превратить обычного человека в «шепчущего», так что стоит опасаться лишь пагубных последствий от пси-излучения.",
+          "en": "A working psy-emitter, which, according to Perimeter defense data, is used to recruit captives into Murmur. Despite being turned off, it has a weak psy effect. However, experiments with similar samples have shown that the emitter\u0027s influence alone cannot turn an ordinary person into a \"whispering\" one, so only the harmful effects of the psy-radiation should be feared.",
+          "es": "Emisor psy operativo que, según datos de la defensa del Perímetro, se utiliza para reclutar prisioneros para las filas de Susurro. A pesar de estar apagado, ejerce un débil efecto psy. Sin embargo, como han demostrado los experimentos con muestras similares, la mera exposición al emisor no puede convertir a una persona normal en un susurrador, por lo que solo hay que temer las consecuencias perjudiciales de la emisión psy.",
+          "fr": "Émetteur Psy fonctionnel du Murmure, qui, selon les données de la défense du Périmètre, serait utilisé pour enrôler des prisonniers dans les rangs du Murmure. Bien qu\u0027il soit éteint, il exerce une faible influence Psy. Cependant, comme l\u0027ont démontré des expériences avec des échantillons similaires, la simple exposition à l\u0027émetteur ne peut transformer un être humain ordinaire en murmureur. Il convient donc seulement de craindre les effets néfastes du rayonnement Psy.",
+          "ko": "작동 중인 사이킥 방출기로, 경계 방어 데이터에 따르면 포로를 속삭임 진영으로 끌어들이는 데 사용된다. 꺼져 있음에도 약한 심리 효과를 발휘한다. 하지만 유사 샘플 실험 결과, 방출기의 단독 심리 효과만으로 일반인을 속삭이는 자로 만들 수 없으므로, 주의해야 할 것은 사이킥 방출로 인한 부정적인 영향뿐이다."
+        }
+      }
+    }
+  ]
+}

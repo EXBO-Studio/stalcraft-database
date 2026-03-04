@@ -1,0 +1,284 @@
+{
+  "id": "mrwr7",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.stash_placer.base_master.name",
+    "args": {},
+    "lines": {
+      "ru": "Схрон мастера",
+      "en": "Master stash",
+      "es": "Alijo de maestro",
+      "fr": "Cachette de Maître",
+      "ko": "마스터 은닉품"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2.0,
+          "formatted": {
+            "value": {
+              "ru": "2 кг",
+              "en": "2 kg",
+              "es": "2 kg",
+              "fr": "2 kg",
+              "ko": "2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.stash_placer.info.type",
+            "args": {},
+            "lines": {
+              "ru": "Тип",
+              "en": "Type",
+              "es": "Tipo",
+              "fr": "Type",
+              "ko": "종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.stash.type.common",
+            "args": {},
+            "lines": {
+              "ru": "стандартный",
+              "en": "standard",
+              "es": "estándar",
+              "fr": "standard",
+              "ko": "표준"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.stash_placer.info.inventory",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité",
+              "ko": "용량"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "8 x 2"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.stash_placer.info.max_weight",
+            "args": {},
+            "lines": {
+              "ru": "Максимальный вес",
+              "en": "Maximum weight",
+              "es": "Peso máximo",
+              "fr": "Poids maximal",
+              "ko": "최대 무게"
+            }
+          },
+          "value": 30.0,
+          "formatted": {
+            "value": {
+              "ru": "30 кг",
+              "en": "30 kg",
+              "es": "30 kg",
+              "fr": "30 kg",
+              "ko": "30 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.stash_placer.info.reliability",
+            "args": {},
+            "lines": {
+              "ru": "Надежность",
+              "en": "Reliability",
+              "es": "Fiabilidad",
+              "fr": "Fiabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 60.000004,
+          "formatted": {
+            "value": {
+              "ru": "60%",
+              "en": "60%",
+              "es": "60 %",
+              "fr": "60%",
+              "ko": "60%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.stash_placer.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Оставшееся время существования",
+              "en": "Remaining time of existence",
+              "es": "Tiempo restante de existencia",
+              "fr": "Durée d\u0027existence restante",
+              "ko": "남은 유지 시간"
+            }
+          },
+          "value": 90000.0,
+          "formatted": {
+            "value": {
+              "ru": "1 дн. 1 ч",
+              "en": "1 day 1 hr",
+              "es": "1 d 1 h",
+              "fr": "1 j 1 h",
+              "ko": "1일 1시간"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.stash_placer.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "§#EEEEEEСхрон — ваш лучший помощник в выносе выпадаемого ценного лута из самых опасных закоулков Зоны. Его можно установить в любом месте открытого мира и спокойно складывать туда всё найденное — главное не прозевать таймер.",
+          "en": "§#EEEEEEStash is your best helper for extracting valuable loot from the most dangerous corners of the Zone. You can place it anywhere in the open world and safely store all the items you find there — just make sure not to miss the timer!",
+          "es": "§#EEEEEEAlijo es tu mejor ayudante para sacar valiosos botines de los rincones más peligrosos de la Zona. Puedes instalarla en cualquier lugar del mundo abierto y poner a buen recaudo todo lo que encuentres allí... ¡lo principal es que no se te pase el temporizador!",
+          "fr": "§#EEEEEELa cachette est votre meilleure amie pour extraire des objets précieux jusque dans les recoins les plus dangereux de la Zone. Vous pouvez la placer n\u0027importe où dans le monde ouvert et les y ranger... mais faites attention au minuteur !",
+          "ko": "§#EEEEEE은닉품은 구역의 가장 위험한 지역에서 귀중한 전리품을 내보내는 데 있어 유용한 수단이다. 오픈 월드 곳곳에 은닉품을 두고 안전하게 아이템을 보관할 수 있다. 단, 타이머가 있다는 점을 잊지 않도록!"
+        }
+      }
+    }
+  ]
+}

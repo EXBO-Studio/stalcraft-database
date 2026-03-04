@@ -1,0 +1,425 @@
+{
+  "id": "lj0j",
+  "category": "artefact/electrophysical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.electra_katushka.name",
+    "args": {},
+    "lines": {
+      "ru": "Катушка",
+      "en": "Coil",
+      "es": "Bobina",
+      "fr": "Bobine",
+      "ko": "코일"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.electrophysical",
+            "args": {},
+            "lines": {
+              "ru": "Электрофизические",
+              "en": "Electrophysical",
+              "es": "Electrofísica",
+              "fr": "Électrophysique",
+              "ko": "전기물리"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "47000.0"
+            },
+            "lines": {
+              "ru": "47 000 руб.",
+              "en": "47,000 rubles",
+              "es": "47.000 rublos",
+              "fr": "47 000 roubles",
+              "ko": "47,000 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "min": 1.1220001,
+          "max": 1.32,
+          "formatted": {
+            "value": {
+              "ru": "[+1,12%; +1,32%]",
+              "en": "[+1.12%; +1.32%]",
+              "es": "[+1,12 %; +1,32 %]",
+              "fr": "[+1,12%; +1,32%]",
+              "ko": "[+1.12%; +1.32%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "min": 1.4960002,
+          "max": 1.7600001,
+          "formatted": {
+            "value": {
+              "ru": "[+1,5%; +1,76%]",
+              "en": "[+1.5%; +1.76%]",
+              "es": "[+1,5 %; +1,76 %]",
+              "fr": "[+1,5%; +1,76%]",
+              "ko": "[+1.5%; +1.76%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "min": 4.3945003,
+          "max": 5.17,
+          "formatted": {
+            "value": {
+              "ru": "[+4,39; +5,17]",
+              "en": "[+4.39; +5.17]",
+              "es": "[+4,39; +5,17]",
+              "fr": "[+4,39; +5,17]",
+              "ko": "[+4.39; +5.17]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Resistance to fire",
+              "es": "Resistencia al fuego",
+              "fr": "Résistance au feu",
+              "ko": "화염 보호율"
+            }
+          },
+          "min": 15.147002,
+          "max": 17.820002,
+          "formatted": {
+            "value": {
+              "ru": "[+15,15; +17,82]",
+              "en": "[+15.15; +17.82]",
+              "es": "[+15,15; +17,82]",
+              "fr": "[+15,15; +17,82]",
+              "ko": "[+15.15; +17.82]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température",
+              "ko": "열"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]",
+              "ko": "[+2.12; +2.5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.electra_katushka.description",
+        "args": {},
+        "lines": {
+          "ru": "Представитель электрофизических артефактов, который можно обнаружить лишь на территории Дикого Севера.\\n\\nЗначительная часть свойств «Катушки», по словам сотрудников отделения артефактологии, остается неясной. Тем не менее, образование ионизированного воздуха вокруг артефакта была не так давно объяснена в одном из докладов НИИ-7. Как заявляют ученые, «Катушка» формирует ультрафиолетовое излучение в диапазоне около 100 нм, что позволяет запустить процесс фотоионизации.\\n\\nПускай ионизированный воздух оказывает положительное влияние на здоровье, многие сталкеры опасаются носить артефакт без контейнера. По слухам, один из ветеранов, что притащил с десяток «Катушек» из затяжного рейда, получил разряд молнии в закрытом помещении!",
+          "en": "A representative of electrophysical artifacts that can be found only in the territory of the Wild North.\\n\\nA significant portion of the properties of the Coil, according to the artifactology department staff, remains unclear. Nevertheless, the formation of ionized air around the artifact was recently explained in a report by Research Institute 7. Scientists state that Coil emits ultraviolet radiation in the range of about 100 nm, which initiates the process of photoionization.\\n\\nAlthough ionized air has a positive effect on health, many stalkers are wary of carrying the artifact without a container. Rumor has it that one veteran who brought a dozen Coils from an extended raid was struck by lightning indoors!",
+          "es": "Representante de los artefactos electrofísicos, que solo se pueden encontrar en el territorio del Norte Salvaje.\\n\\nSegún los empleados del departamento de artefactología, gran parte de las propiedades de Bobina siguen sin estar claras. Sin embargo, la formación de aire ionizado alrededor del artefacto se explicó hace poco en uno de los informes del Instituto de Investigación 7. Según los científicos, Bobina genera radiación ultravioleta en el rango de unos 100 nm, lo que permite iniciar el proceso de fotoionización.\\n\\nAunque el aire ionizado tiene un efecto positivo en la salud, muchos acechadores temen llevar el artefacto sin un contenedor. ¡Según los rumores, uno de los veteranos, que trajo una docena de Bobinas de una incursión prolongada, recibió una descarga de rayos en un espacio cerrado!",
+          "fr": "Représentant des artefacts électrophysiques, que l\u0027on ne peut trouver que sur le territoire du Nord Sauvage.\\n\\nUne grande partie des propriétés de la Bobine, selon les collaborateurs du département d\u0027artefactologie, reste obscure. Néanmoins, la formation d\u0027air ionisé autour de l\u0027artefact a été récemment expliquée dans un rapport de l\u0027Institut de Recherche 7. Comme l\u0027affirment les scientifiques, la Bobine génère un rayonnement ultraviolet dans la plange d\u0027environ 100 nm, ce qui déclenche un processus de photo-ionisation.\\n\\nBien que l\u0027air ionisé ait un effet positif sur la santé, de nombreux stalkers hésitent à porter l\u0027artefact sans conteneur. La rumeur dit que l\u0027un des vétérans, qui a rapporté une dizaine de Bobines d\u0027un raid prolongé, a été frappé par un éclair à l\u0027intérieur d\u0027un local fermé !",
+          "ko": "전기물리 아티팩트인 코일은 오직 야생 북부 지역에서만 발견된다.\\n\\n아티팩톨로지 부서 연구원들에 따르면 코일의 많은 특성은 아직 명확하지 않다. 그럼에도 불구하고, 최근 제7연구소 보고서에서는 아티팩트 주변에서 발생하는 이온화 공기 현상이 설명되었다. 연구원들은 코일이 약 100nm 범위의 자외선을 발생시켜 광이온화 과정을 유도한다고 주장한다.\\n\\n이온화 공기가 건강에 긍정적인 영향을 미치긴 하지만, 많은 스토커들은 아티팩트를 컨테이너 없이 휴대하는 것을 꺼린다. 소문에 따르면, 한 베테랑이 장기간 레이드에서 코일 열 개 정도를 가져왔는데, 실내에서 번개를 맞은 일이 있었다."
+        }
+      }
+    }
+  ]
+}

@@ -13,7 +13,7 @@
       "ko": "III-B"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_MASTER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -25,6 +25,33 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
         {
           "type": "key-value",
           "key": {
@@ -41,14 +68,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.skins",
+            "key": "core.handbook.category.armor_motif",
             "args": {},
             "lines": {
-              "ru": "Косметика",
-              "en": "Cosmetics",
-              "es": "Cosméticos",
-              "fr": "Cosmétique",
-              "ko": "꾸미기"
+              "ru": "Мотив брони",
+              "en": "Armor motif",
+              "es": "Motivo para armadura",
+              "fr": "Motif d\u0027armure",
+              "ko": "방어구 장식"
             }
           }
         }
@@ -89,59 +116,6 @@
         }
       }
     },
-    {
-      "type": "list",
-      "title": {
-        "type": "text",
-        "text": ""
-      },
-      "elements": [
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.lore.skin.all_suitable_targets",
-            "args": {},
-            "lines": {
-              "ru": "Подходит для:",
-              "en": "Suitable for:",
-              "es": "Adecuado para:",
-              "fr": "Compatible avec :",
-              "ko": "적용 가능:"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.exo_mod.name",
-            "args": {},
-            "lines": {
-              "ru": "Экзоброня «Гектор»",
-              "en": "Hector Exoarmor",
-              "es": "Exoarmadura Héctor",
-              "fr": "Exoarmure Hector",
-              "ko": "헥토르 강화전투복"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.arm.smog.name",
-            "args": {},
-            "lines": {
-              "ru": "Тяжелый бронекостюм «Туманный охотник»",
-              "en": "Fog Hunter Heavy Armored Suit",
-              "es": "Traje blindado pesado Cazador de la niebla",
-              "fr": "Combinaison Blindée Lourde Chasseur du Brouillard",
-              "ko": "안개 사냥꾼 중장갑 슈트"
-            }
-          }
-        }
-      ]
-    }
+    {}
   ]
 }

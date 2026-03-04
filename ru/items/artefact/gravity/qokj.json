@@ -1,0 +1,369 @@
+{
+  "id": "qokj",
+  "category": "artefact/gravity",
+  "name": {
+    "type": "translation",
+    "key": "item.art.trampoline_pumpkin.name",
+    "args": {},
+    "lines": {
+      "ru": "Тыква",
+      "en": "Pumpkin",
+      "es": "Calabaza",
+      "fr": "Citrouille",
+      "ko": "호박"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.gravity",
+            "args": {},
+            "lines": {
+              "ru": "Гравитационные",
+              "en": "Gravitational",
+              "es": "Gravitacional",
+              "fr": "Gravitationnelle",
+              "ko": "중력"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg",
+              "fr": "0,15 kg",
+              "ko": "0.15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "50100.0"
+            },
+            "lines": {
+              "ru": "50 100 руб.",
+              "en": "50,100 rubles",
+              "es": "50.100 rublos",
+              "fr": "50 100 roubles",
+              "ko": "50,100 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "min": 6.2050004,
+          "max": 7.3,
+          "formatted": {
+            "value": {
+              "ru": "[+6,21; +7,3]",
+              "en": "[+6.21; +7.3]",
+              "es": "[+6,21; +7,3]",
+              "fr": "[+6,21; +7,3]",
+              "ko": "[+6.21; +7.3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "min": 2.89,
+          "max": 3.4,
+          "formatted": {
+            "value": {
+              "ru": "[+2,89%; +3,4%]",
+              "en": "[+2.89%; +3.4%]",
+              "es": "[+2,89 %; +3,4 %]",
+              "fr": "[+2,89%; +3,4%]",
+              "ko": "[+2.89%; +3.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "min": -4.08,
+          "max": -3.468,
+          "formatted": {
+            "value": {
+              "ru": "[-4,08; -3,47]",
+              "en": "[-4.08; -3.47]",
+              "es": "[-4,08; -3,47]",
+              "fr": "[-4,08; -3,47]",
+              "ko": "[-4.08; -3.47]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.trampoline_pumpkin.description",
+        "args": {},
+        "lines": {
+          "ru": "Необычный артефакт, образующийся близ гравитационных аномалий на Диком Севере.\\nСтранная геометрическая правильность «Тыквы» сразу натолкнула ученых на предположение о родстве артефакта с «Многогранником», однако никаких серьезных сходств при всевозможных анализах образования обнаружено не было. Профессор Кубов, в свою очередь, считает существование «Тыквы» подтверждением своей гипотезы об универсальных структурах.\\nСталкеры, обычно не интересующиеся высокой материей, не заметили в «правильности» форм артефакта ничего экстраординарного, окрестив его «Тыквой» за характерные прожилки.",
+          "en": "An unusual artifact formed near gravitational anomalies in the Wild North.\\nThe strange geometrical regularity of the Pumpkin immediately led scientists to hypothesize its kinship with the Polyhedron, but no serious similarities were found in various analyses. Professor Kubov, on the other hand, considers the existence of the Pumpkin as confirmation of his hypothesis about universal structures. Stalkers, usually uninterested in high matters, saw nothing extraordinary in the regularity of the artifact\u0027s shapes, dubbing it Pumpkin for its characteristic veins.",
+          "es": "Un artefacto inusual que se forma cerca de anomalías gravitacionales en el Norte Salvaje.\\nLa extraña regularidad geométrica de Calabaza llevó inmediatamente a los científicos a suponer que el artefacto estaba relacionado con Poliedro, pero no se encontraron similitudes significativas tras realizar todo tipo de análisis de la formación. El profesor Cubov, por su parte, considera que la existencia de Calabaza confirma su hipótesis sobre las estructuras universales.\\nLos acechadores, que normalmente no se interesan por la materia elevada, no vieron nada extraordinario en la corrección de las formas del artefacto y lo bautizaron como Calabaza por sus características vetas.",
+          "fr": "Artefact inhabituel, se formant près des anomalies gravitationnelles dans le Nord Sauvage.\\nLa régularité géométrique étrange de la Citrouille a immédiatement conduit les scientifiques à soupçonner une parenté avec le Polyèdre, mais aucune similitude sérieuse n\u0027a été détectée lors des diverses analyses de la formation. Le professeur Kubov, pour sa part, considère l\u0027existence de la Citrouille comme une confirmation de son hypothèse sur les structures universelles.\\nLes stalkers, généralement peu intéressés par les hautes sphères de la science, n\u0027ont rien trouvé d\u0027extraordinaire dans la régularité des formes de l\u0027artefact, l\u0027ayant surnommé Citrouille en raison de ses veines caractéristiques.",
+          "ko": "호박 아티팩트는 야생 북부 지역의 중력 이상현상 근처에서 형성된다.\\n호박의 기묘하게 규칙적인 기하학적 형태는 과학자들로 하여금 다면체와의 관련성을 추정하게 했으나, 다양한 분석을 통해 뚜렷한 유사점은 발견되지 않았다. 쿠보프 교수는 호박의 존재가 자신의 보편 구조 가설을 뒷받침한다고 본다.\\n보통 고차원 물질에는 관심이 없는 스토커들은 아티팩트 형태의 규칙성에서 특별한 점을 발견하지 못했으며, 특징적인 줄무늬 때문에 이를 호박이라 부르게 되었다."
+        }
+      }
+    }
+  ]
+}

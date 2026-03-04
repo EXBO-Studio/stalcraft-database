@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "102000.0"
+              "cost": "104000.0"
             },
             "lines": {
-              "ru": "102 000 руб.",
-              "en": "102,000 rubles",
-              "es": "102.000 rublos",
-              "fr": "102 000 roubles",
-              "ko": "102,000 루블"
+              "ru": "104 000 руб.",
+              "en": "104,000 rubles",
+              "es": "104.000 rublos",
+              "fr": "104 000 roubles",
+              "ko": "104,000 루블"
             }
           }
         }
@@ -260,6 +260,34 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": 0.867,
+          "max": 1.02,
+          "formatted": {
+            "value": {
+              "ru": "[+0,87%; +1,02%]",
+              "en": "[+0.87%; +1.02%]",
+              "es": "[+0,87 %; +1,02 %]",
+              "fr": "[+0,87%; +1,02%]",
+              "ko": "[+0.87%; +1.02%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
         {
           "type": "range",
           "name": {
@@ -395,34 +423,6 @@
               "es": "[-1,31; -1,11]",
               "fr": "[-1,31; -1,11]",
               "ko": "[-1.31; -1.11]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
-            "args": {},
-            "lines": {
-              "ru": "Кровотечение",
-              "en": "Bleeding",
-              "es": "Hemorragia",
-              "fr": "Saignement",
-              "ko": "출혈"
-            }
-          },
-          "min": -0.918,
-          "max": -0.7803,
-          "formatted": {
-            "value": {
-              "ru": "[-0,92; -0,78]",
-              "en": "[-0.92; -0.78]",
-              "es": "[-0,92; -0,78]",
-              "fr": "[-0,92; -0,78]",
-              "ko": "[-0.92; -0.78]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
