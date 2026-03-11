@@ -441,7 +441,7 @@
         "ru": "Экипировать броню ранга Ветеран",
         "en": "Equip Veteran-rank armor",
         "es": "Equipar armadura de rango Veterano",
-        "fr": "Équiper une armure de niveau vétéran",
+        "fr": "Équiper une armure de niveau Vétéran",
         "ko": "베테랑 등급 방어구 장착"
       }
     },
@@ -11305,7 +11305,7 @@
         "ru": "Посетить комбинат «Уран»",
         "en": "Visit Uranus Mill",
         "es": "Visitar el complejo Urano",
-        "fr": "Découvrir l’Usine Uranus",
+        "fr": "Découvrir l\u0027Usine Uranus",
         "ko": "우라누스 단지 방문하기"
       }
     },
@@ -13547,6 +13547,230 @@
         "es": "Encontrar todos los tanques en Boral",
         "fr": "Trouver tous les chars sur Boral",
         "ko": "보랄에서 모든 전차를 찾기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "operations_sea_alienation_15",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.operations_sea_alienation_15.title",
+      "args": {},
+      "lines": {
+        "ru": "Гуманитарий",
+        "en": "Humanist",
+        "es": "Humanista",
+        "fr": "Littéraire",
+        "ko": "인도주의자"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.operations_sea_alienation_15.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить Технаря на 15 допуске или выше и завершить Операцию «Море отчуждения»",
+        "en": "Kill Tech at Clearance 15 or higher and complete the Sea of Exclusion Operation",
+        "es": "Matar a Ingeniero en el nivel 15 o superior y completar la Operación Mar de Exclusión",
+        "fr": "Éliminer le Technomancien au niveau d\u0027Accès 15 ou supérieur et terminer l\u0027opération Mer d\u0027exclusion",
+        "ko": "15 등급 이상에서 기술자를 처치하고 격리의 바다 작전을 완료하기"
+      }
+    },
+    "points": 15
+  },
+  {
+    "id": "operations_blind_luck",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.blind_luck.title",
+      "args": {},
+      "lines": {
+        "ru": "Слепая удача",
+        "en": "Blind Luck",
+        "es": "Suerte ciega",
+        "fr": "Chance aveugle",
+        "ko": "맹목적인 행운"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.blind_luck.desc",
+      "args": {},
+      "lines": {
+        "ru": "На этапе «Морской бой» во время прохождения Операции «Море отчуждения» попасть в цель без использования Радара на 9 допуске или выше",
+        "en": "At the Battleship phase during the Sea of Exclusion Operation, hit the target without using the Radar at clearance level 9 or higher",
+        "es": "En la fase Batalla naval durante la Operación Mar de Exclusión, alcanzar el objetivo sin usar el Radar con un acceso de 9 o superior",
+        "fr": "Lors de l\u0027étape Bataille navale dans l\u0027Opération Mer d\u0027exclusion, toucher la cible sans utiliser le radar au niveau d\u0027Accès 9 ou supérieur",
+        "ko": "격리의 바다 작전 진행 중 해전 단계에서 레이더를 사용하지 않고 목표물을 명중시키라 (9 등급 이상)"
+      }
+    },
+    "points": 20
+  },
+  {
+    "id": "operations_under_pressure",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.under_pressure.title",
+      "args": {},
+      "lines": {
+        "ru": "Под давлением",
+        "en": "Under Pressure",
+        "es": "Bajo presión",
+        "fr": "Sous pression",
+        "ko": "압박 속에서"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.under_pressure.desc",
+      "args": {},
+      "lines": {
+        "ru": "На этапе «Контроль Давления» во время прохождения Операции «Море отчуждения» иметь все контроллеры в зеленом состоянии на 9 допуске или выше",
+        "en": "At the Pressure Control phase during the Sea of Exclusion Operation, have all controllers in the green state at a 9 clearance level or higher",
+        "es": "En la fase Control de presión durante la Operación Mar de Exclusión, tener todos los controladores en estado verde con un acceso de 9 o superior",
+        "fr": "Lors de l\u0027étape Régulateur de pression dans l\u0027opération Mer d\u0027exclusion, maintenir tous les contrôleurs dans la zone verte au niveau d\u0027Accès 9 ou supérieur",
+        "ko": "격리의 바다 작전 진행 중 압력 제어 단계에서 모든 컨트롤러를 녹색 상태로 유지하라 (9 등급 이상)"
+      }
+    },
+    "points": 20
+  },
+  {
+    "id": "operations_electrician",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.electrician.title",
+      "args": {},
+      "lines": {
+        "ru": "Электрик 9го разряда",
+        "en": "Grade 9 Electrician",
+        "es": "Electricista de 9ª categoría",
+        "fr": "Électricien hors classe",
+        "ko": "9급 전기기사"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.electrician.desc",
+      "args": {},
+      "lines": {
+        "ru": "В битве с Технарем во время прохождения Операции «Море отчуждения» не отключать способность «Тесла-Протокол» ни разу на 9 допуске или выше",
+        "en": "During the battle with Tech in the Sea of Exclusion Operation, do not disable the Tesla Protocol ability even once at clearance level 9 or higher",
+        "es": "En la batalla contra Ingeniero durante la Operación Mar de Exclusión, no desactives la habilidad Protocolo Tesla ni una sola vez en el acceso de 9 o superior",
+        "fr": "Lors du combat contre le Technomancien dans l\u0027opération Mer d\u0027exclusion, ne jamais interrompre la capacité Protocole Tesla au niveau d\u0027Accès 9 ou supérieur",
+        "ko": "격리의 바다 작전 진행 중 기술병과의 전투에서 테슬라 프로토콜 능력을 단 한 번도 끄지 말라 (9 등급 이상)"
+      }
+    },
+    "points": 20
+  },
+  {
+    "id": "unnamed_deep_bro",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.unnamed_deep_bro.title",
+      "args": {},
+      "lines": {
+        "ru": "Бро",
+        "en": "Bro",
+        "es": "Bro",
+        "fr": "Bro",
+        "ko": "브로"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.unnamed_deep_bro.desc",
+      "args": {},
+      "lines": {
+        "ru": "Стукнуть кулачком Мауса",
+        "en": "To give Mouse a fist bump",
+        "es": "Golpear con el puño de Maus",
+        "fr": "Faire un check du poing avec Maus",
+        "ko": "마우스를 주먹으로 치기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "unnamed_deep_no_bro",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.unnamed_deep_no_bro.title",
+      "args": {},
+      "lines": {
+        "ru": "Не Бро",
+        "en": "Not Bro",
+        "es": "No Bro",
+        "fr": "Pas un bro",
+        "ko": "브로 아님"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.unnamed_deep_no_bro.desc",
+      "args": {},
+      "lines": {
+        "ru": "Проигронировать желание Мауса стукаться кулачками",
+        "en": "To ignore Mouse\u0027s desire to fist bump",
+        "es": "Ignorar el deseo de Maus de golpear con los puños",
+        "fr": "Ignorer l\u0027envie de Maus de se taper le poing",
+        "ko": "마우스의 주먹질 욕망을 무시하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "leviathan_pray",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.leviathan_pray.title",
+      "args": {},
+      "lines": {
+        "ru": "Правоверный",
+        "en": "Righteous",
+        "es": "Ortodoxo",
+        "fr": "Croyant",
+        "ko": "정통 신도"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.leviathan_pray.desc",
+      "args": {},
+      "lines": {
+        "ru": "В любой непонятной ситуации - молись",
+        "en": "When in doubt, pray",
+        "es": "En cualquier situación incomprensible, reza",
+        "fr": "Dans toute situation incompréhensible, prie.",
+        "ko": "모든 난관에 처했을 때는 – 기도하라"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "leviathan_disk",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.leviathan_disk.title",
+      "args": {},
+      "lines": {
+        "ru": "Тормозок",
+        "en": "Slow One",
+        "es": "Freno",
+        "fr": "Freinou",
+        "ko": "느림보"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.leviathan_disk.desc",
+      "args": {},
+      "lines": {
+        "ru": "У тебя была задача забрать жёсткие диски, но похоже ты и до этого не допер.",
+        "en": "You were supposed to pick up the hard drives, but apparently you still haven\u0027t figured that out.",
+        "es": "Tenías la tarea de recoger los discos duros, pero parece que ni siquiera te diste cuenta.",
+        "fr": "T\u0027avais la mission de récupérer les disques durs, mais on dirait que t\u0027as même pas capté avant.",
+        "ko": "하드 드라이브를 가져오라는 임무가 있었는데, 보아하니 그 전에도 이해를 못 했던 것 같군."
       }
     },
     "points": 10

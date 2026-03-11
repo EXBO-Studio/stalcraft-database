@@ -1,0 +1,397 @@
+{
+  "id": "6goy",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.lesta_petlya.name",
+    "args": {},
+    "lines": {
+      "ru": "Петля",
+      "en": "Noose",
+      "es": "Bucle",
+      "fr": "Boucle",
+      "ko": "루프"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.12,
+          "formatted": {
+            "value": {
+              "ru": "0,12 кг",
+              "en": "0.12 kg",
+              "es": "0,12 kg",
+              "fr": "0,12 kg",
+              "ko": "0.12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "40800.0"
+            },
+            "lines": {
+              "ru": "40 800 руб.",
+              "en": "40,800 rubles",
+              "es": "40.800 rublos",
+              "fr": "40 800 roubles",
+              "ko": "40,800 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "min": 1.0404,
+          "max": 1.224,
+          "formatted": {
+            "value": {
+              "ru": "[+1,04%; +1,22%]",
+              "en": "[+1.04%; +1.22%]",
+              "es": "[+1,04 %; +1,22 %]",
+              "fr": "[+1,04%; +1,22%]",
+              "ko": "[+1.04%; +1.22%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "min": 1.3872,
+          "max": 1.632,
+          "formatted": {
+            "value": {
+              "ru": "[+1,39%; +1,63%]",
+              "en": "[+1.39%; +1.63%]",
+              "es": "[+1,39 %; +1,63 %]",
+              "fr": "[+1,39%; +1,63%]",
+              "ko": "[+1.39%; +1.63%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]",
+              "ko": "[+2.12; +2.5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.recoil_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso",
+              "fr": "Recul",
+              "ko": "반동"
+            }
+          },
+          "min": -2.652,
+          "max": -2.2542,
+          "formatted": {
+            "value": {
+              "ru": "[-2,65%; -2,25%]",
+              "en": "[-2.65%; -2.25%]",
+              "es": "[-2,65 %; -2,25 %]",
+              "fr": "[-2,65%; -2,25%]",
+              "ko": "[-2.65%; -2.25%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.lesta_petlya.description",
+        "args": {},
+        "lines": {
+          "ru": "Необычный артефакт, представляющий из себя постоянно циркулирующий поток воды, переливающийся по замкнутому кругу.\\n\\nНесмотря на то, что «Петля» состоит из жидкости, ее вполне можно держать в руках — главное не упустить «струю», которая может спокойно «вытечь» из рук.\\n\\nПоговаривают, что несколько сталкеров пытались поэкспериментировать с артефактом, желая попрепятствовать потоку жидкости. Однако та лишь больше изогнулась, вернувшись к привычному узору потока.\\n\\nНыне, в Баре ходят слухи, что артефакт неплохо чистит внутренние стенки контейнеров, но подтверждения этому до сих пор нет.",
+          "en": "An unusual artifact representing a constantly circulating stream of water flowing in a closed loop.\\n\\nDespite being composed of liquid, the “Loop” can be held in one’s hands—the main challenge is not letting the stream slip away, as it can easily “flow” out of your grip.\\n\\nIt is said that several stalkers attempted to experiment with the artifact, trying to disrupt the flow of the liquid. However, it merely bent further and returned to its usual pattern of circulation.\\n\\nNowadays, rumors circulate in the Bar that the artifact does a surprisingly good job of cleaning the inner walls of containers, although this has yet to be confirmed.",
+          "es": "Un artefacto inusual que consiste en un flujo de agua en constante circulación, que se desliza en un círculo cerrado. \\n\\nA pesar de que Bucle está compuesto por líquido, se puede sostener con las manos; lo importante es no dejar escapar el chorro, que puede escaparse fácilmente de las manos.\\n\\nSe rumorea que varios acechadores intentaron experimentar con el artefacto con el fin de impedir el flujo de líquido. Sin embargo, este solo se curvó aún más, volviendo a su patrón habitual.\\n\\nActualmente, en el Bar circulan rumores de que el artefacto limpia bastante bien las paredes internas de los contenedores, pero aún no hay confirmación de ello.",
+          "fr": "Artefact inhabituel consistant en un flux d\u0027eau en circulation permanente, s\u0027écoulant en boucle fermée.\\n\\nBien que la Boucle soit composée de liquide, on peut tout à fait la tenir en mains — à condition de ne pas laisser échapper le jet, qui peut facilement couler entre les doigts.\\n\\nOn raconte que plusieurs stalkers ont tenté d\u0027expérimenter avec l\u0027artefact, cherchant à interrompre le flux. Mais celui-ci s\u0027est simplement incurvé davantage, pour revenir à son motif d\u0027écoulement habituel.\\n\\nAujourd\u0027hui, au Bar, des rumeurs circulent selon lesquelles l\u0027artefact nettoierait efficacement les parois internes des conteneurs, mais aucune confirmation n\u0027existe à ce jour.",
+          "ko": "특이한 아티팩트로, 끊임없이 순환하는 물줄기가 닫힌 원을 따라 흐르는 형태이다.\\n\\n루프는 액체로 이루어져 있지만, 손으로 잡는 것이 가능하다 — 중요한 것은 흐르는 줄기를 놓치지 않는 것이다. 손에서 흘러나갈 수 있기 때문이다.\\n\\n전해지기로는 몇몇 스토커들이 아티팩트를 가지고 실험을 시도했으나, 흐름을 막으려 해도 물줄기는 더 크게 굽어 원래의 흐름 패턴으로 돌아갔다.\\n\\n현재 바에서는 이 아티팩트가 용기 내부를 잘 청소한다는 소문이 돌지만, 아직 확인된 바는 없다."
+        }
+      }
+    }
+  ]
+}

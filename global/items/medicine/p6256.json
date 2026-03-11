@@ -244,6 +244,33 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d\u0027utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.tooltip.medicine.info.toxicity",
             "args": {},
             "lines": {
@@ -640,11 +667,11 @@
         "key": "item.med.detox.additional_stats_tip",
         "args": {},
         "lines": {
-          "ru": "С того света за 5 секунд!",
-          "en": "From the other side in 5 seconds!",
-          "es": "¡Desde el otro lado en 5 segundos!",
-          "fr": "De l\u0027autre côté en 5 secondes !",
-          "ko": "저세상에서 이승으로 단 5초 만에!"
+          "ru": "С того света за 3 секунды!",
+          "en": "Back from the dead in 3 seconds!",
+          "es": "¡Desde el otro lado en 3 segundos!",
+          "fr": "De l\u0027autre côté en 3 secondes !",
+          "ko": "저세상에서 이승으로 단 3초 만에!"
         }
       }
     }

@@ -262,14 +262,14 @@
               "ko": "피해량"
             }
           },
-          "value": 475.13412,
+          "value": 446.7073,
           "formatted": {
             "value": {
-              "ru": "475,13 ед",
-              "en": "475.13 unit(s)",
-              "es": "475,13 unidad(es)",
-              "fr": "475,13 unité(s)",
-              "ko": "475.13 유닛"
+              "ru": "446,71 ед",
+              "en": "446.71 unit(s)",
+              "es": "446,71 unidad(es)",
+              "fr": "446,71 unité(s)",
+              "ko": "446.71 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -397,14 +397,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.38,
+          "value": 0.44000006,
           "formatted": {
             "value": {
-              "ru": "0,38°",
-              "en": "0.38°",
-              "es": "0,38°",
-              "fr": "0,38°",
-              "ko": "0.38°"
+              "ru": "0,44°",
+              "en": "0.44°",
+              "es": "0,44°",
+              "fr": "0,44°",
+              "ko": "0.44°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -601,14 +601,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.875"
+              "modifier": "0.9"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,88",
-              "en": "Limb damage: x0.88",
-              "es": "Daño a extremidades: x0,88",
-              "fr": "Dégât aux membres : x0,88",
-              "ko": "사지 피해: x0.88"
+              "ru": "Урон по конечностям: х0,9",
+              "en": "Limb damage: x0.9",
+              "es": "Daño a extremidades: x0,9",
+              "fr": "Dégât aux membres : x0,9",
+              "ko": "사지 피해: x0.9"
             }
           }
         },
@@ -626,24 +626,6 @@
               "es": "Daño a mutantes: x2,3",
               "fr": "Dégât au mutants : x2,3",
               "ko": "돌연변이에게 입히는 피해: x2.3"
-            }
-          }
-        },
-        {
-          "type": "text",
-          "text": {
-            "type": "translation",
-            "key": "weapon.tooltip.weapon.execute_damage_modifier",
-            "args": {
-              "plusPercent": "1.0",
-              "maxPercent": "100.0"
-            },
-            "lines": {
-              "ru": "Урон увеличивается на 1% за каждый % отсутствующего здоровья цели, максимум +100% урона",
-              "en": "Damage increases by 1% for every % of the target’s health that is missing, to a maximum of +100% damage",
-              "es": "El daño aumenta un 1 % por cada % de salud que le falte al objetivo, hasta un máximo de +100 % de daño",
-              "fr": "Dégâts augmentés de 1% pour chaque % manquant de santé de la cible pour un maximum de +100% dégâts",
-              "ko": "대상의 남은 체력 1%마다 피해가 1% 증가하며, 최대 +100% 피해까지 증가합니다"
             }
           }
         }
@@ -798,10 +780,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 475.13412,
-      "damageDecreaseStart": 2.0,
-      "endDamage": 304.57318,
-      "damageDecreaseEnd": 20.0,
+      "startDamage": 446.7073,
+      "damageDecreaseStart": 1.0,
+      "endDamage": 243.65854,
+      "damageDecreaseEnd": 38.0,
       "maxDistance": 125.0
     },
     {

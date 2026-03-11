@@ -202,14 +202,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.antirad",
+            "key": "item.effects.effect_type.accumulation",
             "args": {},
             "lines": {
-              "ru": "Вывод радиации",
-              "en": "Radiation Cleansing",
-              "es": "Limpieza radiológica",
-              "fr": "Nettoyage des radiations",
-              "ko": "방사능 정화"
+              "ru": "Вывод",
+              "en": "Output",
+              "es": "Retirada",
+              "fr": "Retrait",
+              "ko": "결과"
             }
           }
         },
@@ -227,14 +227,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 1.0,
+          "value": 4.0,
           "formatted": {
             "value": {
-              "ru": "1",
-              "en": "1",
-              "es": "1",
-              "fr": "1",
-              "ko": "1"
+              "ru": "4",
+              "en": "4",
+              "es": "4",
+              "fr": "4",
+              "ko": "4"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -254,14 +254,41 @@
               "ko": "지속 시간"
             }
           },
-          "value": 5.0,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "5 с",
-              "en": "5 sec",
-              "es": "5 s",
-              "fr": "5 s",
-              "ko": "5초"
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d\u0027utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -281,14 +308,14 @@
               "ko": "독성"
             }
           },
-          "value": 100.0,
+          "value": 75.0,
           "formatted": {
             "value": {
-              "ru": "100",
-              "en": "100",
-              "es": "100",
-              "fr": "100",
-              "ko": "100"
+              "ru": "75",
+              "en": "75",
+              "es": "75",
+              "fr": "75",
+              "ko": "75"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -307,6 +334,60 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление радиации",
+              "en": "Radiation resistance",
+              "es": "Resistencia a la radiación",
+              "fr": "Résistance aux radiations",
+              "ko": "방사능 보호율"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление пси-излучению",
+              "en": "Psy-emission resistance",
+              "es": "Resistencia a la emisión psy",
+              "fr": "Résistance aux émissions psys",
+              "ko": "정신파 방사물 보호율"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.radiation_accumulation",
             "args": {},
             "lines": {
@@ -317,14 +398,41 @@
               "ko": "방사능"
             }
           },
-          "value": -5.0,
+          "value": -30.0,
           "formatted": {
             "value": {
-              "ru": "-5",
-              "en": "-5",
-              "es": "-5",
-              "fr": "-5",
-              "ko": "-5"
+              "ru": "-30",
+              "en": "-30",
+              "es": "-30",
+              "fr": "-30",
+              "ko": "-30"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys",
+              "ko": "정신파 방사물"
+            }
+          },
+          "value": -30.0,
+          "formatted": {
+            "value": {
+              "ru": "-30",
+              "en": "-30",
+              "es": "-30",
+              "fr": "-30",
+              "ko": "-30"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

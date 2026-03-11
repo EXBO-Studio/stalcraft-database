@@ -216,6 +216,33 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d\u0027utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.tooltip.medicine.info.toxicity",
             "args": {},
             "lines": {
@@ -372,7 +399,7 @@
           "ru": "Средство первой помощи при ожоге и химическом ожоге гортани и легких, отравлении химикатами. Не предоставляет защиты от прямого воздействия кислоты и открытого огня на тело.",
           "en": "A first-aid treatment used for chemical burns of the larynx and lungs, or chemical poisoning. Does not protect against the direct effects of acid and open fire on the body.",
           "es": "Tratamiento de primeros auxilios empleado para quemaduras y quemaduras químicas de laringe y pulmones o para intoxicaciones químicas. No protege contra los efectos directos del ácido y el fuego abierto en el cuerpo.",
-          "fr": "Traitement de premier secours utilisé en cas de brûlures chimiques du larynx et des poumons, ou d\u0027empoisonnement chimique. Ne fournit pas de protection contre l’exposition directe à l’acide et aux flammes nues sur le corps.",
+          "fr": "Traitement de premier secours utilisé en cas de brûlures chimiques du larynx et des poumons, ou d\u0027empoisonnement chimique. Ne fournit pas de protection contre l\u0027exposition directe à l\u0027acide et aux flammes nues sur le corps.",
           "ko": "후두와 폐의 화상 및 화학적 화상, 화학물질 중독 시 사용하는 응급 처치약이다. 몸에 직접 닿는 산과 불에는 보호 기능이 없다."
         }
       }
