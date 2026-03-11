@@ -1,0 +1,369 @@
+{
+  "id": "7z77",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.lesta_jele.name",
+    "args": {},
+    "lines": {
+      "ru": "Желе",
+      "en": "Jelly",
+      "es": "Gelatina",
+      "fr": "Gelée",
+      "ko": "젤리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "7200.0"
+            },
+            "lines": {
+              "ru": "7 200 руб.",
+              "en": "7,200 rubles",
+              "es": "7.200 rublos",
+              "fr": "7 200 roubles",
+              "ko": "7,200 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "min": 8.1345,
+          "max": 9.57,
+          "formatted": {
+            "value": {
+              "ru": "[+8,13; +9,57]",
+              "en": "[+8.13; +9.57]",
+              "es": "[+8,13; +9,57]",
+              "fr": "[+8,13; +9,57]",
+              "ko": "[+8.13; +9.57]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 보호율"
+            }
+          },
+          "min": 10.846001,
+          "max": 12.76,
+          "formatted": {
+            "value": {
+              "ru": "[+10,85; +12,76]",
+              "en": "[+10.85; +12.76]",
+              "es": "[+10,85; +12,76]",
+              "fr": "[+10,85; +12,76]",
+              "ko": "[+10.85; +12.76]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique",
+              "ko": "생체 감염"
+            }
+          },
+          "min": 1.0625,
+          "max": 1.25,
+          "formatted": {
+            "value": {
+              "ru": "[+1,06; +1,25]",
+              "en": "[+1.06; +1.25]",
+              "es": "[+1,06; +1,25]",
+              "fr": "[+1,06; +1,25]",
+              "ko": "[+1.06; +1.25]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.lesta_jele.description",
+        "args": {},
+        "lines": {
+          "ru": "Аномальное образование, напоминающее желеобразный сгусток слизи.\\n\\nХотя артефакт постоянно роняет новые «капли», составляющие артефакт, его объем не сокращается.\\n\\nУченые объясняют это необычным свойством конденсации воды из воздуха и возможностью артефакта притягивать к себе другие более тяжелые частицы в атмосфере, позволяющие образовываться субстанции.\\n\\nСами капли исчезают спустя пол секунды после соприкосновения с поверхностью. Поймать и удержать хотя бы одну такую каплю успехом не увенчались.",
+          "en": "An anomalous formation resembling a jelly-like blob of slime.\\n\\nAlthough the artifact constantly produces new “droplets” that make up its mass, its volume does not decrease.\\n\\nScientists explain this phenomenon by the artifact’s unusual ability to condense water from the air and attract heavier particles in the atmosphere, allowing the substance to form.\\n\\nThe droplets themselves disappear half a second after coming into contact with a surface. Attempts to catch and hold even a single droplet have been unsuccessful.",
+          "es": "Una formación anómala que se asemeja a un coágulo gelatinoso de mucosidad.\\n\\nAunque el artefacto gotea constantemente nuevas gotas que lo componen, su volumen no disminuye. Los científicos explican esto por la inusual propiedad de condensación del agua del aire y la capacidad del artefacto de atraer otras partículas más pesadas de la atmósfera, lo que permite la formación de la sustancia.\\n\\nLas gotas desaparecen medio segundo después de entrar en contacto con la superficie. No se ha logrado atrapar y retener ni una sola gota de este tipo.",
+          "fr": "Formation anormale ressemblant à une masse gélatineuse de mucus.\\n\\nBien que l\u0027artefact laisse constamment tomber de nouvelles gouttes qui le composent, son volume ne diminue pas.\\n\\nLes scientifiques expliquent cela par une propriété inhabituelle de condensation de l\u0027eau atmosphérique et par la capacité de l\u0027artefact à attirer vers lui d\u0027autres particules plus lourdes présentes dans l\u0027air, permettant la formation de la substance.\\n\\nLes gouttes elles-mêmes disparaissent une demi-seconde après avoir touché une surface. Tenter d\u0027attraper et de retenir ne serait-ce qu\u0027une seule de ces gouttes est resté sans succès.",
+          "ko": "점액 덩어리를 닮은 젤 형태의 이상 생성물이다.\\n\\n아티팩트는 지속적으로 새로운 방울을 떨어뜨리지만, 전체 부피는 줄어들지 않는다.\\n\\n과학자들은 이것을 공기 중 물 응축의 특이한 성질과 아티팩트가 주변의 더 무거운 입자들을 끌어당겨 물질을 형성할 수 있는 능력 때문이라고 설명한다.\\n\\n방울 자체는 표면에 닿은 지 0.5초 만에 사라진다. 단 하나라도 잡아 유지하는 데 성공한 사례는 없다."
+        }
+      }
+    }
+  ]
+}

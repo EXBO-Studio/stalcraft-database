@@ -13,7 +13,7 @@
       "ko": "보드카"
     }
   },
-  "color": "DEFAULT",
+  "color": "RANK_NEWBIE",
   "status": {
     "state": "NONE"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.picklock",
+            "key": "core.rank.newbie",
             "args": {},
             "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock",
-              "es": "Ratero",
-              "fr": "Crocheteur",
-              "ko": "도둑"
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
             }
           }
         },
@@ -164,14 +164,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "item.effects.effect_type.antirad",
+            "key": "item.effects.effect_type.long_time_medicine",
             "args": {},
             "lines": {
-              "ru": "Вывод радиации",
-              "en": "Radiation Cleansing",
-              "es": "Limpieza radiológica",
-              "fr": "Nettoyage des radiations",
-              "ko": "방사능 정화"
+              "ru": "Усиление",
+              "en": "Enhancement",
+              "es": "Impulso",
+              "fr": "Boost",
+              "ko": "강화"
             }
           }
         },
@@ -189,14 +189,14 @@
               "ko": "효과 우선순위"
             }
           },
-          "value": 1.0,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "1",
-              "en": "1",
-              "es": "1",
-              "fr": "1",
-              "ko": "1"
+              "ru": "3",
+              "en": "3",
+              "es": "3",
+              "fr": "3",
+              "ko": "3"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -216,6 +216,33 @@
               "ko": "지속 시간"
             }
           },
+          "value": 1800.0,
+          "formatted": {
+            "value": {
+              "ru": "30 мин",
+              "en": "30 min",
+              "es": "30 min",
+              "fr": "30 min",
+              "ko": "30분"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d\u0027utilisation",
+              "ko": "사용 시간"
+            }
+          },
           "value": 5.0,
           "formatted": {
             "value": {
@@ -227,6 +254,48 @@
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison",
+              "ko": "독성"
+            }
+          },
+          "value": 20.0,
+          "formatted": {
+            "value": {
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20",
+              "ko": "20"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death",
+              "es": "El efecto desaparece tras la muerte",
+              "fr": "L\u0027effet persiste après la mort",
+              "ko": "사망 후 효과가 소멸됩니다"
+            }
           }
         }
       ]
@@ -242,24 +311,24 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l\u0027endurance",
-              "ko": "스태미나 재생"
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
             }
           },
-          "value": 10.0,
+          "value": 37.1,
           "formatted": {
             "value": {
-              "ru": "10%",
-              "en": "10%",
-              "es": "10 %",
-              "fr": "10%",
-              "ko": "10%"
+              "ru": "37,1%",
+              "en": "37.1%",
+              "es": "37,1 %",
+              "fr": "37,1%",
+              "ko": "37.1%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -269,24 +338,51 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Радиация",
-              "en": "Radiation",
-              "es": "Radiación",
-              "fr": "Radiation",
-              "ko": "방사능"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
             }
           },
-          "value": -10.0,
+          "value": 1.0,
           "formatted": {
             "value": {
-              "ru": "-10",
-              "en": "-10",
-              "es": "-10",
-              "fr": "-10",
-              "ko": "-10"
+              "ru": "1%",
+              "en": "1%",
+              "es": "1 %",
+              "fr": "1%",
+              "ko": "1%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "value": 1.0,
+          "formatted": {
+            "value": {
+              "ru": "1%",
+              "en": "1%",
+              "es": "1 %",
+              "fr": "1%",
+              "ko": "1%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -305,11 +401,11 @@
         "key": "item.med.vodka.description",
         "args": {},
         "lines": {
-          "ru": "Согревает и медленно выводит радиацию из организма, но имеет побочные эффекты.",
-          "en": "Warms and slowly removes radiation from the body, but has side effects.",
-          "es": "Calienta y elimina lentamente la radiación del cuerpo, pero tiene efectos secundarios.",
-          "fr": "Réchauffe et élimine lentement les radiations du corps, mais a des effets secondaires.",
-          "ko": "체온을 높이고 서서히 방사능을 몸에서 제거하지만 부작용이 있다."
+          "ru": "Согревает, но имеет побочные эффекты.",
+          "en": "It warms you up, but has side effects.",
+          "es": "Calienta, pero tiene efectos secundarios.",
+          "fr": "Réchauffe, mais a des effets secondaires.",
+          "ko": "따뜻하게 해주지만 부작용이 있다."
         }
       }
     },
