@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -93,14 +93,14 @@
               "ko": "무게"
             }
           },
-          "value": 4.508,
+          "value": 4.066,
           "formatted": {
             "value": {
-              "ru": "4,51 кг",
-              "en": "4.51 kg",
-              "es": "4,51 kg",
-              "fr": "4,51 kg",
-              "ko": "4.51 kg"
+              "ru": "4,07 кг",
+              "en": "4.07 kg",
+              "es": "4,07 kg",
+              "fr": "4,07 kg",
+              "ko": "4.07 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -200,14 +200,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -3.399998,
+          "value": -2.9999971,
           "formatted": {
             "value": {
-              "ru": "-3,4%",
-              "en": "-3.4%",
-              "es": "-3,4 %",
-              "fr": "-3,4%",
-              "ko": "-3.4%"
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%",
+              "ko": "-3%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -290,14 +290,14 @@
               "ko": "탄창 용량"
             }
           },
-          "value": 45.0,
+          "value": 30.0,
           "formatted": {
             "value": {
-              "ru": "0/45",
-              "en": "0/45",
-              "es": "0/45",
-              "fr": "0/45",
-              "ko": "0/45"
+              "ru": "0/30",
+              "en": "0/30",
+              "es": "0/30",
+              "fr": "0/30",
+              "ko": "0/30"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -371,14 +371,14 @@
               "ko": "재장전"
             }
           },
-          "value": 3.2,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "3,2 с",
-              "en": "3.2 sec",
-              "es": "3,2 s",
-              "fr": "3,2 s",
-              "ko": "3.2초"
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -398,14 +398,14 @@
               "ko": "전술 재장전"
             }
           },
-          "value": 2.56,
+          "value": 2.5,
           "formatted": {
             "value": {
-              "ru": "2,56 с",
-              "en": "2.56 sec",
-              "es": "2,56 s",
-              "fr": "2,56 s",
-              "ko": "2.56초"
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s",
+              "fr": "2,5 s",
+              "ko": "2.5초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -479,14 +479,14 @@
               "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 2.5500002,
+          "value": 3.0,
           "formatted": {
             "value": {
-              "ru": "2,55°",
-              "en": "2.55°",
-              "es": "2,55°",
-              "fr": "2,55°",
-              "ko": "2.55°"
+              "ru": "3°",
+              "en": "3°",
+              "es": "3°",
+              "fr": "3°",
+              "ko": "3°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -533,14 +533,14 @@
               "ko": "수평 반동"
             }
           },
-          "value": 0.1105,
+          "value": 0.13,
           "formatted": {
             "value": {
-              "ru": "0,11°",
-              "en": "0.11°",
-              "es": "0,11°",
-              "fr": "0,11°",
-              "ko": "0.11°"
+              "ru": "0,13°",
+              "en": "0.13°",
+              "es": "0,13°",
+              "fr": "0,13°",
+              "ko": "0.13°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -560,14 +560,14 @@
               "ko": "무기 꺼내기 시간"
             }
           },
-          "value": 1.05,
+          "value": 0.9,
           "formatted": {
             "value": {
-              "ru": "1,05 с",
-              "en": "1.05 sec",
-              "es": "1,05 s",
-              "fr": "1,05 s",
-              "ko": "1.05초"
+              "ru": "0,9 с",
+              "en": "0.9 sec",
+              "es": "0,9 s",
+              "fr": "0,9 s",
+              "ko": "0.9초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -759,60 +759,6 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "weapon.stat_factor.hip_spread",
-            "args": {},
-            "lines": {
-              "ru": "Разброс от бедра",
-              "en": "Hip-fire spread",
-              "es": "Dispersión de disparos desde la cadera",
-              "fr": "Dispersion du tir à l\u0027aveugle",
-              "ko": "비조준 사격 탄퍼짐"
-            }
-          },
-          "value": -14.999998,
-          "formatted": {
-            "value": {
-              "ru": "-15%",
-              "en": "-15%",
-              "es": "-15 %",
-              "fr": "-15%",
-              "ko": "-15%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.horizontal_recoil",
-            "args": {},
-            "lines": {
-              "ru": "Гориз. отдача",
-              "en": "Horizontal recoil",
-              "es": "Retroceso horizontal",
-              "fr": "Recul horizontal",
-              "ko": "수평 반동"
-            }
-          },
-          "value": -14.999998,
-          "formatted": {
-            "value": {
-              "ru": "-15%",
-              "en": "-15%",
-              "es": "-15 %",
-              "fr": "-15%",
-              "ko": "-15%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
             "key": "weapon.stat_factor.recoil_gain",
             "args": {},
             "lines": {
@@ -823,44 +769,17 @@
               "ko": "반동 누적"
             }
           },
-          "value": -18.999994,
+          "value": -2.9999971,
           "formatted": {
             "value": {
-              "ru": "-19%",
-              "en": "-19%",
-              "es": "-19 %",
-              "fr": "-19%",
-              "ko": "-19%"
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%",
+              "ko": "-3%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.draw_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость доставания",
-              "en": "Draw speed",
-              "es": "Velocidad de desenfundado",
-              "fr": "Vitesse de dégainage",
-              "ko": "무기 꺼내기 속도"
-            }
-          },
-          "value": 20.000004,
-          "formatted": {
-            "value": {
-              "ru": "-20%",
-              "en": "-20%",
-              "es": "-20 %",
-              "fr": "-20%",
-              "ko": "-20%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
           }
         },
         {
@@ -877,68 +796,14 @@
               "ko": "흔들림"
             }
           },
-          "value": -41.999996,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-42%",
-              "en": "-42%",
-              "es": "-42 %",
-              "fr": "-42%",
-              "ko": "-42%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.equipped_speed_modifier",
-            "args": {},
-            "lines": {
-              "ru": "Скорость",
-              "en": "Speed",
-              "es": "Velocidad",
-              "fr": "Vitesse",
-              "ko": "속도"
-            }
-          },
-          "value": -0.4000008,
-          "formatted": {
-            "value": {
-              "ru": "-0,4%",
-              "en": "-0.4%",
-              "es": "-0,4 %",
-              "fr": "-0,4%",
-              "ko": "-0.4%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.shoot_factor_decrement",
-            "args": {},
-            "lines": {
-              "ru": "Стабилизация",
-              "en": "Stabilization",
-              "es": "Estabilización",
-              "fr": "Stabilisation",
-              "ko": "안정성"
-            }
-          },
-          "value": 39.999485,
-          "formatted": {
-            "value": {
-              "ru": "+40%",
-              "en": "+40%",
-              "es": "+40 %",
-              "fr": "+40%",
-              "ko": "+40%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
