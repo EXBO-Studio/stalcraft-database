@@ -1,0 +1,369 @@
+{
+  "id": "q10k",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.lesta_tracks.name",
+    "args": {},
+    "lines": {
+      "ru": "Звено",
+      "en": "Link",
+      "es": "Eslabón",
+      "fr": "Maillon",
+      "ko": "트랙링크"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.35,
+          "formatted": {
+            "value": {
+              "ru": "0,35 кг",
+              "en": "0.35 kg",
+              "es": "0,35 kg",
+              "fr": "0,35 kg",
+              "ko": "0.35 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "40800.0"
+            },
+            "lines": {
+              "ru": "40 800 руб.",
+              "en": "40,800 rubles",
+              "es": "40.800 rublos",
+              "fr": "40 800 roubles",
+              "ko": "40,800 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": 2.2491,
+          "max": 2.646,
+          "formatted": {
+            "value": {
+              "ru": "[+2,25%; +2,65%]",
+              "en": "[+2.25%; +2.65%]",
+              "es": "[+2,25 %; +2,65 %]",
+              "fr": "[+2,25%; +2,65%]",
+              "ko": "[+2.25%; +2.65%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "min": 11.6739,
+          "max": 13.733999,
+          "formatted": {
+            "value": {
+              "ru": "[+11,67; +13,73]",
+              "en": "[+11.67; +13.73]",
+              "es": "[+11,67; +13,73]",
+              "fr": "[+11,67; +13,73]",
+              "ko": "[+11.67; +13.73]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température",
+              "ko": "열"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]",
+              "ko": "[+2.12; +2.5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.lesta_tracks.description",
+        "args": {},
+        "lines": {
+          "ru": "Артефакт с необычным внешним видом, напоминающий кучу парящих вокруг центра масс звеньев гусениц.\\n\\nНесмотря на явную схожесть фрагментов артефакта с танковыми траками, ученые, изучавшие полученные образцы, отказывают гипотезам об участии в его артефактогенезе фрагментов военной техники. По словам профессора Кубова, во фрагментах преобладает литий, который не входит в состав гусениц техники.",
+          "en": "An artifact with an unusual appearance, resembling a pile of links from hovering caterpillar tracks around a center of mass.\\n\\nDespite the clear similarity of the artifact\u0027s fragments to tank tracks, scientists studying the obtained samples reject hypotheses about the involvement of fragments of military equipment in its artifactogenesis. According to Professor Cubov, lithium predominates in the fragments, which is not a component of the tracks used in machinery.",
+          "es": "Artefacto con un aspecto inusual, que recuerda a un montón de eslabones de orugas flotando alrededor del centro de masa..\\n\\nA pesar de la evidente similitud de los fragmentos del artefacto con las orugas de los tanques, los científicos que estudiaron las muestras obtenidas rechazan las hipótesis sobre la participación de fragmentos de tecnología militar en su artefactogénesis. Según el profesor Cubov, en los fragmentos predomina el litio, que no forma parte de la composición de las orugas de la tecnología.",
+          "fr": "Un artefact à l\u0027apparence inhabituelle, rappelant un amas de maillons de chenilles flottant autour du centre de masse.\\n\\n\\n\\nMalgré la ressemblance évidente des fragments de l\u0027artefact avec des chenilles de char, les scientifiques ayant étudié les échantillons obtenus rejettent les hypothèses impliquant des fragments de matériel militaire dans sa formation. Selon le professeur Kubov, les fragments contiennent principalement du lithium, qui ne fait pas partie de la composition des chenilles de matériel militaire.",
+          "ko": "중심 질량 주위를 떠다니는 트랙링크들의 덩어리를 연상시키는, 특이한 외형의 아티팩트.\\n\\n겉보기에는 아티팩트 조각들이 탱크 궤도와 유사하지만, 확보된 표본을 연구한 과학자들은 이 아티팩트의 형성 과정에 군용 장비 파편이 관여했다는 가설을 부정하고 있다. 쿠보프 교수에 따르면, 해당 파편들에서는 리튬이 주로 검출되며, 이는 차량 궤도의 구성 성분에는 포함되지 않는다."
+        }
+      }
+    }
+  ]
+}

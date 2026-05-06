@@ -1,5 +1,25 @@
 [
   {
+    "data": "/items/other/qyvk.json",
+    "icon": "/icons/other/qyvk.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.wpn.hk417_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Вспышка»",
+        "en": "Flare",
+        "es": "Baliza",
+        "fr": "Fusée éclairante",
+        "ko": "플레어"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/medicine/9mmq.json",
     "icon": "/icons/medicine/9mmq.png",
     "name": {
@@ -2291,7 +2311,7 @@
         "en": "Wort",
         "es": "Mosto",
         "fr": "Moût",
-        "ko": "맥아즙"
+        "ko": "곡주 원액"
       }
     },
     "color": "RANK_NEWBIE",
@@ -4847,11 +4867,11 @@
       "key": "go.misc.rigonda.name",
       "args": {},
       "lines": {
-        "ru": "Ригонда",
-        "en": "Rigonda",
-        "es": "Rigonda",
-        "fr": "Rigonda",
-        "ko": "리곤다"
+        "ru": "Проигрыватель",
+        "en": "Radiogram",
+        "es": "Tocadiscos",
+        "fr": "Tourne-disque",
+        "ko": "레코드 플레이어"
       }
     },
     "color": "RANK_VETERAN",
@@ -5871,7 +5891,7 @@
         "en": "Lemna",
         "es": "Lemna",
         "fr": "Lemna",
-        "ko": "개구리밥"
+        "ko": "렘나"
       }
     },
     "color": "DEFAULT",
@@ -7120,6 +7140,46 @@
     }
   },
   {
+    "data": "/items/artefact/other_arts/k3rv.json",
+    "icon": "/icons/artefact/other_arts/k3rv.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.lesta_hedgehog.name",
+      "args": {},
+      "lines": {
+        "ru": "Чертов еж",
+        "en": "Wicked Hedgehog",
+        "es": "Erizo del diablo",
+        "fr": "Satané hérisson",
+        "ko": "젠장, 성게"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
+    "data": "/items/artefact/other_arts/q10k.json",
+    "icon": "/icons/artefact/other_arts/q10k.png",
+    "name": {
+      "type": "translation",
+      "key": "item.art.lesta_tracks.name",
+      "args": {},
+      "lines": {
+        "ru": "Звено",
+        "en": "Link",
+        "es": "Eslabón",
+        "fr": "Maillon",
+        "ko": "트랙링크"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
     "data": "/items/weapon_modules/weapon_module_core/9yow.json",
     "icon": "/icons/weapon_modules/weapon_module_core/9yow.png",
     "name": {
@@ -7869,7 +7929,7 @@
       "lines": {
         "ru": "Контейнер «КЗС-1У»",
         "en": "KZS-1U Container",
-        "es": "Contenedor KZS-1u",
+        "es": "Contenedor KZS-1U",
         "fr": "Conteneur KZS-1U",
         "ko": "KZS-MU 컨테이너"
       }
@@ -8209,8 +8269,8 @@
       "lines": {
         "ru": "Контейнер «Берлога-4У»",
         "en": "Berloga-4U Container",
-        "es": "Contenedor Berloga-4u",
-        "fr": "Conteneur Berloga-4U",
+        "es": "Contenedor Berloga-4U",
+        "fr": "Conteneur Berloga-4u",
         "ko": "베를로가 — 4U 컨테이너"
       }
     },
@@ -8549,8 +8609,8 @@
       "lines": {
         "ru": "Контейнер «Берлога-6У»",
         "en": "Berloga-6U Container",
-        "es": "Contenedor Berloga-6u",
-        "fr": "Conteneur Berloga-6U",
+        "es": "Contenedor Berloga-6U",
+        "fr": "Conteneur Berloga-6u",
         "ko": "베를로가-6U 보관함"
       }
     },
@@ -14120,6 +14180,46 @@
     }
   },
   {
+    "data": "/items/other/rw6nl.json",
+    "icon": "/icons/other/rw6nl.png",
+    "name": {
+      "type": "translation",
+      "key": "item.style.arm.tank_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Щука»",
+        "en": "Pike",
+        "es": "Lucio",
+        "fr": "Brochet",
+        "ko": "강꼬치고기"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/0r94r.json",
+    "icon": "/icons/other/0r94r.png",
+    "name": {
+      "type": "translation",
+      "key": "item.style.arm.zveroboi_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Радист»",
+        "en": "Radio Operator",
+        "es": "Radioperador",
+        "fr": "Radio opérateur",
+        "ko": "무전병"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/other/g4956.json",
     "icon": "/icons/other/g4956.png",
     "name": {
@@ -14472,6 +14572,26 @@
         "es": "Fundido",
         "fr": "Fondu",
         "ko": "용융체"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/6wlnp.json",
+    "icon": "/icons/other/6wlnp.png",
+    "name": {
+      "type": "translation",
+      "key": "item.style.melee.antiterror_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Трофейный»",
+        "en": "Trophy",
+        "es": "Trofeo",
+        "fr": "Trophée",
+        "ko": "노획품"
       }
     },
     "color": "RANK_MASTER",
@@ -16414,7 +16534,7 @@
         "ko": "야자 아메바 캐모"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "RANK_STALKER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -18954,7 +19074,7 @@
         "ko": "야자 아메바 캐모"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "RANK_STALKER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -22480,6 +22600,66 @@
     }
   },
   {
+    "data": "/items/other/lylyk.json",
+    "icon": "/icons/other/lylyk.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.arm.zivcas_commander_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Жестянка»",
+        "en": "Tin",
+        "es": "Hojalata",
+        "fr": "Ferraille",
+        "ko": "철통"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/rwrwv.json",
+    "icon": "/icons/other/rwrwv.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.arm.kz4_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Наводчик»",
+        "en": "Gunner",
+        "es": "Artillero",
+        "fr": "Tireur",
+        "ko": "사수"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/0r3r9.json",
+    "icon": "/icons/other/0r3r9.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.arm.albatros_heavy_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Консервная банка»",
+        "en": "Tin Can",
+        "es": "Lata",
+        "fr": "Boîte de conserve",
+        "ko": "깡통"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/other/96m2q.json",
     "icon": "/icons/other/96m2q.png",
     "name": {
@@ -23752,6 +23932,166 @@
         "es": "Serval Fundido",
         "fr": "Serval fondu",
         "ko": "녹은 세르발"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/lylv2.json",
+    "icon": "/icons/other/lylv2.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.wpn.deagle_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Окалина»",
+        "en": "Mill Scale",
+        "es": "Escoria",
+        "fr": "Cendre",
+        "ko": "산화막"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/rwrzz.json",
+    "icon": "/icons/other/rwrzz.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.wpn.pkp_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Бронебойный»",
+        "en": "Armor-Piercing",
+        "es": "Perforante",
+        "fr": "Perforante",
+        "ko": "철갑탄"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/0r3qk.json",
+    "icon": "/icons/other/0r3qk.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.wpn.aa12_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Мемориал»",
+        "en": "Memorial",
+        "es": "Memoria",
+        "fr": "Mémorial",
+        "ko": "기념"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/m02vk.json",
+    "icon": "/icons/other/m02vk.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.wpn.ak15_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Память металла»",
+        "en": "Memory of Metal",
+        "es": "Memoria del metal",
+        "fr": "La mémoire du métal",
+        "ko": "금속 기억 효과"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/okv95.json",
+    "icon": "/icons/other/okv95.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.wpn.a545_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Две полоски»",
+        "en": "Two Stripes",
+        "es": "Dos franjas",
+        "fr": "Deux traits",
+        "ko": "두 줄"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/n4p29.json",
+    "icon": "/icons/other/n4p29.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.wpn.mk12_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Возгорание»",
+        "en": "Combustion",
+        "es": "Brasas",
+        "fr": "Incendie",
+        "ko": "발화"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/p6r1d.json",
+    "icon": "/icons/other/p6r1d.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.wpn.ak12_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Точка кипения»",
+        "en": "Boiling Point",
+        "es": "Punto de ebullición",
+        "fr": "Point d\u0027ébullition",
+        "ko": "비등점"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/other/vjr47.json",
+    "icon": "/icons/other/vjr47.png",
+    "name": {
+      "type": "translation",
+      "key": "item.motif.wpn.f2000_mt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Der schwarze Tod»",
+        "en": "Der schwarze Tod",
+        "es": "Der schwarze Tod",
+        "fr": "Der schwarze Tod",
+        "ko": "Der schwarze Tod"
       }
     },
     "color": "RANK_MASTER",
@@ -25280,6 +25620,26 @@
     }
   },
   {
+    "data": "/items/weapon/submachine_gun/0r3or.json",
+    "icon": "/icons/weapon/submachine_gun/0r3or.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.stg44.name",
+      "args": {},
+      "lines": {
+        "ru": "STG-44",
+        "en": "STG-44",
+        "es": "STG-44",
+        "fr": "STG-44",
+        "ko": "STG-44"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
     "data": "/items/weapon/machine_gun/1rdnq.json",
     "icon": "/icons/weapon/machine_gun/1rdnq.png",
     "name": {
@@ -25294,7 +25654,7 @@
         "ko": "DP"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "RANK_STALKER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -25395,6 +25755,46 @@
       }
     },
     "color": "RANK_STALKER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/weapon/machine_gun/j5ly4.json",
+    "icon": "/icons/weapon/machine_gun/j5ly4.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.bren.name",
+      "args": {},
+      "lines": {
+        "ru": "Bren",
+        "en": "Bren",
+        "es": "Bren",
+        "fr": "Bren",
+        "ko": "브렌"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/weapon/machine_gun/lylqq.json",
+    "icon": "/icons/weapon/machine_gun/lylqq.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.mg34.name",
+      "args": {},
+      "lines": {
+        "ru": "MG-34",
+        "en": "MG-34",
+        "es": "MG-34",
+        "fr": "MG-34",
+        "ko": "MG-34"
+      }
+    },
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -25674,7 +26074,7 @@
         "ko": "마우저 98k"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "RANK_STALKER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -26152,6 +26552,26 @@
         "es": "CheyTac M200 Intervention",
         "fr": "CheyTac M200 Intervention",
         "ko": "샤이텍 M200 인터벤션"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    }
+  },
+  {
+    "data": "/items/weapon/sniper_rifle/6w6lp.json",
+    "icon": "/icons/weapon/sniper_rifle/6w6lp.png",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.pzb38.name",
+      "args": {},
+      "lines": {
+        "ru": "PzB 38",
+        "en": "PzB 38",
+        "es": "PzB 38",
+        "fr": "PzB 38",
+        "ko": "PzB 38"
       }
     },
     "color": "RANK_MASTER",
@@ -27991,7 +28411,7 @@
         "en": "SIG SG 550 Sniper",
         "es": "Francotirador SIG SG 550",
         "fr": "SIG SG 550 Sniper",
-        "ko": "SIG SG 550 저격수"
+        "ko": "SIG SG 550 스나이퍼"
       }
     },
     "color": "RANK_VETERAN",
@@ -35414,7 +35834,7 @@
         "ko": "마우저 98k용 피카티니 레일"
       }
     },
-    "color": "RANK_NEWBIE",
+    "color": "RANK_STALKER",
     "status": {
       "state": "PERSONAL_ON_USE"
     }
@@ -36887,11 +37307,11 @@
       "key": "item.arm.atlas.name",
       "args": {},
       "lines": {
-        "ru": "КИМ-Х «АТЛАС» \"Шепота\"",
-        "en": "MIS-X Murmur ATLAS",
-        "es": "ATLAS TMA-X de Susurro",
-        "fr": "MIS-X ATLAS de Murmure",
-        "ko": "속삭임의 MIS-X 아틀라스"
+        "ru": "КИМ-Х «АТЛАС»",
+        "en": "MIS-X ATLAS",
+        "es": "TMA-X ATLAS",
+        "fr": "MIS-X ATLAS",
+        "ko": "MIS-X 아틀라스"
       }
     },
     "color": "RANK_MASTER",
@@ -39011,7 +39431,7 @@
         "en": "Frosty Vodka",
         "es": "Vodka Frosty",
         "fr": "Vodka Glacée",
-        "ko": "얼음장 같은 보드카"
+        "ko": "얼음장 같은 증류주"
       }
     },
     "color": "RANK_MASTER",
@@ -39091,7 +39511,7 @@
         "en": "Crooked Claw Vodka",
         "es": "Vodka Garra retorcida",
         "fr": "Vodka Griffe Crochue",
-        "ko": "갈고리 발톱 보드카"
+        "ko": "갈고리 발톱 증류주"
       }
     },
     "color": "RANK_VETERAN",
@@ -39891,7 +40311,7 @@
         "en": "Lingonberry Vodka",
         "es": "Vodka de arándanos rojos",
         "fr": "Vodka à la Myrtille",
-        "ko": "월귤 보드카"
+        "ko": "월귤 증류주"
       }
     },
     "color": "RANK_MASTER",
@@ -39991,7 +40411,7 @@
         "en": "Geyser Vodka",
         "es": "Vodka Géiser",
         "fr": "Vodka geyser",
-        "ko": "간헐천 보드카"
+        "ko": "간헐천 증류주"
       }
     },
     "color": "RANK_MASTER",
@@ -42158,6 +42578,26 @@
     }
   },
   {
+    "data": "/items/other/q03mj.json",
+    "icon": "/icons/other/q03mj.png",
+    "name": {
+      "type": "translation",
+      "key": "item.brt.bar.signal_add.name",
+      "args": {},
+      "lines": {
+        "ru": "Ретранслятор «Альфа»",
+        "en": "Alpha Relay Station",
+        "es": "Estación repetidora Alfa",
+        "fr": "Relais Alpha",
+        "ko": "알파 릴레이터"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NON_DROP"
+    }
+  },
+  {
     "data": "/items/other/rj6ov.json",
     "icon": "/icons/other/rj6ov.png",
     "name": {
@@ -42332,9 +42772,29 @@
         "ko": "베타 조의 추적 장치"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_VETERAN",
     "status": {
       "state": "PERSONAL_DROP_ON_GET"
+    }
+  },
+  {
+    "data": "/items/other/34zvl.json",
+    "icon": "/icons/other/34zvl.png",
+    "name": {
+      "type": "translation",
+      "key": "item.brt.mg.signal_add.name",
+      "args": {},
+      "lines": {
+        "ru": "Ретранслятор «Бета»",
+        "en": "Beta Relay Station",
+        "es": "Estación repetidora Beta",
+        "fr": "Relais Bêta",
+        "ko": "베타 릴레이터"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NON_DROP"
     }
   },
   {
@@ -42512,9 +42972,29 @@
         "ko": "감마 조의 추적 장치"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_MASTER",
     "status": {
       "state": "PERSONAL_DROP_ON_GET"
+    }
+  },
+  {
+    "data": "/items/other/4k5dr.json",
+    "icon": "/icons/other/4k5dr.png",
+    "name": {
+      "type": "translation",
+      "key": "item.brt.pd.signal_add.name",
+      "args": {},
+      "lines": {
+        "ru": "Ретранслятор «Гамма»",
+        "en": "Gamma Relay Station",
+        "es": "Estación repetidora Gamma",
+        "fr": "Relais Gamma",
+        "ko": "감마 릴레이터"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NON_DROP"
     }
   },
   {
@@ -42932,7 +43412,7 @@
         "ko": "디감마 조의 추적 장치"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_MASTER",
     "status": {
       "state": "PERSONAL_DROP_ON_GET"
     }
@@ -42975,6 +43455,26 @@
     "color": "RANK_MASTER",
     "status": {
       "state": "NONE"
+    }
+  },
+  {
+    "data": "/items/other/krzyp.json",
+    "icon": "/icons/other/krzyp.png",
+    "name": {
+      "type": "translation",
+      "key": "item.brt.sever.signal_add.name",
+      "args": {},
+      "lines": {
+        "ru": "item.brt.sever.signal_add.name",
+        "en": "item.brt.sever.signal_add.name",
+        "es": "item.brt.sever.signal_add.name",
+        "fr": "item.brt.sever.signal_add.name",
+        "ko": "item.brt.sever.signal_add.name"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NON_DROP"
     }
   },
   {
@@ -43192,9 +43692,29 @@
         "ko": "람다 조의 추적 장치"
       }
     },
-    "color": "RANK_STALKER",
+    "color": "RANK_MASTER",
     "status": {
       "state": "PERSONAL_DROP_ON_GET"
+    }
+  },
+  {
+    "data": "/items/other/q0nj3.json",
+    "icon": "/icons/other/q0nj3.png",
+    "name": {
+      "type": "translation",
+      "key": "item.brt.limansk.signal_add.name",
+      "args": {},
+      "lines": {
+        "ru": "item.brt.limansk.signal_add.name",
+        "en": "item.brt.limansk.signal_add.name",
+        "es": "item.brt.limansk.signal_add.name",
+        "fr": "item.brt.limansk.signal_add.name",
+        "ko": "item.brt.limansk.signal_add.name"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NON_DROP"
     }
   },
   {
@@ -44050,6 +44570,26 @@
         "es": "Pieza Apogeo",
         "fr": "Plan du Apogée",
         "ko": "아포게이 부분"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_DROP_ON_GET"
+    }
+  },
+  {
+    "data": "/items/misc/ol6z5.json",
+    "icon": "/icons/misc/ol6z5.png",
+    "name": {
+      "type": "translation",
+      "key": "item.scheme.invertor.name",
+      "args": {},
+      "lines": {
+        "ru": "Часть схемы: «Инвертор»",
+        "en": "Schematic: Inverter",
+        "es": "Esquema: Inversor",
+        "fr": "Partie du schéma : Inverseur",
+        "ko": "부품 도면: 인버터"
       }
     },
     "color": "RANK_MASTER",

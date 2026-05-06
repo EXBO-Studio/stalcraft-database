@@ -750,7 +750,7 @@
         "en": "Visit the Drunken Geiger Bar",
         "es": "Visita el Bar Geiger Borracho",
         "fr": "Visiter le Bar du Geiger Ivre",
-        "ko": "술취한 가이거 술집에 방문했다"
+        "ko": "술 취한 가이거 술집에 방문했다"
       }
     },
     "points": 20
@@ -1674,7 +1674,7 @@
         "en": "Drink 1,000 bottles of vodka",
         "es": "Bebe 1000 botellas de vodka",
         "fr": "Boire 1000 bouteilles de vodka",
-        "ko": "보드카 1,000병을 마셨다."
+        "ko": "증류주 1,000병을 마셨다."
       }
     },
     "points": 10
@@ -4151,10 +4151,10 @@
       "args": {},
       "lines": {
         "ru": "Плюшкин",
-        "en": "Storage space",
-        "es": "Espacio de almacenamiento",
-        "fr": "Espace de stockage",
-        "ko": "창고 공간"
+        "en": "Pack Rat",
+        "es": "Harpagón",
+        "fr": "L\u0027Écureuil",
+        "ko": "고물상 스타일"
       }
     },
     "description": {
@@ -13403,7 +13403,7 @@
       "args": {},
       "lines": {
         "ru": "Накопить 10000 очков за одну игру в рамках события \"Морозный десант\"",
-        "en": "Accumulate 10000 points in one game within the Frost Troopers event",
+        "en": "Score 10000 points in one game within the Frost Troopers event",
         "es": "Acumular 10000 puntos en una partida en el evento Paracaidistas helados",
         "fr": "Amasser 10 000 points en une seule partie lors de l’événement Paras du froid",
         "ko": "이벤트 혹한의 공수에서 한 게임 동안 1000 점 획득하기"
@@ -13942,5 +13942,845 @@
       }
     },
     "points": 20
+  },
+  {
+    "id": "reichstag_infantry_level10",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_infantry_level10.title",
+      "args": {},
+      "lines": {
+        "ru": "На амбразуру!",
+        "en": "Take the Hit!",
+        "es": "¡A la tronera!",
+        "fr": "À l\u0027embrasure !",
+        "ko": "포대로 돌격!"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_infantry_level10.desc",
+      "args": {},
+      "lines": {
+        "ru": "Достичь 10 уровня прокачки класса «Штурмовик» в режиме «Штурм Рейхстага»",
+        "en": "Reach class level 10 with the Assaulter class in the Assault on the Reichstag mode",
+        "es": "Alcanza el nivel 10 de progreso de la clase Asaltante en el modo Asalto al Reichstag",
+        "fr": "Atteindre le niveau 10 de progression de la classe Assaillant en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 돌격 병사 클래스 숙련도 10레벨 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_infantry_level20",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_infantry_level20.title",
+      "args": {},
+      "lines": {
+        "ru": "После нас только пустошь",
+        "en": "After Us, the Wasteland",
+        "es": "Después de nosotros, solo queda el desierto",
+        "fr": "Après nous, ce sera le vide",
+        "ko": "우리 뒤에는 황무지만 남는다"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_infantry_level20.desc",
+      "args": {},
+      "lines": {
+        "ru": "Достичь 20 уровня прокачки класса «Штурмовик» в режиме «Штурм Рейхстага»",
+        "en": "Reach class level 20 with the Assaulter class in the Assault on the Reichstag mode",
+        "es": "Alcanza el nivel 20 de progreso de la clase Asaltante en el modo Asalto al Reichstag",
+        "fr": "Atteindre le niveau 20 de progression de la classe Assaillant en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 돌격 병사 클래스 숙련도 20레벨 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_scout_level10",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_scout_level10.title",
+      "args": {},
+      "lines": {
+        "ru": "Ночевала тучка золотая",
+        "en": "I Wandered Lonely as a Cloud",
+        "es": "Una nubecilla dorada pasó la noche",
+        "fr": "La petite nuée dorée a passé la nuit",
+        "ko": "금빛 구름이 밤을 지새웠다"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_scout_level10.desc",
+      "args": {},
+      "lines": {
+        "ru": "Достичь 10 уровня прокачки класса «Разведчик» в режиме «Штурм Рейхстага»",
+        "en": "Reach class level 10 with the Scout class in the Assault on the Reichstag mode",
+        "es": "Alcanza el nivel 10 de progreso de la clase Explorador en el modo Asalto al Reichstag",
+        "fr": "Atteindre le niveau 10 de progression de la classe Éclaireur en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 정찰병 클래스 숙련도 10레벨 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_scout_level20",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_scout_level20.title",
+      "args": {},
+      "lines": {
+        "ru": "А зори здесь тихие",
+        "en": "Dawn was Theirs",
+        "es": "Y aquí los amaneceres son tranquilos",
+        "fr": "Et les aurores ici sont calmes",
+        "ko": "여기에는 고요한 새벽이 있다"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_scout_level20.desc",
+      "args": {},
+      "lines": {
+        "ru": "Достичь 20 уровня прокачки класса «Разведчик» в режиме «Штурм Рейхстага»",
+        "en": "Reach class level 20 with the Scout class in the Assault on the Reichstag mode",
+        "es": "Alcanza el nivel 20 de progreso de la clase Explorador en el modo Asalto al Reichstag",
+        "fr": "Atteindre le niveau 20 de progression de la classe Éclaireur en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 정찰병 클래스 숙련도 20레벨 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_engineer_level10",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_engineer_level10.title",
+      "args": {},
+      "lines": {
+        "ru": "Работает - не трогай",
+        "en": "If It Ain’t Broke, Don’t Fix It",
+        "es": "Si funciona, no lo toques",
+        "fr": "Ça marche, y touche pas.",
+        "ko": "고장 나지 않으면 건드리지 마라"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_engineer_level10.desc",
+      "args": {},
+      "lines": {
+        "ru": "Достичь 10 уровня прокачки класса «Инженер» в режиме «Штурм Рейхстага»",
+        "en": "Reach class level 10 with the Engineer class in the Assault on the Reichstag mode",
+        "es": "Alcanza el nivel 10 de progreso de la clase Ingeniero en el modo Asalto al Reichstag",
+        "fr": "Atteindre le niveau 10 de progression de la classe Ingénieur en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 공병 클래스 숙련도 10레벨 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_engineer_level20",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_engineer_level20.title",
+      "args": {},
+      "lines": {
+        "ru": "Огоньку?",
+        "en": "Got Fire?",
+        "es": "¿Un poco de fuego?",
+        "fr": "Un petit feu ?",
+        "ko": "불 좀 줄까?"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_engineer_level20.desc",
+      "args": {},
+      "lines": {
+        "ru": "Достичь 20 уровня прокачки класса «Инженер» в режиме «Штурм Рейхстага»",
+        "en": "Reach class level 20 with the Engineer class in the Assault on the Reichstag mode",
+        "es": "Alcanza el nivel 20 de progreso de la clase Ingeniero en el modo Asalto al Reichstag",
+        "fr": "Atteindre le niveau 20 de progression de la classe Ingénieur en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 공병 클래스 숙련도 20레벨 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_machinegunner_level10",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_machinegunner_level10.title",
+      "args": {},
+      "lines": {
+        "ru": "Ленточный червь",
+        "en": "Tapeworm",
+        "es": "Tenia",
+        "fr": "Le ténia",
+        "ko": "촌충"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_machinegunner_level10.desc",
+      "args": {},
+      "lines": {
+        "ru": "Достичь 10 уровня прокачки класса «Пулеметчик» в режиме «Штурм Рейхстага»",
+        "en": "Reach class level 10 with the Machine Gunner class in the Assault on the Reichstag mode",
+        "es": "Alcanza el nivel 10 de progreso de la clase Ametrallador en el modo Asalto al Reichstag",
+        "fr": "Atteindre le niveau 10 de progression de la classe Canonnier mitrailleur en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 기관총 사수 클래스 숙련도 10레벨 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_machinegunner_level20",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_machinegunner_level20.title",
+      "args": {},
+      "lines": {
+        "ru": "От щедрот",
+        "en": "Out of Generosity",
+        "es": "Por pura generosidad",
+        "fr": "Par générosité",
+        "ko": "후하게 베풀어 준 것"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_machinegunner_level20.desc",
+      "args": {},
+      "lines": {
+        "ru": "Достичь 20 уровня прокачки класса «Пулеметчик» в режиме «Штурм Рейхстага»",
+        "en": "Reach class level 20 with the Machine Gunner class in the Assault on the Reichstag mode",
+        "es": "Alcanza el nivel 20 de progreso de la clase Ametrallador en el modo Asalto al Reichstag",
+        "fr": "Atteindre le niveau 20 de progression de la classe Canonnier mitrailleur en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 기관총 사수 클래스 숙련도 20레벨 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_10_games",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_10_games.title",
+      "args": {},
+      "lines": {
+        "ru": "В списках не значится",
+        "en": "Not on the Roster",
+        "es": "No figura en las listas",
+        "fr": "Il ne figure pas sur les listes.",
+        "ko": "명단에 없다"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_10_games.desc",
+      "args": {},
+      "lines": {
+        "ru": "Сыграть 10 игр в режиме «Штурм Рейхстага»",
+        "en": "Play 10 matches in the Assault on the Reichstag mode.",
+        "es": "Juega 10 partidas en el modo Asalto al Reichstag",
+        "fr": "Jouer 10 parties en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 10판 플레이하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_25_games",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_25_games.title",
+      "args": {},
+      "lines": {
+        "ru": "В списка значится",
+        "en": "On the Roster",
+        "es": "Sí figura en las listas",
+        "fr": "Il est inscrit sur la liste",
+        "ko": "명단에 포함되어 있다"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_25_games.desc",
+      "args": {},
+      "lines": {
+        "ru": "Сыграть 25 игр в режиме «Штурм Рейхстага»",
+        "en": "Play 25 matches in the Assault on the Reichstag mode",
+        "es": "Juega 25 partidas en el modo Asalto al Reichstag",
+        "fr": "Jouer 25 parties en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 25판 플레이하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_100_games",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_100_games.title",
+      "args": {},
+      "lines": {
+        "ru": "Представлен к награде",
+        "en": "Recommended for Award",
+        "es": "Propuesto para condecoración",
+        "fr": "Proposé pour une récompense",
+        "ko": "훈장 수여 대상자로 추천됨"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_100_games.desc",
+      "args": {},
+      "lines": {
+        "ru": "Сыграть 100 игр в режиме «Штурм Рейхстага»",
+        "en": "Play 100 matches in the Assault on the Reichstag mode",
+        "es": "Juega 100 partidas en el modo Asalto al Reichstag",
+        "fr": "Jouer 100 parties en mode Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 100판 플레이하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "radioman",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.radioman.title",
+      "args": {},
+      "lines": {
+        "ru": "Радист",
+        "en": "Radio Operator",
+        "es": "Radioperador",
+        "fr": "Radio opérateur",
+        "ko": "무전병"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.radioman.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить одним использованием тактической поддержки 5 противников",
+        "en": "Kill 5 enemies with a single use of tactical support.",
+        "es": "Matar a 5 enemigos con un solo uso de apoyo táctico",
+        "fr": "Tuer 5 ennemis en une seule utilisation du soutien tactique",
+        "ko": "전술 지원을 사용해 5명 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "wind_correction",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.wind_correction.title",
+      "args": {},
+      "lines": {
+        "ru": "Корректировка по ветру",
+        "en": "Wind Correction",
+        "es": "Corrección por el viento",
+        "fr": "Correction en fonction du vent",
+        "ko": "풍향 보정"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.wind_correction.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить одним использованием тактической поддержки 10 противников",
+        "en": "Kill 10 enemies with a single use of tactical support.",
+        "es": "Matar a 10 enemigos con un solo uso de apoyo táctico",
+        "fr": "Tuer 10 ennemis en une seule utilisation du soutien tactique",
+        "ko": "전술 지원을 사용해 10명 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "last_stand",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.last_stand.title",
+      "args": {},
+      "lines": {
+        "ru": "Из последних сил",
+        "en": "With the Last of My Strength",
+        "es": "Con las últimas fuerzas",
+        "fr": "De toutes ses forces",
+        "ko": "마지막 힘을 짜내어"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.last_stand.desc",
+      "args": {},
+      "lines": {
+        "ru": "Захватить Рейхстаг во время «Последнего Шанса», играя за РККА",
+        "en": "Capture the Reichstag as the Red Army during Last Chance",
+        "es": "Captura el Reichstag por el Ejército Rojo durante Última Oportunidad",
+        "fr": "Prendre le Reichstag pendant le Dernier Chance en jouant pour l\u0027Armée rouge",
+        "ko": "마지막 기회 동안 소련군 군대로 라이히슈타크를 점령하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "no_capitulation",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.no_capitulation.title",
+      "args": {},
+      "lines": {
+        "ru": "Капитуляция не сегодня",
+        "en": "No Capitulation Now",
+        "es": "Capitulación no es hoy",
+        "fr": "La capitulation, ce n\u0027est pas pour aujourd\u0027hui",
+        "ko": "오늘은 항복하지 않는다"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.no_capitulation.desc",
+      "args": {},
+      "lines": {
+        "ru": "Не дать РККА захватить мост, играя за Вермахт",
+        "en": "As the Wehrmacht, prevent the bridge from being captured",
+        "es": "Como la Wehrmacht, no dejes que el Ejército Rojo capture el puente",
+        "fr": "Ne pas laisser l\u0027Armée rouge prendre le pont en jouant pour la Wehrmacht",
+        "ko": "독일군으로 플레이하여 소련군 군대가 다리를 점령하지 못하도록 저지하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "scattered",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.scattered.title",
+      "args": {},
+      "lines": {
+        "ru": "Вразброс",
+        "en": "Scattershot",
+        "es": "A lo disperso",
+        "fr": "En désordre",
+        "ko": "산개 사격"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.scattered.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить одной гранатой 3 противников, играя за класс «Штурмовик»",
+        "en": "Kill 3 enemies with a single grenade while playing the Assaulter class",
+        "es": "Completación de la Operación jugando como clase Soldado de asalto",
+        "fr": "Tuer 3 ennemis avec une seule grenade en jouant la classe d\u0027Assaut",
+        "ko": "돌격 병사 클래스로 플레이하여 수류탄 한 발로 3명의 적을 처치하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_7_killstreak",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_7_killstreak.title",
+      "args": {},
+      "lines": {
+        "ru": "Семицветик",
+        "en": "Seven-Petal Clover",
+        "es": "Flor de siete colores",
+        "fr": "La fleur aux sept couleurs",
+        "ko": "일곱빛 꽃"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_7_killstreak.desc",
+      "args": {},
+      "lines": {
+        "ru": "Добить серию убийств до 7, играя за любой класс",
+        "en": "Reach a killstreak of 7 with any class",
+        "es": "Conseguir una racha de 7 bajas con cualquier clase",
+        "fr": "Obtenez une série de 7 éliminations en jouant avec n\u0027importe quelle classe",
+        "ko": "어떤 클래스든 사용하여 연속 제거 수를 7까지 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_10_killstreak",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_10_killstreak.title",
+      "args": {},
+      "lines": {
+        "ru": "Десять по цене одного",
+        "en": "Ten for the Price of One",
+        "es": "Diez por el precio de uno",
+        "fr": "Dix pour le prix d\u0027un",
+        "ko": "하나 가격으로 열 개"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_10_killstreak.desc",
+      "args": {},
+      "lines": {
+        "ru": "Добить серию убийств до 10, играя за любой класс",
+        "en": "Reach a killstreak of 10 with any class",
+        "es": "Conseguir una racha de 10 bajas con cualquier clase",
+        "fr": "Terminer une série de 10 éliminations en jouant avec n\u0027importe quelle classe",
+        "ko": "어떤 클래스든 사용하여 연속 제거 수를 10까지 달성하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_scout_5_kills",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_scout_5_kills.title",
+      "args": {},
+      "lines": {
+        "ru": "Пятачок",
+        "en": "The Five",
+        "es": "Una de 5",
+        "fr": "Cochonnet",
+        "ko": "동전"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_scout_5_kills.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить 5 противников без смертей, играя за класс «Разведчик»",
+        "en": "Kill 5 enemies without dying while playing as the Scout class",
+        "es": "Mata a 5 personas sin morir jugando con la clase Explorador",
+        "fr": "Tuer 5 ennemis sans mourir en jouant la classe Éclaireur",
+        "ko": "정찰병 클래스로 사망 없이 5명 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_gunner_5_kills",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_gunner_5_kills.title",
+      "args": {},
+      "lines": {
+        "ru": "Высадка на Рейне",
+        "en": "Rhine Landing",
+        "es": "Desembarco en el Rin",
+        "fr": "Débarquement sur le Rhin",
+        "ko": "라인 강 상륙 작전"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_gunner_5_kills.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить 5 противников без смертей, играя за класс «Пулеметчик»",
+        "en": "Kill 5 enemies without dying while playing as the Machine Gunner class",
+        "es": "Mata a 5 personas sin morir jugando con la clase Ametrallador",
+        "fr": "Tuer 5 ennemis sans mourir en jouant la classe Canonnier mitrailleur",
+        "ko": "기관총 사수 클래스로 사망 없이 5명 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_faust",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_faust.title",
+      "args": {},
+      "lines": {
+        "ru": "Гётте",
+        "en": "Goethe",
+        "es": "Goethe",
+        "fr": "Goethe",
+        "ko": "괴테"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_faust.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить 3 противников одним выстрелом из Panzerfaust",
+        "en": "Kill 3 enemies with a single Panzerfaust shot",
+        "es": "Matar a 3 enemigos de un solo disparo con un Panzerfaust",
+        "fr": "Tuer 3 ennemis d\u0027un seul tir avec un Panzerfaust",
+        "ko": "Panzerfaust 한 발로 3명의 적을 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_ptrd_kills",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_ptrd_kills.title",
+      "args": {},
+      "lines": {
+        "ru": "Танкобой",
+        "en": "Tank Boy",
+        "es": "Cazatanques",
+        "fr": "Antichar",
+        "ko": "대전차"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_ptrd_kills.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить 100 человек из ПТРД-М в режиме «Штурм Рейхстага»",
+        "en": "Kill 100 enemies with PTRD-M in the Assault on the Reichstag mode",
+        "es": "Mata a 100 personas con el PTRD-M en el modo Asalto al Reichstag",
+        "fr": "Tuer 100 personnes avec le PTRD-M en mode d\u0027Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 PTRD-M으로 100명 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_pzb_kills",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_pzb_kills.title",
+      "args": {},
+      "lines": {
+        "ru": "Tankwagen",
+        "en": "Tankwagen",
+        "es": "Tankwagen",
+        "fr": "Tankwagen",
+        "ko": "Tankwagen"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_pzb_kills.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить 100 человек из Pzb-38 в режиме «Штурм Рейхстага»",
+        "en": "Kill 100 enemies with Pzb-38 in the Assault on the Reichstag mode",
+        "es": "Mata a 100 personas con el Pzb-38 en el modo Asalto al Reichstag",
+        "fr": "Tuer 100 personnes avec le Pzb-38 en mode d\u0027Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 Pzb-38으로 100명 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_destroy_tank",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_destroy_tank.title",
+      "args": {},
+      "lines": {
+        "ru": "Демонтажник",
+        "en": "Dismantler",
+        "es": "Desmontador",
+        "fr": "Démanteleur",
+        "ko": "분해자"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_destroy_tank.desc",
+      "args": {},
+      "lines": {
+        "ru": "Уничтожить танк",
+        "en": "Destroy a Tank",
+        "es": "Destruye un tanque",
+        "fr": "Détruire le char",
+        "ko": "전차 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_flamethrower_5_kills",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_flamethrower_5_kills.title",
+      "args": {},
+      "lines": {
+        "ru": "Дезинсекция",
+        "en": "Extermination",
+        "es": "Desinsectación",
+        "fr": "Désinsectisation",
+        "ko": "해충 구제"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_flamethrower_5_kills.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить 5 человек за одну жизнь, используя огнемет",
+        "en": "Kill 5 enemies for one life with flamethrowner",
+        "es": "Mata a 5 personas en una sola vida jugando como Lanzallamador",
+        "fr": "Tuer 5 personnes en une seule vie en utilisant un lance-flammes",
+        "ko": "화염방사기를 사용하여 한 생존 동안 5명의 적을 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_capture_30_points",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_capture_30_points.title",
+      "args": {},
+      "lines": {
+        "ru": "От Волги до Шпрее",
+        "en": "From the Volga to the Spree",
+        "es": "Desde el Volga hasta el Spree",
+        "fr": "De la Volga à la Spree",
+        "ko": "볼가에서 슈프레까지"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_capture_30_points.desc",
+      "args": {},
+      "lines": {
+        "ru": "Захватить 30 точек, играя за РККА, в режиме «Штурм Рейхстага»",
+        "en": "Capture 30 points for the Red Army side in the Assault on the Reichstag mode",
+        "es": "Captura 30 puntos con el bando del Ejército Rojo en el modo Asalto al Reichstag",
+        "fr": "Capturer 30 points en jouant pour l\u0027Armée rouge dans le mode de l\u0027Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 소련군 진영으로 30개 거점을 점령하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_10_wins",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_10_wins.title",
+      "args": {},
+      "lines": {
+        "ru": "День Победы",
+        "en": "Victory Day",
+        "es": "Día de la Victoria",
+        "fr": "Jour de la Victoire",
+        "ko": "승리의 날"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_10_wins.desc",
+      "args": {},
+      "lines": {
+        "ru": "Одержать победу в режиме «Штурм Рейхстага» 10 раз",
+        "en": "Win 10 matches in the Assault on the Reichstag mode",
+        "es": "Consigue 10 victorias en el modo Asalto al Reichstag",
+        "fr": "Remporter la victoire 10 fois en mode d\u0027Assaut sur le Reichstag",
+        "ko": "라이히슈타크 습격 모드에서 10회 승리하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_heavy_kills",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_heavy_kills.title",
+      "args": {},
+      "lines": {
+        "ru": "Противотанковый шквал",
+        "en": "Anti-Tank Barrage",
+        "es": "Ráfaga antitanque",
+        "fr": "Salve antichar",
+        "ko": "대전차 포격 세례"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_heavy_kills.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить 50 противников из противотанковых винтовок или Panzerfaust",
+        "en": "Kill 50 enemies with anti-tank rifles or a Panzerfaust",
+        "es": "Mata a 50 enemigos con fusiles antitanque o faustpatrone",
+        "fr": "Tuer 50 ennemis avec des fusils antichars ou un Panzerfaust",
+        "ko": "대전차 소총 또는 Panzerfaust를 사용하여 50명의 적을 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_grenade_kills",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_grenade_kills.title",
+      "args": {},
+      "lines": {
+        "ru": "Огненный вал",
+        "en": "Wall of Fire",
+        "es": "Ola de fuego",
+        "fr": "Vague de feu",
+        "ko": "화염의 장벽"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_grenade_kills.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить 25 противников, используя гранаты, растяжки и тактическую поддержку",
+        "en": "Kill 25 enemies using grenades, trip wires, and tactical support",
+        "es": "Matar a 25 enemigos usando granadas, minas trampa y apoyo táctico",
+        "fr": "Tuer 25 ennemis en utilisant des grenades, des pièges et un soutien tactique",
+        "ko": "수류탄, 와이어 트립, 전술 지원을 사용하여 25명의 적을 제거하기"
+      }
+    },
+    "points": 10
+  },
+  {
+    "id": "reichstag_kills",
+    "title": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_kills.title",
+      "args": {},
+      "lines": {
+        "ru": "Красный туман над Рейхстагом",
+        "en": "Red Mist Over the Reichstag",
+        "es": "Niebla roja sobre el Reichstag",
+        "fr": "Le brouillard rouge au-dessus du Reichstag",
+        "ko": "라이히슈타크 위에 드리운 붉은 안개"
+      }
+    },
+    "description": {
+      "type": "translation",
+      "key": "general.achievement.id.reichstag_kills.desc",
+      "args": {},
+      "lines": {
+        "ru": "Убить 150 противников в режиме «Штурм Рейхстага»",
+        "en": "Kill 150 enemies in Assault on the Reichstag mode",
+        "es": "Matar a 150 enemigos en el modo Asalto al Reichstag",
+        "fr": "Tuer 150 ennemis en mode d\u0027Assaut sur le Reichstag",
+        "ko": "라이히슈타크 돌격 모드에서 적 150명을 제거하기"
+      }
+    },
+    "points": 10
   }
 ]

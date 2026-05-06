@@ -1,0 +1,148 @@
+{
+  "id": "krzyp",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.sever.signal_add.name",
+    "args": {},
+    "lines": {
+      "ru": "item.brt.sever.signal_add.name",
+      "en": "item.brt.sever.signal_add.name",
+      "es": "item.brt.sever.signal_add.name",
+      "fr": "item.brt.sever.signal_add.name",
+      "ko": "item.brt.sever.signal_add.name"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "분류 없음"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.sever.signal_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "item.brt.sever.signal_add.additional_stats_tip",
+          "en": "item.brt.sever.signal_add.additional_stats_tip",
+          "es": "item.brt.sever.signal_add.additional_stats_tip",
+          "fr": "item.brt.sever.signal_add.additional_stats_tip",
+          "ko": "item.brt.sever.signal_add.additional_stats_tip"
+        }
+      }
+    }
+  ]
+}

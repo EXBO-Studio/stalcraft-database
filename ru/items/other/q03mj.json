@@ -1,0 +1,187 @@
+{
+  "id": "q03mj",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.bar.signal_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Ретранслятор «Альфа»",
+      "en": "Alpha Relay Station",
+      "es": "Estación repetidora Alfa",
+      "fr": "Relais Alpha",
+      "ko": "알파 릴레이터"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "분류 없음"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "8000.0"
+            },
+            "lines": {
+              "ru": "8 000 руб.",
+              "en": "8,000 rubles",
+              "es": "8.000 rublos",
+              "fr": "8 000 roubles",
+              "ko": "8,000 루블"
+            }
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.bar.signal_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Ретрансляционный модуль «Альфа».\\nВ 2017 году, когда обитатели Зоны массово стали использовать радиомаячки для отметки мест со схронами, появились и первые «охотники за сигналами», вычищавшие чужие тайники.",
+          "en": "Alpha Relay Station Module.\\nIn 2017, when the inhabitants of the Zone began using radiotrackers en masse to mark stash locations, the first signal hunters appeared as well, clearing out other people’s stashes.",
+          "es": "Estación repetidora Alfa.\\nEn 2017, cuando los habitantes de la Zona empezaron a utilizar masivamente balizas de radio para marcar los lugares donde había alijos, aparecieron también los primeros cazadores de señales, que vaciaban los escondites ajenos.",
+          "fr": "Module de relais Alpha.\\n\\nEn 2017, lorsque les habitants de la Zone ont massivement commencé à utiliser des balises radio pour marquer les emplacements des cachettes, les premiers chasseurs de signaux sont apparus, nettoyant les caches des autres.",
+          "ko": "알파 릴레이 모듈.\\n2017년, 구역의 거주자들이 은닉 장소를 표시하기 위해 무전 비컨을 대규모로 사용하기 시작하면서, 타인의 은닉처를 찾아내어 싹 쓸어버리는 최초의 ‘신호 사냥꾼’들도 등장했다."
+        }
+      }
+    }
+  ]
+}
