@@ -1,0 +1,187 @@
+{
+  "id": "4k5dr",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.pd.signal_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Ретранслятор «Гамма»",
+      "en": "Gamma Relay Station",
+      "es": "Estación repetidora Gamma",
+      "fr": "Relais Gamma",
+      "ko": "감마 릴레이터"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "분류 없음"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "10000.0"
+            },
+            "lines": {
+              "ru": "10 000 руб.",
+              "en": "10,000 rubles",
+              "es": "10.000 rublos",
+              "fr": "10 000 roubles",
+              "ko": "10,000 루블"
+            }
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.pd.signal_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Ретрансляционный модуль «Гамма».\\nСталкеры давно обратили внимание на то, что количество находимых ими схронов с маячками значительно больше, нежели должно быть.\\nНекоторые из обитателей Зоны, занимающиеся охотой за сигналами, подмечают, что некоторые тайники являются почти точной копией друг друга.\\nУченые, изучающие этот феномен, считают, что здесь может иметь место «репликация сущностей», однако ее принципы и даже существование до сих пор являются предметом споров в научном сообществе.",
+          "en": "Gamma Relay Station Module.\\nStalkers have long noticed that the number of stashes with trackers they find is significantly greater than it should be.\\nSome of the Zone’s inhabitants engaged in signal hunting have noted that certain stashes are almost exact copies of one another.\\nScientists studying this phenomenon believe that entity replication may be taking place here, though its principles—and even its very existence—remain a matter of debate in the scientific community.",
+          "es": "Estación repetidora Gamma.\\nLos acechadores llevan tiempo fijándose en que el número de alijos con balizas que encuentran es considerablemente mayor de lo que debería ser.\\nAlgunos de los habitantes de la Zona que se dedican a la caza de señales observan que ciertos escondites son casi copias exactas unos de otros.\\nLos científicos que estudian este fenómeno consideran que aquí podría estar ocurriendo una replicación de entidades, aunque sus principios e incluso su existencia siguen siendo objeto de debate en la comunidad científica.",
+          "fr": "Module relais Gamma.\\n\\nLes stalkers ont depuis longtemps remarqué que le nombre de cachettes avec des balises qu\u0027ils trouvent est bien plus élevé que ce qui devrait être.\\n  \\nCertains habitants de la Zone, qui chassent les signaux, notent que certaines caches sont presque des copies exactes les unes des autres.\\nLes scientifiques étudiant ce phénomène pensent qu\u0027il pourrait s\u0027agir d\u0027une réplication d\u0027entités, mais ses principes et même son existence restent encore sujets à débat dans la communauté scientifique.",
+          "ko": "감마 릴레이 모듈.\\n스토커들은 오래전부터 자신들이 발견하는 비컨이 달린 은닉처의 수가 본래 있어야 할 것보다 훨씬 많다는 점에 주목해 왔다.\\n구역에서 신호 사냥을 하는 일부 거주자들은 특정 은닉처들이 거의 동일한 형태로 반복된다는 사실도 발견했다.\\n이 현상을 연구하는 과학자들은 이를 개체 복제 현상일 가능성으로 보고 있으나, 그 원리와 실제 존재 여부는 여전히 과학계에서 논쟁 중이다."
+        }
+      }
+    }
+  ]
+}

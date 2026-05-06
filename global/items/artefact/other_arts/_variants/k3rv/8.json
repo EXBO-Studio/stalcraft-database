@@ -1,0 +1,481 @@
+{
+  "id": "k3rv",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.lesta_hedgehog.name",
+    "args": {},
+    "lines": {
+      "ru": "Чертов еж",
+      "en": "Wicked Hedgehog",
+      "es": "Erizo del diablo",
+      "fr": "Satané hérisson",
+      "ko": "젠장, 성게"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.35,
+          "formatted": {
+            "value": {
+              "ru": "0,35 кг",
+              "en": "0.35 kg",
+              "es": "0,35 kg",
+              "fr": "0,35 kg",
+              "ko": "0.35 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "28640.0"
+            },
+            "lines": {
+              "ru": "28 640 руб.",
+              "en": "28,640 rubles",
+              "es": "28.640 rublos",
+              "fr": "28 640 roubles",
+              "ko": "28,640 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "min": 13.7053995,
+          "max": 16.123999,
+          "formatted": {
+            "value": {
+              "ru": "[+13,71%; +16,12%]",
+              "en": "[+13.71%; +16.12%]",
+              "es": "[+13,71 %; +16,12 %]",
+              "fr": "[+13,71%; +16,12%]",
+              "ko": "[+13.71%; +16.12%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "min": 0.493,
+          "max": 0.58,
+          "formatted": {
+            "value": {
+              "ru": "[+0,49%; +0,58%]",
+              "en": "[+0.49%; +0.58%]",
+              "es": "[+0,49 %; +0,58 %]",
+              "fr": "[+0,49%; +0,58%]",
+              "ko": "[+0.49%; +0.58%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "min": 0.6902,
+          "max": 0.812,
+          "formatted": {
+            "value": {
+              "ru": "[+0,69%; +0,81%]",
+              "en": "[+0.69%; +0.81%]",
+              "es": "[+0,69 %; +0,81 %]",
+              "fr": "[+0,69%; +0,81%]",
+              "ko": "[+0.69%; +0.81%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "min": -1.4848,
+          "max": -1.2620801,
+          "formatted": {
+            "value": {
+              "ru": "[-1,48; -1,26]",
+              "en": "[-1.48; -1.26]",
+              "es": "[-1,48; -1,26]",
+              "fr": "[-1,48; -1,26]",
+              "ko": "[-1.48; -1.26]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température",
+              "ko": "열"
+            }
+          },
+          "min": -1.4848,
+          "max": -1.2620801,
+          "formatted": {
+            "value": {
+              "ru": "[-1,48; -1,26]",
+              "en": "[-1.48; -1.26]",
+              "es": "[-1,48; -1,26]",
+              "fr": "[-1,48; -1,26]",
+              "ko": "[-1.48; -1.26]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique",
+              "ko": "생체 감염"
+            }
+          },
+          "min": -1.4848,
+          "max": -1.2620801,
+          "formatted": {
+            "value": {
+              "ru": "[-1,48; -1,26]",
+              "en": "[-1.48; -1.26]",
+              "es": "[-1,48; -1,26]",
+              "fr": "[-1,48; -1,26]",
+              "ko": "[-1.48; -1.26]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to laceration",
+              "es": "Reacción a la laceración",
+              "fr": "Réaction aux lacérations",
+              "ko": "열상 대항"
+            }
+          },
+          "min": 0.8874,
+          "max": 1.0439999,
+          "formatted": {
+            "value": {
+              "ru": "[+0,89%; +1,04%]",
+              "en": "[+0.89%; +1.04%]",
+              "es": "[+0,89 %; +1,04 %]",
+              "fr": "[+0,89%; +1,04%]",
+              "ko": "[+0.89%; +1.04%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.lesta_hedgehog.description",
+        "args": {},
+        "lines": {
+          "ru": "Артефакт, напоминающий своим видом танкового ежа.\\n\\nУникальная структура артефакта, состоящая из металлических «колючек» и «ядра», на самом деле довольно хрупка. Как показали первичные эксперименты в отделении артефактологии НИИ-7, при разрушении «ядра» остальная структура теряет свою форму, превращаясь в расплавленный свинец.",
+          "en": "An artifact resembling a Czech hedgehog.\\n\\nThe unique structure of the artifact, consisting of metallic \"spikes\" and a \"core,\" is actually quite fragile. As initial experiments in the artifactology department of Research Institute 7 have shown, when the \"core\" is destroyed, the remaining structure loses its shape, turning into molten lead.",
+          "es": "Artefacto que recuerda en su aspecto a un erizo de tanque.\\n\\nLa estructura única del artefacto, que consiste en púas metálicas y un núcleo, es en realidad bastante frágil. Como demostraron los experimentos preliminares realizados en el departamento de artefactología del Instituto de Investigación 7, cuando se destruye el núcleo, el resto de la estructura pierde su forma y se convierte en plomo fundido.",
+          "fr": "Un artefact qui ressemble par son apparence à un hérisson de tank.\\n\\n\\n\\nLa structure unique de l\u0027artefact, composée de piquants métalliques et d\u0027un noyau, est en réalité assez fragile. Comme l\u0027ont montré les expériences préliminaires au département d\u0027artefactologie de l\u0027Institut de recherche 7, lors de la destruction du noyau, le reste de la structure perd sa forme, se transformant en plomb fondu.",
+          "ko": "전차 성게를 닮은 외형의 아티팩트.\\n\\n금속 가시와 핵으로 이루어진 독특한 구조를 가지고 있지만, 실제로는 꽤 연약하다. 제7연구소 아티팩트학과의 초기 실험에서, 핵을 파괴하면 나머지 구조가 형태를 잃고 녹은 납으로 변하는 것으로 나타났다."
+        }
+      }
+    }
+  ]
+}

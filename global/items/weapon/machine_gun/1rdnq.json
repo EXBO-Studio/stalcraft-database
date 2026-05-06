@@ -13,7 +13,7 @@
       "ko": "DP"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie",
-              "es": "Novato",
-              "fr": "Débutant",
-              "ko": "초보자"
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
             }
           }
         },
@@ -262,14 +262,14 @@
               "ko": "피해량"
             }
           },
-          "value": 24.6,
+          "value": 31.5,
           "formatted": {
             "value": {
-              "ru": "24,6 ед",
-              "en": "24.6 unit(s)",
-              "es": "24,6 unidad(es)",
-              "fr": "24,6 unité(s)",
-              "ko": "24.6 유닛"
+              "ru": "31,5 ед",
+              "en": "31.5 unit(s)",
+              "es": "31,5 unidad(es)",
+              "fr": "31,5 unité(s)",
+              "ko": "31.5 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -728,9 +728,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 24.6,
+      "startDamage": 31.5,
       "damageDecreaseStart": 13.0,
-      "endDamage": 18.3,
+      "endDamage": 25.0,
       "damageDecreaseEnd": 58.0,
       "maxDistance": 150.0
     },

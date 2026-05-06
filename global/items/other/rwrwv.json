@@ -1,0 +1,121 @@
+{
+  "id": "rwrwv",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.motif.arm.kz4_mt.name",
+    "args": {},
+    "lines": {
+      "ru": "«Наводчик»",
+      "en": "Gunner",
+      "es": "Artillero",
+      "fr": "Tireur",
+      "ko": "사수"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.armor_motif",
+            "args": {},
+            "lines": {
+              "ru": "Мотив брони",
+              "en": "Armor motif",
+              "es": "Motivo para armadura",
+              "fr": "Motif d\u0027armure",
+              "ko": "방어구 장식"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.motif.arm.kz4_mt.description",
+        "args": {},
+        "lines": {
+          "ru": "Партия комбинированных бронекостюмов, модифицированная диггерами с помощью металла с танковой обшивки.\\n\\nХотя бронированность элементов костюма особо не поменялась, выглядят они теперь гораздо более внушающе.",
+          "en": "A batch of combined armored suits, modified by diggers using metal from tank armor.\\n\\nAlthough the armor of the suit\u0027s elements hasn\u0027t changed much, they now look much more impressive.",
+          "es": "Lote de trajes blindados combinados, modificados por los excavadores con metal procedente del revestimiento de tanques.\\n\\nAunque el blindaje de los elementos del traje no ha cambiado mucho, ahora tienen un aspecto mucho más imponente.",
+          "fr": "Un lot de combinaisons blindées combinées, modifiées par des creuseurs à l\u0027aide de métal provenant du blindage de chars.\\n\\n\\n\\nBien que la protection des éléments de la combinaison n\u0027ait pas beaucoup changé, ils ont maintenant un aspect beaucoup plus impressionnant.",
+          "ko": "탱크 외장재에서 얻은 금속을 사용해 디거들이 개조한 복합 장갑 슈트의 한 배치.\\n\\n장비의 방호 성능 자체는 크게 달라지지 않았지만, 외형만큼은 훨씬 더 위압적으로 변했다."
+        }
+      }
+    },
+    {}
+  ]
+}

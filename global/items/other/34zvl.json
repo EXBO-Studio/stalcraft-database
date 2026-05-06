@@ -1,0 +1,187 @@
+{
+  "id": "34zvl",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.mg.signal_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Ретранслятор «Бета»",
+      "en": "Beta Relay Station",
+      "es": "Estación repetidora Beta",
+      "fr": "Relais Bêta",
+      "ko": "베타 릴레이터"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "분류 없음"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "9000.0"
+            },
+            "lines": {
+              "ru": "9 000 руб.",
+              "en": "9,000 rubles",
+              "es": "9.000 rublos",
+              "fr": "9 000 roubles",
+              "ko": "9,000 루블"
+            }
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.mg.signal_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Ретрансляционный модуль «Бета».\\nРазвитие детекторов узкого и широкого диапазона стало возможно благодаря образцу №137-ВА — стандартному диггерскому ДШД, который был подвергнут неизвестному аномальному воздействию.\\nПри изучении образца удалось выяснить, что диапазон улавливаемых устройством сигналов значительно расширился и начал захватывать колебания, вызванные аномальной активностью.\\nСтандартная компоновка, принципы работы которой скопированы с образца №137-ВА, до сих пор является единственным известным способом улавливать аномальные сигналы.",
+          "en": "Beta Relay Station Module.\\nThe development of short-range and wide-range detectors became possible thanks to specimen No. 137-VA—a standard digger WRD that had been exposed to an unknown anomalous effect.\\nStudy of the specimen revealed that the range of signals detected by the device had expanded significantly and began picking up fluctuations caused by anomalous activity.\\nThe standard configuration, whose operating principles were copied from specimen No. 137-VA, remains to this day the only known way to detect anomalous signals.",
+          "es": "Estación repetidora Beta.\\nEl desarrollo de detectores de banda estrecha y ancha fue posible gracias al ejemplar n.° 137-IA, DGA estándar de excavación que fue sometido a una influencia anómala desconocida.\\nAl estudiar la muestra, se descubrió que el rango de señales captadas por el dispositivo se había ampliado considerablemente y había comenzado a captar oscilaciones provocadas por actividad anómala.\\nLa configuración estándar, cuyos principios de funcionamiento se han copiado de la muestra n.° 137-IA, sigue siendo hasta la fecha la única forma conocida de captar señales anómalas.",
+          "fr": "Module relais Bêta.\\nLe développement des détecteurs à large et à étroite bande a été rendu possible grâce à l\u0027échantillon n° 137-IA — un DLP (Détecteur Longue Portée des fouilleurs) standard qui a été soumis à une influence anormale inconnue.\\nLors de l\u0027étude de l\u0027échantillon, il a été découvert que la plage de signaux captés par l\u0027appareil s\u0027était considérablement élargie et commençait à couvrir des oscillations provoquées par une activité anormale.\\nLa configuration standard, dont les principes de fonctionnement ont été copiés sur l\u0027échantillon n° 137-IA, reste à ce jour le seul moyen connu de capter des signaux anormaux.",
+          "ko": "베타 릴레이 모듈.\\n좁은 대역 및 광대역 탐지기의 발전은 표본 №137-ВА 덕분에 가능해졌다. 이는 표준 디거용 DSHD 장비로, 알려지지 않은 아노말리 영향에 노출된 것이다.\\n해당 표본을 연구한 결과, 장치가 감지할 수 있는 신호 범위가 크게 확장되었으며 아노말리 활동으로 발생하는 진동까지 포착하기 시작한 것으로 확인되었다.\\n표본 №137-ВА의 구조와 작동 원리를 복제한 표준 구성은 현재까지도 아노말리 신호를 감지할 수 있는 유일한 알려진 방식으로 남아 있다."
+        }
+      }
+    }
+  ]
+}
