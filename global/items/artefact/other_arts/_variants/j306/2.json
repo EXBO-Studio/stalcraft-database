@@ -1,0 +1,425 @@
+{
+  "id": "j306",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.lesta_spheretank.name",
+    "args": {},
+    "lines": {
+      "ru": "Всполох",
+      "en": "Flicker",
+      "es": "Fulgor",
+      "fr": "Sursaut",
+      "ko": "섬광"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "3600.0"
+            },
+            "lines": {
+              "ru": "3 600 руб.",
+              "en": "3,600 rubles",
+              "es": "3.600 rublos",
+              "fr": "3 600 roubles",
+              "ko": "3,600 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "min": 0.884,
+          "max": 1.04,
+          "formatted": {
+            "value": {
+              "ru": "[+0,88%; +1,04%]",
+              "en": "[+0.88%; +1.04%]",
+              "es": "[+0,88 %; +1,04 %]",
+              "fr": "[+0,88%; +1,04%]",
+              "ko": "[+0.88%; +1.04%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "min": 1.1934,
+          "max": 1.4039999,
+          "formatted": {
+            "value": {
+              "ru": "[+1,19%; +1,4%]",
+              "en": "[+1.19%; +1.4%]",
+              "es": "[+1,19 %; +1,4 %]",
+              "fr": "[+1,19%; +1,4%]",
+              "ko": "[+1.19%; +1.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "min": 1.6796,
+          "max": 1.976,
+          "formatted": {
+            "value": {
+              "ru": "[+1,68%; +1,98%]",
+              "en": "[+1.68%; +1.98%]",
+              "es": "[+1,68 %; +1,98 %]",
+              "fr": "[+1,68%; +1,98%]",
+              "ko": "[+1.68%; +1.98%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys",
+              "ko": "정신파 방사물"
+            }
+          },
+          "min": 1.0625,
+          "max": 1.25,
+          "formatted": {
+            "value": {
+              "ru": "[+1,06; +1,25]",
+              "en": "[+1.06; +1.25]",
+              "es": "[+1,06; +1,25]",
+              "fr": "[+1,06; +1,25]",
+              "ko": "[+1.06; +1.25]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_electroshock",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на электричество",
+              "en": "Reaction to electricity",
+              "es": "Reacción a la electricidad",
+              "fr": "Réaction à l\u0027électricité",
+              "ko": "전기 대항"
+            }
+          },
+          "min": 1.2376,
+          "max": 1.456,
+          "formatted": {
+            "value": {
+              "ru": "[+1,24%; +1,46%]",
+              "en": "[+1.24%; +1.46%]",
+              "es": "[+1,24 %; +1,46 %]",
+              "fr": "[+1,24%; +1,46%]",
+              "ko": "[+1.24%; +1.46%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.lesta_spheretank.description",
+        "args": {},
+        "lines": {
+          "ru": "Странный артефакт, внешние элементы которого напоминают части танка. \\n\\nУченые НИИ-7 ломают головы над тем, каким проходит процесс артефактогенеза, однако лидирующей гипотезой является копирование форм строения материи, которая когда-то могла находиться на месте аномального поля.\\n\\nВместе с тем, вещество, из которого состоит артефакт, ничем не напоминает металл, походя скорее на скопление микроскопических кристаллов.",
+          "en": "A strange artifact whose outer elements resemble parts of a tank.\\n\\nScientists at Research Institute 7 are still puzzling over how the artifactogenesis process works, but the leading hypothesis is that it copies the structural forms of matter that may once have occupied the site of the anomalous field.\\n\\nAt the same time, the substance the artifact is made of bears no real resemblance to metal, instead looking more like a cluster of microscopic crystals.",
+          "es": "Un extraño artefacto cuyos elementos externos recuerdan a piezas de un tanque.\\n\\nLos científicos del Instituto de Investigación se devanan los sesos tratando de comprender cómo se produce el proceso de artefactogénesis, aunque la hipótesis principal es que se trata de una réplica de las formas estructurales de la materia que en algún momento pudo encontrarse en el lugar del campo anómalo.\\n\\nAl mismo tiempo, la sustancia de la que está compuesto el artefacto no se parece en nada al metal, sino que se asemeja más bien a una acumulación de cristales microscópicos.",
+          "fr": "Un étrange artefact dont les éléments extérieurs rappellent les pièces d\u0027un char d\u0027assaut.\\n\\n\\n\\nLes scientifiques de l\u0027Institut de Recherche 7 se creusent la tête sur le processus d\u0027artefactogenèse. L\u0027hypothèse dominante est celle d\u0027une copie des formes structurelles de la matière qui aurait autrefois pu se trouver sur le lieu du champ anormal.\\n\\n\\n\\nPar ailleurs, la substance qui constitue l\u0027artefact ne ressemble en rien à du métal ; elle s\u0027apparente plutôt à un amas de cristaux microscopiques.",
+          "ko": "기묘한 아티팩트로, 외형 요소가 전차의 일부를 연상시킨다. \\n\\n제7연구소 연구진은 아티팩트 생성 과정이 어떤 방식으로 이루어지는지에 대해 계속해서 분석 중이지만, 현재 가장 유력한 가설은 과거 해당 아노말리 지대에 존재했을 수 있는 물질 구조의 형태를 복제하는 과정이라는 것이다.\\n\\n한편, 이 아티팩트를 구성하는 물질은 금속과는 전혀 다른 성질을 띠며, 오히려 미세한 결정들이 응집된 집합체에 가깝다."
+        }
+      }
+    }
+  ]
+}
