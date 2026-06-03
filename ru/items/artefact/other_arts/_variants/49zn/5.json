@@ -7,7 +7,7 @@
     "args": {},
     "lines": {
       "ru": "Нервяк",
-      "en": "Stress fest",
+      "en": "Stress Fest",
       "es": "Nerviosismo",
       "fr": "Nervure",
       "ko": "스트레스 축제"
@@ -330,18 +330,46 @@
               "ko": "치유 효율"
             }
           },
-          "min": 9.537001,
-          "max": 11.22,
+          "min": 8.1345,
+          "max": 9.57,
           "formatted": {
             "value": {
-              "ru": "[+9,54%; +11,22%]",
-              "en": "[+9.54%; +11.22%]",
-              "es": "[+9,54 %; +11,22 %]",
-              "fr": "[+9,54%; +11,22%]",
-              "ko": "[+9.54%; +11.22%]"
+              "ru": "[+8,13%; +9,57%]",
+              "en": "[+8.13%; +9.57%]",
+              "es": "[+8,13 %; +9,57 %]",
+              "fr": "[+8,13%; +9,57%]",
+              "ko": "[+8.13%; +9.57%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 저항율"
+            }
+          },
+          "min": -2.0,
+          "max": -1.7,
+          "formatted": {
+            "value": {
+              "ru": "[-2; -1,7]",
+              "en": "[-2; -1.7]",
+              "es": "[-2; -1,7]",
+              "fr": "[-2; -1,7]",
+              "ko": "[-2; -1.7]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
           }
         },
         {

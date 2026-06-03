@@ -264,6 +264,62 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "min": 0.2635,
+          "max": 0.31,
+          "formatted": {
+            "value": {
+              "ru": "[+0,26%; +0,31%]",
+              "en": "[+0.26%; +0.31%]",
+              "es": "[+0,26 %; +0,31 %]",
+              "fr": "[+0,26%; +0,31%]",
+              "ko": "[+0.26%; +0.31%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "min": 0.2635,
+          "max": 0.31,
+          "formatted": {
+            "value": {
+              "ru": "[+0,26%; +0,31%]",
+              "en": "[+0.26%; +0.31%]",
+              "es": "[+0,26 %; +0,31 %]",
+              "fr": "[+0,26%; +0,31%]",
+              "ko": "[+0.26%; +0.31%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
@@ -274,15 +330,15 @@
               "ko": "치유 효율"
             }
           },
-          "min": 8.1158,
-          "max": 9.547999,
+          "min": 6.851001,
+          "max": 8.06,
           "formatted": {
             "value": {
-              "ru": "[+8,12%; +9,55%]",
-              "en": "[+8.12%; +9.55%]",
-              "es": "[+8,12 %; +9,55 %]",
-              "fr": "[+8,12%; +9,55%]",
-              "ko": "[+8.12%; +9.55%]"
+              "ru": "[+6,85%; +8,06%]",
+              "en": "[+6.85%; +8.06%]",
+              "es": "[+6,85 %; +8,06 %]",
+              "fr": "[+6,85%; +8,06%]",
+              "ko": "[+6.85%; +8.06%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -302,15 +358,15 @@
               "ko": "출혈 보호"
             }
           },
-          "min": 6.0078,
-          "max": 7.068,
+          "min": 2.7404,
+          "max": 3.224,
           "formatted": {
             "value": {
-              "ru": "[+6,01%; +7,07%]",
-              "en": "[+6.01%; +7.07%]",
-              "es": "[+6,01 %; +7,07 %]",
-              "fr": "[+6,01%; +7,07%]",
-              "ko": "[+6.01%; +7.07%]"
+              "ru": "[+2,74%; +3,22%]",
+              "en": "[+2.74%; +3.22%]",
+              "es": "[+2,74 %; +3,22 %]",
+              "fr": "[+2,74%; +3,22%]",
+              "ko": "[+2.74%; +3.22%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

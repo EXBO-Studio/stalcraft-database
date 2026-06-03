@@ -1,0 +1,451 @@
+{
+  "id": "6w5lj",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.schizoyorsh.name",
+    "args": {},
+    "lines": {
+      "ru": "«ШизоЁрш»",
+      "en": "SchizoYorsh",
+      "es": "SchizoYorsh",
+      "fr": "SchizoYorsh",
+      "ko": "스키조요르쉬"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine",
+              "es": "Medicamentos",
+              "fr": "Médicaments",
+              "ko": "치료제"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg",
+              "ko": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose",
+              "es": "Propósito",
+              "fr": "Objectif",
+              "ko": "용도"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.short_time_medicine",
+            "args": {},
+            "lines": {
+              "ru": "Кратковременное усиление",
+              "en": "Short-Term Boost",
+              "es": "Impulso a corto plazo",
+              "fr": "Boost rapide",
+              "ko": "단기 부스트"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.priority",
+            "args": {},
+            "lines": {
+              "ru": "Приоритет эффекта",
+              "en": "Effect priority",
+              "es": "Priorización del efecto",
+              "fr": "Priorité de l\u0027effet",
+              "ko": "효과 우선순위"
+            }
+          },
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration",
+              "es": "Duración",
+              "fr": "Durée",
+              "ko": "지속 시간"
+            }
+          },
+          "value": 270.0,
+          "formatted": {
+            "value": {
+              "ru": "4 мин 30 с",
+              "en": "4 min 30 sec",
+              "es": "4 min 30 s",
+              "fr": "4 min 30 s",
+              "ko": "4분 30초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d\u0027utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison",
+              "ko": "독성"
+            }
+          },
+          "value": 40.0,
+          "formatted": {
+            "value": {
+              "ru": "40",
+              "en": "40",
+              "es": "40",
+              "fr": "40",
+              "ko": "40"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death",
+              "es": "El efecto no desaparece tras la muerte",
+              "fr": "L\u0027effet disparaît après la mort",
+              "ko": "사망 후에도 효과가 지속됩니다"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "value": 3.3,
+          "formatted": {
+            "value": {
+              "ru": "3,3%",
+              "en": "3.3%",
+              "es": "3,3 %",
+              "fr": "3,3%",
+              "ko": "3.3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": 37.3,
+          "formatted": {
+            "value": {
+              "ru": "37,3%",
+              "en": "37.3%",
+              "es": "37,3 %",
+              "fr": "37,3%",
+              "ko": "37.3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 저항율"
+            }
+          },
+          "value": 23.3,
+          "formatted": {
+            "value": {
+              "ru": "23,3",
+              "en": "23.3",
+              "es": "23,3",
+              "fr": "23,3",
+              "ko": "23.3"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations",
+              "ko": "열상 저항율"
+            }
+          },
+          "value": 35.0,
+          "formatted": {
+            "value": {
+              "ru": "35",
+              "en": "35",
+              "es": "35",
+              "fr": "35",
+              "ko": "35"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psyonics",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys",
+              "ko": "정신파 에미션"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01",
+              "en": "0.01",
+              "es": "0,01",
+              "fr": "0,01",
+              "ko": "0.01"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.schizoyorsh.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Какая разница, что говорят голоса в голове, если вас невозможно остановить!",
+          "en": "What\u0027s the difference what the voices in your head say when you can\u0027t be stopped!",
+          "es": "¡Qué más da lo que digan las voces de tu cabeza cuando eres imparable!",
+          "fr": "Quelle importance ce que disent les voix dans ta tête, quand rien ne peut t\u0027arrêter !",
+          "ko": "머리 속의 목소리들이 무슨 상관인가,이제 당신을 막을 수 있는 건 아무것도 없는데!"
+        }
+      }
+    }
+  ]
+}

@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -6.0,
+          "value": -5.000001,
           "formatted": {
             "value": {
-              "ru": "-6%",
-              "en": "-6%",
-              "es": "-6 %",
-              "fr": "-6%",
-              "ko": "-6%"
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5 %",
+              "fr": "-5%",
+              "ko": "-5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 170.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 650.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.45000005,
+          "value": 0.4000001,
           "formatted": {
             "value": {
-              "ru": "0,45°",
-              "en": "0.45°",
-              "es": "0,45°",
-              "fr": "0,45°",
-              "ko": "0.45°"
+              "ru": "0,4°",
+              "en": "0.4°",
+              "es": "0,4°",
+              "fr": "0,4°",
+              "ko": "0.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 113 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 113 shots of continuous fire",
+              "en": "Overheats after 113 consecutive shots",
               "es": "Se sobrecalienta tras 113 disparos de fuego continuo",
               "fr": "Surchauffe après 113 coups en feu continu",
               "ko": "113발 연속 발포 후 과열"
@@ -800,9 +800,9 @@
     {
       "type": "damage",
       "startDamage": 39.922104,
-      "damageDecreaseStart": 14.0,
-      "endDamage": 29.915243,
-      "damageDecreaseEnd": 59.0,
+      "damageDecreaseStart": 24.0,
+      "endDamage": 32.864635,
+      "damageDecreaseEnd": 79.0,
       "maxDistance": 170.0
     },
     {
@@ -817,7 +817,7 @@
         "args": {},
         "lines": {
           "ru": "Советский ручной пулемет, созданный на основе автомата АКМ. На момент постановки на вооружение и еще долгое время после того являлся самым легким пулеметом в мире, зарекомендовал себя как очень эффективное оружие, малогабаритное, простое и удобное в эксплуатации.",
-          "en": "A Soviet LMG based on the AKM assault rifle. When it was entered into service, and indeed for a long time afterwards, it was the lightest machine gun in the world, and established itself as a highly effective weapon compact, simple, and convenient to use.",
+          "en": "A Soviet LMG based on the AKM assault rifle. When it was first adopted, and indeed for a long time afterward, it was the lightest machine gun in the world and established itself as a highly effective weapon—compact, simple, and convenient to use.",
           "es": "Una ametralladora ligera soviética basada en el fusil de asalto AKM. Cuando entró en servicio, y de hecho, durante mucho tiempo después, era la ametralladora más ligera del mundo, y se estableció como un arma altamente eficaz, compacta, sencilla y cómoda de usar.",
           "fr": "Une mitrailleuse légère soviétique basée sur le fusil d\u0027assaut AKM. Au moment de sa mise en service et pendant longtemps encore, c\u0027était la mitrailleuse la plus légère dans le monde et elle s\u0027est imposée comme une arme très efficace, compacte, simple et pratique à utiliser.",
           "ko": "AKM 돌격 소총을 기반으로 개발된 소련제 경기관총. 실전 배치 이후, 세계에서 가장 가벼운 기관총이라는 자리를 지켜왔다. 컴펙트한 디자인, 단순하면서 효율적인 시스템은 그 위명에 손색이 없다."

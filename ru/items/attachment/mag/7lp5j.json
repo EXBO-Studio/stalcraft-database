@@ -193,7 +193,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -220,62 +220,7 @@
         "type": "text",
         "text": ""
       },
-      "elements": [
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.draw_time",
-            "args": {},
-            "lines": {
-              "ru": "Скорость доставания",
-              "en": "Draw speed",
-              "es": "Velocidad de desenfundado",
-              "fr": "Vitesse de dégainage",
-              "ko": "무기 꺼내기 속도"
-            }
-          },
-          "value": 27.999996,
-          "formatted": {
-            "value": {
-              "ru": "-28%",
-              "en": "-28%",
-              "es": "-28 %",
-              "fr": "-28%",
-              "ko": "-28%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "weapon.stat_factor.wiggle",
-            "args": {},
-            "lines": {
-              "ru": "Покачивание",
-              "en": "Sway",
-              "es": "Oscilación",
-              "fr": "Balancement",
-              "ko": "흔들림"
-            }
-          },
-          "value": 55.999992,
-          "formatted": {
-            "value": {
-              "ru": "+56%",
-              "en": "+56%",
-              "es": "+56 %",
-              "fr": "+56%",
-              "ko": "+56%"
-            },
-            "nameColor": "C15252",
-            "valueColor": "C15252"
-          }
-        }
-      ]
+      "elements": []
     },
     {
       "type": "list",

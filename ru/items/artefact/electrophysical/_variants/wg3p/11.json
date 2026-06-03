@@ -292,6 +292,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "min": 0.46665004,
+          "max": 0.549,
+          "formatted": {
+            "value": {
+              "ru": "[+0,47%; +0,55%]",
+              "en": "[+0.47%; +0.55%]",
+              "es": "[+0,47 %; +0,55 %]",
+              "fr": "[+0,47%; +0,55%]",
+              "ko": "[+0.47%; +0.55%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
@@ -324,10 +352,10 @@
             "args": {},
             "lines": {
               "ru": "Пси-излучение",
-              "en": "Psy-emissions",
+              "en": "Psyonics",
               "es": "Emisiones psy",
               "fr": "Émissions psys",
-              "ko": "정신파 방사물"
+              "ko": "정신파 에미션"
             }
           },
           "min": -3.7088,

@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -5.000001,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5 %",
+              "fr": "-5%",
+              "ko": "-5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 180.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 200.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 21 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 21 shots of continuous fire",
+              "en": "Overheats after 21 consecutive shots",
               "es": "Se sobrecalienta tras 21 disparos de fuego continuo",
               "fr": "Surchauffe après 21 coups en feu continu",
               "ko": "21발 연속 발포 후 과열"
@@ -784,9 +784,9 @@
     {
       "type": "damage",
       "startDamage": 70.78232,
-      "damageDecreaseStart": 30.0,
-      "endDamage": 69.657166,
-      "damageDecreaseEnd": 90.0,
+      "damageDecreaseStart": 40.0,
+      "endDamage": 70.78232,
+      "damageDecreaseEnd": 80.0,
       "maxDistance": 180.0
     },
     {
@@ -801,7 +801,7 @@
         "args": {},
         "lines": {
           "ru": "Данный тип снайперской винтовки находится на рынке вооружений вот уже добрых полвека и за это время успел зарекомендовать себя как исключительно надежное и удобное в обращении оружие. В войсках она служит в основном для поражения удаленных целей, которые невозможно поразить из автомата, но сталкеры оценили СВД во многом за то, что пуля из нее позволяет пробить даже самую толстую шкуру мутанта или бронежилет.",
-          "en": "This type of sniper rifle has been on the arms market for a good half a century, and in that time it has established itself as an extremely reliable and easy-to-use weapon. In the military, it is used mainly for attacking distant targets that cannot be hit by an assault rifle. However, stalkers value the SVD primarily because bullets shot from it can penetrate even the thickest of mutant’s skin or the toughest body armor.",
+          "en": "This sniper rifle has been on the arms market for a good half a century, establishing itself as an extremely reliable and easy-to-use weapon. In the military, it is used mainly to engage targets at distances beyond the effective range of an assault rifle. However, stalkers value the SVD primarily for its ability to penetrate even the thickest mutant skin or the toughest body armor.",
           "es": "Este tipo de fusil de francotirador lleva en el mercado armamentístico más de medio siglo, y en ese tiempo se ha consolidado como un arma extremadamente fiable y fácil de usar. En el ejército, se utiliza principalmente para atacar objetivos distantes que no pueden ser alcanzados por un fusil de asalto. Sin embargo, los acechadores valoran el SVD sobre todo porque las balas disparadas con él pueden penetrar incluso la piel más gruesa de los mutantes o el chaleco antibalas más resistente.",
           "fr": "Ce type de fusil de précision est présent sur le marché de l\u0027armement depuis un bon demi-siècle et s\u0027est imposé au cours de cette période comme une arme extrêmement fiable et facile à utiliser. Dans l\u0027armée, il est principalement utilisé pour attaquer des cibles lointaines qui ne peuvent pas être touchées par un fusil d\u0027assaut. Cependant, les stalkers apprécient le SVD principalement parce que les balles tirées peuvent pénétrer même la peau la plus épaisse des mutants ou le gilet pare-balles le plus résistant.",
           "ko": "무기 시장에서 반세기 동안 신뢰도와 그 편의성을 인정받아 왔다. 군에서는 돌격 소총으로 닿지 않는 원거리 목표물을 제거할 때 주로 쓰인다. 스토커들이 이 무기를 진짜로 아끼는 이유는 따로 있다. SVD의 탄환은 돌연변이의 두꺼운 가죽이든, 인간의 강철 방어구든 그대로 꿰뚫어버리기 때문이다."

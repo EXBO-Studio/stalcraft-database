@@ -1,0 +1,479 @@
+{
+  "id": "5ddo",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.cubemelon.name",
+    "args": {},
+    "lines": {
+      "ru": "Мякоть куборбуза",
+      "en": "Cubemelon Pulp",
+      "es": "Pulpa de cuadrimelón",
+      "fr": "Pulpe de Meloncube",
+      "ko": "큐브멜론 펄프"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine",
+              "es": "Medicamentos",
+              "fr": "Médicaments",
+              "ko": "치료제"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.015,
+          "formatted": {
+            "value": {
+              "ru": "0,02 кг",
+              "en": "0.02 kg",
+              "es": "0,02 kg",
+              "fr": "0,02 kg",
+              "ko": "0.02 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l\u0027artisanat",
+              "ko": "제작에 사용"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "580.0"
+            },
+            "lines": {
+              "ru": "580 руб.",
+              "en": "580 rubles",
+              "es": "580 rublos",
+              "fr": "580 roubles",
+              "ko": "580 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose",
+              "es": "Propósito",
+              "fr": "Objectif",
+              "ko": "용도"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.short_time_medicine",
+            "args": {},
+            "lines": {
+              "ru": "Кратковременное усиление",
+              "en": "Short-Term Boost",
+              "es": "Impulso a corto plazo",
+              "fr": "Boost rapide",
+              "ko": "단기 부스트"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.priority",
+            "args": {},
+            "lines": {
+              "ru": "Приоритет эффекта",
+              "en": "Effect priority",
+              "es": "Priorización del efecto",
+              "fr": "Priorité de l\u0027effet",
+              "ko": "효과 우선순위"
+            }
+          },
+          "value": 8.0,
+          "formatted": {
+            "value": {
+              "ru": "8",
+              "en": "8",
+              "es": "8",
+              "fr": "8",
+              "ko": "8"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration",
+              "es": "Duración",
+              "fr": "Durée",
+              "ko": "지속 시간"
+            }
+          },
+          "value": 270.0,
+          "formatted": {
+            "value": {
+              "ru": "4 мин 30 с",
+              "en": "4 min 30 sec",
+              "es": "4 min 30 s",
+              "fr": "4 min 30 s",
+              "ko": "4분 30초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d\u0027utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death",
+              "es": "El efecto desaparece tras la muerte",
+              "fr": "L\u0027effet persiste après la mort",
+              "ko": "사망 후 효과가 소멸됩니다"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": 35.5,
+          "formatted": {
+            "value": {
+              "ru": "35,5%",
+              "en": "35.5%",
+              "es": "35,5 %",
+              "fr": "35,5%",
+              "ko": "35.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": 1.85,
+          "formatted": {
+            "value": {
+              "ru": "1,85%",
+              "en": "1.85%",
+              "es": "1,85 %",
+              "fr": "1,85%",
+              "ko": "1.85%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "value": 1.85,
+          "formatted": {
+            "value": {
+              "ru": "1,85%",
+              "en": "1.85%",
+              "es": "1,85 %",
+              "fr": "1,85%",
+              "ko": "1.85%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "value": 3.8,
+          "formatted": {
+            "value": {
+              "ru": "3,8%",
+              "en": "3.8%",
+              "es": "3,8 %",
+              "fr": "3,8%",
+              "ko": "3.8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l\u0027endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "value": 7.8,
+          "formatted": {
+            "value": {
+              "ru": "7,8%",
+              "en": "7.8%",
+              "es": "7,8 %",
+              "fr": "7,8%",
+              "ko": "7.8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.cubemelon.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Сладкая водянистая мякоть без конкретного вкуса. Произрастает в аномальных зонах. Обладает ярко выраженным ароматом арбуза. В больших количествах повышает метаболизм.",
+          "en": "Sweet watery pulp with no specific taste. Found in anomalous zones. Has a distinct watermelon aroma. Boosts metabolism in large quantities.",
+          "es": "Pulpa dulce y acuosa sin sabor definido. Crece en zonas anómalas. Tiene un fuerte aroma a sandía. En grandes cantidades, potencia el metabolismo.",
+          "fr": "Une pulpe aqueuse et sucrée sans goût distinct qui pousse dans les régions anormales. Sent fort la pastèque. Consommée en de larges quantités, elle booste le métabolisme.",
+          "ko": "특정한 맛은 없으나 달콤하고 수분이 가득한 과육입니다. 이상현상 구역에서 자생하며, 코끝을 찌르는 강렬한 수박 향이 특징입니다. 다량 섭취 시 신진대사를 크게 촉진합니다."
+        }
+      }
+    },
+    {}
+  ]
+}

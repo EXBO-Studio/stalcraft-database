@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 140.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 550.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.42000008,
+          "value": 0.3699999,
           "formatted": {
             "value": {
-              "ru": "0,42°",
-              "en": "0.42°",
-              "es": "0,42°",
-              "fr": "0,42°",
-              "ko": "0.42°"
+              "ru": "0,37°",
+              "en": "0.37°",
+              "es": "0,37°",
+              "fr": "0,37°",
+              "ko": "0.37°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 41 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 41 shots of continuous fire",
+              "en": "Overheats after 41 consecutive shots",
               "es": "Se sobrecalienta tras 41 disparos de fuego continuo",
               "fr": "Surchauffe après 41 coups en feu continu",
               "ko": "41발 연속 발포 후 과열"
@@ -800,9 +800,9 @@
     {
       "type": "damage",
       "startDamage": 25.673475,
-      "damageDecreaseStart": 18.0,
-      "endDamage": 20.754725,
-      "damageDecreaseEnd": 62.0,
+      "damageDecreaseStart": 28.0,
+      "endDamage": 22.794207,
+      "damageDecreaseEnd": 82.0,
       "maxDistance": 140.0
     },
     {
@@ -817,7 +817,7 @@
         "args": {},
         "lines": {
           "ru": "Американская автоматическая винтовка калибра 5.56 мм, разработанная и принятая на вооружение в 1960-х годах. Отсутствует режим непрерывной стрельбы, а цевье и магазин для уменьшения цены оружия заменены на соответствующие от M16A1.",
-          "en": "An American 5.56 mm assault rifle developed and put into operational service in the 1960s. It lacks a fully automatic firing mode, but the handguard and magazine have been replaced with those from the M16A1 in order to reduce the cost.",
+          "en": "An American 5.56 mm assault rifle developed and put into operational service in the 1960s. It lacks a fully automatic firing mode.",
           "es": "Un fusil de asalto estadounidense de 5,56 mm desarrollado y puesto en servicio operativo en la década de los 60. Carece de modo de disparo totalmente automático, pero el guardamanos y el cargador se han sustituido por los del M16A1 para reducir el coste.",
           "fr": "Fusil d\u0027assaut américain de 5,56 mm développé et mis en service opérationnel dans les années 1960. Il ne dispose pas d\u0027un mode de tir entièrement automatique, mais le garde-main et le chargeur ont été remplacés par ceux du M16A1 afin d\u0027en réduire le coût.",
           "ko": "1960년대에 개발되어 운용된 미국제 5.56 mm 돌격 소총이다. 완전 자동 사격 모드는 없지만, 비용 절감을 위해 손잡이와 탄창을 M16A1의 것으로 교체했다."

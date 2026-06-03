@@ -1,0 +1,679 @@
+{
+  "id": "p6256",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.detox.name",
+    "args": {},
+    "lines": {
+      "ru": "«Панацея»",
+      "en": "Panacea",
+      "es": "Panacea",
+      "fr": "Panacée",
+      "ko": "만병통치약"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine",
+              "es": "Medicamentos",
+              "fr": "Médicaments",
+              "ko": "치료제"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.075,
+          "formatted": {
+            "value": {
+              "ru": "0,08 кг",
+              "en": "0.08 kg",
+              "es": "0,08 kg",
+              "fr": "0,08 kg",
+              "ko": "0.08 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose",
+              "es": "Propósito",
+              "fr": "Objectif",
+              "ko": "용도"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Вывод",
+              "en": "Output",
+              "es": "Retirada",
+              "fr": "Retrait",
+              "ko": "결과"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.hp_regen",
+            "args": {},
+            "lines": {
+              "ru": "Мгновенное лечение",
+              "en": "Instant healing",
+              "es": "Curación instantánea",
+              "fr": "Soins instantanés",
+              "ko": "즉시 치유"
+            }
+          },
+          "value": 7.2,
+          "formatted": {
+            "value": {
+              "ru": "7,2",
+              "en": "7.2",
+              "es": "7,2",
+              "fr": "7,2",
+              "ko": "7.2"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.priority",
+            "args": {},
+            "lines": {
+              "ru": "Приоритет эффекта",
+              "en": "Effect priority",
+              "es": "Priorización del efecto",
+              "fr": "Priorité de l\u0027effet",
+              "ko": "효과 우선순위"
+            }
+          },
+          "value": 20.0,
+          "formatted": {
+            "value": {
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20",
+              "ko": "20"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration",
+              "es": "Duración",
+              "fr": "Durée",
+              "ko": "지속 시간"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d\u0027utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 3.0,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison",
+              "ko": "독성"
+            }
+          },
+          "value": 25.0,
+          "formatted": {
+            "value": {
+              "ru": "25",
+              "en": "25",
+              "es": "25",
+              "fr": "25",
+              "ko": "25"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление радиации",
+              "en": "Radiation resistance",
+              "es": "Resistencia a la radiación",
+              "fr": "Résistance aux radiations",
+              "ko": "방사능 저항"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление температуре",
+              "en": "Thermal resistance",
+              "es": "Resistencia térmica",
+              "fr": "Résistance thermique",
+              "ko": "열 저항"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление биозаражению",
+              "en": "Bioinfection resistance",
+              "es": "Resistencia a la bioinfección",
+              "fr": "Résistance aux bio infections",
+              "ko": "생물학적 감염 저항율"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление пси-излучению",
+              "en": "Psy-emission resistance",
+              "es": "Resistencia a la emisión psy",
+              "fr": "Résistance aux émissions psys",
+              "ko": "정신파 방사물 저항율"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление кровотечению",
+              "en": "Bleeding resistance",
+              "es": "Resistencia a hemorragia",
+              "fr": "Résistance aux saignements",
+              "ko": "출혈 저항율"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление холоду",
+              "en": "Frost resistance",
+              "es": "Resistencia a la congelación",
+              "fr": "Résistance au gel",
+              "ko": "서리 저항율"
+            }
+          },
+          "value": 100.0,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "value": -155.0,
+          "formatted": {
+            "value": {
+              "ru": "-155",
+              "en": "-155",
+              "es": "-155",
+              "fr": "-155",
+              "ko": "-155"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température",
+              "ko": "열"
+            }
+          },
+          "value": -125.0,
+          "formatted": {
+            "value": {
+              "ru": "-125",
+              "en": "-125",
+              "es": "-125",
+              "fr": "-125",
+              "ko": "-125"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique",
+              "ko": "생체 감염"
+            }
+          },
+          "value": -155.0,
+          "formatted": {
+            "value": {
+              "ru": "-155",
+              "en": "-155",
+              "es": "-155",
+              "fr": "-155",
+              "ko": "-155"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psyonics",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys",
+              "ko": "정신파 에미션"
+            }
+          },
+          "value": -155.0,
+          "formatted": {
+            "value": {
+              "ru": "-155",
+              "en": "-155",
+              "es": "-155",
+              "fr": "-155",
+              "ko": "-155"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -15.0,
+          "formatted": {
+            "value": {
+              "ru": "-15",
+              "en": "-15",
+              "es": "-15",
+              "fr": "-15",
+              "ko": "-15"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Холод",
+              "en": "Frost",
+              "es": "Congelación",
+              "fr": "Givre",
+              "ko": "서리"
+            }
+          },
+          "value": -60.0,
+          "formatted": {
+            "value": {
+              "ru": "-60",
+              "en": "-60",
+              "es": "-60",
+              "fr": "-60",
+              "ko": "-60"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion",
+              "ko": "발화"
+            }
+          },
+          "value": -3.0,
+          "formatted": {
+            "value": {
+              "ru": "-3",
+              "en": "-3",
+              "es": "-3",
+              "fr": "-3",
+              "ko": "-3"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.detox.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "С того света за 3 секунды!",
+          "en": "Back from the dead in 3 seconds!",
+          "es": "¡Desde el otro lado en 3 segundos!",
+          "fr": "De l\u0027autre côté en 3 secondes !",
+          "ko": "저세상에서 이승으로 단 3초 만에!"
+        }
+      }
+    }
+  ]
+}

@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -5.000001,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5 %",
+              "fr": "-5%",
+              "ko": "-5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 175.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 200.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 21 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 21 shots of continuous fire",
+              "en": "Overheats after 21 consecutive shots",
               "es": "Se sobrecalienta tras 21 disparos de fuego continuo",
               "fr": "Surchauffe après 21 coups en feu continu",
               "ko": "21발 연속 발포 후 과열"
@@ -784,9 +784,9 @@
     {
       "type": "damage",
       "startDamage": 61.62119,
-      "damageDecreaseStart": 30.0,
-      "endDamage": 60.67317,
-      "damageDecreaseEnd": 90.0,
+      "damageDecreaseStart": 40.0,
+      "endDamage": 61.62119,
+      "damageDecreaseEnd": 80.0,
       "maxDistance": 175.0
     },
     {
@@ -801,7 +801,7 @@
         "args": {},
         "lines": {
           "ru": "Самозарядная винтовка системы Токарева образца 1940 года была разработана в качестве замены автоматической винтовки Симонова и впоследствии принята на вооружение Красной армии. Из-за различных недостатков, в частности — низкой надежности, не была особо распространена после войны. Тем не менее достаточное количество экземпляров можно найти у торговцев — невысокая цена сделала винтовку популярной среди начинающих сталкеров.",
-          "en": "This 1940 example of a self-loading rifle using the Tokarev system was developed as a replacement for the Simonov assault rifle and was subsequently entered into service in the Red Army. Due to its various shortcomings, particularly its low reliability, it was not particularly widely used after the war. Nonetheless, a substantial number of examples can be found with merchants—this rifle’s low price made it popular among novice stalkers.",
+          "en": "A self-loading rifle developed in 1940 using the Tokarev system, designed as a replacement for the Simonov assault rifle and subsequently adopted by the Red Army. Due to various shortcomings, particularly low reliability, it saw limited use after the war. Nonetheless, a substantial number can be found with merchants—this rifle\u0027s low price makes it popular among novice stalkers.",
           "es": "Este ejemplo de 1940 de fusil semiautomático que utiliza el sistema Tokarev fue desarrollado como sustituto del fusil de asalto Simonov y posteriormente entró en servicio en el Ejército Rojo. Debido a sus diversos defectos, en particular su escasa fiabilidad, no se utilizó mucho después de la guerra. No obstante, se puede encontrar un número considerable de ejemplares en los mercaderes: el bajo precio de este fusil lo hizo popular entre los acechadores novatos.",
           "fr": "Ce modèle de fusil à chargement automatique datant de 1940 utilisant le système Tokarev a été développé pour remplacer le fusil d\u0027assaut Simonov et a ensuite été mis en service dans l\u0027Armée Rouge. En raison de ses divers défauts, notamment de sa faible fiabilité, son utilisation n\u0027a pas été particulièrement répandue après la guerre. Néanmoins, un nombre important d\u0027exemplaires peuvent être trouvés chez les marchands : le faible prix de ce fusil l\u0027a rendu populaire auprès des stalkers débutants.",
           "ko": "1940년에 개발되었으며, 토카레프 시스템을 채용했다. 시모노프 돌격 소총을 대체하기 위해 만들어졌다. 노농 적군에 도입되었지만, 낮은 신뢰도를 비롯한 여러 단점들 때문에 전쟁 이후에는 널리 사용되지 않았다. 그럼에도 불구하고 상인들이 여전히 다수의 물량을 보유하고 있으며, 가격이 저렴한 덕분에 신입 스토커들 사이에서는 꾸준한 인기를 끌고 있다."

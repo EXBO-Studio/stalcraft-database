@@ -1,0 +1,75 @@
+{
+  "id": "9dody",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.famas_ny_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть новогоднего FAMAS #2",
+      "en": "New Year FAMAS Part #2",
+      "es": "FAMAS de Año Nuevo Pieza n.° 2",
+      "fr": "Pièce de FAMAS du Nouvel An #2",
+      "ko": "새해 FAMAS 부품 #2"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "분류 없음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {}
+  ]
+}

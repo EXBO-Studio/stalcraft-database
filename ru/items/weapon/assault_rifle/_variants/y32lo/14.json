@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 150.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 625.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.46000004,
+          "value": 0.4100001,
           "formatted": {
             "value": {
-              "ru": "0,46°",
-              "en": "0.46°",
-              "es": "0,46°",
-              "fr": "0,46°",
-              "ko": "0.46°"
+              "ru": "0,41°",
+              "en": "0.41°",
+              "es": "0,41°",
+              "fr": "0,41°",
+              "ko": "0.41°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 46 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 46 shots of continuous fire",
+              "en": "Overheats after 46 consecutive shots",
               "es": "Se sobrecalienta tras 46 disparos de fuego continuo",
               "fr": "Surchauffe après 46 coups en feu continu",
               "ko": "46발 연속 발포 후 과열"
@@ -784,9 +784,9 @@
     {
       "type": "damage",
       "startDamage": 36.47073,
-      "damageDecreaseStart": 12.0,
-      "endDamage": 24.71372,
-      "damageDecreaseEnd": 56.0,
+      "damageDecreaseStart": 20.0,
+      "endDamage": 27.23308,
+      "damageDecreaseEnd": 76.0,
       "maxDistance": 150.0
     },
     {
@@ -801,7 +801,7 @@
         "args": {},
         "lines": {
           "ru": "FN SCAR (англ. Special Operations Forces Combat Assault Rifle - боевая штурмовая винтовка для сил специальных операций) - оружейная система, разработанная американским подразделением бельгийской компании@FN Herstal.",
-          "en": "The FN SCAR (from the phrase “Special Operations Forces Combat Assault Rifle”) is a weapons system that was developed by the American subdivision of the Belgian company@FN Herstal.",
+          "en": "The FN SCAR (Special Operations Forces Combat Assault Rifle) is a weapons system developed by the American subdivision of Belgian company@FN Herstal.",
           "es": "El FN SCAR (de la frase \"fusil de asalto de combate de fuerzas de operaciones especiales\", por sus siglas en inglés) es un sistema de armas desarrollado por la subdivisión estadounidense de la empresa belga@FN Herstal.",
           "fr": "Le FN SCAR (« Special Operations Forces Combat Assault Rifle ») est un système d\u0027armes développé par une sous-division américaine de la société belge FN Herstal.",
           "ko": "FN SCAR(Special Operations Forces Combat Assault Rifle)는 벨기에 무기 제조사 FN Herstal의 미국 지사에서 개발한 전투용 돌격 소총 시스템이다."

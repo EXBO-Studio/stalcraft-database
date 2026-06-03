@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 180.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 700.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.4000001,
+          "value": 0.3499999,
           "formatted": {
             "value": {
-              "ru": "0,4°",
-              "en": "0.4°",
-              "es": "0,4°",
-              "fr": "0,4°",
-              "ko": "0.4°"
+              "ru": "0,35°",
+              "en": "0.35°",
+              "es": "0,35°",
+              "fr": "0,35°",
+              "ko": "0.35°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 41 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 41 shots of continuous fire",
+              "en": "Overheats after 41 consecutive shots",
               "es": "Se sobrecalienta tras 41 disparos de fuego continuo",
               "fr": "Surchauffe après 41 coups en feu continu",
               "ko": "41발 연속 발포 후 과열"
@@ -800,9 +800,9 @@
     {
       "type": "damage",
       "startDamage": 40.103355,
-      "damageDecreaseStart": 16.0,
-      "endDamage": 32.848476,
-      "damageDecreaseEnd": 61.0,
+      "damageDecreaseStart": 26.0,
+      "endDamage": 36.17363,
+      "damageDecreaseEnd": 81.0,
       "maxDistance": 180.0
     },
     {
@@ -817,10 +817,10 @@
         "args": {},
         "lines": {
           "ru": "Автомат Калашникова АК-308 разработан концерном «Калашников» под требования иностранных заказчиков, испытывающих потребность в мощном и надежном ручном автоматическом оружии под патрон 7.62х51 НАТО.",
-          "en": "The AK-308 Kalashnikov assault rifle was developed by the Kalashnikov company by request from foreign clients who had need of a powerful and reliable handheld automatic weapon that used 7.62x51 NATO round.",
+          "en": "The AK-308 Kalashnikov assault rifle was developed by the Kalashnikov Concern at the request of foreign clients who had need of a powerful and reliable handheld automatic weapon that used the 7.62x51 NATO round.",
           "es": "El fusil de asalto Kalashnikov AK-308 fue desarrollado por la empresa Kalashnikov a petición de clientes extranjeros que necesitaban un arma automática de mano potente y fiable que utilizara munición 7,62x51 de la OTAN.",
           "fr": "Le fusil d\u0027assaut AK-308 Kalachnikov a été développé par la société Kalachnikov à la demande de clients étrangers qui avaient besoin d\u0027une arme automatique portative puissante et fiable utilisant des cartouches 7,62x51 OTAN.",
-          "ko": "칼라시니코프 사에서 개발한 돌격 소총. 외국 고객의 화력이 막강하면서도 신뢰도가 높은 소형 자동 화기가 필요하다는 요구에 의해 제작되었다. 7.62x51 NATO 탄을 사용하는 소총이다."
+          "ko": "칼라시니코프 사에서 개발한 돌격 소총. 외국 의뢰인의 화력이 막강하면서도 신뢰도가 높은 소형 자동 화기가 필요하다는 요구에 의해 제작되었다. 7.62x51 NATO 탄을 사용하는 소총이다."
         }
       }
     }

@@ -1,0 +1,75 @@
+{
+  "id": "mrnq2",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.rpl20_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть РПЛ-20 #2",
+      "en": "RPL-20 Part #2",
+      "es": "RPL-20 Pieza n.° 2",
+      "fr": "RPL-20 Partie #2",
+      "ko": "RPL-20 부품 #2"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "분류 없음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {}
+  ]
+}

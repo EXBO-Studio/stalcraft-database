@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 160.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 950.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.46000004,
+          "value": 0.4100001,
           "formatted": {
             "value": {
-              "ru": "0,46°",
-              "en": "0.46°",
-              "es": "0,46°",
-              "fr": "0,46°",
-              "ko": "0.46°"
+              "ru": "0,41°",
+              "en": "0.41°",
+              "es": "0,41°",
+              "fr": "0,41°",
+              "ko": "0.41°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 66 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 66 shots of continuous fire",
+              "en": "Overheats after 66 consecutive shots",
               "es": "Se sobrecalienta tras 66 disparos de fuego continuo",
               "fr": "Surchauffe après 66 coups en feu continu",
               "ko": "66발 연속 발포 후 과열"
@@ -784,9 +784,9 @@
     {
       "type": "damage",
       "startDamage": 37.415245,
-      "damageDecreaseStart": 10.0,
-      "endDamage": 24.037119,
-      "damageDecreaseEnd": 48.0,
+      "damageDecreaseStart": 16.0,
+      "endDamage": 26.429955,
+      "damageDecreaseEnd": 68.0,
       "maxDistance": 160.0
     },
     {
@@ -801,7 +801,7 @@
         "args": {},
         "lines": {
           "ru": "Новая ступень в развитии знаменитой линейки оружия. Фактически изменения коснулись лишь верхней половины ствольной коробки со стволом, газоотводным узлом и затворной группой, в результате чего повысились эргономичность и надежность, а масса, наоборот, снизилась.",
-          "en": "A new stage of development in this well-known series of weapons. In reality, the alterations only affected the upper half of the receiver, with the barrel, gas vent, and breech, which resulted in an improvement to the ergonomics and reliability of the weapon, while its weight, on the other hand, decreased.",
+          "en": "A new stage of development in this well-known series of weapons. In reality, the alterations only affected the upper receiver, the barrel, the gas port, and the bolt system. The result is a more ergonomic and reliable rifle with reduced weight.",
           "es": "Una nueva etapa de desarrollo en esta conocida serie de armas. En realidad, las alteraciones solo afectaron a la mitad superior del receptor, con el cañón, la salida de gases y la culata, lo que se tradujo en una mejora de la ergonomía y de la fiabilidad del arma, mientras que su peso, por otro lado, disminuyó.",
           "fr": "Une nouvelle étape du développement de cette série d\u0027armes bien connue. En réalité, seulement la moitié supérieure du récepteur avec le canon, la culasse et l\u0027évent de gaz ont été altérés. Cela a amélioré l\u0027ergonomie et la fiabilité de l\u0027arme, tout en réduisant son poids.",
           "ko": "잘 알려진 총기 시리즈의 최신 개량형이다. 실제로는 상부 리시버, 총신, 가스 배출구, 노리쇠에만 개조가 이루어졌고, 그 덕에 보다 인체 공학적이고 신뢰도 높은 무기로 다시 태어났다. 경량화는 덤."

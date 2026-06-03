@@ -264,6 +264,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": 1.0608001,
+          "max": 1.248,
+          "formatted": {
+            "value": {
+              "ru": "[+1,06%; +1,25%]",
+              "en": "[+1.06%; +1.25%]",
+              "es": "[+1,06 %; +1,25 %]",
+              "fr": "[+1,06%; +1,25%]",
+              "ko": "[+1.06%; +1.25%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
@@ -274,43 +302,15 @@
               "ko": "체력 회복력"
             }
           },
-          "min": 2.3868,
-          "max": 2.8079998,
+          "min": 1.768,
+          "max": 2.08,
           "formatted": {
             "value": {
-              "ru": "[+2,39%; +2,81%]",
-              "en": "[+2.39%; +2.81%]",
-              "es": "[+2,39 %; +2,81 %]",
-              "fr": "[+2,39%; +2,81%]",
-              "ko": "[+2.39%; +2.81%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Защита от разрыва",
-              "en": "Laceration protection",
-              "es": "Protección contra laceración",
-              "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
-            }
-          },
-          "min": 10.784801,
-          "max": 12.688,
-          "formatted": {
-            "value": {
-              "ru": "[+10,78; +12,69]",
-              "en": "[+10.78; +12.69]",
-              "es": "[+10,78; +12,69]",
-              "fr": "[+10,78; +12,69]",
-              "ko": "[+10.78; +12.69]"
+              "ru": "[+1,77%; +2,08%]",
+              "en": "[+1.77%; +2.08%]",
+              "es": "[+1,77 %; +2,08 %]",
+              "fr": "[+1,77%; +2,08%]",
+              "ko": "[+1.77%; +2.08%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

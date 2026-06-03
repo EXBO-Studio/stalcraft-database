@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 150.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 700.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.45000005,
+          "value": 0.4000001,
           "formatted": {
             "value": {
-              "ru": "0,45°",
-              "en": "0.45°",
-              "es": "0,45°",
-              "fr": "0,45°",
-              "ko": "0.45°"
+              "ru": "0,4°",
+              "en": "0.4°",
+              "es": "0,4°",
+              "fr": "0,4°",
+              "ko": "0.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 56 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 56 shots of continuous fire",
+              "en": "Overheats after 56 consecutive shots",
               "es": "Se sobrecalienta tras 56 disparos de fuego continuo",
               "fr": "Surchauffe après 56 coups en feu continu",
               "ko": "56발 연속 발포 후 과열"
@@ -800,9 +800,9 @@
     {
       "type": "damage",
       "startDamage": 30.66997,
-      "damageDecreaseStart": 10.0,
-      "endDamage": 21.69055,
-      "damageDecreaseEnd": 52.0,
+      "damageDecreaseStart": 18.0,
+      "endDamage": 23.90625,
+      "damageDecreaseEnd": 72.0,
       "maxDistance": 150.0
     },
     {
@@ -817,7 +817,7 @@
         "args": {},
         "lines": {
           "ru": "Современный автомат, разработанный на замену устаревающему АК-74. Одна из главных особенностей - возможность ведения огня очередями по 2 патрона с высокой точностью (на расстоянии ста метров обе пули ложатся в одну точку). Это существенно увеличивает шансы поразить цель благодаря совокупному останавливающему и пробивающему действию пуль.",
-          "en": "A modern assault rifle developed to replace the then-aging AK-74. One of its main features is the ability to fire bursts of two shots with high accuracy (at a range of 100 meters, both bullets hit the same point). This substantially increases the chances of taking down a target thanks to the combined penetrative and stopping power of the bullets.",
+          "en": "A modern assault rifle developed to replace the aging AK-74. One of its main features is the ability to fire bursts of two shots with high accuracy (at a range of 100 meters, both bullets hit the same point). This substantially increases the chances of taking down a target thanks to the combined penetrative and stopping power of the bullets.",
           "es": "Un moderno fusil de asalto desarrollado para sustituir al entonces anticuado AK-74. Una de sus principales características es la capacidad de efectuar ráfagas de dos disparos con gran precisión (a una distancia de 100 metros, ambas balas impactan en el mismo punto). Esto aumenta sustancialmente las posibilidades de abatir a un objetivo gracias al poder combinado de penetración y parada de las balas.",
           "fr": "Il s\u0027agit d\u0027un fusil d\u0027assaut moderne conçu pour remplacer l\u0027AK-74, alors vieillissant. L\u0027une de ses principales caractéristiques est la possibilité de tirer des rafales de deux coups avec une grande précision (à une distance de 100 mètres, les deux balles atteignent le même point). Cela augmente considérablement les chances d\u0027abattre une cible grâce à la puissance de pénétration et d\u0027arrêt combinée des balles.",
           "ko": "오래된 AK-74를 대체하기 위해 개발된 현대적 돌격 소총으로, 주요 특징 중 하나는 100미터 거리에서 두 발의 탄환을 정확하게 같은 지점에 명중시킬 수 있는 점발 사격 기능이다(2점발 사격). 이는 탄환의 관통력과 저지력을 결합하여 표적을 제압할 확률을 크게 증가시킨다."

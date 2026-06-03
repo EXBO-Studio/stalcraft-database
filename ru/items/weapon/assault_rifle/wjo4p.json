@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 160.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 900.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.45000005,
+          "value": 0.4000001,
           "formatted": {
             "value": {
-              "ru": "0,45°",
-              "en": "0.45°",
-              "es": "0,45°",
-              "fr": "0,45°",
-              "ko": "0.45°"
+              "ru": "0,4°",
+              "en": "0.4°",
+              "es": "0,4°",
+              "fr": "0,4°",
+              "ko": "0.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -685,7 +685,7 @@
             },
             "lines": {
               "ru": "Перегрев через 61 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 61 shots of continuous fire",
+              "en": "Overheats after 61 consecutive shots",
               "es": "Se sobrecalienta tras 61 disparos de fuego continuo",
               "fr": "Surchauffe après 61 coups en feu continu",
               "ko": "61발 연속 발포 후 과열"
@@ -713,9 +713,9 @@
     {
       "type": "damage",
       "startDamage": 35.3,
-      "damageDecreaseStart": 10.0,
-      "endDamage": 24.1,
-      "damageDecreaseEnd": 52.0,
+      "damageDecreaseStart": 18.0,
+      "endDamage": 26.5,
+      "damageDecreaseEnd": 72.0,
       "maxDistance": 160.0
     },
     {
@@ -730,7 +730,7 @@
         "args": {},
         "lines": {
           "ru": "Модификация автомата АЕК-971, отличающаяся, прежде всего, иной конструкцией ствольной коробки (на АЕК-971 — съемная крышка), что позволяет крепить на автомат планку Пикатинни для установки различных прицелов. Имеются также планки на цевье для установки дополнительных обвесов.",
-          "en": "Modification of the AEK-971 assault rifle, distinguished primarily by a different receiver design (removable cover on the AEK-971), which allows the installation of a Picatinny rail for various sights. There are also rails on the foregrip for installing additional attachments.",
+          "en": "A modification of the AEK-971 assault rifle, distinguished primarily by a different receiver design (removable cover on the AEK-971), which allows the installation of a Picatinny rail for various sights. There are also rails on the foregrip for installing additional attachments.",
           "es": "La modificación del fusil de asalto AEK-971 se diferencia principalmente por otra construcción del receptor (en el AEK-971 — cubierta desmontable), lo que permite montar un raíl Picatinny en el fusil para instalar varias miras. También hay raíles en el guardamanos para montar accesorios adicionales.",
           "fr": "Modification du fusil AEK-971, se distinguant principalement par une conception différente du boîtier de culasse (sur l\u0027AEK-971 — couvercle amovible), permettant l\u0027ajout d\u0027un rail Picatinny pour divers viseurs. Des rails sont également présents sur le garde-main pour l\u0027installation d\u0027accessoires supplémentaires.",
           "ko": "AEK-971 돌격 소총의 개조 모델로, 리시버 구조(AEK-971의 탈착식 커버)가 다른 것으로 구분할 수 있다. 덕분에 피카티니 레일을 달 수 있어 다양한 조준경을 사용할 수 있다. 또한 포어그립에 레일이 있어 추가 부착물 장착이 가능하다."

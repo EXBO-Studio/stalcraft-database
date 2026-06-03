@@ -264,6 +264,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": -0.5,
+          "max": -0.425,
+          "formatted": {
+            "value": {
+              "ru": "[-0,5%; -0,42%]",
+              "en": "[-0.5%; -0.42%]",
+              "es": "[-0,5 %; -0,42 %]",
+              "fr": "[-0,5%; -0,42%]",
+              "ko": "[-0.5%; -0.42%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {

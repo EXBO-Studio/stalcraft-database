@@ -200,14 +200,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -314,7 +314,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 160.0,
@@ -341,7 +341,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 850.0,
@@ -392,7 +392,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -419,7 +419,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -452,14 +452,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.44000006,
+          "value": 0.38999987,
           "formatted": {
             "value": {
-              "ru": "0,44°",
-              "en": "0.44°",
-              "es": "0,44°",
-              "fr": "0,44°",
-              "ko": "0.44°"
+              "ru": "0,39°",
+              "en": "0.39°",
+              "es": "0,39°",
+              "fr": "0,39°",
+              "ko": "0.39°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -686,7 +686,7 @@
             },
             "lines": {
               "ru": "Перегрев через 61 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 61 shots of continuous fire",
+              "en": "Overheats after 61 consecutive shots",
               "es": "Se sobrecalienta tras 61 disparos de fuego continuo",
               "fr": "Surchauffe après 61 coups en feu continu",
               "ko": "61발 연속 발포 후 과열"
@@ -714,9 +714,9 @@
     {
       "type": "damage",
       "startDamage": 36.8,
-      "damageDecreaseStart": 10.0,
-      "endDamage": 25.9,
-      "damageDecreaseEnd": 52.0,
+      "damageDecreaseStart": 18.0,
+      "endDamage": 28.5,
+      "damageDecreaseEnd": 72.0,
       "maxDistance": 160.0
     },
     {
@@ -731,7 +731,7 @@
         "args": {},
         "lines": {
           "ru": "Оружие улучшено в мастерской Арсенала",
-          "en": "Weapon improved in the Arsenals Workshop",
+          "en": "Weapon upgraded in the Arsenal Workshop",
           "es": "Weapon improved in the Arsenals Workshop",
           "fr": "Arme améliorée dans l\u0027Atelier d\u0027Arsenal",
           "ko": "아스널 작업장에서 개량된 무기"
@@ -750,7 +750,7 @@
         "args": {},
         "lines": {
           "ru": "Немецкий автомат, созданный фирмой Heckler \u0026 Koch. Несмотря на внешнее сходство с карабином M4, механизм автомата на самом деле ближе к немецкой Н\u0026К G36, а не к AR-образцам американских винтовок. Первоначально новое оружие должно было стать сменным модулем для установки на любую нижнюю часть ствольной коробки от карабина M4 или M16, однако позже появились и полнокомплектные автоматы.",
-          "en": "A German assault rifle that was manufactured by Heckler \u0026 Koch. Despite its visual similarity to the M4 carbine, the mechanism of this assault rifle is, in fact, closer to that of the German H\u0026K G36, and not to that of American AR-type rifles. Originally, this new weapon was intended as a replacement module for installation on the lower part of the receiver of the M4 or M16 carbines. However, it later became a complete assault rifle in and of itself.",
+          "en": "A German assault rifle made by Heckler \u0026 Koch. Despite its visual similarity to the M4 carbine, its mechanism is closer to the German H\u0026K G36 than to American AR-type rifles. Originally intended as a conversion module for installation on any lower receiver from the M4 carbine or M16, though complete rifles later appeared as well.",
           "es": "Un fusil de asalto alemán fabricado por Heckler \u0026 Koch. A pesar de su parecido visual con la carabina M4, el mecanismo de este fusil de asalto es, de hecho, más parecido al del H\u0026K G36 alemán, y no al de los fusiles tipo AR estadounidenses. Originalmente, esta nueva arma estaba pensada como módulo de repuesto para su instalación en la parte inferior del receptor de las carabinas M4 o M16. Sin embargo, más tarde se convirtió en un fusil de asalto completo por sí mismo.",
           "fr": "Un fusil d\u0027assaut allemand construit par Heckler \u0026 Koch. Bien qu\u0027il ressemble visuellement à la carabine M4, son mécanisme est en vérité plus proche de celui du H\u0026K G36 allemand et non pas des fusils américains de type AR. Initialement, cette nouvelle arme était conçue comme un module de remplacement de boîtier inférieur des carabines M4 ou M16. Cependant, il est devenu plus tard un fusil d\u0027assaut à part entière.",
           "ko": "독일의 무기 제조사 헤클러 \u0026 코흐에서 만든 돌격 소총. 외형은 M4 카빈과 흡사하지만, 작동 방식은 미국의 AR 계열이 아닌 독일산 HK G36에 더 가깝다. 원래는 M4나 M16 카빈의 하부 리시버에 장착하는 대체 모듈로 개발되었지만, 이후 독립된 돌격 소총으로 자리잡았다."

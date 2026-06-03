@@ -285,7 +285,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 120.0,
@@ -312,7 +312,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 900.0,
@@ -363,7 +363,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -390,7 +390,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -728,7 +728,7 @@
             },
             "lines": {
               "ru": "Перегрев через 56 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 56 shots of continuous fire",
+              "en": "Overheats after 56 consecutive shots",
               "es": "Se sobrecalienta tras 56 disparos de fuego continuo",
               "fr": "Surchauffe après 56 coups en feu continu",
               "ko": "56발 연속 발포 후 과열"
@@ -756,9 +756,9 @@
     {
       "type": "damage",
       "startDamage": 30.203506,
-      "damageDecreaseStart": 8.0,
+      "damageDecreaseStart": 16.0,
       "endDamage": 20.174541,
-      "damageDecreaseEnd": 40.0,
+      "damageDecreaseEnd": 50.0,
       "maxDistance": 120.0
     },
     {
@@ -773,7 +773,7 @@
         "args": {},
         "lines": {
           "ru": "СР-2М «Вереск» — российский пистолет-пулемет, предназначенный для поражения в ближнем бою живой силы противника, использующей индивидуальные средства бронезащиты.",
-          "en": "The SR-2M Veresk is a Russian submachine gun that was intended as an antipersonnel close-quarters weapon for use against opponents who use personal protective equipment.",
+          "en": "A Russian submachine gun designed as an antipersonnel close-quarters weapon for use against opponents wearing personal protective equipment.",
           "es": "El SR-2M Veresk es un subfusil ruso concebido como arma cuerpo a cuerpo antipersonal contra adversarios que utilizan equipamiento de protección individual.",
           "fr": "Le SR-2M Veresk est un pistolet-mitrailleur russe conçu comme une arme antipersonnel de combat rapproché contre des adversaires utilisant des équipements de protection individuelle.",
           "ko": "SR-2M 베레스크는 개인 보호 장비를 사용하는 상대에게 근접 전투용 대인 무기로 사용하기 위해 개발된 러시아제 기관단총이다."

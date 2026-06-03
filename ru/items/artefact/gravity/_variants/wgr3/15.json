@@ -264,6 +264,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": 1.105,
+          "max": 1.3,
+          "formatted": {
+            "value": {
+              "ru": "[+1,1%; +1,3%]",
+              "en": "[+1.1%; +1.3%]",
+              "es": "[+1,1 %; +1,3 %]",
+              "fr": "[+1,1%; +1,3%]",
+              "ko": "[+1.1%; +1.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
@@ -274,15 +302,15 @@
               "ko": "체력 회복력"
             }
           },
-          "min": 2.431,
-          "max": 2.86,
+          "min": 1.768,
+          "max": 2.08,
           "formatted": {
             "value": {
-              "ru": "[+2,43%; +2,86%]",
-              "en": "[+2.43%; +2.86%]",
-              "es": "[+2,43 %; +2,86 %]",
-              "fr": "[+2,43%; +2,86%]",
-              "ko": "[+2.43%; +2.86%]"
+              "ru": "[+1,77%; +2,08%]",
+              "en": "[+1.77%; +2.08%]",
+              "es": "[+1,77 %; +2,08 %]",
+              "fr": "[+1,77%; +2,08%]",
+              "ko": "[+1.77%; +2.08%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -302,15 +330,15 @@
               "ko": "스태미나 재생"
             }
           },
-          "min": 2.5414999,
-          "max": 2.9899998,
+          "min": 1.6575,
+          "max": 1.9499999,
           "formatted": {
             "value": {
-              "ru": "[+2,54%; +2,99%]",
-              "en": "[+2.54%; +2.99%]",
-              "es": "[+2,54 %; +2,99 %]",
-              "fr": "[+2,54%; +2,99%]",
-              "ko": "[+2.54%; +2.99%]"
+              "ru": "[+1,66%; +1,95%]",
+              "en": "[+1.66%; +1.95%]",
+              "es": "[+1,66 %; +1,95 %]",
+              "fr": "[+1,66%; +1,95%]",
+              "ko": "[+1.66%; +1.95%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -352,10 +380,10 @@
             "args": {},
             "lines": {
               "ru": "Пси-излучение",
-              "en": "Psy-emissions",
+              "en": "Psyonics",
               "es": "Emisiones psy",
               "fr": "Émissions psys",
-              "ko": "정신파 방사물"
+              "ko": "정신파 에미션"
             }
           },
           "min": 0.53125,

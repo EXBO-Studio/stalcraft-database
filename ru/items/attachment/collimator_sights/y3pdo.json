@@ -7,7 +7,7 @@
     "args": {},
     "lines": {
       "ru": "Прицел коллиматорный «Трапеция»",
-      "en": "Trapezoid Collimator sight",
+      "en": "Trapezoid Collimator Sight",
       "es": "Mira con colimador Trapecio",
       "fr": "Viseur collimataire Trapèze",
       "ko": "사다리꼴 양안조준경"
@@ -173,14 +173,14 @@
               "ko": "안정성"
             }
           },
-          "value": 10.000467,
+          "value": 4.9996376,
           "formatted": {
             "value": {
-              "ru": "+10%",
-              "en": "+10%",
-              "es": "+10 %",
-              "fr": "+10%",
-              "ko": "+10%"
+              "ru": "+5%",
+              "en": "+5%",
+              "es": "+5 %",
+              "fr": "+5%",
+              "ko": "+5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -200,7 +200,7 @@
         "args": {},
         "lines": {
           "ru": "Трофейный образец прицела, найденного у одного из убитых бойцов «Шепота». Поврежден, функционал не полный.\\nВыполнен из полимера, сочетающего в себе плотный пластик и аномальные вкрапления. Вместо стекла используется прозрачный кристаллический композит, по непонятным причинам не поддающийся загрязнению мелкой взвесью и каплями воды.\\nМетка — две боковых полосы, желтая точка.",
-          "en": "A trophy sample of a sight found on one of the fallen Murmur fighter. Damaged, functionality is incomplete.\\nMade from a polymer combining dense plastic and anomalous inclusions. Instead of glass, a transparent crystalline composite is used, which for unknown reasons does not get contaminated by fine particles and water droplets.\\nThe reticle — two side bars and a yellow dot.",
+          "en": "A trophy sight recovered from a fallen Murmur fighter. Damaged, functionality is incomplete.\\nMade from a polymer combining dense plastic and anomalous inclusions. Instead of glass, a transparent crystalline composite is used that—for reasons unknown—does not get contaminated by fine particles and water droplets.\\nReticle: two side bars and a yellow dot.",
           "es": "Muestra de trofeo de una mira encontrada en posesión de un combatiente muerto de Susurro. \\nEstá hecha de un polímero que combina plástico denso e inclusiones anómalas. En lugar de vidrio, se utiliza un compuesto cristalino transparente, que por razones desconocidas no puede ser contaminado por partículas finas y gotas de agua.\\nRetícula: dos barras laterales, punto amarillo.",
           "fr": "Échantillon trophée d\u0027un viseur récupéré sur le Murmure.\\nEndommagé, fonctions limitées.\\nFabriqué dans un polymère alliant plastique dense et inclusions anormales.\\nVerre remplacé par un cristal composite résistant aux salissures et aux gouttes d\u0027eau.\\nRéticule : deux barres latérales et un point jaune.",
           "ko": "전사한 속삭임 병사에게서 찾은 전리품 원근 양안조준경. 손상되어 기능적으로 불완전하다.\\n고밀도 플라스틱과 이상 혼합물을 포함한 중합체로 만들어졌다. 무슨 이유에선지 미세 입자나 비말에도 오염되지 않는 투명한 결정질 부품이 유리 대신 사용된다.\\n조준점 - 두 개의 사이드 바와 노란색 점."
@@ -391,6 +391,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX",
+              "es": "SIG MPX",
+              "fr": "SIG MPX",
+              "ko": "SIG MPX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.amb17.name",
             "args": {},
             "lines": {
@@ -549,6 +564,21 @@
               "es": "HK MP7A2",
               "fr": "HK MP7A2",
               "ko": "HK MP7A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.honeybadger.name",
+            "args": {},
+            "lines": {
+              "ru": "AAC Honey Badger",
+              "en": "AAC Honey Badger",
+              "es": "Honey Badger",
+              "fr": "AAC Honey Badger",
+              "ko": "AAC Honey Badger"
             }
           }
         },
@@ -1689,21 +1719,6 @@
               "es": "FN F2000",
               "fr": "FN F2000",
               "ko": "FN F2000"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.mpx.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG MPX",
-              "en": "SIG MPX",
-              "es": "SIG MPX",
-              "fr": "SIG MPX",
-              "ko": "SIG MPX"
             }
           }
         },

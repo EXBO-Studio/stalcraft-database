@@ -1,0 +1,462 @@
+{
+  "id": "y3knz",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.painblocker.name",
+    "args": {},
+    "lines": {
+      "ru": "«Убийца Боли»",
+      "en": "Pain Killer",
+      "es": "Analgésico",
+      "fr": "Analgésique",
+      "ko": "진통제"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine",
+              "es": "Medicamentos",
+              "fr": "Médicaments",
+              "ko": "치료제"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.075,
+          "formatted": {
+            "value": {
+              "ru": "0,08 кг",
+              "en": "0.08 kg",
+              "es": "0,08 kg",
+              "fr": "0,08 kg",
+              "ko": "0.08 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "743.0"
+            },
+            "lines": {
+              "ru": "743 руб.",
+              "en": "743 rubles",
+              "es": "743 rublos",
+              "fr": "743 roubles",
+              "ko": "743 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose",
+              "es": "Propósito",
+              "fr": "Objectif",
+              "ko": "용도"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.short_time_medicine",
+            "args": {},
+            "lines": {
+              "ru": "Кратковременное усиление",
+              "en": "Short-Term Boost",
+              "es": "Impulso a corto plazo",
+              "fr": "Boost rapide",
+              "ko": "단기 부스트"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.priority",
+            "args": {},
+            "lines": {
+              "ru": "Приоритет эффекта",
+              "en": "Effect priority",
+              "es": "Priorización del efecto",
+              "fr": "Priorité de l\u0027effet",
+              "ko": "효과 우선순위"
+            }
+          },
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration",
+              "es": "Duración",
+              "fr": "Durée",
+              "ko": "지속 시간"
+            }
+          },
+          "value": 270.0,
+          "formatted": {
+            "value": {
+              "ru": "4 мин 30 с",
+              "en": "4 min 30 sec",
+              "es": "4 min 30 s",
+              "fr": "4 min 30 s",
+              "ko": "4분 30초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d\u0027utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison",
+              "ko": "독성"
+            }
+          },
+          "value": 40.0,
+          "formatted": {
+            "value": {
+              "ru": "40",
+              "en": "40",
+              "es": "40",
+              "fr": "40",
+              "ko": "40"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект не пропадает при смерти",
+              "en": "Effect does not wear off after death",
+              "es": "El efecto no desaparece tras la muerte",
+              "fr": "L\u0027effet disparaît après la mort",
+              "ko": "사망 후에도 효과가 지속됩니다"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "value": 3.3,
+          "formatted": {
+            "value": {
+              "ru": "3,3%",
+              "en": "3.3%",
+              "es": "3,3 %",
+              "fr": "3,3%",
+              "ko": "3.3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": 1.95,
+          "formatted": {
+            "value": {
+              "ru": "1,95%",
+              "en": "1.95%",
+              "es": "1,95 %",
+              "fr": "1,95%",
+              "ko": "1.95%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "value": 1.95,
+          "formatted": {
+            "value": {
+              "ru": "1,95%",
+              "en": "1.95%",
+              "es": "1,95 %",
+              "fr": "1,95%",
+              "ko": "1.95%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad",
+              "fr": "Stabilité",
+              "ko": "안정성"
+            }
+          },
+          "value": 11.2,
+          "formatted": {
+            "value": {
+              "ru": "11,2%",
+              "en": "11.2%",
+              "es": "11,2 %",
+              "fr": "11,2%",
+              "ko": "11.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.painblocker.description",
+        "args": {},
+        "lines": {
+          "ru": "Блокирует болевые рецепторы в мозгу. Длительное употребление вызывает суицидальную самоуверенность.",
+          "en": "Blocks pain receptors in the brain. Prolonged use causes suicidal overconfidence.",
+          "es": "Bloquea los receptores del dolor en el cerebro. El consumo prolongado provoca un exceso de confianza suicida.",
+          "fr": "Bloque les senseurs de douleur dans le cerveau. Un usage prolongé cause un excès de confiance suicidaire.",
+          "ko": "뇌의 통증 수용체를 차단한다. 장기간 사용하면 자살 행위에 가까운 무모함을 유발할 수 있다."
+        }
+      }
+    }
+  ]
+}

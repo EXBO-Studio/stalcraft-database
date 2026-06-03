@@ -285,7 +285,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 104.0,
@@ -312,7 +312,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 1000.0,
@@ -363,7 +363,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -390,7 +390,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -728,7 +728,7 @@
             },
             "lines": {
               "ru": "Перегрев через 56 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 56 shots of continuous fire",
+              "en": "Overheats after 56 consecutive shots",
               "es": "Se sobrecalienta tras 56 disparos de fuego continuo",
               "fr": "Surchauffe après 56 coups en feu continu",
               "ko": "56발 연속 발포 후 과열"
@@ -756,9 +756,9 @@
     {
       "type": "damage",
       "startDamage": 20.574085,
-      "damageDecreaseStart": 8.0,
+      "damageDecreaseStart": 14.0,
       "endDamage": 12.643292,
-      "damageDecreaseEnd": 40.0,
+      "damageDecreaseEnd": 50.0,
       "maxDistance": 104.0
     },
     {
@@ -773,7 +773,7 @@
         "args": {},
         "lines": {
           "ru": "Советский пистолет-пулемёт, разработанный конструктором Г. С. Шпагиным и принятый на вооружение Красной Армии в 1940-м году. Для удобства использования в Зоне была произведения конверсия под более распространенный калибр.",
-          "en": "A Soviet submachine gun, designed by G. S. Shpagin and was entered into service by the Red Army in 1940. For ease of use in the Zone, a conversion was made for a more common caliber.",
+          "en": "A Soviet submachine gun designed by G. S. Shpagin, it entered into service with the Red Army in 1940. For ease of use in the Zone, a conversion was made for a more common caliber.",
           "es": "Subfusil soviético diseñado por G. S. Shpagin y usado en el servicio por el Ejército Rojo en 1940. Para facilitar su uso en la Zona, se le realizó una conversión a un calibre más común.",
           "fr": "Mitraillette soviétique, conçue par G. S. Shpagine et mise en service par l\u0027Armée rouge en 1940. Pour faciliter son utilisation dans la zone, elle a été convertie pour un calibre plus courant.",
           "ko": "소련의 기관단총으로, G. S. 슈파긴이 설계하고 1940년에 붉은 군대에 의해 사용되었다. 구역에서의 사용 편의성을 위해 더 흔한 구경으로 개조되었다."

@@ -200,14 +200,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -314,7 +314,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 165.0,
@@ -341,7 +341,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 695.0,
@@ -392,7 +392,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -419,7 +419,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -452,14 +452,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.42000008,
+          "value": 0.3699999,
           "formatted": {
             "value": {
-              "ru": "0,42°",
-              "en": "0.42°",
-              "es": "0,42°",
-              "fr": "0,42°",
-              "ko": "0.42°"
+              "ru": "0,37°",
+              "en": "0.37°",
+              "es": "0,37°",
+              "fr": "0,37°",
+              "ko": "0.37°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -757,7 +757,7 @@
             },
             "lines": {
               "ru": "Перегрев через 51 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 51 shots of continuous fire",
+              "en": "Overheats after 51 consecutive shots",
               "es": "Se sobrecalienta tras 51 disparos de fuego continuo",
               "fr": "Surchauffe après 51 coups en feu continu",
               "ko": "51발 연속 발포 후 과열"
@@ -785,9 +785,9 @@
     {
       "type": "damage",
       "startDamage": 43.3,
-      "damageDecreaseStart": 18.0,
-      "endDamage": 34.3,
-      "damageDecreaseEnd": 60.0,
+      "damageDecreaseStart": 28.0,
+      "endDamage": 37.7,
+      "damageDecreaseEnd": 80.0,
       "maxDistance": 165.0
     },
     {
@@ -802,7 +802,7 @@
         "args": {},
         "lines": {
           "ru": "Оружие улучшено в мастерской Арсенала",
-          "en": "Weapon improved in the Arsenals Workshop",
+          "en": "Weapon upgraded in the Arsenal Workshop",
           "es": "Weapon improved in the Arsenals Workshop",
           "fr": "Arme améliorée dans l\u0027Atelier d\u0027Arsenal",
           "ko": "아스널 작업장에서 개량된 무기"

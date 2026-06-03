@@ -285,7 +285,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 100.0,
@@ -312,7 +312,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 900.0,
@@ -363,7 +363,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -390,7 +390,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -728,7 +728,7 @@
             },
             "lines": {
               "ru": "Перегрев через 51 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 51 shots of continuous fire",
+              "en": "Overheats after 51 consecutive shots",
               "es": "Se sobrecalienta tras 51 disparos de fuego continuo",
               "fr": "Surchauffe après 51 coups en feu continu",
               "ko": "51발 연속 발포 후 과열"
@@ -756,9 +756,9 @@
     {
       "type": "damage",
       "startDamage": 26.125,
-      "damageDecreaseStart": 5.0,
+      "damageDecreaseStart": 9.0,
       "endDamage": 13.625,
-      "damageDecreaseEnd": 32.0,
+      "damageDecreaseEnd": 42.0,
       "maxDistance": 100.0
     },
     {

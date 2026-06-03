@@ -1,0 +1,452 @@
+{
+  "id": "y770",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.lemonfruit.name",
+    "args": {},
+    "lines": {
+      "ru": "Мякоть лимонника",
+      "en": "Lemongrass Pulp",
+      "es": "Pulpa de citronela",
+      "fr": "Pulpe de Citronnelle",
+      "ko": "레몬그라스 펄프"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine",
+              "es": "Medicamentos",
+              "fr": "Médicaments",
+              "ko": "치료제"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.015,
+          "formatted": {
+            "value": {
+              "ru": "0,02 кг",
+              "en": "0.02 kg",
+              "es": "0,02 kg",
+              "fr": "0,02 kg",
+              "ko": "0.02 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l\u0027artisanat",
+              "ko": "제작에 사용"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1000.0"
+            },
+            "lines": {
+              "ru": "1 000 руб.",
+              "en": "1,000 rubles",
+              "es": "1.000 rublos",
+              "fr": "1 000 roubles",
+              "ko": "1,000 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose",
+              "es": "Propósito",
+              "fr": "Objectif",
+              "ko": "용도"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.short_time_medicine",
+            "args": {},
+            "lines": {
+              "ru": "Кратковременное усиление",
+              "en": "Short-Term Boost",
+              "es": "Impulso a corto plazo",
+              "fr": "Boost rapide",
+              "ko": "단기 부스트"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.priority",
+            "args": {},
+            "lines": {
+              "ru": "Приоритет эффекта",
+              "en": "Effect priority",
+              "es": "Priorización del efecto",
+              "fr": "Priorité de l\u0027effet",
+              "ko": "효과 우선순위"
+            }
+          },
+          "value": 10.0,
+          "formatted": {
+            "value": {
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration",
+              "es": "Duración",
+              "fr": "Durée",
+              "ko": "지속 시간"
+            }
+          },
+          "value": 270.0,
+          "formatted": {
+            "value": {
+              "ru": "4 мин 30 с",
+              "en": "4 min 30 sec",
+              "es": "4 min 30 s",
+              "fr": "4 min 30 s",
+              "ko": "4분 30초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d\u0027utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 5.0,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.non_persistent",
+            "args": {},
+            "lines": {
+              "ru": "Эффект пропадает при смерти",
+              "en": "Effect wears off after death",
+              "es": "El efecto desaparece tras la muerte",
+              "fr": "L\u0027effet persiste après la mort",
+              "ko": "사망 후 효과가 소멸됩니다"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": 37.3,
+          "formatted": {
+            "value": {
+              "ru": "37,3%",
+              "en": "37.3%",
+              "es": "37,3 %",
+              "fr": "37,3%",
+              "ko": "37.3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins",
+              "ko": "치유 효율"
+            }
+          },
+          "value": 17.5,
+          "formatted": {
+            "value": {
+              "ru": "17,5%",
+              "en": "17.5%",
+              "es": "17,5 %",
+              "fr": "17,5%",
+              "ko": "17.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 저항율"
+            }
+          },
+          "value": 23.3,
+          "formatted": {
+            "value": {
+              "ru": "23,3",
+              "en": "23.3",
+              "es": "23,3",
+              "fr": "23,3",
+              "ko": "23.3"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements",
+              "ko": "출혈 보호"
+            }
+          },
+          "value": 9.8,
+          "formatted": {
+            "value": {
+              "ru": "9,8%",
+              "en": "9.8%",
+              "es": "9,8 %",
+              "fr": "9,8%",
+              "ko": "9.8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.lemonfruit.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Мякоть обладает ярким кисло-горьким привкусом. При длительном употреблении в чистом виде может вызвать тромбоз. Обладает незначительным фактором мутации, относительно безвредным для человека. Произрастает в аномальных зонах.",
+          "en": "Pulp with a bright sour-bitter taste. Prolonged consumption in pure form can cause thrombosis. Has a minor mutation factor. Relatively harmless to humans. Found in anomalous zones.",
+          "es": "Pulpa con un brillante sabor entre agrio y amargo. El consumo prolongado en estado puro puede provocar trombosis. Tiene un factor de mutación menor, relativamente inofensivo para el ser humano. Crece en zonas anómalas.",
+          "fr": "Une pulpe avec un fort goût amer et âpre qui pousse dans les régions anormales. En consommer trop peut causer une thrombose. Possède un facteur de mutation très faible et est relativement sans danger pour l\u0027homme.",
+          "ko": "강렬한 신맛과 쌉싸름한 맛이 나는 펄프. 날것으로 장기간 섭취하면 혈전증을 유발할 수 있다. 사람에게 비교적 무해한 소규모 돌연변이 인자를 지니고 있으며, 이상 구역에서 자란다."
+        }
+      }
+    },
+    {}
+  ]
+}

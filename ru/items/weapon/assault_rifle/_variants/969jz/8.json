@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 165.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 750.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.43000007,
+          "value": 0.3800001,
           "formatted": {
             "value": {
-              "ru": "0,43°",
-              "en": "0.43°",
-              "es": "0,43°",
-              "fr": "0,43°",
-              "ko": "0.43°"
+              "ru": "0,38°",
+              "en": "0.38°",
+              "es": "0,38°",
+              "fr": "0,38°",
+              "ko": "0.38°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 56 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 56 shots of continuous fire",
+              "en": "Overheats after 56 consecutive shots",
               "es": "Se sobrecalienta tras 56 disparos de fuego continuo",
               "fr": "Surchauffe après 56 coups en feu continu",
               "ko": "56발 연속 발포 후 과열"
@@ -784,9 +784,9 @@
     {
       "type": "damage",
       "startDamage": 33.064632,
-      "damageDecreaseStart": 17.0,
-      "endDamage": 25.886127,
-      "damageDecreaseEnd": 61.0,
+      "damageDecreaseStart": 27.0,
+      "endDamage": 28.496494,
+      "damageDecreaseEnd": 81.0,
       "maxDistance": 165.0
     },
     {
@@ -804,7 +804,7 @@
           "en": "The Steyr AUG (which stands for “Armee Universal Gewehr,” meaning “universal army rifle”) is a range of small arms that was launched in 1977 by the Austrian company Steyr-Daimler-Puch. In this particular rifle, a bullpup layout has been used, whereby the magazine and breech are located behind the firing hand grip and the trigger. There are two firing modes: single-shot and full-automatic.",
           "es": "El Steyr AUG (acrónimo de \"Armee Universal Gewehr\", que significa \"fusil del ejército universal\") es una gama de armas cortas lanzada en 1977 por la empresa austríaca Steyr-Daimler-Puch. En este fusil en particular, se ha utilizado una disposición bullpup, por lo que el cargador y la culata se encuentran detrás de la empuñadura de disparo y el gatillo. Dispone de dos modos de disparo: disparo único y automático.",
           "fr": "Le Steyr AUG (« Armee Universal Gewehr » en allemand, « fusil militaire universel ») est une gamme de petites armes, lancée en 1977 par la société autrichienne Steyr-Daimler-Puch. Pour ce fusil, la configuration bullpup est utilisée, dans laquelle la culasse et le chargeur sont situés derrière la poignée de tir et la gâchette. Il y a deux modes de tir : le coup par coup et le tir automatique.",
-          "ko": "수정 사항 없음"
+          "ko": "슈타이어 AUG(다목적 군용 소총)는 오스트리아의 슈타이어-다임러-푸흐라는 무기 제조사에서 1977년에 출시한 소총 시리즈이다. 이 모델에는 불펍 레이아웃이 적용되어 있어, 탄창과 약실이 방아쇠와 손잡이 뒤에 위치해 있다. 단발 사격 모드 / 전자동 사격 모드를 선택할 수 있다."
         }
       }
     }

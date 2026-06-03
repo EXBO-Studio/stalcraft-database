@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 135.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 700.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.47000003,
+          "value": 0.42000008,
           "formatted": {
             "value": {
-              "ru": "0,47°",
-              "en": "0.47°",
-              "es": "0,47°",
-              "fr": "0,47°",
-              "ko": "0.47°"
+              "ru": "0,42°",
+              "en": "0.42°",
+              "es": "0,42°",
+              "fr": "0,42°",
+              "ko": "0.42°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 46 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 46 shots of continuous fire",
+              "en": "Overheats after 46 consecutive shots",
               "es": "Se sobrecalienta tras 46 disparos de fuego continuo",
               "fr": "Surchauffe après 46 coups en feu continu",
               "ko": "46발 연속 발포 후 과열"
@@ -784,9 +784,9 @@
     {
       "type": "damage",
       "startDamage": 40.101223,
-      "damageDecreaseStart": 8.0,
-      "endDamage": 23.77683,
-      "damageDecreaseEnd": 42.0,
+      "damageDecreaseStart": 14.0,
+      "endDamage": 26.142685,
+      "damageDecreaseEnd": 62.0,
       "maxDistance": 135.0
     },
     {
@@ -801,7 +801,7 @@
         "args": {},
         "lines": {
           "ru": "Малогабаритный автомат, сконструированный в Тульском конструкторском бюро приборостроения в 1992 году в качестве более технологичного аналога (и конкурента) автомата СР-3 «Вихрь».",
-          "en": "A compact assault rifle manufactured in the Tulsky Instrument Design Bureau in 1992 as a more technical alternative to (and competitor for) the SR-3 Vikhr assault rifle.",
+          "en": "A compact assault rifle developed by the Tulsky Instrument Design Bureau in 1992 as a more technologically advanced alternative to (and competitor for) the SR-3 Vikhr assault rifle.",
           "es": "Un fusil de asalto compacto fabricado en la Oficina de Diseño de Instrumentos Tulsky en 1992 como alternativa más técnica (y competidora) del fusil de asalto SR-3 Vikhr.",
           "fr": "Un fusil d\u0027assaut compact construit dans le Bureau d\u0027études et de construction d\u0027appareils de Toula en 1992, comme une alternative plus technologique (et compétiteur) du SR-3 Vikhr.",
           "ko": "1992년에 툴라 기계 설계국에서 만들어진 돌격 소총. 기술적으로 SR-3 비흐르 돌격 소총의 대체재로 여겨진다."

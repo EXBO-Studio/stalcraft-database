@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -4.000002,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-4%",
+              "en": "-4%",
+              "es": "-4 %",
+              "fr": "-4%",
+              "ko": "-4%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 165.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 300.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 31 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 31 shots of continuous fire",
+              "en": "Overheats after 31 consecutive shots",
               "es": "Se sobrecalienta tras 31 disparos de fuego continuo",
               "fr": "Surchauffe après 31 coups en feu continu",
               "ko": "31발 연속 발포 후 과열"
@@ -784,8 +784,8 @@
     {
       "type": "damage",
       "startDamage": 36.218826,
-      "damageDecreaseStart": 30.0,
-      "endDamage": 34.913643,
+      "damageDecreaseStart": 40.0,
+      "endDamage": 36.218826,
       "damageDecreaseEnd": 80.0,
       "maxDistance": 165.0
     },
@@ -801,7 +801,7 @@
         "args": {},
         "lines": {
           "ru": "Советский самозарядный карабин конструкции Сергея Симонова, принят на вооружение в 1949 году.",
-          "en": "This Soviet self-loading carbine that was designed by Sergey Simonov was entered into service in 1949.",
+          "en": "A Soviet self-loading carbine designed by Sergey Simonov, adopted in 1949.",
           "es": "Esta carabina semiautomática soviética diseñada por Sergey Simonov entró en servicio en 1949.",
           "fr": "Cette carabine soviétique à chargement automatique conçue par Sergueï Simonov est entrée en service en 1949.",
           "ko": "이 자동 장전 카빈총은 소련산으로, 세르게이 시모노프가 설계했다. 1949년에 실전 배치되었다."
