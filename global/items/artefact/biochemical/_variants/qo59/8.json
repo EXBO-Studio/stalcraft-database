@@ -274,15 +274,43 @@
               "ko": "체력 회복력"
             }
           },
-          "min": 1.3804,
-          "max": 1.624,
+          "min": 1.0846001,
+          "max": 1.276,
           "formatted": {
             "value": {
-              "ru": "[+1,38%; +1,62%]",
-              "en": "[+1.38%; +1.62%]",
-              "es": "[+1,38 %; +1,62 %]",
-              "fr": "[+1,38%; +1,62%]",
-              "ko": "[+1.38%; +1.62%]"
+              "ru": "[+1,08%; +1,28%]",
+              "en": "[+1.08%; +1.28%]",
+              "es": "[+1,08 %; +1,28 %]",
+              "fr": "[+1,08%; +1,28%]",
+              "ko": "[+1.08%; +1.28%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 저항율"
+            }
+          },
+          "min": 2.5635998,
+          "max": 3.0159998,
+          "formatted": {
+            "value": {
+              "ru": "[+2,56; +3,02]",
+              "en": "[+2.56; +3.02]",
+              "es": "[+2,56; +3,02]",
+              "fr": "[+2,56; +3,02]",
+              "ko": "[+2.56; +3.02]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

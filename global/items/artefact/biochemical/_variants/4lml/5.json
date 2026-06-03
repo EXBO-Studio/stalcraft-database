@@ -348,14 +348,42 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins",
+              "ko": "치유 효율"
+            }
+          },
+          "min": -4.5,
+          "max": -3.825,
+          "formatted": {
+            "value": {
+              "ru": "[-4,5%; -3,82%]",
+              "en": "[-4.5%; -3.82%]",
+              "es": "[-4,5 %; -3,82 %]",
+              "fr": "[-4,5%; -3,82%]",
+              "ko": "[-4.5%; -3.82%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.psycho_accumulation",
             "args": {},
             "lines": {
               "ru": "Пси-излучение",
-              "en": "Psy-emissions",
+              "en": "Psyonics",
               "es": "Emisiones psy",
               "fr": "Émissions psys",
-              "ko": "정신파 방사물"
+              "ko": "정신파 에미션"
             }
           },
           "min": 2.125,

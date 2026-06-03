@@ -292,6 +292,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "min": 0.6664,
+          "max": 0.784,
+          "formatted": {
+            "value": {
+              "ru": "[+0,67%; +0,78%]",
+              "en": "[+0.67%; +0.78%]",
+              "es": "[+0,67 %; +0,78 %]",
+              "fr": "[+0,67%; +0,78%]",
+              "ko": "[+0.67%; +0.78%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
@@ -302,15 +330,15 @@
               "ko": "치유 효율"
             }
           },
-          "min": 7.7112007,
-          "max": 9.0720005,
+          "min": 6.5688004,
+          "max": 7.728,
           "formatted": {
             "value": {
-              "ru": "[+7,71%; +9,07%]",
-              "en": "[+7.71%; +9.07%]",
-              "es": "[+7,71 %; +9,07 %]",
-              "fr": "[+7,71%; +9,07%]",
-              "ko": "[+7.71%; +9.07%]"
+              "ru": "[+6,57%; +7,73%]",
+              "en": "[+6.57%; +7.73%]",
+              "es": "[+6,57 %; +7,73 %]",
+              "fr": "[+6,57%; +7,73%]",
+              "ko": "[+6.57%; +7.73%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -1,0 +1,75 @@
+{
+  "id": "nkok2",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.otl_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть ОТЛ-03 «Карбач» #2",
+      "en": "OTL-03 Karbach Part #2",
+      "es": "OTL-03 Karbach Pieza n.° 2",
+      "fr": "OTL-03 Karbach Partie #2",
+      "ko": "OTL-03 카르바흐 부품 #2"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "분류 없음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {}
+  ]
+}

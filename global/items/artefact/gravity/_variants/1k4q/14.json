@@ -264,6 +264,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": 0.43520004,
+          "max": 0.512,
+          "formatted": {
+            "value": {
+              "ru": "[+0,44%; +0,51%]",
+              "en": "[+0.44%; +0.51%]",
+              "es": "[+0,44 %; +0,51 %]",
+              "fr": "[+0,44%; +0,51%]",
+              "ko": "[+0.44%; +0.51%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
@@ -274,15 +302,15 @@
               "ko": "체력 회복력"
             }
           },
-          "min": 2.176,
-          "max": 2.56,
+          "min": 1.632,
+          "max": 1.92,
           "formatted": {
             "value": {
-              "ru": "[+2,18%; +2,56%]",
-              "en": "[+2.18%; +2.56%]",
-              "es": "[+2,18 %; +2,56 %]",
-              "fr": "[+2,18%; +2,56%]",
-              "ko": "[+2.18%; +2.56%]"
+              "ru": "[+1,63%; +1,92%]",
+              "en": "[+1.63%; +1.92%]",
+              "es": "[+1,63 %; +1,92 %]",
+              "fr": "[+1,63%; +1,92%]",
+              "ko": "[+1.63%; +1.92%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -302,15 +330,15 @@
               "ko": "치유 효율"
             }
           },
-          "min": 5.8752003,
-          "max": 6.912,
+          "min": 5.0048,
+          "max": 5.8879995,
           "formatted": {
             "value": {
-              "ru": "[+5,88%; +6,91%]",
-              "en": "[+5.88%; +6.91%]",
-              "es": "[+5,88 %; +6,91 %]",
-              "fr": "[+5,88%; +6,91%]",
-              "ko": "[+5.88%; +6.91%]"
+              "ru": "[+5%; +5,89%]",
+              "en": "[+5%; +5.89%]",
+              "es": "[+5 %; +5,89 %]",
+              "fr": "[+5%; +5,89%]",
+              "ko": "[+5%; +5.89%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -343,34 +371,6 @@
             "nameColor": "C15252",
             "valueColor": "C15252"
           }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.reaction_to_chemical_burn",
-            "args": {},
-            "lines": {
-              "ru": "Реакция на хим. ожог",
-              "en": "Reaction to chemical burns",
-              "es": "Reacción a quemaduras químicas",
-              "fr": "Réaction aux brûlures chimiques",
-              "ko": "화학 화상 대항"
-            }
-          },
-          "min": 1.1968,
-          "max": 1.408,
-          "formatted": {
-            "value": {
-              "ru": "[+1,2%; +1,41%]",
-              "en": "[+1.2%; +1.41%]",
-              "es": "[+1,2 %; +1,41 %]",
-              "fr": "[+1,2%; +1,41%]",
-              "ko": "[+1.2%; +1.41%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
         }
       ]
     },
@@ -386,7 +386,7 @@
         "args": {},
         "lines": {
           "ru": "Артефакт, внешне напоминающий кусок сала с мясными прожилками. Пробовать на зуб не стоит – «Сало» полностью состоит из твердого минерала, в который входят различные металлы.\\n\\n Как и в случае с «Ягодкой», необычный вид артефакта является причиной многих слухов, однако состав «Сала» явно говорит об обратном.\\n\\n Интересной особенностью артефакта является и то, что создание подобной молекулярной структуры в лабораторных условиях, по словам профессора Кубова, физически невозможно.",
-          "en": "An artifact externally resembles a piece of lard with veins of meat. It\u0027s not worth trying to bite – Lard is completely composed of a solid mineral, which includes various metals.\\n\\n As with the Berry, the unusual appearance of the artifact is the cause of many rumors, but the composition of Lard clearly suggests otherwise.\\n\\n An interesting feature of the artifact is that, according to Professor Cubov, creating such a molecular structure in laboratory conditions is physically impossible.",
+          "en": "An artifact resembling a piece of lard with streaks of meat running through it. Best not to take a bite—the Lard is composed entirely of a solid mineral containing various metals.\\n\\n As with the Berry, the artifact\u0027s unusual appearance is the cause of many rumors, though its composition tells a different story.\\n\\n Another interesting feature of the artifact is that, according to Professor Cubov, replicating such a molecular structure under laboratory conditions is physically impossible.",
           "es": "Un artefacto que parece un trozo de manteca de cerdo con vetas de carne. No vale la pena probarlo en un diente: Manteca consiste enteramente de mineral sólido, que incluye varios metales.\\n\\n Como en el caso de Baya, el aspecto inusual del artefacto es la causa de muchos rumores, pero la composición de Manteca sugiere claramente lo contrario.\\n\\n Una característica interesante del artefacto es también el hecho de que crear una estructura molecular de este tipo en condiciones de laboratorio, según el profesor Cubov, es físicamente imposible.",
           "fr": "Un artefact ressemblant extérieurement à un morceau de lard avec des veines de viande. Il n\u0027est pas conseillé d\u0027essayer de le mordre: le Lard est entièrement composé d\u0027un minéral solide, incluant divers métaux.\\n\\n Comme pour la Baie, l\u0027apparence inhabituelle de l\u0027artefact est à l\u0027origine de nombreuses rumeurs, mais la composition du Lard suggère clairement le contraire.\\n\\nUne caractéristique intéressante de l\u0027artefact est que, selon le professeur Kubov, créer une telle structure moléculaire dans des conditions de laboratoire est physiquement impossible.",
           "ko": "이 아티팩트는 겉으로는 고기의 핏줄이 있는 라드 덩어리와 닮았지만 맛을 볼 생각은 하지 않는 편이 좋다. 라드는 다양한 금속이 포함된 고체 광물로 구성되어 있다.\\n\\n 산딸기와 마찬가지로 비정상적인 생김새로 인해 많은 소문이 퍼져 있지만 라드의 구성상 소문과는 전혀 다를 것이다.\\n\\n 다만 쿠보프 교수에 따르면 흥미롭게도 실험실 환경에서 이런 분자 구조를 형성하는 것은 물리적으로 불가능하다고 한다."

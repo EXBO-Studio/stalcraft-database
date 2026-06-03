@@ -285,7 +285,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 140.0,
@@ -312,7 +312,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 900.0,
@@ -363,7 +363,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -390,7 +390,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -657,7 +657,7 @@
             },
             "lines": {
               "ru": "Перегрев через 61 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 61 shots of continuous fire",
+              "en": "Overheats after 61 consecutive shots",
               "es": "Se sobrecalienta tras 61 disparos de fuego continuo",
               "fr": "Surchauffe après 61 coups en feu continu",
               "ko": "61발 연속 발포 후 과열"
@@ -685,9 +685,9 @@
     {
       "type": "damage",
       "startDamage": 29.4,
-      "damageDecreaseStart": 8.0,
+      "damageDecreaseStart": 16.0,
       "endDamage": 18.0,
-      "damageDecreaseEnd": 40.0,
+      "damageDecreaseEnd": 50.0,
       "maxDistance": 140.0
     },
     {
@@ -702,7 +702,7 @@
         "args": {},
         "lines": {
           "ru": "Компактный российский автомат, разработанный на основе бесшумного автомата АС «Вал».",
-          "en": "Compact Russian rifle, developed based on the silent AS Val rifle.",
+          "en": "A compact Russian rifle based on the silent AS Val",
           "es": "Un fusil compacto ruso, desarrollado sobre la base del fusil silenciado AS Val.",
           "fr": "Un fusil russe compact, développé sur la base du fusil silencieux AS Val.",
           "ko": "저소음 AS Val 소총을 기반으로 개발된 소형 러시아 소총이다."

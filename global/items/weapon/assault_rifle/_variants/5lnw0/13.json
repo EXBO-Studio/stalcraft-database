@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 180.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 650.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.4000001,
+          "value": 0.3499999,
           "formatted": {
             "value": {
-              "ru": "0,4°",
-              "en": "0.4°",
-              "es": "0,4°",
-              "fr": "0,4°",
-              "ko": "0.4°"
+              "ru": "0,35°",
+              "en": "0.35°",
+              "es": "0,35°",
+              "fr": "0,35°",
+              "ko": "0.35°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 36 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 36 shots of continuous fire",
+              "en": "Overheats after 36 consecutive shots",
               "es": "Se sobrecalienta tras 36 disparos de fuego continuo",
               "fr": "Surchauffe après 36 coups en feu continu",
               "ko": "36발 연속 발포 후 과열"
@@ -784,9 +784,9 @@
     {
       "type": "damage",
       "startDamage": 50.747566,
-      "damageDecreaseStart": 16.0,
-      "endDamage": 40.337807,
-      "damageDecreaseEnd": 60.0,
+      "damageDecreaseStart": 26.0,
+      "endDamage": 44.35976,
+      "damageDecreaseEnd": 80.0,
       "maxDistance": 180.0
     },
     {
@@ -801,7 +801,7 @@
         "args": {},
         "lines": {
           "ru": "FN FAL - огнестрельное оружие НАТО, производимое в Бельгии компанией FN Herstal. Одна из наиболее признанных и распространенных автоматических винтовок.",
-          "en": "The FN FAL is a NATO firearm that is produced by the Belgian company FN Herstal. It is one of the best known and widely used automatic rifles.",
+          "en": "A NATO firearm produced by the Belgian company FN Herstal. It\u0027s one of the best known and most widely used automatic rifles in the world.",
           "es": "El FN FAL es un arma de fuego de la OTAN producida por la empresa belga FN Herstal. Es uno de los fusiles automáticos más conocidos y utilizados.",
           "fr": "Le FN FAL est une arme à feu de l\u0027OTAN produite par la société belge FN Herstal. C\u0027est l\u0027un des fusils automatiques les plus connus et les plus largement utilisés.",
           "ko": "FN FAL은 벨기에의 무기 제조사 FN 헤르스탈에서 생산하는 소총으로, NATO에서 사용한다. 자동 소총 중에서는 가장 잘 알려져있으며, 가장 보편적으로 쓰인다."

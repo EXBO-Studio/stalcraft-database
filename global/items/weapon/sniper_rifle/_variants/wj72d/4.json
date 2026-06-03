@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -5.000001,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5 %",
+              "fr": "-5%",
+              "ko": "-5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -262,14 +262,14 @@
               "ko": "피해량"
             }
           },
-          "value": 61.210976,
+          "value": 69.55792,
           "formatted": {
             "value": {
-              "ru": "61,21 ед",
-              "en": "61.21 unit(s)",
-              "es": "61,21 unidad(es)",
-              "fr": "61,21 unité(s)",
-              "ko": "61.21 유닛"
+              "ru": "69,56 ед",
+              "en": "69.56 unit(s)",
+              "es": "69,56 unidad(es)",
+              "fr": "69,56 unité(s)",
+              "ko": "69.56 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 175.0,
@@ -340,17 +340,17 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
-          "value": 300.0,
+          "value": 200.0,
           "formatted": {
             "value": {
-              "ru": "300 выстр/мин",
-              "en": "300 shots/min",
-              "es": "300 disparos/min",
-              "fr": "300tirs/min",
-              "ko": "분당 300 발"
+              "ru": "200 выстр/мин",
+              "en": "200 shots/min",
+              "es": "200 disparos/min",
+              "fr": "200tirs/min",
+              "ko": "분당 200 발"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 21 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 21 shots of continuous fire",
+              "en": "Overheats after 21 consecutive shots",
               "es": "Se sobrecalienta tras 21 disparos de fuego continuo",
               "fr": "Surchauffe après 21 coups en feu continu",
               "ko": "21발 연속 발포 후 과열"
@@ -783,10 +783,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 61.210976,
-      "damageDecreaseStart": 30.0,
-      "endDamage": 48.74207,
-      "damageDecreaseEnd": 90.0,
+      "startDamage": 69.55792,
+      "damageDecreaseStart": 40.0,
+      "endDamage": 69.55792,
+      "damageDecreaseEnd": 80.0,
       "maxDistance": 175.0
     },
     {

@@ -1,0 +1,123 @@
+{
+  "id": "342q5",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.chitin.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть рюкзака «Хитин»",
+      "en": "Chitin Backpack Blueprint",
+      "es": "Plano de mochila \"Quitina\"",
+      "fr": "Plan du sac à dos Chitine",
+      "ko": "키틴 배낭 설계도"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "PERSONAL_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "분류 없음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {},
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.part.chitin.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "От 6 таких частей можно обменять у обменщика Дзена или Перекупщика на рюкзак «Хитин»",
+          "en": "6 Or more such parts can be exchanged at the Zen Exchanger or the Dealer for a Chitin backpack",
+          "es": "6 De estas piezas se pueden cambiar en el Intercambiador Zen o Traficante por una mochila Quitina",
+          "fr": "De 6 de ces parties peuvent être échangées auprès de l\u0027Échangeur Zen ou du Marchand contre un sac à dos Chitine.",
+          "ko": "이런 조각 6개를 모으면 제네 교환상인 또는 딜러에게서 키틴질 배낭으로 교환할 수 있다"
+        }
+      }
+    }
+  ]
+}

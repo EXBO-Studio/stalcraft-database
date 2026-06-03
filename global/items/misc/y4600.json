@@ -1,0 +1,75 @@
+{
+  "id": "y4600",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.antares_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть экзоброни «Антарес» #1",
+      "en": "Antares Exoarmor Blueprint #1",
+      "es": "Plano de exoarmadura Antares n.° 1",
+      "fr": "Plan de l\u0027Exo-Armure Antarès #1",
+      "ko": "안타레스 외골격 설계도 1번"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "분류 없음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {}
+  ]
+}

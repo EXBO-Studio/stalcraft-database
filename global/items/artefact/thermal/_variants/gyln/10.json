@@ -274,15 +274,43 @@
               "ko": "치유 효율"
             }
           },
-          "min": 5.5080004,
-          "max": 6.4800005,
+          "min": 4.692,
+          "max": 5.52,
           "formatted": {
             "value": {
-              "ru": "[+5,51%; +6,48%]",
-              "en": "[+5.51%; +6.48%]",
-              "es": "[+5,51 %; +6,48 %]",
-              "fr": "[+5,51%; +6,48%]",
-              "ko": "[+5.51%; +6.48%]"
+              "ru": "[+4,69%; +5,52%]",
+              "en": "[+4.69%; +5.52%]",
+              "es": "[+4,69 %; +5,52 %]",
+              "fr": "[+4,69%; +5,52%]",
+              "ko": "[+4.69%; +5.52%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 저항율"
+            }
+          },
+          "min": 2.6520002,
+          "max": 3.1200001,
+          "formatted": {
+            "value": {
+              "ru": "[+2,65; +3,12]",
+              "en": "[+2.65; +3.12]",
+              "es": "[+2,65; +3,12]",
+              "fr": "[+2,65; +3,12]",
+              "ko": "[+2.65; +3.12]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

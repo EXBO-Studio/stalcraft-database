@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 180.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 600.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.32999992,
+          "value": 0.27999997,
           "formatted": {
             "value": {
-              "ru": "0,33°",
-              "en": "0.33°",
-              "es": "0,33°",
-              "fr": "0,33°",
-              "ko": "0.33°"
+              "ru": "0,28°",
+              "en": "0.28°",
+              "es": "0,28°",
+              "fr": "0,28°",
+              "ko": "0.28°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 33 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 33 shots of continuous fire",
+              "en": "Overheats after 33 consecutive shots",
               "es": "Se sobrecalienta tras 33 disparos de fuego continuo",
               "fr": "Surchauffe après 33 coups en feu continu",
               "ko": "33발 연속 발포 후 과열"
@@ -788,7 +788,7 @@
             "args": {},
             "lines": {
               "ru": "Стрельба очередями по 3 пт@Скорострельность очередями: 1200 выстрелов/мин",
-              "en": "3-shot bursts@Rate of fire: 1200 round/min",
+              "en": "3-shot bursts@Rate of fire: 1,200 shots/min",
               "es": "Disparo en ráfagas de 3 municiones @Ritmo de disparo de las ráfagas: 1200 municiones/minuto",
               "fr": "Tir en rafales de 3 pts@Rythme de tir en rafales : 1200 coups/minute",
               "ko": "3발 점발 사격@연사 속도: 분당 1200발"
@@ -800,9 +800,9 @@
     {
       "type": "damage",
       "startDamage": 34.315243,
-      "damageDecreaseStart": 6.0,
-      "endDamage": 25.381098,
-      "damageDecreaseEnd": 58.0,
+      "damageDecreaseStart": 16.0,
+      "endDamage": 27.919207,
+      "damageDecreaseEnd": 78.0,
       "maxDistance": 180.0
     },
     {

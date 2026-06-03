@@ -285,7 +285,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 100.0,
@@ -312,7 +312,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 1000.0,
@@ -363,7 +363,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -390,7 +390,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -728,7 +728,7 @@
             },
             "lines": {
               "ru": "Перегрев через 56 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 56 shots of continuous fire",
+              "en": "Overheats after 56 consecutive shots",
               "es": "Se sobrecalienta tras 56 disparos de fuego continuo",
               "fr": "Surchauffe après 56 coups en feu continu",
               "ko": "56발 연속 발포 후 과열"
@@ -756,9 +756,9 @@
     {
       "type": "damage",
       "startDamage": 27.987804,
-      "damageDecreaseStart": 5.0,
+      "damageDecreaseStart": 9.0,
       "endDamage": 14.34375,
-      "damageDecreaseEnd": 32.0,
+      "damageDecreaseEnd": 42.0,
       "maxDistance": 100.0
     },
     {
@@ -773,7 +773,7 @@
         "args": {},
         "lines": {
           "ru": "Улучшенный ПП-91 «Кедр». Благодаря усовершенствованной системе подачи патронов и облегченному затворному механизму имеет повышенную скорострельность и убойность вблизи, но меньшую эффективную дистанцию.",
-          "en": "Upgraded PP-91 KEDR. Thanks to its improved ammo feeding system and lighter breech mechanism, it has a higher firing rate and close-range stopping power, but it is less effective at range.",
+          "en": "An upgraded PP-91 KEDR. Thanks to its improved ammo feeding system and lighter breech mechanism, it has a higher firing rate and greater close-range stopping power, but it is less effective at range.",
           "es": "Un PP-91 KEDR mejorado. Gracias a su sistema de alimentación de munición mejorado y a un mecanismo de culata más ligero, tiene una mayor cadencia y poder de parada a corta distancia, pero es menos eficaz desde lejos.",
           "fr": "PP-91 KEDR amélioré. Grâce à son système de rechargement amélioré et un mécanisme de culasse plus léger, il a une cadence de tir et une force d\u0027arrêt à courte portée augmentées, mais il est moins efficace à portée plus longue.",
           "ko": "개량형 PP-91 KEDR. 탄약 공급 시스템이 개선되었고, 약실 메커니즘도 경량화된 덕분에 연사 속도와 근거리 저지력이 향상되었다. 다만, 장거리 사격에는 다소 부적합하다."

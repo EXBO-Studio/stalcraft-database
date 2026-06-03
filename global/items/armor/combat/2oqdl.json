@@ -238,6 +238,33 @@
             "nameColor": "53C353",
             "valueColor": "53C353"
           }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad",
+              "fr": "Stabilité",
+              "ko": "안정성"
+            }
+          },
+          "value": 15.0,
+          "formatted": {
+            "value": {
+              "ru": "+15%",
+              "en": "+15%",
+              "es": "+15 %",
+              "fr": "+15%",
+              "ko": "+15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -337,7 +364,7 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Resistance to electricity",
+              "en": "Electricity resistance",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l\u0027électricité",
               "ko": "전기 저항율"
@@ -364,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Resistance to fire",
+              "en": "Fire resistance",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
               "ko": "화염 저항율"
@@ -391,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Resistance to chemicals",
+              "en": "Chemical resistance",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -502,7 +529,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 방사물 보호"
+              "ko": "정신파 에미션 보호"
             }
           },
           "value": 20.0,
@@ -613,7 +640,7 @@
         "args": {},
         "lines": {
           "ru": "Улучшенный вариант «Псаря» — защита распределена равномерно по всему телу, благодаря чему не уменьшает мобильность. Хоккейная маска была заменена на кустарную модификацию баллистической маски и респиратора.",
-          "en": "Improved version of Houndmaster – the protection is evenly distributed over the entire body, which does not reduce mobility. The hockey mask was replaced with a artisanal modification of a ballistic mask and respirator.",
+          "en": "An improved version of Houndmaster—protection is distributed evenly across the body, preserving full mobility. The hockey mask has been replaced with a makeshift combination of a ballistic mask and respirator.",
           "es": "Una versión mejorada de Maestro de sabuesos: la protección se distribuye uniformemente por todo el cuerpo, lo que no reduce la movilidad. La máscara de hockey fue reemplazada por una modificación artesanal de una máscara balística y un respirador.",
           "fr": "Version améliorée du Maître-Chien. La protection y est répartie uniformément sur tout le corps, ce qui ne réduit pas la mobilité. Le masque de hockey a été remplacé par une modification artisanale d\u0027un masque balistique combiné à un respirateur.",
           "ko": "사냥개 조련사의 개선형입니다. 보호력이 몸 전체에 고르게 분포되어 기동성이 떨어지지 않습니다. 하키 마스크는 장인 제작 방식의 방탄 마스크와 호흡기로 교체되었습니다."

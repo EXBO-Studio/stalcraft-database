@@ -6,7 +6,7 @@
     "key": "item.wpn.g3a1-1.name",
     "args": {},
     "lines": {
-      "ru": "Поношенная HK G3A1",
+      "ru": "Поношенный HK G3A1",
       "en": "Worn HK G3A1",
       "es": "HK G3A1 desgastado",
       "fr": "HK G3A1 Usé",
@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 172.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 600.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.4000001,
+          "value": 0.3499999,
           "formatted": {
             "value": {
-              "ru": "0,4°",
-              "en": "0.4°",
-              "es": "0,4°",
-              "fr": "0,4°",
-              "ko": "0.4°"
+              "ru": "0,35°",
+              "en": "0.35°",
+              "es": "0,35°",
+              "fr": "0,35°",
+              "ko": "0.35°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 36 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 36 shots of continuous fire",
+              "en": "Overheats after 36 consecutive shots",
               "es": "Se sobrecalienta tras 36 disparos de fuego continuo",
               "fr": "Surchauffe après 36 coups en feu continu",
               "ko": "36발 연속 발포 후 과열"
@@ -784,9 +784,9 @@
     {
       "type": "damage",
       "startDamage": 38.84893,
-      "damageDecreaseStart": 18.0,
-      "endDamage": 29.787954,
-      "damageDecreaseEnd": 62.0,
+      "damageDecreaseStart": 28.0,
+      "endDamage": 32.732773,
+      "damageDecreaseEnd": 82.0,
       "maxDistance": 172.0
     },
     {
@@ -801,7 +801,7 @@
         "args": {},
         "lines": {
           "ru": "Немецкая автоматическая винтовка, принятая на вооружение армией ФРГ в 1959 году.",
-          "en": "A German assault rifle entered into service by the Federal Republic of Germany in 1959.",
+          "en": "An assault rifle that entered into service in the Federal Republic of Germany in 1959.",
           "es": "Un fusil de asalto alemán puesto en servicio por la República Federal de Alemania en 1959.",
           "fr": "Fusil d\u0027assaut allemand mis en service par la République fédérale d\u0027Allemagne en 1959.",
           "ko": "1959년 서독에 의해 실전 투입된 독일산 돌격 소총이다."

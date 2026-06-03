@@ -264,6 +264,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": 0.33150002,
+          "max": 0.39000002,
+          "formatted": {
+            "value": {
+              "ru": "[+0,33%; +0,39%]",
+              "en": "[+0.33%; +0.39%]",
+              "es": "[+0,33 %; +0,39 %]",
+              "fr": "[+0,33%; +0,39%]",
+              "ko": "[+0.33%; +0.39%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
             "args": {},
             "lines": {
@@ -302,15 +330,15 @@
               "ko": "치유 효율"
             }
           },
-          "min": 4.641,
-          "max": 5.4599996,
+          "min": 3.978,
+          "max": 4.68,
           "formatted": {
             "value": {
-              "ru": "[+4,64%; +5,46%]",
-              "en": "[+4.64%; +5.46%]",
-              "es": "[+4,64 %; +5,46 %]",
-              "fr": "[+4,64%; +5,46%]",
-              "ko": "[+4.64%; +5.46%]"
+              "ru": "[+3,98%; +4,68%]",
+              "en": "[+3.98%; +4.68%]",
+              "es": "[+3,98 %; +4,68 %]",
+              "fr": "[+3,98%; +4,68%]",
+              "ko": "[+3.98%; +4.68%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

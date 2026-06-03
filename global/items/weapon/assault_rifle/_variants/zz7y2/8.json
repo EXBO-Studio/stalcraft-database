@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 145.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 750.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -451,14 +451,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.45000005,
+          "value": 0.4000001,
           "formatted": {
             "value": {
-              "ru": "0,45°",
-              "en": "0.45°",
-              "es": "0,45°",
-              "fr": "0,45°",
-              "ko": "0.45°"
+              "ru": "0,4°",
+              "en": "0.4°",
+              "es": "0,4°",
+              "fr": "0,4°",
+              "ko": "0.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 56 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 56 shots of continuous fire",
+              "en": "Overheats after 56 consecutive shots",
               "es": "Se sobrecalienta tras 56 disparos de fuego continuo",
               "fr": "Surchauffe après 56 coups en feu continu",
               "ko": "56발 연속 발포 후 과열"
@@ -800,9 +800,9 @@
     {
       "type": "damage",
       "startDamage": 26.75625,
-      "damageDecreaseStart": 12.0,
-      "endDamage": 18.27256,
-      "damageDecreaseEnd": 55.0,
+      "damageDecreaseStart": 20.0,
+      "endDamage": 20.12157,
+      "damageDecreaseEnd": 75.0,
       "maxDistance": 145.0
     },
     {
@@ -817,7 +817,7 @@
         "args": {},
         "lines": {
           "ru": "Автомат, созданный в США на основе М16А2 изначально для вооружения экипажей боевых машин и расчетов техники. В настоящее время на него переходит и вся Армия США, так как большее удобство укороченного карабина в современных условиях, когда большую часть армии составляют мотопехота, экипажи боевых машин и вспомогательные войска, более чем компенсирует достаточно незначительное снижение его характеристик в сравнении с винтовкой.",
-          "en": "An assault rifle developed in the USA based on the M16A2, first intended for use by armed crews of combat vehicles and technical crews. In the present day, the entire US army is switching over to use the M4A1. The increased ease of use of a shorted carbine in modern conditions, when the majority of the army is made up of mechanized infantry, crews of combat vehicles and auxiliary troops, more than makes up for the fairly insignificant reduction in stats compared to a regular rifle.",
+          "en": "A compact assault rifle developed in the USA based on the M16A2. It was originally intended for combat vehicle crews and operators of technical equipment. In time, however, as mechanized infantry and auxiliary troops came to make up the majority of the armed forces, the M4A1 was adopted almost universally by the US Army, the carbine\u0027s convenience far outweighing its modest drop in stats compared to a full-length rifle.",
           "es": "Un fusil de asalto desarrollado en EE. UU. y basado en el M16A2. Inicialmente estaba destinado a las tripulaciones armadas de vehículos de combate y a los equipos técnicos. En la actualidad, todo el ejército de EE. UU. está pasando a utilizar el M4A1. La mayor facilidad de uso de una carabina corta en las condiciones modernas, cuando la mayoría del ejército está formado por infantería mecanizada, tripulaciones de vehículos de combate y tropas auxiliares, compensa con creces la reducción bastante insignificante de atributos en comparación con un fusil normal.",
           "fr": "Fusil d\u0027assaut développé aux États-Unis sur la base du M16A2, d\u0027abord destiné aux équipages armés des véhicules de combat et aux équipes techniques. À l\u0027heure actuelle, l\u0027ensemble de l\u0027armée américaine est en train de passer au M4A1. La plus grande facilité d\u0027utilisation d\u0027une carabine à canon court dans les conditions modernes, lorsque la majorité de l\u0027armée est composée d\u0027infanterie mécanisée, d\u0027équipages de véhicules de combat et de troupes auxiliaires, compense largement la réduction assez insignifiante des caractéristiques par rapport à un fusil ordinaire.",
           "ko": "미국에서 M16A2를 바탕으로 개발된 돌격 소총으로, 처음에는 전투 차량의 무장 승무원과 기술 승무원용으로 의도되었다. 현재는 전 미군이 M4A1로 전환 중이다. 기계화 보병, 전투 차량 승무원 및 보조 군대로 구성된 군대의 대부분이 현대적 조건에서 단축된 카빈 소총의 사용 편의성이 일반 소총에 비해 약간 감소한 통계치를 충분히 상쇄해 준다."

@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -4.000002,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-4%",
+              "en": "-4%",
+              "es": "-4 %",
+              "fr": "-4%",
+              "ko": "-4%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -313,7 +313,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 180.0,
@@ -340,7 +340,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 500.0,
@@ -391,7 +391,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -418,7 +418,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l\u0027arme",
               "ko": "무기 인체공학"
@@ -505,14 +505,14 @@
               "ko": "수직 반동"
             }
           },
-          "value": 0.9,
+          "value": 0.7,
           "formatted": {
             "value": {
-              "ru": "0,9°",
-              "en": "0.9°",
-              "es": "0,9°",
-              "fr": "0,9°",
-              "ko": "0.9°"
+              "ru": "0,7°",
+              "en": "0.7°",
+              "es": "0,7°",
+              "fr": "0,7°",
+              "ko": "0.7°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -756,7 +756,7 @@
             },
             "lines": {
               "ru": "Перегрев через 46 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 46 shots of continuous fire",
+              "en": "Overheats after 46 consecutive shots",
               "es": "Se sobrecalienta tras 46 disparos de fuego continuo",
               "fr": "Surchauffe après 46 coups en feu continu",
               "ko": "46발 연속 발포 후 과열"
@@ -800,7 +800,7 @@
     {
       "type": "damage",
       "startDamage": 38.056095,
-      "damageDecreaseStart": 30.0,
+      "damageDecreaseStart": 40.0,
       "endDamage": 38.056095,
       "damageDecreaseEnd": 80.0,
       "maxDistance": 180.0
