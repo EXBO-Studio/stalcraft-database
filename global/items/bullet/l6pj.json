@@ -1,0 +1,311 @@
+{
+  "id": "l6pj",
+  "category": "bullet",
+  "name": {
+    "type": "translation",
+    "key": "item.amm.545test3.name",
+    "args": {},
+    "lines": {
+      "ru": "Патрон 5.45 мм экспансивный",
+      "en": "5.45 mm Expanding Round",
+      "es": "Munición expansiva de 5,45 mm",
+      "fr": "Cartouche Dum-dum de 5,45 mm",
+      "ko": "5.45mm 확산탄"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.bullet",
+            "args": {},
+            "lines": {
+              "ru": "Патроны",
+              "en": "Rounds",
+              "es": "Munición",
+              "fr": "Munitions",
+              "ko": "탄약"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.0125,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.bullet_type.default",
+            "args": {},
+            "lines": {
+              "ru": "Стандартный патрон",
+              "en": "Standard Round",
+              "es": "Munición estándar",
+              "fr": "Cartouche standard",
+              "ko": "통상탄"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.high_penetration",
+            "args": {},
+            "lines": {
+              "ru": "Высокая пробиваемость",
+              "en": "High penetration",
+              "es": "Penetración alta",
+              "fr": "Forte pénétration",
+              "ko": "높은 관통력"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño",
+              "fr": "Dégâts",
+              "ko": "피해"
+            }
+          },
+          "value": 30.999994,
+          "formatted": {
+            "value": {
+              "ru": "+31%",
+              "en": "+31%",
+              "es": "+31 %",
+              "fr": "+31%",
+              "ko": "+31%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойность",
+              "en": "Armor-penetration",
+              "es": "Perforante",
+              "fr": "Pénétration d\u0027armure",
+              "ko": "방어구 관통력"
+            }
+          },
+          "value": -12.0,
+          "formatted": {
+            "value": {
+              "ru": "-12%",
+              "en": "-12%",
+              "es": "-12 %",
+              "fr": "-12%",
+              "ko": "-12%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": 17.5,
+          "formatted": {
+            "value": {
+              "ru": "+17,5%",
+              "en": "+17.5%",
+              "es": "+17,5 %",
+              "fr": "+17,5%",
+              "ko": "+17.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power",
+              "es": "Poder de parada",
+              "fr": "Pouvoir d\u0027arrêt",
+              "ko": "저지력"
+            }
+          },
+          "value": 79.0,
+          "formatted": {
+            "value": {
+              "ru": "+79",
+              "en": "+79",
+              "es": "+79",
+              "fr": "+79",
+              "ko": "+79"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.limbs_damage_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Модификатор урона по конечностям",
+              "en": "Limb damage modifier",
+              "es": "Modificador de daño en extremidades",
+              "fr": "Modificateur des dégâts aux membres",
+              "ko": "사지 피해 보정치"
+            }
+          },
+          "value": 39.999996,
+          "formatted": {
+            "value": {
+              "ru": "+40%",
+              "en": "+40%",
+              "es": "+40 %",
+              "fr": "+40%",
+              "ko": "+40%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.mobs_damage_multiplier",
+            "args": {},
+            "lines": {
+              "ru": "Модификатор урона по мутантам",
+              "en": "Damage modifier on mutants",
+              "es": "Modificador de daño a mutantes",
+              "fr": "Modificateur des dégâts sur les mutants",
+              "ko": "돌연변이에게 입히는 피해 보정치"
+            }
+          },
+          "value": 29.999996,
+          "formatted": {
+            "value": {
+              "ru": "+30%",
+              "en": "+30%",
+              "es": "+30 %",
+              "fr": "+30%",
+              "ko": "+30%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}
