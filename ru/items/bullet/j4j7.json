@@ -1,0 +1,230 @@
+{
+  "id": "j4j7",
+  "category": "bullet",
+  "name": {
+    "type": "translation",
+    "key": "item.amm.545test2.name",
+    "args": {},
+    "lines": {
+      "ru": "Патрон 5.45 мм экспансивный",
+      "en": "5.45 mm Expanding Round",
+      "es": "Munición expansiva de 5,45 mm",
+      "fr": "Cartouche Dum-dum de 5,45 mm",
+      "ko": "5.45mm 확산탄"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "클래스"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.bullet",
+            "args": {},
+            "lines": {
+              "ru": "Патроны",
+              "en": "Rounds",
+              "es": "Munición",
+              "fr": "Munitions",
+              "ko": "탄약"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.0125,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.bullet_type.default",
+            "args": {},
+            "lines": {
+              "ru": "Стандартный патрон",
+              "en": "Standard Round",
+              "es": "Munición estándar",
+              "fr": "Cartouche standard",
+              "ko": "통상탄"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.high_penetration",
+            "args": {},
+            "lines": {
+              "ru": "Высокая пробиваемость",
+              "en": "High penetration",
+              "es": "Penetración alta",
+              "fr": "Forte pénétration",
+              "ko": "높은 관통력"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño",
+              "fr": "Dégâts",
+              "ko": "피해"
+            }
+          },
+          "value": 19.499992,
+          "formatted": {
+            "value": {
+              "ru": "+19,5%",
+              "en": "+19.5%",
+              "es": "+19,5 %",
+              "fr": "+19,5%",
+              "ko": "+19.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": 12.5,
+          "formatted": {
+            "value": {
+              "ru": "+12,5%",
+              "en": "+12.5%",
+              "es": "+12,5 %",
+              "fr": "+12,5%",
+              "ko": "+12.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power",
+              "es": "Poder de parada",
+              "fr": "Pouvoir d\u0027arrêt",
+              "ko": "저지력"
+            }
+          },
+          "value": 52.999996,
+          "formatted": {
+            "value": {
+              "ru": "+53",
+              "en": "+53",
+              "es": "+53",
+              "fr": "+53",
+              "ko": "+53"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}
